@@ -1,0 +1,14 @@
+
+siteTitle = "Blog by John Doe"
+siteDescr = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+
+authorName = "John Doe"
+
+linkTelegram = "telegram:wpioneer"
+linkTwitter  = "https://twitter.com/truewpioneer"
+linkGithub 	 = "https://github.com/wpioneer"
+linkEmail 	 = "a.shelepenok@gmail.com"
+linkRss 	 = "/feed.xml"
+linkVk 		 = "https://vk.com/wpioneer"
+
+linkPrefix = "/gatsby-starters-kit/lumen"
