@@ -1,6 +1,12 @@
 # Lumen
 
-Simple starter for Gatsby.
-Click on images for larger view.
+Gatsby starter for creating a blog
 
-[![](http://i.imgur.com/422y5GV.png)](http://mockupr.com/mu/ktja2092/gatsby-lumen)
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+`gatsby new lumen https://github.com/gatsbylabs/gatsby-lumen-starter`
+
+## Running in development
+`gatsby develop`
+
+![](http://i.imgur.com/422y5GV.png)]
+
