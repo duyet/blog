@@ -21,33 +21,27 @@ module.exports = function(config, env) {
     config.removeLoader('css');
 
     if (is_develop) {
-
       config.loader('css', function(cfg) {
         cfg.test = /\.css/;
         cfg.loaders = ['style', 'css-loader', 'postcss-loader'];
         return cfg
       })
-
       config.loader('postcss', function(cfg) {
         cfg.test = /\.sss/;
         cfg.loaders = ['style', 'css-loader', 'postcss-loader?parser=sugarss'];
         return cfg
       })
-
     } else {
-
       config.loader('css', function(cfg) {
         cfg.test = /\.css/;
         cfg.loader = ExtractTextPlugin.extract(['css-loader', 'postcss-loader']);
         return cfg
       })
-
       config.loader('postcss', function(cfg) {
         cfg.test = /\.sss/;
         cfg.loader = ExtractTextPlugin.extract(['css-loader', 'postcss-loader?parser=sugarss']);
         return cfg
       })
-
     }
     
     config.plugin('extract-css',

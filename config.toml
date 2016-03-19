@@ -4,11 +4,11 @@ siteDescr = "Lorem Ipsum is simply dummy text of the printing and typesetting in
 
 authorName = "John Doe"
 
-linkTelegram = "telegram:wpioneer"
-linkTwitter  = "https://twitter.com/truewpioneer"
-linkGithub 	 = "https://github.com/wpioneer"
-linkEmail 	 = "a.shelepenok@gmail.com"
+linkTelegram = "telegram:#"
+linkTwitter  = "https://twitter.com/#"
+linkGithub 	 = "https://github.com/#"
+linkEmail 	 = "#@gmail.com"
 linkRss 	 = "/feed.xml"
-linkVk 		 = "https://vk.com/wpioneer"
+linkVk 		 = "https://vk.com/#"
 
-linkPrefix = "/gatsby-starters-kit/lumen"
+linkPrefix = "/lumen"
