@@ -1,176 +1,118 @@
 html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
-
 body {
-  margin: 0;
+	margin: 0;
 }
 
 /* HTML5 display definitions
-   ========================================================================== */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary,
-cite,
-code,
-small {
-  display: block;
+	 ========================================================================== */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary, cite, code, small {
+	display: block;
 }
-
-body,
-article,
-section,
-footer,
-header,
-div,
-input,
-nav,
-article ol,
-article ul,
-blockquote,
-figure {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+body, article, section, footer, header, div, input, nav, article ol, article ul, blockquote, figure {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */
+audio, canvas, progress, video {
+	display: inline-block;	/* 1 */
+	vertical-align: baseline;	/* 2 */
 }
-
 audio:not([controls]) {
-  display: none;
-  height: 0;
+	display: none;
+	height: 0;
 }
-
-[hidden],
-template {
-  display: none;
+[hidden], template {
+	display: none;
 }
 
 /* Links
-   ========================================================================== */
+	 ========================================================================== */
 a {
-  background: transparent;
+	background: transparent;
 }
-
-a:active,
-a:hover {
-  outline: 0;
+a:active, a:hover {
+	outline: 0;
 }
 
 /* Text-level semantics
-   ========================================================================== */
+	 ========================================================================== */
 abbr {
-  letter-spacing: 0.1em;
+	letter-spacing: 0.1em;
 }
-
 abbr[title] {
-  border-bottom: 1px dotted;
+	border-bottom: 1px dotted;
 }
-
-b,
-strong {
-  font-weight: bold;
+b, strong {
+	font-weight: bold;
 }
-
 dfn {
-  font-style: italic;
+	font-style: italic;
 }
-
 mark {
-  background: #ff0;
-  color: #000;
+	background: #ff0;
+	color: #000;
 }
-
 small {
-  font-size: 70%;
+	font-size: 70%;
 }
-
-sub,
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+	top: -0.5em;
 }
-
-sup {
-  top: -0.5em;
-}
-
 sub {
-  bottom: -0.25em;
+	bottom: -0.25em;
 }
-
-em,
-i {
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+em, i {
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
 }
 
 /* Embedded content
-   ========================================================================== */
+	 ========================================================================== */
 img {
-  border: 0;
+	border: 0;
 }
-
 svg:not(:root) {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 /* Grouping content
-   ========================================================================== */
+	 ========================================================================== */
 hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
 }
-
 pre {
-  overflow: auto;
+	overflow: auto;
 }
-
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
+code, kbd, pre, samp {
+	font-family: monospace, monospace;
 }
 
 /* Tables
-   ========================================================================== */
+	 ========================================================================== */
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
-
-td,
-th {
-  padding: 0;
+td, th {
+	padding: 0;
 }
 
 /* Images
-   ========================================================================== */
+	 ========================================================================== */
 img {
-  max-width: 100%;
-  display: block;
-  margin: inherit auto;
+	max-width: 100%;
+	display: block;
+	margin: inherit auto;
 }
