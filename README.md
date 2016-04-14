@@ -3,7 +3,7 @@
 Gatsby starter for creating a blog
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new lumen https://github.com/gatsbylabs/gatsby-starter-lumen`
+`gatsby new lumen https://github.com/hb-gatsby/gatsby-starter-lumen`
 
 ## Running in development
 `gatsby develop`
