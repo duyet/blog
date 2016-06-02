@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import { prune, include as includes } from 'underscore.string'
 import find from 'lodash/find'
 
-import './style.sss'
+import './style.css'
 
 class ReadNext extends React.Component {
     render() {

@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router'
-import { link } from 'gatsby-helpers'
+import { prefixLink } from 'gatsby-helpers'
 import { config } from 'config'
 
 import '../static/css/reset.css'
+import '../static/css/base.css'
 import '../static/css/typography.css'
 
 class Template extends React.Component {

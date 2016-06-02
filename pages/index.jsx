@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router'
 import sortBy from 'lodash/sortBy'
-import moment from 'moment';
+import moment from 'moment'
 import DocumentTitle from 'react-document-title'
-import { link } from 'gatsby-helpers'
+import { prefixLink } from 'gatsby-helpers'
 import access from 'safe-access'
 import { config } from 'config'
+
 import BlogPost from '../components/BlogPost'
 import SidebarLeft from '../components/SidebarLeft'
-import BlogContent from '../components/BlogContent'
 
 class BlogIndex extends React.Component {
     render() {
@@ -30,9 +30,9 @@ class BlogIndex extends React.Component {
                       </time>
                       <span style={ {    padding: '5px'} }></span>
                       <span className='blog-category'>{ category }</span>
-                      <h2><Link style={ {    borderBottom: 'none',} } to={ link(page.path) } > { title } </Link></h2>
+                      <h2><Link style={ {    borderBottom: 'none',} } to={ prefixLink(page.path) } > { title } </Link></h2>
                       <p dangerouslySetInnerHTML={ {    __html: description} } />
-                      <Link className='readmore' to={ link(page.path) }> Read
+                      <Link className='readmore' to={ prefixLink(page.path) }> Read
                       </Link>
                     </div>
                 )

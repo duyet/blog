@@ -2,13 +2,11 @@ import React from 'react'
 import moment from 'moment'
 import { RouteHandler, Link } from 'react-router'
 import DocumentTitle from 'react-document-title'
-import { link } from 'gatsby-helpers'
+import { prefixLink } from 'gatsby-helpers'
 import access from 'safe-access'
-import ReadNext from '../ReadNext'
 import { config } from 'config'
-
-import './style.sss'
-
+import ReadNext from '../ReadNext'
+import './style.css'
 import '../../static/css/highlight.css'
 
 class BlogPost extends React.Component {
@@ -17,7 +15,7 @@ class BlogPost extends React.Component {
         const post = route.page.data
         const home = (
         <div>
-          <Link className='gohome' to={ link('/') }> All Articles
+          <Link className='gohome' to={ prefixLink('/') }> All Articles
           </Link>
         </div>
         )
@@ -39,7 +37,7 @@ class BlogPost extends React.Component {
                   <p>
                     { config.siteDescr }
                     <a href={ config.twitter }>
-                      <br></br> <strong>{ config.authorName }</strong> on Twitter</a>
+                      <br></br> <strong>{ config.siteAuthor }</strong> on Twitter</a>
                   </p>
                 </div>
               </div>

@@ -1,13 +1,13 @@
 import React from 'react'
 import moment from 'moment'
 import { RouteHandler, Link } from 'react-router'
-import { link } from 'gatsby-helpers'
+import { prefixLink } from 'gatsby-helpers'
 import DocumentTitle from 'react-document-title'
 import SidebarLeft from '../SidebarLeft'
 import access from 'safe-access'
 import { config } from 'config'
 
-import './style.sss';
+import './style.css';
 
 class BlogPage extends React.Component {
     render() {

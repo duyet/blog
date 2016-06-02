@@ -1,22 +1,34 @@
 import React from 'react'
 import DocumentTitle from 'react-document-title'
-import { link } from 'gatsby-helpers'
+import { prefixLink } from 'gatsby-helpers'
+
+const BUILD_TIME = new Date().getTime()
 
 module.exports = React.createClass({
-    propTypes() {
-        return {
-            title: React.PropTypes.string,
-        }
+    displayName: 'HTML',
+    propTypes: {
+        body: React.PropTypes.string,
     },
     render() {
-        let title = DocumentTitle.rewind()
-        if (this.props.title) {
-            title = this.props.title
-        }
+        const {body, route} = this.props
+        const title = DocumentTitle.rewind()
 
-        let cssLink
+        const font = `
+                          WebFontConfig = {
+                            google: { families: [ 'Roboto:400,500,700:latin,cyrillic' ] }
+                          };
+                          (function() {
+                            var wf = document.createElement('script');
+                            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+                            wf.type = 'text/javascript';
+                            wf.async = 'true';
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(wf, s);
+                          })();
+                      `
+        let css
         if (process.env.NODE_ENV === 'production') {
-            cssLink = <link rel="stylesheet" href={ link('/styles.css') } />
+            css = <style dangerouslySetInnerHTML={ {    __html: require('!raw!postcss!./public/styles.css')} } />
         }
 
         return (
@@ -24,17 +36,16 @@ module.exports = React.createClass({
             <head>
               <meta charSet="utf-8" />
               <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-              <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=5.0" />
               <title>
                 { title }
               </title>
-              <link rel="shortcut icon" href={ this.props.favicon } />
-              <link href='https://fonts.googleapis.com/css?family=Roboto:700|Raleway:600,700|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
-              { cssLink }
             </head>
             <body>
               <div id="react-mount" dangerouslySetInnerHTML={ {    __html: this.props.body} } />
-              <script src={ link('/bundle.js') } />
+              <script dangerouslySetInnerHTML={ {    __html: font} } />
+              { css }
+              <script src={ prefixLink(`/bundle.js?t=${BUILD_TIME}`) } />
             </body>
             </html>
         )
