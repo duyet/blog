@@ -3,11 +3,11 @@
 Gatsby starter for creating a blog
 
 ## Features
-Inline CSS.
-Clean and extensible code.
-Six simple components: SiteSidebar, SiteNav, SiteLinks, SitePost, SitePage, ReadNext.
-[peterramsing/lost](https://github.com/peterramsing/lost) as a base for Grid.
-[matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg) as a base for Typography.
++ Inline CSS.
++ Clean and extensible code.
++ Six simple components: SiteSidebar, SiteNav, SiteLinks, SitePost, SitePage, ReadNext.
++ [peterramsing/lost](https://github.com/peterramsing/lost) as a base for Grid.
++ [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg) as a base for Typography.
 
 ## Installing
 Install this starter (assuming Gatsby is installed) by running from your CLI:
