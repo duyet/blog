@@ -6,11 +6,10 @@ import DocumentTitle from 'react-document-title'
 import { prefixLink } from 'gatsby-helpers'
 import access from 'safe-access'
 import { config } from 'config'
+import SitePost from '../components/SitePost'
+import SiteSidebar from '../components/SiteSidebar'
 
-import BlogPost from '../components/BlogPost'
-import SidebarLeft from '../components/SidebarLeft'
-
-class BlogIndex extends React.Component {
+class SiteIndex extends React.Component {
     render() {
         const pageLinks = []
         // Sort pages.
@@ -42,7 +41,7 @@ class BlogIndex extends React.Component {
         return (
             <DocumentTitle title={ config.siteTitle }>
               <div>
-                <SidebarLeft {...this.props}/>
+                <SiteSidebar {...this.props}/>
                 <div className='content'>
                   <div className='main'>
                     <div className='main-inner'>
@@ -56,8 +55,8 @@ class BlogIndex extends React.Component {
     }
 }
 
-BlogIndex.propTypes = {
+SiteIndex.propTypes = {
     route: React.PropTypes.object,
 }
 
-export default BlogIndex
+export default SiteIndex

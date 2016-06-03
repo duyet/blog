@@ -2,11 +2,11 @@ import React from 'react'
 import { RouteHandler, Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import { config } from 'config'
-import BlogNav from '../BlogNav'
-import BlogSocial from '../BlogSocial'
+import SiteNav from '../SiteNav'
+import SiteLinks from '../SiteLinks'
 import './style.css'
 
-class SidebarLeft extends React.Component {
+class SiteSidebar extends React.Component {
     render() {
         const {location, children} = this.props
         const isHome = location.pathname === prefixLink('/')
@@ -35,9 +35,9 @@ class SidebarLeft extends React.Component {
                   </header>
                 </div>
                 <div className='blog-options'>
-                  <BlogNav {...this.props}/>
+                  <SiteNav {...this.props}/>
                   <footer>
-                    <BlogSocial {...this.props}/>
+                    <SiteLinks {...this.props}/>
                     <p className='copyright'>
                       &copy; All rights reserved.
                     </p>
@@ -49,9 +49,9 @@ class SidebarLeft extends React.Component {
     }
 }
 
-SidebarLeft.propTypes = {
+SiteSidebar.propTypes = {
     children: React.PropTypes.any,
     location: React.PropTypes.object,
 }
 
-export default SidebarLeft
+export default SiteSidebar

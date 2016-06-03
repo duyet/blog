@@ -3,20 +3,19 @@ import moment from 'moment'
 import { RouteHandler, Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import DocumentTitle from 'react-document-title'
-import SidebarLeft from '../SidebarLeft'
 import access from 'safe-access'
 import { config } from 'config'
-
+import SiteSidebar from '../SiteSidebar'
 import './style.css';
 
-class BlogPage extends React.Component {
+class SitePage extends React.Component {
     render() {
         const {route} = this.props
         const post = route.page.data
 
         return (
             <div>
-              <SidebarLeft {...this.props}/>
+              <SiteSidebar {...this.props}/>
               <div className='content'>
                 <div className='main'>
                   <div className='main-inner'>
@@ -34,9 +33,9 @@ class BlogPage extends React.Component {
     }
 }
 
-BlogPage.propTypes = {
+SitePage.propTypes = {
     post: React.PropTypes.object.isRequired,
     pages: React.PropTypes.array,
 }
 
-export default BlogPage
+export default SitePage

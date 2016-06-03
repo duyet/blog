@@ -9,7 +9,7 @@ import ReadNext from '../ReadNext'
 import './style.css'
 import '../../static/css/highlight.css'
 
-class BlogPost extends React.Component {
+class SitePost extends React.Component {
     render() {
         const {route} = this.props
         const post = route.page.data
@@ -46,9 +46,9 @@ class BlogPost extends React.Component {
     }
 }
 
-BlogPost.propTypes = {
+SitePost.propTypes = {
     post: React.PropTypes.object.isRequired,
     pages: React.PropTypes.array,
 }
 
-export default BlogPost
+export default SitePost

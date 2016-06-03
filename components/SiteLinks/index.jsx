@@ -2,11 +2,10 @@ import React from 'react'
 import { RouteHandler, Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import { config } from 'config'
-
 import './style.css'
 import '../../static/fonts/fontawesome/style.css'
 
-class BlogSocial extends React.Component {
+class SiteLinks extends React.Component {
     render() {
 
         return (
@@ -40,4 +39,4 @@ class BlogSocial extends React.Component {
     }
 }
 
-export default BlogSocial
+export default SiteLinks

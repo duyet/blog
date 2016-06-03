@@ -1,10 +1,9 @@
 import React from 'react'
 import { RouteHandler, Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
-
 import './style.css'
 
-class BlogNav extends React.Component {
+class SiteNav extends React.Component {
     render() {
         const {location} = this.props
         return (
@@ -28,8 +27,8 @@ class BlogNav extends React.Component {
     }
 }
 
-BlogNav.propTypes = {
+SiteNav.propTypes = {
     location: React.PropTypes.object,
 }
 
-export default BlogNav
+export default SiteNav
