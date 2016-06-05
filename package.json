@@ -4,6 +4,10 @@
   "description": "Simple starter for Gatsby",
   "main": "n/a",
   "scripts": {
+    "develop": "gatsby develop",
+    "build": "npm run clean & gatsby build",
+    "clean:public": "rm -rf public",
+    "clean": "npm run clean:public",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
