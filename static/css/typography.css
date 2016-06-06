@@ -362,19 +362,15 @@ hr {
 }
 @media screen and (min-width:40em) {
 	hr {
+		background-size: 100% 31px;
+		background-size: 100% 1.722222222222222rem;
+		background-image: linear-gradient(to bottom, transparent 1px, transparent 13.5px, #222 13.5px, #222 17.5px, transparent 17.5px, transparent 31px);
 		margin-top: 62px;
 		margin-top: 3.444444444444445rem;
 		margin-bottom: 62px;
 		margin-bottom: 3.444444444444445rem;
 		height: 31px;
 		height: 1.722222222222222rem;
-	}
-}
-@media screen and (min-width:40em) {
-	hr {
-		background-size: 100% 31px;
-		background-size: 100% 1.722222222222222rem;
-		background-image: linear-gradient(to bottom, transparent 1px, transparent 13.5px, #222 13.5px, #222 17.5px, transparent 17.5px, transparent 31px);
 	}
 }
 img {
