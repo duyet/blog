@@ -1,14 +1,14 @@
 var rucksack = require('rucksack-css')
-var autoprefixer = require('autoprefixer')
 var lost = require("lost")
+var cssnext = require("postcss-cssnext")
 
 exports.modifyWebpackConfig = function(config, env) {
     config.merge({
         postcss: [
             lost(),
             rucksack(),
-            autoprefixer({
-                browsers: ['>1%', 'ie >= 10', 'safari >= 6', 'last 3 versions']
+            cssnext({
+                browsers: ['>1%', 'last 2 versions']
             })
         ]
     })
