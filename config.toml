@@ -9,4 +9,4 @@ siteEmailUrl = "#"
 siteRssUrl = "#"
 siteVkUrl = "#"
 
-linkPrefix = "/lumen"
+linkPrefix = "/gatsby-starter-lumen"
