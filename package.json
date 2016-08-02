@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "gatsby-starter-lumen",
   "description": "Simple starter for Gatsby",
   "main": "n/a",
@@ -30,27 +30,27 @@
     "front-matter": "^2.0.8",
     "gatsby": "^0.12.0",
     "history": "^2.1.1",
-    "lodash": "^4.13.1",
+    "lodash": "^4.14.1",
     "moment": "^2.14.1",
     "markdown-it": "^6.0.2",
-    "react": "^15.2.1",
+    "react": "^15.3.0",
     "react-document-title": "^2.0.2",
-    "react-dom": "^15.2.1",
+    "react-dom": "^15.3.0",
     "react-google-analytics": "^0.2.0",
-    "react-router": "^2.6.0",
+    "react-router": "^2.6.1",
     "safe-access": "^0.1.0",
     "underscore.string": "^3.2.3"
   },
   "devDependencies": {
-    "babel-core": "^6.10.4",
+    "babel-core": "^6.11.4",
     "babel-loader": "^6.2.4",
     "babel-preset-react-hmre": "^1.1.1",
     "css-loader": "^0.23.1",
-    "eslint": "^2.11.1",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-import": "^1.11.0",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-import": "^1.12.0",
     "eslint-plugin-jsx-a11y": "^2.0.1",
-    "eslint-plugin-react": "^5.2.2",
+    "eslint-plugin-react": "^6.0.0",
     "gh-pages": "^0.11.0",
     "image-webpack-loader": "^2.0.0",
     "null-loader": "^0.1.1",
@@ -63,6 +63,6 @@
     "autoprefixer": "^6.3.7",
     "file-loader": "^0.9.0",
     "rucksack-css": "^0.8.5",
-    "lost": "^6.7.2"
+    "lost": "^7.0.3"
   }
 }
