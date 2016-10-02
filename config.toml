@@ -9,4 +9,6 @@ siteEmailUrl = "#"
 siteRssUrl = "#"
 siteVkUrl = "#"
 
+googleAnalyticsId = ""
+
 linkPrefix = "/gatsby-starter-lumen"
