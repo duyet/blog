@@ -1,5 +1,5 @@
 import React from 'react'
-import DocumentTitle from 'react-document-title'
+import Helmet from 'react-helmet'
 import { prefixLink } from 'gatsby-helpers'
 
 const BUILD_TIME = new Date().getTime()
@@ -11,7 +11,7 @@ module.exports = React.createClass({
     },
     render() {
         const {body, route} = this.props
-        const title = DocumentTitle.rewind()
+        const title = Helmet.rewind()
         const font = <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
         let css
         if (process.env.NODE_ENV === 'production') {
