@@ -11,7 +11,7 @@ module.exports = React.createClass({
     },
     render() {
         const {body, route} = this.props
-        const head = Helmet.rewind()
+        const {title} = Helmet.rewind()
         const font = <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
         let css
         if (process.env.NODE_ENV === 'production') {
@@ -24,9 +24,7 @@ module.exports = React.createClass({
               <meta charSet="utf-8" />
               <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
               <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=5.0" />
-              <title>
-                { head.title }
-              </title>
+              { title.toComponent() }
               { font }
               { css }
             </head>
