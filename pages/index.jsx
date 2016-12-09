@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import sortBy from 'lodash/sortBy'
 import moment from 'moment'
-import DocumentTitle from 'react-document-title'
+import Helmet from 'react-helmet'
 import { prefixLink } from 'gatsby-helpers'
 import access from 'safe-access'
 import { config } from 'config'
@@ -39,19 +39,18 @@ class SiteIndex extends React.Component {
         })
 
         return (
-            <DocumentTitle title={ config.siteTitle }>
-              <div>
-                <SiteSidebar {...this.props}/>
-                <div className='content'>
-                  <div className='main'>
-                    <div className='main-inner'>
-                      { pageLinks }
-                    </div>
+            <div>
+              <Helmet title={ config.siteTitle }/>
+              <SiteSidebar {...this.props}/>
+              <div className='content'>
+                <div className='main'>
+                  <div className='main-inner'>
+                    { pageLinks }
                   </div>
                 </div>
               </div>
-            </DocumentTitle>
-        )
+            </div>
+              )
     }
 }
 
