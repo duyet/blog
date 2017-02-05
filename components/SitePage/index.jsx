@@ -33,8 +33,7 @@ class SitePage extends React.Component {
 }
 
 SitePage.propTypes = {
-    post: React.PropTypes.object.isRequired,
-    pages: React.PropTypes.array,
+    route: React.PropTypes.object.isRequired,
 }
 
 export default SitePage
