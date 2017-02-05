@@ -4,8 +4,8 @@ import { prefixLink } from 'gatsby-helpers'
 import { config } from 'config'
 
 import '../static/css/reset.css'
-import '../static/css/base.css'
 import '../static/css/typography.css'
+import '../static/css/base.css'
 
 class Template extends React.Component {
     render() {

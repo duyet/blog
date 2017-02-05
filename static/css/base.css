@@ -1,3 +1,12 @@
+a {
+	color: #5d93ff;
+}
+
+a:hover,
+a:focus {
+	color: #f7a046;
+}
+
 .wrapper {
 	lost-center: 1070px;
 }

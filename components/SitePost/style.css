@@ -9,7 +9,11 @@
 	line-height: 30px;
 	margin-bottom: 20px;
 }
-.blog-post h2 a:hover {
+.blog-post h2 a {
+	color: #222;
+}
+.blog-post h2 a:hover,
+.blog-post h2 a:focus {
 	border-bottom: 1px solid;
 }
 .blog-post p {

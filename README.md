@@ -1,13 +1,11 @@
 # Lumen
 
-Gatsby starter for creating a blog
+[Gatsby](https://github.com/gatsbyjs/gatsby) starter for creating a blog.
 
 ## Features
-+ Inline CSS.
 + Clean and extensible code.
-+ Six simple components: SiteSidebar, SiteNav, SiteLinks, SitePost, SitePage, ReadNext.
-+ [peterramsing/lost](https://github.com/peterramsing/lost) as a base for Grid.
-+ [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg) as a base for Typography.
++ Lost Grid ([peterramsing/lost](https://github.com/peterramsing/lost)).
++ Beautiful Typography ([matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg)).
 
 ## Installing
 Install this starter (assuming Gatsby is installed) by running from your CLI:
@@ -25,7 +23,7 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2016
+Copyright (c) 2016-2017 Alexander Shelepenok
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

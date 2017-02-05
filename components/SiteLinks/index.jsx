@@ -9,7 +9,7 @@ class SiteLinks extends React.Component {
     render () {
 
       return (
-        <div className="blog-social">
+        <div className="blog-links">
           <ul>
             {config.siteTwitterUrl && (
               <li>
