@@ -17,7 +17,7 @@ class SiteSidebar extends React.Component {
       <header>
         <Link style={{ textDecoration: 'none', borderBottom: 'none', outline: 'none' }} to={prefixLink('/')}>
           <img
-            src={prefixLink(profilePic)}
+            src={profilePic}
             width="75" height="75"
             alt="Profile picture of the author"
           />
@@ -61,3 +61,4 @@ SiteSidebar.propTypes = {
 };
 
 export default SiteSidebar;
+
