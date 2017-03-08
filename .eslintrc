@@ -10,6 +10,7 @@
         "react/jsx-filename-extension": [0],
         "react/prefer-es6-class": [0],
         "react/prefer-stateless-function": [0],
+        "react/forbid-prop-types": [0],
         /* to allow importing 'gatsby-helpers' */
         "import/no-extraneous-dependencies": [0],
         "import/no-unresolved": [0],

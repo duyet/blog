@@ -28,7 +28,7 @@ class MarkdownWrapper extends React.Component {
 }
 
 MarkdownWrapper.propTypes = {
-  route: React.PropTypes.object, // eslint-disable-line react/forbid-prop-types
+  route: React.PropTypes.object,
 };
 
 export default MarkdownWrapper;
