@@ -14,12 +14,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build --prefix-links && gh-pages -d public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git"
+  },
   "keywords": [
     "gatsby",
     "blog",
     "react"
   ],
-  "author": "Alexander Shelepenok <a.shelepenok@gmail.com>",
+  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
