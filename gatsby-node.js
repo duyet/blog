@@ -19,7 +19,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     {
       allMarkdownRemark(
         limit: 1000,
-        filter: { frontmatter: { layout: { eq: "post" }, draft: { ne: true } } },
+        filter: { frontmatter: { draft: { ne: true } } },
       ) {
         edges {
           node {
@@ -28,6 +28,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             }
             frontmatter {
               tags
+              layout
               category
             }
           }
@@ -42,88 +43,57 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       }
 
       _.each(result.data.allMarkdownRemark.edges, (edge) => {
-        createPage({
-          path: edge.node.fields.slug,
-          component: slash(postTemplate),
-          context: {
-            slug: edge.node.fields.slug
-          }
-        });
-      });
-
-      let tags = [];
-      _.each(result.data.allMarkdownRemark.edges, (edge) => {
-        if (_.get(edge, 'node.frontmatter.tags')) {
-          tags = tags.concat(edge.node.frontmatter.tags);
-        }
-      });
-      tags = _.uniq(tags);
-      _.each(tags, (tag) => {
-        const tagPath = `/tags/${_.kebabCase(tag)}/`;
-        createPage({
-          path: tagPath,
-          component: tagTemplate,
-          context: {
-            tag
-          }
-        });
-      });
-
-      let categories = [];
-      _.each(result.data.allMarkdownRemark.edges, (edge) => {
-        if (_.get(edge, 'node.frontmatter.category')) {
-          categories = categories.concat(edge.node.frontmatter.category);
-        }
-      });
-      categories = _.uniq(categories);
-      _.each(categories, (category) => {
-        const categoryPath = `/categories/${_.kebabCase(category)}/`;
-        createPage({
-          path: categoryPath,
-          component: categoryTemplate,
-          context: {
-            category
-          }
-        });
-      });
-
-      resolve();
-    });
-
-    graphql(
-      `
-    {
-      allMarkdownRemark(
-        limit: 1000,
-        filter: { frontmatter: { layout: { eq: "page" }, draft: { ne: true } } },
-      ) {
-        edges {
-          node {
-            fields {
-              slug
+        if (_.get(edge, 'node.frontmatter.layout') === 'page') {
+          createPage({
+            path: edge.node.fields.slug,
+            component: slash(pageTemplate),
+            context: {
+              slug: edge.node.fields.slug
             }
-            frontmatter {
-              path
+          });
+        } else if (_.get(edge, 'node.frontmatter.layout') === 'post') {
+          createPage({
+            path: edge.node.fields.slug,
+            component: slash(postTemplate),
+            context: {
+              slug: edge.node.fields.slug
             }
-          }
-        }
-      }
-    }
-  `
-    ).then((result) => {
-      if (result.errors) {
-        console.log(result.errors);
-        reject(result.errors);
-      }
+          });
 
-      _.each(result.data.allMarkdownRemark.edges, (edge) => {
-        createPage({
-          path: edge.node.fields.slug,
-          component: slash(pageTemplate),
-          context: {
-            slug: edge.node.fields.slug
+          let tags = [];
+          if (_.get(edge, 'node.frontmatter.tags')) {
+            tags = tags.concat(edge.node.frontmatter.tags);
           }
-        });
+
+          tags = _.uniq(tags);
+          _.each(tags, (tag) => {
+            const tagPath = `/tags/${_.kebabCase(tag)}/`;
+            createPage({
+              path: tagPath,
+              component: tagTemplate,
+              context: {
+                tag
+              }
+            });
+          });
+
+          let categories = [];
+          if (_.get(edge, 'node.frontmatter.category')) {
+            categories = categories.concat(edge.node.frontmatter.category);
+          }
+
+          categories = _.uniq(categories);
+          _.each(categories, (category) => {
+            const categoryPath = `/categories/${_.kebabCase(category)}/`;
+            createPage({
+              path: categoryPath,
+              component: categoryTemplate,
+              context: {
+                category
+              }
+            });
+          });
+        }
       });
 
       resolve();
