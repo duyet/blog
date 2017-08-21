@@ -1,6 +1,10 @@
 engines:
   eslint:
     enabled: true
+    channel: "eslint-3"
+    config:
+      ignore_warnings: true
+      config: .eslintrc
   stylelint:
     enabled: true
   duplication:
