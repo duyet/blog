@@ -15,7 +15,7 @@ engines:
     config:
       languages:
         javascript:
-          mass_threshold: 70
+          mass_threshold: 75
 
 ratings:
    paths:
