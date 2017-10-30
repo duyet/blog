@@ -123,7 +123,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
       value: slug
     });
 
-    if (typeof node.frontmatter.tags !== 'undefined') {
+    if (node.frontmatter.tags) {
       const tagSlugs = node.frontmatter.tags.map(
         tag => `/tags/${_.kebabCase(tag)}/`
       );
