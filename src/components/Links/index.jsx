@@ -19,17 +19,17 @@ class Links extends React.Component {
       <div className="links">
         <ul className="links__list">
           <li className="links__list-item">
-            <a href={links.twitter}>
+            <a href={ `https://www.twitter.com/${links.twitter}` } target="_blank" >
               <i className="icon-twitter" />
             </a>
           </li>
           <li className="links__list-item">
-            <a href={links.github}>
+            <a href={ `https://www.github.com/${links.github}` } target="_blank" >
               <i className="icon-github" />
             </a>
           </li>
           <li className="links__list-item">
-            <a href={links.vk}>
+            <a href={ `https://www.vk.com/${links.vk}`} target="_blank" >
               <i className="icon-vkontakte" />
             </a>
           </li>
