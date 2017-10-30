@@ -16,6 +16,7 @@ Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses
 + Automatic Sitemap generation.
 + Offline support.
 + Google Analytics support.
++ Disqus Comments support.
 
 ## Folder Structure
 
@@ -32,6 +33,7 @@ Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses
     │       └── pages
     ├── components
     │   ├── CategoryTemplateDetails
+    │   ├── Disqus
     │   ├── Links
     │   ├── Menu
     │   ├── PageTemplateDetails
@@ -76,9 +78,9 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 :---: |:---: |:---: |:---: |:---: |:---: |
 [alxshelepenok](https://github.com/alxshelepenok) |[abisz](https://github.com/abisz) |[ihororlovskyi](https://github.com/ihororlovskyi) |[vinnymac](https://github.com/vinnymac) |[axelclark](https://github.com/axelclark) |[concreted](https://github.com/concreted) |
 
-[<img alt="charandas" src="https://avatars2.githubusercontent.com/u/542168?v=4&s=117" width="117">](https://github.com/charandas) |[<img alt="zollillo" src="https://avatars3.githubusercontent.com/u/8833904?v=4&s=117" width="117">](https://github.com/zollillo) |[<img alt="swapnilmishra" src="https://avatars2.githubusercontent.com/u/875450?v=4&s=117" width="117">](https://github.com/swapnilmishra) |
-:---: |:---: |:---: |
-[charandas](https://github.com/charandas) |[zollillo](https://github.com/zollillo) |[swapnilmishra](https://github.com/swapnilmishra) |
+[<img alt="charandas" src="https://avatars2.githubusercontent.com/u/542168?v=4&s=117" width="117">](https://github.com/charandas) |[<img alt="zollillo" src="https://avatars3.githubusercontent.com/u/8833904?v=4&s=117" width="117">](https://github.com/zollillo) |[<img alt="swapnilmishra" src="https://avatars2.githubusercontent.com/u/875450?v=4&s=117" width="117">](https://github.com/swapnilmishra) |[<img alt="marcelabomfim" src="https://avatars1.githubusercontent.com/u/6224547?v=4&s=117" width="117">](https://github.com/marcelabomfim) |
+:---: |:---: |:---: |:---: |
+[charandas](https://github.com/charandas) |[zollillo](https://github.com/zollillo) |[swapnilmishra](https://github.com/swapnilmishra) |[marcelabomfim](https://github.com/marcelabomfim) |
 
 
 ## License
