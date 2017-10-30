@@ -24,7 +24,7 @@
   "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "gatsby": "^1.9.73",
+    "gatsby": "^1.9.82",
     "gatsby-link": "^1.6.22",
     "gatsby-plugin-catch-links": "^1.0.5",
     "gatsby-plugin-feed": "^1.3.11",
