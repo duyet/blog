@@ -120,6 +120,12 @@ module.exports = {
       options: { trackingId: '' }
     },
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`roboto\:400,400i,500,700`]
+      }
+    },
+    {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         query: `

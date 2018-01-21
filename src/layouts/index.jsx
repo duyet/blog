@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import 'typeface-roboto';
 import '../assets/scss/init.scss';
 
 class Layout extends React.Component {
