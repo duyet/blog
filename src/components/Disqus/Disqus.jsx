@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import ReactDisqusComments from 'react-disqus-comments';
 import config from '../../../gatsby-config';
 
 class Disqus extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      toasts: []
-    };
+    this.state = { toasts: [] };
     this.notifyAboutComment = this.notifyAboutComment.bind(this);
     this.onSnackbarDismiss = this.onSnackbarDismiss.bind(this);
   }
@@ -41,9 +38,5 @@ class Disqus extends Component {
     );
   }
 }
-
-Disqus.propTypes = {
-  postNode: PropTypes.object.isRequired
-};
 
 export default Disqus;

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import PageTemplateDetails from '../components/PageTemplateDetails';
 
@@ -7,18 +6,13 @@ class PageTemplate extends React.Component {
   render() {
     const { title, subtitle } = this.props.data.site.siteMetadata;
     const page = this.props.data.markdownRemark;
-
-    let description;
-    if (page.frontmatter.description !== null) {
-      description = page.frontmatter.description;
-    } else {
-      description = subtitle;
-    }
+    const { title: pageTitle, description: pageDescription } = page.frontmatter;
+    const description = pageDescription !== null ? pageDescription : subtitle;
 
     return (
       <div>
         <Helmet>
-          <title>{`${page.frontmatter.title} - ${title}`}</title>
+          <title>{`${pageTitle} - ${title}`}</title>
           <meta name="description" content={description} />
         </Helmet>
         <PageTemplateDetails {...this.props} />
@@ -26,18 +20,6 @@ class PageTemplate extends React.Component {
     );
   }
 }
-
-PageTemplate.propTypes = {
-  data: PropTypes.shape({
-    site: PropTypes.shape({
-      siteMetadata: PropTypes.shape({
-        title: PropTypes.string.isRequired,
-        subtitle: PropTypes.string.isRequired
-      })
-    }),
-    markdownRemark: PropTypes.object.isRequired
-  })
-};
 
 export default PageTemplate;
 

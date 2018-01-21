@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import moment from 'moment';
 import Disqus from '../Disqus/Disqus';
@@ -20,13 +19,13 @@ class PostTemplateDetails extends React.Component {
     const tagsBlock = (
       <div className="post-single__tags">
         <ul className="post-single__tags-list">
-          {tags && tags.map((tag, i) =>
+          {tags && tags.map((tag, i) => (
             <li className="post-single__tags-list-item" key={tag}>
               <Link to={tag} className="post-single__tags-list-item-link">
                 {post.frontmatter.tags[i]}
               </Link>
             </li>
-          )}
+          ))}
         </ul>
       </div>
     );
@@ -64,17 +63,5 @@ class PostTemplateDetails extends React.Component {
     );
   }
 }
-
-PostTemplateDetails.propTypes = {
-  data: PropTypes.shape({
-    site: PropTypes.shape({
-      siteMetadata: PropTypes.shape({
-        subtitle: PropTypes.string.isRequired,
-        author: PropTypes.object.isRequired
-      })
-    }),
-    markdownRemark: PropTypes.object.isRequired
-  })
-};
 
 export default PostTemplateDetails;

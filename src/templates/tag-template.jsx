@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Sidebar from '../components/Sidebar';
 import TagTemplateDetails from '../components/TagTemplateDetails';
@@ -18,19 +17,6 @@ class TagTemplate extends React.Component {
     );
   }
 }
-
-TagTemplate.propTypes = {
-  data: PropTypes.shape({
-    site: PropTypes.shape({
-      siteMetadata: PropTypes.shape({
-        title: PropTypes.string.isRequired
-      })
-    })
-  }),
-  pathContext: PropTypes.shape({
-    tag: PropTypes.string.isRequired
-  })
-};
 
 export default TagTemplate;
 

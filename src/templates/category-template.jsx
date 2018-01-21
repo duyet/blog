@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Sidebar from '../components/Sidebar';
 import CategoryTemplateDetails from '../components/CategoryTemplateDetails';
@@ -18,19 +17,6 @@ class CategoryTemplate extends React.Component {
     );
   }
 }
-
-CategoryTemplate.propTypes = {
-  data: PropTypes.shape({
-    site: PropTypes.shape({
-      siteMetadata: PropTypes.shape({
-        title: PropTypes.string.isRequired
-      })
-    })
-  }),
-  pathContext: PropTypes.shape({
-    category: PropTypes.string.isRequired
-  })
-};
 
 export default CategoryTemplate;
 

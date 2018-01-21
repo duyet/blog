@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    url: 'https://alxshelepenok.github.com/gatsby-starter-lumen',
+    url: 'https://lumen.netlify.com/',
     title: 'Blog by John Doe',
     subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     copyright: '© All rights reserved.',
@@ -61,8 +61,7 @@ module.exports = {
                   url: site.siteMetadata.url + edge.node.fields.slug,
                   guid: site.siteMetadata.url + edge.node.fields.slug,
                   custom_elements: [{ 'content:encoded': edge.node.html }]
-                })
-              )
+                }))
             ),
             query: `
               {
@@ -101,15 +100,12 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 960,
-              linkImagesToOriginal: false
+              maxWidth: 960
             }
           },
           {
             resolve: 'gatsby-remark-responsive-iframe',
-            options: {
-              wrapperStyle: 'margin-bottom: 1.0725rem'
-            }
+            options: { wrapperStyle: 'margin-bottom: 1.0725rem' }
           },
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
@@ -121,9 +117,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: ''
-      }
+      options: { trackingId: '' }
     },
     {
       resolve: 'gatsby-plugin-sitemap',
