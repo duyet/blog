@@ -78,13 +78,14 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 :---: |:---: |:---: |:---: |:---: |:---: |
 [alxshelepenok](https://github.com/alxshelepenok) |[abisz](https://github.com/abisz) |[ihororlovskyi](https://github.com/ihororlovskyi) |[marcelabomfim](https://github.com/marcelabomfim) |[vinnymac](https://github.com/vinnymac) |[axelclark](https://github.com/axelclark) |
 
-[<img alt="ybbarng" src="https://avatars2.githubusercontent.com/u/1793950?v=4&s=117" width="117">](https://github.com/ybbarng) |[<img alt="charandas" src="https://avatars2.githubusercontent.com/u/542168?v=4&s=117" width="117">](https://github.com/charandas) |[<img alt="zollillo" src="https://avatars3.githubusercontent.com/u/8833904?v=4&s=117" width="117">](https://github.com/zollillo) |[<img alt="codejet" src="https://avatars3.githubusercontent.com/u/802203?v=4&s=117" width="117">](https://github.com/codejet) |[<img alt="swapnilmishra" src="https://avatars2.githubusercontent.com/u/875450?v=4&s=117" width="117">](https://github.com/swapnilmishra) |[<img alt="wichopy" src="https://avatars2.githubusercontent.com/u/24414632?v=4&s=117" width="117">](https://github.com/wichopy) |
+[<img alt="concreted" src="https://avatars2.githubusercontent.com/u/4016897?v=4&s=117" width="117">](https://github.com/concreted) |[<img alt="ybbarng" src="https://avatars2.githubusercontent.com/u/1793950?v=4&s=117" width="117">](https://github.com/ybbarng) |[<img alt="zollillo" src="https://avatars3.githubusercontent.com/u/8833904?v=4&s=117" width="117">](https://github.com/zollillo) |[<img alt="marktani" src="https://avatars1.githubusercontent.com/u/1780597?v=4&s=117" width="117">](https://github.com/marktani) |[<img alt="codejet" src="https://avatars3.githubusercontent.com/u/802203?v=4&s=117" width="117">](https://github.com/codejet) |[<img alt="swapnilmishra" src="https://avatars2.githubusercontent.com/u/875450?v=4&s=117" width="117">](https://github.com/swapnilmishra) |
 :---: |:---: |:---: |:---: |:---: |:---: |
-[ybbarng](https://github.com/ybbarng) |[charandas](https://github.com/charandas) |[zollillo](https://github.com/zollillo) |[codejet](https://github.com/codejet) |[swapnilmishra](https://github.com/swapnilmishra) |[wichopy](https://github.com/wichopy) |
+[concreted](https://github.com/concreted) |[ybbarng](https://github.com/ybbarng) |[zollillo](https://github.com/zollillo) |[marktani](https://github.com/marktani) |[codejet](https://github.com/codejet) |[swapnilmishra](https://github.com/swapnilmishra) |
 
-[<img alt="concreted" src="https://avatars2.githubusercontent.com/u/4016897?v=4&s=117" width="117">](https://github.com/concreted) |
-:---: |
-[concreted](https://github.com/concreted) |
+[<img alt="wichopy" src="https://avatars2.githubusercontent.com/u/24414632?v=4&s=117" width="117">](https://github.com/wichopy) |[<img alt="charandas" src="https://avatars2.githubusercontent.com/u/542168?v=4&s=117" width="117">](https://github.com/charandas) |
+:---: |:---: |
+[wichopy](https://github.com/wichopy) |[charandas](https://github.com/charandas) |
+
 
 ## License
 The MIT License (MIT)
