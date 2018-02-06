@@ -34,6 +34,8 @@ export const pageQuery = graphql`
           name
           twitter
         }
+        disqusShortname
+        url
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

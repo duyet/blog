@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDisqusComments from 'react-disqus-comments';
-import config from '../../../gatsby-config';
 
 class Disqus extends Component {
   constructor(props) {
@@ -20,15 +19,15 @@ class Disqus extends Component {
     this.setState({ toasts });
   }
   render() {
-    const { postNode } = this.props;
-    if (!config.siteMetadata.disqusShortname) {
+    const { postNode, siteMetadata } = this.props;
+    if (!siteMetadata.disqusShortname) {
       return null;
     }
     const post = postNode.frontmatter;
-    const url = config.siteMetadata.url + postNode.fields.slug;
+    const url = siteMetadata.url + postNode.fields.slug;
     return (
       <ReactDisqusComments
-        shortname={config.siteMetadata.disqusShortname}
+        shortname={siteMetadata.disqusShortname}
         identifier={post.title}
         title={post.title}
         url={url}

@@ -32,7 +32,7 @@ class PostTemplateDetails extends React.Component {
 
     const commentsBlock = (
       <div>
-        <Disqus postNode={post} />
+        <Disqus postNode={post} siteMetadata={this.props.data.site.siteMetadata} />
       </div>
     );
 
