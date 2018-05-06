@@ -7,7 +7,7 @@ class CategoryTemplate extends React.Component {
   render() {
     const title = this.props.data.site.siteMetadata.title;
     const category = this.props.pathContext.category;
-    const posts = this.props.data.allMarkdownRemark.edges
+    const posts = this.props.data.allMarkdownRemark.edges;
 
     return (
       <div>

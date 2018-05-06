@@ -19,7 +19,7 @@ class Disqus extends Component {
     this.setState({ toasts });
   }
   render() {
-    const { postNode, shortName, url:siteUrl } = this.props;
+    const { postNode, shortName, url: siteUrl } = this.props;
     const post = postNode.frontmatter;
     const url = siteUrl + postNode.fields.slug;
     return (

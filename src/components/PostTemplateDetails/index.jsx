@@ -32,7 +32,7 @@ class PostTemplateDetails extends React.Component {
 
     const commentsBlock = (
       <div>
-        <Disqus postNode={post} shortName={disqusShortname} url={url}/>
+        <Disqus postNode={post} shortName={disqusShortname} url={url} />
       </div>
     );
 
