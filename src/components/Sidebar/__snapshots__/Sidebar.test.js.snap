@@ -17,7 +17,7 @@ exports[`Sidebar renders correctly 1`] = `
           alt="name"
           className="author__photo"
           height="75"
-          src="file"
+          src="/photo.jpg"
           width="75"
         />
       </Link>
