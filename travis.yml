@@ -3,6 +3,9 @@ os:
   - linux
   - osx
 
+install:
+  - npm install -g codecov
+
 node_js:
   - '8'
   - '9'
@@ -13,6 +16,7 @@ script:
   - yarn lint:all
   - yarn test:coverage --runInBand --no-cache
   - yarn test --runInBand --no-cache
+  - codecov
 
 cache:
   directories:
