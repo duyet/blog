@@ -1,0 +1,47 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.contacts {
+  @include margin-bottom(1);
+
+  &__list {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    list-style: none;
+    padding: 0;
+    margin: 10px -3px;
+    width: 104px;
+
+    &-item {
+      padding: 0;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      margin: 3px;
+      height: 28px;
+      width: 28px;
+      line-height: 28px;
+      border-radius: 50%;
+      text-align: center;
+      background: $color-gray-bg;
+
+      &-link {
+        border: 0;
+        display: flex;
+        color: lighten($color-base, 20%);
+  
+        &:hover,
+        &:focus {
+          color: $color-base;
+        }
+
+      }
+
+    }
+
+  }
+
+}

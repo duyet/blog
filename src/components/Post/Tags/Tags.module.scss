@@ -1,0 +1,38 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.tags {
+  @include margin-bottom(.5);
+
+  &__list {
+    list-style: none;
+    margin: 0 -10px;
+    padding: 0;
+
+    &-item {
+      display: inline-block;
+      margin: 10px 5px;
+
+      &-link {
+        background: $color-gray-bg;
+        text-decoration: none;
+        border: 0;
+        border-radius: 3px;
+        color: lighten($color-base, 20%);
+        line-height: $typographic-base-line-height;
+        padding: 8px 16px;
+
+        &:hover,
+        &:focus {
+          color: $color-base;
+          background: darken($color-gray-bg, 5%);
+          border: 0;
+        }
+
+      }
+
+    }
+
+  }
+
+}
