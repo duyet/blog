@@ -1,13 +1,12 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import profilePic from '../../../pages/photo.jpg';
+import { withPrefix, Link } from 'gatsby';
 import styles from './Author.module.scss';
 
 const Author = ({ author, isIndex }) => (
   <div className={styles['author']}>
     <Link to="/">
       <img
-        src={profilePic}
+        src={withPrefix(author.photo)}
         className={styles['author__photo']}
         width="75"
         height="75"
