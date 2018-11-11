@@ -65,7 +65,7 @@ jobs:
     
 workflows:
   version: 2
-  build_test:
+  test:
     jobs:
       - install
       - lint:
