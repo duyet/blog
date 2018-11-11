@@ -24,7 +24,7 @@ exports[`TagsListTemplate renders correctly 1`] = `
         <ul>
           <li>
             <Link
-              to="/tags/test-0/"
+              to="/tag/test-0/"
             >
               test_0
                (
@@ -34,7 +34,7 @@ exports[`TagsListTemplate renders correctly 1`] = `
           </li>
           <li>
             <Link
-              to="/tags/test-1/"
+              to="/tag/test-1/"
             >
               test_1
                (

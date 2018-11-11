@@ -24,7 +24,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
         <ul>
           <li>
             <Link
-              to="/categories/test-0/"
+              to="/category/test-0/"
             >
               test_0
                (
@@ -34,7 +34,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
           </li>
           <li>
             <Link
-              to="/categories/test-1/"
+              to="/category/test-1/"
             >
               test_1
                (
