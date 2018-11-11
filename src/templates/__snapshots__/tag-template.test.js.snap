@@ -121,6 +121,30 @@ exports[`TagTemplate renders correctly 1`] = `
             </Link>
           </div>
         </div>
+        <div
+          className="pagination"
+        >
+          <div
+            className="pagination__prev"
+          >
+            <Link
+              className="pagination__prev-link"
+              to="/page/1"
+            >
+              ← PREV
+            </Link>
+          </div>
+          <div
+            className="pagination__next"
+          >
+            <Link
+              className="pagination__next-link"
+              to="/page/3"
+            >
+              → NEXT
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   </div>

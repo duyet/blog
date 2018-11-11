@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
 import Page from '../components/Page';
+import Pagination from '../components/Pagination';
 
 const CategoryTemplate = ({ data, pageContext }) => {
   const {
@@ -13,24 +14,34 @@ const CategoryTemplate = ({ data, pageContext }) => {
 
   const {
     category,
-    page
+    currentPage,
+    prevPagePath,
+    nextPagePath,
+    hasPrevPage,
+    hasNextPage,
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
-  const pageTitle = page > 0 ? `${category} - Page ${page} - ${siteTitle}` : `${category} - ${siteTitle}`;
+  const pageTitle = currentPage > 0 ? `${category} - Page ${currentPage} - ${siteTitle}` : `${category} - ${siteTitle}`;
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
       <Page title={category}>
         <Feed edges={edges} />
+        <Pagination
+          prevPagePath={prevPagePath}
+          nextPagePath={nextPagePath}
+          hasPrevPage={hasPrevPage}
+          hasNextPage={hasNextPage}
+        />
       </Page>
     </Layout>
   );
 };
 
 export const query = graphql`
-  query CategoryPage($category: String, $limit: Int!, $skip: Int!) {
+  query CategoryPage($category: String, $postsLimit: Int!, $postsOffset: Int!) {
     site {
       siteMetadata {
         title
@@ -38,8 +49,8 @@ export const query = graphql`
       }
     }
     allMarkdownRemark(
-        limit: $limit,
-        skip: $skip,
+        limit: $postsLimit,
+        skip: $postsOffset,
         filter: { frontmatter: { category: { eq: $category }, layout: { eq: "post" }, draft: { ne: true } } },
         sort: { order: DESC, fields: [frontmatter___date] }
       ){

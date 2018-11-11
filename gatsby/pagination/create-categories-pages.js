@@ -6,6 +6,7 @@ const siteConfig = require('../../config.js');
 
 module.exports = async (graphql, actions) => {
   const { createPage } = actions;
+  const { postsPerPage } = siteConfig;
 
   const result = await graphql(`
     {
@@ -21,17 +22,22 @@ module.exports = async (graphql, actions) => {
   `);
 
   _.each(result.data.allMarkdownRemark.group, (category) => {
-    const numPages = Math.ceil(category.totalCount / siteConfig.postsPerPage);
+    const numPages = Math.ceil(category.totalCount / postsPerPage);
+    const categorySlug = `/category/${_.kebabCase(category.fieldValue)}`;
 
     for (let i = 0; i < numPages; i += 1) {
       createPage({
-        path: i === 0 ? `/category/${_.kebabCase(category.fieldValue)}` : `/category/${_.kebabCase(category.fieldValue)}/page/${i}`,
+        path: i === 0 ? categorySlug : `${categorySlug}/page/${i}`,
         component: path.resolve('./src/templates/category-template.js'),
         context: {
-          page: i,
           category: category.fieldValue,
-          limit: siteConfig.postsPerPage,
-          skip: i * siteConfig.postsPerPage,
+          currentPage: i,
+          postsLimit: postsPerPage,
+          postsOffset: i * postsPerPage,
+          prevPagePath: i <= 1 ? categorySlug : `${categorySlug}/page/${i - 1}`,
+          nextPagePath: `/${categorySlug}/page/${i + 1}`,
+          hasPrevPage: i !== 0,
+          hasNextPage: i !== numPages - 1
         }
       });
     }

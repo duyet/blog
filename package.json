@@ -30,6 +30,7 @@
     "starter"
   ],
   "dependencies": {
+    "classnames": "^2.2.6",
     "bluebird": "^3.5.2",
     "codecov": "^3.1.0",
     "gatsby": "^2.0.38",
@@ -38,7 +39,7 @@
     "gatsby-plugin-feed": "^2.0.8",
     "gatsby-plugin-google-analytics": "^2.0.6",
     "gatsby-plugin-netlify": "^2.0.3",
-    "gatsby-plugin-netlify-cms": "^3.0.5",
+    "gatsby-plugin-netlify-cms": "^3.0.7",
     "gatsby-plugin-offline": "^2.0.6",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.3",
@@ -48,6 +49,7 @@
     "gatsby-remark-images": "^2.0.4",
     "gatsby-remark-prismjs": "^3.0.2",
     "gatsby-remark-responsive-iframe": "^2.0.5",
+    "gatsby-remark-relative-images": "^0.2.0",
     "gatsby-remark-smartypants": "^2.0.5",
     "gatsby-source-filesystem": "^2.0.3",
     "gatsby-transformer-remark": "^2.1.7",
