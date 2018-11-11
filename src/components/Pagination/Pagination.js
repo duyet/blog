@@ -31,7 +31,7 @@ const Pagination = ({
         <Link rel="next" to={nextPagePath} className={nextClassName}>{PAGINATION.NEXT_PAGE}</Link>
       </div>
     </div>
-  )
+  );
 };
 
 export default Pagination;
