@@ -12,28 +12,22 @@ jobs:
             - dependencies-{{ checksum "yarn.lock" }}
             # fallback to using the latest cache if no exact match is found
             - dependencies-
-
       - run:
           name: Install and build package
           command: yarn install --frozen-lockfile
-
-     - run: 
+      - run: 
           name: "Lint"
           command: yarn lint:all
-
       - run:
           name: Coverage
           command: yarn test:coverage --runInBand --no-cache
-
       - run:
           name: Unit tests
           command: yarn test --runInBand --no-cache
-
       - save_cache:
           paths:
             - node_modules
           key: dependencies-{{ checksum "yarn.lock" }}
-
 workflows:
   version: 2
   build_test:
