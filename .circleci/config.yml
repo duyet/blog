@@ -1,20 +1,17 @@
 version: 2
 
-defaults: &defaults
-  working_directory: ~/repo
-  docker:
-    - image: circleci/node:8.9.1
-
 jobs:
   test:
-    <<: *defaults
+    working_directory: ~/gatsby-starter-lumen
+    docker:
+      - image: circleci/node:8.9.1
     steps:
       - checkout
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "yarn.lock" }}
+            - dependencies-{{ checksum "yarn.lock" }}
             # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
+            - dependencies-
 
       - run:
           name: Install and build package
@@ -35,7 +32,8 @@ jobs:
       - save_cache:
           paths:
             - node_modules
-          key: v1-dependencies-{{ checksum "yarn.lock" }}
+          key: dependencies-{{ checksum "yarn.lock" }}
+
 workflows:
   version: 2
   build_test:
