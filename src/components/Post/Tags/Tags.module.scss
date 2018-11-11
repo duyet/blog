@@ -14,19 +14,18 @@
       margin: 10px 5px;
 
       &-link {
-        background: $color-gray-bg;
+        display: inline-block;
+        height: $button-height;
+        padding: 0 24px;
+        line-height: $button-height;
+        border: 1px solid $color-gray-border;
         text-decoration: none;
-        border: 0;
-        border-radius: 3px;
-        color: lighten($color-base, 20%);
-        line-height: $typographic-base-line-height;
-        padding: 8px 16px;
+        border-radius: $button-border-radius;
+        color: $color-base;
 
         &:hover,
         &:focus {
-          color: $color-base;
-          background: darken($color-gray-bg, 5%);
-          border: 0;
+          color: $color-primary;
         }
 
       }

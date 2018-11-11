@@ -12,30 +12,30 @@
     list-style: none;
     padding: 0;
     margin: 10px -3px;
-    width: 104px;
+    width: 140px;
 
     &-item {
       padding: 0;
+      margin: 4px;
       display: flex;
       align-content: center;
       align-items: center;
       justify-content: center;
-      margin: 3px;
-      height: 28px;
-      width: 28px;
-      line-height: 28px;
+      height: $button-height;
+      width: $button-height;
+      line-height: $button-height;
       border-radius: 50%;
       text-align: center;
-      background: $color-gray-bg;
+      border: 1px solid $color-gray-bg;
 
       &-link {
         border: 0;
         display: flex;
-        color: lighten($color-base, 20%);
+        color: $color-base;
   
         &:hover,
         &:focus {
-          color: $color-base;
+          color: $color-primary;
         }
 
       }

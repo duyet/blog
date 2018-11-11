@@ -27,6 +27,10 @@ $typographic-link-s-font-color: $color-secondary;
 
 $typographic-leading: round(16 * ($typographic-root-font-size / 100) * $typographic-base-line-height);
 
+// Buttons
+$button-height: 35px;
+$button-border-radius: 20px;
+
 // Layout
 $layout-post-single-width: 945px;
 $layout-post-width: $layout-post-single-width - 305px;
