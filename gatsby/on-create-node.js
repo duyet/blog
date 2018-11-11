@@ -14,7 +14,7 @@ const onCreateNode = ({ node, actions, getNode }) => {
       createNodeField({
         node,
         name: 'slug',
-        value: node.frontmatter.path
+        value: node.frontmatter.slug
       });
     } else {
       const value = createFilePath({ node, getNode });

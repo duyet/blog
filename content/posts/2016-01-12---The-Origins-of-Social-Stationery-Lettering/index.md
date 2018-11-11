@@ -1,9 +1,9 @@
 ---
 title: The Origins of Social Stationery Lettering
 date: "2016-12-01T22:40:32.169Z"
-layout: post
+template: "post"
 draft: false
-path: "/posts/the-origins-of-social-stationery-lettering"
+slug: "/posts/the-origins-of-social-stationery-lettering"
 category: "Design Culture"
 tags:
   - "Typefaces"

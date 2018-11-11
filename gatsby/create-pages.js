@@ -36,7 +36,7 @@ const createPages = async ({ graphql, actions }) => {
         edges {
           node {
             frontmatter {
-              layout
+              template
             }
             fields {
               slug
@@ -50,13 +50,13 @@ const createPages = async ({ graphql, actions }) => {
   const { edges } = result.data.allMarkdownRemark;
 
   _.each(edges, (edge) => {
-    if (_.get(edge, 'node.frontmatter.layout') === 'page') {
+    if (_.get(edge, 'node.frontmatter.template') === 'page') {
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve('./src/templates/page-template.js'),
         context: { slug: edge.node.fields.slug }
       });
-    } else if (_.get(edge, 'node.frontmatter.layout') === 'post') {
+    } else if (_.get(edge, 'node.frontmatter.template') === 'post') {
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve('./src/templates/post-template.js'),

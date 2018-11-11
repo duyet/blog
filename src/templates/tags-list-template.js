@@ -39,7 +39,7 @@ export const query = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { frontmatter: { layout: { eq: "post" }, draft: { ne: true } } }
+      filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
     ) {
       group(field: frontmatter___tags) {
         fieldValue
