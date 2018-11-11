@@ -24,7 +24,7 @@ describe('TagTemplate', () => {
                 categorySlug: '/test'
               },
               frontmatter: {
-                date: '2016-09-01T23:46:37.121Z',
+                date: '2016-09-01',
                 description: 'test_0',
                 category: 'test',
                 title: 'test_0'
@@ -38,7 +38,7 @@ describe('TagTemplate', () => {
                 categorySlug: '/test'
               },
               frontmatter: {
-                date: '2016-09-01T23:46:37.121Z',
+                date: '2016-09-01',
                 description: 'test_1',
                 category: 'test',
                 title: 'test_1'

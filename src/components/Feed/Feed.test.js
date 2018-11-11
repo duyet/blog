@@ -12,7 +12,7 @@ describe('Feed', () => {
             categorySlug: '/test_0'
           },
           frontmatter: {
-            date: '2016-09-01T23:46:37.121Z',
+            date: '2016-09-01',
             description: 'test_0',
             category: 'test_0',
             title: 'test_0'
@@ -26,7 +26,7 @@ describe('Feed', () => {
             categorySlug: '/test_1'
           },
           frontmatter: {
-            date: '2016-09-01T23:46:37.121Z',
+            date: '2016-09-01',
             description: 'test_1',
             category: 'test_1',
             title: 'test_1'

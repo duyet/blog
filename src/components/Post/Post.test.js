@@ -13,7 +13,7 @@ describe('Post', () => {
         ]
       },
       frontmatter: {
-        date: '2016-09-01T23:46:37.121Z',
+        date: '2016-09-01',
         tags: [
           'test_0',
           'test_1'

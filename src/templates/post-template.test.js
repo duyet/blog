@@ -20,7 +20,7 @@ describe('PostTemplate', () => {
           ]
         },
         frontmatter: {
-          date: '2016-09-01T23:46:37.121Z',
+          date: '2016-09-01',
           description: 'test',
           title: 'test',
           tags: [

@@ -32,7 +32,7 @@ exports[`CategoryTemplate renders correctly 1`] = `
             >
               <time
                 className="feed__item-meta-time"
-                dateTime="September 2, 2016"
+                dateTime="September 1, 2016"
               >
                 September 2016
               </time>
@@ -80,7 +80,7 @@ exports[`CategoryTemplate renders correctly 1`] = `
             >
               <time
                 className="feed__item-meta-time"
-                dateTime="September 2, 2016"
+                dateTime="September 1, 2016"
               >
                 September 2016
               </time>
@@ -129,6 +129,7 @@ exports[`CategoryTemplate renders correctly 1`] = `
           >
             <Link
               className="pagination__prev-link"
+              rel="prev"
               to="/page/1"
             >
               ← PREV
@@ -139,6 +140,7 @@ exports[`CategoryTemplate renders correctly 1`] = `
           >
             <Link
               className="pagination__next-link"
+              rel="next"
               to="/page/3"
             >
               → NEXT
