@@ -20,7 +20,7 @@ const CategoriesListTemplate = ({ data }) => {
         <ul>
           {group.map((category) => (
             <li key={category.fieldValue}>
-              <Link to={`/categories/${kebabCase(category.fieldValue)}/`}>
+              <Link to={`/category/${kebabCase(category.fieldValue)}/`}>
                 {category.fieldValue} ({category.totalCount})
               </Link>
             </li>
