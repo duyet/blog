@@ -10,7 +10,6 @@ const onCreateNode = ({ node, actions, getNode }) => {
   fmImagesToRelative(node);
 
   if (node.internal.type === 'MarkdownRemark') {
-    console.log(node.frontmatter);
     if (typeof node.frontmatter.slug !== 'undefined') {
       createNodeField({
         node,
@@ -20,9 +19,9 @@ const onCreateNode = ({ node, actions, getNode }) => {
     } else {
       const value = createFilePath({ node, getNode });
       createNodeField({
-        name: 'slug',
         node,
-        value,
+        name: 'slug',
+        value
       });
     }
 
