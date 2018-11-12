@@ -10,7 +10,8 @@ const onCreateNode = ({ node, actions, getNode }) => {
   fmImagesToRelative(node);
 
   if (node.internal.type === 'MarkdownRemark') {
-    if (typeof node.frontmatter.path !== 'undefined') {
+    console.log(node.frontmatter);
+    if (typeof node.frontmatter.slug !== 'undefined') {
       createNodeField({
         node,
         name: 'slug',

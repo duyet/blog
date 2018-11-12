@@ -1,7 +1,7 @@
 ---
 title: "Contact me"
-slug: "/contact"
 template: "page"
+slug: "/contacts"
 ---
 
 Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
@@ -28,4 +28,4 @@ Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut
 
 #### Header Level 4
 
-Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. 
+Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
