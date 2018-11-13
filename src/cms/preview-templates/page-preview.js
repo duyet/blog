@@ -1,14 +1,14 @@
 import React from 'react';
-import { Page } from '../../components/Page';
 
 const PagePreview = ({ entry, widgetFor }) => {
   const body = widgetFor(['body']);
   const title = entry.getIn(['data', 'title']);
 
   return (
-    <Page title={title}>
-      <div dangerouslySetInnerHTML={{ __html: body }} />
-    </Page>
+    <div className="page">
+      <h1 className="page__title">{title}</h1>
+      <div className="page__body" dangerouslySetInnerHTML={{ __html: body }} />
+    </div>
   );
 };
 

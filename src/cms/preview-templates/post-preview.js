@@ -1,12 +1,14 @@
 import React from 'react';
-import { Content } from '../../components/Post/Content';
 
 const PostPreview = ({ entry, widgetFor }) => {
   const body = widgetFor(['body']);
   const title = entry.getIn(['data', 'title']);
 
   return (
-    <Content body={body} title={title} />
+    <div className="post">
+      <h1 className="post__title">{title}</h1>
+      <div className="post__body" dangerouslySetInnerHTML={{ __html: body }} />
+    </div>
   );
 };
 
