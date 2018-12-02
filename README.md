@@ -5,7 +5,7 @@
 Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses [Gatsby](https://github.com/gatsbyjs/gatsby).
 
 ## Features
-+ Lost Grid ([peterramsing/lost](https://github.com/peterramsing/lost)).
++ [Lost Grid](http://lostgrid.org/) ([peterramsing/lost](https://github.com/peterramsing/lost)).
 + Beautiful typography inspired by [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg).
 + [Mobile-First](https://medium.com/@mrmrs_/mobile-first-css-48bc4cc3f60f) approach in development.
 + Stylesheet built using SASS and [BEM](http://getbem.com/naming/)-Style naming.
@@ -15,8 +15,8 @@ Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses
 + Automatic RSS generation.
 + Automatic Sitemap generation.
 + Offline support.
-+ Google Analytics support.
-+ Disqus Comments support.
++ [Google Analytics](https://google.com/analytics) support.
++ [Disqus](https://disqus.com/) Comments support.
 
 ## Folder Structure
 
@@ -57,6 +57,7 @@ Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses
 
 ## Getting Started
 Install this starter (assuming Gatsby is installed) by running from your CLI:
+
 `gatsby new lumen https://github.com/alxshelepenok/gatsby-starter-lumen`
 
 #### Running in Development
@@ -67,7 +68,7 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 #### Deploy with Netlify
 
-Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. Use the button below to build and deploy your own copy of the repository:
+[Netlify](https://netlify.com) CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. Use the button below to build and deploy your own copy of the repository:
 
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/alxshelepenok/gatsby-starter-lumen" target="_blank"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
