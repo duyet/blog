@@ -14,9 +14,11 @@
     @if $left==null and $bottom==null {
         margin: #{ $top * $typographic-leading + "px"} #{ $right * $typographic-leading + "px"};
     }
+
     @else if $left==null or $left==$right {
         margin: #{ $top * $typographic-leading + "px"} #{ $right * $typographic-leading + "px"} #{ $bottom * $typographic-leading + "px"};
     }
+    
     @else {
         margin: #{ $top * $typographic-leading + "px"} #{ $right * $typographic-leading + "px"} #{ $bottom * $typographic-leading + "px"} #{ $left * $typographic-leading + "px"};
     }
