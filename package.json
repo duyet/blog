@@ -23,11 +23,18 @@
     "graphql",
     "netlify",
     "netlify-cms",
+    "pagination",
+    "categories",
+    "tags",
+    "prismjs",
     "static",
+    "lost",
     "blog",
+    "minimal",
     "react",
     "theme",
-    "starter"
+    "starter",
+    "disqus"
   ],
   "dependencies": {
     "classnames": "^2.2.6",
@@ -42,6 +49,7 @@
     "gatsby-plugin-google-analytics": "^2.0.9",
     "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-netlify-cms": "^3.0.9",
+    "gatsby-plugin-manifest": "^2.0.13",
     "gatsby-plugin-offline": "^2.0.21",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-sass": "^2.0.7",
