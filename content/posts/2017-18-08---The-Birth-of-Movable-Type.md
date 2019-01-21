@@ -17,7 +17,7 @@ German inventor Johannes Gutenberg developed a method of movable type and used i
 **Johannes Gensfleisch zur Laden zum Gutenberg** (c. 1398 – 1468) was a German blacksmith, goldsmith, printer, and publisher who introduced printing to Europe. His invention of mechanical movable type printing started the Printing Revolution and is widely regarded as the most important event of the modern period. It played a key role in the development of the Renaissance, Reformation, the Age of Enlightenment, and the Scientific revolution and laid the material basis for the modern knowledge-based economy and the spread of learning to the masses.
 
 <figure class="float-right" style="width: 240px">
-	<img src="./Gutenberg.jpg" alt="Gutenberg">
+	<img src="/media/gutenberg.jpg" alt="Gutenberg">
 	<figcaption>Johannes Gutenberg</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ His major work, the Gutenberg Bible (also known as the 42-line Bible), has been 
 Around 1439, Gutenberg was involved in a financial misadventure making polished metal mirrors (which were believed to capture holy light from religious relics) for sale to pilgrims to Aachen: in 1439 the city was planning to exhibit its collection of relics from Emperor Charlemagne but the event was delayed by one year due to a severe flood and the capital already spent could not be repaid. When the question of satisfying the investors came up, Gutenberg is said to have promised to share a “secret”. It has been widely speculated that this secret may have been the idea of printing with movable type. Also around 1439–1440, the Dutch Laurens Janszoon Coster came up with the idea of printing. Legend has it that the idea came to him “like a ray of light”.
 
 <figure class="float-left" style="width: 240px">
-	<img src="./Printing-press.png" alt="Early Printing Press">
+	<img src="/media/printing-press.jpg" alt="Early Printing Press">
 	<figcaption>Early wooden printing press as depicted in 1568.</figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ In 1504, he was mentioned as the inventor of typography in a book by Professor I
 
 Gutenberg's early printing process, and what tests he may have made with movable type, are not known in great detail. His later Bibles were printed in such a way as to have required large quantities of type, some estimates suggesting as many as 100,000 individual sorts. Setting each page would take, perhaps, half a day, and considering all the work in loading the press, inking the type, pulling the impressions, hanging up the sheets, distributing the type, etc., it is thought that the Gutenberg–Fust shop might have employed as many as 25 craftsmen.
 
-![Movable metal type, and composing stick, descended from Gutenberg's press. Photo by Willi Heidelbach. Licensed under CC BY 2.5](./movable-type.jpg)
+![Movable metal type, and composing stick, descended from Gutenberg's press. Photo by Willi Heidelbach. Licensed under CC BY 2.5](/media/movable-type.jpg)
 
 *Movable metal type, and composing stick, descended from Gutenberg's press. Photo by Willi Heidelbach. Licensed under CC BY 2.5*
 
