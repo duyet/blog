@@ -1,72 +1,69 @@
-[![GitHub release](https://img.shields.io/github/release/alxshelepenok/gatsby-starter-lumen.svg)](https://github.com/alxshelepenok/gatsby-starter-lumen) [![Code Climate](https://img.shields.io/codeclimate/maintainability/alxshelepenok/gatsby-starter-lumen.svg)](https://codeclimate.com/github/alxshelepenok/gatsby-starter-lumen) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/alxshelepenok/gatsby-starter-lumen/master/LICENSE) [![Twitter](https://img.shields.io/twitter/url/https/github.com/alxshelepenok/gatsby-starter-lumen.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/alxshelepenok/gatsby-starter-lumen)
+<h1 align="center">
+    <img alt="Lumen" title="GitPoint" src="https://github.com/alxshelepenok/gatsby-starter-lumen/blob/gatsby-v2/.github/logo.png" width="140"> </br>
+    Lumen
+</h1>
 
-# Lumen
+<h4 align="center">
+  A minimal, lightweight and mobile-first starter for creating blogs uses <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby</a>.
+</h4>
 
-Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses [Gatsby](https://github.com/gatsbyjs/gatsby).
+<p align="center">
+    <a target="_blank" href="https://circleci.com/gh/alxshelepenok/gatsby-starter-lumen"><img src="https://circleci.com/gh/alxshelepenok/gatsby-starter-lumen.svg?style=svg"></a> <a target="_blank" href="https://codecov.io/gh/alxshelepenok/gatsby-starter-lumen"><img src="https://codecov.io/gh/alxshelepenok/gatsby-starter-lumen/branch/master/graph/badge.svg"></a> <a target="_blank" href="https://www.codacy.com/app/alxshelepenok/gatsby-starter-lumen?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alxshelepenok/gatsby-starter-lumen&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/f7e27bb3a28a46a6b13453a02801c5c9"></a> <a target="_blank" href="https://codeclimate.com/github/alxshelepenok/gatsby-starter-lumen"><img src="https://img.shields.io/codeclimate/maintainability/alxshelepenok/gatsby-starter-lumen.svg"></a> <a target="_blank" href="https://raw.githubusercontent.com/alxshelepenok/gatsby-starter-lumen/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+</p>
+
+## Table of contents
++ [Features](http://github.com/alxshelepenok/gatsby-starter-lumen#features)
++ [Quick Start](http://github.com/alxshelepenok/gatsby-starter-lumen#quick-start)
++ [Deploy with Netlify](http://github.com/alxshelepenok/gatsby-starter-lumen#deploy-with-netlify)
++ [Folder Structure](http://github.com/alxshelepenok/gatsby-starter-lumen#folder-structure)
++ [Related](http://github.com/alxshelepenok/gatsby-starter-lumen#related)
++ [Contributors](http://github.com/alxshelepenok/gatsby-starter-lumen#contributors)
++ [Backers](http://github.com/alxshelepenok/gatsby-starter-lumen#backers)
++ [Sponsors](http://github.com/alxshelepenok/gatsby-starter-lumen#sponsors)
++ [Credits](http://github.com/alxshelepenok/gatsby-starter-lumen#credits)
++ [License](http://github.com/alxshelepenok/gatsby-starter-lumen#license)
 
 ## Features
-+ [Lost Grid](http://lostgrid.org/) ([peterramsing/lost](https://github.com/peterramsing/lost)).
++ [Lost Grid](http://lostgrid.org).
++ [Modern font stack](https://bitsofco.de/the-new-system-font-stack).
 + Beautiful typography inspired by [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg).
++ Syntax highlighting in code blocks using [PrismJS](http://prismjs.com).
 + [Mobile-First](https://medium.com/@mrmrs_/mobile-first-css-48bc4cc3f60f) approach in development.
-+ Stylesheet built using SASS and [BEM](http://getbem.com/naming/)-Style naming.
-+ Syntax highlighting in code blocks.
-+ Sidebar menu built using a configuration block.
 + Archive organized by tags and categories.
-+ Automatic RSS generation.
-+ Automatic Sitemap generation.
-+ Offline support.
-+ [Google Analytics](https://google.com/analytics) support.
-+ [Disqus](https://disqus.com/) Comments support.
++ Pagination support.
++ [Netlify CMS](https://www.netlifycms.org) support.
++ Google Analytics.
++ Disqus Comments.
 
-## Folder Structure
+## Quick Start
 
-```
-└── src
-    ├── assets
-    │   ├── fonts
-    │   │   └── fontello-771c82e0
-    │   │       ├── css
-    │   │       └── font
-    │   └── scss
-    │       ├── base
-    │       ├── mixins
-    │       └── pages
-    ├── components
-    │   ├── CategoryTemplateDetails
-    │   ├── Disqus
-    │   ├── Links
-    │   ├── Menu
-    │   ├── PageTemplateDetails
-    │   ├── Post
-    │   ├── PostTemplateDetails
-    │   ├── Sidebar
-    │   └── TagTemplateDetails
-    ├── layouts
-    ├── pages
-    │   ├── articles
-    │   │   ├── 2016-01-09---Perfecting-the-Art-of-Perfection
-    │   │   ├── 2016-01-12---The-Origins-of-Social-Stationery-Lettering
-    │   │   ├── 2016-02-02---A-Brief-History-of-Typography
-    │   │   ├── 2017-18-08---The-Birth-of-Movable-Type
-    │   │   └── 2017-19-08---Humane-Typography-in-the-Digital-Age
-    │   └── pages
-    │       ├── 2015-05-01---about
-    │       └── 2015-05-01---contact
-    └── templates
+#### Create a Gatsby site
+
+Use the Gatsby CLI to create a new site, specifying the Lumen starter.
+
+```sh
+# Create a new Gatsby site using the Lumen starter
+gatsby new blog https://github.com/alxshelepenok/gatsby-starter-lumen
 ```
 
-## Getting Started
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+#### Start Developing
 
-`gatsby new lumen https://github.com/alxshelepenok/gatsby-starter-lumen`
+Navigate into your new site’s directory and start it up.
 
-#### Running in Development
-`gatsby develop`
+```sh
+cd blog
+gatsby develop
+```
 
-#### Building
-`gatsby build`
+#### Open the source code and start editing!
 
-#### Deploy with Netlify
+Your site is now running at `http://localhost:8000`!
+
+Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
+
+Open the `blog` directory in your code editor of choice and edit `src/templates/index-template.js`. Save your changes and the browser will update in real time!
+
+## Deploy with Netlify
 
 [Netlify](https://netlify.com) CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. Use the button below to build and deploy your own copy of the repository:
 
@@ -74,31 +71,99 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
 
-## Screenshot
+#### Access Locally
+```
+$ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
+$ cd [REPO_NAME]
+$ yarn
+$ npm run develop
+```
+To test the CMS locally, you'll need run a production build of the site:
+```
+$ npm run build
+$ npm run serve
+```
 
-![](http://i.imgur.com/422y5GV.png)
+## Folder Structure
 
-## Ports
+```
+└── content
+    ├── pages
+    └── posts
+└── static
+    ├── admin
+    └── media
+└── src
+    ├── assets
+    │   └── scss
+    │       ├── base
+    │       └── mixins
+    ├── cms
+    │   └── preview-templates
+    ├── components
+    │   ├── Feed
+    │   ├── Icon
+    │   ├── Layout
+    │   ├── Page
+    │   ├── Pagination
+    │   ├── Post
+    │   │   ├── Author
+    │   │   ├── Comments
+    │   │   ├── Content
+    │   │   ├── Meta
+    │   │   └── Tags
+    │   └── Sidebar
+    │       ├── Author
+    │       ├── Contacts
+    │       ├── Copyright
+    │       └── Menu
+    ├── constants
+    ├── templates
+    └── utils
+
+```
+
+## Related
 [Statinamic port](https://github.com/thangngoc89/statinamic-theme-lumen) by [Khoa Nguyen](https://github.com/thangngoc89)
 
 ## Contributors
-[<img alt="alxshelepenok" src="https://avatars2.githubusercontent.com/u/8599449?v=4&s=117" width="117">](https://github.com/alxshelepenok) |[<img alt="abisz" src="https://avatars3.githubusercontent.com/u/7287780?v=4&s=117" width="117">](https://github.com/abisz) |[<img alt="mariolopjr" src="https://avatars3.githubusercontent.com/u/2067324?v=4&s=117" width="117">](https://github.com/mariolopjr) |[<img alt="ihororlovskyi" src="https://avatars3.githubusercontent.com/u/7969737?v=4&s=117" width="117">](https://github.com/ihororlovskyi) |[<img alt="marcelabomfim" src="https://avatars0.githubusercontent.com/u/6224547?v=4&s=117" width="117">](https://github.com/marcelabomfim) |[<img alt="vinnymac" src="https://avatars0.githubusercontent.com/u/1832781?v=4&s=117" width="117">](https://github.com/vinnymac) |
+Thanks goes to these wonderful people!
+
+[<img alt="abisz" src="https://avatars3.githubusercontent.com/u/7287780?v=4&s=117" width="117">](https://github.com/abisz) |[<img alt="mariolopjr" src="https://avatars3.githubusercontent.com/u/2067324?v=4&s=117" width="117">](https://github.com/mariolopjr) |[<img alt="ihororlovskyi" src="https://avatars3.githubusercontent.com/u/7969737?v=4&s=117" width="117">](https://github.com/ihororlovskyi) |[<img alt="timbroder" src="https://avatars2.githubusercontent.com/u/121503?v=4&s=117" width="117">](https://github.com/timbroder) |[<img alt="yodahuang" src="https://avatars2.githubusercontent.com/u/11242657?v=4&s=117" width="117">](https://github.com/yodahuang) |[<img alt="vinnymac" src="https://avatars0.githubusercontent.com/u/1832781?v=4&s=117" width="117">](https://github.com/vinnymac) |
 :---: |:---: |:---: |:---: |:---: |:---: |
-[alxshelepenok](https://github.com/alxshelepenok) |[abisz](https://github.com/abisz) |[mariolopjr](https://github.com/mariolopjr) |[ihororlovskyi](https://github.com/ihororlovskyi) |[marcelabomfim](https://github.com/marcelabomfim) |[vinnymac](https://github.com/vinnymac) |
+[abisz](https://github.com/abisz) |[mariolopjr](https://github.com/mariolopjr) |[ihororlovskyi](https://github.com/ihororlovskyi) |[timbroder](https://github.com/timbroder) |[yodahuang](https://github.com/yodahuang) |[vinnymac](https://github.com/vinnymac) |
 
-[<img alt="axelclark" src="https://avatars1.githubusercontent.com/u/16856928?v=4&s=117" width="117">](https://github.com/axelclark) |[<img alt="ybbarng" src="https://avatars2.githubusercontent.com/u/1793950?v=4&s=117" width="117">](https://github.com/ybbarng) |[<img alt="marktani" src="https://avatars1.githubusercontent.com/u/1780597?v=4&s=117" width="117">](https://github.com/marktani) |[<img alt="concreted" src="https://avatars2.githubusercontent.com/u/4016897?v=4&s=117" width="117">](https://github.com/concreted) |[<img alt="charandas" src="https://avatars2.githubusercontent.com/u/542168?v=4&s=117" width="117">](https://github.com/charandas) |[<img alt="zollillo" src="https://avatars3.githubusercontent.com/u/8833904?v=4&s=117" width="117">](https://github.com/zollillo) |
+[<img alt="axelclark" src="https://avatars1.githubusercontent.com/u/16856928?v=4&s=117" width="117">](https://github.com/axelclark) |[<img alt="ybbarng" src="https://avatars2.githubusercontent.com/u/1793950?v=4&s=117" width="117">](https://github.com/ybbarng) |[<img alt="marktani" src="https://avatars1.githubusercontent.com/u/1780597?v=4&s=117" width="117">](https://github.com/marktani) |[<img alt="wichopy" src="https://avatars2.githubusercontent.com/u/24414632?v=4&s=117" width="117">](https://github.com/wichopy) |[<img alt="chmac" src="https://avatars0.githubusercontent.com/u/690997?v=4&s=117" width="117">](https://github.com/chmac) |[<img alt="charandas" src="https://avatars2.githubusercontent.com/u/542168?v=4&s=117" width="117">](https://github.com/charandas) |
 :---: |:---: |:---: |:---: |:---: |:---: |
-[axelclark](https://github.com/axelclark) |[ybbarng](https://github.com/ybbarng) |[marktani](https://github.com/marktani) |[concreted](https://github.com/concreted) |[charandas](https://github.com/charandas) |[zollillo](https://github.com/zollillo) |
+[axelclark](https://github.com/axelclark) |[ybbarng](https://github.com/ybbarng) |[marktani](https://github.com/marktani) |[wichopy](https://github.com/wichopy) |[chmac](https://github.com/chmac) |[charandas](https://github.com/charandas) |
 
-[<img alt="codejet" src="https://avatars3.githubusercontent.com/u/802203?v=4&s=117" width="117">](https://github.com/codejet) |[<img alt="reed-jones" src="https://avatars0.githubusercontent.com/u/11511864?v=4&s=117" width="117">](https://github.com/reed-jones) |[<img alt="swapnilmishra" src="https://avatars2.githubusercontent.com/u/875450?v=4&s=117" width="117">](https://github.com/swapnilmishra) |[<img alt="vvasiloud" src="https://avatars1.githubusercontent.com/u/5891530?v=4&s=117" width="117">](https://github.com/vvasiloud) |[<img alt="wichopy" src="https://avatars2.githubusercontent.com/u/24414632?v=4&s=117" width="117">](https://github.com/wichopy) |
-:---: |:---: |:---: |:---: |:---: |
-[codejet](https://github.com/codejet) |[reed-jones](https://github.com/reed-jones) |[swapnilmishra](https://github.com/swapnilmishra) |[vvasiloud](https://github.com/vvasiloud) |[wichopy](https://github.com/wichopy) |
+[<img alt="marcelabomfim" src="https://avatars0.githubusercontent.com/u/6224547?v=4&s=117" width="117">](https://github.com/marcelabomfim) |[<img alt="zollillo" src="https://avatars3.githubusercontent.com/u/8833904?v=4&s=117" width="117">](https://github.com/zollillo) |[<img alt="codejet" src="https://avatars3.githubusercontent.com/u/802203?v=4&s=117" width="117">](https://github.com/codejet) |[<img alt="reed-jones" src="https://avatars0.githubusercontent.com/u/11511864?v=4&s=117" width="117">](https://github.com/reed-jones) |[<img alt="swapnilmishra" src="https://avatars2.githubusercontent.com/u/875450?v=4&s=117" width="117">](https://github.com/swapnilmishra) |[<img alt="vvasiloud" src="https://avatars1.githubusercontent.com/u/5891530?v=4&s=117" width="117">](https://github.com/vvasiloud) |
+:---: |:---: |:---: |:---: |:---: |:---: |
+[marcelabomfim](https://github.com/marcelabomfim) |[zollillo](https://github.com/zollillo) |[codejet](https://github.com/codejet) |[reed-jones](https://github.com/reed-jones) |[swapnilmishra](https://github.com/swapnilmishra) |[vvasiloud](https://github.com/vvasiloud) |
 
+[<img alt="concreted" src="https://avatars2.githubusercontent.com/u/4016897?v=4&s=117" width="117">](https://github.com/concreted) |
+:---: |
+[concreted](https://github.com/concreted) |
+
+## Backers [![Backers on Open Collective](https://opencollective.com/lumen/backers/badge.svg)](#backers)
+
+Thank you to all our backers!
+
+<a href="https://opencollective.com/lumen#backers" target="_blank"><img src="https://opencollective.com/lumen/backers.svg?width=890"></a>
+
+## Sponsors [![Sponsors on Open Collective](https://opencollective.com/lumen/sponsors/badge.svg)](#sponsors)
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
+
+<a href="https://opencollective.com/lumen#sponsors" target="_blank"><img src="https://opencollective.com/lumen/sponsors.svg?width=890"></a>
+
+## Credits
+Nature graphic by [Anna Bearne](https://www.behance.net/annabearne) from [Noun Project](https://thenounproject.com/) is licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode).
 
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2016-2018 Alexander Shelepenok
+Copyright (c) 2016-2019 Alexander Shelepenok
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
