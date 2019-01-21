@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.0.4] - 2019-01-22
+### Added
+- [Pull #78](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/78): Upgrade gatsby-remark-prismjs
+- [Pull #77](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/77): Add more service urls and tweak a layout
+
 ## [2.0.3] - 2018-11-09
 ### Added
 - [Pull #70](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/70): Refactor the React logic and introduce Fragment
