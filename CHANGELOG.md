@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [3.0.0] - 2019-01-22
+- Heavy refactoring
+- Netlify CMS support
+- Pagination support
+- Reorganize content
+
 ## [2.0.4] - 2019-01-22
 ### Added
 - [Pull #78](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/78): Upgrade gatsby-remark-prismjs
