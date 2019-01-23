@@ -151,7 +151,7 @@ Thank you to all our backers!
 
 <a href="https://opencollective.com/lumen#backers" target="_blank"><img src="https://opencollective.com/lumen/backers.svg?width=890"></a>
 
-## Sponsors [![Sponsors on Open Collective](https://opencollective.com/lumen/sponsors/badge.svg)](#sponsors)
+## Sponsors [![Sponsors on Open Collective](https://opencollective.com/lumen/sponsors/badge.svg)](#sponsors) [![Greenkeeper badge](https://badges.greenkeeper.io/alxshelepenok/gatsby-starter-lumen.svg)](https://greenkeeper.io/)
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
 
