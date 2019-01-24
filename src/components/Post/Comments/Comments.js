@@ -8,6 +8,10 @@ export const PureComments = ({ data, postTitle, postSlug }) => {
     disqusShortname
   } = data.site.siteMetadata;
 
+  if (!disqusShortname) {
+    return null;
+  }
+
   return (
     <ReactDisqusComments
       shortname={disqusShortname}
