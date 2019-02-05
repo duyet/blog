@@ -44,7 +44,7 @@
     "node-sass": "^4.11.0",
     "gatsby": "^2.0.76",
     "gatsby-link": "^2.0.10",
-    "gatsby-plugin-catch-links": "^2.0.9",
+    "gatsby-plugin-catch-links": "^2.0.10",
     "gatsby-plugin-feed": "^2.0.11",
     "gatsby-plugin-google-analytics": "^2.0.9",
     "gatsby-plugin-netlify": "^2.0.6",
