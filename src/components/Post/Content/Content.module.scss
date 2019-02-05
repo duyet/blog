@@ -44,32 +44,11 @@
       text-decoration: underline
     }
 
-    & .gatsby-highlight {
-      max-width: $layout-post-width;
-      margin-left: 15px;
-      margin-right: 15px;
-      @include margin-bottom(1)
-    }
-
     & *:not(div) {
       width: 100%;
       max-width: $layout-post-width;
       margin-left: auto;
       margin-right: auto
-    }
-
-  }
-
-}
-
-@include breakpoint-sm {
-  .content {
-    &__body {
-      & .gatsby-highlight {
-        margin-left: auto;
-        margin-right: auto
-      }
-
     }
 
   }
