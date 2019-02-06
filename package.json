@@ -69,9 +69,9 @@
     "moment": "^2.23.0",
     "normalize-scss": "^7.0.1",
     "prismjs": "^1.15.0",
-    "react": "^16.7.0",
+    "react": "^16.8.1",
     "react-disqus-comments": "^1.4.0",
-    "react-dom": "^16.7.0",
+    "react-dom": "^16.8.1",
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
@@ -83,7 +83,7 @@
     "babel-core": "^7.0.0-0",
     "babel-jest": "^23.6.0",
     "identity-obj-proxy": "^3.0.0",
-    "react-test-renderer": "^16.7.0",
+    "react-test-renderer": "^16.8.1",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
     "rimraf": "^2.6.3",
