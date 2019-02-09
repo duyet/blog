@@ -99,7 +99,7 @@
     "eslint-watch": "^4.0.2",
     "babel-eslint": "^10.0.1",
     "gh-pages": "^2.0.1",
-    "lost": "^8.3.0",
+    "lost": "^8.3.1",
     "postcss-pxtorem": "^4.0.1",
     "autoprefixer": "^9.4.6",
     "browserslist": "^4.4.1"
