@@ -146,6 +146,11 @@ figcaption {
   text-align: center;
 }
 
+.anchor {
+  margin-left: -30px !important;
+  padding-right: 14px !important;
+}
+
 @include breakpoint-sm {
   figure.float-left,
   figure.float-right {

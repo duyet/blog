@@ -12,6 +12,11 @@ tags:
 description: "An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts."
 ---
 
+- [The first transition](#the-first-transition)
+- [The digital age](#the-digital-age)
+- [Loss of humanity through transitions](#loss-of-humanity-through-transitions)
+- [Chasing perfection](#chasing-perfection)
+
 An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.
 
 The typography of this industrial age was no longer handcrafted. Mass production and profit became more important. Quantity mattered more than the quality. The books and printed works in general lost a part of its humanity. The typefaces were not produced by craftsmen anymore. It was the machines printing and tying the books together now. The craftsmen had to let go of their craft and became a cog in the process. An extension of the industrial machine.
