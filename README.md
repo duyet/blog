@@ -141,9 +141,9 @@ Thanks goes to these wonderful people!
 :---: |:---: |:---: |:---: |:---: |:---: |
 [marcelabomfim](https://github.com/marcelabomfim) |[zollillo](https://github.com/zollillo) |[codejet](https://github.com/codejet) |[reed-jones](https://github.com/reed-jones) |[swapnilmishra](https://github.com/swapnilmishra) |[vvasiloud](https://github.com/vvasiloud) |
 
-[<img alt="concreted" src="https://avatars2.githubusercontent.com/u/4016897?v=4&s=117" width="117">](https://github.com/concreted) |
-:---: |
-[concreted](https://github.com/concreted) |
+[<img alt="concreted" src="https://avatars2.githubusercontent.com/u/4016897?v=4&s=117" width="117">](https://github.com/concreted) | [<img alt="vzhou842" src="https://avatars1.githubusercontent.com/u/10209814?s=117&v=4" width="117">](https://github.com/vzhou742)
+:---: | :---: |
+[concreted](https://github.com/concreted) | [vzhou842](https://github.com/vzhou842) |
 
 ## Backers [![Backers on Open Collective](https://opencollective.com/lumen/backers/badge.svg)](#backers)
 
