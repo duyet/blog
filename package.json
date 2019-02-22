@@ -92,7 +92,7 @@
     "rimraf": "2.6.3",
     "concurrently": "4.1.0",
     "stylelint": "9.10.1",
-    "stylelint-scss": "3.5.3",
+    "stylelint-scss": "3.5.4",
     "stylelint-config-recommended-scss": "3.2.0",
     "eslint": "5.14.1",
     "eslint-config-airbnb-base": "13.1.0",
