@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [3.0.1] - 2019-03-03
+### Added
+- [Pull #118](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/118): feat: add gatsby-remark-autolink-headers support
+- [Pull #99](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/99): Add lang="en" to <html>
+- [Pull #95](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/95): Fixed url prop bug for <ReactDisqusComments />
+- [Pull #94](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/94): Add isIndex prop to Sidebar in index-template
+- [Pull #93](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/93): Upgrade React version to 16.8.1
+- [Pull #89](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/89): Removed .gatsby-highlight selectors 
+
 ## [3.0.0] - 2019-01-22
 - Heavy refactoring
 - Netlify CMS support
