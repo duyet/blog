@@ -100,7 +100,7 @@
     "eslint-plugin-import": "2.16.0",
     "eslint-plugin-jest": "22.3.0",
     "eslint-plugin-react": "7.12.4",
-    "eslint-watch": "4.0.2",
+    "eslint-watch": "5.0.1",
     "babel-eslint": "10.0.1",
     "gh-pages": "2.0.1",
     "lost": "8.3.1",
