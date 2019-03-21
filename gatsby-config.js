@@ -123,10 +123,12 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-gtagjs',
+      resolve: 'gatsby-plugin-google-gtag',
       options: {
-        trackingId: siteConfig.googleAnalyticsId,
-        head: true,
+        trackingIds: [siteConfig.googleAnalyticsId],
+        pluginConfig: {
+          head: true,
+        },
       },
     },
     {
