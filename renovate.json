@@ -21,6 +21,5 @@
   "prConcurrentLimit": 16,
   "rangeStrategy": "bump",
   "bumpVersion": null,
-  "semanticCommits": true,
-  "schedule": "on the 2nd and 4th day instance on sunday after 9pm"
+  "semanticCommits": true
 }
