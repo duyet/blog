@@ -1,9 +1,10 @@
+// @flow
 import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
 import { getContactHref } from '../../../utils';
 import styles from './Author.module.scss';
 
-export const PureAuthor = ({ data }) => {
+export const PureAuthor = ({ data }: Object) => {
   const { author } = data.site.siteMetadata;
 
   return (
@@ -23,7 +24,7 @@ export const PureAuthor = ({ data }) => {
   );
 };
 
-export const Author = (props) => (
+export const Author = () => (
   <StaticQuery
     query={graphql`
       query AuthorQuery {
@@ -32,7 +33,7 @@ export const Author = (props) => (
             author {
               name
               bio
-              contacts {       
+              contacts {
                 twitter
               }
             }
@@ -40,7 +41,7 @@ export const Author = (props) => (
         }
       }
     `}
-    render={(data) => <PureAuthor {...props} data={data} />}
+    render={(data) => <PureAuthor data={data} />}
   />
 );
 
