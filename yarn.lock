@@ -818,6 +818,14 @@
     core-js "^2.5.7"
     regenerator-runtime "^0.11.1"
 
+"@babel/polyfill@^7.4.4":
+  version "7.4.4"
+  resolved "https://registry.yarnpkg.com/@babel/polyfill/-/polyfill-7.4.4.tgz#78801cf3dbe657844eeabf31c1cae3828051e893"
+  integrity sha512-WlthFLfhQQhh+A2Gn5NSFl0Huxz36x86Jn+E9OW7ibK8edKPq+KLy4apM1yDpQ8kJOVi1OVjpP4vSDLdrI04dg==
+  dependencies:
+    core-js "^2.6.5"
+    regenerator-runtime "^0.13.2"
+
 "@babel/preset-env@7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.0.0.tgz#f450f200c14e713f98cb14d113bf0c2cfbb89ca9"
@@ -3623,7 +3631,7 @@ core-js-pure@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.0.0.tgz#a5679adb4875427c8c0488afc93e6f5b7125859b"
 
-core-js@2:
+core-js@2, core-js@^2.6.5:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
   integrity sha512-klh/kDpwX8hryYL14M9w/xei6vrv6sE8gTHDG7/T/+SEovB/G4ejwcfE/CBzO6Edsu+OETZMZ3wcX/EjUkrl5A==
@@ -5077,17 +5085,18 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint-watch@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-watch/-/eslint-watch-5.1.0.tgz#87ed9cd9bf80762b2eba7526854379f3eeb5e673"
-  integrity sha512-kY39ien3Po1ywg7wBlvpnuxqK8rSMeoY8M6MH45JNRUoYoZCreLXlJc5uWFWXcXvJdVNipF0mw4XB6UGOsWEbw==
+eslint-watch@5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-watch/-/eslint-watch-5.1.2.tgz#4c4b7ec360955ebea46d2440916b1c5a9c2c010d"
+  integrity sha512-tDUvfcekGxGuyzUPedyQq15X4dUmm9wA35UDi7g1+Cvhf9204jy0iahaEN55Vus1uIaHI9pc14Dixs4Qak3Kvg==
   dependencies:
-    "@babel/polyfill" "^7.0.0"
+    "@babel/polyfill" "^7.4.4"
     chokidar "^2.0.4"
     core-js "2"
     debug "^4.1.0"
     execa "^1.0.0"
     keypress "^0.2.1"
+    lodash.debounce "^4.0.8"
     lodash.isempty "^4.4.0"
     lodash.isequal "^4.5.0"
     lodash.kebabcase "^4.1.1"
