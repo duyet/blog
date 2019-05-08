@@ -14,7 +14,7 @@
     "no-duplicate-selectors": true,
     "font-family-no-missing-generic-family-keyword": null,
     "property-no-unknown": [true, {
-      ignoreProperties: ["/^lost-/"]
+      "ignoreProperties": ["/^lost-/"]
     }]
   },
   "ignoreFiles": [
