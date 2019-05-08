@@ -27,7 +27,7 @@ const Post = ({ post }) => {
 
       <div className={styles['post__footer']}>
         <Meta date={date} />
-        <Tags tags={tags} tagSlugs={tagSlugs} />
+        {tags && <Tags tags={tags} tagSlugs={tagSlugs} />}
         <Author />
       </div>
 
