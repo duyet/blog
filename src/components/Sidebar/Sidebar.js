@@ -1,26 +1,18 @@
 // @flow
 import React from 'react';
-import { graphql, StaticQuery } from 'gatsby';
 import Author from './Author';
 import Contacts from './Contacts';
 import Copyright from './Copyright';
 import Menu from './Menu';
 import styles from './Sidebar.module.scss';
+import { useSiteMetadata } from '../../hooks';
 
 type Props = {
   +isIndex: ?boolean,
 };
 
-type PureProps = Props & {
-  +data: Object,
-};
-
-export const PureSidebar = ({ data, isIndex }: PureProps) => {
-  const {
-    author,
-    copyright,
-    menu
-  } = data.site.siteMetadata;
+const Sidebar = ({ isIndex }: Props) => {
+  const { author, copyright, menu } = useSiteMetadata();
 
   return (
     <div className={styles['sidebar']}>
@@ -33,39 +25,5 @@ export const PureSidebar = ({ data, isIndex }: PureProps) => {
     </div>
   );
 };
-
-export const Sidebar = (props: Props) => (
-  <StaticQuery
-    query={graphql`
-      query SidebarQuery {
-        site {
-          siteMetadata {
-            title
-            subtitle
-            copyright
-            menu {
-              label
-              path
-            }
-            author {
-              name
-              photo
-              bio
-              contacts {
-                twitter
-                telegram
-                github
-                email
-                rss
-                vkontakte
-              }
-            }
-          }
-        }
-      }
-    `}
-    render={(data) => <PureSidebar {...props} data={data}/>}
-  />
-);
 
 export default Sidebar;

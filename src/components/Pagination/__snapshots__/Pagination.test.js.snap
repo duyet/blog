@@ -7,24 +7,24 @@ exports[`Pagination renders correctly 1`] = `
   <div
     className="pagination__prev"
   >
-    <Link
+    <a
       className="pagination__prev-link"
+      href="/page/1"
       rel="prev"
-      to="/page/1"
     >
       ← PREV
-    </Link>
+    </a>
   </div>
   <div
     className="pagination__next"
   >
-    <Link
+    <a
       className="pagination__next-link"
+      href="/page/3"
       rel="next"
-      to="/page/3"
     >
       → NEXT
-    </Link>
+    </a>
   </div>
 </div>
 `;

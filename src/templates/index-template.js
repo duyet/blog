@@ -6,6 +6,7 @@ import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
+import { useSiteMetadata } from '../hooks';
 
 type Props = {
   +data: Object,
@@ -13,10 +14,7 @@ type Props = {
 };
 
 const IndexTemplate = ({ data, pageContext }: Props) => {
-  const {
-    title: siteTitle,
-    subtitle: siteSubtitle
-  } = data.site.siteMetadata;
+  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
   const {
     currentPage,
@@ -25,6 +23,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
     prevPagePath,
     nextPagePath
   } = pageContext;
+
 
   const { edges } = data.allMarkdownRemark;
   const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;

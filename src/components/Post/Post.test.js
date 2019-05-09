@@ -1,8 +1,19 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
+import { useStaticQuery, StaticQuery } from 'gatsby';
 import Post from './Post';
+import siteMetadata from '../../../jest/__fixtures__/site-metadata';
 
 describe('Post', () => {
+  beforeEach(() => {
+    StaticQuery.mockImplementationOnce(
+      ({ render }) => (
+        render(siteMetadata)
+      ),
+      useStaticQuery.mockReturnValue(siteMetadata)
+    );
+  });
+
   const props = {
     post: {
       html: '<p>test</p>',

@@ -3,20 +3,12 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
+import { useSiteMetadata } from '../hooks';
 
 const PageTemplate = ({ data }) => {
-  const {
-    title: siteTitle,
-    subtitle: siteSubtitle
-  } = data.site.siteMetadata;
-
-  const {
-    title: pageTitle,
-    description: pageDescription
-  } = data.markdownRemark.frontmatter;
-
+  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { html: pageBody } = data.markdownRemark;
-
+  const { title: pageTitle, description: pageDescription } = data.markdownRemark.frontmatter;
   const metaDescription = pageDescription !== null ? pageDescription : siteSubtitle;
 
   return (

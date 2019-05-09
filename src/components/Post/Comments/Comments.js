@@ -1,12 +1,9 @@
 import React from 'react';
-import { graphql, StaticQuery } from 'gatsby';
 import ReactDisqusComments from 'react-disqus-comments';
+import { useSiteMetadata } from '../../../hooks';
 
-export const PureComments = ({ data, postTitle, postSlug }) => {
-  const {
-    url,
-    disqusShortname
-  } = data.site.siteMetadata;
+const Comments = ({ postTitle, postSlug }) => {
+  const { url, disqusShortname } = useSiteMetadata();
 
   if (!disqusShortname) {
     return null;
@@ -21,21 +18,5 @@ export const PureComments = ({ data, postTitle, postSlug }) => {
     />
   );
 };
-
-export const Comments = (props) => (
-  <StaticQuery
-    query={graphql`
-      query CommentsQuery {
-        site {
-          siteMetadata {
-            disqusShortname
-            url
-          }
-        }
-      }
-    `}
-    render={(data) => <PureComments {...props} data={data}/>}
-  />
-);
 
 export default Comments;

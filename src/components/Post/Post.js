@@ -8,14 +8,9 @@ import Tags from './Tags';
 import styles from './Post.module.scss';
 
 const Post = ({ post }) => {
-  const {
-    tags,
-    title,
-    date
-  } = post.frontmatter;
-
   const { html } = post;
-  const { tagSlugs } = post.fields;
+  const { tagSlugs, slug } = post.fields;
+  const { tags, title, date } = post.frontmatter;
 
   return (
     <div className={styles['post']}>
@@ -32,7 +27,7 @@ const Post = ({ post }) => {
       </div>
 
       <div className={styles['post__comments']}>
-        <Comments postSlug={post.fields.slug} postTitle={post.frontmatter.title} />
+        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
       </div>
     </div>
   );
