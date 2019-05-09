@@ -27,6 +27,10 @@ jobs:
           keys:
             - dependencies-{{ checksum "yarn.lock" }}
       - run: yarn flow-typed
+      - save_cache:
+          paths:
+            - flow-typed
+          key: flow-typed-{{ checksum "yarn.lock" }}
 
   lint:
     <<: *defaults
@@ -35,6 +39,7 @@ jobs:
       - restore_cache:
           keys:
             - dependencies-{{ checksum "yarn.lock" }}
+            - flow-typed-{{ checksum "yarn.lock" }}
       - run: yarn lint
 
   test:
