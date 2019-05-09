@@ -1,9 +1,11 @@
+// @flow
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { useStaticQuery, StaticQuery } from 'gatsby';
 import CategoriesListTemplate from './categories-list-template';
 import siteMetadata from '../../jest/__fixtures__/site-metadata';
 import allMarkdownRemark from '../../jest/__fixtures__/all-markdown-remark';
+import type { RenderCallback } from '../types';
 
 describe('CategoriesListTemplate', () => {
   const props = {
@@ -13,7 +15,7 @@ describe('CategoriesListTemplate', () => {
 
   beforeEach(() => {
     StaticQuery.mockImplementationOnce(
-      ({ render }) => (
+      ({ render }: RenderCallback) => (
         render(props)
       ),
       useStaticQuery.mockReturnValue(props)

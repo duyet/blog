@@ -4,11 +4,11 @@ import { getContactHref, getIcon } from '../../../utils';
 import Icon from '../../Icon';
 import styles from './Contacts.module.scss';
 
-type Props = {|
-  +contacts: {
+type Props = {
+  contacts: {
     [string]: string,
   },
-|};
+};
 
 const Contacts = ({ contacts }: Props) => (
   <div className={styles['contacts']}>

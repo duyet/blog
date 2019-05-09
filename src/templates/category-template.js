@@ -1,3 +1,4 @@
+// @flow
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
@@ -6,8 +7,14 @@ import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import { useSiteMetadata } from '../hooks';
+import type { PageContext, AllMarkdownRemark } from '../types';
 
-const CategoryTemplate = ({ data, pageContext }) => {
+type Props = {
+  data: AllMarkdownRemark,
+  pageContext: PageContext
+};
+
+const CategoryTemplate = ({ data, pageContext }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
   const {

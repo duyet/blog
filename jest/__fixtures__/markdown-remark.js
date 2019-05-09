@@ -2,6 +2,7 @@
 
 module.exports = {
   markdownRemark: {
+    id: 'test-123',
     html: '<p>test</p>',
     fields: {
       tagSlugs: [

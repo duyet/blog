@@ -1,13 +1,15 @@
+// @flow
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { useStaticQuery, StaticQuery } from 'gatsby';
 import Sidebar from './Sidebar';
 import siteMetadata from '../../../jest/__fixtures__/site-metadata';
+import type { RenderCallback } from '../../types';
 
 describe('Sidebar', () => {
   beforeEach(() => {
     StaticQuery.mockImplementationOnce(
-      ({ render }) => (
+      ({ render }: RenderCallback) => (
         render(siteMetadata)
       ),
       useStaticQuery.mockReturnValue(siteMetadata)

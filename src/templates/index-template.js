@@ -7,10 +7,11 @@ import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import { useSiteMetadata } from '../hooks';
+import type { PageContext, AllMarkdownRemark } from '../types';
 
 type Props = {
-  +data: Object,
-  +pageContext: Object,
+  data: AllMarkdownRemark,
+  pageContext: PageContext
 };
 
 const IndexTemplate = ({ data, pageContext }: Props) => {
@@ -46,12 +47,6 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
 
 export const query = graphql`
   query IndexTemplate($postsLimit: Int!, $postsOffset: Int!) {
-    site {
-      siteMetadata {
-        title
-        subtitle
-      }
-    }
     allMarkdownRemark(
         limit: $postsLimit,
         skip: $postsOffset,
