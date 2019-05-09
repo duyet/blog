@@ -20,7 +20,7 @@ jobs:
           key: dependencies-{{ checksum "yarn.lock" }}
 
   flow-typed:
-    << *defaults
+    <<: *defaults
     steps:
       - checkout
       - restore_cache:
