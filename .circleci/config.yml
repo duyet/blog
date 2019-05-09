@@ -19,6 +19,15 @@ jobs:
             - node_modules
           key: dependencies-{{ checksum "yarn.lock" }}
 
+  flow-typed:
+    << *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - dependencies-{{ checksum "yarn.lock" }}
+      - run: yarn flow-typed
+
   lint:
     <<: *defaults
     steps:
@@ -68,8 +77,12 @@ workflows:
   test:
     jobs:
       - install
+      - flow-typed:
+          requires:
+            - install
       - lint:
           requires:
+            - flow-typed
             - install
       - test:
           requires:
