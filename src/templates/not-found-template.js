@@ -1,14 +1,12 @@
+// @flow
 import React from 'react';
-import { graphql } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import Layout from '../components/Layout';
 import Page from '../components/Page';
+import { useSiteMetadata } from '../hooks';
 
-const NotFoundTemplate = ({ data }) => {
-  const {
-    title,
-    subtitle
-  } = data.site.siteMetadata;
+const NotFoundTemplate = () => {
+  const { title, subtitle } = useSiteMetadata();
 
   return (
     <Layout title={`Not Found - ${title}`} description={subtitle}>
@@ -19,16 +17,5 @@ const NotFoundTemplate = ({ data }) => {
     </Layout>
   );
 };
-
-export const query = graphql`
-  query NotFoundQuery {
-    site {
-      siteMetadata {
-        title
-        subtitle
-      }
-    }
-  }
-`;
 
 export default NotFoundTemplate;

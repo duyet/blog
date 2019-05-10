@@ -4,8 +4,8 @@ exports[`Author renders correctly 1`] = `
 <div
   className="author"
 >
-  <Link
-    to="/"
+  <a
+    href="/"
   >
     <img
       alt="test"
@@ -14,16 +14,16 @@ exports[`Author renders correctly 1`] = `
       src="/photo.jpg"
       width="75"
     />
-  </Link>
+  </a>
   <h2
     className="author__title"
   >
-    <Link
+    <a
       className="author__title-link"
-      to="/"
+      href="/"
     >
       test
-    </Link>
+    </a>
   </h2>
   <p
     className="author__subtitle"

@@ -4,12 +4,12 @@ exports[`Post renders correctly 1`] = `
 <div
   className="post"
 >
-  <Link
+  <a
     className="post__home-button"
-    to="/"
+    href="/"
   >
     All Articles
-  </Link>
+  </a>
   <div
     className="post__content"
   >
@@ -53,35 +53,48 @@ exports[`Post renders correctly 1`] = `
         <li
           className="tags__list-item"
         >
-          <Link
+          <a
             className="tags__list-item-link"
-            to="/test_0"
+            href="/test_0"
           >
             test_0
-          </Link>
+          </a>
         </li>
         <li
           className="tags__list-item"
         >
-          <Link
+          <a
             className="tags__list-item-link"
-            to="/test_1"
+            href="/test_1"
           >
             test_1
-          </Link>
+          </a>
         </li>
       </ul>
     </div>
-    <StaticQuery
-      render={[Function]}
-    />
+    <div
+      className="author"
+    >
+      <p
+        className="author__bio"
+      >
+        Test bio
+        <a
+          className="author__bio-twitter"
+          href="https://www.twitter.com/#"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <strong>
+            Test name
+          </strong>
+           on Twitter
+        </a>
+      </p>
+    </div>
   </div>
   <div
     className="post__comments"
-  >
-    <StaticQuery
-      render={[Function]}
-    />
-  </div>
+  />
 </div>
 `;

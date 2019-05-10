@@ -1,26 +1,23 @@
+// @flow
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { PureAuthor as Author } from './Author';
+import { useStaticQuery, StaticQuery } from 'gatsby';
+import Author from './Author';
+import siteMetadata from '../../../../jest/__fixtures__/site-metadata';
+import type { RenderCallback } from '../../../types';
 
 describe('Author', () => {
-  it('renders correctly', () => {
-    const props = {
-      data: {
-        site: {
-          siteMetadata: {
-            author: {
-              name: 'test',
-              bio: 'test',
-              contacts: {
-                twitter: 'test'
-              }
-            }
-          }
-        }
-      }
-    };
+  beforeEach(() => {
+    StaticQuery.mockImplementationOnce(
+      ({ render }: RenderCallback) => (
+        render(siteMetadata)
+      ),
+      useStaticQuery.mockReturnValue(siteMetadata)
+    );
+  });
 
-    const tree = renderer.create(<Author {...props} />).toJSON();
+  it('renders correctly', () => {
+    const tree = renderer.create(<Author />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

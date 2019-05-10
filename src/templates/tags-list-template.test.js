@@ -1,33 +1,29 @@
+// @flow
 import React from 'react';
 import renderer from 'react-test-renderer';
+import { useStaticQuery, StaticQuery } from 'gatsby';
 import TagsListTemplate from './tags-list-template';
+import siteMetadata from '../../jest/__fixtures__/site-metadata';
+import allMarkdownRemark from '../../jest/__fixtures__/all-markdown-remark';
+import type { RenderCallback } from '../types';
 
 describe('TagsListTemplate', () => {
   const props = {
-    data: {
-      allMarkdownRemark: {
-        group: [
-          {
-            fieldValue: 'test_0',
-            totalCount: 1
-          },
-          {
-            fieldValue: 'test_1',
-            totalCount: 2
-          }
-        ]
-      },
-      site: {
-        siteMetadata: {
-          title: 'test',
-          subtitle: 'test'
-        }
-      }
-    }
+    ...siteMetadata,
+    ...allMarkdownRemark
   };
 
+  beforeEach(() => {
+    StaticQuery.mockImplementationOnce(
+      ({ render }: RenderCallback) => (
+        render(props)
+      ),
+      useStaticQuery.mockReturnValue(props)
+    );
+  });
+
   it('renders correctly', () => {
-    const tree = renderer.create(<TagsListTemplate {...props} />).toJSON();
+    const tree = renderer.create(<TagsListTemplate />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

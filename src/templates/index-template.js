@@ -6,17 +6,16 @@ import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
+import { useSiteMetadata } from '../hooks';
+import type { PageContext, AllMarkdownRemark } from '../types';
 
 type Props = {
-  +data: Object,
-  +pageContext: Object,
+  data: AllMarkdownRemark,
+  pageContext: PageContext
 };
 
 const IndexTemplate = ({ data, pageContext }: Props) => {
-  const {
-    title: siteTitle,
-    subtitle: siteSubtitle
-  } = data.site.siteMetadata;
+  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
   const {
     currentPage,
@@ -25,6 +24,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
     prevPagePath,
     nextPagePath
   } = pageContext;
+
 
   const { edges } = data.allMarkdownRemark;
   const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
@@ -47,12 +47,6 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
 
 export const query = graphql`
   query IndexTemplate($postsLimit: Int!, $postsOffset: Int!) {
-    site {
-      siteMetadata {
-        title
-        subtitle
-      }
-    }
     allMarkdownRemark(
         limit: $postsLimit,
         skip: $postsOffset,

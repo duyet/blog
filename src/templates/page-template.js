@@ -1,22 +1,22 @@
+// @flow
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
+import { useSiteMetadata } from '../hooks';
+import type { MarkdownRemark } from '../types';
 
-const PageTemplate = ({ data }) => {
-  const {
-    title: siteTitle,
-    subtitle: siteSubtitle
-  } = data.site.siteMetadata;
+type Props = {
+  data: {
+    markdownRemark: MarkdownRemark
+  }
+};
 
-  const {
-    title: pageTitle,
-    description: pageDescription
-  } = data.markdownRemark.frontmatter;
-
+const PageTemplate = ({ data }: Props) => {
+  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { html: pageBody } = data.markdownRemark;
-
+  const { title: pageTitle, description: pageDescription } = data.markdownRemark.frontmatter;
   const metaDescription = pageDescription !== null ? pageDescription : siteSubtitle;
 
   return (
@@ -31,12 +31,6 @@ const PageTemplate = ({ data }) => {
 
 export const query = graphql`
   query PageBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-        subtitle
-      }
-    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html

@@ -1,3 +1,4 @@
+// @flow
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
@@ -5,12 +6,16 @@ import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
+import { useSiteMetadata } from '../hooks';
+import type { PageContext, AllMarkdownRemark } from '../types';
 
-const CategoryTemplate = ({ data, pageContext }) => {
-  const {
-    title: siteTitle,
-    subtitle: siteSubtitle
-  } = data.site.siteMetadata;
+type Props = {
+  data: AllMarkdownRemark,
+  pageContext: PageContext
+};
+
+const CategoryTemplate = ({ data, pageContext }: Props) => {
+  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
   const {
     category,
@@ -42,12 +47,6 @@ const CategoryTemplate = ({ data, pageContext }) => {
 
 export const query = graphql`
   query CategoryPage($category: String, $postsLimit: Int!, $postsOffset: Int!) {
-    site {
-      siteMetadata {
-        title
-        subtitle
-      }
-    }
     allMarkdownRemark(
         limit: $postsLimit,
         skip: $postsOffset,

@@ -1,67 +1,28 @@
+// @flow
 import React from 'react';
 import renderer from 'react-test-renderer';
+import { useStaticQuery, StaticQuery } from 'gatsby';
 import TagTemplate from './tag-template';
+import siteMetadata from '../../jest/__fixtures__/site-metadata';
+import allMarkdownRemark from '../../jest/__fixtures__/all-markdown-remark';
+import pageContext from '../../jest/__fixtures__/page-context';
+import type { RenderCallback } from '../types';
 
 describe('TagTemplate', () => {
+  beforeEach(() => {
+    StaticQuery.mockImplementationOnce(
+      ({ render }: RenderCallback) => (
+        render(siteMetadata)
+      ),
+      useStaticQuery.mockReturnValue(siteMetadata)
+    );
+  });
+
   const props = {
     data: {
-      allMarkdownRemark: {
-        group: [
-          {
-            fieldValue: 'test_0',
-            totalCount: 1
-          },
-          {
-            fieldValue: 'test_1',
-            totalCount: 2
-          }
-        ],
-        edges: [
-          {
-            node: {
-              fields: {
-                slug: '/test_0',
-                categorySlug: '/test'
-              },
-              frontmatter: {
-                date: '2016-09-01',
-                description: 'test_0',
-                category: 'test',
-                title: 'test_0'
-              }
-            }
-          },
-          {
-            node: {
-              fields: {
-                slug: '/test_1',
-                categorySlug: '/test'
-              },
-              frontmatter: {
-                date: '2016-09-01',
-                description: 'test_1',
-                category: 'test',
-                title: 'test_1'
-              }
-            }
-          }
-        ]
-      },
-      site: {
-        siteMetadata: {
-          title: 'test',
-          subtitle: 'test'
-        }
-      }
+      ...allMarkdownRemark
     },
-    pageContext: {
-      tag: 'test',
-      currentPage: 1,
-      prevPagePath: '/page/1',
-      nextPagePath: '/page/3',
-      hasNextPage: true,
-      hasPrevPage: true
-    }
+    ...pageContext
   };
 
   it('renders correctly', () => {
