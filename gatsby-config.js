@@ -32,6 +32,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'css',
+        path: `${__dirname}/static/css`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'assets',
         path: `${__dirname}/static`
       }
@@ -193,6 +200,6 @@ module.exports = {
         }
       }
     },
-    'gatsby-plugin-flow',
+    'gatsby-plugin-flow'
   ]
 };
