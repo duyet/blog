@@ -5,7 +5,6 @@ install:
   - npm install -g codecov
 script:
   - yarn install
-  - yarn flow-typed
   - yarn lint
   - yarn test:coverage --runInBand --no-cache
   - yarn test --runInBand --no-cache
@@ -13,4 +12,3 @@ script:
 cache:
   directories:
     - node_modules
-    - flow-typed

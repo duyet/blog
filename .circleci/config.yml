@@ -19,22 +19,6 @@ jobs:
             - node_modules
           key: dependencies-{{ checksum "yarn.lock" }}
 
-  flow-typed:
-    <<: *defaults
-    steps:
-      - checkout
-      - restore_cache:
-          keys:
-            - dependencies-{{ checksum "yarn.lock" }}
-      - restore_cache:
-          keys:
-            - flow-typed-{{ checksum "yarn.lock" }}
-      - run: yarn flow-typed
-      - save_cache:
-          paths:
-            - flow-typed
-          key: flow-typed-{{ checksum "yarn.lock" }}
-
   lint:
     <<: *defaults
     steps:
@@ -42,9 +26,6 @@ jobs:
       - restore_cache:
           keys:
             - dependencies-{{ checksum "yarn.lock" }}
-      - restore_cache:
-          keys:
-            - flow-typed-{{ checksum "yarn.lock" }}
       - run: yarn lint
 
   test:
@@ -87,12 +68,8 @@ workflows:
   test:
     jobs:
       - install
-      - flow-typed:
-          requires:
-            - install
       - lint:
           requires:
-            - flow-typed
             - install
       - test:
           requires:
