@@ -3467,13 +3467,13 @@ core-js-pure@3.1.4:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.1.4.tgz#5fa17dc77002a169a3566cc48dc774d2e13e3769"
 
-core-js@2, core-js@^2.4.0, core-js@^2.4.1, core-js@^2.5.0, core-js@^2.5.7, core-js@^2.6.5:
-  version "2.6.9"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
-
 core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
+
+core-js@^2.4.0, core-js@^2.4.1, core-js@^2.5.0, core-js@^2.5.7, core-js@^2.6.5:
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -4649,13 +4649,13 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint-watch@5.1.2:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/eslint-watch/-/eslint-watch-5.1.2.tgz#4c4b7ec360955ebea46d2440916b1c5a9c2c010d"
+eslint-watch@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-watch/-/eslint-watch-6.0.0.tgz#63c3db759fb477c7fa5db93fdb54022b5700433d"
   dependencies:
     "@babel/polyfill" "^7.4.4"
     chokidar "^2.0.4"
-    core-js "2"
+    core-js "^2.6.5"
     debug "^4.1.0"
     execa "^1.0.0"
     keypress "^0.2.1"
