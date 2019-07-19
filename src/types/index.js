@@ -1,9 +1,13 @@
 // @flow
 import type { Node as ReactNode } from 'react';
 
-export type RenderCallback = (data: any) => ReactNode;
+export type RenderCallback = {
+  render: (data: any) => ReactNode;
+}
 
-export type Entry = (string[]) => string;
+export type Entry = {
+  getIn: (string[]) => string;
+}
 
 export type WidgetFor = (string) => string;
 
