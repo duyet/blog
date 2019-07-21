@@ -33,10 +33,10 @@ const Pagination = ({
   return (
     <div className={styles['pagination']}>
       <div className={styles['pagination__prev']}>
-        <Link rel="prev" to={prevPagePath} className={prevClassName}>{PAGINATION.PREV_PAGE}</Link>
+        <Link rel="prev" to={hasPrevPage ? prevPagePath : '/'} className={prevClassName}>{PAGINATION.PREV_PAGE}</Link>
       </div>
       <div className={styles['pagination__next']}>
-        <Link rel="next" to={nextPagePath} className={nextClassName}>{PAGINATION.NEXT_PAGE}</Link>
+        <Link rel="next" to={hasNextPage ? nextPagePath : '/'} className={nextClassName}>{PAGINATION.NEXT_PAGE}</Link>
       </div>
     </div>
   );
