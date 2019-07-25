@@ -1,6 +1,18 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [3.0.3] - 2019-07-25
+### Added
+- [Pull #321](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/321): Add title to <Icon /> for accessibility
+- [Pull #319](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/319): Fixed invalid Telegram contact url
+- [Pull #314](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/314): Hides the contact icon if empty in config
+- [Pull #295](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/295): Add external link defaults for markdown
+- [Pull #283](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/283): Add pathPrefix configuration
+- [Pull #231](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/231): Add Twitter Card
+- [Pull #210](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/210): Bug fixes
+- [Pull #181](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/181): Add More Flow typings
+- [Pull #178](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/178): Integrate Flow typing
+
 ## [3.0.1] - 2019-03-03
 ### Added
 - [Pull #118](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/118): feat: add gatsby-remark-autolink-headers support
