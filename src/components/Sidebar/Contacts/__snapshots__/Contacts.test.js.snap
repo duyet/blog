@@ -122,7 +122,7 @@ exports[`Contacts renders correctly 1`] = `
     >
       <a
         className="contacts__list-item-link"
-        href="telegram:#"
+        href="https://t.me/#"
         rel="noopener noreferrer"
         target="_blank"
       >
