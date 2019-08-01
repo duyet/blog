@@ -1,4 +1,4 @@
-// @flow
+// @flow strict
 import { useStaticQuery, graphql } from 'gatsby';
 
 const useCategoriesList = () => {

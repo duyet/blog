@@ -1,7 +1,8 @@
-// @flow
+// @flow strict
 import type { Node as ReactNode } from 'react';
 
 export type RenderCallback = {
+  // $FlowFixMe
   render: (data: any) => ReactNode;
 }
 

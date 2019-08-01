@@ -1,4 +1,4 @@
-// @flow
+// @flow strict
 import React from 'react';
 import { withPrefix, Link } from 'gatsby';
 import styles from './Author.module.scss';
@@ -24,7 +24,7 @@ const Author = ({ author, isIndex }: Props) => (
       />
     </Link>
 
-    { isIndex ? (
+    { isIndex === true ? (
       <h1 className={styles['author__title']}>
         <Link className={styles['author__title-link']} to="/">{author.name}</Link>
       </h1>
