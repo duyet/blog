@@ -1,4 +1,4 @@
-// @flow
+// @flow strict
 import getContactHref from './get-contact-href';
 
 test('getContactHref', () => {

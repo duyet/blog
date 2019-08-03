@@ -1,4 +1,4 @@
-// @flow
+// @flow strict
 import React from 'react';
 import { getContactHref } from '../../../utils';
 import styles from './Author.module.scss';
