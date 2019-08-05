@@ -72,7 +72,7 @@ console.log('Thực hiện công việc khác');
 
 Ta có thể thấy ở đây, tốc độ xử lý của non-block code là cao hơn so với block code. Giả sử bạn thực hiện công việc trên ở 2 file trở lên thì tốc dộ xử lý của Non-block code sẽ nhanh hơn Block code rất nhiều. Hãy tự trải nghiệm :)
 
-## Ứng dụng đầu tiên ## (style=undefined)
+## Ứng dụng đầu tiên 
 
 ```js
 var http = require('http'); // đây là cách chúng ta require các modules

@@ -7,12 +7,12 @@ module.exports = {
   subtitle: 'Data Engineer @ Fossil. I blog about web development, machine learning, and more.',
   copyright: '© duyet.net',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 8,
   googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Blog',
       path: '/'
     },
     {

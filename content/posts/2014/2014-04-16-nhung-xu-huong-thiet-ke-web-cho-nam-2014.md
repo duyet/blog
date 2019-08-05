@@ -68,7 +68,7 @@ Tạm biệt Geogria, Time News Roman, Arial và cả Helvetica! Hẳn bạn cũ
 
 Thực tế thì dù trong lĩnh vực thiết kế nào, typography vẫn được trân trọng, nhưng phải đợi công nghệ nhúng phông, và sự tham gia của google fonts khiến Typography được sử dụng dễ dàng, phổ biến. 
 
-## 7. Website càng đơn giản và chỉ tập trung vào nội dung. ## (style=undefined)
+## 7. Website càng đơn giản và chỉ tập trung vào nội dung. 
 
 ![](https://3.bp.blogspot.com/-34MofxuuOtM/U04iqH_h1AI/AAAAAAAAGi0/v9GRvbwEcdc/s1600/nytimes.jpg)
 
