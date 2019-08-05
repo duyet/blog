@@ -110,7 +110,7 @@ Ví dụ nhé:
 Giá trị trong thuộc tính này là 1 json, gồm tên package và version của package của gói đó. 
 Khi có file `package.json` bạn có thể cài các gói này 1 cách tự động bằng lệnh
 
-```sh
+```shell
 $ npm install
 ```
 

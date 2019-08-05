@@ -36,7 +36,7 @@ Pip là trình quản lý các module của python.
 
 Cài pip:
 
-```sh
+```shell
 # Ubuntu/Linux 64-bit
 $ sudo apt-get install python-pip python-dev
 
@@ -46,7 +46,7 @@ $ sudo easy_install pip
 
 Sau đó cài Tensorflow:
 
-```sh
+```shell
 # Ubuntu/Linux 64-bit, CPU only:
 $ sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.6.0-cp27-none-linux_x86_64.whl
 
@@ -71,7 +71,7 @@ $ sudo pip install --upgrade https://storage.googleapis.com/tensorflow/mac/tenso
 ## Kiểm tra cài đặt ##
 Kiểm tra xem Tensorflow đã được cài đặt thành công hay chưa. Mở terminal và gõ thử các lệnh python sau. Nếu báo lỗi tức là cài đặt không thành công.
 
-```sh
+```shell
 $ python
 ...
 >>> import tensorflow as tf

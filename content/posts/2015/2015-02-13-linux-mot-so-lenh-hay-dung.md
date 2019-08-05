@@ -22,7 +22,7 @@ Dùng Linux cũng đã lâu. Thấy nhiều bạn học HDH, nếu không nắm 
 Trước hết, 1 lênh quan trọng nhất khi bắt đầu tìm hiểu về lệnh trên terminal là lệnh man, lệnh man giúp bạn xem thông tin hướng dẫn cách sử dụng 1 lệnh nào đó (man là viết tắt của manual nha)
 Ví dụ:
 
-```sh
+```shell
 $ man cp
 $ man ls
 ```
@@ -81,13 +81,13 @@ Dù ở phân phối nào, bạn cũng có thể dùng phím TAB để tự đ�
 
 Bạn có thể dùng lệnh đa dòng trên một dòng. Ví dụ như, nếu muốn tạo ba thư mục chỉ trên một dòng, cú pháp có thể là: 
 
-```sh
+```shell
 $ mkdir ./lvduit; mkdir ./uit
 ```
 
 hay 
 
-```sh
+```shell
 $ mkdir ./lvduit && mkdir ./uit
 ```
 
@@ -115,13 +115,13 @@ Nếu là một quản trị viên hệ thống Linux, bạn cần phải biết
 
 Để lấy thông tin thư mục NFS bạn hãy sử dụng lệnh sau:
 
-```sh
+```shell
 $ iostat –n
 ```
 
 Kiểm tra Memory Map của các tiến trình trong Linux
 
-```sh
+```shell
 $ free
 ```
 
@@ -132,7 +132,7 @@ Với nhiều người dùng Linux, kiểm soát hệ thống là một tác v�
 
 Bạn chỉ cần nhập lệnh sau vào cửa sổ terminal:
 
-```sh
+```shell
 $ vmstat 3
 ```
 
@@ -141,13 +141,13 @@ Ngoài ra bạn có thể sử dụng lệnh vmstat –m để kiểm tra thông
 ## Kiểm tra thông tin phần cứng của hệ thống Linux ##
 Với một số người dùng Linux thì việc kiểm tra thông tin phần cứng thật không dễ dàng. Linux là một hệ thống phức tạp nhưng nó lại tích hợp một số công cụ giúp lấy thông tin chi tiết của phần cứng, chẳng hạn chúng ta có thể sử dụng một lệnh khá đơn giản để kiểm tra thông tin đĩa cứng trên hệ thống đó là lệnh hdparm. Lệnh này cung cấp một giao diện dòng lệnh để thực hiện quản lý nhiều loại đĩa cứng được hệ thống phụ điều khiển thiết bị ATA/IDE của Linux hỗ trợ. Nó cung cấp một lệnh giúp hiển thị thông tin xác minh như dung lượng, thông tin chi tiết, … trực tiếp từ ổ đĩa. Thông tin này được lưu dưới một định dạng mở rộng mới. Bạn chỉ cần đăng nhập dưới quyền root user và sử dụng lệnh sau:
 
-```sh
+```shell
 $ hdparm -I /dev/sda
 ```
 
 Hoặc dùng lệnh:
 
-```sh
+```shell
 $ sudo hdparm -I /dev/sda
 ```
 

@@ -45,7 +45,7 @@ Bạn có thể cài đặt như hướng dẫn trong Github.
 #### 1. Cài redis-server
 Trong Ubuntu, sử dụng lệnh:
 
-```sh
+```shell
 sudo apt-get install -y redis redis-server
 ```
 
@@ -58,7 +58,7 @@ PONG
 
 #### 2. Tạo môi trường ảo và cài đặt các thư viện:
 
-```sh
+```shell
 virtualenv venv                   # create virtual environment folder
 source ./venv/bin/activate        # activate env
 pip install -r requirements.txt   # install packages
@@ -66,19 +66,19 @@ pip install -r requirements.txt   # install packages
 
 #### 3. Run worker.py
 
-```sh
+```shell
 python worker.py
 ```
 
 #### 4. Mở terminal khác, khởi động server.py
 
-```sh
+```shell
 python server.py
 ```
 
 #### 5. Sử dụng Postman hoặc cURL để test:
 
-```sh
+```shell
 curl -X POST http://localhost:5000/predict \
         -F 'image=@file.png'
 ```

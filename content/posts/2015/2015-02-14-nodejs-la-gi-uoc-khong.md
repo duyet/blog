@@ -88,7 +88,7 @@ Chạy server: `node hello` hoặc `node hello.js` --> Server đang chờ kết 
 
 Mở trình duyệt và truy cập tới địa chỉ http://localhost:3000 hoặc dùng terminal:
 
-```sh
+```shell
 $ curl http://localhost:3000
 ```
 

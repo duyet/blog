@@ -49,32 +49,32 @@ Về thư mục gốc
 
 Nhảy đến 1 vị trí bất kì khi biết địa chỉ tuyệt đối
 
-```sh
+```shell
 [lvduit@lvduit ~]$ cd /usr/lib/
 ```
 
 Di chuyển đến thư mục con nằm trong thư mục hiện tại
 
-```sh
+```shell
 [lvduit@lvduit ~]$ cd docs  # hoặc ./docs
 ```
 
 Di chuyển đến thư mục mẹ
 
-```sh
+```shell
 [lvduit@lvduit ~]$ cd ..
 [lvduit@lvduit ~]$ cd ../..  # di chuyển đến thư mục mẹ 2 lần
 ```
 
 Bây giờ, giả sử bạn đang làm việc trong thư mục `/mnt/data/linux`. Sau đó bạn chuyển sang thư mục `/etc/sysconfig`. Để quay trở lại thư mục `/mnt/data/linux`, bạn gõ:
 
-```sh
+```shell
 $ cd -
 ```
 
 Lệnh cd không có tham số, sẽ đưa bạn về nhà, dù bất kể bạn đang ở đâu
 
-```sh
+```shell
 [lvduit@lvduit ~]$ pwd
 /net/ftp/pub/html
 [lvduit@lvduit ~]$ cd
@@ -84,7 +84,7 @@ Lệnh cd không có tham số, sẽ đưa bạn về nhà, dù bất kể bạn
 
 Tương tự vậy, thư mục ~ cũng cho phép bạn về nhà bằng cách này
 
-```sh
+```shell
 [lvduit@lvduit ~]$ cd ~
 ```
 

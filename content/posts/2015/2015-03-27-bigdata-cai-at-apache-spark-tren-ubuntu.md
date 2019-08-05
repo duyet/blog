@@ -32,7 +32,7 @@ Sau đây mình sẽ hướng dẫn về các bước cần thiết để biên 
 ## Cài đặt Java ##
 Để có thể chạy Spark trên ubuntu, cần phải có Java. Nếu chưa có thì cài đặt như sau, chạy các lệnh:
 
-```sh
+```shell
 $ sudo apt-add-repository ppa:webupd8team/java
 $ sudo apt-get update
 $ sudo apt-get install oracle-java7-installer

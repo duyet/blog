@@ -21,7 +21,7 @@ Nếu bạn chưa cài đặt bản XAMPP Developer thì bạn có thể downloa
 
 Đầu tiên, download và giải nén APC
 
-```sh
+```shell
 wget -O apc-latest.tar.gz http://pecl.php.net/get/APC
 tar xvfz apc-latest.tar.gz
 cd APC-*

@@ -56,7 +56,7 @@ pip install numpy
 
 Bắt đầu build source:
 
-```sh
+```shell
 cd opencv-3.1.0/
 mkdir build
 cd build
