@@ -12,8 +12,7 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-63184889715175862
 blogger_orig_url: https://blog.duyet.net/2016/01/offline-first-trong-modern-web.html
 slug: /2016/01/offline-first-trong-modern-web.html
 category: Web
-description: "Web" và "Online" là gần như là 2 khái niệm đi liền với nhau. Nhưng gần đây xu thế mới trong thế giới web còn tồn tại 1 khái niệm nữa là công nghệ web offline, offline-first.
-
+description: '"Web" và "Online" là gần như là 2 khái niệm đi liền với nhau. Nhưng gần đây xu thế mới trong thế giới web còn tồn tại 1 khái niệm nữa là công nghệ web offline, offline-first.'
 ---
 
 "Web" và "Online" là gần như là 2 khái niệm đi liền với nhau. Nhưng gần đây xu thế mới trong thế giới web còn tồn tại 1 khái niệm nữa là công nghệ web offline, offline-first.
