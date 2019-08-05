@@ -34,6 +34,13 @@
       @include margin-bottom(.75);
     }
 
+    &-thumbnail {
+      img {
+        max-width: 100%;
+        vertical-align: middle;
+      }
+    }
+
     &-meta {
       &-time {
         font-size: $typographic-small-font-size;
