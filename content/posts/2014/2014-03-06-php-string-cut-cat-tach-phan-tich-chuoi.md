@@ -23,7 +23,7 @@ Class này mình tìm thấy trên PhpClasses của tác giả Schroetter Christ
 - Xóa 1 chuỗi giữa 2 tag.
 - ....
 
-Download code class [tại đây](http://1drv.ms/1iezGxU)
+Download code class [tại đây](https://1drv.ms/1iezGxU)
 
 ```php
 <?php

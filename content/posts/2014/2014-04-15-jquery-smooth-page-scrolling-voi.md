@@ -14,19 +14,19 @@ description: Trong tutorial này, mình sẽ hướng dẫn các bạn có đư�
 
 ---
 
-Trong tutorial này, mình sẽ hướng dẫn các bạn có được hiệu ứng cuộn trang 1 cách mượt mà. Hiện chức năng này có sẵn trên firefox, hay chrome,.. nhưng không phải Client nào cũng được bật chức năng này. Trong bài viết mình sẽ sử dụng [TweenMax](http://www.greensock.com/tweenmax/) và [ScrollToPlugin](http://api.greensock.com/js/com/greensock/plugins/ScrollToPlugin.html).
+Trong tutorial này, mình sẽ hướng dẫn các bạn có được hiệu ứng cuộn trang 1 cách mượt mà. Hiện chức năng này có sẵn trên firefox, hay chrome,.. nhưng không phải Client nào cũng được bật chức năng này. Trong bài viết mình sẽ sử dụng [TweenMax](https://www.greensock.com/tweenmax/) và [ScrollToPlugin](https://api.greensock.com/js/com/greensock/plugins/ScrollToPlugin.html).
 
 ## Ý tưởng ##
-Ý tưởng khá đơn giản, ta sử dụng [snippet](http://blog.bassta.bg/2013/05/get-mousewheel-event-delta/) này, bắt event lăn chuột và [TweenMax](http://www.greensock.com/tweenmax/) và [ScrollToPlugin](http://api.greensock.com/js/com/greensock/plugins/ScrollToPlugin.html) để tạo hiệu ứng.
+Ý tưởng khá đơn giản, ta sử dụng [snippet](https://blog.bassta.bg/2013/05/get-mousewheel-event-delta/) này, bắt event lăn chuột và [TweenMax](https://www.greensock.com/tweenmax/) và [ScrollToPlugin](https://api.greensock.com/js/com/greensock/plugins/ScrollToPlugin.html) để tạo hiệu ứng.
 
 ## Code ##
 
 Đầu tiên load các plugin jQuery, TweenMax và ScrollToPlugin, mình sử dụng các script từ các CDN sau: 
 
 ```html
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
 
 ```
 
@@ -63,6 +63,6 @@ $(function(){
 
 Nếu bạn muốn cuộn nhanh hơn, tăng biến scrollTime lên với số thích hợp, còn muốn chậm lại thì giảm nó xuống.
 
-Code: [Download Files](http://bassta.bg/downloads/smooth-page-scroll.zip) | [View Demo](http://bassta.bg/demos/smooth-page-scroll/)
+Code: [Download Files](https://bassta.bg/downloads/smooth-page-scroll.zip) | [View Demo](https://bassta.bg/demos/smooth-page-scroll/)
 
 Chúc bạn thành công!

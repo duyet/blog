@@ -9,7 +9,7 @@ tags:
 - it
 - News
 modified_time: '2014-03-29T20:07:41.017+07:00'
-thumbnail: http://2.bp.blogspot.com/-pt8uCe8UDvo/UzbEYkG-mxI/AAAAAAAAGfk/9os3noHfH9k/s1600/img-1396088718-1.jpg
+thumbnail: https://2.bp.blogspot.com/-pt8uCe8UDvo/UzbEYkG-mxI/AAAAAAAAGfk/9os3noHfH9k/s1600/img-1396088718-1.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-663215315719583652
 blogger_orig_url: https://blog.duyet.net/2014/03/vi-sao-lap-trinh-vien-de-bi-ien.html
 slug: /2014/03/vi-sao-lap-trinh-vien-de-bi-ien.html
@@ -19,7 +19,7 @@ description: Lập trình hay viết phần mềm là một trong những nghề
 
 Lập trình hay viết phần mềm là một trong những nghề được xem là ổn định nhất hiện nay song chính nghề nghiệp này lại gây bất ổn nhất cho sức khỏe tinh thần của người làm nghề. Vì sao? 
 
-[![](http://2.bp.blogspot.com/-pt8uCe8UDvo/UzbEYkG-mxI/AAAAAAAAGfk/9os3noHfH9k/s1600/img-1396088718-1.jpg)](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F2.bp.blogspot.com%2F-pt8uCe8UDvo%2FUzbEYkG-mxI%2FAAAAAAAAGfk%2F9os3noHfH9k%2Fs1600%2Fimg-1396088718-1.jpg&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*)
+[![](https://2.bp.blogspot.com/-pt8uCe8UDvo/UzbEYkG-mxI/AAAAAAAAGfk/9os3noHfH9k/s1600/img-1396088718-1.jpg)](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F2.bp.blogspot.com%2F-pt8uCe8UDvo%2FUzbEYkG-mxI%2FAAAAAAAAGfk%2F9os3noHfH9k%2Fs1600%2Fimg-1396088718-1.jpg&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*)
 Đây là tương lai của những lập trình viên làm việc quá sức?
 Có hai điều đang xảy ra hàng ngày khiến lập trình viên (coder, programmer) phát điên. Một là “hội chứng kẻ mạo danh” (imposter syndrome), khi bạn chắn chắn rằng những coder khác làm cùng đều thông minh hơn, tài năng hơn và giàu kĩ năng hơn bạn. Bạn sống trong nỗi lo sợ rằng ai đó sẽ khám phá ra bạn đang lừa dối về trí thông minh hay năng lực của mình. Và điều thứ hai có khả năng khiến lập trình viên phát điên là trở thành một lập trình viên thực thụ!
 
@@ -33,7 +33,7 @@ Tuy nhiên, ngày càng nhiều lập trình viên nam cảm nhận thấy hội
 
 Thực tế lập trình viên phải làm việc hàng giờ ròng rã không mới, song ý tưởng về việc họ làm điều đó vì ý chí và sự ưa thích của bản thân lại mới mẻ. Ví dụ, một thập kỉ trước, trong thời kì “bong bóng Internet”, cuốn sách có tên “Death March” vô cùng ăn khách. Nó kể lại thời gian làm việc kéo dài đã khiến cho lập trình viên gặp vấn đề về sức khỏe như thế nào và kết luận chính quản lí dự án nghèo nàn phải chịu trách nhiệm về việc này.
 
-![](http://3.bp.blogspot.com/-EP57fj4y3A0/UzbEqZf8O5I/AAAAAAAAGfs/hph0Z17XhJg/s1600/img-1396088718-2.jpg)
+![](https://3.bp.blogspot.com/-EP57fj4y3A0/UzbEqZf8O5I/AAAAAAAAGfs/hph0Z17XhJg/s1600/img-1396088718-2.jpg)
 
 Lập trình viên thường bị áp lực tâm lí và tự đặt ra tiêu chuẩn khắt khe cho bản thân
 

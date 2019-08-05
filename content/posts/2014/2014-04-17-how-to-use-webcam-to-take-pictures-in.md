@@ -20,7 +20,7 @@ If you want to take a picture of a user to be used in a PHP Web site, you can do
 
 The first thing you need is your PHP editor or IDE, a Webcam, MySQL and a cup of coffee. The PHP editor is of course for coding your PHP scripts, Webcam to take the image, MySQL for savingit in a database and Coffee is for your refreshment. :-)
 
-In this article we will discuss how to capture the webcam image from our PHP and jQuery and save it to the database. It will use the Flash for the webcam screen. So you need JavaScript and Flash files that you can [download from the bottom of this page](http://www.vivekmoyal.in/webcam-in-php-how-to-use-webcam-in-php/).
+In this article we will discuss how to capture the webcam image from our PHP and jQuery and save it to the database. It will use the Flash for the webcam screen. So you need JavaScript and Flash files that you can [download from the bottom of this page](https://www.vivekmoyal.in/webcam-in-php-how-to-use-webcam-in-php/).
 
 ## Capturing Pictures from the Webcam ##
 To create our capturing applications we need to create three files:

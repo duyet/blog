@@ -23,7 +23,7 @@ Download class [tại đây](https://www.phpclasses.org/package/5212-PHP-Extract
 // @exsample 
 /* 
  * This file I have download from youtube.com with the url 
- * http://www.youtube.com/watch?v=P_gDz-Qlef0&feature=PlayList&p=E79725C3F709B278&playnext=1&index=1 
+ * https://www.youtube.com/watch?v=P_gDz-Qlef0&feature=PlayList&p=E79725C3F709B278&playnext=1&index=1 
 */ 
 
 try { 

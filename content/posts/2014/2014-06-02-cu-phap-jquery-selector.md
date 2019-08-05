@@ -56,4 +56,4 @@ Lại một lần nữa jQuery học tập css ở việc sử dụng pseudo. d�
 - Lấy thẻ ``span`` đầu tiên trong tất cả các `span` chứa class content, ta viết: `$(“span.content:first”)`
 - Lấy thẻ `span` thứ 4 trong tất cả các `span` chứa class content, ta viết: `$(“span.content:eq(3)”)`. Lưu ý, với `:eq`, filter bắt đầu đếm từ 0.
 
-Tham khảo thêm danh sách filter và tác dụng ở trang [jQuery Basic Filter](http://api.jquery.com/category/selectors/basic-filter-selectors/). 
+Tham khảo thêm danh sách filter và tác dụng ở trang [jQuery Basic Filter](https://api.jquery.com/category/selectors/basic-filter-selectors/). 

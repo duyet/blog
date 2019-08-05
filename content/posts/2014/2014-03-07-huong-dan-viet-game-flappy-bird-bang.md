@@ -9,7 +9,7 @@ tags:
 - game
 - tuts
 modified_time: '2014-03-07T17:08:36.995+07:00'
-thumbnail: http://4.bp.blogspot.com/-Eq0_6IHymko/UxmaVz4MU5I/AAAAAAAAGZE/DMmKGg7quvc/s1600/Untitled.png
+thumbnail: https://4.bp.blogspot.com/-Eq0_6IHymko/UxmaVz4MU5I/AAAAAAAAGZE/DMmKGg7quvc/s1600/Untitled.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-6090677513466161707
 blogger_orig_url: https://blog.duyet.net/2014/03/huong-dan-viet-game-flappy-bird-bang.html
 slug: /2014/03/huong-dan-viet-game-flappy-bird-bang.html
@@ -18,9 +18,9 @@ description: Trong phần 1 của chuỗi bài viết về cách viết 1 game F
 ---
 
 Trong phần 1 của chuỗi bài viết về cách viết 1 game Flappy Bird Clone, chúng ta đã làm được 1 bộ khung tương đối đơn giản, nhưng nó vẫn còn thiếu nhiều thứ. Trong phần 2 này chúng ta sẽ tìm hiểu cách thêm các hiệu ứng cho chú chim của chúng ta thêm phần ức chế. 
-Bạn có thể chơi thử trước tại đây để xem những gì chúng ta sẽ code trong phần 2 này, [tại đây](http://jsfiddle.net/lvduit/LeAj6/embedded/result/).
+Bạn có thể chơi thử trước tại đây để xem những gì chúng ta sẽ code trong phần 2 này, [tại đây](https://jsfiddle.net/lvduit/LeAj6/embedded/result/).
 
-![](http://4.bp.blogspot.com/-Eq0_6IHymko/UxmaVz4MU5I/AAAAAAAAGZE/DMmKGg7quvc/s1600/Untitled.png)
+![](https://4.bp.blogspot.com/-Eq0_6IHymko/UxmaVz4MU5I/AAAAAAAAGZE/DMmKGg7quvc/s1600/Untitled.png)
 
 ## Bước 1: Cài đặt
 Đầu tiên bạn [download template](https://github.com/lessmilk/phaser-tutorials/raw/master/3-flappy_bird/flappy_bird_basic.zip) mình viết sẵn tại đây, trong file download về sẽ bao gồm chúng ta sẽ thực hiện trong phần 1, chỉ thêm 1 file mới là file audio.
@@ -63,7 +63,7 @@ this.game.add.tween(this.bird).to({angle: -20}, 100).start();
 
 Nếu bạn test thử game ngay bây giờ, bạn sẽ thấy nó sẽ quay không giống như game gốc, bởi thực ra nó được quay 1 góc với tâm ở cạnh trên bên trái. Bạn xem hình dưới để phân biệt.
 
-![](http://3.bp.blogspot.com/-y_pto-d-ILM/UxmQL1Qn5MI/AAAAAAAAGY0/c2qGR5x3LUw/s1600/anchor.png)
+![](https://3.bp.blogspot.com/-y_pto-d-ILM/UxmQL1Qn5MI/AAAAAAAAGY0/c2qGR5x3LUw/s1600/anchor.png)
 
 Bên trái là code hiện tại của chúng ta, chú chim quay với tâm cố định cạnh bên. Cái chúng ta cần là nó quay với tâm như hình bên phải.
 

@@ -67,13 +67,13 @@ Là sinh viên mới, nhiều người bắt đầu là người phân tích HTT
 
 -     Kiểm toán phần mềm:
 
-Xem thêm để rõ hơn ở đây [http://www.pcworld.com.vn/articles/quan-ly/nguon-luc/2012/03/1231427/kiem-toan-he-thong-nghe-moi-o-viet-nam/](http://www.pcworld.com.vn/articles/quan-ly/nguon-luc/2012/03/1231427/kiem-toan-he-thong-nghe-moi-o-viet-nam/)
+Xem thêm để rõ hơn ở đây [https://www.pcworld.com.vn/articles/quan-ly/nguon-luc/2012/03/1231427/kiem-toan-he-thong-nghe-moi-o-viet-nam/](https://www.pcworld.com.vn/articles/quan-ly/nguon-luc/2012/03/1231427/kiem-toan-he-thong-nghe-moi-o-viet-nam/)
 
-Hoặc [http://www.misa.com.vn/tabid/91/newsid/35700/Kiem-toan---nghe-hot-thu-nhap-cao.aspx](http://www.misa.com.vn/tabid/91/newsid/35700/Kiem-toan---nghe-hot-thu-nhap-cao.aspx)
+Hoặc [https://www.misa.com.vn/tabid/91/newsid/35700/Kiem-toan---nghe-hot-thu-nhap-cao.aspx](https://www.misa.com.vn/tabid/91/newsid/35700/Kiem-toan---nghe-hot-thu-nhap-cao.aspx)
 
 HTTT Khóa 2 hiện tại có 1 anh đang làm kiểm toán hệ thống tại Ernst&Young, 1 trong 4 công ty Kiểm toán thuộc Big Four của thế giới
 
--     Một số vị trí khác rất gần và liên quan nhiều đến những gì ngành học này đào tạo, mà có định hướng nghề nghiệp (Career path) khá rõ ràng,nhu cầu tuyển dụng cũng khá nhiều. Đó là vị trí Business Analyst. Bạn có thể làm cho công ty IT hoặc cả những cty không chuyên về IT. (Tìm hiểu thêm tại Cộng đồng BA Việt Nam [http://vinabac.com/](http://l.facebook.com/l.php?u=http%3A%2F%2Fvinabac.com%2F&amp;h=dAQHQq_s4&amp;s=1).
+-     Một số vị trí khác rất gần và liên quan nhiều đến những gì ngành học này đào tạo, mà có định hướng nghề nghiệp (Career path) khá rõ ràng,nhu cầu tuyển dụng cũng khá nhiều. Đó là vị trí Business Analyst. Bạn có thể làm cho công ty IT hoặc cả những cty không chuyên về IT. (Tìm hiểu thêm tại Cộng đồng BA Việt Nam [https://vinabac.com/](https://l.facebook.com/l.php?u=http%3A%2F%2Fvinabac.com%2F&amp;h=dAQHQq_s4&amp;s=1).
 
 Công việc của một BA đòi hỏi nhiều kĩ năng phân tích, giải quyết vấn đề, giao tiếp hơn là lập trình hoặc chuyên sâu về database, hệ thống. Như vậy thì rất gần với ngành học HTTT mà các bạn chọn lựa.
 

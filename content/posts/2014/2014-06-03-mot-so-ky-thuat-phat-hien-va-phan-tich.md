@@ -41,7 +41,7 @@ Như đã giới thiệu ở trên, tất cả các mã độc đều có các h
 - Kiểm tra sự thay đổi, tác động lên hệ thống registry, các file hệ thống
 - Luôn cập nhật phần mềm antivirus trong máy
 
-[![Một số kỹ thuật phát hiện và phân tích mã độc](http://securitydaily.net/wp-content/uploads/2014/06/mohinh-700x464.png)](http://securitydaily.net/wp-content/uploads/2014/06/mohinh.png)
+[![Một số kỹ thuật phát hiện và phân tích mã độc](https://securitydaily.net/wp-content/uploads/2014/06/mohinh-700x464.png)](https://securitydaily.net/wp-content/uploads/2014/06/mohinh.png)
 
 ## Kỹ thuật phòng tránh mã độc ##
 Phòng tránh mã độc không chỉ dựa vào các phần mềm diệt virus mà còn liên quan tới cả nhận thức của người dùng. Một cách tổng quan nhất, để thực hiện phòng chống mã độc nên tuân thủ một số biện pháp sau:

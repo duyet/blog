@@ -8,7 +8,7 @@ tags:
 - game
 - jQuery
 modified_time: '2015-01-22T19:22:48.214+07:00'
-thumbnail: http://4.bp.blogspot.com/-7exI9UlIZZ4/UzuVmrP-YRI/AAAAAAAAGgE/OjgRgxeToxU/s1600/diag.png
+thumbnail: https://4.bp.blogspot.com/-7exI9UlIZZ4/UzuVmrP-YRI/AAAAAAAAGgE/OjgRgxeToxU/s1600/diag.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-900355265705355732
 blogger_orig_url: https://blog.duyet.net/2014/04/huong-dan-viet-game-flappy-bird-bang.html
 slug: /2014/04/huong-dan-viet-game-flappy-bird-bang.html
@@ -20,13 +20,13 @@ description: Ở phần 1 của bài viết này, chúng ta đã biết cách x�
 
 ## Ý tưởng ##
 
-Bạn có thể xem trước kết quả những gì chúng ta sẽ làm ngày hôm nay [tại đây](http://jsfiddle.net/lvduit/sw9HM/embedded/result/).
+Bạn có thể xem trước kết quả những gì chúng ta sẽ làm ngày hôm nay [tại đây](https://jsfiddle.net/lvduit/sw9HM/embedded/result/).
 Chúng ta sẽ cùng nhau code thêm 1 số thứ sau đây như Loading Screen, Menu chọn, và actual.
 Mỗi thành phần của 1 game ta gọi là 1 state. Hai phần trước của bài viết chúng ta mới chỉ xây dựng 1 state chính mà màn hình điều khiển chú chim. Trò chơi sẽ tự đông bắt đầu khi ta load game. Bây giờ chúng ta sẽ thêm 2 state nữa là Load State (màn hình chờ ấy), Menu state.
 Khi game được load chúng ta sẽ ở Load state, khi sẵn sàng sẽ chuyển sang menu state và chơi game. khi thua sẽ quay lại menu state. Ok hình dung rồi chứ :)
 Ta sẽ như sơ đồ dưới đây:
 
-![](http://4.bp.blogspot.com/-7exI9UlIZZ4/UzuVmrP-YRI/AAAAAAAAGgE/OjgRgxeToxU/s1600/diag.png)
+![](https://4.bp.blogspot.com/-7exI9UlIZZ4/UzuVmrP-YRI/AAAAAAAAGgE/OjgRgxeToxU/s1600/diag.png)
 
 Tất cả các code chúng ta có thể viết chung 1 file .js duy nhất, nhưng mà để thuận tiện và dễ dàng cho các bạn thì mình sẽ tách thành 4 file với các chức năng khác nhau nha.
 

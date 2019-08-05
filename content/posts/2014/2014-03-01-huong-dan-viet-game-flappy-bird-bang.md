@@ -9,7 +9,7 @@ tags:
 - html5
 - tuts
 modified_time: '2014-03-01T19:39:17.646+07:00'
-thumbnail: http://1.bp.blogspot.com/-jDgau6eVkS4/UxF1Q_4cgoI/AAAAAAAAGW8/rrpNzbFGmUg/s1600/FB-1.png
+thumbnail: https://1.bp.blogspot.com/-jDgau6eVkS4/UxF1Q_4cgoI/AAAAAAAAGW8/rrpNzbFGmUg/s1600/FB-1.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-6041420516393550072
 blogger_orig_url: https://blog.duyet.net/2014/02/huong-dan-viet-game-flappy-bird-bang.html
 slug: /2014/02/huong-dan-viet-game-flappy-bird-bang.html
@@ -19,9 +19,9 @@ description: Flappy Bird của anh Đông Nguyễn hiện đang là 1 game khá 
 
 Flappy Bird của anh Đông Nguyễn hiện đang là 1 game khá hot tại thời điểm này, với top của 2 kho ứng dụng lớn nhất hiện nay. Nhưng do một số áp lực, Flappy Bird đã bị tháo khỏi 2 kho ứng dụng. Hôm nay mình sẽ hướng dẫn các bạn 1 số bước cơ bản để viết được 1 game flappy bird đơn giản cho riêng mình chỉ với 65 dòng code Javascript trên thư viện Phaser Framework.
 
-Bạn có thể test thử flappy bird siêu đơn giản [tại đây](http://jsfiddle.net/lvduit/rP5Kt/embedded/result/).
+Bạn có thể test thử flappy bird siêu đơn giản [tại đây](https://jsfiddle.net/lvduit/rP5Kt/embedded/result/).
 
-![](http://1.bp.blogspot.com/-jDgau6eVkS4/UxF1Q_4cgoI/AAAAAAAAGW8/rrpNzbFGmUg/s1600/FB-1.png)
+![](https://1.bp.blogspot.com/-jDgau6eVkS4/UxF1Q_4cgoI/AAAAAAAAGW8/rrpNzbFGmUg/s1600/FB-1.png)
 
 Yêu cầu: bạn phải biết 1 số javascript cơ bản, bởi tut này viết trên HTML5 Canvas và Javascript.
 Phaser frameword bạn có thể tìm hiểu trên Google và mình sẽ có 1 bài hướng dẫn trong các bài viết sau.

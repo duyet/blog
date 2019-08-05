@@ -21,7 +21,7 @@ Sublime text là một editor khá mới, nhưng theo đánh giá của mình th
 
 ## Cài đặt ##
 
-Bản mới nhất của Sublime text tại thời điểm bài viết là bản 3, build 3059, bạn có thể cài đặt nó từ trang chủ: [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
+Bản mới nhất của Sublime text tại thời điểm bài viết là bản 3, build 3059, bạn có thể cài đặt nó từ trang chủ: [https://www.sublimetext.com/3](https://www.sublimetext.com/3)
 
 Có các phiên bản cho Window, Ubuntu, OSX
 
@@ -29,7 +29,7 @@ Có các phiên bản cho Window, Ubuntu, OSX
 
 Chọn phiên bản phù hợp với hệ điều hành của bạn và download về để cài đặt.
 
-[![](https://2.bp.blogspot.com/-nb8YMOYfUF8/UyFRBMRLFLI/AAAAAAAAGZo/Wd8TEIsnGsA/s1600/sublime.png)](http://2.bp.blogspot.com/-nb8YMOYfUF8/UyFRBMRLFLI/AAAAAAAAGZo/Wd8TEIsnGsA/s1600/sublime.png)
+[![](https://2.bp.blogspot.com/-nb8YMOYfUF8/UyFRBMRLFLI/AAAAAAAAGZo/Wd8TEIsnGsA/s1600/sublime.png)](https://2.bp.blogspot.com/-nb8YMOYfUF8/UyFRBMRLFLI/AAAAAAAAGZo/Wd8TEIsnGsA/s1600/sublime.png)
 
 ## Quản lý Project ##
 
@@ -50,7 +50,7 @@ Sublime có rất nhiều plugin, có thể cài đặt trực tiếp mà không
 Cách làm như sau: Các bạn nhấn tổ hợp phím **Ctrl + `** sau đó paste đoạn code sau và nhấn Enter:
 
 ```python
-import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'https://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
 ```
 
 Đây là plugin package control, bây giờ bạn đã có thể cài trực tiếp plugin thông qua tổ hợp phím `Ctrl + Shift + p`, sau đó nhấn Install, nhấn Enter và tìm plugin thích hợp. Mọi công việc cài đặt sẽ được tự động. 

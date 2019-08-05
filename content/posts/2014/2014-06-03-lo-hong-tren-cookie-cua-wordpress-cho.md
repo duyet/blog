@@ -12,13 +12,13 @@ tags:
 modified_time: '2014-06-03T22:53:32.326+07:00'
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-705499100492935958
 blogger_orig_url: https://blog.duyet.net/2014/06/lo-hong-tren-cookie-cua-wordpress-cho.html
-thumbnail: http://securitydaily.net/wp-content/uploads/2014/05/wordpress-hacking-exploit.jpg
+thumbnail: https://securitydaily.net/wp-content/uploads/2014/05/wordpress-hacking-exploit.jpg
 slug: /2014/06/lo-hong-tren-cookie-cua-wordpress-cho.html
 description: Bạn có đang sở hữu một blog trên website WordPress không? Nếu có, thì bạn nên cẩn trọng khi đăng nhập vào tài khoản WordPress từ lần sau khi kết nối với mạng Wi-Fi công cộng, bởi vì tài khoản của bạn có thể bị xâm nhập lúc nào mà ban không biết thậm chí kể cả việc bạn đã sử dụng xác thực dùng hai nhân tố.
 
 ---
 
-Bạn có đang sở hữu một blog trên website WordPress không? Nếu có, thì bạn nên cẩn trọng khi đăng nhập vào tài khoản WordPress từ lần sau khi kết nối với mạng Wi-Fi công cộng, bởi vì tài khoản của bạn có thể bị xâm nhập lúc nào mà ban không biết thậm chí kể cả việc bạn đã sử dụng xác thực dùng hai nhân tố.[![](http://securitydaily.net/wp-content/uploads/2014/05/wordpress-hacking-exploit-700x393.jpg)](http://securitydaily.net/wp-content/uploads/2014/05/wordpress-hacking-exploit.jpg)
+Bạn có đang sở hữu một blog trên website WordPress không? Nếu có, thì bạn nên cẩn trọng khi đăng nhập vào tài khoản WordPress từ lần sau khi kết nối với mạng Wi-Fi công cộng, bởi vì tài khoản của bạn có thể bị xâm nhập lúc nào mà ban không biết thậm chí kể cả việc bạn đã sử dụng xác thực dùng hai nhân tố.[![](https://securitydaily.net/wp-content/uploads/2014/05/wordpress-hacking-exploit-700x393.jpg)](https://securitydaily.net/wp-content/uploads/2014/05/wordpress-hacking-exploit.jpg)
 
 Yan Zhu, một nhà nghiên cứu làm việc tại EFF chú ý rằng cá blog trên WordPress đang gửi đến người dùng các cookie xác thực dưới dạng văn bản chứ không phải là đang mã hóa nó. Vì vậy, một Script-Kiddie có thể xâm nhập vào tài khoản của bạn một cách dễ dàng để đánh cắp thông tin của bạn.
 
