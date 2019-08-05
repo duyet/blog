@@ -9,7 +9,6 @@ tags:
 - javascript
 - Magnum
 - Openstack
-- Javácript
 - DevStack
 - Maruno
 - Horizon

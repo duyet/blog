@@ -11,7 +11,6 @@ tags:
 - Python
 - javascript
 - NLP
-- Javácript
 - NLTK
 - Machine Learning
 modified_time: '2018-09-01T22:32:19.917+07:00'

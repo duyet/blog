@@ -14,7 +14,7 @@ export default class ReactCommento extends React.PureComponent {
 
   render() {
     return (
-      <div id="commento" />
+      <div id="commento" style={{ maxWidth: 550 }} />
     );
   }
 }

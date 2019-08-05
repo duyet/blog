@@ -9,7 +9,6 @@ tags:
 - Python
 - javascript
 - BigData
-- Javácript
 - Big Data
 - Apache Parquet
 - Spark SQL
