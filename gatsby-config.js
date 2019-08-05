@@ -11,6 +11,8 @@ module.exports = {
     subtitle: siteConfig.subtitle,
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
+    useCommento: siteConfig.useCommento,
+    facebookComment: siteConfig.facebookComment,
     menu: siteConfig.menu,
     author: siteConfig.author
   },

@@ -79,6 +79,7 @@
     "react": "^16.8.6",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.8.6",
+    "react-facebook": "^8.0.4",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {

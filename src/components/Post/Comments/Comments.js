@@ -2,6 +2,8 @@
 import React from 'react';
 import ReactDisqusComments from 'react-disqus-comments';
 import { useSiteMetadata } from '../../../hooks';
+import ReactCommento from './Commento';
+import FacebookComment from './FacebookComment';
 
 type Props = {
   postTitle: string,
@@ -9,20 +11,29 @@ type Props = {
 };
 
 const Comments = ({ postTitle, postSlug }: Props) => {
-  const { url, disqusShortname } = useSiteMetadata();
+  const comments = [];
+  const {
+    url, disqusShortname, useCommento, facebookComment
+  } = useSiteMetadata();
 
-  if (!disqusShortname) {
-    return null;
+  if (facebookComment && facebookComment.active) {
+    comments.push(<FacebookComment facebookComment={facebookComment} />);
   }
 
-  return (
-    <ReactDisqusComments
-      shortname={disqusShortname}
-      identifier={postTitle}
-      title={postTitle}
-      url={url + postSlug}
-    />
-  );
+  if (useCommento) {
+    comments.push(<ReactCommento />);
+  }
+
+  if (disqusShortname) {
+    comments.push(<ReactDisqusComments
+                    shortname={disqusShortname}
+                    identifier={postTitle}
+                    title={postTitle}
+                    url={url + postSlug}
+                  />);
+  }
+
+  return comments;
 };
 
 export default Comments;

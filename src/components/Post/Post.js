@@ -8,6 +8,7 @@ import Meta from './Meta';
 import Tags from './Tags';
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
+import { useSiteMetadata } from '../../hooks';
 
 type Props = {
   post: Node
@@ -17,10 +18,11 @@ const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
   const { tags, title, date } = post.frontmatter;
+  const siteTitle = useSiteMetadata().title;
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/">All Articles</Link>
+      <Link className={styles['post__home-button']} to="/">{siteTitle}</Link>
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} />

@@ -3,10 +3,15 @@
 module.exports = {
   url: 'https://duyet.netlify.com',
   pathPrefix: '/',
-  title: 'Duyet Blog',
+  title: 'Tôi là Duyệt',
   subtitle: 'Data Engineer @ Fossil. I blog about web development, machine learning, and more.',
   copyright: '© duyet.net',
   disqusShortname: '',
+  useCommento: true,
+  facebookComment: {
+    active: true,
+    appId: 1394054914200945,
+  },
   postsPerPage: 8,
   googleAnalyticsId: '',
   useKatex: false,

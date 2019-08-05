@@ -29,6 +29,11 @@ const useSiteMetadata = () => {
             subtitle
             copyright
             disqusShortname
+            useCommento
+            facebookComment {
+              active
+              appId
+            }
           }
         }
       }
