@@ -35,7 +35,7 @@ Số cụm của đề bài không thể xác định chính xác. Quan sát d�
 ## 1. Phân tích về tên chủ đề bài viết trên báo điện tử ##
 Phân tích một chút về danh mục chủ đề trên các trang báo này. Các mục tại VnExpress được phân thành từng mục chính, mỗi mục chính lại có các chuyên mục nhỏ.
 
-[![](https://1.bp.blogspot.com/-TItqIphNgKI/V3R0PP5SioI/AAAAAAAAYnw/5JUCgLf8v4QSRGA3J4VnJDwBRePYD3HAgCK4B/s1600/vnexpress-category-duyetdev.png)](http://1.bp.blogspot.com/-TItqIphNgKI/V3R0PP5SioI/AAAAAAAAYnw/5JUCgLf8v4QSRGA3J4VnJDwBRePYD3HAgCK4B/s1600/vnexpress-category-duyetdev.png)
+[![](https://1.bp.blogspot.com/-TItqIphNgKI/V3R0PP5SioI/AAAAAAAAYnw/5JUCgLf8v4QSRGA3J4VnJDwBRePYD3HAgCK4B/s1600/vnexpress-category-duyetdev.png)](https://1.bp.blogspot.com/-TItqIphNgKI/V3R0PP5SioI/AAAAAAAAYnw/5JUCgLf8v4QSRGA3J4VnJDwBRePYD3HAgCK4B/s1600/vnexpress-category-duyetdev.png)
 
 - Một số trang báo có các chuyên mục riêng: như mục Video (http://video.vnexpress.net), iOne (http://ione.vnexpress.net), ... là một mục nhỏ của VnExpress, nhưng lại có các chủ đề con cùng tên với tất cả các mục lớn của VnExpress. 
 - Khi thu thập bài viết từ nhiều nguồn, sẽ có trường hợp các bài viết trùng nhau (hoặc gần giống nhau), nhưng 2 báo lại có cách đặt tên chủ đề khác nhau. 

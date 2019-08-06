@@ -22,7 +22,7 @@ San Francisco nổi tiếng với mùa hè mát mẻ dễ chịu, nhiều sươn
 Hệ thống giao thông ở San Francisco khá phát triển, có khá nhiều sự lựa chọn đa dạng thuận tiện với các phương tiện công cộng, như SamBus, Bus MUNI, Bus VTA, BART, Caltrain, Cable-Car, ... Các phương tiện công cộng sẽ là lựa chọn tối ưu và tiết kiệm nhất khi ở San Francisco.  
   
 
-[![](https://1.bp.blogspot.com/-HbKS4i_0yqA/XM0Kbzu24bI/AAAAAAAA_hQ/84Pq1m-TK3QRHfv5GAFijK87OniCXDrnwCK4BGAYYCw/s1600/1969-12-31%2B04.00.00%2B27.jpg)](http://1.bp.blogspot.com/-HbKS4i_0yqA/XM0Kbzu24bI/AAAAAAAA_hQ/84Pq1m-TK3QRHfv5GAFijK87OniCXDrnwCK4BGAYYCw/s1600/1969-12-31%2B04.00.00%2B27.jpg)
+[![](https://1.bp.blogspot.com/-HbKS4i_0yqA/XM0Kbzu24bI/AAAAAAAA_hQ/84Pq1m-TK3QRHfv5GAFijK87OniCXDrnwCK4BGAYYCw/s1600/1969-12-31%2B04.00.00%2B27.jpg)](https://1.bp.blogspot.com/-HbKS4i_0yqA/XM0Kbzu24bI/AAAAAAAA_hQ/84Pq1m-TK3QRHfv5GAFijK87OniCXDrnwCK4BGAYYCw/s1600/1969-12-31%2B04.00.00%2B27.jpg)
 
   
 
@@ -32,7 +32,7 @@ Trước tiên mình nói về [Clipper Card](https://www.clippercard.com/Clippe
 Thẻ có thể mua dễ dàng ở các máy bán tự động ở trạm, hay ở siêu thị (WalGreens). Phí phát hành $3. Chú ý riêng khi mua ở máy bán tự động nó yêu cầu tối thiểu là $20 ($3 phí thẻ + $17 tiền số dư).  
   
 
-[![](https://1.bp.blogspot.com/-v4s4MPAQ9G8/XM0bGg73fPI/AAAAAAAA_3I/K4G31vT90iwhxHKSMwotdEK79g7FgUnLgCK4BGAYYCw/s400/IMG_20190504_113240_090.jpg)](http://1.bp.blogspot.com/-v4s4MPAQ9G8/XM0bGg73fPI/AAAAAAAA_3I/K4G31vT90iwhxHKSMwotdEK79g7FgUnLgCK4BGAYYCw/s1600/IMG_20190504_113240_090.jpg)
+[![](https://1.bp.blogspot.com/-v4s4MPAQ9G8/XM0bGg73fPI/AAAAAAAA_3I/K4G31vT90iwhxHKSMwotdEK79g7FgUnLgCK4BGAYYCw/s400/IMG_20190504_113240_090.jpg)](https://1.bp.blogspot.com/-v4s4MPAQ9G8/XM0bGg73fPI/AAAAAAAA_3I/K4G31vT90iwhxHKSMwotdEK79g7FgUnLgCK4BGAYYCw/s1600/IMG_20190504_113240_090.jpg)
 
 ## MUNI
 
@@ -77,21 +77,21 @@ Dùng MuniMobile khi lên Bus chỉ cần đưa cho tài xế thấy là đượ
 
   
 
-[![](https://4.bp.blogspot.com/-LucAB-2ZCLo/XM0bbIO0CyI/AAAAAAAA_3c/vplrsEFNpTc68HjYEdH9n453puAxGU24wCK4BGAYYCw/s640/IMG_20190504_113309_196.jpg)](http://4.bp.blogspot.com/-LucAB-2ZCLo/XM0bbIO0CyI/AAAAAAAA_3c/vplrsEFNpTc68HjYEdH9n453puAxGU24wCK4BGAYYCw/s1600/IMG_20190504_113309_196.jpg)
+[![](https://4.bp.blogspot.com/-LucAB-2ZCLo/XM0bbIO0CyI/AAAAAAAA_3c/vplrsEFNpTc68HjYEdH9n453puAxGU24wCK4BGAYYCw/s640/IMG_20190504_113309_196.jpg)](https://4.bp.blogspot.com/-LucAB-2ZCLo/XM0bbIO0CyI/AAAAAAAA_3c/vplrsEFNpTc68HjYEdH9n453puAxGU24wCK4BGAYYCw/s1600/IMG_20190504_113309_196.jpg)
 
   
 
-[![](https://2.bp.blogspot.com/-tymJgaYnxtc/XM0R-0PnznI/AAAAAAAA_hk/fgsHpubcfoIDCPI4ea09TryttBRu2O00ACK4BGAYYCw/s1600/system-map-weekday.png)](http://2.bp.blogspot.com/-tymJgaYnxtc/XM0R-0PnznI/AAAAAAAA_hk/fgsHpubcfoIDCPI4ea09TryttBRu2O00ACK4BGAYYCw/s1600/system-map-weekday.png)
+[![](https://2.bp.blogspot.com/-tymJgaYnxtc/XM0R-0PnznI/AAAAAAAA_hk/fgsHpubcfoIDCPI4ea09TryttBRu2O00ACK4BGAYYCw/s1600/system-map-weekday.png)](https://2.bp.blogspot.com/-tymJgaYnxtc/XM0R-0PnznI/AAAAAAAA_hk/fgsHpubcfoIDCPI4ea09TryttBRu2O00ACK4BGAYYCw/s1600/system-map-weekday.png)
 
 [https://www.bart.gov/system-map](https://www.bart.gov/system-map)
 
   
 
-[![](https://2.bp.blogspot.com/-iH0HrD4q7Yw/XM0TZ9rb8qI/AAAAAAAA_ic/WhTOqaDGqbQFadVunQJFlbmoDtU_HJODwCK4BGAYYCw/s640/bart.jpg)](http://2.bp.blogspot.com/-iH0HrD4q7Yw/XM0TZ9rb8qI/AAAAAAAA_ic/WhTOqaDGqbQFadVunQJFlbmoDtU_HJODwCK4BGAYYCw/s1600/bart.jpg)
+[![](https://2.bp.blogspot.com/-iH0HrD4q7Yw/XM0TZ9rb8qI/AAAAAAAA_ic/WhTOqaDGqbQFadVunQJFlbmoDtU_HJODwCK4BGAYYCw/s640/bart.jpg)](https://2.bp.blogspot.com/-iH0HrD4q7Yw/XM0TZ9rb8qI/AAAAAAAA_ic/WhTOqaDGqbQFadVunQJFlbmoDtU_HJODwCK4BGAYYCw/s1600/bart.jpg)
 
   
 
-[![](https://3.bp.blogspot.com/-Iu90lYvt2xY/XM0b1gANr2I/AAAAAAAA_38/7QD9iN1S8I0QWA6a6WS5YjxkrZqcQ_zdQCK4BGAYYCw/s640/IMG_20190414_160018_033.jpg)](http://3.bp.blogspot.com/-Iu90lYvt2xY/XM0b1gANr2I/AAAAAAAA_38/7QD9iN1S8I0QWA6a6WS5YjxkrZqcQ_zdQCK4BGAYYCw/s1600/IMG_20190414_160018_033.jpg)
+[![](https://3.bp.blogspot.com/-Iu90lYvt2xY/XM0b1gANr2I/AAAAAAAA_38/7QD9iN1S8I0QWA6a6WS5YjxkrZqcQ_zdQCK4BGAYYCw/s640/IMG_20190414_160018_033.jpg)](https://3.bp.blogspot.com/-Iu90lYvt2xY/XM0b1gANr2I/AAAAAAAA_38/7QD9iN1S8I0QWA6a6WS5YjxkrZqcQ_zdQCK4BGAYYCw/s1600/IMG_20190414_160018_033.jpg)
 
   
 

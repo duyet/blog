@@ -9,7 +9,7 @@ tags:
 - Bower
 - Yeoman
 modified_time: '2015-05-17T11:50:32.805+07:00'
-thumbnail: http://1.bp.blogspot.com/-S3xORsBBOes/VTUU2dzVT9I/AAAAAAAACTw/v0XhVPBgDfE/s1600/bower.png
+thumbnail: https://1.bp.blogspot.com/-S3xORsBBOes/VTUU2dzVT9I/AAAAAAAACTw/v0XhVPBgDfE/s1600/bower.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-2942387526104683237
 blogger_orig_url: https://blog.duyet.net/2015/04/nodejs-gioi-thieu-yeoman-grunt-va-bower.html
 slug: /2015/04/nodejs-gioi-thieu-yeoman-grunt-va-bower.html
@@ -24,7 +24,7 @@ Chuyển từ PHP sang Nodejs thật có nhiều cái bỡ ngỡ. Cấu trúc đ
 
 Bower ([http://bower.io](http://bower.io/)) là công cụ quản lý các packages và components frontend cho web. Được viết bởi Twitter Inc. Nó có thể tìm kiếm, cài đặt hoặc gỡ bõ các gói thư viện (package) web như Javascript, CSS, HTML.
 
-![](http://1.bp.blogspot.com/-S3xORsBBOes/VTUU2dzVT9I/AAAAAAAACTw/v0XhVPBgDfE/s1600/bower.png)
+![](https://1.bp.blogspot.com/-S3xORsBBOes/VTUU2dzVT9I/AAAAAAAACTw/v0XhVPBgDfE/s1600/bower.png)
 
 ### Cài đặt ###
 
@@ -74,13 +74,13 @@ Mình sẽ nói chi tiết hơn về Bower ở một bài viết khác.
 
 Grunt ([http://gruntjs.com](http://gruntjs.com/)) là tool tự động hoá cho các dự án Nodejs. Ta có thể Minify code, biên dịch, unit test, validate, ... Bạn có thể tự động hoá mọi công việc để giảm effort.
 
-![](http://2.bp.blogspot.com/-bEpKWPHnB0k/VTUVwgNafOI/AAAAAAAACT4/WelLMu7wB-U/s1600/grunt.png)
+![](https://2.bp.blogspot.com/-bEpKWPHnB0k/VTUVwgNafOI/AAAAAAAACT4/WelLMu7wB-U/s1600/grunt.png)
 
 ## Với thiệu về Yeoman ##
 
 Trang chủ: [yeoman.io](http://yeoman.io/)
 
-![](http://3.bp.blogspot.com/-iWaRUE9laHg/VTUQLSe3r4I/AAAAAAAACTk/BQhQmLPIiMo/s1600/yeoman.png)
+![](https://3.bp.blogspot.com/-iWaRUE9laHg/VTUQLSe3r4I/AAAAAAAACTk/BQhQmLPIiMo/s1600/yeoman.png)
 
 Yeoman (yo) là 1 công cụ tạo khung, lên khung các app mới, hỗ trợ bạn generate các đoạn script, frameworks, ...bằng Nodejs, Angularjs, ... Yeoman không chỉ là tools mà còn được sử dụng như là 1 workflow, tập hợp các "best practices" giúp cho việc phát triển ứng dụng Nodejs một cách nhanh chóng và dễ dàng hơn.
 Dễ dàng tạo phần khung sườn cho những dự án mới, với các template tuỳ chỉnh được thông qua dòng lệnh. Yeoman còn tạo config cho Grunt và đưa vào các task Grunt cần cho việc build app.
@@ -96,7 +96,7 @@ Chức năng:
 
 Yeoman + Bower + Grunt - Bộ 3 song hành
 
-![](http://4.bp.blogspot.com/-RfsS9jWKACs/VTUWnPxbkPI/AAAAAAAACUA/st104-Cz0zg/s1600/workflow.c3cc.jpg)
+![](https://4.bp.blogspot.com/-RfsS9jWKACs/VTUWnPxbkPI/AAAAAAAACUA/st104-Cz0zg/s1600/workflow.c3cc.jpg)
 
 ### Cài đặt Yeoman ###
 
@@ -129,17 +129,17 @@ Tuỳ theo mỗi bộ Generators mà sẽ có các câu hỏi khác nhau để b
 
 Ở đây ngày Yeo hỏi mình sử dụng Javascript hay CoffeeScript, chọn Javascript, nhấn Enter
 
-![](http://1.bp.blogspot.com/-JS4IVTQ76pE/VTUZ0WWP0sI/AAAAAAAACUM/Y4E3uTeypDc/s1600/yeo-gen-1.png)
+![](https://1.bp.blogspot.com/-JS4IVTQ76pE/VTUZ0WWP0sI/AAAAAAAACUM/Y4E3uTeypDc/s1600/yeo-gen-1.png)
 
 Template sử dụng HTML thuần hay Jade.
 Stylesheets là CSS, Sass, Stylus hay less.
 Bla bla ...
 
-![](http://3.bp.blogspot.com/-v5ljyFQlBCg/VTUbE1af25I/AAAAAAAACUY/Wb39OZzT_cc/s1600/yeo-gen-2.png)
+![](https://3.bp.blogspot.com/-v5ljyFQlBCg/VTUbE1af25I/AAAAAAAACUY/Wb39OZzT_cc/s1600/yeo-gen-2.png)
 
 Sau khi trải qua hết các bước "tra khảo", mọi công việc còn lại Yeoman sẽ làm tất: chạy bower để cài đặt các component, chạy npm cài đặt các package nodejs, tạo grunt task, ...
 
-![](http://2.bp.blogspot.com/-rWE7j79ddcs/VTUcP7G-CAI/AAAAAAAACUk/1zpNC_27ZTk/s1600/yeo-gen-3.png)
+![](https://2.bp.blogspot.com/-rWE7j79ddcs/VTUcP7G-CAI/AAAAAAAACUk/1zpNC_27ZTk/s1600/yeo-gen-3.png)
 
 Ok như vậy là bạn đã có thể bắt đầu code được rồi đấy, thật là dễ dàng và nhanh chóng để có 1 bộ khung cho ứng dụng.
 Không dừng ở đó, bạn cũng còn có thể tạo bổ sung thêm các module nhỏ (như Angular module, Express module, CRUD, ...) bằng yo, bạn có thể xem thêm chi tiết về những cái này tại trang Github của Yeo Generator.

@@ -8,7 +8,7 @@ tags:
 - Hacker
 - Translate
 modified_time: '2015-02-27T13:08:05.189+07:00'
-thumbnail: http://3.bp.blogspot.com/-oswyX6WhPgA/VO8sGTFRpdI/AAAAAAAACKw/vY7mLfDq8KA/s1600/hacker.manifesto_1353980477_42.jpg
+thumbnail: https://3.bp.blogspot.com/-oswyX6WhPgA/VO8sGTFRpdI/AAAAAAAACKw/vY7mLfDq8KA/s1600/hacker.manifesto_1353980477_42.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-2385808663604991315
 blogger_orig_url: https://blog.duyet.net/2015/02/lam-nao-e-thanh-mot-hacker.html
 slug: /2015/02/lam-nao-e-thanh-mot-hacker.html
@@ -33,7 +33,7 @@ Thiết kế một website có cấu trúc logic tốt và cơ cấu thư mục 
 
 Cái quan trọng nhất - tiếng Anh, hãy học tiếng Anh. Có rất nhiều thông tin, tài liệu, ... trên web hoặc trong sách viết bằng tiếng Anh.
 
-![](http://3.bp.blogspot.com/-oswyX6WhPgA/VO8sGTFRpdI/AAAAAAAACKw/vY7mLfDq8KA/s1600/hacker.manifesto_1353980477_42.jpg)
+![](https://3.bp.blogspot.com/-oswyX6WhPgA/VO8sGTFRpdI/AAAAAAAACKw/vY7mLfDq8KA/s1600/hacker.manifesto_1353980477_42.jpg)
 
 ## 2. Tính cách ##
 Tính cách không quan trọng nhiều như kỹ năng. Tính cách cá nhân của bạn sẽ cho bạn biết bạn có phù hợp trở thành hacker hay không. Ngoài trí thông minh, khả năng học hỏi, tập trung, suy nghĩ phân tích, các hacker thường có những dấu hiệu như họ sử dụng cả hai bán cầu não, chứ không chỉ bán cầu não trái – bán cầu não "phụ trách" khả năng suy nghĩ logic, có sự phân tích.

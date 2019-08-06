@@ -50,7 +50,7 @@ Cũng đã đề cập qua ở trên, những bên sử dụng dữ liệu này 
 
 Chưa có những tài liệu viết đầy đủ và chuẩn xác về ngành thống kê dữ liệu thể thao. Tuy nhiên, theo một số bài viết đọc được, thì việc thống kê này bắt nguồn đầu tiên từ các câu lạc bộ. Động lực cho việc này là ban lãnh đạo cần có cách để đánh giá mức độ đóng góp của cầu thủ (nhân viên) của mình, từ đó phân chia tiền thưởng hay đánh giá ký hợp đồng với ai, đuổi việc ai. Sau này, nó phát triển sang việc đánh giá các cầu thủ đội khác để chuyển nhượng (ở các câu lạc bộ bóng đá chuyên nghiệp có bộ phận Scouts làm việc này) thay vì cảm tính huấn luyện viên như trước kia. Rồi giới truyền thông, ban tổ chức cũng vào thu thập cùng phục vụ cho mục đích của riêng mình. Sau này khi có công nghệ ghi hình, lưu giữ, phát sinh các hoạt động như nhau và chồng chéo hao phí dẫn đến ra đời các tổ chức thu thập dữ liệu độc lập.
 
-[![](https://4.bp.blogspot.com/-Nz1qo0KCOb8/V3PYupqgEoI/AAAAAAAAYms/cxlErCN_89kTfN7ykzQkNDzHut4y1Vu_QCK4B/s1600/ecoblader-d%25E1%25BB%25AF-li%25E1%25BB%2587u-b%25C3%25B3ng-%25C4%2591%25C3%25A1.jpg)](http://4.bp.blogspot.com/-Nz1qo0KCOb8/V3PYupqgEoI/AAAAAAAAYms/cxlErCN_89kTfN7ykzQkNDzHut4y1Vu_QCK4B/s1600/ecoblader-d%25E1%25BB%25AF-li%25E1%25BB%2587u-b%25C3%25B3ng-%25C4%2591%25C3%25A1.jpg)
+[![](https://4.bp.blogspot.com/-Nz1qo0KCOb8/V3PYupqgEoI/AAAAAAAAYms/cxlErCN_89kTfN7ykzQkNDzHut4y1Vu_QCK4B/s1600/ecoblader-d%25E1%25BB%25AF-li%25E1%25BB%2587u-b%25C3%25B3ng-%25C4%2591%25C3%25A1.jpg)](https://4.bp.blogspot.com/-Nz1qo0KCOb8/V3PYupqgEoI/AAAAAAAAYms/cxlErCN_89kTfN7ykzQkNDzHut4y1Vu_QCK4B/s1600/ecoblader-d%25E1%25BB%25AF-li%25E1%25BB%2587u-b%25C3%25B3ng-%25C4%2591%25C3%25A1.jpg)
 
 Nhu cầu về Dữ liệu xuất phát đầu tiên từ chính các câu lạc bộ
 
@@ -85,7 +85,7 @@ Ví dụ, sẽ có biến là Chân thuận thì sẽ phải có đúng ba hằn
 - Tọa độ bàn thắng: x:5.6, y:47.57, dựa trên hệ trục đặt vào gôn thủ môn;
 - Goal information: (cùng 1 dãy qualifier ID khác) như 115 (Intentional Assists);  76 (Low left), 118 (One Bounce), 20 (Right foot), 108( Volley),…
 
-[![](https://1.bp.blogspot.com/-bOVinKhwz6s/V3PZWeLiySI/AAAAAAAAYm4/wT682Z072PIitKSjbb2ucAPFS0fVROjMACK4B/s1600/ecoblader-t%25E1%25BB%258Da-%25C4%2591%25E1%25BB%2599-d%25E1%25BB%25AF-li%25E1%25BB%2587u-th%25E1%25BB%2583-thao.jpg)](http://1.bp.blogspot.com/-bOVinKhwz6s/V3PZWeLiySI/AAAAAAAAYm4/wT682Z072PIitKSjbb2ucAPFS0fVROjMACK4B/s1600/ecoblader-t%25E1%25BB%258Da-%25C4%2591%25E1%25BB%2599-d%25E1%25BB%25AF-li%25E1%25BB%2587u-th%25E1%25BB%2583-thao.jpg)
+[![](https://1.bp.blogspot.com/-bOVinKhwz6s/V3PZWeLiySI/AAAAAAAAYm4/wT682Z072PIitKSjbb2ucAPFS0fVROjMACK4B/s1600/ecoblader-t%25E1%25BB%258Da-%25C4%2591%25E1%25BB%2599-d%25E1%25BB%25AF-li%25E1%25BB%2587u-th%25E1%25BB%2583-thao.jpg)](https://1.bp.blogspot.com/-bOVinKhwz6s/V3PZWeLiySI/AAAAAAAAYm4/wT682Z072PIitKSjbb2ucAPFS0fVROjMACK4B/s1600/ecoblader-t%25E1%25BB%258Da-%25C4%2591%25E1%25BB%2599-d%25E1%25BB%25AF-li%25E1%25BB%2587u-th%25E1%25BB%2583-thao.jpg)
 
 Các nhân viên phân tích Dữ liệu xem bóng đá kiểu rất… hại não
 

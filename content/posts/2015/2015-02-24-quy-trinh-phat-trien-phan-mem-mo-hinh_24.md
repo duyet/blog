@@ -9,7 +9,7 @@ tags:
 - Xoắn ốc
 - Mô hình
 modified_time: '2015-03-15T23:09:41.232+07:00'
-thumbnail: http://1.bp.blogspot.com/-p_03hnTUKIE/VOttDHeLpDI/AAAAAAAACKU/8Y1yU-4I8Eg/s1600/33349.png
+thumbnail: https://1.bp.blogspot.com/-p_03hnTUKIE/VOttDHeLpDI/AAAAAAAACKU/8Y1yU-4I8Eg/s1600/33349.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-3758357170820930874
 blogger_orig_url: https://blog.duyet.net/2015/02/quy-trinh-phat-trien-phan-mem-mo-hinh_24.html
 slug: /2015/02/quy-trinh-phat-trien-phan-mem-mo-hinh_24.html
@@ -27,7 +27,7 @@ Trong mô hình xoắn ốc, quy trình phát triển phần mềm được bi�
 - Phát triển và đánh giá: sau khi đánh giá rủi ro, một mô hình xây dựng hệ thống sẽ được lựa chọn từ những mô hình chung.
 - Lập kế hoạch: đánh giá dự án và pha tiếp theo của mô hình xoắn ốc sẽ được lập kế hoạch.
 
-![](http://1.bp.blogspot.com/-p_03hnTUKIE/VOttDHeLpDI/AAAAAAAACKU/8Y1yU-4I8Eg/s1600/33349.png)
+![](https://1.bp.blogspot.com/-p_03hnTUKIE/VOttDHeLpDI/AAAAAAAACKU/8Y1yU-4I8Eg/s1600/33349.png)
 
 ## Mô hình xoắn ốc cải tiến  ##
 Mô hình xoáy ốc là cải tiến của mô hình tuần tự và mẫu thử, them vào phân tích rủi ro. Là quá trình lặp hướng mở rộng, hoàn thiện dần.

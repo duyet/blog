@@ -9,7 +9,7 @@ tags:
 - Bootstrap
 - Components
 modified_time: '2015-04-27T20:50:25.576+07:00'
-thumbnail: http://1.bp.blogspot.com/-TAp70-55a34/VT3u2ezvzzI/AAAAAAAACaA/L32plzw7ZWY/s1600/bs-components-intro.png
+thumbnail: https://1.bp.blogspot.com/-TAp70-55a34/VT3u2ezvzzI/AAAAAAAACaA/L32plzw7ZWY/s1600/bs-components-intro.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-5009922903661231408
 blogger_orig_url: https://blog.duyet.net/2015/04/bootstrap-gioi-thieu-ve-components.html
 slug: /2015/04/bootstrap-gioi-thieu-ve-components.html
@@ -28,7 +28,7 @@ Có rất nhiều thành phần được làm sẵn trong trang Components bạn
 ## Cách sử dụng Components ##
 Mình sẽ làm qua 1 số ví dụ thôi, vì mọi Components đã có code và demo rõ ràng trên trang [Components Bootstrap](http://getbootstrap.com/components/) rồi.
 
-![](http://1.bp.blogspot.com/-TAp70-55a34/VT3u2ezvzzI/AAAAAAAACaA/L32plzw7ZWY/s1600/bs-components-intro.png)
+![](https://1.bp.blogspot.com/-TAp70-55a34/VT3u2ezvzzI/AAAAAAAACaA/L32plzw7ZWY/s1600/bs-components-intro.png)
 
 Giờ mình sẽ làm qua một ví dụ để chỉ cách các bạn đem nó vào trang web như thế nào.
 
@@ -36,7 +36,7 @@ Ví dụ tạo thanh Navbar
 
 Đầu tiên truy cập vào trang Bootstrap Components, chọn mục Navbar: [http://getbootstrap.com/components/#navbar](http://getbootstrap.com/components/#navbar)
 
-![](http://1.bp.blogspot.com/-TVHoV9o1TkA/VT3vp62oFII/AAAAAAAACaI/FRssZ3OUf3Y/s1600/bs-navbar-demo.png)
+![](https://1.bp.blogspot.com/-TVHoV9o1TkA/VT3vp62oFII/AAAAAAAACaI/FRssZ3OUf3Y/s1600/bs-navbar-demo.png)
 
 Trang Components có nhiều mục, gồm phần giới thiệu, ví dụ, code, ... Nếu đọc được tiếng Anh thì ok, còn không bạn chỉ cần nhìn demo và copy code sử dụng thôi, các class và cấu trúc của nó thì giữ nguyên, hoặc điều chỉnh cho phù hợp với trang của bạn thiết kế.
 
@@ -122,7 +122,7 @@ Chỉnh sửa phần nội dung nav-brand, phần liên kết, ... cho phù hợ
 
 Kết quả:
 
-![](http://2.bp.blogspot.com/-d8IFTRjmzA8/VT3zMGxRpxI/AAAAAAAACac/qjghCLUV9f0/s1600/bs-components-demo.png)
+![](https://2.bp.blogspot.com/-d8IFTRjmzA8/VT3zMGxRpxI/AAAAAAAACac/qjghCLUV9f0/s1600/bs-components-demo.png)
 
 Đọc thêm các phần mở rộng trong hướng dẫn của Bootstrap để có thể tùy biến thêm bằng việc sử dụng các class có sẵn. Hãy đọc qua  mục: Alignment, Headers, Disabled menu items.
 Các bạn có thể hiểu thêm nếu đọc Docs của Bootstrap và thông qua các ví dụ.

@@ -7,7 +7,7 @@ tags:
 - Nodejs
 - Update
 modified_time: '2015-09-09T18:48:56.604+07:00'
-thumbnail: http://2.bp.blogspot.com/-h7ljxkRrImE/VfAcZ8U9dlI/AAAAAAAAC4U/wYPnnlhcP3Y/s1600/nodejs_logo_light.png
+thumbnail: https://2.bp.blogspot.com/-h7ljxkRrImE/VfAcZ8U9dlI/AAAAAAAAC4U/wYPnnlhcP3Y/s1600/nodejs_logo_light.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-3739311589347534066
 blogger_orig_url: https://blog.duyet.net/2015/09/nodejs-all-you-need-to-know-about.html
 slug: /2015/09/nodejs-all-you-need-to-know-about.html
@@ -18,7 +18,7 @@ description: Now – that Node.js 4.0.0 is about to be officially released – y
 
 Now – that Node.js 4.0.0 is about to be officially released – you may wonder what it delivers to you and if you should upgrade right away, or not. This post covers the most important changes you need to know, and some key implications you may have to take into account in making your decision.
 
-![](http://2.bp.blogspot.com/-h7ljxkRrImE/VfAcZ8U9dlI/AAAAAAAAC4U/wYPnnlhcP3Y/s1600/nodejs_logo_light.png)
+![](https://2.bp.blogspot.com/-h7ljxkRrImE/VfAcZ8U9dlI/AAAAAAAAC4U/wYPnnlhcP3Y/s1600/nodejs_logo_light.png)
 
 ## Update 09-08-15 ##
 In my initial blog post I came to the conclusion that there is no real difference in performance between 0.12 and 4.0.0. With a last minute enhancement this has now changed and there are significant performance gains now. Read on for more information.
@@ -32,7 +32,7 @@ Bringing together two codebases that drifted away from each other for many month
 
 I’m really stunned that actually a new converged Node.js 4.0.0 is round the corner.
 
-![](http://2.bp.blogspot.com/-OUIjmz20GsU/Ve_Or1QJRCI/AAAAAAAAC3g/q6_kYTlsk2s/s1600/600x450xnodeconf-600x450.jpg.pagespeed.ic.t8ry0mwT9n.webp)
+![](https://2.bp.blogspot.com/-OUIjmz20GsU/Ve_Or1QJRCI/AAAAAAAAC3g/q6_kYTlsk2s/s1600/600x450xnodeconf-600x450.jpg.pagespeed.ic.t8ry0mwT9n.webp)
 
 io.js, Node.js and npm developers discussing Native modules at NodeConf Adventure at a Ranch somewhere in California :)
 
@@ -90,7 +90,7 @@ For my tests I used a simple express application and created some load using [ab
 
 First I wanted to know the difference in request performance and collected the number of requests per second and the time a single request took.
 
-![](http://1.bp.blogspot.com/-XHZNq3GGTx8/Ve_P0jZLTiI/AAAAAAAAC3s/9vfHvoG1BBc/s1600/600x307xexpress_performance1-600x307.png.pagespeed.ic.Uo4X4tIjj9.png)
+![](https://1.bp.blogspot.com/-XHZNq3GGTx8/Ve_P0jZLTiI/AAAAAAAAC3s/9vfHvoG1BBc/s1600/600x307xexpress_performance1-600x307.png.pagespeed.ic.Uo4X4tIjj9.png)
 
 Overall performance of Node.js 4.0.0 compared to 0.12 and and 0.10
 
@@ -98,7 +98,7 @@ We clearly see that there is a performance gain of roughly 20% between the exami
 
 Using process.memoryUsage() I also graphed out the memory usage split into Resident Set Size, Heap Total and Heap Used.
 
-![](http://4.bp.blogspot.com/-SDTlKm-i6VQ/Ve_P-UcpW9I/AAAAAAAAC30/7NUlmiuNg6I/s1600/600x281xexpress_memory1-600x281.png.pagespeed.ic.Q2tECVnMNa.png)
+![](https://4.bp.blogspot.com/-SDTlKm-i6VQ/Ve_P-UcpW9I/AAAAAAAAC30/7NUlmiuNg6I/s1600/600x281xexpress_memory1-600x281.png.pagespeed.ic.Q2tECVnMNa.png)
 
 Comparing Memory Usage
 
@@ -119,7 +119,7 @@ This means
 - After that every LTS version will be in maintenance mode for another 18 months
 - The first LTS release will be in October. If you deploy it then, you can rely on it for 30 months.
 
-![](http://2.bp.blogspot.com/-HIqv87yBHWI/Ve_csiWb2jI/AAAAAAAAC4E/1aOWGHHSO-8/s1600/600x275xstrawmanschedule-600x275.png.pagespeed.ic.rs6_g0ZSH6.png)
+![](https://2.bp.blogspot.com/-HIqv87yBHWI/Ve_csiWb2jI/AAAAAAAAC4E/1aOWGHHSO-8/s1600/600x275xstrawmanschedule-600x275.png.pagespeed.ic.rs6_g0ZSH6.png)
 
 There is a [dedicated LTS sub-project on GitHub](https://github.com/nodejs/LTS). I encourage you to review it.
 

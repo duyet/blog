@@ -6,7 +6,7 @@ author: Van-Duyet Le
 tags:
 - Linux
 modified_time: '2015-02-15T11:47:58.252+07:00'
-thumbnail: http://3.bp.blogspot.com/-4cvpjZwnz50/VN4p_hlVBOI/AAAAAAAACFE/0kqpzy9wJQ0/s1600/IMG_8804_resize.jpg
+thumbnail: https://3.bp.blogspot.com/-4cvpjZwnz50/VN4p_hlVBOI/AAAAAAAACFE/0kqpzy9wJQ0/s1600/IMG_8804_resize.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-4682840170666481275
 blogger_orig_url: https://blog.duyet.net/2015/02/linux-mot-so-lenh-hay-dung.html
 slug: /2015/02/linux-mot-so-lenh-hay-dung.html
@@ -16,7 +16,7 @@ description: Dùng Linux cũng đã lâu. Thấy nhiều bạn học HDH, nếu 
 
 Dùng Linux cũng đã lâu. Thấy nhiều bạn học HDH, nếu không nắm được một số câu lệnh cần thiết thì công việc quản trị của bạn sẽ gặp không ít khó khăn, mình ghi ra vài lệnh hay, hay dùng trên Linux để tiện tham khảo.
 
-![](http://3.bp.blogspot.com/-4cvpjZwnz50/VN4p_hlVBOI/AAAAAAAACFE/0kqpzy9wJQ0/s1600/IMG_8804_resize.jpg)
+![](https://3.bp.blogspot.com/-4cvpjZwnz50/VN4p_hlVBOI/AAAAAAAACFE/0kqpzy9wJQ0/s1600/IMG_8804_resize.jpg)
 
 ## First of all ##
 Trước hết, 1 lênh quan trọng nhất khi bắt đầu tìm hiểu về lệnh trên terminal là lệnh man, lệnh man giúp bạn xem thông tin hướng dẫn cách sử dụng 1 lệnh nào đó (man là viết tắt của manual nha)
@@ -29,7 +29,7 @@ $ man ls
 
 Man sẽ hiển thị chi tiết, ý nghĩa, cách sử dụng và các tham số của 1 lệnh nào đó.
 
-![](http://3.bp.blogspot.com/-msPIi9OmGCA/VN9w9joiUBI/AAAAAAAACGQ/6tpcUMXAuz8/s1600/Screenshot%2Bfrom%2B2015-02-14%2B22%3A57%3A02.png)
+![](https://3.bp.blogspot.com/-msPIi9OmGCA/VN9w9joiUBI/AAAAAAAACGQ/6tpcUMXAuz8/s1600/Screenshot%2Bfrom%2B2015-02-14%2B22%3A57%3A02.png)
 
 ## Hay dùng nhất ##
 
@@ -62,7 +62,7 @@ Tham khảo: [Sử dụng trình soạn thảo “vi” trong linux](http://blog
 
 Mình cũng hay dùng nhất nữa là chương trình nano để sửa nhanh các file config.
 
-![](http://1.bp.blogspot.com/-FXksOXNjgQg/VN9zRVVhgEI/AAAAAAAACGk/6P9lylqoOwI/s1600/Screenshot%2Bfrom%2B2015-02-14%2B23%3A08%3A48.png)
+![](https://1.bp.blogspot.com/-FXksOXNjgQg/VN9zRVVhgEI/AAAAAAAACGk/6P9lylqoOwI/s1600/Screenshot%2Bfrom%2B2015-02-14%2B23%3A08%3A48.png)
 
 ## Giải nén ##
 Để giải nén một lưu trữ (thông thường có đuôi tar.gz), bạn phải dùng lệnh tar với cú pháp `tar -xvf <tên_file>`.
@@ -75,7 +75,7 @@ Mình cũng hay dùng nhất nữa là chương trình nano để sửa nhanh c�
 ## Phím TAB ##
 Dù ở phân phối nào, bạn cũng có thể dùng phím TAB để tự động hoàn chỉnh một lệnh hoặc tên file. Điều này rất hữu ích khi bạn quen với các lệnh. Bạn cũng có thể sử dụng các phím lên, xuống để cuộn xem các lệnh đã nhập.
 
-![](http://1.bp.blogspot.com/-R4Z4Mi5BwPI/VN9x3N7tqRI/AAAAAAAACGY/cvd8VP1SbuM/s1600/Screenshot%2Bfrom%2B2015-02-14%2B23%3A02%3A52.png)
+![](https://1.bp.blogspot.com/-R4Z4Mi5BwPI/VN9x3N7tqRI/AAAAAAAACGY/cvd8VP1SbuM/s1600/Screenshot%2Bfrom%2B2015-02-14%2B23%3A02%3A52.png)
 
 ## Đa lệnh ##
 

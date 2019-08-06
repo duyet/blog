@@ -8,7 +8,7 @@ tags:
 - Spark
 - BigData
 modified_time: '2015-07-14T13:00:07.257+07:00'
-thumbnail: http://3.bp.blogspot.com/-ytrI0VvmxgE/VaSiReFjsmI/AAAAAAAACl0/JSOfOs9-Pas/s1600/ss-tasks-3.png
+thumbnail: https://3.bp.blogspot.com/-ytrI0VvmxgE/VaSiReFjsmI/AAAAAAAACl0/JSOfOs9-Pas/s1600/ss-tasks-3.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-5746818033842679355
 blogger_orig_url: https://blog.duyet.net/2015/07/big-data-monitoring-spark-with-graphite.html
 slug: /2015/07/big-data-monitoring-spark-with-graphite.html
@@ -18,7 +18,7 @@ description:
 
 This post I have read from [HammerLab](http://www.hammerlab.org/2015/02/27/monitoring-spark-with-graphite-and-grafana/), Contact me if Vietnamese version neccessary. In this post, they'll discuss using Graphite and Grafana to graph metrics obtained from our [Spark](http://spark.apache.org/docs/1.2.1/) applications to answer these questions
 
-[![](http://3.bp.blogspot.com/-ytrI0VvmxgE/VaSiReFjsmI/AAAAAAAACl0/JSOfOs9-Pas/s1600/ss-tasks-3.png)](https://3.bp.blogspot.com/-ytrI0VvmxgE/VaSiReFjsmI/AAAAAAAACl0/JSOfOs9-Pas/s1600/ss-tasks-3.png)
+[![](https://3.bp.blogspot.com/-ytrI0VvmxgE/VaSiReFjsmI/AAAAAAAACl0/JSOfOs9-Pas/s1600/ss-tasks-3.png)](https://3.bp.blogspot.com/-ytrI0VvmxgE/VaSiReFjsmI/AAAAAAAACl0/JSOfOs9-Pas/s1600/ss-tasks-3.png)
 
 > At Hammer Lab, we use Spark to run analyses of genomic data in a distributed fashion. Distributed programs present unique challenges related to monitoring and debugging of code. Many standard approaches to fundamental questions of programming (what is my program doing? Why did it do what it did?) do not apply in a distributed context, leading to considerable frustration and despair.
 
@@ -29,7 +29,7 @@ Graphs of various metrics about the progress of a Spark application; read on for
 ## Spark Web UI ##
 Spark ships with a [Jetty](http://eclipse.org/jetty/) server that provides a wealth of information about running applications:
 
-![](http://4.bp.blogspot.com/-sXafwlnZE8I/VaSixijiOJI/AAAAAAAACl8/9gEn1oCZlPU/s1600/spark-web-ui.png)
+![](https://4.bp.blogspot.com/-sXafwlnZE8I/VaSixijiOJI/AAAAAAAACl8/9gEn1oCZlPU/s1600/spark-web-ui.png)
 
 Here we see a page with information about a specific stage in a job: completed tasks, metrics per executor, and (below the fold) metrics per task.
 
@@ -69,7 +69,7 @@ Below are a few examples illustrating the kinds of rich information we can get f
 ## Task Completion Rate ## (#task-completion-rate)
 These graphs show the number of active and completed tasks, per executor and overall, from a successful test of some toy [read depth histogram](https://github.com/hammerlab/guacamole/blob/5e060ae0e13434e42477ae0715e92103ab45baf9/src/main/scala/org/hammerlab/guacamole/commands/ReadDepthHist.scala) functionality in a branch of our [Guacamole](https://github.com/hammerlab/guacamole) variant calling project:
 
-![](http://3.bp.blogspot.com/-053jp9eCxuk/VaSkFFqSPcI/AAAAAAAACmI/9xw3c4rM20Y/s1600/rdh-tasks.png)
+![](https://3.bp.blogspot.com/-053jp9eCxuk/VaSkFFqSPcI/AAAAAAAACmI/9xw3c4rM20Y/s1600/rdh-tasks.png)
 
 The leftmost panel shows close to 400 tasks in flight at once, which  in this application corresponds to 4 “cores” on each of 100 executors.  The “valley” in that leftmost panel corresponds to the transition  between two stages of the one job in this application.
 The right two panels show the number of tasks completed and rate of task completion per minute for each executor.
@@ -77,7 +77,7 @@ The right two panels show the number of tasks completed and rate of task complet
 ## HDFS I/O ## (#hdfs-io)
 `MetricsSystem` also reports all filesystem- and HDFS-I/O  at per-executor granularity. Below are some graphs showing us our  application’s HDFS read statistics:
 
-![](http://4.bp.blogspot.com/-4-cphPMQd1g/VaSkMWsiwLI/AAAAAAAACmQ/txn9hIoOnt4/s1600/hdfs-graphs.png)
+![](https://4.bp.blogspot.com/-4-cphPMQd1g/VaSkMWsiwLI/AAAAAAAACmQ/txn9hIoOnt4/s1600/hdfs-graphs.png)
 
 Clockwise from top left, we see:
 
@@ -91,13 +91,13 @@ Our applications are typically not I/O bound in any meaningful way,  but we’ve
 ## JVM ## (#jvm)
 The [JVM statistics exported by Spark](https://github.com/apache/spark/blob/9f603fce78fcc997926e9a72dec44d48cbc396fc/core/src/main/scala/org/apache/spark/metrics/source/JvmSource.scala) are a treasure trove of information about what is going on in each  executor. We’ve only begun to experiment with ways to distill this data;  here’s an example of per-executor panels with information about garbage  collection:
 
-![](http://3.bp.blogspot.com/-v1FutiNm7l8/VaSkTzHm34I/AAAAAAAACmY/rIdDEL5LVkY/s1600/per-executor-jvm-metrics.png)
+![](https://3.bp.blogspot.com/-v1FutiNm7l8/VaSkTzHm34I/AAAAAAAACmY/rIdDEL5LVkY/s1600/per-executor-jvm-metrics.png)
 
 # Case Study: Ill-Fated [`SomaticStandard`](https://github.com/hammerlab/guacamole/blob/4c0381c6feba189ab605decaaea3c56a158ff565/src/main/scala/org/hammerlab/guacamole/commands/SomaticStandardCaller.scala) Run # (#case-study-ill-fated-somaticstandardsomaticstandard-run)
 Let’s do some forensics on a recent failed run of our [SomaticStandard variant caller](https://github.com/hammerlab/guacamole/blob/4c0381c6feba189ab605decaaea3c56a158ff565/src/main/scala/org/hammerlab/guacamole/commands/SomaticStandardCaller.scala) and use our Grafana dashboard to diagnose an issue that proved fatal to the application.
 The graphs below, similar to those in [the first example above](http://www.hammerlab.org/2015/02/27/monitoring-spark-with-graphite-and-grafana/#task-completion-rate-successful-run),  show the number of active and completed tasks, per executor and  overall, during a period in the middle of the doomed application’s  lifetime:
 
-![](http://1.bp.blogspot.com/-Hs2BOfUTPMU/VaSkcnl1tjI/AAAAAAAACmg/qp9LkaQG3uY/s1600/ss-tasks-3.png)
+![](https://1.bp.blogspot.com/-Hs2BOfUTPMU/VaSkcnl1tjI/AAAAAAAACmg/qp9LkaQG3uY/s1600/ss-tasks-3.png)
 
 From experience, we have learned to note and infer several things from graphs like these:
 

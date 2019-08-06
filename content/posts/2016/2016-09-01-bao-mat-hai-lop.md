@@ -50,7 +50,7 @@ Bạn còn có thể sử dụng 1 thiết bị Security Key, sử dụng như 1
 ## Facebook ##
 Truy cập vào Cài đặt và cài đặt bảo mật 2 lớp bằng cách sử dụng App của Google Authenticator
 
-[![](https://2.bp.blogspot.com/-OJiN9gcTDUw/V8e5b8j9CAI/AAAAAAAAcqA/QiWGdyJePnUZPS93Yl1tQlfLLfxdxtA7wCK4B/s1600/Screen%2BShot%2B2016-09-01%2Bat%2B12.13.00%2BPM.png)](http://2.bp.blogspot.com/-OJiN9gcTDUw/V8e5b8j9CAI/AAAAAAAAcqA/QiWGdyJePnUZPS93Yl1tQlfLLfxdxtA7wCK4B/s1600/Screen%2BShot%2B2016-09-01%2Bat%2B12.13.00%2BPM.png)
+[![](https://2.bp.blogspot.com/-OJiN9gcTDUw/V8e5b8j9CAI/AAAAAAAAcqA/QiWGdyJePnUZPS93Yl1tQlfLLfxdxtA7wCK4B/s1600/Screen%2BShot%2B2016-09-01%2Bat%2B12.13.00%2BPM.png)](https://2.bp.blogspot.com/-OJiN9gcTDUw/V8e5b8j9CAI/AAAAAAAAcqA/QiWGdyJePnUZPS93Yl1tQlfLLfxdxtA7wCK4B/s1600/Screen%2BShot%2B2016-09-01%2Bat%2B12.13.00%2BPM.png)
 
 Sau khi đăng nhập Facebook sẽ hỏi mã từ ứng dụng:
 
@@ -66,4 +66,4 @@ Chỉ cần nhập mã từ ứng dụng:
 - Mình khuyến khích sử dụng các thiết bị như FIDO U2F. [Xem thêm demo đăng nhập vào Google sử dụng thiết bị U2F của hãng Yubico](https://www.youtube.com/watch?annotation_id=annotation_1845157061&amp;feature=iv&amp;src_vid=BXN7-Wn1Hy4&amp;v=LeTkw6kmlzg)
 - Bạn nào làm về mạch và điện tử có thể tự chế tạo cho mình 1 thiết bị xác minh 2 bước để có thể được an toàn tuyệt đối ([https://github.com/conorpp/u2f-zero](https://github.com/conorpp/u2f-zero))
 
-[![](https://4.bp.blogspot.com/-ig8MqVNAnTw/V8e9Tb-NpwI/AAAAAAAAcrM/AkKDZQBQVj0U6Z4tgScGLyRJTYBWRWscwCK4B/s640/687474703a2f2f692e696d6775722e636f6d2f6451706f3977432e6a7067.jpeg)](http://4.bp.blogspot.com/-ig8MqVNAnTw/V8e9Tb-NpwI/AAAAAAAAcrM/AkKDZQBQVj0U6Z4tgScGLyRJTYBWRWscwCK4B/s1600/687474703a2f2f692e696d6775722e636f6d2f6451706f3977432e6a7067.jpeg)
+[![](https://4.bp.blogspot.com/-ig8MqVNAnTw/V8e9Tb-NpwI/AAAAAAAAcrM/AkKDZQBQVj0U6Z4tgScGLyRJTYBWRWscwCK4B/s640/687474703a2f2f692e696d6775722e636f6d2f6451706f3977432e6a7067.jpeg)](https://4.bp.blogspot.com/-ig8MqVNAnTw/V8e9Tb-NpwI/AAAAAAAAcrM/AkKDZQBQVj0U6Z4tgScGLyRJTYBWRWscwCK4B/s1600/687474703a2f2f692e696d6775722e636f6d2f6451706f3977432e6a7067.jpeg)

@@ -109,7 +109,7 @@ document.getElementById('output_field').innerText =  model.predict(
 Kết quả hiển thị trên màn hình:  
   
 
-[![](https://4.bp.blogspot.com/-Ge85yyxGclE/W1DAp6BmlZI/AAAAAAAAxYY/DiFfqydtOYoUBHVz5uOYAozPlnCjmI5tQCK4BGAYYCw/s1600/1_cbucRpe0oFey2c_a4ytnjw.png)](http://4.bp.blogspot.com/-Ge85yyxGclE/W1DAp6BmlZI/AAAAAAAAxYY/DiFfqydtOYoUBHVz5uOYAozPlnCjmI5tQCK4BGAYYCw/s1600/1_cbucRpe0oFey2c_a4ytnjw.png)
+[![](https://4.bp.blogspot.com/-Ge85yyxGclE/W1DAp6BmlZI/AAAAAAAAxYY/DiFfqydtOYoUBHVz5uOYAozPlnCjmI5tQCK4BGAYYCw/s1600/1_cbucRpe0oFey2c_a4ytnjw.png)](https://4.bp.blogspot.com/-Ge85yyxGclE/W1DAp6BmlZI/AAAAAAAAxYY/DiFfqydtOYoUBHVz5uOYAozPlnCjmI5tQCK4BGAYYCw/s1600/1_cbucRpe0oFey2c_a4ytnjw.png)
 
 Ảnh: https://medium.com/tensorflow/getting-started-with-tensorflow-js-50f6783489b2
 

@@ -37,7 +37,7 @@ Cài đặt:
 ## [Nodejs](https://packagecontrol.io/packages/Nodejs) ##
 Plugin cung cấp chức năng tự động completion code, gợi ý hàm cho các module, một số công cụ để lập trình Node (run code, debug, Uglify, NPM trực tiếp trong Sublime, Build, ...).
 
-[![](https://4.bp.blogspot.com/-tARsdYCr6hw/V47mwpshkBI/AAAAAAAAaB8/RvpFLnPwwBcjTJgGMBDDYesZgqlKBDeCgCK4B/s1600/node-plugin-subl.png)](http://4.bp.blogspot.com/-tARsdYCr6hw/V47mwpshkBI/AAAAAAAAaB8/RvpFLnPwwBcjTJgGMBDDYesZgqlKBDeCgCK4B/s1600/node-plugin-subl.png)
+[![](https://4.bp.blogspot.com/-tARsdYCr6hw/V47mwpshkBI/AAAAAAAAaB8/RvpFLnPwwBcjTJgGMBDDYesZgqlKBDeCgCK4B/s1600/node-plugin-subl.png)](https://4.bp.blogspot.com/-tARsdYCr6hw/V47mwpshkBI/AAAAAAAAaB8/RvpFLnPwwBcjTJgGMBDDYesZgqlKBDeCgCK4B/s1600/node-plugin-subl.png)
 
 Cài đặt:
 
@@ -72,7 +72,7 @@ Sau đó cài đặt JSHint bằng Package Control như bình thường.
 ## [Babel](https://packagecontrol.io/packages/Babel) ##
 Babel đã quá nổi tiếng rồi, Package Babel hỗ trợ coding ES6, React với tệp mở rộng JSX.
 
-[![](https://2.bp.blogspot.com/-hHnqzrhlgUY/V472sFiVLNI/AAAAAAAAaCY/cRVWJSBtvBg2xI_Qp3EP-ML9xgBP6i1AQCK4B/s640/8e99bbdc99a285708a1495a6e3dd68916753906e.png)](http://2.bp.blogspot.com/-hHnqzrhlgUY/V472sFiVLNI/AAAAAAAAaCY/cRVWJSBtvBg2xI_Qp3EP-ML9xgBP6i1AQCK4B/s1600/8e99bbdc99a285708a1495a6e3dd68916753906e.png)
+[![](https://2.bp.blogspot.com/-hHnqzrhlgUY/V472sFiVLNI/AAAAAAAAaCY/cRVWJSBtvBg2xI_Qp3EP-ML9xgBP6i1AQCK4B/s640/8e99bbdc99a285708a1495a6e3dd68916753906e.png)](https://2.bp.blogspot.com/-hHnqzrhlgUY/V472sFiVLNI/AAAAAAAAaCY/cRVWJSBtvBg2xI_Qp3EP-ML9xgBP6i1AQCK4B/s1600/8e99bbdc99a285708a1495a6e3dd68916753906e.png)
 
 Cài đặt:
 
@@ -83,7 +83,7 @@ Cài đặt:
 ## [Babel Snippets](https://packagecontrol.io/packages/Babel%20Snippets) ##
 Tương tự Java​Script & Node​JS Snippets, Babel Snippets cung cấp danh sách các snippets hữu ích cho React và ES6.
 
-[![](https://4.bp.blogspot.com/-n959RoTjV9s/V474ccvmq_I/AAAAAAAAaCs/3_KB3VeL8VwpgAkwFEK9hYb4Nj2mDahRwCK4B/s1600/babel-snippets-duyetdev.gif)](http://4.bp.blogspot.com/-n959RoTjV9s/V474ccvmq_I/AAAAAAAAaCs/3_KB3VeL8VwpgAkwFEK9hYb4Nj2mDahRwCK4B/s1600/babel-snippets-duyetdev.gif)
+[![](https://4.bp.blogspot.com/-n959RoTjV9s/V474ccvmq_I/AAAAAAAAaCs/3_KB3VeL8VwpgAkwFEK9hYb4Nj2mDahRwCK4B/s1600/babel-snippets-duyetdev.gif)](https://4.bp.blogspot.com/-n959RoTjV9s/V474ccvmq_I/AAAAAAAAaCs/3_KB3VeL8VwpgAkwFEK9hYb4Nj2mDahRwCK4B/s1600/babel-snippets-duyetdev.gif)
 
 Cài đặt:
 

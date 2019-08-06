@@ -10,7 +10,7 @@ tags:
 - Web
 - News
 modified_time: '2014-06-17T20:34:24.709+07:00'
-thumbnail: http://1.bp.blogspot.com/-1lp1Qfe9Jf8/U6BCZikxNLI/AAAAAAAAGtE/YYa3f6xJ-qc/s1600/stacks-change.jpg
+thumbnail: https://1.bp.blogspot.com/-1lp1Qfe9Jf8/U6BCZikxNLI/AAAAAAAAGtE/YYa3f6xJ-qc/s1600/stacks-change.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-8271168071505204497
 blogger_orig_url: https://blog.duyet.net/2014/06/the-myth-of-full-stack-developer.html
 slug: 2014/06/the-myth-of-full-stack-developer.html
@@ -26,7 +26,7 @@ My defensive tendencies are normally put on high alert when I hear that magic ph
 ![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F4.bp.blogspot.com%2F-MpnNIXsvZkI%2FU6BCNWpKD9I%2FAAAAAAAAGs8%2FLrTysg7CaLo%2Fs1600%2Ffull-stack.jpg&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*)
 For a time (allegedly) Facebook only hired full-stack engineers. This was of course when they were building the first few versions of Facebook, which, lets face it had a relatively simple php backend and wasn't anything special design-wise.
 
-![](http://1.bp.blogspot.com/-1lp1Qfe9Jf8/U6BCZikxNLI/AAAAAAAAGtE/YYa3f6xJ-qc/s1600/stacks-change.jpg)
+![](https://1.bp.blogspot.com/-1lp1Qfe9Jf8/U6BCZikxNLI/AAAAAAAAGtE/YYa3f6xJ-qc/s1600/stacks-change.jpg)
 
 ## Full-stack used to mean less layers. 
 
@@ -46,9 +46,9 @@ On the second iteration the interviewees were given a maximum of 30 points to di
 
 Of course 99% of web developers have probably never sat through this test, and have perhaps have never been forced to reveal what their real spread of skills is.
 
-![](http://2.bp.blogspot.com/-Asuf0WbOBJc/U6BDFWYQvKI/AAAAAAAAGtM/va-7kQMGjPQ/s1600/limited.jpg)
+![](https://2.bp.blogspot.com/-Asuf0WbOBJc/U6BDFWYQvKI/AAAAAAAAGtM/va-7kQMGjPQ/s1600/limited.jpg)
 
-![](http://1.bp.blogspot.com/-bMutiljaTAs/U6BDFd-BXHI/AAAAAAAAGtQ/q_DB2pxphKk/s1600/unlimited.jpg)
+![](https://1.bp.blogspot.com/-bMutiljaTAs/U6BDFd-BXHI/AAAAAAAAGtQ/q_DB2pxphKk/s1600/unlimited.jpg)
 
 ## How skilled are you in each discipline? 
 

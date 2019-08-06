@@ -29,13 +29,13 @@ Redux là một app state container, thường hay được sử dụng gắn li
 ## [D3.js 4.0 Released: The Data Visualization Library](http://saveto.co/r9jtqQ) ##
 D3.js là một thư viện rất nổi tiếng trong thế giới Web Visualization, D3.js có thể sử dụng để trực quan hóa dữ liệu, vẽ các biểu đồ, đồ thị trực quan, bản đồ, ... thậm chí làm được cả Game. D3 vừa ra mắt 4.0, với các chức năng mới như modular, composed of small libraries.
 
-[![](https://1.bp.blogspot.com/-nKD5mO2z5mI/V3Wt0n_3qrI/AAAAAAAAYrU/puSIR1axIdEQ8Dk15zvRyJeB1yJJCQ7uACK4B/s640/Script-of-the-Day-D3-js.png)](http://1.bp.blogspot.com/-nKD5mO2z5mI/V3Wt0n_3qrI/AAAAAAAAYrU/puSIR1axIdEQ8Dk15zvRyJeB1yJJCQ7uACK4B/s1600/Script-of-the-Day-D3-js.png)
+[![](https://1.bp.blogspot.com/-nKD5mO2z5mI/V3Wt0n_3qrI/AAAAAAAAYrU/puSIR1axIdEQ8Dk15zvRyJeB1yJJCQ7uACK4B/s640/Script-of-the-Day-D3-js.png)](https://1.bp.blogspot.com/-nKD5mO2z5mI/V3Wt0n_3qrI/AAAAAAAAYrU/puSIR1axIdEQ8Dk15zvRyJeB1yJJCQ7uACK4B/s1600/Script-of-the-Day-D3-js.png)
 
 ## [anime.js: A New JavaScript Animation Library](http://saveto.co/oeCFFL) ##
 JULIAN GARNIER
 Thư viện tạo hiệu ứng để presented, linh hoạt và gọn nhẹ. Cùng với đó là [10 ví dụ trên CodePen](http://saveto.co/12pGQb) để bạn có thể tìm hiểu cách sử dụng dễ dàng.
 
-[![](https://3.bp.blogspot.com/-gI9TGyhuIFQ/V3WsTI4nzUI/AAAAAAAAYqw/Nhfi7oHiMxA2DH5Dk5pbnmzWtf16K10kwCK4B/s1600/anime-js-duyetdev-weekly-6.png)](http://3.bp.blogspot.com/-gI9TGyhuIFQ/V3WsTI4nzUI/AAAAAAAAYqw/Nhfi7oHiMxA2DH5Dk5pbnmzWtf16K10kwCK4B/s1600/anime-js-duyetdev-weekly-6.png)
+[![](https://3.bp.blogspot.com/-gI9TGyhuIFQ/V3WsTI4nzUI/AAAAAAAAYqw/Nhfi7oHiMxA2DH5Dk5pbnmzWtf16K10kwCK4B/s1600/anime-js-duyetdev-weekly-6.png)](https://3.bp.blogspot.com/-gI9TGyhuIFQ/V3WsTI4nzUI/AAAAAAAAYqw/Nhfi7oHiMxA2DH5Dk5pbnmzWtf16K10kwCK4B/s1600/anime-js-duyetdev-weekly-6.png)
 
 ## [Debugging Node.js Applications](http://saveto.co/65WYn3) ##
 GERGELY NEMETH
@@ -45,13 +45,13 @@ Bài viết hướng dẫn cách debug ứng dụng Node sử dụng module debu
 NICK LARSEN
 Bạn đã từng nghe qua [WebAssembly](https://webassembly.github.io/) hay WASM chưa? Bài viết sẽ cho bạn cái nhìn đơn giản nhất về cách xây dựng ứng dụng mức bytecode để viết và chạy trên trình duyệt. Các ứng dụng WebAssembly sẽ có tốc độ compilation cực kỳ cao.
 
-[![](https://2.bp.blogspot.com/-cOQjNtEuygw/V3WwsjjMtoI/AAAAAAAAYr0/l_D77pg5SKsZmIN6-WVriN725HE6QQqegCK4B/s1600/wasm-bytecode.png)](http://2.bp.blogspot.com/-cOQjNtEuygw/V3WwsjjMtoI/AAAAAAAAYr0/l_D77pg5SKsZmIN6-WVriN725HE6QQqegCK4B/s1600/wasm-bytecode.png)
+[![](https://2.bp.blogspot.com/-cOQjNtEuygw/V3WwsjjMtoI/AAAAAAAAYr0/l_D77pg5SKsZmIN6-WVriN725HE6QQqegCK4B/s1600/wasm-bytecode.png)](https://2.bp.blogspot.com/-cOQjNtEuygw/V3WwsjjMtoI/AAAAAAAAYr0/l_D77pg5SKsZmIN6-WVriN725HE6QQqegCK4B/s1600/wasm-bytecode.png)
 
 ## [NativeBase: Cross-Platform React Native Components](http://saveto.co/JxS66X) ##
 GEEKYANTS
 NativeBase cung cấp các Components cơ bản Cross-Platform cho các ứng dụng React Native.
 
-[![](https://4.bp.blogspot.com/-gbt5Jy7UGMk/V3Ws-GLM7yI/AAAAAAAAYrI/u-5pmZUVG3EUCNi9bMSUsJGLkxMJ-F8pACK4B/s320/NSP-White.png)](http://4.bp.blogspot.com/-gbt5Jy7UGMk/V3Ws-GLM7yI/AAAAAAAAYrI/u-5pmZUVG3EUCNi9bMSUsJGLkxMJ-F8pACK4B/s1600/NSP-White.png)
+[![](https://4.bp.blogspot.com/-gbt5Jy7UGMk/V3Ws-GLM7yI/AAAAAAAAYrI/u-5pmZUVG3EUCNi9bMSUsJGLkxMJ-F8pACK4B/s320/NSP-White.png)](https://4.bp.blogspot.com/-gbt5Jy7UGMk/V3Ws-GLM7yI/AAAAAAAAYrI/u-5pmZUVG3EUCNi9bMSUsJGLkxMJ-F8pACK4B/s1600/NSP-White.png)
 
 --------------------
 Saveto: [http://saveto.co/t/js-weekly-6](http://saveto.co/t/js-weekly-6)

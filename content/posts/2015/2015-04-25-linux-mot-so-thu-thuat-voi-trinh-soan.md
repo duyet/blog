@@ -8,7 +8,7 @@ tags:
 - Ubuntu
 - VIM
 modified_time: '2015-04-25T13:09:47.309+07:00'
-thumbnail: http://1.bp.blogspot.com/-Jls16PZ6Obc/VTsuvm57idI/AAAAAAAACU8/AmSffEltsSw/s1600/vim.png
+thumbnail: https://1.bp.blogspot.com/-Jls16PZ6Obc/VTsuvm57idI/AAAAAAAACU8/AmSffEltsSw/s1600/vim.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-8548628604283448899
 blogger_orig_url: https://blog.duyet.net/2015/04/linux-mot-so-thu-thuat-voi-trinh-soan.html
 slug: /2015/04/linux-mot-so-thu-thuat-voi-trinh-soan.html
@@ -19,7 +19,7 @@ description: Vim (hoặc vi) là một trong những editor trên ternimal mạn
 
     Vim (hoặc vi) là một trong những editor trên ternimal mạnh mẽ trên Linux. Sau đây là 1 vài thủ thuật hay khi sử dụng vim trên linux.
 
-![](http://1.bp.blogspot.com/-Jls16PZ6Obc/VTsuvm57idI/AAAAAAAACU8/AmSffEltsSw/s1600/vim.png)
+![](https://1.bp.blogspot.com/-Jls16PZ6Obc/VTsuvm57idI/AAAAAAAACU8/AmSffEltsSw/s1600/vim.png)
 
 Các lệnh được sử dụng ở chế độ command mode, nếu ở chế độ edit thì bạn có thể chuyển sang chế độ này bằng cách nhấn phím: [esc]
 

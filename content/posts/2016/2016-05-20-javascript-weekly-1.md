@@ -18,7 +18,7 @@ description: Từ nay, blog sẽ có thêm mục mới JavaScript Weekly, cập 
 
 Từ nay, blog sẽ có thêm mục mới JavaScript Weekly, cập nhật và tổng hợp hàng tuần về Javascript/Nodejs. Mở đầu tuần đầu tiên này có gì mới?
 
-[![](https://3.bp.blogspot.com/--MqDil9Xkos/Vz8jBgnbr-I/AAAAAAAAViI/2carPWBy2bEwuqHYyinS1nz0tWur3vHlgCK4B/s640/clickable-markers.png)](http://3.bp.blogspot.com/--MqDil9Xkos/Vz8jBgnbr-I/AAAAAAAAViI/2carPWBy2bEwuqHYyinS1nz0tWur3vHlgCK4B/s1600/clickable-markers.png)
+[![](https://3.bp.blogspot.com/--MqDil9Xkos/Vz8jBgnbr-I/AAAAAAAAViI/2carPWBy2bEwuqHYyinS1nz0tWur3vHlgCK4B/s640/clickable-markers.png)](https://3.bp.blogspot.com/--MqDil9Xkos/Vz8jBgnbr-I/AAAAAAAAViI/2carPWBy2bEwuqHYyinS1nz0tWur3vHlgCK4B/s1600/clickable-markers.png)
 
 ## [How to Write a Google Maps Component with React](http://saveto.co/IZCPwr) ##
 ARI LERNER

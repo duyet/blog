@@ -21,7 +21,7 @@ description: Autotrack là thư viện Javascript sử dụng với analytics.js
 
 [Autotrack](http://saveto.co/iSKEkW) là thư viện Javascript sử dụng với [analytics.js](https://developers.google.com/analytics/devguides/collection/analyticsjs/?utm_campaign=analytics_discussion_autotrackturns1_080216&amp;utm_source=gdev&amp;utm_medium=blog), cung cấp cho lập trình viên nhiều công cụ hơn để theo dõi hoạt động người dùng trên web.
 
-[![](https://4.bp.blogspot.com/-iLc0CpE-jZs/V8ftpMNqYkI/AAAAAAAAcro/TjcwWkEVSLY4Bz6p0FE6wBwE28oN-91zQCK4B/s1600/autotrack.png)](http://4.bp.blogspot.com/-iLc0CpE-jZs/V8ftpMNqYkI/AAAAAAAAcro/TjcwWkEVSLY4Bz6p0FE6wBwE28oN-91zQCK4B/s1600/autotrack.png) 
+[![](https://4.bp.blogspot.com/-iLc0CpE-jZs/V8ftpMNqYkI/AAAAAAAAcro/TjcwWkEVSLY4Bz6p0FE6wBwE28oN-91zQCK4B/s1600/autotrack.png)](https://4.bp.blogspot.com/-iLc0CpE-jZs/V8ftpMNqYkI/AAAAAAAAcro/TjcwWkEVSLY4Bz6p0FE6wBwE28oN-91zQCK4B/s1600/autotrack.png) 
 Autotrack là project mã nguồn mở của Google Analytics, host tại Github.
 
 Github: [https://github.com/googleanalytics/autotrack](https://github.com/googleanalytics/autotrack)

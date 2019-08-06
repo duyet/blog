@@ -61,7 +61,7 @@ npm start
 - Connect your app to Parse Server: Parse provides SDKs for all the major platforms. Refer to the [Parse Server guide to learn how to connect your app to Parse Server.](https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide#using-parse-sdks-with-parse-server)
 - Read the full Parse Server guide here: [https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide](https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide)
 
-[![](https://4.bp.blogspot.com/-kktJEVTPL80/V7VWTvViP6I/AAAAAAAAbtk/q0UPwaZocJA5CaMjMyPFcZY9jJ6lrbwMgCK4B/s1600/Screen-Shot-2016-03-30-at-12.33.34-PM-1-1024x508.png)](http://4.bp.blogspot.com/-kktJEVTPL80/V7VWTvViP6I/AAAAAAAAbtk/q0UPwaZocJA5CaMjMyPFcZY9jJ6lrbwMgCK4B/s1600/Screen-Shot-2016-03-30-at-12.33.34-PM-1-1024x508.png)
+[![](https://4.bp.blogspot.com/-kktJEVTPL80/V7VWTvViP6I/AAAAAAAAbtk/q0UPwaZocJA5CaMjMyPFcZY9jJ6lrbwMgCK4B/s1600/Screen-Shot-2016-03-30-at-12.33.34-PM-1-1024x508.png)](https://4.bp.blogspot.com/-kktJEVTPL80/V7VWTvViP6I/AAAAAAAAbtk/q0UPwaZocJA5CaMjMyPFcZY9jJ6lrbwMgCK4B/s1600/Screen-Shot-2016-03-30-at-12.33.34-PM-1-1024x508.png)
 
 Parse Dashboard
 

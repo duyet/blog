@@ -9,7 +9,7 @@ tags:
 - Ad Netword
 - Quảng cáo
 modified_time: '2015-05-17T11:08:03.008+07:00'
-thumbnail: http://1.bp.blogspot.com/-zKPSuJl81ss/VVgTJnRpLnI/AAAAAAAACfQ/NW8xNo8FrxA/s1600/image_a3c65c2974270fd093ee8a9bf8ae7d0b.jpg
+thumbnail: https://1.bp.blogspot.com/-zKPSuJl81ss/VVgTJnRpLnI/AAAAAAAACfQ/NW8xNo8FrxA/s1600/image_a3c65c2974270fd093ee8a9bf8ae7d0b.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-1692641533646179468
 blogger_orig_url: https://blog.duyet.net/2015/05/tim-hieu-ve-he-thong-quang-cao-online.html
 slug: /2015/05/tim-hieu-ve-he-thong-quang-cao-online.html
@@ -26,7 +26,7 @@ Quảng cáo là hình thức tuyên truyền được trả tiền để thực
 
 Quảng cáo là những nỗ lực nhằm tác động tới hành vi, thói quen mua hàng của người tiêu dùng hay khách hàng bằng cách cung cấp những thông điệp bán hàng theo cách thuyết phục về sản phẩm hay dịch vụ của người bán.
 
-![](http://1.bp.blogspot.com/-zKPSuJl81ss/VVgTJnRpLnI/AAAAAAAACfQ/NW8xNo8FrxA/s1600/image_a3c65c2974270fd093ee8a9bf8ae7d0b.jpg)
+![](https://1.bp.blogspot.com/-zKPSuJl81ss/VVgTJnRpLnI/AAAAAAAACfQ/NW8xNo8FrxA/s1600/image_a3c65c2974270fd093ee8a9bf8ae7d0b.jpg)
 
 ## Các lợi ích của quảng cáo  ##
 
@@ -57,7 +57,7 @@ Hình thức này thường có giới hạn thời gian với một cái giá c
 
 Đây là cách quảng cáo đem lại doanh thu chủ yếu cho các search engine thông dụng như google hay bing. Để hình dung về hình thức này, bạn chỉ cần tham khảo 2 ví dụ dưới đây mà mình chụp lại của google.
 
-![](http://3.bp.blogspot.com/-8ctF4AUoYWo/VVgQ3z4O7bI/AAAAAAAACfE/VdLrmObCXvo/s1600/xzpldgsgenijllpp.png)
+![](https://3.bp.blogspot.com/-8ctF4AUoYWo/VVgQ3z4O7bI/AAAAAAAACfE/VdLrmObCXvo/s1600/xzpldgsgenijllpp.png)
 
 Khi mình search từ khoá liên quan đến laptop, google sẽ đưa quảng cáo liên quan đến từ khoá đó lên đầu. Để mua được quảng cáo loại này, thì advertiser phải mua quảng cáo dưới dạng từ khoá (keyword). Dạng quảng cáo này chính là hệ thống Adwords nổi tiếng của google mà chắc bạn đã từng nghe qua.
 
@@ -79,7 +79,7 @@ Mô hình quảng cáo này sẽ được tôi nhắc đến kĩ hơn trong bài
 - Ưu điểm: có thể điều chỉnh được giá thông qua việc 'bid' nhở có RTB (bạn có thể xem lại khái niệm về Real time bidding ở bài viết trước) -> về cơ bản giá sẽ rẻ hơn. Độ phủ sóng rộng hơn nhờ có ad-network. Ngoài ra nhơ việc tracking người dùng nên có thể sử dụng kĩ thuật retargeting để 'kéo' người dùng lại với service của mình.
 - Nhược điểm: advertiser sẽ không biết quảng cáo của mình sẽ được đặt ở đâu (RTB sẽ quyết việc này tại real-time), dẫn đến có thể quảng cáo của công ty X, sẽ lại được đặt ở ... website của đối thủ của X (việc này có thể giải quyết dựa vào một số công ty 3rd-party chuyên đi đánh giá độ tin cậy của media). Một nhược điểm rất lớn nữa của loại hình này chính là các thuật toán RTB thường không đủ thông minh để xác định user nào 'nên' hiện và user nào 'không nên' hiện quảng cáo, khiến cho 90% impression sẽ bị qui vào thể loại quảng cáo gây khó chịu cho người dùng.
 
-![](http://3.bp.blogspot.com/-3gn4U4nrm3U/VVgTheZUbgI/AAAAAAAACfY/iHv1bw4LZMg/s1600/mang-hien-thi-google.png)
+![](https://3.bp.blogspot.com/-3gn4U4nrm3U/VVgTheZUbgI/AAAAAAAACfY/iHv1bw4LZMg/s1600/mang-hien-thi-google.png)
 
 ## Các hình thức quảng cáo khác ##
 
@@ -88,7 +88,7 @@ Ngoài các hình thức trên thì hiện nay còn rất nhiều hình thức q
 - Quảng cáo trên mạng xã hội (facebook, twitter): hình thức này có lẽ tương lai sẽ thống trị quảng cáo trên internet nói chung, khi mà các mạng xã hội như facebook, twitter nắm 'rất nhiều' thông tin về người dùng, đủ cho họ có thể target được chính xác 'ai cần gì'.
 - Quảng cáo trên mobile (admob, apple ad..): Loại hình này có ưu điểm là impression rất lớn. Tuy nhiên nhược điểm lớn của loại hình này là các công ty như admob hay apple vẫn đang 'loay hoay' tìm các 'đăt' quảng cáo sao cho ít gây trở ngại đến người dùng nhất. Hơn nữa, tracking người dùng web và mobile hiện là một công việc không hề dễ (cross-device tracking), nên làm cho độ chính xác của quảng cáo trên mobile đang là cực thấp.
 
-![](http://2.bp.blogspot.com/-NO7PouvQDtg/VVgTuviz6-I/AAAAAAAACfg/upDEQN-_efU/s1600/Facebook-Ads-Cover.jpg)
+![](https://2.bp.blogspot.com/-NO7PouvQDtg/VVgTuviz6-I/AAAAAAAACfg/upDEQN-_efU/s1600/Facebook-Ads-Cover.jpg)
 
 Tham khảo thêm: http://kipalog.com/posts/upb9BdeqKagyEs4P2Ya1Zg
 

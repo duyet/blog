@@ -6,7 +6,7 @@ author: Van-Duyet Le
 tags:
 - BigData
 modified_time: '2015-04-12T18:28:37.128+07:00'
-thumbnail: http://2.bp.blogspot.com/-91L8Jd3M3u4/VSpWUia7JaI/AAAAAAAACQY/LcrkDeteKiA/s1600/AAEAAQAAAAAAAAMxAAAAJDk1ZTU1YTg0LWU0ZGQtNDRiYi1iM2UxLWNmY2FhYjhiMzgxMQ.jpg
+thumbnail: https://2.bp.blogspot.com/-91L8Jd3M3u4/VSpWUia7JaI/AAAAAAAACQY/LcrkDeteKiA/s1600/AAEAAQAAAAAAAAMxAAAAJDk1ZTU1YTg0LWU0ZGQtNDRiYi1iM2UxLWNmY2FhYjhiMzgxMQ.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-6349442069673071870
 blogger_orig_url: https://blog.duyet.net/2015/04/big-data-explained-in-less-than-2.html
 slug: /2015/04/big-data-explained-in-less-than-2.html
@@ -21,7 +21,7 @@ It’s such an important idea that everyone from your grandma to your CEO needs 
 ## What is Big Data? ##
 “Big Data” means different things to different people and there isn’t, and probably never will be, a commonly agreed upon definition out there. But the phenomenon is real and it is producing benefits in so many different areas, so it makes sense for all of us to have a working understanding of the concept.
 
-![](http://2.bp.blogspot.com/-91L8Jd3M3u4/VSpWUia7JaI/AAAAAAAACQY/LcrkDeteKiA/s1600/AAEAAQAAAAAAAAMxAAAAJDk1ZTU1YTg0LWU0ZGQtNDRiYi1iM2UxLWNmY2FhYjhiMzgxMQ.jpg)
+![](https://2.bp.blogspot.com/-91L8Jd3M3u4/VSpWUia7JaI/AAAAAAAACQY/LcrkDeteKiA/s1600/AAEAAQAAAAAAAAMxAAAAJDk1ZTU1YTg0LWU0ZGQtNDRiYi1iM2UxLWNmY2FhYjhiMzgxMQ.jpg)
 
 So here’s my quick and dirty definition:
 

@@ -58,7 +58,7 @@ Murano project là dự án application catalog của **Openstack**, cho phép 
   
 Ví dụ về Murano:  
 
-[![](https://2.bp.blogspot.com/-PC036z2KBHQ/WBR70SPyJaI/AAAAAAAAfZg/AZsICBqFE0k1KjX2pgaYj0dG30IlyCZUwCK4B/s1600/murano1.png)](http://2.bp.blogspot.com/-PC036z2KBHQ/WBR70SPyJaI/AAAAAAAAfZg/AZsICBqFE0k1KjX2pgaYj0dG30IlyCZUwCK4B/s1600/murano1.png)
+[![](https://2.bp.blogspot.com/-PC036z2KBHQ/WBR70SPyJaI/AAAAAAAAfZg/AZsICBqFE0k1KjX2pgaYj0dG30IlyCZUwCK4B/s1600/murano1.png)](https://2.bp.blogspot.com/-PC036z2KBHQ/WBR70SPyJaI/AAAAAAAAfZg/AZsICBqFE0k1KjX2pgaYj0dG30IlyCZUwCK4B/s1600/murano1.png)
 
   
 Tải và cấu hình Devstack  

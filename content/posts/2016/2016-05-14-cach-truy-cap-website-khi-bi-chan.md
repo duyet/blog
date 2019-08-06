@@ -48,11 +48,11 @@ ZenMate khá nhanh và ổn định. Quan trọng hơn hết, ZenMate được t
 Với Smartphone Android, cách sử dụng cũng tương tự. Truy cập Play Store và tìm ứng dụng ZenMate.
 (Nhấn Install để cài đặt)
 
-[![](https://3.bp.blogspot.com/-IFR5trJHCQ8/Vzc2ZARNp9I/AAAAAAAAVDA/c35wN_F_6N4x1sP563SZ1MmLuCv54lpEQCK4B/s640/Screenshot_2016-05-14-21-18-58_com.android.vending.png)](http://3.bp.blogspot.com/-IFR5trJHCQ8/Vzc2ZARNp9I/AAAAAAAAVDA/c35wN_F_6N4x1sP563SZ1MmLuCv54lpEQCK4B/s1600/Screenshot_2016-05-14-21-18-58_com.android.vending.png)
+[![](https://3.bp.blogspot.com/-IFR5trJHCQ8/Vzc2ZARNp9I/AAAAAAAAVDA/c35wN_F_6N4x1sP563SZ1MmLuCv54lpEQCK4B/s640/Screenshot_2016-05-14-21-18-58_com.android.vending.png)](https://3.bp.blogspot.com/-IFR5trJHCQ8/Vzc2ZARNp9I/AAAAAAAAVDA/c35wN_F_6N4x1sP563SZ1MmLuCv54lpEQCK4B/s1600/Screenshot_2016-05-14-21-18-58_com.android.vending.png)
 
 Sau khi cài đặt thành công, bạn mở ứng dụng ZenMate và đăng nhập để sử dụng. Sau khi đăng nhập thành công, nhấn nút Connect và sử dụng (connect thành công nút chuyển sang màu xanh lá cây).
 
-[![](https://1.bp.blogspot.com/-boJX_SRa7CQ/Vzc200gkGHI/AAAAAAAAVDQ/h1vTcCnbzg4nhMZIGEY4j-OZWZg_4sLvwCK4B/s640/Screenshot_2016-05-14-21-24-54_com.android.vpndialogs.png)](http://1.bp.blogspot.com/-boJX_SRa7CQ/Vzc200gkGHI/AAAAAAAAVDQ/h1vTcCnbzg4nhMZIGEY4j-OZWZg_4sLvwCK4B/s1600/Screenshot_2016-05-14-21-24-54_com.android.vpndialogs.png) [![](https://3.bp.blogspot.com/-qe3lttSB8UI/Vzc2iiLf-RI/AAAAAAAAVDI/YixU8LszvaA2w75vtFNucs1RrgGsu7ZdQCK4B/s640/Screenshot_2016-05-14-21-25-18_com.zenmate.android.png)](http://3.bp.blogspot.com/-qe3lttSB8UI/Vzc2iiLf-RI/AAAAAAAAVDI/YixU8LszvaA2w75vtFNucs1RrgGsu7ZdQCK4B/s1600/Screenshot_2016-05-14-21-25-18_com.zenmate.android.png)
+[![](https://1.bp.blogspot.com/-boJX_SRa7CQ/Vzc200gkGHI/AAAAAAAAVDQ/h1vTcCnbzg4nhMZIGEY4j-OZWZg_4sLvwCK4B/s640/Screenshot_2016-05-14-21-24-54_com.android.vpndialogs.png)](https://1.bp.blogspot.com/-boJX_SRa7CQ/Vzc200gkGHI/AAAAAAAAVDQ/h1vTcCnbzg4nhMZIGEY4j-OZWZg_4sLvwCK4B/s1600/Screenshot_2016-05-14-21-24-54_com.android.vpndialogs.png) [![](https://3.bp.blogspot.com/-qe3lttSB8UI/Vzc2iiLf-RI/AAAAAAAAVDI/YixU8LszvaA2w75vtFNucs1RrgGsu7ZdQCK4B/s640/Screenshot_2016-05-14-21-25-18_com.zenmate.android.png)](https://3.bp.blogspot.com/-qe3lttSB8UI/Vzc2iiLf-RI/AAAAAAAAVDI/YixU8LszvaA2w75vtFNucs1RrgGsu7ZdQCK4B/s1600/Screenshot_2016-05-14-21-25-18_com.zenmate.android.png)
 
 #### 1.3. ZenMate for Desktop ####
 ZenMate cũng cung cấp App cho Desktop (Windows và Mac). Truy cập trang Downdload để cài đặt cho phù hợp mới máy của mình: [https://zenmate.com/products/](https://zenmate.com/products/)
@@ -73,11 +73,11 @@ BetterNet rất an toàn, hoàn toàn miễn phí, dễ sử dụng như ZenMate
 
 Sau khi tải về từ Chrome Web Store (như ZenMate ở trên). Xuất hiện biểu tượng cái khiên ở góc phải màn hình:
 
-[![](https://1.bp.blogspot.com/-cUMfhsFw3dU/Vzc6RzqUpbI/AAAAAAAAVDk/slJ6osBsI8UNDkuph9pTV9eKu5H-9sy9wCK4B/s1600/Screenshot%2Bfrom%2B2016-05-14%2B21-45-20.png)](http://1.bp.blogspot.com/-cUMfhsFw3dU/Vzc6RzqUpbI/AAAAAAAAVDk/slJ6osBsI8UNDkuph9pTV9eKu5H-9sy9wCK4B/s1600/Screenshot%2Bfrom%2B2016-05-14%2B21-45-20.png)
+[![](https://1.bp.blogspot.com/-cUMfhsFw3dU/Vzc6RzqUpbI/AAAAAAAAVDk/slJ6osBsI8UNDkuph9pTV9eKu5H-9sy9wCK4B/s1600/Screenshot%2Bfrom%2B2016-05-14%2B21-45-20.png)](https://1.bp.blogspot.com/-cUMfhsFw3dU/Vzc6RzqUpbI/AAAAAAAAVDk/slJ6osBsI8UNDkuph9pTV9eKu5H-9sy9wCK4B/s1600/Screenshot%2Bfrom%2B2016-05-14%2B21-45-20.png)
 
 Bấm vào nút “Connect" để tự động kết nối, lúc này biểu tượng hình cái khiên chuyển thành màu xanh da trời:
 
-[![](https://2.bp.blogspot.com/-gpn8aFIKC0I/Vzc6hvtmX0I/AAAAAAAAVDs/b2GXUAt8rEc0LWpl-q2fABdHCCnuNiIjwCK4B/s1600/Screenshot%2Bfrom%2B2016-05-14%2B21-45-27.png)](http://2.bp.blogspot.com/-gpn8aFIKC0I/Vzc6hvtmX0I/AAAAAAAAVDs/b2GXUAt8rEc0LWpl-q2fABdHCCnuNiIjwCK4B/s1600/Screenshot%2Bfrom%2B2016-05-14%2B21-45-27.png)
+[![](https://2.bp.blogspot.com/-gpn8aFIKC0I/Vzc6hvtmX0I/AAAAAAAAVDs/b2GXUAt8rEc0LWpl-q2fABdHCCnuNiIjwCK4B/s1600/Screenshot%2Bfrom%2B2016-05-14%2B21-45-27.png)](https://2.bp.blogspot.com/-gpn8aFIKC0I/Vzc6hvtmX0I/AAAAAAAAVDs/b2GXUAt8rEc0LWpl-q2fABdHCCnuNiIjwCK4B/s1600/Screenshot%2Bfrom%2B2016-05-14%2B21-45-27.png)
 
 Tất cả mọi truy cập xuyên qua trình duyệt Chrome lúc này hoàn toàn riêng tư và được bảo vệ. Nếu muốn kết thúc kết nối vào BetterNet, chỉ cần bấm vào biểu tượng hình khiên màu xanh da trời rồi bấm vào nút “Disconnect" là xong.
 
@@ -87,7 +87,7 @@ Chrome trên Mobile có chế độ Tiết kiệm dữ liệu. Khi bật chức 
 Cách bật: Mở Chrome chọn Cài đặt > Trình tiết kiệm dữ liệu, Chọn bật
 (Hoặc Settings > Data Saver nếu sử dụng tiếng Anh)
 
-[![](https://3.bp.blogspot.com/-79AODl6OLlo/VzdG91qSqTI/AAAAAAAAVEQ/ybPSkdLn2mwZDftuztZibaepko2F9CWHACK4B/s640/Screenshot_2016-05-14-22-34-19_com.android.chrome.png)](http://3.bp.blogspot.com/-79AODl6OLlo/VzdG91qSqTI/AAAAAAAAVEQ/ybPSkdLn2mwZDftuztZibaepko2F9CWHACK4B/s1600/Screenshot_2016-05-14-22-34-19_com.android.chrome.png) [![](https://4.bp.blogspot.com/-c4YYCunb3Yg/VzdG931PYpI/AAAAAAAAVEU/WIwBw8mOwikHCVs7gCaMHegR5u_nYpO8wCK4B/s640/Screenshot_2016-05-14-22-34-54_com.android.chrome.png)](http://4.bp.blogspot.com/-c4YYCunb3Yg/VzdG931PYpI/AAAAAAAAVEU/WIwBw8mOwikHCVs7gCaMHegR5u_nYpO8wCK4B/s1600/Screenshot_2016-05-14-22-34-54_com.android.chrome.png)
+[![](https://3.bp.blogspot.com/-79AODl6OLlo/VzdG91qSqTI/AAAAAAAAVEQ/ybPSkdLn2mwZDftuztZibaepko2F9CWHACK4B/s640/Screenshot_2016-05-14-22-34-19_com.android.chrome.png)](https://3.bp.blogspot.com/-79AODl6OLlo/VzdG91qSqTI/AAAAAAAAVEQ/ybPSkdLn2mwZDftuztZibaepko2F9CWHACK4B/s1600/Screenshot_2016-05-14-22-34-19_com.android.chrome.png) [![](https://4.bp.blogspot.com/-c4YYCunb3Yg/VzdG931PYpI/AAAAAAAAVEU/WIwBw8mOwikHCVs7gCaMHegR5u_nYpO8wCK4B/s640/Screenshot_2016-05-14-22-34-54_com.android.chrome.png)](https://4.bp.blogspot.com/-c4YYCunb3Yg/VzdG931PYpI/AAAAAAAAVEU/WIwBw8mOwikHCVs7gCaMHegR5u_nYpO8wCK4B/s1600/Screenshot_2016-05-14-22-34-54_com.android.chrome.png)
 
 Với cách này chỉ có thể truy cập Facebook hoặc Website bị chặn bằng trình duyệt Chrome. Opera Mini hoặc UC Browser cũng có chức năng tương tự.
 

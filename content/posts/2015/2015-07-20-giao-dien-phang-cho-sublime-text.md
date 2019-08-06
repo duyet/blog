@@ -9,7 +9,7 @@ tags:
 - giao diện
 - theme
 modified_time: '2015-07-20T23:57:56.971+07:00'
-thumbnail: http://3.bp.blogspot.com/-sa830MyF-Pc/Va0kRlvZo9I/AAAAAAAACp4/gaw6hL08lPM/s1600/Screenshot%2Bfrom%2B2015-07-20%2B23%253A30%253A29.png
+thumbnail: https://3.bp.blogspot.com/-sa830MyF-Pc/Va0kRlvZo9I/AAAAAAAACp4/gaw6hL08lPM/s1600/Screenshot%2Bfrom%2B2015-07-20%2B23%253A30%253A29.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-3511063714856173572
 blogger_orig_url: https://blog.duyet.net/2015/07/giao-dien-phang-cho-sublime-text.html
 slug: /2015/07/giao-dien-phang-cho-sublime-text.html
@@ -41,7 +41,7 @@ import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a309809
 Nhấn Enter, đợi cho nó cài đặt xong.
 Bấm Ctrl + Shift + P, gõ "Package Control", nếu thấy như thế này tức là thành công
 
-![](http://3.bp.blogspot.com/-sa830MyF-Pc/Va0kRlvZo9I/AAAAAAAACp4/gaw6hL08lPM/s1600/Screenshot%2Bfrom%2B2015-07-20%2B23%253A30%253A29.png)
+![](https://3.bp.blogspot.com/-sa830MyF-Pc/Va0kRlvZo9I/AAAAAAAACp4/gaw6hL08lPM/s1600/Screenshot%2Bfrom%2B2015-07-20%2B23%253A30%253A29.png)
 
 ## Cài đặt theme thông qua Package Control ##
 Theme bên dưới mình đang sử dụng là itg.flat, để cài đặt:
@@ -50,17 +50,17 @@ Theme bên dưới mình đang sử dụng là itg.flat, để cài đặt:
 2. Gõ `Install Package`, nhấn Enter.
 3. Gõ: `itg.flat`, nhấn Enter, đợi một lúc.
 
-![](http://3.bp.blogspot.com/-_C9oEjU0vic/Va0lXnXGdnI/AAAAAAAACqE/mjQjBLtmoyE/s1600/Screenshot%2Bfrom%2B2015-07-20%2B23%253A42%253A56.png)
+![](https://3.bp.blogspot.com/-_C9oEjU0vic/Va0lXnXGdnI/AAAAAAAACqE/mjQjBLtmoyE/s1600/Screenshot%2Bfrom%2B2015-07-20%2B23%253A42%253A56.png)
 4. Mở Menu: References > Settings - User
 5. Thêm vào file Settings User đoạn json sau rồi save lai
 
-[![](http://2.bp.blogspot.com/-MDvC1cBAQ7Q/Va0lqiG-IZI/AAAAAAAACqM/WYRRgPlpBbo/s1600/Screenshot%2Bfrom%2B2015-07-20%2B23%253A44%253A59.png)](http://2.bp.blogspot.com/-MDvC1cBAQ7Q/Va0lqiG-IZI/AAAAAAAACqM/WYRRgPlpBbo/s1600/Screenshot%2Bfrom%2B2015-07-20%2B23%253A44%253A59.png)
+[![](https://2.bp.blogspot.com/-MDvC1cBAQ7Q/Va0lqiG-IZI/AAAAAAAACqM/WYRRgPlpBbo/s1600/Screenshot%2Bfrom%2B2015-07-20%2B23%253A44%253A59.png)](https://2.bp.blogspot.com/-MDvC1cBAQ7Q/Va0lqiG-IZI/AAAAAAAACqM/WYRRgPlpBbo/s1600/Screenshot%2Bfrom%2B2015-07-20%2B23%253A44%253A59.png)
 
 Bạn cũng có thể chỉnh thêm 1 số thông số theo nội dung của file hướng dẫn
 
 Kết quả phẳng lỳ
 
-![](http://3.bp.blogspot.com/-mzN6sZ-oJGI/Va0md3gGRXI/AAAAAAAACqY/UzMegyeklVE/s1600/Screenshot%2Bfrom%2B2015-07-20%2B23%253A48%253A24.png)
+![](https://3.bp.blogspot.com/-mzN6sZ-oJGI/Va0md3gGRXI/AAAAAAAACqY/UzMegyeklVE/s1600/Screenshot%2Bfrom%2B2015-07-20%2B23%253A48%253A24.png)
 
 Ngoài ra bạn có thể truy cập vào trang chủ của Package Control tại:  [https://packagecontrol.io](https://packagecontrol.io/)
 Search lấy theme bạn chọn, nhớ lấy tên theme rồi vào Sublime Text cài đặt tương tự như ở trên.

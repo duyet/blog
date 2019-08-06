@@ -29,7 +29,7 @@ Nhắc lại về Word2vec, nó sử dụng 1 tập copus, qua một mạng Neur
 **Doc2vec**, ngoài từ (word), ta còn có thể biểu diễn các câu (sentences) thậm chí 1 đoạn văn bản (document). Khi đó, bạn có thể dễ dàng vector hóa cả một đoạn văn bản thành một vector có số chiều cố định và nhỏ, từ đó có thể chạy bất cứ thuật toán classification cơ bản nào trên các vector đó.  
   
 
-[![](https://2.bp.blogspot.com/-IpnvLkBHx74/WdnUJ5r3q_I/AAAAAAAAnxI/Cz9B_YQo6tcu0YwOffsQQWmcfjH_mRulwCK4BGAYYCw/s1600/pv_dm.png)](http://2.bp.blogspot.com/-IpnvLkBHx74/WdnUJ5r3q_I/AAAAAAAAnxI/Cz9B_YQo6tcu0YwOffsQQWmcfjH_mRulwCK4BGAYYCw/s1600/pv_dm.png)
+[![](https://2.bp.blogspot.com/-IpnvLkBHx74/WdnUJ5r3q_I/AAAAAAAAnxI/Cz9B_YQo6tcu0YwOffsQQWmcfjH_mRulwCK4BGAYYCw/s1600/pv_dm.png)](https://2.bp.blogspot.com/-IpnvLkBHx74/WdnUJ5r3q_I/AAAAAAAAnxI/Cz9B_YQo6tcu0YwOffsQQWmcfjH_mRulwCK4BGAYYCw/s1600/pv_dm.png)
 Ảnh: https://arxiv.org/pdf/1405.4053.pdf
 
 Trong bài này, mình sẽ giới thiệu rất cơ bản basic concept để các bạn có thể hình dung việc ứng dụng **Doc2vec trong** **Sentiment Analysis** như thế nào.
@@ -43,11 +43,11 @@ Trong bài này, mình sẽ giới thiệu rất cơ bản basic concept để c
 
 *   **DBOW** (distributed bag of words): Mô hình này đơn giản là không quan tâm thứ tự các từ, training nhanh hơn, không sử dụng local-context/neighboring. Mô hình chèn thêm 1 "word" là ParagraphID, ParagraphID này đại diện cho văn bản được training. Sau khi training xong có thể hiểu các vector ParagraphID này là vector embedded của các văn bản. Hình ảnh được mô tả trong bài báo:  
     
-    [![](https://3.bp.blogspot.com/-wai3jZmknIY/WdnLxUFOpTI/AAAAAAAAnwc/UfNbC3B1KPw6GxhjIaigYMLnkgyQYAS6QCK4BGAYYCw/s1600/doc2vec_dbow%2B%25281%2529.jpg)](http://3.bp.blogspot.com/-wai3jZmknIY/WdnLxUFOpTI/AAAAAAAAnwc/UfNbC3B1KPw6GxhjIaigYMLnkgyQYAS6QCK4BGAYYCw/s1600/doc2vec_dbow%2B%25281%2529.jpg)
+    [![](https://3.bp.blogspot.com/-wai3jZmknIY/WdnLxUFOpTI/AAAAAAAAnwc/UfNbC3B1KPw6GxhjIaigYMLnkgyQYAS6QCK4BGAYYCw/s1600/doc2vec_dbow%2B%25281%2529.jpg)](https://3.bp.blogspot.com/-wai3jZmknIY/WdnLxUFOpTI/AAAAAAAAnwc/UfNbC3B1KPw6GxhjIaigYMLnkgyQYAS6QCK4BGAYYCw/s1600/doc2vec_dbow%2B%25281%2529.jpg)
     
 *   **DM** (distributed memory): xem một paragraph là một từ, sau đó nối từ này vào tập các từ trong câu. Trong quá trình training, vector của paragraph và vector từ đều được update.  
     
-    [![](https://1.bp.blogspot.com/--QeiWTR1UXw/WdnL4u33MoI/AAAAAAAAnwk/_HANkz23v5cgj6gyxWXSQI2X21E7Hc35ACK4BGAYYCw/s1600/doc2vec_dm.jpg)](http://1.bp.blogspot.com/--QeiWTR1UXw/WdnL4u33MoI/AAAAAAAAnwk/_HANkz23v5cgj6gyxWXSQI2X21E7Hc35ACK4BGAYYCw/s1600/doc2vec_dm.jpg)
+    [![](https://1.bp.blogspot.com/--QeiWTR1UXw/WdnL4u33MoI/AAAAAAAAnwk/_HANkz23v5cgj6gyxWXSQI2X21E7Hc35ACK4BGAYYCw/s1600/doc2vec_dm.jpg)](https://1.bp.blogspot.com/--QeiWTR1UXw/WdnL4u33MoI/AAAAAAAAnwk/_HANkz23v5cgj6gyxWXSQI2X21E7Hc35ACK4BGAYYCw/s1600/doc2vec_dm.jpg)
     
 
   
@@ -387,7 +387,7 @@ plot_confusion_matrix(cm, classes=['neg', 'pos'])
 *Accuracy 0.86376*<br />
 *Confusion matrix, without normalization* 
 
-[![](https://3.bp.blogspot.com/-xZEUdBCyrEI/WdnN-V4iInI/AAAAAAAAnww/OqQ3uBxMCV0Eg0XkvsN7f-q2hkMZTrUvQCK4BGAYYCw/s1600/confusion_matrix_LR.png)](http://3.bp.blogspot.com/-xZEUdBCyrEI/WdnN-V4iInI/AAAAAAAAnww/OqQ3uBxMCV0Eg0XkvsN7f-q2hkMZTrUvQCK4BGAYYCw/s1600/confusion_matrix_LR.png)
+[![](https://3.bp.blogspot.com/-xZEUdBCyrEI/WdnN-V4iInI/AAAAAAAAnww/OqQ3uBxMCV0Eg0XkvsN7f-q2hkMZTrUvQCK4BGAYYCw/s1600/confusion_matrix_LR.png)](https://3.bp.blogspot.com/-xZEUdBCyrEI/WdnN-V4iInI/AAAAAAAAnww/OqQ3uBxMCV0Eg0XkvsN7f-q2hkMZTrUvQCK4BGAYYCw/s1600/confusion_matrix_LR.png)
 
   
 
@@ -410,7 +410,7 @@ plot_confusion_matrix(cm, classes=['neg', 'pos'])
 *Accuracy 0.86708* <br />
 *Confusion matrix, without normalization*
 
-[![](https://4.bp.blogspot.com/-vMs52b_9gZk/WdnOJG1wjhI/AAAAAAAAnw4/H10XIqYo_sMpAGS0tGWThPZkT0pkEJLHQCK4BGAYYCw/s1600/confusion_matrix_SVM.png)](http://4.bp.blogspot.com/-vMs52b_9gZk/WdnOJG1wjhI/AAAAAAAAnw4/H10XIqYo_sMpAGS0tGWThPZkT0pkEJLHQCK4BGAYYCw/s1600/confusion_matrix_SVM.png)
+[![](https://4.bp.blogspot.com/-vMs52b_9gZk/WdnOJG1wjhI/AAAAAAAAnw4/H10XIqYo_sMpAGS0tGWThPZkT0pkEJLHQCK4BGAYYCw/s1600/confusion_matrix_SVM.png)](https://4.bp.blogspot.com/-vMs52b_9gZk/WdnOJG1wjhI/AAAAAAAAnw4/H10XIqYo_sMpAGS0tGWThPZkT0pkEJLHQCK4BGAYYCw/s1600/confusion_matrix_SVM.png)
 
 
 SVM cho kết quả tương tự, vẫn khá tốt **~ 86%**  

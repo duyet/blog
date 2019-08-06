@@ -8,7 +8,7 @@ tags:
 - Trello
 - Project Manager
 modified_time: '2015-02-14T11:57:49.831+07:00'
-thumbnail: http://4.bp.blogspot.com/-c9D8D5DlXK0/VN7U6eDu_iI/AAAAAAAACFg/VIL1z25OfEI/s1600/2014_12_06_bd8a9.png
+thumbnail: https://4.bp.blogspot.com/-c9D8D5DlXK0/VN7U6eDu_iI/AAAAAAAACFg/VIL1z25OfEI/s1600/2014_12_06_bd8a9.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-2180961950956502054
 blogger_orig_url: https://blog.duyet.net/2015/02/quan-ly-cong-viec-hieu-qua-voi-trello.html
 slug: /2015/02/quan-ly-cong-viec-hieu-qua-voi-trello.html
@@ -27,7 +27,7 @@ Trello là một công cụ để phối hợp công việc hiệu quả giúp c
 
 Đây là ví dụ của 1 Board gồm các list và các card trong đó.
 
-![](http://4.bp.blogspot.com/-c9D8D5DlXK0/VN7U6eDu_iI/AAAAAAAACFg/VIL1z25OfEI/s1600/2014_12_06_bd8a9.png)
+![](https://4.bp.blogspot.com/-c9D8D5DlXK0/VN7U6eDu_iI/AAAAAAAACFg/VIL1z25OfEI/s1600/2014_12_06_bd8a9.png)
 
 ## Trello có gì hay? ##
 

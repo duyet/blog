@@ -7,7 +7,7 @@ tags:
 - Git
 - Khái niệm git
 modified_time: '2015-04-26T00:33:45.750+07:00'
-thumbnail: http://4.bp.blogspot.com/-ZYIJIZWTj-I/VTvM1dMdDCI/AAAAAAAACWA/_V9XNOLwkAw/s1600/2color-lightbg%402x.png
+thumbnail: https://4.bp.blogspot.com/-ZYIJIZWTj-I/VTvM1dMdDCI/AAAAAAAACWA/_V9XNOLwkAw/s1600/2color-lightbg%402x.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-7419508156233320114
 blogger_orig_url: https://blog.duyet.net/2015/04/git-va-cac-khai-niem-co-ban.html
 slug: /2015/04/git-va-cac-khai-niem-co-ban.html
@@ -24,7 +24,7 @@ Git là một trong những Hệ thống Quản lý Phiên bản Phân tán, v�
 
 Trên Git, ta có thể lưu trạng thái của file dưới dạng lịch sử cập nhật. Vì thế, có thể đưa file đã chỉnh sửa một lần về trạng thái cũ hay có thể biết được file đã được chỉnh sửa chỗ nào.
 
-![](http://4.bp.blogspot.com/-ZYIJIZWTj-I/VTvM1dMdDCI/AAAAAAAACWA/_V9XNOLwkAw/s1600/2color-lightbg%402x.png)
+![](https://4.bp.blogspot.com/-ZYIJIZWTj-I/VTvM1dMdDCI/AAAAAAAACWA/_V9XNOLwkAw/s1600/2color-lightbg%402x.png)
 
 Thêm nữa, khi định ghi đè (overwrite) lên file mới nhất đã chỉnh sửa của người khác bằng file đã chỉnh sửa dựa trên file cũ, thì khi upload lên server sẽ hiện ra cảnh cáo. Vì thế, sẽ không xảy ra lỗi khi ghi đè lên nội dung chỉnh sửa của người khác mà không hề hay biết.
 
@@ -44,7 +44,7 @@ Tiếp đây mình xin giới thiệu về các khái niệm mà bạn cần n�
 ## Kho Repo (Repository) ##
 Repository hay được gọi tắt là Repo, đơn giản là nơi chứa tất cả những thông tin cần thiết để duy trì và quản lý các sửa đổi và lịch sử của toàn bộ project. Trong Repo có 2 cấu trúc dữ liệu chính là Object Store và Index. Tất cả dữ liệu của Repo đèu được chứa trong thư mục bạn đang làm việc dưới dạng folder ẩn có tên là .git
 
-![](http://4.bp.blogspot.com/-fC2tMlgfHXo/VTvNssnSP1I/AAAAAAAACWI/C6nTDooFOiE/s1600/git-repo.png)
+![](https://4.bp.blogspot.com/-fC2tMlgfHXo/VTvNssnSP1I/AAAAAAAACWI/C6nTDooFOiE/s1600/git-repo.png)
 
 ## Remote repository và local repository ##
 Đầu tiên, repository của Git được phân thành 2 loại là remote repository và local repository.
@@ -54,7 +54,7 @@ Repository hay được gọi tắt là Repo, đơn giản là nơi chứa tất
 
 Do repository phân thành 2 loại là local và remote nên với những công việc bình thường thì có thể sử dụng local repository. Khi muốn public nội dung công việc mà mình đã làm trên local repository, thì ta sẽ upload lên remote repository rồi public. Thêm nữa, thông qua remote repository bạn cũng có thể lấy về nội dung thay đổi của người khác.
 
-![](http://2.bp.blogspot.com/-aBPG-ztqfk0/VTvHH59jZkI/AAAAAAAACVc/eXqR_iG3oys/s1600/basic-remote-workflow.png)
+![](https://2.bp.blogspot.com/-aBPG-ztqfk0/VTvHH59jZkI/AAAAAAAACVc/eXqR_iG3oys/s1600/basic-remote-workflow.png)
 
 Nguồn ảnh: www.git-tower.com
 
@@ -66,7 +66,7 @@ Nhánh (branch) được dùng để phát triển tính năng mới mà không 
 Nhánh master là nhánh “mặc định” khi bạn tạo một repository.
 Nhánh master thông thường là nhánh chính của ứng dụng. Ví dụ bạn thử nghiệm một tính năng mới và muốn không ảnh hưởng đến code chính bạn có thể tạo một nhánh mới và sau khi xong sẽ hợp nhất lại với nhánh master. Việc hợp nhất 2 nhánh lại được gọi là merge.
 
-![](http://4.bp.blogspot.com/-lwRXq80wt0U/VTvGLbXUrgI/AAAAAAAACVU/ekAhTHuKmBM/s1600/branches.png)
+![](https://4.bp.blogspot.com/-lwRXq80wt0U/VTvGLbXUrgI/AAAAAAAACVU/ekAhTHuKmBM/s1600/branches.png)
 
 Nguồn ảnh: http://rogerdudler.github.io/git-guide/index.vi.html
 
@@ -94,7 +94,7 @@ Khi thực hiện commit, trong repository sẽ tạo ra commit (hoặc revision
 
 Commit này đang được chứa tại repository, các commit nối tiếp với nhau theo thứ tự thời gian. Bằng việc lần theo commit này từ trạng thái mới nhất thì có thể biết được lịch sử thay đổi trong quá khứ hoặc nội dung thay đổi đó.
 
-![](http://2.bp.blogspot.com/-ck1jR2dDy6s/VTvIjBktgaI/AAAAAAAACVo/D-_6lpJqojQ/s1600/capture_intro1_3_1.png)
+![](https://2.bp.blogspot.com/-ck1jR2dDy6s/VTvIjBktgaI/AAAAAAAACVo/D-_6lpJqojQ/s1600/capture_intro1_3_1.png)
 
 Các commit này, được đặt tên bởi 40 ký tự alphabet (mã md5 thì phải) không trùng nhau được băm từ thông tin commit. Bằng việc đặt tên cho commit, có thể chỉ định commit nào từ trong repository.
 
@@ -118,7 +118,7 @@ Trên Git, những thư mục được đặt trong sự quản lý của Git m�
 
 Và trên Git, giữa repository và working tree tồn tại một nơi gọi là index. Index là nơi để chuẩn bị cho việc commit lên repository.
 
-![](http://2.bp.blogspot.com/-v1OCS7kHYBU/VTvKIXupM-I/AAAAAAAACV0/Mr-2OnCtKT4/s1600/capture_intro1_4_1.png)
+![](https://2.bp.blogspot.com/-v1OCS7kHYBU/VTvKIXupM-I/AAAAAAAACV0/Mr-2OnCtKT4/s1600/capture_intro1_4_1.png)
 
 Nguồn ảnh: backlogtool
 

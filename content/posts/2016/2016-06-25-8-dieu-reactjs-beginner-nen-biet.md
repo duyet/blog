@@ -91,7 +91,7 @@ Chỉ sử dụng State khi cần thiết, và phản ánh đúng trạng thái 
 ## 5. Kết hợp với Redux.js ##
 React chỉ là View, nên việc kết hợp với [Redux](http://redux.js.org/), Flux, hay bất cứ mô hình luồng dữ liệu là cần thiết. Hiện tại mình thấy Redux đang có khá nhiều người sử dụng, và tư duy của nó cũng khá hay. Sau khi học React bạn tiếp tục kết hợp với Redux trong các ứng dụng.
 
-[![](https://1.bp.blogspot.com/--30x560n-uU/V24_4PXcD3I/AAAAAAAAYQU/vxp2C7rvkNcuGXn8f0WxbyKzNjx-IKzLgCK4B/s640/1-dODKUGyGkF8qeGLrXKWkiA.png)](http://1.bp.blogspot.com/--30x560n-uU/V24_4PXcD3I/AAAAAAAAYQU/vxp2C7rvkNcuGXn8f0WxbyKzNjx-IKzLgCK4B/s1600/1-dODKUGyGkF8qeGLrXKWkiA.png)
+[![](https://1.bp.blogspot.com/--30x560n-uU/V24_4PXcD3I/AAAAAAAAYQU/vxp2C7rvkNcuGXn8f0WxbyKzNjx-IKzLgCK4B/s640/1-dODKUGyGkF8qeGLrXKWkiA.png)](https://1.bp.blogspot.com/--30x560n-uU/V24_4PXcD3I/AAAAAAAAYQU/vxp2C7rvkNcuGXn8f0WxbyKzNjx-IKzLgCK4B/s1600/1-dODKUGyGkF8qeGLrXKWkiA.png)
 
 Ảnh: code-cartoons.com
 
@@ -130,7 +130,7 @@ Cuối cùng các trình Dev Tools của Redux và React sử dụng rất tốt
 [React dev tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) có thể inspect ngược lại các Components của React, trạng thái các Props và State của từng Component.
 Redux Dev Tools còn [hay hơn](https://www.youtube.com/watch?v=xsSnOQynTHs), giúp bạn quan sát được trạng thái actions, lý do thay đổi State, và back lại state trước. Tải vê Redux Dev Tools ở [Github](https://github.com/gaearon/redux-devtools) hoặc [Chrome Web Store](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en).
 
-[![](https://4.bp.blogspot.com/-VTtgxf13hdo/V24_YXHeb3I/AAAAAAAAYQM/kOlnn_Izy446MH_zpAmgJQfngN1__PWMgCK4B/s1600/react-dev-tools.jpg)](http://4.bp.blogspot.com/-VTtgxf13hdo/V24_YXHeb3I/AAAAAAAAYQM/kOlnn_Izy446MH_zpAmgJQfngN1__PWMgCK4B/s1600/react-dev-tools.jpg)
+[![](https://4.bp.blogspot.com/-VTtgxf13hdo/V24_YXHeb3I/AAAAAAAAYQM/kOlnn_Izy446MH_zpAmgJQfngN1__PWMgCK4B/s1600/react-dev-tools.jpg)](https://4.bp.blogspot.com/-VTtgxf13hdo/V24_YXHeb3I/AAAAAAAAYQM/kOlnn_Izy446MH_zpAmgJQfngN1__PWMgCK4B/s1600/react-dev-tools.jpg)
 
 ## Tham khảo ##
 [A cartoon intro to Redux](http://saveto.co/lm4l1Z)

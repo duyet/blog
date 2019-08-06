@@ -8,7 +8,7 @@ tags:
 - php
 - Courses
 modified_time: '2015-04-18T20:57:32.802+07:00'
-thumbnail: http://4.bp.blogspot.com/-QxU1LVBUcsA/VS6XNXt1ozI/AAAAAAAACRk/Og_wF5j7WDM/s1600/mohinh01.jpg
+thumbnail: https://4.bp.blogspot.com/-QxU1LVBUcsA/VS6XNXt1ozI/AAAAAAAACRk/Og_wF5j7WDM/s1600/mohinh01.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-4963808330081956003
 blogger_orig_url: https://blog.duyet.net/2015/04/php-bai-1-tong-quan-ve-web-va-thiet-lap.html
 slug: /2015/04/php-bai-1-tong-quan-ve-web-va-thiet-lap.html
@@ -23,7 +23,7 @@ Hy vọng qua loạt bài viết về PHP cơ bản, mọi người có thể t�
 ## Hiểu về cách mà 1 trang web hoạt động ##
 Đầu tiên mình giới thiệu về cách mà 1 trang web hoạt động nhé. Web hoạt động theo mô hình Client-Server dưới đây:
 
-![](http://4.bp.blogspot.com/-QxU1LVBUcsA/VS6XNXt1ozI/AAAAAAAACRk/Og_wF5j7WDM/s1600/mohinh01.jpg)
+![](https://4.bp.blogspot.com/-QxU1LVBUcsA/VS6XNXt1ozI/AAAAAAAACRk/Og_wF5j7WDM/s1600/mohinh01.jpg)
 
 Trong đó:
 
@@ -84,36 +84,36 @@ XAMPP là 1 bộ cài sẵn PHP + Apache + MySQL + Perl, chỉ cần cài XAMPP 
 
 1. Truy cập https://www.apachefriends.org/index.html chọn download XAMPP for Windows (139MB)
 
-![](http://1.bp.blogspot.com/-HwHuWz4RnR0/VS6YAPe2tOI/AAAAAAAACRs/Ej7wPbfZqys/s1600/XAMPP-Installers-and-Downloads-for-Apache-Friends.png)
+![](https://1.bp.blogspot.com/-HwHuWz4RnR0/VS6YAPe2tOI/AAAAAAAACRs/Ej7wPbfZqys/s1600/XAMPP-Installers-and-Downloads-for-Apache-Friends.png)
 
 Tải về, sau đó chạy file cài đặt để cài XAMPP, cứ Next, Next, … =]]
 
-![](http://3.bp.blogspot.com/-c05u5w1vsAk/VS6YKfrCqbI/AAAAAAAACR0/jHxJi6G_AQw/s1600/XAMPP_1.png)
+![](https://3.bp.blogspot.com/-c05u5w1vsAk/VS6YKfrCqbI/AAAAAAAACR0/jHxJi6G_AQw/s1600/XAMPP_1.png)
 
-![](http://3.bp.blogspot.com/-UIltvre7bd4/VS6YQ9sUBGI/AAAAAAAACR8/wM8YZ12FdN4/s1600/XAMPP_2.png)
+![](https://3.bp.blogspot.com/-UIltvre7bd4/VS6YQ9sUBGI/AAAAAAAACR8/wM8YZ12FdN4/s1600/XAMPP_2.png)
 
-![](http://4.bp.blogspot.com/-91ingxFr8xI/VS6YacV_VzI/AAAAAAAACSE/s6ZFBINdGyw/s1600/XAMPP_3.png)
+![](https://4.bp.blogspot.com/-91ingxFr8xI/VS6YacV_VzI/AAAAAAAACSE/s6ZFBINdGyw/s1600/XAMPP_3.png)
 
-![](http://2.bp.blogspot.com/-0PW3KP4C50Y/VS6YaH2LJSI/AAAAAAAACSM/DwNzOHlnCDU/s1600/XAMPP_4.png)
+![](https://2.bp.blogspot.com/-0PW3KP4C50Y/VS6YaH2LJSI/AAAAAAAACSM/DwNzOHlnCDU/s1600/XAMPP_4.png)
 
-![](http://3.bp.blogspot.com/-dwjRQ3TFgPM/VS6Yac-eg0I/AAAAAAAACSI/AhSg7-Vx8jE/s1600/XAMPP_5.png)
+![](https://3.bp.blogspot.com/-dwjRQ3TFgPM/VS6Yac-eg0I/AAAAAAAACSI/AhSg7-Vx8jE/s1600/XAMPP_5.png)
 
 Chờ cho nó load xong. Vậy  là ta đã có 1 Web Server, bật Server lên nào. Đầu tiên chạy Xampp Control Panel. Đây là bảng điều khiển để bật các dịch vụ, chúng ta cần chạy Apache, sau này sẽ cần thêm MySQL nữa.
 
 Nhấn Start để chạy Localhost
 
-![](http://1.bp.blogspot.com/-sG--csszEzU/VS6YtZ48u_I/AAAAAAAACSc/gIQ9igulGuY/s1600/XAMPP_6.png)
+![](https://1.bp.blogspot.com/-sG--csszEzU/VS6YtZ48u_I/AAAAAAAACSc/gIQ9igulGuY/s1600/XAMPP_6.png)
 
 Mở trình duyệt lên, gõ vào thanh địa chỉ [http://localhost/ ](http://localhost/%C2%A0)
 
 Tadaaa, nếu ra được như hình thế này thì đã thành công rồi nhé.
 (Do mình xài nhiều chương trình khác nên mình sử dụng cổng 81, cái bạn cứ vào http://localhost/ bình thường nhé)
 
-![](http://1.bp.blogspot.com/-7EjLLiH8Dlw/VS6ZCyrTX6I/AAAAAAAACSs/5-uu3vV3SUs/s1600/XAMPP_7.png)
+![](https://1.bp.blogspot.com/-7EjLLiH8Dlw/VS6ZCyrTX6I/AAAAAAAACSs/5-uu3vV3SUs/s1600/XAMPP_7.png)
 
 Bây giờ bạn vào thư mục cài đặt XAMPP, chúng ta sẽ thấy cấu trúc như sau:
 
-![](http://2.bp.blogspot.com/-6NVz_DKATUo/VS6ZK6Af9cI/AAAAAAAACS0/AygSZVv6Rrk/s1600/XAMPP_8.png)
+![](https://2.bp.blogspot.com/-6NVz_DKATUo/VS6ZK6Af9cI/AAAAAAAACS0/AygSZVv6Rrk/s1600/XAMPP_8.png)
 
 Một trang Web PHP được viết thành nhiều file có đuôi .php, đặt trong nhiều thư mục khác nhau. Thư mục htdocs sẽ là nơi lưu tất cả các script php hay web của chúng ta sau này.
 
@@ -122,7 +122,7 @@ Một trang Web PHP được viết thành nhiều file có đuôi .php, đặt 
 
 Để cài đặt, đầu tiên download file cài đặt từ trang chủ Sublime: [http://www.sublimetext.com](http://www.sublimetext.com/)
 
-![](http://1.bp.blogspot.com/-dRn-R8REbSo/VS6ZZk-jstI/AAAAAAAACS8/8L9myQJvDk0/s1600/Screenshot-from-2014-10-13-204458.png)
+![](https://1.bp.blogspot.com/-dRn-R8REbSo/VS6ZZk-jstI/AAAAAAAACS8/8L9myQJvDk0/s1600/Screenshot-from-2014-10-13-204458.png)
 
 Chi tiết cách sử dụng các bạn xem thêm tại đây nhé, rất chi tiết: [https://www.izwebz.com/newbie/huong-dan-dung-sublime-text-2/](https://www.izwebz.com/newbie/huong-dan-dung-sublime-text-2/)
 

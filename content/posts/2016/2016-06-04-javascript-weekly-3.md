@@ -52,7 +52,7 @@ Dự án Open-source về Software và hardware của Google, mọi người có
 ALEX KIRSZENBERG
 Bài viết dành cho những ai thích tò mò, nghiên cứu các công nghệ trong các website lớn. Tác giả của bài viết này phân tích chức năng Chat "XXX is typing ..." trên Facebook Messenger.
 
-[![](https://4.bp.blogspot.com/-MBrrKQX_axE/V1LxP5hkTnI/AAAAAAAAW-0/jqSmtrb1B7kB3_5IDJfg_JPp96FgDyaIQCK4B/s400/typing-indicator.gif)](http://4.bp.blogspot.com/-MBrrKQX_axE/V1LxP5hkTnI/AAAAAAAAW-0/jqSmtrb1B7kB3_5IDJfg_JPp96FgDyaIQCK4B/s1600/typing-indicator.gif)
+[![](https://4.bp.blogspot.com/-MBrrKQX_axE/V1LxP5hkTnI/AAAAAAAAW-0/jqSmtrb1B7kB3_5IDJfg_JPp96FgDyaIQCK4B/s400/typing-indicator.gif)](https://4.bp.blogspot.com/-MBrrKQX_axE/V1LxP5hkTnI/AAAAAAAAW-0/jqSmtrb1B7kB3_5IDJfg_JPp96FgDyaIQCK4B/s1600/typing-indicator.gif)
 
 ## [Front-End Hyperpolyglot: The Same Code in 6 Frameworks](http://saveto.co/Qkt2ZH) ##
 JEFF CARPENTER

@@ -7,7 +7,7 @@ tags:
 - bí quyết
 - thành công
 modified_time: '2015-04-05T23:57:28.346+07:00'
-thumbnail: http://1.bp.blogspot.com/-xwN_zeCdqhw/VSFpO5LpL_I/AAAAAAAACOA/pd72PXWCDq8/s1600/trulyrichclub-1428147500432.jpg
+thumbnail: https://1.bp.blogspot.com/-xwN_zeCdqhw/VSFpO5LpL_I/AAAAAAAACOA/pd72PXWCDq8/s1600/trulyrichclub-1428147500432.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-8625680932526385801
 blogger_orig_url: https://blog.duyet.net/2015/04/12-cach-nguoi-thanh-at-oi-pho-voi-ong.html
 slug: /2015/04/12-cach-nguoi-thanh-at-oi-pho-voi-ong.html
@@ -25,7 +25,7 @@ Hầu hết mọi người đều cảm thấy áp lực khi nghe  than phiền,
 
 Cách duy nhất để bạn có thể tránh khỏi cái “bẫy” này là đặt ra những giới hạn và giữ khoảng cách khi cần thiết, hỏi cách giải quyết vấn đề.
 
-![](http://1.bp.blogspot.com/-xwN_zeCdqhw/VSFpO5LpL_I/AAAAAAAACOA/pd72PXWCDq8/s1600/trulyrichclub-1428147500432.jpg)
+![](https://1.bp.blogspot.com/-xwN_zeCdqhw/VSFpO5LpL_I/AAAAAAAACOA/pd72PXWCDq8/s1600/trulyrichclub-1428147500432.jpg)
 
 ## 2. Không chiến đấu kiểu một sống một còn ##
 Người thành đạt hiểu rõ tầm quan trọng của việc phải tiếp tục sống để chiến đấu, đặc biệt là khi đối thủ của họ là những kẻ khó ưa. Trong quá trình xung đột, nếu không kiểm soát được cảm xúc, bạn sẽ rất dễ trở nên ngoan cố và lao mình vào một cuộc chiến có thể khiến bản thân bị tổn hại nghiêm trọng. Tuy nhiên, một khi đọc được cảm xúc của mình, bạn sẽ biết cách để hành động thật khôn ngoan và chỉ tấn công đúng thời điểm.
@@ -49,7 +49,7 @@ Chẳng hạn, bạn đang làm chung dự án với một kẻ khó ưa, không
 
 Nếu cứ để mọi thứ xảy ra tự nhiên, bạn sẽ bị trói buộc trong những cuộc trò chuyện “khó chịu”. Bạn có thể vạch ra các ranh giới cho mình, nhưng hãy làm điều này một cách tỉnh táo và chủ động. Một khi làm được điều này, bạn sẽ kiểm soát cuộc đối thoại tốt hơn. Bí kíp duy nhất là lúc nào cũng “lăm le khẩu súng” bên mình để bảo vệ ranh giới nếu kẻ khó ưa nào đó có ý “vượt biên”.
 
-![](http://1.bp.blogspot.com/-Wp0j31tW9xA/VSFpWcKQ1GI/AAAAAAAACOI/V1DwNQndAHw/s1600/2-fightorflightpsychologistworld-1-1428147500436.png)
+![](https://1.bp.blogspot.com/-Wp0j31tW9xA/VSFpWcKQ1GI/AAAAAAAACOI/V1DwNQndAHw/s1600/2-fightorflightpsychologistworld-1-1428147500436.png)
 
 ## 6. Không cho phép bất cứ ai làm mình cụt hứng ##
 Niềm vui cũng như sự thỏa mãn của bạn chỉ bị ảnh hưởng bởi quan điểm và phán xét của người khác khi bạn không thể làm chủ bản thân cũng như niềm vui của mình. Những người nhạy bén về mặt cảm xúc sẽ không để bất cứ ai làm mình cụt hứng.

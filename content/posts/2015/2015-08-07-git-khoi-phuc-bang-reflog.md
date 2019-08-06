@@ -8,7 +8,7 @@ tags:
 - Git
 - khôi phục
 modified_time: '2015-08-07T13:04:07.964+07:00'
-thumbnail: http://1.bp.blogspot.com/-3KF--ZtRoJ8/VcRHZTobPXI/AAAAAAAACsA/ytQrNZKU_1Q/s1600/reflog-duyetdev.png
+thumbnail: https://1.bp.blogspot.com/-3KF--ZtRoJ8/VcRHZTobPXI/AAAAAAAACsA/ytQrNZKU_1Q/s1600/reflog-duyetdev.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-4815343375083184130
 blogger_orig_url: https://blog.duyet.net/2015/08/git-khoi-phuc-bang-reflog.html
 slug: /2015/08/git-khoi-phuc-bang-reflog.html
@@ -64,7 +64,7 @@ Kết quả sẽ là
 
 ```
 
-![](http://1.bp.blogspot.com/-3KF--ZtRoJ8/VcRHZTobPXI/AAAAAAAACsA/ytQrNZKU_1Q/s1600/reflog-duyetdev.png)
+![](https://1.bp.blogspot.com/-3KF--ZtRoJ8/VcRHZTobPXI/AAAAAAAACsA/ytQrNZKU_1Q/s1600/reflog-duyetdev.png)
 
 
 `0979a9e` là commit reset HEAD, `4d77eb9` là commit bị mất bạn cần sẽ nhảy đến.  Để khôi phục

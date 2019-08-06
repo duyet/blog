@@ -24,7 +24,7 @@ description: "NaturalJS được ví như nltk cho Node. natural có nhiều ch�
 
 Nếu bạn là người yêu thích cả NLP và Javascript/Node, thì đây là một thư viện thú vị nên thử qua.
 
-[![](https://4.bp.blogspot.com/-7UyZjfbL--g/WYadFDYvEfI/AAAAAAAAmc4/x-jU5zgVZz8BsBM5VP5zkZA5Y8c79XIBQCK4BGAYYCw/s640/nlp_js.png)](http://4.bp.blogspot.com/-7UyZjfbL--g/WYadFDYvEfI/AAAAAAAAmc4/x-jU5zgVZz8BsBM5VP5zkZA5Y8c79XIBQCK4BGAYYCw/s1600/nlp_js.png)
+[![](https://4.bp.blogspot.com/-7UyZjfbL--g/WYadFDYvEfI/AAAAAAAAmc4/x-jU5zgVZz8BsBM5VP5zkZA5Y8c79XIBQCK4BGAYYCw/s640/nlp_js.png)](https://4.bp.blogspot.com/-7UyZjfbL--g/WYadFDYvEfI/AAAAAAAAmc4/x-jU5zgVZz8BsBM5VP5zkZA5Y8c79XIBQCK4BGAYYCw/s1600/nlp_js.png)
 
 Github: [https://github.com/NaturalNode/natural](https://github.com/NaturalNode/natural)
 

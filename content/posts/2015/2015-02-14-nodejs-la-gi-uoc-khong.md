@@ -7,7 +7,7 @@ category: Javascript
 tags:
 - Nodejs
 modified_time: '2015-02-14T12:21:19.667+07:00'
-thumbnail: http://3.bp.blogspot.com/-eakdJK4WfIo/VN7Z1vHx60I/AAAAAAAACF4/8w2BtYeO9zE/s1600/2014_12_13_3ea77.png
+thumbnail: https://3.bp.blogspot.com/-eakdJK4WfIo/VN7Z1vHx60I/AAAAAAAACF4/8w2BtYeO9zE/s1600/2014_12_13_3ea77.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-6977592353211554543
 blogger_orig_url: https://blog.duyet.net/2015/02/nodejs-la-gi-uoc-khong.html
 slug: /2015/02/nodejs-la-gi-uoc-khong.html
@@ -19,7 +19,7 @@ Node.js là 1 nền tảng (platform) chạy trên môi trường V8 Javascript 
 
 ## Nodejs không ăn được, nhưng khá ngon  ##
 
-![](http://3.bp.blogspot.com/-eakdJK4WfIo/VN7Z1vHx60I/AAAAAAAACF4/8w2BtYeO9zE/s1600/2014_12_13_3ea77.png)
+![](https://3.bp.blogspot.com/-eakdJK4WfIo/VN7Z1vHx60I/AAAAAAAACF4/8w2BtYeO9zE/s1600/2014_12_13_3ea77.png)
 
 ## Nó có thể làm được gì? ##
 
@@ -68,7 +68,7 @@ console.log('Thực hiện công việc khác');
 
 ```
 
-![](http://3.bp.blogspot.com/-CT29L75IKnU/VN7aqky1RfI/AAAAAAAACGA/z0USNE7jng4/s1600/2014_12_13_7f780.png)
+![](https://3.bp.blogspot.com/-CT29L75IKnU/VN7aqky1RfI/AAAAAAAACGA/z0USNE7jng4/s1600/2014_12_13_7f780.png)
 
 Ta có thể thấy ở đây, tốc độ xử lý của non-block code là cao hơn so với block code. Giả sử bạn thực hiện công việc trên ở 2 file trở lên thì tốc dộ xử lý của Non-block code sẽ nhanh hơn Block code rất nhiều. Hãy tự trải nghiệm :)
 

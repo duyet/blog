@@ -9,7 +9,7 @@ tags:
 - PM
 - Project Manager
 modified_time: '2015-02-14T12:09:50.731+07:00'
-thumbnail: http://2.bp.blogspot.com/-d2pTx8rZZrk/VN7W8LEDxdI/AAAAAAAACFs/6YHHZwlhRRw/s1600/2014_12_06_0f6f9.png
+thumbnail: https://2.bp.blogspot.com/-d2pTx8rZZrk/VN7W8LEDxdI/AAAAAAAACFs/6YHHZwlhRRw/s1600/2014_12_06_0f6f9.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-1591619579024269040
 blogger_orig_url: https://blog.duyet.net/2015/02/quan-ly-project-voi-trello-nao.html
 slug: /2015/02/quan-ly-project-voi-trello-nao.html
@@ -35,7 +35,7 @@ Ví dụ: trước khi Card được chuyển từ Doing sang Done, bạn sẽ p
 Do đó, một project thực tế có thể có những “công đoạn” ở giữa để giúp theo dõi và quản lý hiệu quả hơn.
 
 Ví dụ đây là Trello của dự án Ăn gì cũng được.
-![](http://2.bp.blogspot.com/-d2pTx8rZZrk/VN7W8LEDxdI/AAAAAAAACFs/6YHHZwlhRRw/s1600/2014_12_06_0f6f9.png)
+![](https://2.bp.blogspot.com/-d2pTx8rZZrk/VN7W8LEDxdI/AAAAAAAACFs/6YHHZwlhRRw/s1600/2014_12_06_0f6f9.png)
 
 ## Đảm bảo thông tin của Card luôn đầy đủ ##
 

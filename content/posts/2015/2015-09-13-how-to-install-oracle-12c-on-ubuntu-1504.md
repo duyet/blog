@@ -7,7 +7,7 @@ tags:
 - Tutorial
 - Oracle
 modified_time: '2015-09-14T12:45:56.662+07:00'
-thumbnail: http://1.bp.blogspot.com/-CB9-dLfNP90/VfZd6RSwrNI/AAAAAAAAC5M/rmrmrNrd86s/s1600/Screenshot%2Bfrom%2B2015-09-14%2B12%253A38%253A55.png
+thumbnail: https://1.bp.blogspot.com/-CB9-dLfNP90/VfZd6RSwrNI/AAAAAAAAC5M/rmrmrNrd86s/s1600/Screenshot%2Bfrom%2B2015-09-14%2B12%253A38%253A55.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-7369024314224121340
 blogger_orig_url: https://blog.duyet.net/2015/09/how-to-install-oracle-12c-on-ubuntu-1504.html
 slug: /2015/09/how-to-install-oracle-12c-on-ubuntu-1504.html
@@ -190,7 +190,7 @@ Check Accept License Agreement radio button and Download 2 files.
 
 Download the file to /u01/binaries.
 
-![](http://1.bp.blogspot.com/-CB9-dLfNP90/VfZd6RSwrNI/AAAAAAAAC5M/rmrmrNrd86s/s1600/Screenshot%2Bfrom%2B2015-09-14%2B12%253A38%253A55.png)
+![](https://1.bp.blogspot.com/-CB9-dLfNP90/VfZd6RSwrNI/AAAAAAAAC5M/rmrmrNrd86s/s1600/Screenshot%2Bfrom%2B2015-09-14%2B12%253A38%253A55.png)
 
 ## 7. Unpack Files ##
 Login as a oracle user and open a terminal by pressing CTRL + ALT + T

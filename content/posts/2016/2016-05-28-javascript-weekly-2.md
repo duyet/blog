@@ -32,7 +32,7 @@ ARI LERNER
 
 React là công nghệ đang rất hot hiện nay. Bằng cách học thông qua các project thực tế, Tutorial trên hướng dẫn bạn xây dựng 1 ứng dụng Yelp clone bằng React. Không cần bạn phải biết React.
 
-[![](https://4.bp.blogspot.com/-rkBefMDxkJU/V0k-k6IlILI/AAAAAAAAWJs/LMlK00pPdRY9ymMJT26xDoKNiROzWiW7wCK4B/s640/fullstackreact-yelp-clone-tutorial.png)](http://4.bp.blogspot.com/-rkBefMDxkJU/V0k-k6IlILI/AAAAAAAAWJs/LMlK00pPdRY9ymMJT26xDoKNiROzWiW7wCK4B/s1600/fullstackreact-yelp-clone-tutorial.png)
+[![](https://4.bp.blogspot.com/-rkBefMDxkJU/V0k-k6IlILI/AAAAAAAAWJs/LMlK00pPdRY9ymMJT26xDoKNiROzWiW7wCK4B/s640/fullstackreact-yelp-clone-tutorial.png)](https://4.bp.blogspot.com/-rkBefMDxkJU/V0k-k6IlILI/AAAAAAAAWJs/LMlK00pPdRY9ymMJT26xDoKNiROzWiW7wCK4B/s1600/fullstackreact-yelp-clone-tutorial.png)
 
 ## [Understanding ASTs by Building Your Own Babel Plugin](http://saveto.co/Lirltu) ##
 DAN PRINCE

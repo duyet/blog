@@ -8,7 +8,7 @@ tags:
 - php
 - github
 modified_time: '2015-10-05T20:46:41.997+07:00'
-thumbnail: http://1.bp.blogspot.com/-8a4wz6knhKo/VhJ9TYTSFnI/AAAAAAAADf0/kF8pUcA1zpg/s1600/flarum-logo.png
+thumbnail: https://1.bp.blogspot.com/-8a4wz6knhKo/VhJ9TYTSFnI/AAAAAAAADf0/kF8pUcA1zpg/s1600/flarum-logo.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-3954584159896181158
 blogger_orig_url: https://blog.duyet.net/2015/10/vietnamese-language-pack-extension-for-flarum.html
 slug: /2015/10/vietnamese-language-pack-extension-for-flarum.html
@@ -19,7 +19,7 @@ description: Gói ngôn ngữ tiếng Việt cho Flarum.
 
 Flarum is the next-generation forum software that makes online discussion fun. It's simple, fast, and free.
 
-![](http://1.bp.blogspot.com/-8a4wz6knhKo/VhJ9TYTSFnI/AAAAAAAADf0/kF8pUcA1zpg/s640/flarum-logo.png)
+![](https://1.bp.blogspot.com/-8a4wz6knhKo/VhJ9TYTSFnI/AAAAAAAADf0/kF8pUcA1zpg/s640/flarum-logo.png)
 
 ## Vietnamese Extension for Flarum ##
 Building for Flarum 0.1.0-beta.2

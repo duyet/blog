@@ -8,7 +8,7 @@ tags:
 - Css Framework
 - Bootstrap
 modified_time: '2015-04-27T21:31:34.016+07:00'
-thumbnail: http://1.bp.blogspot.com/-re5ZhkEps3k/VT5G2leoLNI/AAAAAAAACa0/dg8TsnkbMf8/s1600/materialize-intro.png
+thumbnail: https://1.bp.blogspot.com/-re5ZhkEps3k/VT5G2leoLNI/AAAAAAAACa0/dg8TsnkbMf8/s1600/materialize-intro.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-1052854876076864966
 blogger_orig_url: https://blog.duyet.net/2015/04/gioi-thieu-ve-google-materialize-css.html
 slug: /2015/04/gioi-thieu-ve-google-materialize-css.html
@@ -20,7 +20,7 @@ description: Được dịp ông anh share cái link về Materialize, 1 css fra
 Được dịp ông anh share cái link về Materialize, 1 css framework dựa trên Material Design của Google. Trước đây mình dùng qua Angular Material và Bootstrap Material, nhưng cái này có vẻ thích hơn. Cũng như các CSS framework khác, Google Materialize này cũng đáp ứng được rất nhiều yêu cầu về thiết kế responsive với các dạng gird quen thuộc. Cung cấp cho chúng ta khá nhiều component đẹp mắt và dễ sử dụng.
 Trang chủ: [http://materializecss.com](http://materializecss.com/)
 
-![](http://1.bp.blogspot.com/-re5ZhkEps3k/VT5G2leoLNI/AAAAAAAACa0/dg8TsnkbMf8/s1600/materialize-intro.png)
+![](https://1.bp.blogspot.com/-re5ZhkEps3k/VT5G2leoLNI/AAAAAAAACa0/dg8TsnkbMf8/s1600/materialize-intro.png)
 
 Theo như trên trang chủ của Materialize thì framework này tập trung vào phần UX là chính, có nghĩa là tập trung vào trải nghiệm người dùng, tương tác cao hơn.
 

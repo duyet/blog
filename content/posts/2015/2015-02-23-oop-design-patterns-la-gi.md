@@ -7,7 +7,7 @@ tags:
 - OOP
 - Design Patterns
 modified_time: '2015-02-23T23:19:57.778+07:00'
-thumbnail: http://3.bp.blogspot.com/-TjEKejI8edI/VOtRCGheINI/AAAAAAAACKA/7BihROVk8WM/s1600/Abstract_Factory_example1-2x.png
+thumbnail: https://3.bp.blogspot.com/-TjEKejI8edI/VOtRCGheINI/AAAAAAAACKA/7BihROVk8WM/s1600/Abstract_Factory_example1-2x.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-5767307668074598669
 blogger_orig_url: https://blog.duyet.net/2015/02/oop-design-patterns-la-gi.html
 slug: /2015/02/oop-design-patterns-la-gi.html
@@ -43,7 +43,7 @@ Bạn có thể đọc qua cuốn "Head First Design Patterns" để có cái nh
 - Structural Pattern (nhóm cấu trúc) gồm: Adapter, Bridge, Composite, Decorator, Facade, Proxy và Flyweight. Nó dùng để thiết lập, định nghĩa quan hệ giữa các đối tượng.
 - Behavioral Pattern gồm: Interpreter, Template Method, Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy và Visitor. Nhóm này dùng trong thực hiện các hành vi của đối tượng.
 
-![](http://3.bp.blogspot.com/-TjEKejI8edI/VOtRCGheINI/AAAAAAAACKA/7BihROVk8WM/s1600/Abstract_Factory_example1-2x.png)
+![](https://3.bp.blogspot.com/-TjEKejI8edI/VOtRCGheINI/AAAAAAAACKA/7BihROVk8WM/s1600/Abstract_Factory_example1-2x.png)
 
 ## Để học Design Patterns cần có gì? ##
 

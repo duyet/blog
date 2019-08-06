@@ -6,7 +6,7 @@ date: '2015-03-15T20:00:00.003+07:00'
 author: Van-Duyet Le
 tags: 
 modified_time: '2015-03-15T20:00:52.502+07:00'
-thumbnail: http://3.bp.blogspot.com/-rmsHj5wxB9Q/VQWCMqu8JPI/AAAAAAAACL8/45wkrTGVRLw/s1600/20141221221931-tai-sao-duong-tang-vo-dung0lai-tro-thanh-nguoi-lanh-dao-con-ton-ngo-khong-tai-phep-thi-lai-lam-ke-lam-cong-2-stardaily.jpg
+thumbnail: https://3.bp.blogspot.com/-rmsHj5wxB9Q/VQWCMqu8JPI/AAAAAAAACL8/45wkrTGVRLw/s1600/20141221221931-tai-sao-duong-tang-vo-dung0lai-tro-thanh-nguoi-lanh-dao-con-ton-ngo-khong-tai-phep-thi-lai-lam-ke-lam-cong-2-stardaily.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-1221808387943578333
 blogger_orig_url: https://blog.duyet.net/2015/03/tai-sao-uong-tang-vo-dung-lai-tro-thanh.html
 slug: /2015/03/tai-sao-uong-tang-vo-dung-lai-tro-thanh.html
@@ -24,7 +24,7 @@ Cái đầu tiên mà Đường Tăng có mà Tôn Ngộ Không không có đó 
 
 Giống như Tống Giang trong Thủy hử truyện, là một người không có niềm tin tối cao, cuối cùng bị chiêu an, mà cái lý tưởng cao nhất của ông ta cũng chỉ có vậy, vì thế mà hại chết cả đồng đội của mình.
 
-![](http://3.bp.blogspot.com/-rmsHj5wxB9Q/VQWCMqu8JPI/AAAAAAAACL8/45wkrTGVRLw/s1600/20141221221931-tai-sao-duong-tang-vo-dung0lai-tro-thanh-nguoi-lanh-dao-con-ton-ngo-khong-tai-phep-thi-lai-lam-ke-lam-cong-2-stardaily.jpg)
+![](https://3.bp.blogspot.com/-rmsHj5wxB9Q/VQWCMqu8JPI/AAAAAAAACL8/45wkrTGVRLw/s1600/20141221221931-tai-sao-duong-tang-vo-dung0lai-tro-thanh-nguoi-lanh-dao-con-ton-ngo-khong-tai-phep-thi-lai-lam-ke-lam-cong-2-stardaily.jpg)
 
 ## 2. 'Vô Dụng' cũng là tài sản quý giá của một người lãnh đạo  
 
@@ -38,7 +38,7 @@ Nhiều công ty, xí nghiệp đều có một ông chủ vô cùng giỏi gian
 
 Như thế một mặt làm mình mệt mỏi đứt hơi, tối mũi tối mắt lo ứng phó, thì tự nhiên còn đâu con đường phát triển. Mặt khác nhân viên của mình cũng bị 'lùn hóa' thành 'công cụ làm việc' (tay chân); sự phát triển của công ty đi đến chỗ nút thắt cổ bình. Nhiều ông chủ cho rằng chỉ dựa nhân viên thì không được, không thể yên tâm, nếu công ty chỉ dựa vào một mình Tôn Ngộ Không, ngộ nhỡ anh ta không tốt, thì biết thế nào. Khà khà, sao không niệm chú cho vòng kim cô thắt chặt vào? Phải xây dựng một chế độ chính sách để ràng buộc người tài – điều này nhất định không được quên.
 
-![](http://2.bp.blogspot.com/-DqKWbbzYlw8/VQWCVlwLQhI/AAAAAAAACME/3srmY4oQVxg/s1600/20141221221935-tai-sao-duong-tang-vo-dung0lai-tro-thanh-nguoi-lanh-dao-con-ton-ngo-khong-tai-phep-thi-lai-lam-ke-lam-cong-4-stardaily.jpg)
+![](https://2.bp.blogspot.com/-DqKWbbzYlw8/VQWCVlwLQhI/AAAAAAAACME/3srmY4oQVxg/s1600/20141221221935-tai-sao-duong-tang-vo-dung0lai-tro-thanh-nguoi-lanh-dao-con-ton-ngo-khong-tai-phep-thi-lai-lam-ke-lam-cong-4-stardaily.jpg)
 
 ## 3. Nhân đức Cái thứ ba mà Đường Tăng có, Tôn Ngộ Không không có là 'nhân đức'. 
 

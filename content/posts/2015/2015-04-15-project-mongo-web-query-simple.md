@@ -10,7 +10,7 @@ tags:
 - github
 - project
 modified_time: '2015-04-15T21:33:52.205+07:00'
-thumbnail: http://4.bp.blogspot.com/-66BlQG7PLEU/VS52lOH1UnI/AAAAAAAACRE/egh7Z4oZBOk/s1600/687474703a2f2f692e696d6775722e636f6d2f3543734e4b39442e706e67.png
+thumbnail: https://4.bp.blogspot.com/-66BlQG7PLEU/VS52lOH1UnI/AAAAAAAACRE/egh7Z4oZBOk/s1600/687474703a2f2f692e696d6775722e636f6d2f3543734e4b39442e706e67.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-1032379532406642709
 blogger_orig_url: https://blog.duyet.net/2015/04/project-mongo-web-query-simple.html
 slug: /2015/04/project-mongo-web-query-simple.html
@@ -32,7 +32,7 @@ Home: [http://lvduit.com](http://lvduit.com/)
 
 ## Screenshot ##
 
-![](http://4.bp.blogspot.com/-66BlQG7PLEU/VS52lOH1UnI/AAAAAAAACRE/egh7Z4oZBOk/s1600/687474703a2f2f692e696d6775722e636f6d2f3543734e4b39442e706e67.png)
+![](https://4.bp.blogspot.com/-66BlQG7PLEU/VS52lOH1UnI/AAAAAAAACRE/egh7Z4oZBOk/s1600/687474703a2f2f692e696d6775722e636f6d2f3543734e4b39442e706e67.png)
 
 Screenshot at version 0.1.1
 

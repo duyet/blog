@@ -33,25 +33,25 @@ Nắm trong tay bằng cử nhân, bạn có được kiến thức chuyên ngà
 ![](https://1.bp.blogspot.com/-F9FxXynMG3A/Vy4HmHqskhI/AAAAAAAAUsY/fzk64qKqnlMlbujKsz-et3YaNHej0Ac1wCK4B/s400/PhDKnowledge.004.jpg)
 
 Và khi học xong thạc sĩ, bạn có kiến thức chuyên sâu về ngành đó:
-[![](https://3.bp.blogspot.com/-AvEFMdiMe68/Vy4HtFHy07I/AAAAAAAAUsk/Tny7_sfVwsgGLFsqrhqm4AYx3zmwHPntwCK4B/s400/PhDKnowledge.005.jpg)](http://3.bp.blogspot.com/-AvEFMdiMe68/Vy4HtFHy07I/AAAAAAAAUsk/Tny7_sfVwsgGLFsqrhqm4AYx3zmwHPntwCK4B/s1600/PhDKnowledge.005.jpg)
+[![](https://3.bp.blogspot.com/-AvEFMdiMe68/Vy4HtFHy07I/AAAAAAAAUsk/Tny7_sfVwsgGLFsqrhqm4AYx3zmwHPntwCK4B/s400/PhDKnowledge.005.jpg)](https://3.bp.blogspot.com/-AvEFMdiMe68/Vy4HtFHy07I/AAAAAAAAUsk/Tny7_sfVwsgGLFsqrhqm4AYx3zmwHPntwCK4B/s1600/PhDKnowledge.005.jpg)
 
 Bằng việc tìm hiểu các bài báo (nghiên cứu) cập nhật theo chuyên ngành, bạn có thể chạm đến ngưỡng tri thức của nhân loại:
 ![](https://4.bp.blogspot.com/-azOdqNWkkNk/Vy4H5tAthRI/AAAAAAAAUsw/h97esQuKV1ASwjnh3KfTptZNaL6WlSf-wCK4B/s400/PhDKnowledge.006.jpg)
 
 Khi bạn tới vùng biên của chuyên ngành đó, bạn cần phải tiếp tục tập trung:
-[![](https://1.bp.blogspot.com/-OUz5bMQ46gI/Vy4IDIyoo4I/AAAAAAAAUs4/8Eo1_ig_RMAfyaB_VEmpfmyTsRGVmI28QCK4B/s400/PhDKnowledge.007.jpg)](http://1.bp.blogspot.com/-OUz5bMQ46gI/Vy4IDIyoo4I/AAAAAAAAUs4/8Eo1_ig_RMAfyaB_VEmpfmyTsRGVmI28QCK4B/s1600/PhDKnowledge.007.jpg)
+[![](https://1.bp.blogspot.com/-OUz5bMQ46gI/Vy4IDIyoo4I/AAAAAAAAUs4/8Eo1_ig_RMAfyaB_VEmpfmyTsRGVmI28QCK4B/s400/PhDKnowledge.007.jpg)](https://1.bp.blogspot.com/-OUz5bMQ46gI/Vy4IDIyoo4I/AAAAAAAAUs4/8Eo1_ig_RMAfyaB_VEmpfmyTsRGVmI28QCK4B/s1600/PhDKnowledge.007.jpg)
 
 Bạn cố gắng đẩy cái biên đó ra, có thể cần đến vài năm:
-[![](https://1.bp.blogspot.com/-kKWAaiK1veI/Vy4INT0PKWI/AAAAAAAAUtE/W9ckn6a3XEccBbOTAk93y7yhZqaPGmNnwCK4B/s400/PhDKnowledge.008.jpg)](http://1.bp.blogspot.com/-kKWAaiK1veI/Vy4INT0PKWI/AAAAAAAAUtE/W9ckn6a3XEccBbOTAk93y7yhZqaPGmNnwCK4B/s1600/PhDKnowledge.008.jpg)
+[![](https://1.bp.blogspot.com/-kKWAaiK1veI/Vy4INT0PKWI/AAAAAAAAUtE/W9ckn6a3XEccBbOTAk93y7yhZqaPGmNnwCK4B/s400/PhDKnowledge.008.jpg)](https://1.bp.blogspot.com/-kKWAaiK1veI/Vy4INT0PKWI/AAAAAAAAUtE/W9ckn6a3XEccBbOTAk93y7yhZqaPGmNnwCK4B/s1600/PhDKnowledge.008.jpg)
 
 Đến 1 lúc, bạn có thể đẩy rộng cái biên đó, như thế này:
-[![](https://3.bp.blogspot.com/-C9JJsO630lE/Vy4IZ1EjzbI/AAAAAAAAUtQ/4_e2OyHNUFU_TzRGpk8bqbr99KUhrqzcgCK4B/s400/PhDKnowledge.009.jpg)](http://3.bp.blogspot.com/-C9JJsO630lE/Vy4IZ1EjzbI/AAAAAAAAUtQ/4_e2OyHNUFU_TzRGpk8bqbr99KUhrqzcgCK4B/s1600/PhDKnowledge.009.jpg)
+[![](https://3.bp.blogspot.com/-C9JJsO630lE/Vy4IZ1EjzbI/AAAAAAAAUtQ/4_e2OyHNUFU_TzRGpk8bqbr99KUhrqzcgCK4B/s400/PhDKnowledge.009.jpg)](https://3.bp.blogspot.com/-C9JJsO630lE/Vy4IZ1EjzbI/AAAAAAAAUtQ/4_e2OyHNUFU_TzRGpk8bqbr99KUhrqzcgCK4B/s1600/PhDKnowledge.009.jpg)
 
 Và đây, cái người ta gọi bạn là Tiến Sĩ (Ph.D):
-[![](https://1.bp.blogspot.com/-7Wo9bQCs1h8/Vy4Ij_IF2VI/AAAAAAAAUtc/BGpzZP2fB7sdBCltaE0zHepNEwg5dZQ8gCK4B/s400/PhDKnowledge.010.jpg)](http://1.bp.blogspot.com/-7Wo9bQCs1h8/Vy4Ij_IF2VI/AAAAAAAAUtc/BGpzZP2fB7sdBCltaE0zHepNEwg5dZQ8gCK4B/s1600/PhDKnowledge.010.jpg)
+[![](https://1.bp.blogspot.com/-7Wo9bQCs1h8/Vy4Ij_IF2VI/AAAAAAAAUtc/BGpzZP2fB7sdBCltaE0zHepNEwg5dZQ8gCK4B/s400/PhDKnowledge.010.jpg)](https://1.bp.blogspot.com/-7Wo9bQCs1h8/Vy4Ij_IF2VI/AAAAAAAAUtc/BGpzZP2fB7sdBCltaE0zHepNEwg5dZQ8gCK4B/s1600/PhDKnowledge.010.jpg)
 
 Tất nhiên, thế giới với bạn bây giờ đã khác:
-[![](https://1.bp.blogspot.com/-YAadiZUcUXE/Vy4Ir_Dht0I/AAAAAAAAUtk/ebCbweBMMGwoZDELaV4wKdADETmqiAuoQCK4B/s400/PhDKnowledge.011.jpg)](http://1.bp.blogspot.com/-YAadiZUcUXE/Vy4Ir_Dht0I/AAAAAAAAUtk/ebCbweBMMGwoZDELaV4wKdADETmqiAuoQCK4B/s1600/PhDKnowledge.011.jpg)
+[![](https://1.bp.blogspot.com/-YAadiZUcUXE/Vy4Ir_Dht0I/AAAAAAAAUtk/ebCbweBMMGwoZDELaV4wKdADETmqiAuoQCK4B/s400/PhDKnowledge.011.jpg)](https://1.bp.blogspot.com/-YAadiZUcUXE/Vy4Ir_Dht0I/AAAAAAAAUtk/ebCbweBMMGwoZDELaV4wKdADETmqiAuoQCK4B/s1600/PhDKnowledge.011.jpg)
 
 Nào, vẫn đừng quên bức tranh lớn ban đầu:
 ![](https://4.bp.blogspot.com/-J1IAatRlpc4/Vy4I27WceXI/AAAAAAAAUtw/7RL-KWQLVF0dQKI8iaNRW4A_s3oILY4oACK4B/s400/PhDKnowledge.012.jpg)

@@ -37,7 +37,7 @@ Thư viện giúp Node.js sử dụng được  các thư viện viết bằng C
 SYLVAIN POLLET-VILLARD
 A mostly pointless, but geeky and fun, look at rendering characters via JavaScript using just a few underlying symbols.
 
-[![](https://3.bp.blogspot.com/-Ld023bbHL_M/V1wk01ThbJI/AAAAAAAAXhk/KO4vd6f_S-INxBFASnIuDTln82dmGEfKQCK4B/s1600/Screenshot%2Bfrom%2B2016-06-11%2B21-47-36.png)](http://3.bp.blogspot.com/-Ld023bbHL_M/V1wk01ThbJI/AAAAAAAAXhk/KO4vd6f_S-INxBFASnIuDTln82dmGEfKQCK4B/s1600/Screenshot%2Bfrom%2B2016-06-11%2B21-47-36.png)
+[![](https://3.bp.blogspot.com/-Ld023bbHL_M/V1wk01ThbJI/AAAAAAAAXhk/KO4vd6f_S-INxBFASnIuDTln82dmGEfKQCK4B/s1600/Screenshot%2Bfrom%2B2016-06-11%2B21-47-36.png)](https://3.bp.blogspot.com/-Ld023bbHL_M/V1wk01ThbJI/AAAAAAAAXhk/KO4vd6f_S-INxBFASnIuDTln82dmGEfKQCK4B/s1600/Screenshot%2Bfrom%2B2016-06-11%2B21-47-36.png)
 
 ## [Regular Expressions in JavaScript](http://saveto.co/UXWCj6) 
 

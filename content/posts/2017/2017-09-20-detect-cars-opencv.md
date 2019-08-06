@@ -141,7 +141,7 @@ Cuối cùng hiển thị kết quả
 plt.imshow(img)
 ```
 
-[![](https://4.bp.blogspot.com/-Q7hQ2nkdYOs/WcKOoh1NVhI/AAAAAAAAnjE/nuDEVWj14-stCPHc4aWj1UFc7GyGTudNwCK4BGAYYCw/s1600/result_car1.png)](http://4.bp.blogspot.com/-Q7hQ2nkdYOs/WcKOoh1NVhI/AAAAAAAAnjE/nuDEVWj14-stCPHc4aWj1UFc7GyGTudNwCK4BGAYYCw/s1600/result_car1.png)
+[![](https://4.bp.blogspot.com/-Q7hQ2nkdYOs/WcKOoh1NVhI/AAAAAAAAnjE/nuDEVWj14-stCPHc4aWj1UFc7GyGTudNwCK4BGAYYCw/s1600/result_car1.png)](https://4.bp.blogspot.com/-Q7hQ2nkdYOs/WcKOoh1NVhI/AAAAAAAAnjE/nuDEVWj14-stCPHc4aWj1UFc7GyGTudNwCK4BGAYYCw/s1600/result_car1.png)
 Test một số ảnh khác:
 
 [![](https://4.bp.blogspot.com/-CS1Ort8e2S8/WcKO5VqKyUI/AAAAAAAAnjI/H5ViCGDoxGcdtoE8qgaKdjoSuRsrKCM4gCLcBGAs/s800/car2.jpg)](https://4.bp.blogspot.com/-CS1Ort8e2S8/WcKO5VqKyUI/AAAAAAAAnjI/H5ViCGDoxGcdtoE8qgaKdjoSuRsrKCM4gCLcBGAs/s1600/car2.jpg)

@@ -8,7 +8,7 @@ tags:
 - Apache
 - Giấy phép nguồn mở
 modified_time: '2015-04-11T14:13:30.700+07:00'
-thumbnail: http://3.bp.blogspot.com/-1HhLBU4pQYg/VSi7A9h4lRI/AAAAAAAACPo/ujnaYYl6GV4/s1600/mantle-asf.png
+thumbnail: https://3.bp.blogspot.com/-1HhLBU4pQYg/VSi7A9h4lRI/AAAAAAAACPo/ujnaYYl6GV4/s1600/mantle-asf.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-1401252060138014542
 blogger_orig_url: https://blog.duyet.net/2015/04/open-source-tim-hieu-ve-giay-phep-apache.html
 slug: /2015/04/open-source-tim-hieu-ve-giay-phep-apache.html
@@ -19,7 +19,7 @@ description: Giấy phép Apache là giấy phép mã nguồn mở được so�
 
 Giấy phép Apache là giấy phép mã nguồn mở được soạn ra bởi Tổ chức phần mềm Apache (ASF – Apache Software Foundation).
 
-![](http://3.bp.blogspot.com/-1HhLBU4pQYg/VSi7A9h4lRI/AAAAAAAACPo/ujnaYYl6GV4/s1600/mantle-asf.png)
+![](https://3.bp.blogspot.com/-1HhLBU4pQYg/VSi7A9h4lRI/AAAAAAAACPo/ujnaYYl6GV4/s1600/mantle-asf.png)
 
 ## 1. Nhà phát hành 
 

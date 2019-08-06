@@ -54,13 +54,13 @@ Việc phân lớp về cơ bản có thể có nhiều kỹ thuật, tổng qu�
 Với mình, việc hỗ trợ xử lý văn bản của **Python** rất mạnh, cú pháp dễ học nhiều thư viện và thuật toán cho NLP, Machine learning:
 
 *   **NLTK**: Natural Language Toolkit ([http://www.nltk.org](http://www.nltk.org/)).  
-    [![](https://3.bp.blogspot.com/-_i6Le_EX3oU/WX_10OCZ9lI/AAAAAAAAmV8/X7JDtZf83DknCJbJrqdhbx1fXXzz0W8LgCK4BGAYYCw/s1600/tree.gif)](http://3.bp.blogspot.com/-_i6Le_EX3oU/WX_10OCZ9lI/AAAAAAAAmV8/X7JDtZf83DknCJbJrqdhbx1fXXzz0W8LgCK4BGAYYCw/s1600/tree.gif)
+    [![](https://3.bp.blogspot.com/-_i6Le_EX3oU/WX_10OCZ9lI/AAAAAAAAmV8/X7JDtZf83DknCJbJrqdhbx1fXXzz0W8LgCK4BGAYYCw/s1600/tree.gif)](https://3.bp.blogspot.com/-_i6Le_EX3oU/WX_10OCZ9lI/AAAAAAAAmV8/X7JDtZf83DknCJbJrqdhbx1fXXzz0W8LgCK4BGAYYCw/s1600/tree.gif)
 *   **SciPy**: Python-based ecosystem of open-source software for mathematics, science, and engineering ([https://www.scipy.org](https://www.scipy.org/)).  
     [![](https://4.bp.blogspot.com/-npda8VcLpTI/WX_2G0kAGzI/AAAAAAAAmWA/Pe52hgx3SBsD1rti-bnyVUPvSZcOjODJgCLcBGAs/s1600/Screenshot%2Bfrom%2B2017-08-01%2B10-31-24.png)](https://4.bp.blogspot.com/-npda8VcLpTI/WX_2G0kAGzI/AAAAAAAAmWA/Pe52hgx3SBsD1rti-bnyVUPvSZcOjODJgCLcBGAs/s1600/Screenshot%2Bfrom%2B2017-08-01%2B10-31-24.png)
 *   **scikit-learn**: Machine Learning in Python  ([http://scikit-learn.org/stable/](http://scikit-learn.org/stable/))  
-    [![](https://1.bp.blogspot.com/-Qkv-KaOtQQI/WX_2lTj6E-I/AAAAAAAAmWI/VC7hvM9GlDYkFQaM8SnrqBc15phe8Sf0QCK4BGAYYCw/s320/scikit-learn-logo.png)](http://1.bp.blogspot.com/-Qkv-KaOtQQI/WX_2lTj6E-I/AAAAAAAAmWI/VC7hvM9GlDYkFQaM8SnrqBc15phe8Sf0QCK4BGAYYCw/s1600/scikit-learn-logo.png)
+    [![](https://1.bp.blogspot.com/-Qkv-KaOtQQI/WX_2lTj6E-I/AAAAAAAAmWI/VC7hvM9GlDYkFQaM8SnrqBc15phe8Sf0QCK4BGAYYCw/s320/scikit-learn-logo.png)](https://1.bp.blogspot.com/-Qkv-KaOtQQI/WX_2lTj6E-I/AAAAAAAAmWI/VC7hvM9GlDYkFQaM8SnrqBc15phe8Sf0QCK4BGAYYCw/s1600/scikit-learn-logo.png)
 *   **Gensim**: Topic modeling for human ([https://radimrehurek.com/gensim/](https://radimrehurek.com/gensim/))  
-    [![](https://3.bp.blogspot.com/-Ted-CgUTbdQ/WX_2vm3DpqI/AAAAAAAAmWQ/9nQo0VipCloBhbHiiYI7CjtrzU33Hof2gCK4BGAYYCw/s320/article_4_19_fig_1.jpg)](http://3.bp.blogspot.com/-Ted-CgUTbdQ/WX_2vm3DpqI/AAAAAAAAmWQ/9nQo0VipCloBhbHiiYI7CjtrzU33Hof2gCK4BGAYYCw/s1600/article_4_19_fig_1.jpg)  
+    [![](https://3.bp.blogspot.com/-Ted-CgUTbdQ/WX_2vm3DpqI/AAAAAAAAmWQ/9nQo0VipCloBhbHiiYI7CjtrzU33Hof2gCK4BGAYYCw/s320/article_4_19_fig_1.jpg)](https://3.bp.blogspot.com/-Ted-CgUTbdQ/WX_2vm3DpqI/AAAAAAAAmWQ/9nQo0VipCloBhbHiiYI7CjtrzU33Hof2gCK4BGAYYCw/s1600/article_4_19_fig_1.jpg)  
     (ảnh: [https://ischool.syr.edu/infospace/2013/04/23/what-is-text-mining](https://ischool.syr.edu/infospace/2013/04/23/what-is-text-mining))
 *   **Matplotlib**: is a Python 2D plotting library ([https://matplotlib.org](https://matplotlib.org/)).  
     [![](https://1.bp.blogspot.com/-FeOpj0O-4FE/WX_3Ja-k5kI/AAAAAAAAmWY/tSnGHC-VyKIa8XtmFezAyEQ21pTLbLuFgCLcBGAs/s400/Screenshot%2Bfrom%2B2017-08-01%2B10-35-53.png)](https://1.bp.blogspot.com/-FeOpj0O-4FE/WX_3Ja-k5kI/AAAAAAAAmWY/tSnGHC-VyKIa8XtmFezAyEQ21pTLbLuFgCLcBGAs/s1600/Screenshot%2Bfrom%2B2017-08-01%2B10-35-53.png)

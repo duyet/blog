@@ -8,7 +8,7 @@ tags:
 - phá giá
 - News
 modified_time: '2015-09-08T00:42:08.379+07:00'
-thumbnail: http://1.bp.blogspot.com/-Kz6IRXmf54g/Ve3MT5Fot8I/AAAAAAAAC3Q/Q6j1NCWjm9s/s1600/Chay-dua-phong-trao-ban-pha-gia-loi-bat-cap-hai-1.jpg
+thumbnail: https://1.bp.blogspot.com/-Kz6IRXmf54g/Ve3MT5Fot8I/AAAAAAAAC3Q/Q6j1NCWjm9s/s1600/Chay-dua-phong-trao-ban-pha-gia-loi-bat-cap-hai-1.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-3480748693433791499
 blogger_orig_url: https://blog.duyet.net/2015/09/pha-gia-website-van-e-muon-thuo.html
 slug: /2015/09/pha-gia-website-van-e-muon-thuo.html
@@ -19,7 +19,7 @@ description: Như các bạn cũng biết, thị trường Website Việt Nam hi
 
 Như các bạn cũng biết, thị trường Website Việt Nam hiện nay trở nên màu mỡ cho các lập trình viên. Qua đó, việc xuất hiện của các công ty, cá nhân sử dụng quá nhiều tiêu đề "giá rẻ" trong chính cả Slogan và thương hiệu của mình. Khiến cho thị trường Website trở nên khó khăn vì người lập trình viên giỏi thì mất quá nhiều công sức và thời gian để tích lũy kinh nghiệm phải bị ép một cái giá "không thể tin nổi" và có thể chỉ chênh lệch chút đỉnh so với người mới vào nghề vì cái giá rẻ đến mức không thể nào nâng hơn được vì nếu nâng thì "một xu dính túi" cũng không có.
 
-![](http://1.bp.blogspot.com/-Kz6IRXmf54g/Ve3MT5Fot8I/AAAAAAAAC3Q/Q6j1NCWjm9s/s1600/Chay-dua-phong-trao-ban-pha-gia-loi-bat-cap-hai-1.jpg)
+![](https://1.bp.blogspot.com/-Kz6IRXmf54g/Ve3MT5Fot8I/AAAAAAAAC3Q/Q6j1NCWjm9s/s1600/Chay-dua-phong-trao-ban-pha-gia-loi-bat-cap-hai-1.jpg)
 
 ## Nguyên nhân do ở đâu? ##
 

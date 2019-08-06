@@ -35,6 +35,6 @@ Nếu ta sử dụng vài nghìn tấm ảnh các khuôn mặt, và nói với N
 
 Nhưng các dự án Deep Learning mới nhất hiện nay không cần phải training bởi con người. Đây được gọi là học không giám sát "unsupervised learning", cho phép AI có thể tự hiểu các khái niệm mà không cần phải gán nhãn. Năm 2012, một số kỹ sư Google công bố bài báo "[Building High-level Features Using Large Scale Unsupervised Learning](http://static.googleusercontent.com/media/research.google.com/vi//archive/unsupervised_icml2012.pdf)". Họ sử dụng mạng Neural 9 layers với 1 tỷ liên kết, mạng Neural này được cho học 10 triệu ảnh 200x200pixel. Kết quả thu được 15.8% độ chính xác khi xác định 22000 loại đối tượng (mặt người, mặt mèo, tay chân, ...), mà không hề dạy cho nó biết là có gì trong ảnh. 
 
-[![](https://4.bp.blogspot.com/-D-C2nNiovcc/VvapVS7SKnI/AAAAAAAASYU/bQQY28g_UUcGXv-TsrfUwEpqF5S4SpFkQ/s640/wallpaper-2870969.jpg)](http://4.bp.blogspot.com/-D-C2nNiovcc/VvapVS7SKnI/AAAAAAAASYU/bQQY28g_UUcGXv-TsrfUwEpqF5S4SpFkQ/s1600/wallpaper-2870969.jpg)
+[![](https://4.bp.blogspot.com/-D-C2nNiovcc/VvapVS7SKnI/AAAAAAAASYU/bQQY28g_UUcGXv-TsrfUwEpqF5S4SpFkQ/s640/wallpaper-2870969.jpg)](https://4.bp.blogspot.com/-D-C2nNiovcc/VvapVS7SKnI/AAAAAAAASYU/bQQY28g_UUcGXv-TsrfUwEpqF5S4SpFkQ/s1600/wallpaper-2870969.jpg)
 
 Hiện tại, Deep Learning đang được ứng dụng rất tốt trong việc nhận dạng giọng nói, xử lý ngôn ngữ tự nhiên, xử lý ảnh và các ứng dụng khác. 

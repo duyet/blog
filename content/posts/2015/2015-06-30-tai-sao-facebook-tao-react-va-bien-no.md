@@ -7,7 +7,7 @@ tags:
 - React
 - facebook
 modified_time: '2015-06-30T23:31:35.142+07:00'
-thumbnail: http://2.bp.blogspot.com/-fyYlYdrDzY8/VZIKLpbzgzI/AAAAAAAAClA/A14BLEYp2Kg/s1600/2015_06_20_2a3229e9d8.jpeg
+thumbnail: https://2.bp.blogspot.com/-fyYlYdrDzY8/VZIKLpbzgzI/AAAAAAAAClA/A14BLEYp2Kg/s1600/2015_06_20_2a3229e9d8.jpeg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-1893692369712735538
 blogger_orig_url: https://blog.duyet.net/2015/06/tai-sao-facebook-tao-react-va-bien-no.html
 slug: /2015/06/tai-sao-facebook-tao-react-va-bien-no.html
@@ -18,7 +18,7 @@ description: ReactJS là một Javascript library được phát triển bởi F
 
 ReactJS là một Javascript library được phát triển bởi Facebook đang ngày càng trở nên phổ biến hơn. Hiện tại các tài liệu hướng dẫn về cách sử dụng ReactJS trên mạng đã có rất nhiều. Trong bài viết này mình tập trung về lí do mà Facebook đã tạo ra React.
 
-![](http://2.bp.blogspot.com/-fyYlYdrDzY8/VZIKLpbzgzI/AAAAAAAAClA/A14BLEYp2Kg/s1600/2015_06_20_2a3229e9d8.jpeg)
+![](https://2.bp.blogspot.com/-fyYlYdrDzY8/VZIKLpbzgzI/AAAAAAAAClA/A14BLEYp2Kg/s1600/2015_06_20_2a3229e9d8.jpeg)
 
 ## Một chút về bối cảnh
 

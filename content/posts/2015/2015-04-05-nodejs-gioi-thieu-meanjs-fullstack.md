@@ -8,7 +8,7 @@ tags:
 - MEANjs
 - Web
 modified_time: '2015-04-27T21:41:00.383+07:00'
-thumbnail: http://3.bp.blogspot.com/-5rfaJD0WbCQ/VT5I0zIo48I/AAAAAAAACbA/Z3PvVUVO7Vo/s1600/meanjs-intro.png
+thumbnail: https://3.bp.blogspot.com/-5rfaJD0WbCQ/VT5I0zIo48I/AAAAAAAACbA/Z3PvVUVO7Vo/s1600/meanjs-intro.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-5454366534033840823
 blogger_orig_url: https://blog.duyet.net/2015/04/nodejs-gioi-thieu-meanjs-fullstack.html
 slug: /2015/04/nodejs-gioi-thieu-meanjs-fullstack.html
@@ -25,9 +25,9 @@ MEANJS là sự kết hợp giữa MongoDb, ExpressJS framework, AngularJs.
 MEAN là viết tắt của **M**ongoDB + **E**xpressJS + **A**ngularJS + **N**odeJS.  
   
 
-![](http://3.bp.blogspot.com/-5rfaJD0WbCQ/VT5I0zIo48I/AAAAAAAACbA/Z3PvVUVO7Vo/s1600/meanjs-intro.png)
+![](https://3.bp.blogspot.com/-5rfaJD0WbCQ/VT5I0zIo48I/AAAAAAAACbA/Z3PvVUVO7Vo/s1600/meanjs-intro.png)
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><img border="0" src="http://4.bp.blogspot.com/-733zSU8O2Ks/VT5KUPiciZI/AAAAAAAACbo/XdgpOsbRnsE/s1600/MEAN.io_vs_MEAN.JS_logos.png" style="margin-left: auto; margin-right: auto;" /></td></tr><tr><td class="tr-caption" style="text-align: center;">MEANjs là một tổ hợp thống nhất</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><img border="0" src="https://4.bp.blogspot.com/-733zSU8O2Ks/VT5KUPiciZI/AAAAAAAACbo/XdgpOsbRnsE/s1600/MEAN.io_vs_MEAN.JS_logos.png" style="margin-left: auto; margin-right: auto;" /></td></tr><tr><td class="tr-caption" style="text-align: center;">MEANjs là một tổ hợp thống nhất</td></tr></tbody></table>
 
 ### 1. MongoDB
 
@@ -36,7 +36,7 @@ MongoDB là một cơ sở dữ liệu NoSQL.
 NoSQL là một thế hệ cơ sở dữ liệu có các đặc điểm chính là không ràng buộc (nonrelational), phân tán (distributed), mã nguồn mở (open source), khả năng co giản theo chiều ngang (Horizontal scalable) có thể lưu trữ, xử lý từ một lượng rất nhỏ cho tới dữ liệu cực lớn, lên đến hàng petabytes dữ liệu trong hệ thống cần có độ chịu tải, chịu lỗi cao với những yêu cầu về tài nguyên phần cứng thấp.  
   
 
-![](http://2.bp.blogspot.com/-9P59a2PDl-8/VT5JZdFLQAI/AAAAAAAACbI/TzA9efeYMso/s1600/mongodb_logo.png)
+![](https://2.bp.blogspot.com/-9P59a2PDl-8/VT5JZdFLQAI/AAAAAAAACbI/TzA9efeYMso/s1600/mongodb_logo.png)
 
   
   
@@ -53,7 +53,7 @@ MongoDB sử dụng một quá trình xử lý để xử lý các yêu cầu v�
 Express là một web application framework cho NodeJS, cung cấp các tính năng mạnh mẽ cho việc xây dựng một ứng dụng web đúng nghĩa hoặc lai.  
   
 
-![](http://3.bp.blogspot.com/-9sNw-vESVqI/VT5Jp2o70iI/AAAAAAAACbQ/Qmsr8v1wr3Q/s1600/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67.png)
+![](https://3.bp.blogspot.com/-9sNw-vESVqI/VT5Jp2o70iI/AAAAAAAACbQ/Qmsr8v1wr3Q/s1600/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67.png)
 
   
   
@@ -69,7 +69,7 @@ AngularJS được bắt đầu từ năm 2009, do lập trình viên Misko Heve
 Công nghệ HTML hỗ trợ tốt cho các trang web tĩnh, kiểu như trước năm 2000 vậy. Khi bạn xây dựng 1 trang web với PHP, Node/Express, hay Ruby thì nó cũng chỉ là một trang web tĩnh với nội dung được thay đổi khi bạn gửi request về máy chủ, máy chủ sẽ render 1 trang với nội dung tương ứng. Tuy nhiên mọi thứ đã thay đổi nhiều từ sự phát triển của HTML5, nhất là khi có sự chống lưng từ những ông lớn như Google, Yahoo, Facebook, và sự tập hợp đông đảo của cộng đồng mã nguồn mở.  
   
 
-![](http://1.bp.blogspot.com/-vnTxzXBRh4w/VT5J2NH3wBI/AAAAAAAACbY/42l-erQVw-g/s1600/angularjs-logo.png)
+![](https://1.bp.blogspot.com/-vnTxzXBRh4w/VT5J2NH3wBI/AAAAAAAACbY/42l-erQVw-g/s1600/angularjs-logo.png)
 
   
 
@@ -82,4 +82,4 @@ Tại thời điểm này, nó được rất nhiều nhà phát triển ứng d
 NodeJS là một nền tảng cho việc viết ứng dụng Javascript phía server, không giống như Javascript chúng ta thường viết trên trình duyệt. Với ngôn ngữ Javascript và nền tảng nhập xuất bất đồng bộ, nó là một nền tảng mạnh mẽ để phát triển các ứng dụng thời gian thực.  
   
 
-![](http://1.bp.blogspot.com/-KC5payxdP9Y/VT5KBt_nzNI/AAAAAAAACbg/wykU1hHPyV0/s1600/nodejs_logo_green.jpg)
+![](https://1.bp.blogspot.com/-KC5payxdP9Y/VT5KBt_nzNI/AAAAAAAACbg/wykU1hHPyV0/s1600/nodejs_logo_green.jpg)

@@ -8,7 +8,7 @@ tags:
 - CSDL
 - NoSQL
 modified_time: '2015-04-06T00:32:31.095+07:00'
-thumbnail: http://1.bp.blogspot.com/-5k958LlJol8/VSFvGnofvCI/AAAAAAAACOY/WM4CxLtpcOU/s1600/redis.png
+thumbnail: https://1.bp.blogspot.com/-5k958LlJol8/VSFvGnofvCI/AAAAAAAACOY/WM4CxLtpcOU/s1600/redis.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-8245884350005996852
 blogger_orig_url: https://blog.duyet.net/2015/04/database-tim-hieu-ve-csdl-redis.html
 slug: /2015/04/database-tim-hieu-ve-csdl-redis.html
@@ -20,7 +20,7 @@ Redis là 1 trong số các hệ quản trị cơ sở dữ liệu phát triển
 Bên cạnh lưu trữ key-value trên RAM với hiệu năng cao, redis còn hỗ trợ lưu trữ dữ liệu trên đĩa cứng (persistent redis) cho phép phục hồi dữ liệu khi gặp sự cố. Ngoài tính năng replicatation (sao chép giữa master-client), tính năng cluster (sao lưu master-master) cũng đang được phát triển .
 Để sử dụng một cách hiệu quả những tính năng redis hỗ trợ cũng như vận hành redis với hiệu suất cao nhất thì việc am hiểu hệ thống lưu trữ này là điều không thể thiếu. Chính vì lý do này, mình quyết định tìm hiểu mã nguồn redis. Loạt bài viết về redis này tóm tắt những điều mình tìm hiểu được từ việc đọc mã nguồn của redis.
 
-![](http://1.bp.blogspot.com/-5k958LlJol8/VSFvGnofvCI/AAAAAAAACOY/WM4CxLtpcOU/s1600/redis.png)
+![](https://1.bp.blogspot.com/-5k958LlJol8/VSFvGnofvCI/AAAAAAAACOY/WM4CxLtpcOU/s1600/redis.png)
 
 ## Lịch sử ra đời của Redis  ##
 

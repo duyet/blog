@@ -129,7 +129,7 @@ module.exports = config;
 
 Và cấu trúc thư mục như hình: 
 
-[![](https://4.bp.blogspot.com/-r2qmxSXqm2k/V2rWi5K8MsI/AAAAAAAAX_k/K6uv74Zde08ZlcAYkZaCSHnSgBS9zohMACK4B/s1600/_react_2.png)](http://4.bp.blogspot.com/-r2qmxSXqm2k/V2rWi5K8MsI/AAAAAAAAX_k/K6uv74Zde08ZlcAYkZaCSHnSgBS9zohMACK4B/s1600/_react_2.png)
+[![](https://4.bp.blogspot.com/-r2qmxSXqm2k/V2rWi5K8MsI/AAAAAAAAX_k/K6uv74Zde08ZlcAYkZaCSHnSgBS9zohMACK4B/s1600/_react_2.png)](https://4.bp.blogspot.com/-r2qmxSXqm2k/V2rWi5K8MsI/AAAAAAAAX_k/K6uv74Zde08ZlcAYkZaCSHnSgBS9zohMACK4B/s1600/_react_2.png)
 
 ### 4. React Component <App /> ###
 Tạo file `src/index.jsx` với nội dung như sau: 
@@ -166,15 +166,15 @@ Và file `index.html`
 
 Sau khi hoàn tất, khởi động webpack để tiến hành build toàn bộ source thành file `build/bundle.js` và được sử dụng trong `index.html`
 
-[![](https://1.bp.blogspot.com/-wliVdNybXQY/V2rZqMQkEeI/AAAAAAAAX_w/JGv8wpbUtfoLgzSUAWUrlUaFQOpzq7k_QCK4B/s1600/_react-3.png)](http://1.bp.blogspot.com/-wliVdNybXQY/V2rZqMQkEeI/AAAAAAAAX_w/JGv8wpbUtfoLgzSUAWUrlUaFQOpzq7k_QCK4B/s1600/_react-3.png)
+[![](https://1.bp.blogspot.com/-wliVdNybXQY/V2rZqMQkEeI/AAAAAAAAX_w/JGv8wpbUtfoLgzSUAWUrlUaFQOpzq7k_QCK4B/s1600/_react-3.png)](https://1.bp.blogspot.com/-wliVdNybXQY/V2rZqMQkEeI/AAAAAAAAX_w/JGv8wpbUtfoLgzSUAWUrlUaFQOpzq7k_QCK4B/s1600/_react-3.png)
 
 Mở Terminal mới, sử dụng `static-html-server` để khởi động static server
 
-[![](https://4.bp.blogspot.com/-kICoxXoeiUg/V2raa0R0uZI/AAAAAAAAX_8/kKZJHe2mJa0n2rD4ZH1xbSp0_4tzsNiPwCK4B/s1600/_react-4.png)](http://4.bp.blogspot.com/-kICoxXoeiUg/V2raa0R0uZI/AAAAAAAAX_8/kKZJHe2mJa0n2rD4ZH1xbSp0_4tzsNiPwCK4B/s1600/_react-4.png)
+[![](https://4.bp.blogspot.com/-kICoxXoeiUg/V2raa0R0uZI/AAAAAAAAX_8/kKZJHe2mJa0n2rD4ZH1xbSp0_4tzsNiPwCK4B/s1600/_react-4.png)](https://4.bp.blogspot.com/-kICoxXoeiUg/V2raa0R0uZI/AAAAAAAAX_8/kKZJHe2mJa0n2rD4ZH1xbSp0_4tzsNiPwCK4B/s1600/_react-4.png)
 
 Sau đó truy cập vào địa chỉ `http://localhost:7788` bằng trình duyệt.
 
-[![](https://4.bp.blogspot.com/-LYitq5P93h4/V2ra5p85bOI/AAAAAAAAYAE/paXWTLZCttwGAVwESHYOpUrG-b5KFGxSACK4B/s1600/_react_5.png)](http://4.bp.blogspot.com/-LYitq5P93h4/V2ra5p85bOI/AAAAAAAAYAE/paXWTLZCttwGAVwESHYOpUrG-b5KFGxSACK4B/s1600/_react_5.png)
+[![](https://4.bp.blogspot.com/-LYitq5P93h4/V2ra5p85bOI/AAAAAAAAYAE/paXWTLZCttwGAVwESHYOpUrG-b5KFGxSACK4B/s1600/_react_5.png)](https://4.bp.blogspot.com/-LYitq5P93h4/V2ra5p85bOI/AAAAAAAAYAE/paXWTLZCttwGAVwESHYOpUrG-b5KFGxSACK4B/s1600/_react_5.png)
 
 Vậy là đã xong bước nhập môn Hello World với React và Webpack.
 Webpack với tham số --watch sẽ tự động build lại mỗi khi file source thay đổi, nên bạn sẽ không cần chạy lại webpack mỗi lần build.
@@ -225,7 +225,7 @@ Trong Message Component nhận được props này và sử dụng dưới dạn
 
 Mở lại trình duyệt để xem kết quả:
 
-[![](https://2.bp.blogspot.com/-ZwpbyhibzSM/V2rfOQhY8jI/AAAAAAAAYAU/jo6JoN_MPtwYhMO8qQACrr2wkKn8InzgQCK4B/s1600/_react_6.png)](http://2.bp.blogspot.com/-ZwpbyhibzSM/V2rfOQhY8jI/AAAAAAAAYAU/jo6JoN_MPtwYhMO8qQACrr2wkKn8InzgQCK4B/s1600/_react_6.png)
+[![](https://2.bp.blogspot.com/-ZwpbyhibzSM/V2rfOQhY8jI/AAAAAAAAYAU/jo6JoN_MPtwYhMO8qQACrr2wkKn8InzgQCK4B/s1600/_react_6.png)](https://2.bp.blogspot.com/-ZwpbyhibzSM/V2rfOQhY8jI/AAAAAAAAYAU/jo6JoN_MPtwYhMO8qQACrr2wkKn8InzgQCK4B/s1600/_react_6.png)
 
 ### 6. Sử dụng State và Event  ###
 Như đã nói React tập trung xử lý view, thành phần state trong React rất mạnh nhưng bản thân React không có các chức năng như xử lý Event hay 2-way binding, ta phải xử lý chúng bằng tay dựa vào các Event mặc định của DOM.

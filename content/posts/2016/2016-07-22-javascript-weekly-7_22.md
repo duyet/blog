@@ -24,7 +24,7 @@ description: "Javascript Weekly #7 tuần này: giới thiệu HyperTerm - Comma
 
 Javascript Weekly #7 tuần này: giới thiệu HyperTerm - Command Line mạnh mẽ dựa trên công nghệ của Web, Node.js, Howler.js là một thư viện Audio nhiều tính năng, hay cách xây dựng ứng dụng Desktop sử dụng Electron và React, khám phá 2 chức năng mới trong ES6, ...
 
-[![](https://4.bp.blogspot.com/-aCVU91X9N2E/V5HPwsra5lI/AAAAAAAAaJU/O6M7sA63ap0c1degbSZcyUTLXnY3hx_AACK4B/s1600/hyperterm.gif)](http://4.bp.blogspot.com/-aCVU91X9N2E/V5HPwsra5lI/AAAAAAAAaJU/O6M7sA63ap0c1degbSZcyUTLXnY3hx_AACK4B/s1600/hyperterm.gif)
+[![](https://4.bp.blogspot.com/-aCVU91X9N2E/V5HPwsra5lI/AAAAAAAAaJU/O6M7sA63ap0c1degbSZcyUTLXnY3hx_AACK4B/s1600/hyperterm.gif)](https://4.bp.blogspot.com/-aCVU91X9N2E/V5HPwsra5lI/AAAAAAAAaJU/O6M7sA63ap0c1degbSZcyUTLXnY3hx_AACK4B/s1600/hyperterm.gif)
 
 ## [HyperTerm: An Open Source, JS-Based Terminal Emulator](http://saveto.co/1Jm2n3) ##
 GUILLERMO RAUCH

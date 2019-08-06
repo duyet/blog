@@ -28,13 +28,13 @@ Tại JVN, mọi bức tường đều là bảng để viết (lúc đầu cứ
 
 Một buổi sáng trò chuyện với thầy viện trưởng GS. Dương Nguyên Vũ. Một người cực kỳ uyên thâm, thân thiện và có tâm. Một buổi sáng thôi mà học được rất nhiều điều, về các câu chuyện của thầy, về cuộc sống, về quan niệm và tư tưởng. Thầy kể về 2 câu chuyện nguồn gốc của các bức tường. Và mỗi nội dung, hình vẽ trên đó là một câu chuyện riêng, chỉ cần chỉ ra, thầy viện trưởng có thể kể chi tiết bất kì câu chuyện nào trên tường trong phòng của thầy, tên của người vẽ, tên câu chuyện và ý nghĩa.
 
-[![](https://2.bp.blogspot.com/-oU-5KYby4Jc/V3r3_kE3PhI/AAAAAAAAZI8/r1HPSe5JuHA_nevRFsVU4aMNC8KSnRbngCK4B/s640/IMG_20160702_091442_HDR.jpg)](http://2.bp.blogspot.com/-oU-5KYby4Jc/V3r3_kE3PhI/AAAAAAAAZI8/r1HPSe5JuHA_nevRFsVU4aMNC8KSnRbngCK4B/s1600/IMG_20160702_091442_HDR.jpg)
+[![](https://2.bp.blogspot.com/-oU-5KYby4Jc/V3r3_kE3PhI/AAAAAAAAZI8/r1HPSe5JuHA_nevRFsVU4aMNC8KSnRbngCK4B/s640/IMG_20160702_091442_HDR.jpg)](https://2.bp.blogspot.com/-oU-5KYby4Jc/V3r3_kE3PhI/AAAAAAAAZI8/r1HPSe5JuHA_nevRFsVU4aMNC8KSnRbngCK4B/s1600/IMG_20160702_091442_HDR.jpg)
 
 Chỉ ra 1 hình khá lạ trên tường và nghe câu chuyện được kể. Hình trên là bốn câu thơ của 1 Đại Lạc Ma truyền thừa đời thứ 7 từng ghé qua viện và để lại. Đại Lạc Ma là một người đam mê khoa học, người muốn tìm đến để nghiên cứu về các tương quan giữa con người và Phật giáo, dưới con mắt của nhà khoa học. Có một bản dịch được thầy ghi lại, tôi còn được nghe về Phương trình khảo sát, các hệ số, tính chất, ... để giải thích chữ "Duyên" trong câu thơ thứ 2. "Duyên" không phải là đại lượng ngẫu nhiên, mà là có sắp đặt và có cả trọng số hẳn hoi. (Liên hệ bản thân thì thấy cực kỳ đúng).
 
 Thầy còn là người chơi thể thao, 2 lần gặp là 2 lần thấy thầy trong bộ đồ thể thao. Mỗi sáng chạy 18-20km, chạy xem đạp 140km và còn bơi lội nữa.
 
-[![](https://1.bp.blogspot.com/-oLhXfMM9xl8/V3sAoNoXXCI/AAAAAAAAZJ0/gMb-3hy9j1APkuebvYmaOaJbMu73UARCgCK4B/s400/13558685_1619539395026100_4123411615755552690_o.jpg)](http://1.bp.blogspot.com/-oLhXfMM9xl8/V3sAoNoXXCI/AAAAAAAAZJ0/gMb-3hy9j1APkuebvYmaOaJbMu73UARCgCK4B/s1600/13558685_1619539395026100_4123411615755552690_o.jpg)
+[![](https://1.bp.blogspot.com/-oLhXfMM9xl8/V3sAoNoXXCI/AAAAAAAAZJ0/gMb-3hy9j1APkuebvYmaOaJbMu73UARCgCK4B/s400/13558685_1619539395026100_4123411615755552690_o.jpg)](https://1.bp.blogspot.com/-oLhXfMM9xl8/V3sAoNoXXCI/AAAAAAAAZJ0/gMb-3hy9j1APkuebvYmaOaJbMu73UARCgCK4B/s1600/13558685_1619539395026100_4123411615755552690_o.jpg)
 
 (Ảnh: JVN)
 
@@ -43,10 +43,10 @@ Mọi con người ở đây đều hết sức thân thiện và dễ mến. Ha
 Về các thầy trong BGK, lại càng ngạc nhiên hơn nữa, đây lại không giống như một cuộc thi như bao cuộc thi khác, không khí không hề căng thẳng. Các thầy đặt ra câu hỏi, và kiên nhẫn giải thích lại khi thí sinh không hiểu, nếu thí sinh nói không chính xác, thì các thầy lại cố gắng giải thích cho hiểu - nhưng một cách nhẹ nhàng. Thầy viện trưởng luôn nói "không sao, vì đây là chuyện bình thường, chỉ là lần đầu".
 Không phải là một câu so sánh, nhưng rõ ràng bản thân có thể thấy: "Tại UIT, các thầy cô lựa chỗ mà chém, tại đây, các người ta tìm chỗ mà khen".
 
-[![](https://1.bp.blogspot.com/-cjjmZvx9Ero/V3r8-IB4-hI/AAAAAAAAZJc/I41IW0exa6ciW7243U9YI8k-_DPiJFmIACK4B/s320/13613638_1619594675020572_5800127078012288742_o.jpg)](http://1.bp.blogspot.com/-cjjmZvx9Ero/V3r8-IB4-hI/AAAAAAAAZJc/I41IW0exa6ciW7243U9YI8k-_DPiJFmIACK4B/s1600/13613638_1619594675020572_5800127078012288742_o.jpg) [![](https://4.bp.blogspot.com/-vdylnK1G_Bg/V3r89duKGUI/AAAAAAAAZJU/ShHewCpHwksGNVWOMF134PdGQOc8Ih2XACK4B/s320/13580642_1619594615020578_4132836646932798294_o.jpg)](http://4.bp.blogspot.com/-vdylnK1G_Bg/V3r89duKGUI/AAAAAAAAZJU/ShHewCpHwksGNVWOMF134PdGQOc8Ih2XACK4B/s1600/13580642_1619594615020578_4132836646932798294_o.jpg)
+[![](https://1.bp.blogspot.com/-cjjmZvx9Ero/V3r8-IB4-hI/AAAAAAAAZJc/I41IW0exa6ciW7243U9YI8k-_DPiJFmIACK4B/s320/13613638_1619594675020572_5800127078012288742_o.jpg)](https://1.bp.blogspot.com/-cjjmZvx9Ero/V3r8-IB4-hI/AAAAAAAAZJc/I41IW0exa6ciW7243U9YI8k-_DPiJFmIACK4B/s1600/13613638_1619594675020572_5800127078012288742_o.jpg) [![](https://4.bp.blogspot.com/-vdylnK1G_Bg/V3r89duKGUI/AAAAAAAAZJU/ShHewCpHwksGNVWOMF134PdGQOc8Ih2XACK4B/s320/13580642_1619594615020578_4132836646932798294_o.jpg)](https://4.bp.blogspot.com/-vdylnK1G_Bg/V3r89duKGUI/AAAAAAAAZJU/ShHewCpHwksGNVWOMF134PdGQOc8Ih2XACK4B/s1600/13580642_1619594615020578_4132836646932798294_o.jpg)
 
 Nhưng rõ ràng cái quan trọng có thể thấy được sau buổi phản biện ấy tinh thần động viên, tinh thần thúc đẩy học tập, thí sinh sẽ hiểu được mình còn thiếu cái gì và trao dồi sau. 
 
-[![](https://1.bp.blogspot.com/-1WCb0Yygft4/V3r9pBYwXJI/AAAAAAAAZJk/MZy0OiMnqHcZhtXz--lzcUv7sdvSLDw0gCK4B/s320/13613610_1619594618353911_6936632888706636397_o.jpg)](http://1.bp.blogspot.com/-1WCb0Yygft4/V3r9pBYwXJI/AAAAAAAAZJk/MZy0OiMnqHcZhtXz--lzcUv7sdvSLDw0gCK4B/s1600/13613610_1619594618353911_6936632888706636397_o.jpg)
+[![](https://1.bp.blogspot.com/-1WCb0Yygft4/V3r9pBYwXJI/AAAAAAAAZJk/MZy0OiMnqHcZhtXz--lzcUv7sdvSLDw0gCK4B/s320/13613610_1619594618353911_6936632888706636397_o.jpg)](https://1.bp.blogspot.com/-1WCb0Yygft4/V3r9pBYwXJI/AAAAAAAAZJk/MZy0OiMnqHcZhtXz--lzcUv7sdvSLDw0gCK4B/s1600/13613610_1619594618353911_6936632888706636397_o.jpg)
 
 Thực sự ngộ ra rất nhiều, còn nhiều nhiều điều cần phải học. Còn rất nhiều điều muốn kể, về một nơi đặc biệt, với nhiều thứ đặc biệt. Một năm nữa chính thức trở thành thành viên JVN, hẹn 1 năm nữa nhé.

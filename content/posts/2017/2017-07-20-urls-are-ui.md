@@ -22,7 +22,7 @@ description: URLs are UI - mình đã nghe cái này nhiều và từ lâu rồi
 
 URLs are UI - mình đã nghe cái này nhiều và từ lâu rồi. Điều này hết sức rõ ràng và mình thấy hoàn toàn đúng.
 
-[![](https://2.bp.blogspot.com/-Be1T1kU3SNE/WXDK8fI25CI/AAAAAAAAmP8/hNT-xyX6Z6cwW1qoAEx6D3WaW5nYZ8vTQCK4BGAYYCw/s640/funny-newspaper-URL-job-application.jpg)](http://2.bp.blogspot.com/-Be1T1kU3SNE/WXDK8fI25CI/AAAAAAAAmP8/hNT-xyX6Z6cwW1qoAEx6D3WaW5nYZ8vTQCK4BGAYYCw/s1600/funny-newspaper-URL-job-application.jpg)
+[![](https://2.bp.blogspot.com/-Be1T1kU3SNE/WXDK8fI25CI/AAAAAAAAmP8/hNT-xyX6Z6cwW1qoAEx6D3WaW5nYZ8vTQCK4BGAYYCw/s640/funny-newspaper-URL-job-application.jpg)](https://2.bp.blogspot.com/-Be1T1kU3SNE/WXDK8fI25CI/AAAAAAAAmP8/hNT-xyX6Z6cwW1qoAEx6D3WaW5nYZ8vTQCK4BGAYYCw/s1600/funny-newspaper-URL-job-application.jpg)
 
 Như J[akob Nielsen nói năm 1999](https://www.nngroup.com/articles/url-as-ui/), hay [Tim Berners-Lee](https://www.w3.org/Provider/Style/URI), URL góp phần tăng trải nghiệm người dùng, là một phần của UI, thường có tính chất như:
 

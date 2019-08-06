@@ -7,7 +7,7 @@ tags:
 - Git
 - Git Workflow
 modified_time: '2015-07-16T12:54:31.864+07:00'
-thumbnail: http://4.bp.blogspot.com/-s4EMBlWhY34/VadEZkNL7YI/AAAAAAAACnc/byhewvc8IsQ/s1600/s1-1024x417.png
+thumbnail: https://4.bp.blogspot.com/-s4EMBlWhY34/VadEZkNL7YI/AAAAAAAACnc/byhewvc8IsQ/s1600/s1-1024x417.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-9144536109356254828
 blogger_orig_url: https://blog.duyet.net/2015/07/git-ki-thuat-chia-branch-branch-early.html
 slug: /2015/07/git-ki-thuat-chia-branch-branch-early.html
@@ -35,52 +35,52 @@ Những cách này tất nhiên giải quyết  được vấn đề, nhưng kh�
 
 Bắt đầu ngày làm việc, bạn chọn làm một chức năng mới. Việc đầu tiên cần làm là tạo một branch mới bằng câu lệnh `git checkout` với tham số `-b`
 
-` `![](http://4.bp.blogspot.com/-s4EMBlWhY34/VadEZkNL7YI/AAAAAAAACnc/byhewvc8IsQ/s1600/s1-1024x417.png) 
+` `![](https://4.bp.blogspot.com/-s4EMBlWhY34/VadEZkNL7YI/AAAAAAAACnc/byhewvc8IsQ/s1600/s1-1024x417.png) 
 
 Bắt đầu ngày làm việc, bạn chọn làm một chức năng mới. Việc đầu tiên cần làm là tạo một branch mới bằng câu lệnh `git checkout` với tham số `-b`
 
-![](http://3.bp.blogspot.com/-uspVsG_BzcM/VadEiRHx95I/AAAAAAAACnk/OIJgxqVFd_k/s1600/s2-1024x413.png) 
+![](https://3.bp.blogspot.com/-uspVsG_BzcM/VadEiRHx95I/AAAAAAAACnk/OIJgxqVFd_k/s1600/s2-1024x413.png) 
 
  Trong quá trình làm việc, bạn nên `commit` code khi hoàn thành một số chức năng nhất định. Nhưng chưa cần vội `push`.
 
-![](http://3.bp.blogspot.com/-rpFBfIa18xk/VadErR34TeI/AAAAAAAACns/G1-TYFQ6VWM/s1600/s3-1024x417.png)
+![](https://3.bp.blogspot.com/-rpFBfIa18xk/VadErR34TeI/AAAAAAAACns/G1-TYFQ6VWM/s1600/s3-1024x417.png)
 
 Sẽ có những lúc đang làm cắm cúi và anh KH từ đâu lao đến ném cho một đống việc thế này.
 
-![](http://3.bp.blogspot.com/-IQ-YtYUp2Eg/VadEyA7oX9I/AAAAAAAACn0/Q7fX39B3Osw/s1600/s4.png) 
+![](https://3.bp.blogspot.com/-IQ-YtYUp2Eg/VadEyA7oX9I/AAAAAAAACn0/Q7fX39B3Osw/s1600/s4.png) 
 
 Và tất nhiên bạn không thể nào từ chối dược, đành quay sang fix trước cho lão ấy. Khi đó, chỉ cần chuyển về branch `master` (lưu ý phải commit hết code lên branch đang làm trước khi chuyển branch) bằng câu lệnh `checkout`
 
-![](http://1.bp.blogspot.com/-7QZMuA8jUzU/VadE5IcZCOI/AAAAAAAACn8/WhsufMSvR8g/s1600/s5.png) 
+![](https://1.bp.blogspot.com/-7QZMuA8jUzU/VadE5IcZCOI/AAAAAAAACn8/WhsufMSvR8g/s1600/s5.png) 
 
 Mục đích của việc chuyển về branch master là để khi làm chức năng  mới, sẽ không dính dáng gì đến các chức năng đang làm dở. Và bạn cũng  nên pull thường xuyên để lấy code mới nhất về trước khi bắt đầu thực  hiện chức năng mới. Từ master, bạn tạo ra một branch mới:
 
 ` `
 
-![](http://3.bp.blogspot.com/-Xqc3xRSHu2w/VadFCs2nvBI/AAAAAAAACoE/AHJdbgt4CbQ/s1600/s6.png) 
+![](https://3.bp.blogspot.com/-Xqc3xRSHu2w/VadFCs2nvBI/AAAAAAAACoE/AHJdbgt4CbQ/s1600/s6.png) 
 
 Sau khi đã hoàn thành công việc, bạn hãy `commit` lên branch đó:
 
-![](http://2.bp.blogspot.com/-SMwaCwbTWho/VadFI0USnII/AAAAAAAACoM/0X2fO-epgtk/s1600/s8.png)
+![](https://2.bp.blogspot.com/-SMwaCwbTWho/VadFI0USnII/AAAAAAAACoM/0X2fO-epgtk/s1600/s8.png)
 
 Sau đó chuyển về `master` và dùng lệnh `git merge` để nhập các thay đổi từ branch vừa xong vào master.
 
-![](http://1.bp.blogspot.com/-VQSFFKjDyhI/VadFPiBPyYI/AAAAAAAACoU/Fcatyec0ajQ/s1600/s9-1024x428.png)
+![](https://1.bp.blogspot.com/-VQSFFKjDyhI/VadFPiBPyYI/AAAAAAAACoU/Fcatyec0ajQ/s1600/s9-1024x428.png)
 
 Lúc này, bạn có thể push code lên và thông báo với lão KH rằng mình  đã fix xong các yêu cầu của lão. Sau đó quay trở về branch mà bạn đang  làm dở công việc trước đó.
 
-![](http://4.bp.blogspot.com/-cVo6xdsrAso/VadFWBuup2I/AAAAAAAACoc/xiuKheUuTnQ/s1600/s10.png) 
+![](https://4.bp.blogspot.com/-cVo6xdsrAso/VadFWBuup2I/AAAAAAAACoc/xiuKheUuTnQ/s1600/s10.png) 
 
 Tiếp tục code, đến khi hoàn thành thì commit lên.
 
-![](http://1.bp.blogspot.com/-p_8xF9Y15mQ/VadFbdKEDUI/AAAAAAAACok/vgkDhX0BgCk/s1600/s11-1024x421.png)
+![](https://1.bp.blogspot.com/-p_8xF9Y15mQ/VadFbdKEDUI/AAAAAAAACok/vgkDhX0BgCk/s1600/s11-1024x421.png)
 
 Và quay về master, dùng lệnh `git merge` để nhập các chức năng vừa làm xong vào master. Và cuối cùng là push code. Vậy là công việc của bạn đã hoàn thành :D
 
-![](http://4.bp.blogspot.com/-uWIS7CystjI/VadFk6YKZtI/AAAAAAAACos/NB9sATsomqM/s1600/s12-1024x419.png)
+![](https://4.bp.blogspot.com/-uWIS7CystjI/VadFk6YKZtI/AAAAAAAACos/NB9sATsomqM/s1600/s12-1024x419.png)
 
 Mặc dù sử dụng branch có vẻ tốn rất nhiều thao tác, nhưng đây là một  việc hết sức cần thiết. Để tiện lợi hơn, thay vì gõ lệnh bằng tay, bạn  có thể sử dụng một số công cụ như `SourceTree`, rất trực quan và rất mạnh.
 
 Để kết thúc bài viết, các bạn hãy làm một bài tập nho nhỏ: Nhìn vào  cây branch dưới đây và hình dung lại những thao tác đã làm trong bài ví  dụ trên, tương ứng với với mỗi một node.
 
-![](http://2.bp.blogspot.com/-iEzhN7GcC0Y/VadFsF9kmgI/AAAAAAAACo0/gp-zYf7bmWE/s1600/s12b.png)
+![](https://2.bp.blogspot.com/-iEzhN7GcC0Y/VadFsF9kmgI/AAAAAAAACo0/gp-zYf7bmWE/s1600/s12b.png)

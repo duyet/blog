@@ -9,7 +9,7 @@ tags:
 - MySQL
 - tuts
 modified_time: '2015-02-15T23:05:02.138+07:00'
-thumbnail: http://1.bp.blogspot.com/-RIl_Pz6Y1Fo/VODDEddfGiI/AAAAAAAACHw/wibuZ6SUfAQ/s1600/Screenshot%2Bfrom%2B2015-02-15%2B22%3A59%3A44.png
+thumbnail: https://1.bp.blogspot.com/-RIl_Pz6Y1Fo/VODDEddfGiI/AAAAAAAACHw/wibuZ6SUfAQ/s1600/Screenshot%2Bfrom%2B2015-02-15%2B22%3A59%3A44.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-5098182681799861842
 blogger_orig_url: https://blog.duyet.net/2015/02/gioi-thieu-lam-quen-voi-phpmyadmin-he.html
 slug: /2015/02/gioi-thieu-lam-quen-voi-phpmyadmin-he.html
@@ -18,7 +18,7 @@ description:
 
 phpMyAdmin là 1 chương trình mã nguồn mở miễn phí, viết bằng PHP, dùng để hỗ trợ các bạn làm việc với MySQL thông qua giao diện web mà không cần dùng tới những dòng lệnh MySQL phức tạp.
 
-![](http://1.bp.blogspot.com/-RIl_Pz6Y1Fo/VODDEddfGiI/AAAAAAAACHw/wibuZ6SUfAQ/s1600/Screenshot%2Bfrom%2B2015-02-15%2B22%3A59%3A44.png)
+![](https://1.bp.blogspot.com/-RIl_Pz6Y1Fo/VODDEddfGiI/AAAAAAAACHw/wibuZ6SUfAQ/s1600/Screenshot%2Bfrom%2B2015-02-15%2B22%3A59%3A44.png)
 
 Giao diện phpMyAdmin như hình trên, trong đó:
 

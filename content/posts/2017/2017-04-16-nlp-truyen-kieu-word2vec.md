@@ -32,7 +32,7 @@ Ví dụ, 1-of-N (one-hot vector) sẽ mã hoá (encoding) các từ trong từ 
 
 
 
-[![](https://3.bp.blogspot.com/-avTgyW5ipsM/WPOGd7GiNMI/AAAAAAAAkmQ/zMVG_NJ-YOQGs3C4EYlaOt7Dqi-iw4l0wCK4B/s1600/word2vec-one-hot.png)](http://3.bp.blogspot.com/-avTgyW5ipsM/WPOGd7GiNMI/AAAAAAAAkmQ/zMVG_NJ-YOQGs3C4EYlaOt7Dqi-iw4l0wCK4B/s1600/word2vec-one-hot.png)
+[![](https://3.bp.blogspot.com/-avTgyW5ipsM/WPOGd7GiNMI/AAAAAAAAkmQ/zMVG_NJ-YOQGs3C4EYlaOt7Dqi-iw4l0wCK4B/s1600/word2vec-one-hot.png)](https://3.bp.blogspot.com/-avTgyW5ipsM/WPOGd7GiNMI/AAAAAAAAkmQ/zMVG_NJ-YOQGs3C4EYlaOt7Dqi-iw4l0wCK4B/s1600/word2vec-one-hot.png)
 Ảnh: blog.acolyer.org
 
   

@@ -7,7 +7,7 @@ tags:
 - Nodejs
 - crawler
 modified_time: '2015-08-08T17:37:55.222+07:00'
-thumbnail: http://3.bp.blogspot.com/-Cwxzj6-qXVo/VcXRtQa3L4I/AAAAAAAACss/YD6WVCG84JE/s1600/nodejs-crawler.png
+thumbnail: https://3.bp.blogspot.com/-Cwxzj6-qXVo/VcXRtQa3L4I/AAAAAAAACss/YD6WVCG84JE/s1600/nodejs-crawler.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-7607409219779563626
 blogger_orig_url: https://blog.duyet.net/2015/08/cac-ky-thuat-crawler-rut-trich-du-lieu.html
 slug: /2015/08/cac-ky-thuat-crawler-rut-trich-du-lieu.html
@@ -20,7 +20,7 @@ Nhân dịp tuyển sinh ĐH này, mình có project về thu thập dữ liệu
 Có trường hiện đại thì show dữ liệu trực tiếp lên web, trường thì up đại 1 file excel, oái hơn là bỏ vào file pdf :v
 Nhiệm vụ của mình là thu thập dữ liệu từ nhiều nguồn thô như vậy một cách tự động. Mỗi trường được viết thành 1 module riêng và có cách để crawler riêng. Bài viết này chủ yếu giới thiệu về các dạng để crawler đặc trưng nhất, và cho thấy được sức mạnh của Nodejs.
 
-![](http://3.bp.blogspot.com/-Cwxzj6-qXVo/VcXRtQa3L4I/AAAAAAAACss/YD6WVCG84JE/s1600/nodejs-crawler.png)
+![](https://3.bp.blogspot.com/-Cwxzj6-qXVo/VcXRtQa3L4I/AAAAAAAACss/YD6WVCG84JE/s1600/nodejs-crawler.png)
 
 #### Github project ####
 Có thể xem thêm code của project tại Github tại đây: [https://github.com/duyetdev/Crawler-DKXT-DH-2015](https://github.com/duyetdev/Crawler-DKXT-DH-2015)

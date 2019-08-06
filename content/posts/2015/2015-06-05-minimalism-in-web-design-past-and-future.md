@@ -9,7 +9,7 @@ tags:
 - Minimalism
 - Web
 modified_time: '2015-06-05T00:02:37.012+07:00'
-thumbnail: http://2.bp.blogspot.com/-Ii0eS7_8A70/VXCAw07Cg5I/AAAAAAAAChI/WSsc3VwRPuI/s1600/beatbox-520x310.png
+thumbnail: https://2.bp.blogspot.com/-Ii0eS7_8A70/VXCAw07Cg5I/AAAAAAAAChI/WSsc3VwRPuI/s1600/beatbox-520x310.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-4270904643409933702
 blogger_orig_url: https://blog.duyet.net/2015/06/minimalism-in-web-design-past-and-future.html
 slug: /2015/06/minimalism-in-web-design-past-and-future.html
@@ -20,7 +20,7 @@ description: Minimalism is one of the most enduring visual frameworks in Web des
 
 Minimalism is one of the most enduring visual frameworks in Web design given its timeless elegance and clear presentation of content. While cycles of popularity come and go, the design technique is a classic and lasting visual philosophy for designers across all specializations and industries.
 
-![](http://2.bp.blogspot.com/-Ii0eS7_8A70/VXCAw07Cg5I/AAAAAAAAChI/WSsc3VwRPuI/s1600/beatbox-520x310.png)
+![](https://2.bp.blogspot.com/-Ii0eS7_8A70/VXCAw07Cg5I/AAAAAAAAChI/WSsc3VwRPuI/s1600/beatbox-520x310.png)
 
 Photo credit: Beatbox
 
@@ -36,21 +36,21 @@ A minimal design by nature is not stark or barren, although it certainly can be.
 
 While minimalism originated in the turn of the 20th century, it really came to the forefront of design during the 1940s and 1950s in the form of [the Swiss style of design](http://www.designishistory.com/home/swiss/). As you can see below, this restrained style was created through bold colors, crisp sans-serif fonts, and vivid photographs. If you were to further deconstruct the designs, you’d notice that the layout and alignment rely strongly on a grid format (which is now the foundation of most minimalist Web designs).
 
-![](http://1.bp.blogspot.com/-v6Qy-i6E2vY/VXCBCSBNpfI/AAAAAAAAChQ/fybI8-U8EwU/s1600/Grab-3-June-2015-0925-Screen-Shot-520x228.png)
+![](https://1.bp.blogspot.com/-v6Qy-i6E2vY/VXCBCSBNpfI/AAAAAAAAChQ/fybI8-U8EwU/s1600/Grab-3-June-2015-0925-Screen-Shot-520x228.png)
 
 Photo credit: awwwards
 
 Similar to its graphic design origins, minimalism in Web design is the purest form of sculpture through subtraction – perfection is achieved not when there’s nothing more to add, but when there’s nothing more you can take away. Although current minimalism is centered around [negative space](https://www.uxpin.com/mastering-white-space-web-ui-design.html) and black lettering – the core of minimalism – the style defines itself by achieving the minimum of essentials through any means.
 
-![](http://3.bp.blogspot.com/-pDeQqS_4e94/VXCBRB9attI/AAAAAAAAChY/z7fTh168Iwk/s1600/Paprika-520x293.png)
+![](https://3.bp.blogspot.com/-pDeQqS_4e94/VXCBRB9attI/AAAAAAAAChY/z7fTh168Iwk/s1600/Paprika-520x293.png)
 
 Photo credit: [http://paprika.com](http://paprika.com/)
 
-[![](http://2.bp.blogspot.com/-iWjKIDzTEEA/VXCBYnFhUmI/AAAAAAAAChg/A3F33uHqB1M/s1600/minerva-520x346.png)](http://2.bp.blogspot.com/-iWjKIDzTEEA/VXCBYnFhUmI/AAAAAAAAChg/A3F33uHqB1M/s1600/minerva-520x346.png)
+[![](https://2.bp.blogspot.com/-iWjKIDzTEEA/VXCBYnFhUmI/AAAAAAAAChg/A3F33uHqB1M/s1600/minerva-520x346.png)](https://2.bp.blogspot.com/-iWjKIDzTEEA/VXCBYnFhUmI/AAAAAAAAChg/A3F33uHqB1M/s1600/minerva-520x346.png)
 
 Photo credit: [http://minerva-is.net](http://minerva-is.net/)
 
-![](http://3.bp.blogspot.com/-_KEaEwb1rUU/VXCBh2OchgI/AAAAAAAACho/7JPGDBkOZ6Q/s1600/fabrik-520x356.png)
+![](https://3.bp.blogspot.com/-_KEaEwb1rUU/VXCBh2OchgI/AAAAAAAACho/7JPGDBkOZ6Q/s1600/fabrik-520x356.png)
 
 Photo credit: [http://fabrik.co.jp](http://fabrik.co.jp/)
 
@@ -73,7 +73,7 @@ Minimalism works because it does what all design should do – it puts [the emph
 
 Minimalism prevails because it is an effective and visually dynamic option for designers. Like all lasting design philosophies, it’s experienced multiple evolutions over time and meshes well with a variety of other design languages and design techniques.
 
-![](http://3.bp.blogspot.com/-jkzYuwBgkJI/VXCB92PV5ZI/AAAAAAAAChw/aP3u8k2NAf8/s1600/Screen-Shot-2015-06-03-at-09.27.51-520x268.png)
+![](https://3.bp.blogspot.com/-jkzYuwBgkJI/VXCB92PV5ZI/AAAAAAAAChw/aP3u8k2NAf8/s1600/Screen-Shot-2015-06-03-at-09.27.51-520x268.png)
 
 Photo credit: [http://www.howardyount.com](http://www.howardyount.com/)
 
@@ -91,7 +91,7 @@ Even though the design space is seeing a rise in minimalist sites at the moment,
 
 Because we have seen it happen in print design areas, it is likely that minimalist Web design will ebb and flow for years to come as well. As with any popular design technique, the initial surge in popularity will likely be followed by a pull-back of sorts, where almost opposing techniques will find popularity, before the technique circles back again.
 
-![](http://3.bp.blogspot.com/-cG1HGyGi2bc/VXCCU4X06nI/AAAAAAAACh4/wySV-ev5hzQ/s1600/Google-Chrome-docs.google.com-Minimalism-in-Web-Design-A-Retrospective-and-Futurespective-Look-Google-Docs-3-June-2015-0929-Screen-Shot-520x304.png)
+![](https://3.bp.blogspot.com/-cG1HGyGi2bc/VXCCU4X06nI/AAAAAAAACh4/wySV-ev5hzQ/s1600/Google-Chrome-docs.google.com-Minimalism-in-Web-Design-A-Retrospective-and-Futurespective-Look-Google-Docs-3-June-2015-0929-Screen-Shot-520x304.png)
 
 Photo credit: Squarespace
 
@@ -103,7 +103,7 @@ Let’s explore a few of these evolving elements below.
 
 Designers will expand from stark background styles to include a more pale or almost unnoticeable texture with a aesthetic plan that is minimal in every other way. This breakaway from a purely minimalist style still has roots in simplicity, but with a little more visual variety.
 
-![](http://4.bp.blogspot.com/-cOwBQG-OpdQ/VXCCks0dSxI/AAAAAAAACiA/CsTfcNzKiDg/s1600/ezorzi-520x302.png)
+![](https://4.bp.blogspot.com/-cOwBQG-OpdQ/VXCCks0dSxI/AAAAAAAACiA/CsTfcNzKiDg/s1600/ezorzi-520x302.png)
 
 Photo credit: [http://ezorzi.com](http://ezorzi.com/)
 
@@ -111,7 +111,7 @@ Photo credit: [http://ezorzi.com](http://ezorzi.com/)
 
 While white backgrounds have been the dominant feature in minimal design (giving a very literal meaning to white space), designs will continue breaking from this pattern by using more color, backgrounds that are dark with lighter text, or a monochromatic color scheme using various shades of the same hue.
 
-![](http://2.bp.blogspot.com/-gbSRQtfXIeo/VXCCzDYVcjI/AAAAAAAACiI/woD5Xv7Hue8/s1600/meaningfuldesign-520x351.png)
+![](https://2.bp.blogspot.com/-gbSRQtfXIeo/VXCCzDYVcjI/AAAAAAAACiI/woD5Xv7Hue8/s1600/meaningfuldesign-520x351.png)
 
 Photo credit: [http://www.bb-b.net/en/](http://www.bb-b.net/en/)
 
@@ -119,7 +119,7 @@ Photo credit: [http://www.bb-b.net/en/](http://www.bb-b.net/en/)
 
 Of course, minimalism is also traditionally defined by a lack of effects. Simple animation in the minimal style will become more popular as more designers appreciate that minimal does not equal static.
 
-![](http://2.bp.blogspot.com/-pm6-CXOVa9I/VXCDN46HqcI/AAAAAAAACiY/M-fRWk1YCig/s1600/Screen-Shot-2015-06-03-at-09.31.43.png)
+![](https://2.bp.blogspot.com/-pm6-CXOVa9I/VXCDN46HqcI/AAAAAAAACiY/M-fRWk1YCig/s1600/Screen-Shot-2015-06-03-at-09.31.43.png)
 
 Photo credit: [http://oakstreetbootmakers.com](http://oakstreetbootmakers.com/)
 
@@ -127,7 +127,7 @@ Photo credit: [http://oakstreetbootmakers.com](http://oakstreetbootmakers.com/)
 
 The current minimalist landscape favors symmetry, but that is certainly not a law. While balance is important, actual symmetry is not.
 
-![](http://3.bp.blogspot.com/-JR_KcvSGB34/VXCDbJYgiPI/AAAAAAAACig/xcq6bw20DDQ/s1600/interactive-520x347.png)
+![](https://3.bp.blogspot.com/-JR_KcvSGB34/VXCDbJYgiPI/AAAAAAAACig/xcq6bw20DDQ/s1600/interactive-520x347.png)
 
 Photo credit: [http://theafrix.com/work](http://theafrix.com/work)
 
@@ -141,7 +141,7 @@ For example, as Delwin Campbell describes in the above article, using a purely i
 
 To swing the pendulum back towards functional aesthetics, we’re starting to see more designers embedding traditional interface elements like clickable elements, scrolling designs, and additional calls to action into minimalist designs.
 
-![](http://1.bp.blogspot.com/-vB9le1EXecE/VXCDv6AaoJI/AAAAAAAACio/vWkbiRTlLiA/s1600/uniqueflower-520x341.png)
+![](https://1.bp.blogspot.com/-vB9le1EXecE/VXCDv6AaoJI/AAAAAAAACio/vWkbiRTlLiA/s1600/uniqueflower-520x341.png)
 
 Photo credit: [http://wildflower.resn.co.nz](http://wildflower.resn.co.nz/)
 

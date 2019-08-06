@@ -8,7 +8,7 @@ tags:
 - Sách
 - Review Books
 modified_time: '2015-07-18T18:49:11.889+07:00'
-thumbnail: http://4.bp.blogspot.com/-I7Gl-al6Ep8/Vao8aQ4w5YI/AAAAAAAACpk/CPHVylrXseU/s1600/IMG_20150718_182503.jpg
+thumbnail: https://4.bp.blogspot.com/-I7Gl-al6Ep8/Vao8aQ4w5YI/AAAAAAAACpk/CPHVylrXseU/s1600/IMG_20150718_182503.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-1714656209032837021
 blogger_orig_url: https://blog.duyet.net/2015/07/tuan-nay-oc-uoc-gi-hay-i-roi-se-en.html
 slug: /2015/07/tuan-nay-oc-uoc-gi-hay-i-roi-se-en.html
@@ -20,7 +20,7 @@ description: Đây là một câu chuyện về quá trình khởi nghiệp, cũ
 
 Mình học được gì từ quyển sách này?
 
-![](http://4.bp.blogspot.com/-I7Gl-al6Ep8/Vao8aQ4w5YI/AAAAAAAACpk/CPHVylrXseU/s640/IMG_20150718_182503.jpg)
+![](https://4.bp.blogspot.com/-I7Gl-al6Ep8/Vao8aQ4w5YI/AAAAAAAACpk/CPHVylrXseU/s640/IMG_20150718_182503.jpg)
 
 - Đại học: Cậu này lên đường thi đại học với biết bao là kì vọng của bản thân và gia đình. Và vâng, rớt đại học. Sau bao nhiêu thất vọng về bản thân, cậu ấy chấp nhận cao đẳng để tiếp tục việc học. Nhưng qua cuộc trò chuyện và triết lý với cậu bạn đi cùng, mình biết được đại học không phải là con đường thành công duy nhất.
 

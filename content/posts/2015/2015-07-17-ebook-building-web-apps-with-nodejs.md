@@ -9,7 +9,7 @@ tags:
 - book
 - ebook
 modified_time: '2015-07-20T11:22:56.070+07:00'
-thumbnail: http://2.bp.blogspot.com/-No-eB3yvgsg/Vakx1BUdJ8I/AAAAAAAACpQ/WyZAOMSvExo/s1600/nodejs-ebook-1.png
+thumbnail: https://2.bp.blogspot.com/-No-eB3yvgsg/Vakx1BUdJ8I/AAAAAAAACpQ/WyZAOMSvExo/s1600/nodejs-ebook-1.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-1869199429000056557
 blogger_orig_url: https://blog.duyet.net/2015/07/ebook-building-web-apps-with-nodejs.html
 slug: /2015/07/ebook-building-web-apps-with-nodejs.html
@@ -22,7 +22,7 @@ Lục lại trên Drive thấy quyển này, nên cùng chia sẻ với mọi ng
 
 Ebook này có cả thảy 60 trang, hướng dẫn cho newbie từ cơ bản nhất đến xây dựng 1 trang hoàn chỉnh trên ngôn ngữ Nodejs. Nodejs hiện nay đang phát triển khá mạnh mẽ, cùng với những khả năng mà nó mang lại. Nếu bạn đang tìm hiểu hay đang học về ngôn ngữ này thì nên xem qua quyển này nhé. 
 
-[![](http://2.bp.blogspot.com/-No-eB3yvgsg/Vakx1BUdJ8I/AAAAAAAACpQ/WyZAOMSvExo/s1600/nodejs-ebook-1.png)](https://2.bp.blogspot.com/-No-eB3yvgsg/Vakx1BUdJ8I/AAAAAAAACpQ/WyZAOMSvExo/s1600/nodejs-ebook-1.png)
+[![](https://2.bp.blogspot.com/-No-eB3yvgsg/Vakx1BUdJ8I/AAAAAAAACpQ/WyZAOMSvExo/s1600/nodejs-ebook-1.png)](https://2.bp.blogspot.com/-No-eB3yvgsg/Vakx1BUdJ8I/AAAAAAAACpQ/WyZAOMSvExo/s1600/nodejs-ebook-1.png)
 
 ## Nội dung ##
 Gồm tất cả 6 chương:

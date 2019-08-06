@@ -8,7 +8,7 @@ tags:
 - Spark
 - BigData
 modified_time: '2015-04-18T20:48:17.707+07:00'
-thumbnail: http://1.bp.blogspot.com/-Y0pygPjEUNs/VTJddlh9IfI/AAAAAAAACTQ/_LKZZPXV9Wk/s1600/delays_large.png
+thumbnail: https://1.bp.blogspot.com/-Y0pygPjEUNs/VTJddlh9IfI/AAAAAAAACTQ/_LKZZPXV9Wk/s1600/delays_large.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-5928117436756186201
 blogger_orig_url: https://blog.duyet.net/2015/04/bigdata-getting-started-with-spark-in.html
 slug: /2015/04/bigdata-getting-started-with-spark-in.html
@@ -345,7 +345,7 @@ $ spark-submit app.py
 
 This will create a Spark job using the localhost as the master, and look for the two CSV files in an ontime directory that is in the same directory as app.py. The final result shows that the total delays (in minutes) for the month of April go from arriving early if you're flying out of the continental U.S. to Hawaii or Alaska to an aggregate total delay for most big airlines. Note especially that we can visualize the result using matplotlib directly on the driver program, app.py:  
 
-![](http://1.bp.blogspot.com/-Y0pygPjEUNs/VTJddlh9IfI/AAAAAAAACTQ/_LKZZPXV9Wk/s1600/delays_large.png)
+![](https://1.bp.blogspot.com/-Y0pygPjEUNs/VTJddlh9IfI/AAAAAAAACTQ/_LKZZPXV9Wk/s1600/delays_large.png)
 
 So what is this code doing? Let's look particularly at the main function which does the work most directly related to Spark. First, we load up a CSV file into an RDD, then map the split function to it. The split function parses each line of text using the csv module and returns a tuple that represents the row. Finally we pass the collect action to the RDD, which brings the data from the RDD back to the driver as a Python list. In this case, airlines.csv is a small jump table that will allow us to join airline codes with the airline full name. We will store this jump table as a Python dictionary and then broadcast it to every node in the cluster using sc.broadcast.
 

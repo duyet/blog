@@ -21,7 +21,7 @@ description: Extension này sẽ hiển thị inline trên VS Code size của pa
 [Extension này](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) sẽ hiển thị inline trên VS Code size của package (nodejs) đang được import, như hình dưới đây.  
   
 
-[![](https://4.bp.blogspot.com/-TZRWLF6rr6U/W56MhbtWJCI/AAAAAAAAzjc/QA6dYo_Aul4ZC2PR4pH4T8NBsXLikY-8QCK4BGAYYCw/s1600/68747470733a2f2f66696c652d776b62636e6c6376626e2e6e6f772e73682f696d706f72742d636f73742e676966.gif)](http://4.bp.blogspot.com/-TZRWLF6rr6U/W56MhbtWJCI/AAAAAAAAzjc/QA6dYo_Aul4ZC2PR4pH4T8NBsXLikY-8QCK4BGAYYCw/s1600/68747470733a2f2f66696c652d776b62636e6c6376626e2e6e6f772e73682f696d706f72742d636f73742e676966.gif)
+[![](https://4.bp.blogspot.com/-TZRWLF6rr6U/W56MhbtWJCI/AAAAAAAAzjc/QA6dYo_Aul4ZC2PR4pH4T8NBsXLikY-8QCK4BGAYYCw/s1600/68747470733a2f2f66696c652d776b62636e6c6376626e2e6e6f772e73682f696d706f72742d636f73742e676966.gif)](https://4.bp.blogspot.com/-TZRWLF6rr6U/W56MhbtWJCI/AAAAAAAAzjc/QA6dYo_Aul4ZC2PR4pH4T8NBsXLikY-8QCK4BGAYYCw/s1600/68747470733a2f2f66696c652d776b62636e6c6376626e2e6e6f772e73682f696d706f72742d636f73742e676966.gif)
 
   
 Để làm gì thì các bạn cũng đã biết rồi, điều này rất hữu ích cho các bạn để tránh import một cách vô tội vạ. Đây là plugin được viết cho VS Code, bạn có thể cài từ [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)  

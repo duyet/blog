@@ -31,7 +31,7 @@ Một chức năng Google vừa cập nhật cho Colab là sử dụng GPU backe
 1. The GPU used in the backend is a K80 (at this moment).
 2. The 12-hour limit is for a continuous assignment of virtual machine (VM).
 
-[![](https://2.bp.blogspot.com/-ERE_NP9B2Cg/WxPu3W9_8QI/AAAAAAAAua4/CU2FES_GEI44uZ0UK8B-rKC4Xw0HjWQTQCK4BGAYYCw/s320/NVIDIA-Tesla-K80-GPU.jpg)](http://2.bp.blogspot.com/-ERE_NP9B2Cg/WxPu3W9_8QI/AAAAAAAAua4/CU2FES_GEI44uZ0UK8B-rKC4Xw0HjWQTQCK4BGAYYCw/s1600/NVIDIA-Tesla-K80-GPU.jpg)
+[![](https://2.bp.blogspot.com/-ERE_NP9B2Cg/WxPu3W9_8QI/AAAAAAAAua4/CU2FES_GEI44uZ0UK8B-rKC4Xw0HjWQTQCK4BGAYYCw/s320/NVIDIA-Tesla-K80-GPU.jpg)](https://2.bp.blogspot.com/-ERE_NP9B2Cg/WxPu3W9_8QI/AAAAAAAAua4/CU2FES_GEI44uZ0UK8B-rKC4Xw0HjWQTQCK4BGAYYCw/s1600/NVIDIA-Tesla-K80-GPU.jpg)
 Có nghĩa bạn có thể tiếp tục sử dụng GPU sau 12 tiếng bằng cách connect tới VM khác.
 
 ## Kích hoạt GPU ##

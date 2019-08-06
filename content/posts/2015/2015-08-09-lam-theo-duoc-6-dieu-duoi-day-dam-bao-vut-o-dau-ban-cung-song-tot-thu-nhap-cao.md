@@ -9,7 +9,7 @@ tags:
 - Tony buổi sáng
 - Bài viết hay
 modified_time: '2015-08-09T23:04:07.441+07:00'
-thumbnail: http://1.bp.blogspot.com/-_AGdPVcTw6c/VcdELg2WkII/AAAAAAAACtw/yvgddlzqydc/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-1.jpg
+thumbnail: https://1.bp.blogspot.com/-_AGdPVcTw6c/VcdELg2WkII/AAAAAAAACtw/yvgddlzqydc/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-1.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-4601785307530767879
 blogger_orig_url: https://blog.duyet.net/2015/08/lam-theo-duoc-6-dieu-duoi-day-dam-bao-vut-o-dau-ban-cung-song-tot-thu-nhap-cao.html
 slug: /2015/08/lam-theo-duoc-6-dieu-duoi-day-dam-bao-vut-o-dau-ban-cung-song-tot-thu-nhap-cao.html
@@ -23,7 +23,7 @@ description: Đây là viết của Dượng Tony - Tony buổi sáng, không li
 Lúc ngồi trên xe buýt, tàu điện cũng là lúc quan sát xã hội từ trên cao, người đi xe máy xe hơi đều thấp hơn bạn. Không nên vật lộn với việc tự lái xe. 30 phút lái xe là 30 phút bạn lãng phí cho sự căng thẳng, nguy cơ tai nạn, hít khói bụi làm giảm tuổi thọ. Đi bộ từ trạm xe buýt đến nơi cần đến giúp tim bạn khỏe mạnh. Nếu đi xe buýt mất 1h30 và tự lái xe mất 30 phút, hãy chọn đi xe buýt. Đám đông chỉ đi xe cá nhân, mình ngược lại với đám đông, đã sao?  
   
 
-[![](http://1.bp.blogspot.com/-_AGdPVcTw6c/VcdELg2WkII/AAAAAAAACtw/yvgddlzqydc/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-1.jpg)](http://1.bp.blogspot.com/-_AGdPVcTw6c/VcdELg2WkII/AAAAAAAACtw/yvgddlzqydc/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-1.jpg)
+[![](https://1.bp.blogspot.com/-_AGdPVcTw6c/VcdELg2WkII/AAAAAAAACtw/yvgddlzqydc/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-1.jpg)](https://1.bp.blogspot.com/-_AGdPVcTw6c/VcdELg2WkII/AAAAAAAACtw/yvgddlzqydc/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-1.jpg)
 
 Ảnh: urbanstyle
 
@@ -40,7 +40,7 @@ Lim kể, lúc ảnh làm phụ bếp, đang rửa thớt thì buộc miệng n�
 Mình nên ăn chay rau củ quả ở mức hấp/luộc, sẽ không có gì cả đâu nếu vài ngày trong tuần bạn không ăn thịt. Người ăn chay vẫn thông minh đẹp đẽ như thường. 90% kỹ sư IT người Ấn Độ ở Silicon Valley ăn chay. Mình ăn chay không phải vì tôn giáo mà vì sức khỏe. Thỉnh thoảng vẫn cứ quất thịt cá…nhưng nếu nấu cho 1 mình mình ăn, đừng tốn thời gian. Cứ cá chiên/trứng luộc, rau củ quả hấp, trái cây là đủ. Không tốn thời gian cho việc ăn.  
   
 
-![](http://4.bp.blogspot.com/-DxPUOCbFwLI/VcdEZo_cUQI/AAAAAAAACt4/TvujbmoTwWA/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-2.jpg)
+![](https://4.bp.blogspot.com/-DxPUOCbFwLI/VcdEZo_cUQI/AAAAAAAACt4/TvujbmoTwWA/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-2.jpg)
 
   
 
@@ -50,7 +50,7 @@ Hãy chọn những người hiểu biết, giàu có hơn mình, đang làm cô
 
   
 
-![](http://3.bp.blogspot.com/-xSewbWQ2DEQ/VcdEjYwkwuI/AAAAAAAACuA/Hpmv9Vy_iTY/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-3.jpg)
+![](https://3.bp.blogspot.com/-xSewbWQ2DEQ/VcdEjYwkwuI/AAAAAAAACuA/Hpmv9Vy_iTY/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-3.jpg)
 
   
 
@@ -59,7 +59,7 @@ Hãy chọn những người hiểu biết, giàu có hơn mình, đang làm cô
 Người vĩ đại trên khắp thế giới, ngoài tủ rượu ra, trong nhà họ còn có tủ sách. Hãy đọc sách dạy làm người, làm giàu, sách kinh tế, sách văn chương, sách nấu ăn hoặc bất cứ sách gì ưa thích. Kiến thức rộng sẽ giúp mình làm ăn rộng. Khi đi làm, việc nói giỏi, cái gì cũng biết khiến công việc trôi chảy hơn. Tháng này bạn chưa bỏ ra 200 ngàn mua sách thì coi như thua. Đọc xong sách, kể lại nội dung cho bạn bè. Đừng giấu. Nếu có khóa học nào đó, nên đăng ký, hoặc dồn lại vài tháng làm 1 khóa, nhớ học với người thành đạt thật sự, tức người có điều hành công ty lớn, bậc trí nhân…chứ không phải nhóm mua môi múa mép.  
   
 
-[![](http://4.bp.blogspot.com/-wVdnppbAFcM/VcdEsFBedII/AAAAAAAACuI/rmRwSJ1XeN0/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-4.jpg)](http://4.bp.blogspot.com/-wVdnppbAFcM/VcdEsFBedII/AAAAAAAACuI/rmRwSJ1XeN0/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-4.jpg)
+[![](https://4.bp.blogspot.com/-wVdnppbAFcM/VcdEsFBedII/AAAAAAAACuI/rmRwSJ1XeN0/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-4.jpg)](https://4.bp.blogspot.com/-wVdnppbAFcM/VcdEsFBedII/AAAAAAAACuI/rmRwSJ1XeN0/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-4.jpg)
 
   
 
@@ -68,7 +68,7 @@ Người vĩ đại trên khắp thế giới, ngoài tủ rượu ra, trong nh�
 Ban đầu nên đi đường bộ sang các nước lân bang. Hãy tự thưởng mỗi năm một chuyến đi xa. Tết là thời điểm tốt để về thăm gia đình, rồi đi chơi trước khi vô làm trong năm mới. Nhất định phải đi nước ngoài mỗi năm một lần, để coi sông, coi biển, coi đại dương nó ra sao…có cái gì hay ho thì bắt chước, mang về làm ăn  
   
 
-![](http://4.bp.blogspot.com/-JPIh9NiRB0k/VcdE0dJiW1I/AAAAAAAACuQ/PMiC8gDKj6U/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-5.jpg)
+![](https://4.bp.blogspot.com/-JPIh9NiRB0k/VcdE0dJiW1I/AAAAAAAACuQ/PMiC8gDKj6U/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-5.jpg)
 
   
 Trong tay nên có 1 cái smartphone loại bình dân để tra tìm bản đồ, hãy đặt vé máy bay/xe lửa/xe đò.. giá rẻ nhất.  
@@ -77,7 +77,7 @@ Trong tay nên có 1 cái smartphone loại bình dân để tra tìm bản đ�
 
 Năm tới, nếu thu nhập vẫn 6 triệu, tự tát vô mặt. Muốn tăng lương, hãy cống hiến. Đừng sợ người khác không thấy nỗ lực của mình. Đừng “khôn” kiểu “tôi có được gì không, làm nhiều cho lắm thì lương cũng vậy”. Tư duy này khiến mình nghèo miết. Hãy cố gắng làm thêm giờ. Bạn phải làm thêm việc ở cơ quan, đến sớm hơn, về trễ hơn. Trong lúc làm việc, tập trung cao độ, nhận nhiều việc của công ty giao, tự mở thêm các mối quan hệ trong công việc, tay kẹp ĐT, tay đánh máy, vừa đi vừa chạy...làm ầm ầm, ầm ầm vô.  
 
-[![](http://3.bp.blogspot.com/-uEmqgUkgm_s/VcdFAlaXgEI/AAAAAAAACuY/xvoFMq2Qiko/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-6.jpg)](http://3.bp.blogspot.com/-uEmqgUkgm_s/VcdFAlaXgEI/AAAAAAAACuY/xvoFMq2Qiko/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-6.jpg)
+[![](https://3.bp.blogspot.com/-uEmqgUkgm_s/VcdFAlaXgEI/AAAAAAAACuY/xvoFMq2Qiko/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-6.jpg)](https://3.bp.blogspot.com/-uEmqgUkgm_s/VcdFAlaXgEI/AAAAAAAACuY/xvoFMq2Qiko/s1600/150524-b-lam-tho-dc-5-dieu-duoi-day-6.jpg)
 
 _Ảnh: nguoiduatin_
 
