@@ -13,7 +13,7 @@ module.exports = {
     appId: 1394054914200945,
   },
   postsPerPage: 8,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-92451506-3',
   useKatex: false,
   menu: [
     {
