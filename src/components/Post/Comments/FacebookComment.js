@@ -25,9 +25,10 @@ export default class ReactCommento extends React.PureComponent {
       }
 
       const { appId } = this.props.facebookComment;
+      const { url } = this.props;
       return (
         <FacebookProvider appId={appId}>
-            <Comments />
+            <Comments href={url}/>
         </FacebookProvider>
       );
     }

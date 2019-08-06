@@ -17,7 +17,8 @@ const Comments = ({ postTitle, postSlug }: Props) => {
   } = useSiteMetadata();
 
   if (facebookComment && facebookComment.active) {
-    comments.push(<FacebookComment facebookComment={facebookComment} />);
+    const oldUrl = 'https://blog.duyetdev.com'; // TODO: migrate comment to new URL
+    comments.push(<FacebookComment facebookComment={facebookComment} url={oldUrl + postSlug} />);
   }
 
   if (useCommento) {
