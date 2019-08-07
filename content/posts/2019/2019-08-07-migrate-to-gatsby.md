@@ -8,7 +8,7 @@ tags:
 - Story
 - Javascript
 
-thumbnail: 
+thumbnail: https://images.unsplash.com/photo-1470175369463-7bb9f41e614b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80
 slug: /2019/08/migrate-blogger-to-gatsby.html
 description: Mình đã migrate từ Blogger sang Gatsby
 ---
@@ -28,7 +28,10 @@ Mình quyết định move blog sang nền tảng [Gatsby](https://gatsbyjs.org)
 - Dễ tùy chỉnh, làm việc với React và GraphQL
 - Blog editor cũng chỉnh là Code Editor, giờ đây mình có thể sử dụng VSCode để viết bài.
 - Git: Version control cho toàn bộ blog.
-- Sử dụng Markdown thay cho công cụ WYSIWYG.
+- Sử dụng Markdown thay cho công cụ WYSIWYG/HTML.
+    + Markdown đơn giản và dễ đọc.
+    + Có thể convert thành HTML.
+    + Format đa dạng.
 - Netlify 
 
 # Migrate blogger sang Gatsby
