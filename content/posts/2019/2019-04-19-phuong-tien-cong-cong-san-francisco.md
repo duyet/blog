@@ -28,7 +28,8 @@ Hệ thống giao thông ở San Francisco khá phát triển, có khá nhiều 
 
 ## Thẻ Clipper
 
-Trước tiên mình nói về [Clipper Card](https://www.clippercard.com/ClipperWeb/index.do) vì đây là loại thẻ hiện đại, sử dụng được tất cả các loại phương tiện công cộng ở vùng vịnh, chỉ cần nạp tiền và có thể sử dụng dễ dàng. Chỉ cần chạm 1 lần khi bạn lên xe Bus, hay tag thẻ ở điểm đầu và điểm cuối nếu bạn đi BART (tàu điện ngầm ở SF) hoặc Caltrain, hệ thống sẽ tự tính số trạm đã đi qua và trừ tiền.  
+Trước tiên mình nói về [Clipper Card](https://www.clippercard.com/ClipperWeb/index.do) vì đây là loại thẻ hiện đại, sử dụng được tất cả các loại phương tiện công cộng ở vùng vịnh, chỉ cần nạp tiền và có thể sử dụng dễ dàng. Chỉ cần chạm 1 lần khi bạn lên xe Bus, hay tag thẻ ở điểm đầu và điểm cuối nếu bạn đi BART (tàu điện ngầm ở SF) hoặc Caltrain, hệ thống sẽ tự tính số trạm đã đi qua và trừ tiền.
+
 Thẻ có thể mua dễ dàng ở các máy bán tự động ở trạm, hay ở siêu thị (WalGreens). Phí phát hành $3. Chú ý riêng khi mua ở máy bán tự động nó yêu cầu tối thiểu là $20 ($3 phí thẻ + $17 tiền số dư).  
   
 
