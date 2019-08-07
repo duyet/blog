@@ -73,6 +73,18 @@ Mình thực hiện các bước sau:
 
     ![](../../media/2019/new_blog_gatsby.png)
 
-- Giờ đây mình có thể viết bài bằng Markdown trên `VSCode`, cực kỳ nhanh chóng và chuẩn xác.
+# Hiệu năng
 
-    ![](../../media/2019/new_editor_vscode.png)
+Blog bây giờ đã có load nhanh hơn, mặc dù mình chưa tiến hành tối ưu với các thư viện của Gatsby. 
+
+Mình đo đạc với công cụ [Web.dev/Measure](https://web.dev/measure) của Google.
+
+![](../../media/2019/new_blog_perf.png)
+
+Với 100 điểm performance và Best Practices. Xem report tại [đây](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://duyet.netlify.com#performance)
+
+
+Ngoài ra giờ đây mình có thể viết bài bằng Markdown trên `VSCode`, cực kỳ nhanh chóng và chuẩn xác.
+
+![](../../media/2019/new_editor_vscode.png)
+
