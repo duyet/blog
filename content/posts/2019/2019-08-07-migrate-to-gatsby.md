@@ -20,7 +20,7 @@ Từ trước đến nay blogger đã trải qua vài lần nâng cấp, nhưng 
 
 
 ![](../../media/2019/blogger_old_editor.png)
-Với editor của blogger, mình muốn chèn coding highlight phải bật qua chế độ HTML, sau đó chèn code trong tag `<pre class="prettyprint"></pre>` sau đó sử dụng [code-prettify](https://github.com/google/code-prettify) để hiển thị bên ngoài.
+Với editor của blogger, mình muốn chèn coding highlight phải bật qua chế độ HTML, sau đó chèn code trong tag `<pre class="prettyprint">...</pre>` sau đó sử dụng [code-prettify](https://github.com/google/code-prettify) để hiển thị bên ngoài.
 
 
 Mình quyết định move blog sang nền tảng [Gatsby](https://gatsbyjs.org), deploy trên [Netlify](https://www.netlify.com). Với các ưu điểm như:
@@ -32,7 +32,11 @@ Mình quyết định move blog sang nền tảng [Gatsby](https://gatsbyjs.org)
     + Markdown đơn giản và dễ đọc.
     + Có thể convert thành HTML.
     + Format đa dạng.
-- Netlify 
+- Netlify
+    + Deploy blog CDN
+    + Auto build và deploy (CI/CD)
+    + Rollback
+    + Split traffic to multiple branches
 
 # Migrate blogger sang Gatsby
 
