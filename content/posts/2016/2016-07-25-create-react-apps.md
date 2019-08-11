@@ -21,7 +21,7 @@ description: Facebook ra mắt công cụ mới Create React App - generate ra R
 
 Một thông tin mới cực kỳ hấp dẫn với cộng đồng [React trong tuần này](http://saveto.co/AIqXFq)! Facebook ra mắt công cụ mới **Create React App** - generate ra React starter project. Cài đặt rất nhanh và không cần phải cấu hình (react, webpack, ...) gì cả, project nhỏ gọn, không có quá nhiều dependencies. Cùng tìm hiểu nhanh về công cụ này.
 
-[![](https://3.bp.blogspot.com/-HahL2Dcmo7o/V5Vz1SQORXI/AAAAAAAAaMM/HomR1n60e4oKER20VhEDSIZQag-nQqptwCK4B/s1600/create-react-app.png)](https://blog.duyetdev.com/2016/07/create-react-apps.html#.V5V54XV97OQ)
+[![](https://3.bp.blogspot.com/-HahL2Dcmo7o/V5Vz1SQORXI/AAAAAAAAaMM/HomR1n60e4oKER20VhEDSIZQag-nQqptwCK4B/s1600/create-react-app.png)](https://blog.duyet.net/2016/07/create-react-apps.html#.V5V54XV97OQ)
 Khi nào cần đến Redux, React Router, ... bạn có thể dụng npm install để cài đặt sau.
 
 ## Quick Start ##

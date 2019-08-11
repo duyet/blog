@@ -28,7 +28,7 @@ Tuy nhiên **vn.vitk** được viết trên Java và sử dụng như một cô
   
 
 Trong blog này mình sẽ custom lại vn.vitk để có thể chạy như một thư viện lập trình, sử dụng ngôn ngữ python (trên PySpark và Jupyter Notebook).  
-Xem qua bài viết về cách sử dụng Jupyter Notebook với Apache PySpark: [Chạy Apache Spark với Jupiter Notebook](https://blog.duyetdev.com/2016/09/chay-apache-spark-voi-jupiter-notebook.html#.WEz76RJ97_g)  
+Xem qua bài viết về cách sử dụng Jupyter Notebook với Apache PySpark: [Chạy Apache Spark với Jupyter Notebook](https://blog.duyet.net/2016/09/chay-apache-spark-voi-jupiter-notebook.html#.WEz76RJ97_g)  
   
 PySpark sử dụng **py4j** để gọi trực tiếp các thư viện **Spark** trên **Scala/Java**. Vì vậy chúng ta hoàn toàn có thể import các hàm của **vn.vitk trên Python**.  
   
@@ -57,7 +57,7 @@ Submit vn.vitk-3.0.jar bằng lệnh:
     export PYSPARK_DRIVER_PYTHON=ipythonexport PYSPARK_DRIVER_PYTHON_OPTS="notebook --NotebookApp.open_browser=False --NotebookApp.ip='*' --NotebookApp.port=8880"export SPARK_HOME=~/spark-1.6.2-bin-hadoop2.6 # Path to home of Sparkpyspark --master local --jars=./lib/vn.vitk-3.0.jar --driver-class-path=./lib/vn.vitk-3.0.jar
 
   
-Tham khảo thêm về Notebook PySpark trong bài viết sau: [Chạy Apache Spark với Jupiter Notebook](https://blog.duyetdev.com/2016/09/chay-apache-spark-voi-jupiter-notebook.html#.WEz76RJ97_g)  
+Tham khảo thêm về Notebook PySpark trong bài viết sau: [Chạy Apache Spark với Jupyter Notebook](https://blog.duyet.net/2016/09/chay-apache-spark-voi-jupiter-notebook.html#.WEz76RJ97_g)  
 Mở Jupyter notebook trên trình duyệt và code mẫu theo notebook sau:
 
 

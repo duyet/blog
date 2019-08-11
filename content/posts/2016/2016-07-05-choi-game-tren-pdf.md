@@ -21,7 +21,7 @@ description: Cái này nghe mới lạ, nhưng có thật.
 
 Cái này nghe mới lạ, nhưng có thật.
 
-[![](https://4.bp.blogspot.com/-Qc0UVC6wcGE/V3vVVdVR0tI/AAAAAAAAZLg/xGTOIwQY4RM11dliMo5bGa4kvMiOxw4twCK4B/s400/game-pdf-duyetdev.png)](http://blog.duyetdev.com/2016/07/choi-game-tren-pdf.html)
+[![](https://4.bp.blogspot.com/-Qc0UVC6wcGE/V3vVVdVR0tI/AAAAAAAAZLg/xGTOIwQY4RM11dliMo5bGa4kvMiOxw4twCK4B/s400/game-pdf-duyetdev.png)](https://blog.duyet.net/2016/07/choi-game-tren-pdf.html)
 PDF là một định dạng khá phổ biến, dễ dàng chia sẻ tài liệu mà giữ nguyên được định dạng ban đầu. Một lập trình viên đã tìm được cách để chơi game trên PDF. Anh ta khám phá ra rằng PDF có thể nhúng được Flash components, 3D objects và JavaScript. Nhưng hầu hết trình đọc PDF đều không hỗ trợ, nhưng trình duyệt Chrome có thể chạy được một số Acrobat JavaScript API, một cách hạn chế.
 
 Để trải nghiệm [chơi Game trên file PDF truy cập vào link sau](http://saveto.co/u569qM).

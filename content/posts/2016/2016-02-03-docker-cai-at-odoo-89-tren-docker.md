@@ -18,7 +18,7 @@ category: Linux
 description: Hướng dẫn cài đặt Odoo 8/9 trên Server Ubuntu chỉ bằng vài bước đơn giản
 ---
 
-Docker là một trong những giải pháp đóng gói và cài đặt có xu hướng phát triển mạnh hiện nay. Tôi đã có vài lần [giới thiệu](http://blog.duyetdev.com/2015/12/docker-la-gi-co-ban-ve-docker.html) và seminar về khả năng của Docker.
+Docker là một trong những giải pháp đóng gói và cài đặt có xu hướng phát triển mạnh hiện nay. Tôi đã có vài lần [giới thiệu](https://blog.duyet.net/2015/12/docker-la-gi-co-ban-ve-docker.html) và seminar về khả năng của Docker.
 
 Odoo là một hệ thống lớn, tích hợp các module E-commerce (TMDT), ERP (hoạch định tài nguyên doanh nghiệp), CRM (quan hệ khách hàng), quản lý kho bãi, ... Triển khai cho doanh nghiệp với từng quy mô và quy trình khác nhau một cách linh hoạt. Odoo hiện đang được triển khai cho nhiều doanh nghiệp lớn tại VN và trên thế giới.
 

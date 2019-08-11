@@ -19,7 +19,7 @@ description: saveto.co vừa cập nhật hệ thống, nâng cấp một ít gi
 
 [saveto.co](https://saveto.co/) vừa cập nhật hệ thống, nâng cấp một ít giao diện, cho phép hiển thị trực tiếp meta image từ URL.
 
-[![](https://3.bp.blogspot.com/-m5O1aeEL_Uc/V3VJ-QDKyFI/AAAAAAAAYps/m4jpG6hycrUqacjFRntOCKsbiJK_AcZDQCLcB/s1600/saveto-update-1.png)](https://blog.duyetdev.com/2016/06/savetoco-cap-nhat-giao-dien-trend-share-binh-luan.html)
+[![](https://3.bp.blogspot.com/-m5O1aeEL_Uc/V3VJ-QDKyFI/AAAAAAAAYps/m4jpG6hycrUqacjFRntOCKsbiJK_AcZDQCLcB/s1600/saveto-update-1.png)](https://blog.duyet.net/2016/06/savetoco-cap-nhat-giao-dien-trend-share-binh-luan.html)
 
 Ngoài ra, saveto còn giới thiệu mục trend mới, có phép thống kê theo tag. Truy cập tại đây: [https://saveto.co/trend](https://saveto.co/trend)
 

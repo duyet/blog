@@ -17,4 +17,4 @@ description:
 draft: true
 ---
 
-Springer have made a bunch of books available for free, here are the direct links.<br /><div style="text-align: center;"><a href="http://blog.duyetdev.com/2015/12/pdf-kho-sach-lon-mien-phi-tu-springer.html"><img border="0" height="300" src="https://3.bp.blogspot.com/-50jaydvV_-c/VokjXO2n_jI/AAAAAAAANqA/JEDp9T84aj8/s400/Springer-logo-logotype-1024x768.png" style="border:0;box-shadow:none" width="400" /></a></div><a name='more'></a><script src="https://gist.github.com/bishboria/8326b17bbd652f34566a.js"></script>
+Springer have made a bunch of books available for free, here are the direct links.<br /><div style="text-align: center;"><a href="https://blog.duyet.net/2015/12/pdf-kho-sach-lon-mien-phi-tu-springer.html"><img border="0" height="300" src="https://3.bp.blogspot.com/-50jaydvV_-c/VokjXO2n_jI/AAAAAAAANqA/JEDp9T84aj8/s400/Springer-logo-logotype-1024x768.png" style="border:0;box-shadow:none" width="400" /></a></div><a name='more'></a><script src="https://gist.github.com/bishboria/8326b17bbd652f34566a.js"></script>

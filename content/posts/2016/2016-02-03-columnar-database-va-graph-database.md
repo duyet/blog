@@ -20,7 +20,7 @@ description: Như đã nói về big data, chúng ta có các loại dữ liệu
 
 Như đã nói về big data, chúng ta có các loại dữ liệu khác nhau và chúng ta cần lưu trữ trong database. Bigdata có thể xử lý và lưu trữ trên nhiều loại CSDL khác nhau. Sau đây tôi sẽ nói 1 ít về columnar Database và Graph Database.
 
-[![](https://1.bp.blogspot.com/-NNyJ44vDSBs/VrHI1EhZvvI/AAAAAAAAPD0/C_-Fxe4gF_k/s640/example-graph.jpg)](https://blog.duyetdev.com/2016/02/columnar-database-va-graph-database.html#.VrHJjOx97Qo)
+[![](https://1.bp.blogspot.com/-NNyJ44vDSBs/VrHI1EhZvvI/AAAAAAAAPD0/C_-Fxe4gF_k/s640/example-graph.jpg)](https://blog.duyet.net/2016/02/columnar-database-va-graph-database.html#.VrHJjOx97Qo)
 Ảnh: W3.Org
 
 ## Columnar Databases ##

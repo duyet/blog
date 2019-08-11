@@ -21,11 +21,11 @@ description: Mình sẽ dành 1 chuỗi bài để viết về React, kết hợ
 
 Mình sẽ dành 1 chuỗi bài để viết về [React](https://facebook.github.io/react), kết hợp với mô hình [Redux](https://github.com/reactjs/redux), sử dụng Webpack để đóng gói và kết hợp với Sails.js để làm RESTful API Server.
 
-[![](https://3.bp.blogspot.com/-BE6HQe1NzmM/V2rk2jjMk8I/AAAAAAAAYAs/7yUcpn2MzPIWPTxqZ6eZ3S84OHd5opEOwCK4B/s400/React%2B1.0.png)](https://blog.duyetdev.com/2016/06/react-redux-chap-1.html)
+[![](https://3.bp.blogspot.com/-BE6HQe1NzmM/V2rk2jjMk8I/AAAAAAAAYAs/7yUcpn2MzPIWPTxqZ6eZ3S84OHd5opEOwCK4B/s400/React%2B1.0.png)](https://blog.duyet.net/2016/06/react-redux-chap-1.html)
 
 Một số kiến thức cần nằm trước
 - Node.js, NPM
-- Sails.js: Xem lại bài [giới thiệu Sails.js](http://blog.duyetdev.com/2015/08/gioi-thieu-sailsjs-framework.html#.V2q8nYN97nU)
+- Sails.js: Xem lại bài [giới thiệu Sails.js](https://blog.duyet.net/2015/08/gioi-thieu-sailsjs-framework.html#.V2q8nYN97nU)
 - Webpack
 - Sử dụng Ubuntu (Windows tương tự)
 
@@ -284,4 +284,4 @@ Phần tiếp theo sẽ giải thích Virtual DOM, xây dựng ứng dụng TODO
 Source code: [https://github.com/labx-tech/react-redux-training/tree/master/react-week-1](https://github.com/labx-tech/react-redux-training/tree/master/react-week-1)
 Nhớ theo dõi hoặc [đăng ký nhận bài viết mới qua Email tại đây](http://saveto.co/sfZ60w) nhé.
 
-Xem thêm: [8 điều React.js beginner nên biết](https://blog.duyetdev.com/2016/06/8-dieu-reactjs-beginner-nen-biet.html#.V35k3qx97IU)
+Xem thêm: [8 điều React.js beginner nên biết](https://blog.duyet.net/2016/06/8-dieu-reactjs-beginner-nen-biet.html#.V35k3qx97IU)

@@ -23,7 +23,7 @@ description:
 
 #9: Date-DNS, chi tiết về các bản cập nhật mới của V8, React và Angular.
 
-[![](https://2.bp.blogspot.com/-3n1yGifwJdY/WEtxXVdp38I/AAAAAAAAgt4/ijum1QPHo6ENxNmPawMuGeKyxKfw2tfEACLcB/s1600/Screenshot%2Bfrom%2B2016-12-10%2B10-06-59.png)](https://blog.duyetdev.com/2016/12/javascript-weekly-9.html)
+[![](https://2.bp.blogspot.com/-3n1yGifwJdY/WEtxXVdp38I/AAAAAAAAgt4/ijum1QPHo6ENxNmPawMuGeKyxKfw2tfEACLcB/s1600/Screenshot%2Bfrom%2B2016-12-10%2B10-06-59.png)](https://blog.duyet.net/2016/12/javascript-weekly-9.html)
 
 ## [date-fns: A Modern JavaScript Date Utility Library](https://date-fns.org/) ##
 

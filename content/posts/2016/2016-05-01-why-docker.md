@@ -39,7 +39,7 @@ Slide được Public tại đây: [https://talk.duyet.net/why-docker/](https://
 
 ## Tham khảo 
 
-- [Cài đặt Docker trên Ubuntu](http://blog.duyetdev.com/2016/05/cai-dat-docker-tren-ubuntu.html)
+- [Cài đặt Docker trên Ubuntu](https://blog.duyet.net/2016/05/cai-dat-docker-tren-ubuntu.html)
 - Slide: Why docker? - [https://talk.duyet.net/why-docker/](http://why-docker.talk.duyetdev.com/)
 - [https://saveto.co/t/docker](https://saveto.co/t/docker)
-- [Docker là gì? Cơ bản về Docker](https://blog.duyetdev.com/2015/12/docker-la-gi-co-ban-ve-docker.html#.VyYMd4N94_M)
+- [Docker là gì? Cơ bản về Docker](https://blog.duyet.net/2015/12/docker-la-gi-co-ban-ve-docker.html#.VyYMd4N94_M)

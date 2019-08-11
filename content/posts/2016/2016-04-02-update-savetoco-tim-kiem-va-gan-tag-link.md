@@ -24,7 +24,7 @@ Hệ thống service [saveto.co](https://saveto.co/) dùng để share và short
 
 Hiện saveto.co vừa được nâng cấp, các URL được bookmark trên hệ thống hiện có thể được tìm lại thông qua từ khóa, từ khóa được nhập trực tiếp vào thanh URL. 
 
-[![](https://2.bp.blogspot.com/-gqLXpDKNOnk/Vv_o6EAoH0I/AAAAAAAASxY/C2y8cCEixf4y9WGaXLo9SFubx4zTqezLQ/s1600/Screenshot%2Bfrom%2B2016-04-02%2B22-39-31.png)](https://blog.duyetdev.com/2016/04/update-savetoco-tim-kiem-va-gan-tag-link.html)
+[![](https://2.bp.blogspot.com/-gqLXpDKNOnk/Vv_o6EAoH0I/AAAAAAAASxY/C2y8cCEixf4y9WGaXLo9SFubx4zTqezLQ/s1600/Screenshot%2Bfrom%2B2016-04-02%2B22-39-31.png)](https://blog.duyet.net/2016/04/update-savetoco-tim-kiem-va-gan-tag-link.html)
 
 Ngoài ra, mỗi URL có thể được gán nhãn tag để tiện cho việc quản lý, phân loại sau này. URL chỉ được gán Tag bởi chính người bookmark.
 

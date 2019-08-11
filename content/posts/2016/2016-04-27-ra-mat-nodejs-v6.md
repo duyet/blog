@@ -18,9 +18,9 @@ description: Ra mắt Node.js v6.0.0
 
 Hôm nay 26/04, Node.js vừa ra mắt [phiên bản v6.0.0](https://nodejs.org/en/blog/release/v6.0.0/), với nhiều cải tiến về hiệu suất, load module nhanh hơn đáng kể, cải tiến Buffer, File System APIs, tests và tài liệu tốt hơn.
 
-[![](https://3.bp.blogspot.com/-_fNbLVO5xXM/VyDN2wT51fI/AAAAAAAAT7o/XeHb_vlbC4AM85F9_UpRHBJhOhT0a2wNwCK4B/s640/Node-dot-js-796x398.jpg)](https://blog.duyetdev.com/2016/04/ra-mat-nodejs-v6.html)
+[![](https://3.bp.blogspot.com/-_fNbLVO5xXM/VyDN2wT51fI/AAAAAAAAT7o/XeHb_vlbC4AM85F9_UpRHBJhOhT0a2wNwCK4B/s640/Node-dot-js-796x398.jpg)](https://blog.duyet.net/2016/04/ra-mat-nodejs-v6.html)
 
-Nodejs v6.0.0 sử dụng V8 JavaScript engine, giúp hỗ trợ hơn 93% các [chức năng mới trong ES6](http://blog.duyetdev.com/2016/04/es6.html). Hiệu tại Nodejs v6 được công bố là "Current Release", tức là bạn đã có thể nâng cấp lên Nodejs ngay thời điểm này.
+Nodejs v6.0.0 sử dụng V8 JavaScript engine, giúp hỗ trợ hơn 93% các [chức năng mới trong ES6](https://blog.duyet.net/2016/04/es6.html). Hiệu tại Nodejs v6 được công bố là "Current Release", tức là bạn đã có thể nâng cấp lên Nodejs ngay thời điểm này.
 
 > New “Current” version line focuses on performance improvements, increased reliability and better security for its 3.5 million users - https://nodejs.org/en/blog/announcements/v6-release/
 
@@ -47,7 +47,7 @@ console.log(y) // 1
 console.log(z) // 2
 ```
 
-Xem thêm [ES6 có gì mới?](https://blog.duyetdev.com/2016/04/es6.html)
+Xem thêm [ES6 có gì mới?](https://blog.duyet.net/2016/04/es6.html)
 
 ## Nâng cấp lên Nodejs v6 ##
 

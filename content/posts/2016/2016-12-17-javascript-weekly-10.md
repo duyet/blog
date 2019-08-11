@@ -21,7 +21,7 @@ category: Javascript
 description: "Javascript Weekly #10 gửi đến cộng đồng một số tin tức JS mới: top frameworks 2017, Angular Next 4.0, Voca xử lý string cực kỳ mạnh, Hyper 1.0 - terminal on top JS, Vuetify, ..."
 ---
 
-[Javascript Weekly #10](http://blog.duyetdev.com/2016/12/javascript-weekly-10.html) gửi đến cộng đồng một số tin tức JS mới: top frameworks 2017, Angular Next 4.0, Voca xử lý string cực kỳ mạnh, Hyper 1.0 - terminal on top JS, Vuetify, ...
+[Javascript Weekly #10](https://blog.duyet.net/2016/12/javascript-weekly-10.html) gửi đến cộng đồng một số tin tức JS mới: top frameworks 2017, Angular Next 4.0, Voca xử lý string cực kỳ mạnh, Hyper 1.0 - terminal on top JS, Vuetify, ...
 
 ![](https://4.bp.blogspot.com/-BRrJsgNHOPo/WFSS-hQLsGI/AAAAAAAAhGs/yDzG4caJSxEfSfL8ldoaWP77igcyefSVACK4B/s640/Templating-Engines-for-JavaScript.png)
 

@@ -162,6 +162,6 @@ pm2 install pm2-auto-pull
  Use `pm2 show <id|name>` to get more details about an app
 ```
 
-Chỉ cần push mã nguồn lên Git, pm2 sẽ tự động pull về và cài đặt mà không cần truy cập lên server để làm bằng tay. Nên để source code trên server ở nhánh production. Xem thêm về [kỹ thuật làm việc trên Git branch](https://blog.duyetdev.com/2015/07/git-ki-thuat-chia-branch-branch-early.html) để có thể hiểu hơn về mô hình làm việc này.
+Chỉ cần push mã nguồn lên Git, pm2 sẽ tự động pull về và cài đặt mà không cần truy cập lên server để làm bằng tay. Nên để source code trên server ở nhánh production. Xem thêm về [kỹ thuật làm việc trên Git branch](https://blog.duyet.net/2015/07/git-ki-thuat-chia-branch-branch-early.html) để có thể hiểu hơn về mô hình làm việc này.
 
 PM2 còn khá nhiều tính năng hữu ích, comment bên dưới để được tôi hỗ trợ thêm nhé.

@@ -18,7 +18,7 @@ category: Data
 description: Bài trước tôi có nói về Columnar Database và Graph Database. Mục đích là so sánh và đi sâu vào Graph Database. Tiếp đến là xử lý Graph Database với Big Data.
 ---
 
-[Bài trước](http://blog.duyetdev.com/2016/02/columnar-database-va-graph-database.html) tôi có nói về Columnar Database và Graph Database. Mục đích là so sánh và đi sâu vào Graph Database. Tiếp đến là xử lý Graph Database với Big Data.
+[Bài trước](https://blog.duyet.net/2016/02/columnar-database-va-graph-database.html) tôi có nói về Columnar Database và Graph Database. Mục đích là so sánh và đi sâu vào Graph Database. Tiếp đến là xử lý Graph Database với Big Data.
 
 ![](https://2.bp.blogspot.com/-Wq61rnHCVQk/VrHL_XD9alI/AAAAAAAAPEE/8DjlqxdZ5dE/s400/Wikipedia_multilingual_network_graph_July_2013.svg.png)
 

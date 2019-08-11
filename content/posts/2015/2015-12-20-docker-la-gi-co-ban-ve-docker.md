@@ -17,7 +17,7 @@ description: Trong thời gian gần đây có rất nhiều bài báo, hay blog
 
 Trong thời gian gần đây có rất nhiều bài báo, hay blog, và cả trên Twitter có rất nhiều người đề cập đến Docker. Vậy Docker là gì và tại sao nó hữu ích.  
 
-[![](https://4.bp.blogspot.com/-_yUdu_nrol8/VnZeC8EMsdI/AAAAAAAAMG0/Qiij482W6lg/s1600/product%2B-%2Bengine.png)](https://blog.duyetdev.com/2015/12/docker-la-gi-co-ban-ve-docker.html)
+[![](https://4.bp.blogspot.com/-_yUdu_nrol8/VnZeC8EMsdI/AAAAAAAAMG0/Qiij482W6lg/s1600/product%2B-%2Bengine.png)](https://blog.duyet.net/2015/12/docker-la-gi-co-ban-ve-docker.html)
 
 ## Docker là gì?
 

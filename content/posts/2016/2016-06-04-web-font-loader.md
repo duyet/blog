@@ -26,7 +26,7 @@ Web Font Loader (`webfont.js`) cho phép bạn sử dụng các Fonts tùy chỉ
 
 Web Font Loader hỗ trợ load fonts từ [Google Fonts](http://www.google.com/fonts/), [Typekit](http://www.typekit.com/), [Fonts.com](http://fonts.com/), and [Fontdeck](http://fontdeck.com/), cũng như self-hosted web fonts.
 
-[![](https://4.bp.blogspot.com/-H539bJlNjPU/V1L9FlbhUUI/AAAAAAAAW_E/W_wtHvUOpbgR0ke51a_6F0tkAHvq54drgCK4B/s400/web-font-performance.png)](https://blog.duyetdev.com/2016/06/web-font-loader.html)
+[![](https://4.bp.blogspot.com/-H539bJlNjPU/V1L9FlbhUUI/AAAAAAAAW_E/W_wtHvUOpbgR0ke51a_6F0tkAHvq54drgCK4B/s400/web-font-performance.png)](https://blog.duyet.net/2016/06/web-font-loader.html)
 
 `Webfont.js` được Google và Typekit cùng nhau phát triển.
 

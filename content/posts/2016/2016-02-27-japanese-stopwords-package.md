@@ -23,7 +23,7 @@ description: Japanese stopwords, available for npm, bower, plaintext. 日本の�
 
 Japanese stopwords, available for npm, bower, plaintext. 日本のストップワード    
 
-[![](https://4.bp.blogspot.com/-tKM0wg2Vmqc/VtFheibWiSI/AAAAAAAAQbc/KFhuP43v4lA/s1600/japanese-stopwords.png)](https://blog.duyetdev.com/2016/02/japanese-stopwords-package.html)
+[![](https://4.bp.blogspot.com/-tKM0wg2Vmqc/VtFheibWiSI/AAAAAAAAQbc/KFhuP43v4lA/s1600/japanese-stopwords.png)](https://blog.duyet.net/2016/02/japanese-stopwords-package.html)
 
 ## Source ##
 

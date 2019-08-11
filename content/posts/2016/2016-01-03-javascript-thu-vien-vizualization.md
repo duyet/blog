@@ -18,7 +18,7 @@ description: Các thư viện Vizualization trên Js
 
 Các thư viện Vizualization trên Js
 
-[![](https://2.bp.blogspot.com/-XxKj_UJfFVE/VokhkxfngXI/AAAAAAAANp0/2b5K02Ylz28/s1600/preview%2B%25281%2529.png)](https://blog.duyetdev.com/2016/01/javascript-thu-vien-vizualization.html#.Voki5d197Qo)
+[![](https://2.bp.blogspot.com/-XxKj_UJfFVE/VokhkxfngXI/AAAAAAAANp0/2b5K02Ylz28/s1600/preview%2B%25281%2529.png)](https://blog.duyet.net/2016/01/javascript-thu-vien-vizualization.html#.Voki5d197Qo)
 
 - [Photon](https://github.com/thomasxiii/photon)
 - [CSS3 shapes](http://www.css3shapes.com/)

@@ -5,7 +5,7 @@ date: '2016-09-20T14:36:00.001+07:00'
 author: Van-Duyet Le
 tags:
 - Data Engineer
-- Jupiter
+- Jupyter
 - Apache Spark
 - IPython
 - Python
@@ -46,7 +46,7 @@ Kiểm tra Spark đã Start thành công hay chưa, truy cập: http://spark-mas
 
 [![](https://1.bp.blogspot.com/-8msgj2t9RLA/V-Dfx7XjMXI/AAAAAAAAd9s/umMiRMw-fgYYFw3Zx7cPwpOnVI2eGDdHACLcB/s1600/Spark%2BMaster%2Bat%2Bspark%253A--duyetdev%253A7077%2B-%2BGoogle%2BChrome_002.png)](https://1.bp.blogspot.com/-8msgj2t9RLA/V-Dfx7XjMXI/AAAAAAAAd9s/umMiRMw-fgYYFw3Zx7cPwpOnVI2eGDdHACLcB/s1600/Spark%2BMaster%2Bat%2Bspark%253A--duyetdev%253A7077%2B-%2BGoogle%2BChrome_002.png)
 
-## 2. Cài đặt Jupiter Notebook ##
+## 2. Cài đặt Jupyter Notebook ##
 Cài đặt bằng command line
 
 ```

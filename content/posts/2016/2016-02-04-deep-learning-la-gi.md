@@ -32,4 +32,4 @@ Deep Learning được ứng dụng trong nhận diện hình ảnh, nhận di�
 Tôi đang tìm hiểu về Deep Learning, những bài viết sau sẽ đi sâu vào tư duy, thuật toán và triển khai 1 hệ thống Deep Learning như thế nào.
 
 ## Neural Networks ##
-Xem tiếp: [Neural Networks là gì?](http://blog.duyetdev.com/2016/03/neural-networks.html)
+Xem tiếp: [Neural Networks là gì?](https://blog.duyet.net/2016/03/neural-networks.html)

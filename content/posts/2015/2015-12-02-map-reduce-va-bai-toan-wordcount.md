@@ -19,7 +19,7 @@ description: Map-Reduce là một giải pháp! Map-Reduce được phát minh b
 
 Map-Reduce là một giải pháp! Map-Reduce được phát minh bởi các kỹ sư Google để giải quyết bài toán xử lý một khối lượng dữ liệu cực lớn, vượt quá khả năng xử lý của một máy tính đơn có cấu hình khủng.
 
-[![](https://3.bp.blogspot.com/-i_xNRnGm_pY/Vl8HH5-TM0I/AAAAAAAAKKU/K1W4w2i2f5E/s320/big-data-cloud-e1383271750410-460x394.png)](http://blog.duyetdev.com/2015/12/map-reduce-va-bai-toan-wordcount.html)
+[![](https://3.bp.blogspot.com/-i_xNRnGm_pY/Vl8HH5-TM0I/AAAAAAAAKKU/K1W4w2i2f5E/s320/big-data-cloud-e1383271750410-460x394.png)](https://blog.duyet.net/2015/12/map-reduce-va-bai-toan-wordcount.html)
 
 Với máy tính với cấu hình dù rất khoẻ như ở trên thì ta vẫn thấy giới hạn xử lý dữ liệu của nó. Cụ thể máy tính không thể lưu trữ được quá 8TB dữ liệu, không thể đồng thời xử lý được dữ liệu lớn hơn 128GB (kích thước của RAM) và không thể đồng thời xử lý được lớn hơn 18 luồng chương trình.
 

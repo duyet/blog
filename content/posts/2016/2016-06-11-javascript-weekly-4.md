@@ -19,7 +19,7 @@ description: React và ES6 vẫn là các chủ đề đang được quan tâm. 
 
 React và ES6 vẫn là các chủ đề đang được quan tâm. Javascript Weekly tuần này có gì hot?
 
-[![](https://4.bp.blogspot.com/-mQxRpFMY0UM/V1wn05hGx3I/AAAAAAAAXiA/PUSZrt0AUoMEyGQbfmEbmJlhnEmBIp-5gCK4B/s1600/js-4.png)](https://blog.duyetdev.com/2016/06/javascript-weekly-4.html)
+[![](https://4.bp.blogspot.com/-mQxRpFMY0UM/V1wn05hGx3I/AAAAAAAAXiA/PUSZrt0AUoMEyGQbfmEbmJlhnEmBIp-5gCK4B/s1600/js-4.png)](https://blog.duyet.net/2016/06/javascript-weekly-4.html)
 
 ## [10 chức năng của Lodash bạn có thể thay thế bằng ES6](https://www.sitepoint.com/lodash-features-replace-es6/?utm_source=duyetdev.com&amp;utm_medium=saveto.co) ##
 DAN PRINCE

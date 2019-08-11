@@ -17,7 +17,7 @@ description: '"Web" và "Online" là gần như là 2 khái niệm đi liền v�
 
 "Web" và "Online" là gần như là 2 khái niệm đi liền với nhau. Nhưng gần đây xu thế mới trong thế giới web còn tồn tại 1 khái niệm nữa là công nghệ web offline, offline-first.
 
-[![](https://3.bp.blogspot.com/-kknlRujasGI/Vo6QpZWVJJI/AAAAAAAAN2U/Z2VbLAWnQOA/s640/offline-text%2BMJN%2BTech%2BWeb.png)](http://blog.duyetdev.com/2016/01/offline-first-trong-modern-web.html)
+[![](https://3.bp.blogspot.com/-kknlRujasGI/Vo6QpZWVJJI/AAAAAAAAN2U/Z2VbLAWnQOA/s640/offline-text%2BMJN%2BTech%2BWeb.png)](https://blog.duyet.net/2016/01/offline-first-trong-modern-web.html)
 
 ## Các công nghệ mà W3C hỗ trợ  ##
 

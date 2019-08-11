@@ -21,9 +21,9 @@ category: Web
 description: Hôm nay mình sẽ giới thiệu 1 số plugin cần có để lập trình Node.js trên Sublime.
 ---
 
-Trước mình có viết 1 bài về giới thiệu Sublime Text, các [plugin hay cho lập trình viên PHP](https://blog.duyetdev.com/2014/03/sublime-text-3-editor-manh-me-cho-lap.html). Hôm nay mình sẽ giới thiệu 1 số plugin cần có để lập trình Node.js trên Sublime.
+Trước mình có viết 1 bài về giới thiệu Sublime Text, các [plugin hay cho lập trình viên PHP](https://blog.duyet.net/2014/03/sublime-text-3-editor-manh-me-cho-lap.html). Hôm nay mình sẽ giới thiệu 1 số plugin cần có để lập trình Node.js trên Sublime.
 
-[![](https://3.bp.blogspot.com/-Vk9xy2-YHhQ/V476BZ29wmI/AAAAAAAAaC8/dzgxlK1P5nQ-GNPbynkCDUxxHmwYl4rxACK4B/s1600/package-control-duyetdev.gif)](http://blog.duyetdev.com/2016/07/sublime-text-plugin-nodejs.html)
+[![](https://3.bp.blogspot.com/-Vk9xy2-YHhQ/V476BZ29wmI/AAAAAAAAaC8/dzgxlK1P5nQ-GNPbynkCDUxxHmwYl4rxACK4B/s1600/package-control-duyetdev.gif)](https://blog.duyet.net/2016/07/sublime-text-plugin-nodejs.html)
 
 ## [HTML-CSS-JS Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify) ##
 Plugin này cho phép bạn định dạng pretty code cho Javascript, HTML, CSS và cả JSON. Bạn có thể tùy chỉnh lại định dạng cho phù hợp với phong cách cá nhân hoặc của cả team, hỗ trợ local config bằng file `.jsbeautifyrc`.

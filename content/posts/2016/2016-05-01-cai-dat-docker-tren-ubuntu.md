@@ -18,7 +18,7 @@ description: Docker cung cấp một nền tảng mở cho các nhà phát tri�
 
 Docker cung cấp một nền tảng mở cho các nhà phát triển và sysadmins để xây dựng, đóng gói, vận chuyển và triển khai ứng dụng bất cứ nơi nào, ứng dụng được chạy trong một container lightweight, cùng với khả năng tự động hóa, nhân bản nhanh, gọn nhẹ, ...
 
-[![](https://2.bp.blogspot.com/-PixuaXfP3N8/VyYNLdQQKPI/AAAAAAAAUJE/jpqCnfOYVyYaMwWBl3V2whQlLdxzU70qQCK4B/s320/docker-swarm-hero2.png)](https://blog.duyetdev.com/2016/05/cai-dat-docker-tren-ubuntu.html)
+[![](https://2.bp.blogspot.com/-PixuaXfP3N8/VyYNLdQQKPI/AAAAAAAAUJE/jpqCnfOYVyYaMwWBl3V2whQlLdxzU70qQCK4B/s320/docker-swarm-hero2.png)](https://blog.duyet.net/2016/05/cai-dat-docker-tren-ubuntu.html)
 
 Cách cài đặt Docker trên Ubuntu
 
@@ -51,4 +51,4 @@ Chúc bạn thành công.
 - Ảnh: Docker.com
 - Slide: Why docker? - [https://talk.duyet.net/why-docker/](http://why-docker.talk.duyetdev.com/)
 - [https://saveto.co/t/docker](https://saveto.co/t/docker)
-- [Docker là gì? Cơ bản về Docker](https://blog.duyetdev.com/2015/12/docker-la-gi-co-ban-ve-docker.html#.VyYMd4N94_M)
+- [Docker là gì? Cơ bản về Docker](https://blog.duyet.net/2015/12/docker-la-gi-co-ban-ve-docker.html#.VyYMd4N94_M)

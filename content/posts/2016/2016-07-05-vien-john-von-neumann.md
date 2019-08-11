@@ -20,7 +20,7 @@ description: Viện John von Neumann nằm trong khu CNPM - Đại học quốc 
 [Viện John von Neumann](http://www.jvn.edu.vn/) nằm trong khu CNPM - Đại học quốc gia TP.HCM. Ngày xưa từng có đi dự hội thảo trong khu này, nghe 1 anh lớn nói sau này có điều kiện nên vào học Thạc sĩ và PhD tại đây, đây là nơi hội tụ của biết bao nhiêu người tài.
 Lúc đó chỉ cười, thực sự tôi chưa từng nghĩ mình sẽ vào học tại đây.
 
-[![](https://4.bp.blogspot.com/-OH9toccRKt4/V3r1SFwz3HI/AAAAAAAAZIg/QtF0KDOP2505VLIu-AIxr_6MoojVQhqdgCK4B/s640/IMG_20160702_091452_HDR%2B%25281%2529.jpg)](https://blog.duyetdev.com/2016/07/vien-john-von-neumann.html)
+[![](https://4.bp.blogspot.com/-OH9toccRKt4/V3r1SFwz3HI/AAAAAAAAZIg/QtF0KDOP2505VLIu-AIxr_6MoojVQhqdgCK4B/s640/IMG_20160702_091452_HDR%2B%25281%2529.jpg)](https://blog.duyet.net/2016/07/vien-john-von-neumann.html)
 Tham gia [một cuộc thi](http://www.jvn.edu.vn/entropy/), với kiến thức cá nhân không thuộc đúng chuyên ngành (nhưng đam mê), chỉ thi cho vui, nhưng rốt cuộc cũng vào đến chung kết. Thắng được học bổng toàn phần, rồi lại cứ nghĩ mình sẽ không được học do chưa đủ tuổi, cuối cùng thầy viện trưởng vẫn quyết là phải cho bảo lưu.
 
 Ấn tượng khi mới đến đây, là không gian bên ngoài tĩnh lặng. Trái ngược lại khi bước vào là một thế giới phải nói vô cùng "khoa học" và năng động.

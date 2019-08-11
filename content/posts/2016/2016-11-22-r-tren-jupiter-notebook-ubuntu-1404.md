@@ -27,10 +27,9 @@ Jupyter Notebook là công cụ khá mạnh của lập trình viên Python và 
 ![](https://4.bp.blogspot.com/-aQIMnwL9Gxc/WDR00IF9dqI/AAAAAAAAf9w/ZvplzJNUtI8vjWh2nF8_kVJZoYF3fHF9QCLcB/s1600/Screenshot%2Bfrom%2B2016-11-22%2B23-39-25.png)
 
 ## Cài đặt ##
-1. Cài Jupiter Notebook và  R
+1. Cài Jupyter Notebook và R
 
-```
-
+```sh
 # Install Jupyter Notebook 
 pip install jupyter
 

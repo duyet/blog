@@ -24,7 +24,7 @@ Khi bật Xác minh 2 bước (còn được gọi là xác thực hai yếu t�
 
 Mình khuyến khích mọi người nên bật chức năng này trên các tài khoản dịch vụ quan trọng. Facebook, Google, Dropbox, ... đều có chức năng bảo vệ này. Sau khi bật, cho dù có bị lộ mật khẩu thì người khác vẫn không thể nào truy cập được vào tài khoản nếu không vượt được qua lớp bảo mật thứ 2.
 
-[![](https://3.bp.blogspot.com/-U90ziEzboCk/V8e8QNYdT_I/AAAAAAAAcq4/2utzWI8wLTsV5OLn9I2Hwevtb0FdbvwFgCK4B/s1600/FIDO-Yubico-YubiKeys-GfW-blog-845x321.png)](https://blog.duyetdev.com/2016/09/bao-mat-hai-lop.html)
+[![](https://3.bp.blogspot.com/-U90ziEzboCk/V8e8QNYdT_I/AAAAAAAAcq4/2utzWI8wLTsV5OLn9I2Hwevtb0FdbvwFgCK4B/s1600/FIDO-Yubico-YubiKeys-GfW-blog-845x321.png)](https://blog.duyet.net/2016/09/bao-mat-hai-lop.html)
 
 ## Google ##
 

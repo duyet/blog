@@ -21,10 +21,10 @@ description: Về Node.js, ắt hẳn mọi người đều đã quá quen với
 
 Về Node.js, ắt hẳn mọi người đều đã quá quen với Expressjs. Nên nay tôi giới thiệu một framework mới cũng khá hay, hiệu năng cao và dễ sử dụng - [Koajs - next generation web framework for node.js](http://koajs.com/)
 
-[![](https://4.bp.blogspot.com/-sCicwYtVpcY/VyS-dwEy4YI/AAAAAAAAUBM/5Q1QZ6zVR5YcsV7lgN8MYWfkZvrz6AXtgCK4B/s1600/Screen-Shot-2014-04-11-at-7.49.09-AM.png)](https://blog.duyetdev.com/2016/04/gioi-thieu-koajs.html)
+[![](https://4.bp.blogspot.com/-sCicwYtVpcY/VyS-dwEy4YI/AAAAAAAAUBM/5Q1QZ6zVR5YcsV7lgN8MYWfkZvrz6AXtgCK4B/s1600/Screen-Shot-2014-04-11-at-7.49.09-AM.png)](https://blog.duyet.net/2016/04/gioi-thieu-koajs.html)
 
 ## Koa.js là gì? ##
-Koa là một Web framework Nodejs, được viết bởi team của Expressjs. Koa sử dụng nhiều chức năng mới của ES6, được xem là chưa ổn định với các bản Nodejs dưới 4.0, nhưng mới vừa rồi [Node v6 vừa ra mắt](http://blog.duyetdev.com/2016/04/ra-mat-nodejs-v6.html), đánh dấu Koajs sẽ là 1 framework mạnh và ổn định hơn.
+Koa là một Web framework Nodejs, được viết bởi team của Expressjs. Koa sử dụng nhiều chức năng mới của ES6, được xem là chưa ổn định với các bản Nodejs dưới 4.0, nhưng mới vừa rồi [Node v6 vừa ra mắt](https://blog.duyet.net/2016/04/ra-mat-nodejs-v6.html), đánh dấu Koajs sẽ là 1 framework mạnh và ổn định hơn.
 
 Koa.js yêu cầu sử dụng Node.js v4.0 trở lên, với các bản 4.0 trở về trước yêu cầu sử dụng thêm flag --harmony để kích hoạt các chức năng mở rộng của Javascript (cụ thể là generator).
 
@@ -34,7 +34,7 @@ node --harmony app.js
 
 ## Vì sao nên sử dụng Koa ##
 Như đã PR, koa is next generation web framework. [Koa](http://koajs.com/) chủ yếu tận dụng chức năng generators của Javascript ES6.
-Bạn có thể xem bài viết sau để hiểu rõ hơn về Generators này: [function* và yield trong Javascript generator function](https://blog.duyetdev.com/2016/02/generator-function-javascript.html#.VyTAS4N94_M)
+Bạn có thể xem bài viết sau để hiểu rõ hơn về Generators này: [function* và yield trong Javascript generator function](https://blog.duyet.net/2016/02/generator-function-javascript.html#.VyTAS4N94_M)
 
 Ngoài ra còn 2 chức năng mới nữa là sử dụng middleware theo từng tầng và xử lý lỗi tốt. Một điểm tôi thấy hay khi sử dụng nữa là Koa có phong cách code rất lite, giúp app nhỏ gọn và dễ kiểm soát.
 

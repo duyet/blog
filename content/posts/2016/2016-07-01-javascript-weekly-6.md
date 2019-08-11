@@ -20,7 +20,7 @@ description: "Bài viết giới thiệu chi tiết về Redux, D3.js 4.0 Releas
 
 Bài viết giới thiệu chi tiết về Redux, D3.js 4.0 Released, thư viện hiệu ứng anime.js, viết ứng dụng WebAssembly đầu tiên, Debug Node .... đây là các bài sẽ có trong [Javascript Weekly #6](https://saveto.co/t/js-weekly-6) này mà tôi muốn giới thiệu đến các bạn.
 
-[![](https://2.bp.blogspot.com/-o4JfW1aayP8/V3Wu-4LLs4I/AAAAAAAAYrk/8qq-Dkaa0L0ZO-CNAZcGl1y3zgWUDNAVQCK4B/s1600/js-weekly-6.png)](http://blog.duyetdev.com/2016/07/javascript-weekly-6.html)
+[![](https://2.bp.blogspot.com/-o4JfW1aayP8/V3Wu-4LLs4I/AAAAAAAAYrk/8qq-Dkaa0L0ZO-CNAZcGl1y3zgWUDNAVQCK4B/s1600/js-weekly-6.png)](https://blog.duyet.net/2016/07/javascript-weekly-6.html)
 
 ## [An Introduction To Redux](http://saveto.co/5eysy2) ##
 ALEX BACHUK

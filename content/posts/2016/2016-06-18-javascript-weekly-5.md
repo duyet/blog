@@ -21,7 +21,7 @@ description: Preact cho những ai muốn sử dụng các chức năng core c�
 
 Preact cho những ai muốn sử dụng các chức năng core của React chỉ với 3KB, Angular 2 ra mắt với nhiều tính năng mới, học D3.js, bài viết cực hay và chi tiết về "this" trong Javascript trong các trường hợp.
 
-[![](https://1.bp.blogspot.com/-raHIBW9hoEw/V2VwikTHooI/AAAAAAAAX1A/by3IQqWb2BALMqlXky_DPutfvbe7kj28gCK4B/s1600/js5.png)](https://blog.duyetdev.com/2016/06/javascript-weekly-5.html)
+[![](https://1.bp.blogspot.com/-raHIBW9hoEw/V2VwikTHooI/AAAAAAAAX1A/by3IQqWb2BALMqlXky_DPutfvbe7kj28gCK4B/s1600/js5.png)](https://blog.duyet.net/2016/06/javascript-weekly-5.html)
 
 ## [Preact: A Fast, 3KB React Alternative with the same ES6 API](http://saveto.co/4C9qiB) ##
 JASON MILLER

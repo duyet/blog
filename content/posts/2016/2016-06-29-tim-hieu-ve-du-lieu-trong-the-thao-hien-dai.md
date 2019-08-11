@@ -21,7 +21,7 @@ description: "Tìm hiểu về dữ liệu trong thể thao hiện đại. Một
 
 Tìm hiểu về dữ liệu trong thể thao hiện đại. Một trong những câu trả lời cho câu hỏi: Dân hệ thống thông tin thì làm gì? Bài viết tôi đọc được từ anh [Jackie Dương](http://www.ecoblader.com/2014/06/04/tim-hieu-ve-du-lieu-trong-the-thao-hien-dai/), nói về một trong các ứng dụng của Data Mining trong việc phân tích thể thao. 
 
-[![](https://2.bp.blogspot.com/-o_snpmTzvwk/V3PXfZhLszI/AAAAAAAAYmY/htoLHqxBBPEJaFooDzx9zqa_9X0BzNJcwCK4B/s400/ecoblader-d%25E1%25BB%25AF-li%25E1%25BB%2587u-696x478.png)](http://blog.duyetdev.com/2016/06/tim-hieu-ve-du-lieu-trong-the-thao-hien-dai.html)
+[![](https://2.bp.blogspot.com/-o_snpmTzvwk/V3PXfZhLszI/AAAAAAAAYmY/htoLHqxBBPEJaFooDzx9zqa_9X0BzNJcwCK4B/s400/ecoblader-d%25E1%25BB%25AF-li%25E1%25BB%2587u-696x478.png)](https://blog.duyet.net/2016/06/tim-hieu-ve-du-lieu-trong-the-thao-hien-dai.html)
 
 Có một ngàn lý do để không xem bóng đá Việt Nam: nào thì cầu thủ kém, nào thì tinh thần ỉu xìu, nào thì sân xấu, nào thì chất lượng hình ảnh cùi bla bla blah… Thực tế là trong gần 20 năm xem bóng đá qua ti vi của tôi thì phần lớn thời gian tôi đều nghĩ như vậy. Nhưng ý tưởng viết bài này lại đến cách đây gần 3 năm: khi bất chợt xem một trận V-league trên ti vi (tôi không xem V-league nhiều). Lúc đó, như thói quen xem Ngoại hạng Anh, tôi cố ngồi 1-2 phút để đợi bình luận viên nói về diễn biến trận đấu, các cầu thủ đáng chú ý… nhưng chẳng có gì cả. Chợt nhớ đến mấy cái board Possession, Goal Attempts, rồi mấy cái replay vẽ đường kẻ việt vị, dự đoán hướng sút… như xem NHA thì mới Ồ – Thì ra cũng có cái khác vô cùng to giữa bóng đá Việt và bóng đá châu Âu: đó là các Dữ liệu trận đấu.
 

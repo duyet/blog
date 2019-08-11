@@ -22,7 +22,7 @@ description: Polyfills native, hỗ trợ JVM, bạn có thể import file Jar, 
 
 Polyfills native, hỗ trợ JVM, bạn có thể import file Jar, biên dịch và chạy trực tiếp mã Java ngay trên trình duyệt Web với JavaPoly, thư viện được viết bằng Javascript.    
 
-[![](https://3.bp.blogspot.com/-0PVYXnZKPos/Vz9CsMIpfnI/AAAAAAAAVi0/MHADr9GRYt4DooMtDYj-DesgH9Ba3KcMACK4B/s1600/f1s7ah2zp9vghd2hth1a.jpg)](http://blog.duyetdev.com/2016/05/javapolyjs-chay-java-tren-trinh-duyet.html)
+[![](https://3.bp.blogspot.com/-0PVYXnZKPos/Vz9CsMIpfnI/AAAAAAAAVi0/MHADr9GRYt4DooMtDYj-DesgH9Ba3KcMACK4B/s1600/f1s7ah2zp9vghd2hth1a.jpg)](https://blog.duyet.net/2016/05/javapolyjs-chay-java-tren-trinh-duyet.html)
 
 ```html
 <!-- Include the Polyfill -->

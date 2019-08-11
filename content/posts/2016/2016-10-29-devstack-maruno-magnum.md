@@ -24,7 +24,7 @@ DevStack là giúp triển khai mô hình Openstack cho Developers, có thể ch
 Trong bài này sẽ hướng dẫn cách cài đặt DevStack, với các module mở rộng như **Magnum \[1\]** (triển khai Containers trên Openstack), **Murano** \[2\] (Application catalogs), ...  
   
 
-[![](https://2.bp.blogspot.com/-8mDGZPymnKU/WBSIXCWaybI/AAAAAAAAfaM/pIubRdw6SrkJLB4Sm8oLQJ1D7quLU8rxwCEw/s1600/Screenshot%2Bfrom%2B2016-10-29%2B18-28-55.png)](https://blog.duyetdev.com/2016/10/devstack-maruno-magnum.html)
+[![](https://2.bp.blogspot.com/-8mDGZPymnKU/WBSIXCWaybI/AAAAAAAAfaM/pIubRdw6SrkJLB4Sm8oLQJ1D7quLU8rxwCEw/s1600/Screenshot%2Bfrom%2B2016-10-29%2B18-28-55.png)](https://blog.duyet.net/2016/10/devstack-maruno-magnum.html)
 
   
 

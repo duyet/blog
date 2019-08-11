@@ -20,7 +20,7 @@ description: Vụ rò rỉ 2.6TB tài liệu Panama có liên quan đến việc
 
 Vụ rò rỉ 2.6TB tài liệu Panama có liên quan đến việc trốn thuế, rửa tiền và tham nhũng đang nóng mấy ngày qua, các tài liệu công bố có liên quan đến nhiều chính trị gia lớn, tổng thống, những người siêu giàu. Có nhiều cái thú vị trong vụ án cấp độ cực lớn ở lần này.
 
-[![](https://3.bp.blogspot.com/-6MKYjo1l_4w/VwQE-HzgxWI/AAAAAAAAS4Y/ms8tZUiYGnMbhKz2SDO3tqabO0iab6IGQ/s640/firma_aufmacher_final.jpg)](http://blog.duyetdev.com/2016/04/tai-lieu-panama.html)
+[![](https://3.bp.blogspot.com/-6MKYjo1l_4w/VwQE-HzgxWI/AAAAAAAAS4Y/ms8tZUiYGnMbhKz2SDO3tqabO0iab6IGQ/s640/firma_aufmacher_final.jpg)](https://blog.duyet.net/2016/04/tai-lieu-panama.html)
 
 Tài liệu Panama (Panama Papers) là một bộ 11,5 triệu tài liệu mật được tạo ra bởi nhà cung cấp dịch vụ của công ty Panama Mossack Fonseca cung cấp thông tin chi tiết về hơn 214.000 công ty hộp thư, bao gồm cả danh sách của các cổ đông và các giám đốc. 
 

@@ -21,17 +21,17 @@ category: Linux
 description: Hướng dẫn cách đóng gói và build image docker cho ứng dụng Nodejs một cách cơ bản nhất.
 ---
 
-[Docker ra đời](https://blog.duyetdev.com/2015/12/docker-la-gi-co-ban-ve-docker.html#.VyYMd4N94_M) cho giải pháp đóng gói, vận chuyển và triển khai ứng dụng hết sức nhanh chóng và đơn giản. Với Docker, các thành viên trong team (cũng như với người muốn trải nghiệm thử project) sẽ triển khai ngay được môi trường ứng dụng mà không phải mất nhiều thời gian, công việc của SysAdmin cũng nhẹ nhàng hơn.
+[Docker ra đời](https://blog.duyet.net/2015/12/docker-la-gi-co-ban-ve-docker.html#.VyYMd4N94_M) cho giải pháp đóng gói, vận chuyển và triển khai ứng dụng hết sức nhanh chóng và đơn giản. Với Docker, các thành viên trong team (cũng như với người muốn trải nghiệm thử project) sẽ triển khai ngay được môi trường ứng dụng mà không phải mất nhiều thời gian, công việc của SysAdmin cũng nhẹ nhàng hơn.
 
 Bài sau tôi sẽ hướng dẫn cách đóng gói và build image docker cho ứng dụng Nodejs một cách cơ bản nhất.
 
-[![](https://1.bp.blogspot.com/-PdJFod9lQSU/VyYyDa_nEnI/AAAAAAAAUaE/CpGySWOh_TMGvZGjYqpcSHtTft7yi7tjwCK4B/s400/1-_MtS4HqN2srTcrSyet61DQ.jpeg)](https://blog.duyetdev.com/2016/05/dockerizing-nodejs.html)
+[![](https://1.bp.blogspot.com/-PdJFod9lQSU/VyYyDa_nEnI/AAAAAAAAUaE/CpGySWOh_TMGvZGjYqpcSHtTft7yi7tjwCK4B/s400/1-_MtS4HqN2srTcrSyet61DQ.jpeg)](https://blog.duyet.net/2016/05/dockerizing-nodejs.html)
 
 ## Cài đặt Docker ##
-Tôi sử dụng Ubuntu, [xem cách cài Docker trên Ubuntu](http://blog.duyetdev.com/2016/05/cai-dat-docker-tren-ubuntu.html). Với các nền tảng khác, xem tại trang Guide tại trang chủ Docker ([https://docs.docker.com/engine/installation/](https://docs.docker.com/engine/installation/)).
+Tôi sử dụng Ubuntu, [xem cách cài Docker trên Ubuntu](https://blog.duyet.net/2016/05/cai-dat-docker-tren-ubuntu.html). Với các nền tảng khác, xem tại trang Guide tại trang chủ Docker ([https://docs.docker.com/engine/installation/](https://docs.docker.com/engine/installation/)).
 
 ## Chuẩn bị ứng dụng cần đóng gói ##
-Bạn chuẩn bị ứng dụng Nodejs cần đóng gói và triển khai. Ở đây tôi sẽ sử dụng [source](https://github.com/saveto-co/saveto) của trang [https://saveto.co](https://saveto.co/) viết bằng [Koajs](http://blog.duyetdev.com/2016/04/gioi-thieu-koajs.html). Mã nguồn tải về ở đây: [https://github.com/saveto-co/saveto](https://github.com/saveto-co/saveto)
+Bạn chuẩn bị ứng dụng Nodejs cần đóng gói và triển khai. Ở đây tôi sẽ sử dụng [source](https://github.com/saveto-co/saveto) của trang [https://saveto.co](https://saveto.co/) viết bằng [Koajs](https://blog.duyet.net/2016/04/gioi-thieu-koajs.html). Mã nguồn tải về ở đây: [https://github.com/saveto-co/saveto](https://github.com/saveto-co/saveto)
 
 Mỗi ứng dụng viết bằng Nodejs bắt buộc đều phải có `package.json`, lưu thông tin về các gói cần thiết, nhiều thông tin khác về tên, phiên bản, ...
 
@@ -214,7 +214,7 @@ Chúc bạn thành công.
 ## Tham khảo thêm ##
 
 - [Dockerizing a Node.js web app](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
-- [Docker là gì? Cơ bản về Docker](https://blog.duyetdev.com/2015/12/docker-la-gi-co-ban-ve-docker.html#.VyYMd4N94_M)
-- [Cài đặt Docker trên Ubuntu](http://blog.duyetdev.com/2016/05/cai-dat-docker-tren-ubuntu.html)
+- [Docker là gì? Cơ bản về Docker](https://blog.duyet.net/2015/12/docker-la-gi-co-ban-ve-docker.html#.VyYMd4N94_M)
+- [Cài đặt Docker trên Ubuntu](https://blog.duyet.net/2016/05/cai-dat-docker-tren-ubuntu.html)
 
 (Ảnh: Airpair)

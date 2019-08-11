@@ -46,13 +46,13 @@ Bài hướng dẫn đầy đủ sẽ hướng dẫn bạn cách xây dựng 1 �
 SMASHING MAGAZINE
 Qua bài viết trên bạn sẽ biết cách tận dụng Arg và Paramerters trong Javascritpt ES6.
 
-Xem thêm: [ES6 - ép sử dụng tham số trong function](http://blog.duyetdev.com/2016/05/es6-ep-su-dung-tham-so-trong-function.html)
+Xem thêm: [ES6 - ép sử dụng tham số trong function](https://blog.duyet.net/2016/05/es6-ep-su-dung-tham-so-trong-function.html)
 
 ## [A Deep Dive Into ES6 Destructuring](http://saveto.co/Cuwa2j) ##
 MIKE EVANS
 ES6 rất mạnh, Destructuring là một chức năng mới trong ES6, giúp bạn extract dữ liệu từ mảng hoặc Object vào 1 biến số, và các chức năng nâng cao hơn nữa.
 
-Xem thêm: [Cách sử dụng Destructuring trong Javascript ES6](http://blog.duyetdev.com/2016/05/cach-su-dung-destructuring-javascript-es6.html) / [ES6 - swap (hoán đổi) nhanh 2 biến số](http://blog.duyetdev.com/2016/05/es6-swap-via-destructuring.html)
+Xem thêm: [Cách sử dụng Destructuring trong Javascript ES6](https://blog.duyet.net/2016/05/cach-su-dung-destructuring-javascript-es6.html) / [ES6 - swap (hoán đổi) nhanh 2 biến số](https://blog.duyet.net/2016/05/es6-swap-via-destructuring.html)
 
 ## [Creating email templates with React components](http://saveto.co/5LigTV) ##
 Sức mạnh của React là tái sử dụng Code và Module hóa. Bài viết trên thảo luận sử dụng React để xây dựng Mail Templates.

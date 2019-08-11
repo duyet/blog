@@ -26,7 +26,7 @@ description: Closure Compiler là 1 dự án của Google giúp Javascript tải
 
 Closure sẽ đọc Javascript, thống kê, loại bỏ dead code, kiểm tra các biến và mối quan hệ giữa chúng, kiểu dữ liệu có hợp lý hay không, viết lại (rewrite) và nén sao cho tối ưu nhất có thể.
 
-[![](https://2.bp.blogspot.com/-XJmHynlIbNA/V9jI1Lbj5hI/AAAAAAAAduA/igD5n31EEUcfvwq_Y06IX2cPgsuoEKxZQCK4B/s320/image00.png)](http://blog.duyetdev.com/2016/09/toi-uu-hoa-javascript-voi-google-closure.html)
+[![](https://2.bp.blogspot.com/-XJmHynlIbNA/V9jI1Lbj5hI/AAAAAAAAduA/igD5n31EEUcfvwq_Y06IX2cPgsuoEKxZQCK4B/s320/image00.png)](https://blog.duyet.net/2016/09/toi-uu-hoa-javascript-voi-google-closure.html)
 Closure được triển khai sử dụng ở các dạng:
 
 - Công cụ dòng lệnh command line (Java)

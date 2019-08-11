@@ -18,13 +18,13 @@ description: 'Javascript #2 tuần này có gì mới.'
 
 Javascript #2 tuần này có gì mới.
 
-[![](https://4.bp.blogspot.com/-K_vkG8qVJiA/V0k5ORhPhXI/AAAAAAAAWJQ/PR7wLT5sdfIGjSGb5SqJeFIevpWo2rbKwCK4B/s1600/javascript-weekly-2-duyetdev.png)](http://blog.duyetdev.com/2016/05/javascript-weekly-2.html)
+[![](https://4.bp.blogspot.com/-K_vkG8qVJiA/V0k5ORhPhXI/AAAAAAAAWJQ/PR7wLT5sdfIGjSGb5SqJeFIevpWo2rbKwCK4B/s1600/javascript-weekly-2-duyetdev.png)](https://blog.duyet.net/2016/05/javascript-weekly-2.html)
 
 ## [Six nifty ES6 tricks](http://saveto.co/LdRQ7M) ##
 DR. AXEL RAUSCHMAYER
 Đây là bài viết của Dr. Axel, về các thủ thuật hay trong ES6, như hoán đổi biến, sử dụng desctructuring, ...
 
-Xem thêm: [ES6 - swap (hoán đổi) nhanh 2 biến số](http://blog.duyetdev.com/2016/05/es6-swap-via-destructuring.html#.V0k6NXV97CB) / [ES6 - ép sử dụng tham số trong function](http://blog.duyetdev.com/2016/05/es6-ep-su-dung-tham-so-trong-function.html#.V0k6KHV97CA)
+Xem thêm: [ES6 - swap (hoán đổi) nhanh 2 biến số](https://blog.duyet.net/2016/05/es6-swap-via-destructuring.html#.V0k6NXV97CB) / [ES6 - ép sử dụng tham số trong function](https://blog.duyet.net/2016/05/es6-ep-su-dung-tham-so-trong-function.html#.V0k6KHV97CA)
 
 ## [React Tutorial: Cloning Yelp](http://saveto.co/wHMNCL) ##
 

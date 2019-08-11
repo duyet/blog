@@ -50,4 +50,4 @@ chmod +x ./docker_run_gpu.sh
 ```
 
 ## Kiểm tra cài đặt ##
-Vui lòng xem phần kiểm tra cài đặt trong [bài viết sau](http://blog.duyetdev.com/2016/02/tensorflow-huong-dan-cai-at-tren-ubuntu.html).
+Vui lòng xem phần kiểm tra cài đặt trong [bài viết sau](https://blog.duyet.net/2016/02/tensorflow-huong-dan-cai-at-tren-ubuntu.html).

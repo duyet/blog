@@ -24,7 +24,7 @@ Big integer cho phép thực hiện các phép toán cộng, trừ, nhân, chia,
 Integer trong Javascript giới hạn đến giá trị 18437736874454810627 (tức 2^64−2^53+3). Để xử lý các giá trị lớn hơn nhiều lần với hiệu năng cao, ta có thể sử dụng thư viện Big Integer sau.
 Big integer cho phép thực hiện các phép toán cộng, trừ, nhân, chia, so sánh, ... với các số Integer không giới hạn, miễn sau bạn có đủ RAM.
 
-[![](https://4.bp.blogspot.com/-i7nGASMBcM0/V5Gd_g2OWaI/AAAAAAAAaI8/o--B6bDhYbks5Md71uVLEKrfHn76B-AHACK4B/s1600/bigint.png)](https://blog.duyetdev.com/2016/07/big-integer-javascript.html)
+[![](https://4.bp.blogspot.com/-i7nGASMBcM0/V5Gd_g2OWaI/AAAAAAAAaI8/o--B6bDhYbks5Md71uVLEKrfHn76B-AHACK4B/s1600/bigint.png)](https://blog.duyet.net/2016/07/big-integer-javascript.html)
 
 ## Cài đặt ##
 Nodejs bằng NPM: 

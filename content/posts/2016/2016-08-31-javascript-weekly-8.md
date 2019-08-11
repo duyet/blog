@@ -20,7 +20,7 @@ description: "Javascript Weekly #8 với các bài viết: React Native có mặ
 
 Javascript Weekly #8 với các bài viết: React Native có mặt trên Ubuntu, JS góp mặt vào IoT với việc điều khiển các mạch máy tính thông minh, song song hoá tính toán với GPU, ...
 
-[![](https://4.bp.blogspot.com/-EeqUOHEdZrU/V8Z6JSTShDI/AAAAAAAAclM/4xB15KFwMzwpHjYJXww5sS7zO-yS7d06gCK4B/s1600/JSFor-Mike-700x382.jpg)](http://blog.duyetdev.com/2016/08/javascript-weekly-8.html)
+[![](https://4.bp.blogspot.com/-EeqUOHEdZrU/V8Z6JSTShDI/AAAAAAAAclM/4xB15KFwMzwpHjYJXww5sS7zO-yS7d06gCK4B/s1600/JSFor-Mike-700x382.jpg)](https://blog.duyet.net/2016/08/javascript-weekly-8.html)
 
   
 

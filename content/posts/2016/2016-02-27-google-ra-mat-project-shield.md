@@ -21,7 +21,7 @@ Nhiệm vụ của Project Shield là hỗ trợ các trang web chống lại c�
   
   
 
-[![](https://4.bp.blogspot.com/-pKLY-EIwkLk/VtFsxbiTP2I/AAAAAAAAQbs/gt0QUH2BeB8/s320/project-shield.png)](http://blog.duyetdev.com/2016/02/google-ra-mat-project-shield.html)
+[![](https://4.bp.blogspot.com/-pKLY-EIwkLk/VtFsxbiTP2I/AAAAAAAAQbs/gt0QUH2BeB8/s320/project-shield.png)](https://blog.duyet.net/2016/02/google-ra-mat-project-shield.html)
 
   
   

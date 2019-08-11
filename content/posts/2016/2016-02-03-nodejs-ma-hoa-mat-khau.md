@@ -19,7 +19,7 @@ description: Mã hóa mật khẩu người dùng trước khi lưu vào databas
 
 Mã hóa mật khẩu người dùng trước khi lưu vào database là 1 chuyện bắt buộc phải làm đối với bất cứ 1 website nào. Không riêng gì ai, Nodejs cũng hỗ trợ khá nhiều thư viện để hỗ trợ việc mã hóa này.
 
-[![Ảnh: http://websitedesign.schoolsict.co.uk](https://4.bp.blogspot.com/-ye71o5GWvp0/VrGoa5MFAQI/AAAAAAAAPCg/EplwAJ4v5yk/s400/password-protection-flat_1.png)](http://blog.duyetdev.com/2016/02/nodejs-ma-hoa-mat-khau.html)
+[![Ảnh: http://websitedesign.schoolsict.co.uk](https://4.bp.blogspot.com/-ye71o5GWvp0/VrGoa5MFAQI/AAAAAAAAPCg/EplwAJ4v5yk/s400/password-protection-flat_1.png)](https://blog.duyet.net/2016/02/nodejs-ma-hoa-mat-khau.html)
 
 ## [bcrypt.js](https://github.com/ncb000gt/node.bcrypt.js) ##
 Bcrypt được sử dụng khá nhiều, ban đầu được thiết kế bởi Niels Provos và David Mazières, xem thêm thông tin tại [wikipedia](https://en.wikipedia.org/wiki/Bcrypt).
