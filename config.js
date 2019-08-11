@@ -25,8 +25,8 @@ module.exports = {
       path: '/pages/about'
     },
     {
-      label: 'Tags',
-      path: '/tags'
+      label: 'Categories',
+      path: '/categories'
     }
   ],
   author: {
