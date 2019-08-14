@@ -10,4 +10,4 @@ Currently working on Machine Learning (Classification, Clustering, ...) especial
 Skills & stacks: Python (sklearn, pandas, plotly, ...), Javascript (Nodejs), NLP, Apache Spark, AWS.
 
 
-[ [resume](https://me.duyet.net/resume/index.html), [CV.pdf](CV.pdf) ] [ [github](https://github.com/duyetdev) ] 
+[ [resume](https://me.duyet.net), [CV.pdf](https://me.duyet.net/resume/duyet.cv.latest.pdf) ] [ [github](https://github.com/duyetdev) ] 
