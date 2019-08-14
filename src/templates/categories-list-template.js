@@ -5,7 +5,17 @@ import kebabCase from 'lodash/kebabCase';
 import Sidebar from '../components/Sidebar';
 import Layout from '../components/Layout';
 import Page from '../components/Page';
+import CategoryTag from '../components/Layout/CategoryTag';
 import { useSiteMetadata, useCategoriesList } from '../hooks';
+
+const topCategories = ['Machine Learning', 'Javascript', 'Linux', 'Web'];
+
+
+const CategoriesListHighlight = ({ categories }) => (
+    <div style={{ marginBottom: 30 }}>
+      {categories.map((category) => <CategoryTag category={category} key={category} />)}
+    </div>
+);
 
 const CategoriesListTemplate = () => {
   const { title, subtitle } = useSiteMetadata();
@@ -15,6 +25,7 @@ const CategoriesListTemplate = () => {
     <Layout title={`Categories - ${title}`} description={subtitle}>
       <Sidebar />
       <Page title="Categories">
+        <CategoriesListHighlight categories={topCategories} />
         <ul>
           {categories.map((category) => (
             <li key={category.fieldValue}>
