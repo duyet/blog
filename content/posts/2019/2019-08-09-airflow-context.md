@@ -3,7 +3,7 @@ template: post
 title: Airflow - "context" dictionary
 date: "2019-08-09T22:00:00.000+07:00"
 author: Van-Duyet Le
-category: Data
+category: Data Engineer
 tags:
 - Data
 - Python
