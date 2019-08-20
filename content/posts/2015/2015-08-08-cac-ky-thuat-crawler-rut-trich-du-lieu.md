@@ -11,7 +11,7 @@ thumbnail: https://3.bp.blogspot.com/-Cwxzj6-qXVo/VcXRtQa3L4I/AAAAAAAACss/YD6WVC
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-7607409219779563626
 blogger_orig_url: https://blog.duyet.net/2015/08/cac-ky-thuat-crawler-rut-trich-du-lieu.html
 slug: /2015/08/cac-ky-thuat-crawler-rut-trich-du-lieu.html
-category: Data
+category: Data Engineer
 description: Nhân dịp tuyển sinh ĐH này, mình có project về thu thập dữ liệu tuyển sinh của các thí sinh trên trang của các trường ĐH. Project này mục tiêu là thu thập toàn bộ thông tin của thí sinh (SBD, tên, tuổi, điểm các môn, nguyện vọng các ngành, trường mà thí sinh nộp xét tuyển, ...). Điều oái oăm là mỗi trường công bố dữ liệu 1 cách hết sức ... tùm lum và tào lao.
 
 ---

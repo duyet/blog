@@ -1,6 +1,6 @@
 ---
 template: post
-title: " Database - Tìm hiểu về CSDL Redis"
+title: Database - Tìm hiểu về CSDL Redis
 date: '2015-04-06T00:23:00.001+07:00'
 author: Van-Duyet Le
 tags:

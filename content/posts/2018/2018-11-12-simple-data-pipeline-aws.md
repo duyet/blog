@@ -4,6 +4,7 @@ title: "[Slide] Build simple data pipeline for ETL and data aggregation on AWS"
 date: '2018-11-12T13:05:00.001+07:00'
 author: Van-Duyet Le
 tags:
+- Data Engineer
 - Share
 - slide
 - Talk
@@ -13,7 +14,7 @@ thumbnail: https://1.bp.blogspot.com/-bubYERdAr50/W-kXVP6JKfI/AAAAAAAA1Ic/nvICF9
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-3600854649727287083
 blogger_orig_url: https://blog.duyet.net/2018/11/simple-data-pipeline-aws.html
 slug: /2018/11/simple-data-pipeline-aws.html
-category: Data
+category: Data Engineer
 description: Mình vừa có một chút chia sẻ ngắn về xây dựng Data Pipeline trên AWS, phục vụ cho ETL và Data Aggregation. 
 
 ---
