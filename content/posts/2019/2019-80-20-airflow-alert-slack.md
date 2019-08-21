@@ -77,7 +77,7 @@ Task Failed.
     return failed_alert.execute(context=context)
 ```
 
-# 3. Slack alert cho mỗi DAG
+# 3. Config Slack alert cho từng DAG
 
 Với mỗi DAG muốn alert, ta thêm thuộc tính `on_failure_callback` cho mỗi DAG. Ví dụ như dưới dây:
 
