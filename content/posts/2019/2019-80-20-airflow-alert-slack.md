@@ -104,4 +104,8 @@ Kết quả:
 
 ![](https://1.bp.blogspot.com/-jAfy6D8deHU/XVwQdvnubFI/AAAAAAABFzg/b3ASQC3mmtozUhAQPdBRa3mJGE-Cd23GgCLcBGAs/s1600/airflow-alert-slack.png)
 
+# Tham khảo
+- https://medium.com/datareply/integrating-slack-alerts-in-airflow-c9dcd155105
+- airflow.operators.slack_operator: https://airflow.apache.org/_modules/airflow/operators/slack_operator.html 
+
 Chúc các bạn thành công.
