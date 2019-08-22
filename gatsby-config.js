@@ -66,7 +66,9 @@ module.exports = {
               date: edge.node.frontmatter.date,
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
-              custom_elements: [{ 'content:encoded': edge.node.frontmatter.description }]
+              custom_elements: [{
+                'content:encoded': `${edge.node.frontmatter.description}<br /><img src="${edge.node.frontmatter.thumbnail}" />`
+              }]
             }))
           ),
           query: `
@@ -86,6 +88,7 @@ module.exports = {
                         date
                         template
                         draft
+                        thumbnail
                         description
                       }
                     }
