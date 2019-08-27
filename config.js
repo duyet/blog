@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://duyet.netlify.com',
+  url: 'https://blog.duyet.net',
   pathPrefix: '/',
   title: 'Tôi là Duyệt',
   subtitle: 'Data Engineer @ Fossil. I blog about web development, machine learning, and more.',
