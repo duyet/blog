@@ -13,7 +13,7 @@ modified_time: '2014-06-17T20:34:24.709+07:00'
 thumbnail: https://1.bp.blogspot.com/-1lp1Qfe9Jf8/U6BCZikxNLI/AAAAAAAAGtE/YYa3f6xJ-qc/s1600/stacks-change.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-8271168071505204497
 blogger_orig_url: https://blog.duyet.net/2014/06/the-myth-of-full-stack-developer.html
-slug: 2014/06/the-myth-of-full-stack-developer.html
+slug: /2014/06/the-myth-of-full-stack-developer.html
 description: My defensive tendencies are normally put on high alert when I hear that magic phrase. Stacks are a lot bigger than what they used to be, and being able to claim one has acquired refined skills at every layer of web development is certainly not a small claim. Does this mean you have a broad range of skills or you specialise in everything?
 
 ---
