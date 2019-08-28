@@ -9,10 +9,10 @@ tags:
 - Data Engineer
 slug: /2019/08/airflow-note.html
 thumbnail: https://images.unsplash.com/photo-1489891470035-35415383b646?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
-description: Một số ghi chép, tips & tricks của minh trong quá trình sử dụng Apache Airflow.
+description: Một số ghi chép, tips & tricks của mình trong quá trình sử dụng Apache Airflow.
 ---
 
-Một số ghi chép, tips & tricks của minh trong quá trình sử dụng Apache Airflow.
+Một số ghi chép, tips & tricks của mình trong quá trình sử dụng Apache Airflow.
 
 - Viết các functions (tasks) luôn cho mọi kết quả giống nhau với các input giống nhau (stateless).
     + Tránh sử dụng global variables, random values, hardware timers.
