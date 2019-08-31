@@ -32,6 +32,7 @@ Mình quyết định move blog sang nền tảng [Gatsby](https://gatsbyjs.org)
     + Markdown đơn giản và dễ đọc.
     + Có thể convert thành HTML.
     + Format đa dạng.
+    + Viết công thức toán bằng Latex dễ dàng.
 - Netlify
     + Deploy blog CDN
     + Auto build và deploy (CI/CD)

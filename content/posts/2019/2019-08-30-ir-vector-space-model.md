@@ -27,6 +27,14 @@ Khi nói đến IR là nói đến cách tổ chức trình bày, lưu trữ và
 
 Trong các bài biết về IR mình chủ yếu sẽ nói về cách tổ chức và kỹ thuật xếp hạng tài liệu khi ta tra cứu bằng các truy vấn. Một trong những kỹ thuật phổ biến trong Information Retrieval đó là **Vector Space Model** (dịch ra là mô hình không gian vector).
 
+Kiến trúc của một hệ thống IR
+
+<figure>
+  <img src="../../media/2019/ir-vector-space-model/IR-infra.png" />
+  <figcaption>Nguồn: https://www.cl.cam.ac.uk/teaching/1415/InfoRtrv/lecture5.pdf</figcaption>
+</figure>
+
+
 ## Ký hiệu
 
 Ta có một số ký hiệu sau:

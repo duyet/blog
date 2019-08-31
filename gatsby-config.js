@@ -27,7 +27,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/static/media`,
+        path: `${__dirname}/content/media`,
         name: 'media'
       }
     },
@@ -123,6 +123,10 @@ module.exports = {
             resolve: 'gatsby-remark-responsive-iframe',
             options: { wrapperStyle: 'margin-bottom: 1.0725rem' }
           },
+          {
+            resolve: 'gatsby-remark-figure-caption',
+            options: { figureClassName: 'md-figure' },
+          },
           'gatsby-remark-autolink-headers',
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
@@ -205,6 +209,6 @@ module.exports = {
       }
     },
     'gatsby-plugin-flow',
-    // 'gatsby-plugin-optimize-svgs',
+    'gatsby-plugin-optimize-svgs',
   ]
 };
