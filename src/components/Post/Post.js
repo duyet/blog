@@ -10,6 +10,8 @@ import styles from './Post.module.scss';
 import type { Node } from '../../types';
 import { useSiteMetadata } from '../../hooks';
 
+import 'katex/dist/katex.min.css';
+
 type Props = {
   post: Node
 };
