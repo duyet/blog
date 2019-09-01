@@ -8,7 +8,7 @@ tags:
 - Data
 - Data Engineer
 slug: /2019/08/airflow-note.html
-thumbnail: https://images.unsplash.com/photo-1489891470035-35415383b646?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
+thumbnail: https://images.unsplash.com/photo-1548945357-bc51479af448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80
 description: Một số ghi chép, tips & tricks của mình trong quá trình sử dụng Apache Airflow.
 ---
 
