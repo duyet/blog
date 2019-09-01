@@ -10,11 +10,20 @@ tags:
 - NLP
 slug: /2019/08/ir-evaluation.html
 thumbnail: 
-description: Trong bài này chúng ta sẽ tìm hiểu về cách đánh giá các hệ thống Information Retrieval, thách thức của việc đánh giá và các kỹ thuật như Precision/Accuracy, Recall, R-precision, F-measure, MAP, ...
-draft: true
+description: Trong bài này chúng ta sẽ tìm hiểu về cách đánh giá các hệ thống Information Retrieval, thách thức của việc đánh giá và các độ đo phổ biến như Precision/Accuracy, Recall, R-precision, F-measure, MAP, ...
+draft: false
 ---
 
 Trong bài này chúng ta sẽ tìm hiểu về cách đánh giá các hệ thống Information Retrieval, thách thức của việc đánh giá và các kỹ thuật như Precision/Accuracy, Recall, R-precision, F-measure, MAP, ...
+
+--- 
+
+### Information Retrieval 
+- Phần 1: [Vector Space Model](/2019/08/ir-vector-space-model.html)
+- **Phần 2: Đánh giá hệ thống Information Retrieval**
+- Phần 3: [Đánh giá hệ thống Information Retrieval (tiếp theo)](#)
+
+---
 
 Các bước đánh giá một hệ thống tìm kiếm IR:
 1. Xây dựng bộ Human Labeled Corpora (Ground truth)
@@ -27,7 +36,6 @@ Các bước đánh giá một hệ thống tìm kiếm IR:
     - Cumulative Gain (CG)
 
 ![Làm thế nào để đánh giá kết quả trả về](../../media/2019/ir-evaluation/IR-evaluate.png)
-
 
 
 # 1. Khó khăn, thách thức khi đánh giá
@@ -115,7 +123,39 @@ Ta tính diện tích dưới đường precision-recall curve, diện tích l�
 
 Tính precision tại vị trí thứ **R-th** mà câu query trả về **R** câu trả lời.
 
+![R-precision](../../media/2019/ir-evaluation/R-precision.png)
 
+
+## d. F-Measure
+
+F-Measure ($F_1$ Score) là độ đo bao gồm vừa Precison và Recall, công thức truyền thống F-Measure là [harmonic mean](https://en.wikipedia.org/wiki/Harmonic_mean#Harmonic_mean_of_two_numbers) của precision và recall.
+
+$$
+{\displaystyle F_{1}=\left({\frac {2}{\mathrm {recall} ^{-1}+\mathrm {precision} ^{-1}}}\right)=2\cdot {\frac {\mathrm {precision} \cdot \mathrm {recall} }{\mathrm {precision} +\mathrm {recall} }}}.
+$$
+
+Theo ý nghĩa toán học, để đạt được F-measure cao, ta cần Precision lẫn Recall đều cao.
+
+## e. E-Measure (parameterized F Measure)
+
+Vẫn là F-measure nhưng có thêm tham số hiệu chỉnh, vì đôi khi ta cần Precision quan trọng hơn hoặc ngược lại.
+
+$$
+F_\beta = \frac{(1 + \beta^2) \cdot (\mathrm{precision} \cdot \mathrm{recall})}{(\beta^2 \cdot \mathrm{precision} + \mathrm{recall})}\,
+$$
+
+Khi đó $\beta$ sẽ điều chỉnh trọng số giữa precision và recall:
+ - $\beta$ = 1: Trọng số precision và recall bằng nhau (E=F).
+ - $\beta$ > 1: Trọng số recall cao hơn.
+ - $\beta$ < 1: Trọng số precision cao hơn.
+
+## f. MAP (Mean Average Precision)
+
+Đây là độ đo tổng hợp kết quả của nhiều query, được sử dụng rất phổ biến. **MAP** cũng chứa thông tin của **precision và recall**, có xét đến độ quan trọng của *thứ hạng kết quả*.
+
+- **Average Precision**: trung bình của các precision tại các điểm mà mỗi kết quả đúng trả về.
+- **Mean Average Precision**: trung bình của các Average Precision cho một tập các queries.
 
 # Tham khảo
+- [Introduction to Information Retrieval - Stanford NLP Group](https://nlp.stanford.edu/IR-book/)
 - https://www.cl.cam.ac.uk/teaching/1415/InfoRtrv/lecture5.pdf

@@ -17,6 +17,12 @@ prev: /2019/08/airflow-note.html
 Một hệ thống tìm kiếm thông tin (Information Retrieval - IR) là một hệ thống tra cứu (thường là các tài liệu văn bản) từ một nguồn không có cấu trúc tự nhiên (thường là văn bản), chứa đựng một số thông tin nào đó từ một tập hợp lớn. 
 
 
+**Information Retrieval**
+- **Phần 1**: **Vector Space Model**
+- Phần 2: [Đánh giá hệ thống Information Retrieval](/2019/08/ir-evaluation.html)
+- Phần 3: [Đánh giá hệ thống Information Retrieval (tiếp theo)](#)
+
+
 <figure>
 	<blockquote>
 		<p>Information retrieval (IR) is finding material (usually documents) of an unstructured nature (usually text) that satisfies an information need from within large collections (usually stored on computers).</p>
