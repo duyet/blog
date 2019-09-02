@@ -7,6 +7,7 @@ import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import { useSiteMetadata } from '../hooks';
+import { gtagTrack } from '../utils';
 import type { PageContext, AllMarkdownRemark } from '../types';
 
 type Props = {
@@ -28,6 +29,8 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
 
   const { edges } = data.allMarkdownRemark;
   const pageTitle = currentPage > 0 ? `${category} - Page ${currentPage} - ${siteTitle}` : `${category} - ${siteTitle}`;
+
+  gtagTrack('view', { page: 'category_list' });
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
