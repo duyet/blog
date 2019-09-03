@@ -30,7 +30,7 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
   const { edges } = data.allMarkdownRemark;
   const pageTitle = currentPage > 0 ? `${category} - Page ${currentPage} - ${siteTitle}` : `${category} - ${siteTitle}`;
 
-  gtagTrack('view', { page: 'category_list' });
+  gtagTrack('CategoryList', 'view', 'category_list');
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>

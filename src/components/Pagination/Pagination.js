@@ -37,12 +37,12 @@ const Pagination = ({
       <div className={styles['pagination__prev']}>
         <Link rel="prev" to={hasPrevPage ? prevPagePath : '/'}
           className={prevClassName}
-          onClick={() => gtagTrack('click', { type: 'pagination', value: 'PRE_PAGE', page: prevPagePath })}>{PAGINATION.PREV_PAGE}</Link>
+          onClick={() => gtagTrack('Pagination', 'click', 'PRE_PAGE', { page: prevPagePath })}>{PAGINATION.PREV_PAGE}</Link>
       </div>
       <div className={styles['pagination__next']}>
         <Link rel="next" to={hasNextPage ? nextPagePath : '/'}
         className={nextClassName}
-        onClick={() => gtagTrack('click', { type: 'pagination', value: 'NEXT_PAGE', page: nextPagePath })}>{PAGINATION.NEXT_PAGE}</Link>
+        onClick={() => gtagTrack('Pagination', 'click', 'NEXT_PAGE', { page: nextPagePath })}>{PAGINATION.NEXT_PAGE}</Link>
       </div>
     </div>
   );
