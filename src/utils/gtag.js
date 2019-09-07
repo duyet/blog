@@ -1,2 +1,11 @@
-const gtagTrack = (eventCategory, eventAction, eventLabel, data) => typeof window !== 'undefined' && 'gtag' in window && window.gtag('send', 'event', eventCategory, eventAction, eventLabel, { ...data });
+const gtagTrack = (eventCategory, eventAction, eventLabel, data) => {
+  if (typeof window === 'undefined') return;
+  if (!('gtag' in window)) return;
+  window.gtag('event', eventAction, {
+    event_category: eventCategory,
+    event_label: eventLabel,
+    ...data
+  });
+};
+
 export default gtagTrack;
