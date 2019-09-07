@@ -1,6 +1,8 @@
 // @flow strict
 import React from 'react';
 import { Link } from 'gatsby';
+import { gtagTrack } from '../../../utils';
+
 import styles from './Menu.module.scss';
 
 type Props = {
@@ -19,6 +21,7 @@ const Menu = ({ menu }: Props) => (
             to={item.path}
             className={styles['menu__list-item-link']}
             activeClassName={styles['menu__list-item-link--active']}
+            onClick={() => gtagTrack('Menu', 'click', item.path)}
           >
             {item.label}
           </Link>

@@ -3,8 +3,9 @@ import React from 'react';
 import moment from 'moment';
 import { Link } from 'gatsby';
 import type { Edges } from '../../types';
-import styles from './Feed.module.scss';
 import { gtagTrack } from '../../utils';
+
+import styles from './Feed.module.scss';
 
 type Props = {
   edges: Edges

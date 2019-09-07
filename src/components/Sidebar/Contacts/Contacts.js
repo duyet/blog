@@ -1,7 +1,9 @@
 // @flow strict
 import React from 'react';
-import { getContactHref, getIcon } from '../../../utils';
+import { getContactHref, getIcon, gtagTrack } from '../../../utils';
 import Icon from '../../Icon';
+
+
 import styles from './Contacts.module.scss';
 
 type Props = {
@@ -18,6 +20,7 @@ const Contacts = ({ contacts }: Props) => (
           <a
             className={styles['contacts__list-item-link']}
             href={getContactHref(name, contacts[name])}
+            onClick={() => gtagTrack('Sidebar_Contact', 'click', getContactHref(name, contacts[name]))}
             rel="noopener noreferrer"
             target="_blank"
           >
