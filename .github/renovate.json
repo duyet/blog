@@ -21,5 +21,6 @@
   "prConcurrentLimit": 16,
   "rangeStrategy": "bump",
   "bumpVersion": null,
-  "semanticCommits": true
+  "semanticCommits": true,
+  "automerge": true
 }
