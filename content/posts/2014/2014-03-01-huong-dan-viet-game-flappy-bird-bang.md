@@ -214,3 +214,15 @@ Và xin chúc mừng, bạn đã hoàn thành game Flappy bird trên HTML5 (siê
 
 ## Kì tiếp theo?  ##
  Chim đã bay, đã có thể chui vào khe.. Nhưng trông nó thật chán. Ở bài viết tiếp theo, mình sẽ hướng dẫn có bạn thêm âm thanh, hiệu ứng, menu, ... Đón chờ next chap nhé. Chúc các bạn thành công.
+
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : '02ffbb6986d37ce345726941bb6e214f',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.bcloudhost.com/02ffbb6986d37ce345726941bb6e214f/invoke.js"></scr' + 'ipt>');
+</script>
