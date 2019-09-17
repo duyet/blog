@@ -5,7 +5,7 @@ template: "page"
 
 Data Engineer @ Fossil
 
-I'm studying Computer Science at UIT, and I've been a Data Engineer at [John Von Neumann Institute](http://jvn.edu.vn/) in 2017, 2018.
+I'm studying Computer Science at UIT, and I've been a Data Engineer at [John Von Neumann Institute](http://jvn.edu.vn/) in 2016-2018.
 
 Currently working on Machine Learning (Classification, Clustering, ...) especially NLP (Sentiment Analysis, Text Classification, Word2vec, ...), Data Pipeline, Data Processing and Big Data based on AWS infrastructure.
 
