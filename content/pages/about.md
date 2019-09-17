@@ -18,4 +18,4 @@ You can see more of my projects on [my Github](https://github.com/duyetdev).
 
 ### Contact Me
 
-The best ways to get in touch with me are emailing me at [me(a)duyet.net](me_at_duyet.net).
+The best ways to get in touch with me are emailing me at *me (at) duyet (dot) net*.
