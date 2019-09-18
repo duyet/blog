@@ -71,7 +71,7 @@
     "gatsby-transformer-remark": "^2.6.22",
     "gatsby-transformer-sharp": "^2.2.14",
     "invariant": "^2.2.4",
-    "katex": "^0.11.0",
+    "katex": "^0.11.1",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "netlify-cms-app": "^2.9.7",
