@@ -16,7 +16,8 @@
 
   &__home-button {
     display: block;
-    max-width: 90px;
+    // max-width: 90px;
+    min-width: 100px;
     height: $button-height;
     padding: 0 24px;
     line-height: $button-height;

@@ -61,15 +61,13 @@ module.exports = {
         `,
         feeds: [{
           serialize: ({ query: { site, allMarkdownRemark } }) => (
-            allMarkdownRemark.edges.map((edge) => Object.assign({}, edge.node.frontmatter, {
-              description: edge.node.frontmatter.description,
+            allMarkdownRemark.edges.map((edge) => ({ ...edge.node.frontmatter, description: edge.node.frontmatter.description,
               date: edge.node.frontmatter.date,
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
               custom_elements: [{
                 'content:encoded': `${edge.node.frontmatter.description}<br /><img src="${edge.node.frontmatter.thumbnail}" />`
-              }]
-            }))
+              }]}))
           ),
           query: `
               {
@@ -207,6 +205,12 @@ module.exports = {
           camelCase: false,
         }
       }
+    },
+    {
+      resolve: 'gatsby-plugin-typography',
+      options: {
+        pathToConfigModule: 'src/utils/typography.js',
+      },
     },
     'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs'

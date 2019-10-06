@@ -17,7 +17,7 @@ I'm working on Data Engineering (Data Pipeline, DWH, Data Processing and Big Dat
 	<figcaption>Duyệt</figcaption>
 </figure>
 
-Skills & stacks: [Python](https://github.com/duyetdev?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=python) (sklearn, pandas, plotly, ...), [Javascript](https://github.com/duyetdev?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=javascript) (Nodejs), NLP, Apache Spark, Airflow, AWS, GCP.
+Skills & stacks: [Python](https://github.com/duyetdev?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=python) (sklearn, pandas, plotly, ...), [Javascript](https://github.com/duyetdev?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=javascript) (Nodejs), NLP, Apache Spark, [Airflow](/tag/airflow/), AWS, GCP.
 
 
 [[portfolio](https://me.duyet.net), [CV.pdf](https://me.duyet.net/resume/duyet.cv.latest.pdf)] [[github](https://github.com/duyetdev)] 
