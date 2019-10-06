@@ -209,7 +209,6 @@ module.exports = {
       }
     },
     'gatsby-plugin-flow',
-    'gatsby-plugin-optimize-svgs',
-    'gatsby-plugin-advanced-sitemap'
+    'gatsby-plugin-optimize-svgs'
   ]
 };
