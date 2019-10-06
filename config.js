@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://blog.duyet.net',
   pathPrefix: '/',
   title: 'Tôi là Duyệt',
-  subtitle: 'Data Engineer @ Fossil. I blog about web development, machine learning, and more.',
+  subtitle: 'Data Engineer @ Fossil. I blog about web development, machine learning, data engineering and more.',
   copyright: '© duyet.net',
   disqusShortname: '',
   useCommento: true,
@@ -32,7 +32,7 @@ module.exports = {
   author: {
     name: 'Tôi là Duyệt',
     photo: '/photo.png',
-    bio: 'Data Engineer @ Fossil. I blog about <a href="/tag/web/">web development</a>, <a href="/tag/machine-learning/">Machine Learning</a>, <a href="/tag/data-engineer/">data engineering</a>, and <a href="/tags/">more topics</a>.',
+    bio: 'Data Engineer @ Fossil. I blog about <a href="/tag/web/">web development</a>, <a href="/tag/machine-learning/">Machine Learning</a>, <a href="/tag/data-engineer/">Data Engineering</a>, and <a href="/tags/">more topics</a>.',
     contacts: {
       email: '',
       telegram: '',
