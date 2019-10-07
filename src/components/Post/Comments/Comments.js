@@ -18,11 +18,11 @@ const Comments = ({ postTitle, postSlug }: Props) => {
 
   if (facebookComment && facebookComment.active) {
     const oldUrl = 'http://blog.duyetdev.com'; // TODO: migrate comment to new URL
-    comments.push(<FacebookComment facebookComment={facebookComment} url={oldUrl + postSlug} />);
+    comments.push(<FacebookComment key="fb" facebookComment={facebookComment} url={oldUrl + postSlug} />);
   }
 
   if (useCommento) {
-    comments.push(<ReactCommento />);
+    comments.push(<ReactCommento key="commento" />);
   }
 
   if (disqusShortname) {
@@ -31,6 +31,7 @@ const Comments = ({ postTitle, postSlug }: Props) => {
                     identifier={postTitle}
                     title={postTitle}
                     url={url + postSlug}
+                    key="disqus"
                   />);
   }
 

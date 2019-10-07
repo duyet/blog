@@ -117,6 +117,14 @@ const _options = {
       content: '\'js\'',
       background: '#f7df1e',
     },
+    '.gatsby-highlight pre[class=\'language-python\']::before': {
+      content: '\'python\'',
+      background: '#f7df1e',
+    },
+    '.gatsby-highlight pre[class=\'language-py\']::before': {
+      content: '\'python\'',
+      background: '#f7df1e',
+    },
     '.gatsby-highlight pre[class=\'language-jsx\']::before': {
       content: '\'jsx\'',
       background: '#61dafb',
