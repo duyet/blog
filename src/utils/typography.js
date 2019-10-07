@@ -52,7 +52,7 @@ const _options = {
       borderLeft: `${space[1]} solid ${colors.ui.border.subtle}`,
     },
     hr: {
-      backgroundColor: colors.ui.border.subtle,
+      backgroundColor: 'transparent',
     },
     iframe: {
       border: 0,

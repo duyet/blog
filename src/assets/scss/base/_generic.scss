@@ -78,8 +78,8 @@ img {
 }
 
 hr {
-  margin-top: 52px;
-  margin-bottom: 52px;
+  margin-top: 12px;
+  margin-bottom: 12px;
   border: 0;
   color: $color-base;
   display: block;
@@ -87,8 +87,8 @@ hr {
   margin-right: auto;
   margin-left: auto;
   background-size: 100% 26px;
-  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $color-base 11px, $color-base 15px, transparent 15px, transparent 26px);
-  width: 100px;
+  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $color-base 11px, $color-base 15px, transparent 15px, transparent 10px);
+  width: 200px;
 }
 
 a {

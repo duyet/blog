@@ -1,0 +1,18 @@
+.fbcomment-container {
+    background: #fff;
+    pointer-events: none;
+    opacity: 0.4;
+    cursor: not-allowed;
+
+    &__message {
+        display: block;
+        color: orange;
+    }
+
+    &:hover {
+        &__message {
+            color: red;
+            display: block;
+        }
+    }
+}

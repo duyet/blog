@@ -1,5 +1,6 @@
 import React from 'react';
 import { FacebookProvider, Comments } from 'react-facebook';
+import styles from './FacebookComment.module.scss';
 
 export default class ReactCommento extends React.PureComponent {
     state = { show: false };
@@ -28,7 +29,10 @@ export default class ReactCommento extends React.PureComponent {
       const { url } = this.props;
       return (
         <FacebookProvider appId={appId}>
+          <div className={styles['fbcomment-container']}>
+            <div className={styles['fbcomment-container__message']}>Facebook Comment sẽ bị ngưng hoạt động từ 2019-10, vui lòng sử dụng Commento bên dưới</div>
             <Comments href={url}/>
+          </div>
         </FacebookProvider>
       );
     }
