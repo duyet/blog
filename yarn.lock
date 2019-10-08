@@ -6510,7 +6510,7 @@ gatsby-graphiql-explorer@^0.2.22:
   dependencies:
     "@babel/runtime" "^7.6.2"
 
-gatsby-link@^2.2.17, gatsby-link@^2.2.18:
+gatsby-link@^2.2.18:
   version "2.2.18"
   resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.2.18.tgz#e655ef6845dc55313e114b79aafa7c4a39a487d1"
   integrity sha512-+ubAV0vWvNmCMn7ANdkAAu3UHL/wbi6ZjKXIioXynmN9RRYVF5E+P9Gnc1RbZck3suHo+xPSgMvrh7wBzoXA3w==
@@ -6578,7 +6578,7 @@ gatsby-plugin-manifest@^2.2.20:
     semver "^5.7.1"
     sharp "^0.23.1"
 
-gatsby-plugin-netlify-cms@^4.1.21:
+gatsby-plugin-netlify-cms@^4.1.22:
   version "4.1.22"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-4.1.22.tgz#105e3f2aebe4a1610375b6de6cbd2a9a9ed799e3"
   integrity sha512-9v016hMa/t4klpHr/fNwk8FLBM1cmKRHZMByvuH1WSLki0hbGMm2FkIUWwwGazUww04MfaOWGyLVpxD8eQIbyQ==
@@ -6651,7 +6651,7 @@ gatsby-plugin-sass@^2.1.17:
     "@babel/runtime" "^7.6.2"
     sass-loader "^7.3.1"
 
-gatsby-plugin-sharp@^2.2.27:
+gatsby-plugin-sharp@^2.2.28:
   version "2.2.28"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.2.28.tgz#673c503a9585c88e66bb82e3c76ff860c006d917"
   integrity sha512-+EJVf6X9kyTrh4Ja6VWaYboC2bZHaNrbTu/3xOBi4CLVbALdVxf9ssN4SoIZwqq/byAXKIE8kz4zG/bUeBr6PQ==
@@ -6713,7 +6713,7 @@ gatsby-remark-autolink-headers@^2.1.13:
     mdast-util-to-string "^1.0.6"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-copy-linked-files@^2.1.23:
+gatsby-remark-copy-linked-files@^2.1.24:
   version "2.1.24"
   resolved "https://registry.yarnpkg.com/gatsby-remark-copy-linked-files/-/gatsby-remark-copy-linked-files-2.1.24.tgz#ae2df5393fe5026509c3bbfd2c7d1f0a351572cb"
   integrity sha512-B5uoYZR1yVFaCOxZgWe8mAyadVia7ODqnPEZ2EuS8obRDUTTNJTvX1AdYdqn9RVe3vUFjj43Vmu4RxQ8R9Ty8A==
@@ -6772,7 +6772,7 @@ gatsby-remark-katex@^3.1.12:
     remark-math "^1.0.6"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-prismjs@^3.3.16:
+gatsby-remark-prismjs@^3.3.17:
   version "3.3.17"
   resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.3.17.tgz#61a4fc04d1ce9be7bf0297a91613a88bcac83ca8"
   integrity sha512-V8Aas0s2l7kofk6bBsHKeW0TImZefb9idUpQN6K1AIvqktDrU4vOSpdiIWmkBiWzGA9QSTdQjnfZb7Sj1psEEQ==
@@ -6794,7 +6794,7 @@ gatsby-remark-relative-images@^0.2.3:
     slash "^2.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-remark-responsive-iframe@^2.2.20:
+gatsby-remark-responsive-iframe@^2.2.21:
   version "2.2.21"
   resolved "https://registry.yarnpkg.com/gatsby-remark-responsive-iframe/-/gatsby-remark-responsive-iframe-2.2.21.tgz#4848660104f0974b053fa58667293979553c51bc"
   integrity sha512-3S/KALH5qvMz75uZ5CVX+r45y864aTlEbgfu6ikH3cIx4495N2dc2uW6Q9mvZSn+u8LuooPio/hgkcnvZe/PAw==
@@ -6815,7 +6815,7 @@ gatsby-remark-smartypants@^2.1.11:
     retext-smartypants "^3.0.3"
     unist-util-visit "^1.4.1"
 
-gatsby-source-filesystem@^2.1.28:
+gatsby-source-filesystem@^2.1.29:
   version "2.1.29"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.29.tgz#ca4dd77c850152b1a57d91b6535930b67b35fe73"
   integrity sha512-MRJ3jkGhxJDztXzw0oeh4hizLzs5hGIc/Jq5gwUi5NcrKCR5HDbOFvVVE8irfkoNh7TuvHf6sjWFzDgzlUADgw==
@@ -6859,7 +6859,7 @@ gatsby-telemetry@^1.1.29:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-transformer-remark@^2.6.26:
+gatsby-transformer-remark@^2.6.27:
   version "2.6.27"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.6.27.tgz#f755d6e993a20d7ca21dcde6f85e24a48fdbd670"
   integrity sha512-116aFyLC8GeVfQbFUiP6rJdM+8iNm013NqMG3aTwwLtlHev957M/062KezjiDdZDRUPmOATwq0QNqUXiwF9s+g==
@@ -6886,7 +6886,7 @@ gatsby-transformer-remark@^2.6.26:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.4.1"
 
-gatsby-transformer-sharp@^2.2.19:
+gatsby-transformer-sharp@^2.2.20:
   version "2.2.20"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.2.20.tgz#ea15b35e2727433ebc0190b9068db26634d30010"
   integrity sha512-mTFPP1SVk0rF1ooJNAzVeWn+8loQezQOJCA8zHtndbY63fhNUOKvWtQ737WHCepzINrxPeWH05YBUe35Ky3aOg==
@@ -6899,7 +6899,7 @@ gatsby-transformer-sharp@^2.2.19:
     semver "^5.7.1"
     sharp "^0.23.1"
 
-gatsby@^2.15.28:
+gatsby@^2.15.29:
   version "2.15.29"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.15.29.tgz#ed3a809dcde91018ba0921cd58ebfed30144d3a2"
   integrity sha512-DFRjGgnfEIEZHKEpyM0GMxHaMGOMMcRrVIah7YWAKxpzQz6msXj95EjLv7MSEvWqTTr5Xxmmt3KcG+bJJ3Wp4g==
