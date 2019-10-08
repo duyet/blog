@@ -15,6 +15,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
       >
         <a
           href="/"
+          onClick={[Function]}
         >
           <img
             alt="Test name"
@@ -26,6 +27,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
         </a>
         <h2
           className="author__title"
+          onClick={[Function]}
         >
           <a
             className="author__title-link"
@@ -36,9 +38,13 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
         </h2>
         <p
           className="author__subtitle"
-        >
-          Test bio
-        </p>
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Test bio",
+            }
+          }
+          onClick={[Function]}
+        />
       </div>
       <nav
         className="menu"
@@ -52,6 +58,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
             <a
               className="menu__list-item-link"
               href="/test/1/"
+              onClick={[Function]}
             >
               Test label 1
             </a>
@@ -62,6 +69,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
             <a
               className="menu__list-item-link"
               href="/test/2/"
+              onClick={[Function]}
             >
               Test label 2
             </a>
@@ -72,6 +80,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
             <a
               className="menu__list-item-link"
               href="/test/3/"
+              onClick={[Function]}
             >
               Test label 3
             </a>
@@ -90,6 +99,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
             <a
               className="contacts__list-item-link"
               href="mailto:#"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -112,6 +122,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
             <a
               className="contacts__list-item-link"
               href="https://t.me/#"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -134,6 +145,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
             <a
               className="contacts__list-item-link"
               href="https://www.twitter.com/#"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -156,6 +168,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
             <a
               className="contacts__list-item-link"
               href="https://github.com/#"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -178,6 +191,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
             <a
               className="contacts__list-item-link"
               href="#"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -200,6 +214,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
             <a
               className="contacts__list-item-link"
               href="https://vk.com/#"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -239,6 +254,38 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
       <div
         className="page__body"
       >
+        <div
+          style={
+            Object {
+              "marginBottom": 30,
+            }
+          }
+        >
+          <a
+            className="category-tag"
+            href="/category/machine-learning/"
+          >
+            Machine Learning
+          </a>
+          <a
+            className="category-tag"
+            href="/category/javascript/"
+          >
+            Javascript
+          </a>
+          <a
+            className="category-tag"
+            href="/category/linux/"
+          >
+            Linux
+          </a>
+          <a
+            className="category-tag"
+            href="/category/web/"
+          >
+            Web
+          </a>
+        </div>
         <ul>
           <li>
             <a

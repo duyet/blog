@@ -13,6 +13,7 @@ exports[`Contacts renders correctly 1`] = `
       <a
         className="contacts__list-item-link"
         href="mailto:#"
+        onClick={[Function]}
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -35,6 +36,7 @@ exports[`Contacts renders correctly 1`] = `
       <a
         className="contacts__list-item-link"
         href="https://www.twitter.com/#"
+        onClick={[Function]}
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -57,6 +59,7 @@ exports[`Contacts renders correctly 1`] = `
       <a
         className="contacts__list-item-link"
         href="https://vk.com/#"
+        onClick={[Function]}
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -79,6 +82,7 @@ exports[`Contacts renders correctly 1`] = `
       <a
         className="contacts__list-item-link"
         href="https://github.com/#"
+        onClick={[Function]}
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -101,6 +105,7 @@ exports[`Contacts renders correctly 1`] = `
       <a
         className="contacts__list-item-link"
         href="#"
+        onClick={[Function]}
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -123,6 +128,7 @@ exports[`Contacts renders correctly 1`] = `
       <a
         className="contacts__list-item-link"
         href="https://t.me/#"
+        onClick={[Function]}
         rel="noopener noreferrer"
         target="_blank"
       >

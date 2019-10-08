@@ -7,8 +7,9 @@ exports[`Post renders correctly 1`] = `
   <a
     className="post__home-button"
     href="/"
+    onClick={[Function]}
   >
-    All Articles
+    Test title
   </a>
   <div
     className="post__content"
@@ -56,6 +57,7 @@ exports[`Post renders correctly 1`] = `
           <a
             className="tags__list-item-link"
             href="/test_0"
+            onClick={[Function]}
           >
             test_0
           </a>
@@ -66,31 +68,12 @@ exports[`Post renders correctly 1`] = `
           <a
             className="tags__list-item-link"
             href="/test_1"
+            onClick={[Function]}
           >
             test_1
           </a>
         </li>
       </ul>
-    </div>
-    <div
-      className="author"
-    >
-      <p
-        className="author__bio"
-      >
-        Test bio
-        <a
-          className="author__bio-twitter"
-          href="https://www.twitter.com/#"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <strong>
-            Test name
-          </strong>
-           on Twitter
-        </a>
-      </p>
     </div>
   </div>
   <div

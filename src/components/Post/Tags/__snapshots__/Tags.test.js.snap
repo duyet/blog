@@ -13,6 +13,7 @@ exports[`Tags renders correctly 1`] = `
       <a
         className="tags__list-item-link"
         href="/test_0"
+        onClick={[Function]}
       >
         test_0
       </a>
@@ -23,6 +24,7 @@ exports[`Tags renders correctly 1`] = `
       <a
         className="tags__list-item-link"
         href="/test_1"
+        onClick={[Function]}
       >
         test_1
       </a>

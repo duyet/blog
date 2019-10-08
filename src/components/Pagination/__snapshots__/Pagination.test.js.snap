@@ -10,6 +10,7 @@ exports[`Pagination renders correctly 1`] = `
     <a
       className="pagination__prev-link"
       href="/page/1"
+      onClick={[Function]}
       rel="prev"
     >
       ← PREV
@@ -21,6 +22,7 @@ exports[`Pagination renders correctly 1`] = `
     <a
       className="pagination__next-link"
       href="/page/3"
+      onClick={[Function]}
       rel="next"
     >
       → NEXT

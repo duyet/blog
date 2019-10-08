@@ -6,6 +6,7 @@ exports[`Author renders correctly 1`] = `
 >
   <a
     href="/"
+    onClick={[Function]}
   >
     <img
       alt="test"
@@ -17,6 +18,7 @@ exports[`Author renders correctly 1`] = `
   </a>
   <h2
     className="author__title"
+    onClick={[Function]}
   >
     <a
       className="author__title-link"
@@ -27,8 +29,12 @@ exports[`Author renders correctly 1`] = `
   </h2>
   <p
     className="author__subtitle"
-  >
-    test
-  </p>
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "test",
+      }
+    }
+    onClick={[Function]}
+  />
 </div>
 `;

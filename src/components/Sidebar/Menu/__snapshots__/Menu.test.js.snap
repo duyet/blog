@@ -13,6 +13,7 @@ exports[`Menu renders correctly 1`] = `
       <a
         className="menu__list-item-link"
         href="/#0/"
+        onClick={[Function]}
       >
         Item 0
       </a>
@@ -23,6 +24,7 @@ exports[`Menu renders correctly 1`] = `
       <a
         className="menu__list-item-link"
         href="/#1/"
+        onClick={[Function]}
       >
         Item 1
       </a>

@@ -12,6 +12,7 @@ exports[`Sidebar renders correctly 1`] = `
     >
       <a
         href="/"
+        onClick={[Function]}
       >
         <img
           alt="Test name"
@@ -23,6 +24,7 @@ exports[`Sidebar renders correctly 1`] = `
       </a>
       <h1
         className="author__title"
+        onClick={[Function]}
       >
         <a
           className="author__title-link"
@@ -33,9 +35,13 @@ exports[`Sidebar renders correctly 1`] = `
       </h1>
       <p
         className="author__subtitle"
-      >
-        Test bio
-      </p>
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Test bio",
+          }
+        }
+        onClick={[Function]}
+      />
     </div>
     <nav
       className="menu"
@@ -49,6 +55,7 @@ exports[`Sidebar renders correctly 1`] = `
           <a
             className="menu__list-item-link"
             href="/test/1/"
+            onClick={[Function]}
           >
             Test label 1
           </a>
@@ -59,6 +66,7 @@ exports[`Sidebar renders correctly 1`] = `
           <a
             className="menu__list-item-link"
             href="/test/2/"
+            onClick={[Function]}
           >
             Test label 2
           </a>
@@ -69,6 +77,7 @@ exports[`Sidebar renders correctly 1`] = `
           <a
             className="menu__list-item-link"
             href="/test/3/"
+            onClick={[Function]}
           >
             Test label 3
           </a>
@@ -87,6 +96,7 @@ exports[`Sidebar renders correctly 1`] = `
           <a
             className="contacts__list-item-link"
             href="mailto:#"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -109,6 +119,7 @@ exports[`Sidebar renders correctly 1`] = `
           <a
             className="contacts__list-item-link"
             href="https://t.me/#"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -131,6 +142,7 @@ exports[`Sidebar renders correctly 1`] = `
           <a
             className="contacts__list-item-link"
             href="https://www.twitter.com/#"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -153,6 +165,7 @@ exports[`Sidebar renders correctly 1`] = `
           <a
             className="contacts__list-item-link"
             href="https://github.com/#"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -175,6 +188,7 @@ exports[`Sidebar renders correctly 1`] = `
           <a
             className="contacts__list-item-link"
             href="#"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -197,6 +211,7 @@ exports[`Sidebar renders correctly 1`] = `
           <a
             className="contacts__list-item-link"
             href="https://vk.com/#"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
