@@ -29,29 +29,14 @@ export default class ReactCommento extends React.PureComponent {
 
       const { appId } = this.props.facebookComment;
       const { url } = this.props;
-      let commentUrl = url;
 
       return (
         <FacebookProvider appId={appId}>
 
           <div className={styles['fbcomment-container']}>
-
-            <Initialize>
-            {({ isReady, api }) => {
-              if (isReady !== true) return null;
-              api.api(`/?id=${url}`, { fields: 'engagment' }, (response) => {
-                if (response && !response.error) {
-                  if (response.engagement.comment_plugin_count === 0) {
-                    commentUrl = url.replace('http://', 'https://');
-                  }
-                }
-              });
-              return null;
-            }}
-            </Initialize>
-
             <div className={styles['fbcomment-container__message']}>Facebook Comment trên duyet.net sẽ ngưng hoạt động từ 2019-10, vui lòng sử dụng Commento bên dưới</div>
-            <Comments href={commentUrl} numPosts={100} mobile={true}/>
+            <Comments href={url} numPosts={100} mobile={true}/>
+            <Comments href={url.replace('http://', 'https://')} numPosts={100} mobile={true}/>
           </div>
         </FacebookProvider>
       );
