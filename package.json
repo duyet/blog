@@ -106,7 +106,7 @@
     "eslint": "6.5.1",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-jest": "22.17.0",
+    "eslint-plugin-jest": "22.19.0",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.16.0",
     "eslint-watch": "6.0.1",
