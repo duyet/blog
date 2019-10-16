@@ -39,7 +39,7 @@
     "disqus"
   ],
   "dependencies": {
-    "bluebird": "^3.7.0",
+    "bluebird": "^3.7.1",
     "classnames": "^2.2.6",
     "codecov": "^3.6.1",
     "gatsby": "^2.16.3",
