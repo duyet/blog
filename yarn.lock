@@ -13801,12 +13801,12 @@ react-error-overlay@^3.0.0:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
   integrity sha512-XzgvowFrwDo6TWcpJ/WTiarb9UI6lhA4PMzS7n1joK3sHfBBBOQHUc0U4u57D6DWO9vHv6lVSWx2Q/Ymfyv4hw==
 
-react-facebook@^8.0.4:
-  version "8.0.4"
-  resolved "https://registry.yarnpkg.com/react-facebook/-/react-facebook-8.0.4.tgz#751e3014cc3a90131400ff24b1c4673bd042722e"
-  integrity sha512-Uka4acqxPTBUeH6NGx9ReJyi2WTkyN9vqURH5766tBLyP8h98fCneE43/S8Kd2uupNCgWHn3yse9MTw1udRNdw==
+react-facebook@^8.1.2:
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/react-facebook/-/react-facebook-8.1.2.tgz#283c5c996a82e243a3688d527c64f1324f8e8349"
+  integrity sha512-VnuDCz1zO8h7ggoDSaj10RbtSVxxRSeQYDtYuu8a5GeEf/ptDdZiBf0GRug7/ehVswm+qJWptCvlA2HM0dI/Dg==
   dependencies:
-    "@babel/runtime" "^7.4.2"
+    "@babel/runtime" "^7.7.2"
     can-use-dom "^0.1.0"
     react-spinner-children "^1.0.8"
 
