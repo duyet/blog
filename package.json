@@ -105,7 +105,7 @@
     "babel-preset-gatsby": "0.2.23",
     "browserslist": "4.8.0",
     "concurrently": "5.0.0",
-    "eslint": "6.7.1",
+    "eslint": "6.7.2",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-jest": "23.1.0",
