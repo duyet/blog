@@ -44,10 +44,10 @@
       text-decoration: underline
     }
 
-    & * {
+    & > * {
       max-width: $layout-post-width;
-      margin-left: auto;
-      margin-right: auto
+      // margin-left: auto;
+      // margin-right: auto
     }
 
     & img {

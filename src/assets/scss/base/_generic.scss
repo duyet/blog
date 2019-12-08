@@ -29,9 +29,9 @@ h6 {
 }
 
 h1 {
-  font-size: $typographic-base-font-size * 2.5;
-  @include line-height(2);
-  @include margin-top(4);
+  font-size: $typographic-base-font-size * 2;
+  @include line-height(1.5);
+  @include margin-top(1.5);
   @include margin-bottom(1);
 }
 
@@ -108,16 +108,16 @@ strong {
   font-weight: 600;
 }
 
-ul {
-  list-style: square;
-  @include margin-bottom(1);
+// ul {
+//   list-style: square;
+//   @include margin-bottom(1);
 
-  & li {
-    padding: 0 5px;
-    margin-bottom: 10px;
-  }
+//   & li {
+//     padding: 0 5px;
+//     margin-bottom: 10px;
+//   }
 
-}
+// }
 
 p {
   @include line-height(1);
