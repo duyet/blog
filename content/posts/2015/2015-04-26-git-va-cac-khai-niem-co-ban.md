@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/04/git-va-cac-khai-niem-co-ban.htm
 slug: /2015/04/git-va-cac-khai-niem-co-ban.html
 category: Git
 description: Bạn là lập trình viên, và đôi khi bạn muốn đưa về trạng thái trước khi quậy phá của file code nào đó? Cách đơn giản nhất đó là sao chép lại file trước khi chỉnh sửa. Trường hợp dùng phương pháp này thì sẽ phải thường xuyên thực hiện việc thêm ngày đã thay đổi vào tên thư mục hay file. Tuy nhiên, việc tự mình sao chép file mỗi lần chỉnh sửa thì sẽ rất vất vả, và cũng dễ xảy ra nhầm lẫn.
+fbCommentUrl: none
 
 ---
 

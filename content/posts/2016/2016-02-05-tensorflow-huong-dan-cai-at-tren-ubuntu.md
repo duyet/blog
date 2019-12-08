@@ -17,6 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/tensorflow-huong-dan-cai-at-tre
 slug: /2016/02/tensorflow-huong-dan-cai-at-tren-ubuntu.html
 category: Machine Learning
 description: Cài đặt Tensorflow
+fbCommentUrl: http://blog.duyetdev.com/2016/02/tensorflow-huong-dan-cai-at-tren-ubuntu.html
 ---
 
 [Tensorflow](http://tensorflow.org/) - thư viện nguồn mở Machine Learning, xử theo mô hình data flow, có nhiều bài giới thiệu về Tensorflow rồi. Ban đầu được thiết kế để nghiên cứu tại phòng lab Google Brain cho các dự án Machine Learning.

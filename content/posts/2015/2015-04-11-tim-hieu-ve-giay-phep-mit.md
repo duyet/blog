@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/04/tim-hieu-ve-giay-phep-mit.html
 slug: /2015/04/tim-hieu-ve-giay-phep-mit.html
 category: News
 description: MIT là một giấy phép phần mềm tự do được phát hành bởi Học viện Công nghệ Massachusetts (Massachusetts Institute of Technology – MIT), được hội đồng MIT X sử dụng.
+fbCommentUrl: none
 
 ---
 

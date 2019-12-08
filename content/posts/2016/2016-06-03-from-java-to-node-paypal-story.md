@@ -17,7 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2016/06/from-java-to-node-paypal-story.
 slug: /2016/06/from-java-to-node-paypal-story.html
 category: News
 description: Câu chuyện của Paypal khi chuyển nền tảng từ Java sang Node.js
-
+fbCommentUrl: none
 ---
 
 Câu chuyện của Paypal khi chuyển nền tảng từ Java sang Node.js

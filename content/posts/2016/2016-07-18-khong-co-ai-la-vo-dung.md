@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2016/07/khong-co-ai-la-vo-dung.html
 slug: /2016/07/khong-co-ai-la-vo-dung.html
 category: News
 description: Có một chàng trai, không thi vào đại học, cha mẹ đã tìm một người vợ cưới về cho anh. Sau khi kết hôn, anh dạy học tại một trường tiểu học trong làng. Vì không có kinh nghiệm, nên chưa đầy một tuần anh đã bị học sinh tẩy chay, khiến anh bị sa thải.
+fbCommentUrl: none
 
 ---
 

@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2017/09/tolksio-put-your-story-up-on-in
 slug: /2017/09/tolksio-put-your-story-up-on-internet.html
 category: Web
 description: Tolks.io này giúp ta tạo một đoạn hội thoại ngắn giữa các nhân vật, trông rất ngộ nghĩnh. Trang này được viết bằng Vue.js
+fbCommentUrl: none
 ---
 
 [Fun] project [tolks.io](http://tolks.io/) này giúp ta tạo một đoạn hội thoại ngắn giữa các nhân vật, trông rất ngộ nghĩnh. Trang này được viết bằng Vue.js

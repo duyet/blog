@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/javascript-weekly-2.html
 slug: /2016/05/javascript-weekly-2.html
 category: Javascript
 description: 'Javascript #2 tuần này có gì mới.'
+fbCommentUrl: none
 ---
 
 Javascript #2 tuần này có gì mới.

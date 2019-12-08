@@ -20,6 +20,7 @@ blogger_orig_url: https://blog.duyet.net/2016/11/r-tren-jupiter-notebook-ubuntu-
 slug: /2016/11/r-tren-jupiter-notebook-ubuntu-1404.html
 category: Data Engineer
 description: Jupyter Notebook là công cụ khá mạnh của lập trình viên Python và Data Science. Nếu dùng R, Jupyter cũng cho phép ta tích hợp R kernel vào Notebook một cách dễ dàng.
+fbCommentUrl: none
 ---
 
 Jupyter Notebook là công cụ khá mạnh của lập trình viên Python và Data Science. Nếu dùng R, Jupyter cũng cho phép ta tích hợp R kernel vào Notebook một cách dễ dàng.
@@ -29,7 +30,7 @@ Jupyter Notebook là công cụ khá mạnh của lập trình viên Python và 
 ## Cài đặt ##
 1. Cài Jupyter Notebook và R
 
-```sh
+```shell
 # Install Jupyter Notebook 
 pip install jupyter
 
@@ -42,7 +43,7 @@ sudo apt-get install r-base
 
 2. Cài đặt R kernel, mở R command line
 
-```
+```shell
 root@duyetdev:~# R
 
 R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
@@ -57,7 +58,7 @@ Platform: x86_64-pc-linux-gnu (64-bit)
 
 3. Khởi động Jupyter Notebook   
 
-```
+```shell
 jupyter notebook 
 ```
 

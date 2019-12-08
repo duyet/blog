@@ -15,7 +15,8 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-59080868792322394
 blogger_orig_url: https://blog.duyet.net/2017/11/colaboratory-research-google.html
 slug: /2017/11/colaboratory-research-google.html
 category: Web
-description: 
+description: Colaboratory là phiên bản Jupyter Notebook được Google update lại, nhiều chức năng hay hơn nhất là khả năng cộng tác tương tự Google Docs. Code được lưu trong Google Drive, sử dụng miễn phí backend máy ảo của Google.  
+fbCommentUrl: none
 ---
 
 Colaboratory là phiên bản Jupyter Notebook được Google update lại, nhiều chức năng hay hơn nhất là khả năng cộng tác tương tự Google Docs. Code được lưu trong Google Drive, sử dụng miễn phí backend máy ảo của Google.  

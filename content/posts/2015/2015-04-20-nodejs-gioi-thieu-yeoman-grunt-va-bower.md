@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2015/04/nodejs-gioi-thieu-yeoman-grunt-
 slug: /2015/04/nodejs-gioi-thieu-yeoman-grunt-va-bower.html
 category: Javascript
 description: Chuyển từ PHP sang Nodejs thật có nhiều cái bỡ ngỡ. Cấu trúc được viết dưới dạng None-Blocking tăng tốc độ xử lý và chịu tải lên cực cao. Ứng dụng cũng được viết nhanh hơn rất nhiều nhờ các package và trình quản lý gói npm. Trong bài viết này mình sẽ giới thiệu về 1 số tools mà hầu như mọi lập trình viên Nodejs nào cũng cần phải biết qua, đó là Bower, NPM, Grunt và Yeoman.
+fbCommentUrl: none
 
 ---
 

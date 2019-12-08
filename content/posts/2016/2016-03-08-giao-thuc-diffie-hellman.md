@@ -16,7 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/03/giao-thuc-diffie-hellman.html
 slug: /2016/03/giao-thuc-diffie-hellman.html
 category: Security
 description: Theo trang công nghệ Engadget, giải thưởng AM Turing được coi như Nobel IT năm 2015 sẽ được trao cho hai nhà khoa học Whitfield Diffie và Martin E. Hellman, tác giả của đề tài mã hóa dữ liệu mang tên "Giao thức Difie-Hellman 1976". Phương pháp mã hóa được cho là "có thể bảo vệ hàng nghìn tỷ USD" đã được vinh danh tại giải thường được coi là "giải Nobel" cho lĩnh vực công nghệ thông tin.
-
+fbCommentUrl: none
 ---
 
 Theo trang công nghệ Engadget, giải thưởng AM Turing được coi như Nobel IT năm 2015 sẽ được trao cho hai nhà khoa học Whitfield Diffie và Martin E. Hellman, tác giả của đề tài mã hóa dữ liệu mang tên "Giao thức Difie-Hellman 1976". Phương pháp mã hóa được cho là "có thể bảo vệ hàng nghìn tỷ USD" đã được vinh danh tại giải thường được coi là "giải Nobel" cho lĩnh vực công nghệ thông tin.

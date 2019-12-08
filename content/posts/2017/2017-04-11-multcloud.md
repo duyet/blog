@@ -16,6 +16,7 @@ slug: /2017/04/multcloud.html
 category: Web
 description: Multcloud - di chuyển, sao chép dữ liệu qua lại giữa các Cloud Drive (Google
   Drive, Dropbox, ...)
+fbCommentUrl: none
 ---
 
 Google Drive hay Dropbox đều rất tiện dụng, mình sử dụng rất nhiều trong công việc mỗi ngày. Mỗi Cloud đều có cái hay riêng và đặc thù riêng.  

@@ -14,7 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2015/12/map-reduce-va-bai-toan-wordcoun
 slug: /2015/12/map-reduce-va-bai-toan-wordcount.html
 category: Data Engineer
 description: Map-Reduce là một giải pháp! Map-Reduce được phát minh bởi các kỹ sư Google để giải quyết bài toán xử lý một khối lượng dữ liệu cực lớn, vượt quá khả năng xử lý của một máy tính đơn có cấu hình khủng.
-
+fbCommentUrl: none
 ---
 
 Map-Reduce là một giải pháp! Map-Reduce được phát minh bởi các kỹ sư Google để giải quyết bài toán xử lý một khối lượng dữ liệu cực lớn, vượt quá khả năng xử lý của một máy tính đơn có cấu hình khủng.

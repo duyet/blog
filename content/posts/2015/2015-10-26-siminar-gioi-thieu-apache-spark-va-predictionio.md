@@ -14,7 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2015/10/siminar-gioi-thieu-apache-spark
 slug: /2015/10/seminar-gioi-thieu-apache-spark-va-predictionio.html
 category: Talk
 description: Hôm nay buổi seminar về Apache Spark và giới thiệu PredictionIO tại ISLab (ĐH Công nghệ thông tin, KP6 phường Linh Trung) đã thành công tốt đẹp.
-
+fbCommentUrl: none
 ---
 
 Hôm nay buổi seminar về Apache Spark và giới thiệu PredictionIO tại ISLab (ĐH Công nghệ thông tin, KP6 phường Linh Trung) đã thành công tốt đẹp.

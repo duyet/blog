@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2017/01/writefull.html
 slug: /2017/01/writefull.html
 category: News
 description: Writefull là tool hỗ trợ viết report, tài liệu khoa học bằng tiếng Anh khá hay, nó giúp mình tra cứu từ, sử dụng từ theo ngữ cảnh, so sánh từ, dịch, Writefull sử dụng CSDL từ Google News, Google Scholar, Web, ...  
+fbCommentUrl: none
 ---
 
 **[Writefull](http://writefullapp.com/)** là tool hỗ trợ viết report, tài liệu khoa học bằng tiếng Anh khá hay, nó giúp mình tra cứu từ, sử dụng từ theo ngữ cảnh, so sánh từ, dịch, Writefull sử dụng CSDL từ Google News, Google Scholar, Web, ...  

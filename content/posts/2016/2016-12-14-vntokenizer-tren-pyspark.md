@@ -18,12 +18,17 @@ blogger_orig_url: https://blog.duyet.net/2016/12/vntokenizer-tren-pyspark.html
 slug: /2016/12/vntokenizer-tren-pyspark.html
 category: Data Engineer
 description: Trong blog này mình sẽ custom lại vn.vitk để có thể chạy như một thư viện lập trình, sử dụng ngôn ngữ python (trên PySpark và Jupyter Notebook).  
+
+fbCommentUrl: http://blog.duyetdev.com/2016/12/vntokenizer-tren-pyspark.html
 ---
 
 vnTokenizer của tác giả Lê Hồng Phương ở phiên bản thứ 3 (**[vn.vitk](https://github.com/phuonglh/vn.vitk)**) này được build trên Apache Spark, cho phép xử lý dữ liệu lớn. vn.vitk hỗ trợ các tác vụ: Word segmentation, Part-of-speech tagging, Dependency parsing.  
   
 Tuy nhiên **vn.vitk** được viết trên Java và sử dụng như một công cụ command line tools, khó tùy chỉnh và sử dụng dạng programming:  
-**./bin/spark-submit ~/vitk/target/vn.vitk-3.0.jar -m <master-url> -i <input-file> -o <output-file> -v**  
+
+```bash
+./bin/spark-submit ~/vitk/target/vn.vitk-3.0.jar -m <master-url> -i <input-file> -o <output-file> -v
+``` 
 
   
 
@@ -41,8 +46,26 @@ PySpark sử dụng **py4j** để gọi trực tiếp các thư viện **Spark*
 
 Với vn.vitk.tok.Tokenizer, Class này chỉ có Constructor với tham số String sparkMaster ([link](https://github.com/phuonglh/vn.vitk/blob/master/src/main/java/vn/vitk/tok/Tokenizer.java#L77)), địa chỉ của Spark Master. Mình muốn truyền trực tiếp Spark Context từ PySpark vào, thêm vào file **[vn.vitk/src/main/java/vn/vitk/tok/Tokenizer.java](https://github.com/phuonglh/vn.vitk/blob/master/src/main/java/vn/vitk/tok/Tokenizer.java#L77)**  
   
-
-    public Tokenizer(JavaSparkContext _jsc, String lexiconFileName, String regexpFileName) { jsc = _jsc; lexicon = new Lexicon().load(lexiconFileName); if (verbose)   System.out.println("#(nodes of the lexicon) = " + lexicon.numNodes());  List<String> lines = jsc.textFile(regexpFileName).collect(); for (String line : lines) {  line = line.trim();  if (!line.startsWith("#")) { // ignore comment lines   String[] s = line.split("\\s+");   if (s.length == 2) {    patterns.put(s[0], Pattern.compile(s[1]));   }  } }}
+```java
+public Tokenizer(JavaSparkContext _jsc, String lexiconFileName, String regexpFileName) {
+    jsc = _jsc;
+    lexicon = new Lexicon().load(lexiconFileName);
+    if (verbose) {
+        System.out.println("#(nodes of the lexicon) = " + lexicon.numNodes());
+        List<String> lines = jsc.textFile(regexpFileName).collect();
+        for (String line : lines) {
+            line = line.trim();
+            if (!line.startsWith("#")) {
+                // ignore comment lines   
+                String[] s = line.split("\\s+");
+                if (s.length == 2) {
+                    patterns.put(s[0], Pattern.compile(s[1]));
+                }
+            }
+        }
+    }
+}
+```
 
   
 Xem file hoàn chỉnh tại đây: [https://github.com/duyetdev/vn.vitk/.../java/vn/vitk/tok/Tokenizer.java](https://github.com/duyetdev/vn.vitk/blob/master/src/main/java/vn/vitk/tok/Tokenizer.java)  
@@ -52,20 +75,24 @@ Build lại project bằng lệnh: `mvn compile package`, sau khi build thành c
 ## Submit PySpark và code
 
 Submit vn.vitk-3.0.jar bằng lệnh:  
-  
 
-    export PYSPARK_DRIVER_PYTHON=ipythonexport PYSPARK_DRIVER_PYTHON_OPTS="notebook --NotebookApp.open_browser=False --NotebookApp.ip='*' --NotebookApp.port=8880"export SPARK_HOME=~/spark-1.6.2-bin-hadoop2.6 # Path to home of Sparkpyspark --master local --jars=./lib/vn.vitk-3.0.jar --driver-class-path=./lib/vn.vitk-3.0.jar
+```bash
+export PYSPARK_DRIVER_PYTHON=ipython
+export PYSPARK_DRIVER_PYTHON_OPTS="notebook --NotebookApp.open_browser=False --NotebookApp.ip='*' --NotebookApp.port=8880"
+export SPARK_HOME=~/spark-1.6.2-bin-hadoop2.6 # Path to home of Spark
+pyspark --master local --jars=./lib/vn.vitk-3.0.jar --driver-class-path=./lib/vn.vitk-3.0.jar
+```
 
-  
 Tham khảo thêm về Notebook PySpark trong bài viết sau: [Chạy Apache Spark với Jupyter Notebook](https://blog.duyet.net/2016/09/chay-apache-spark-voi-jupiter-notebook.html#.WEz76RJ97_g)  
 Mở Jupyter notebook trên trình duyệt và code mẫu theo notebook sau:
 
+https://gist.github.com/duyetdev/e1f8122a015b300456ece1b4f92c69f1
 
-<script src="https://gist.github.com/duyetdev/e1f8122a015b300456ece1b4f92c69f1.js"></script>
 
 Kết quả:
 
-<script src="https://gist.github.com/duyetdev/9252f98405738ac63d5d8fd034866dac.js"></script>
+https://gist.github.com/duyetdev/9252f98405738ac63d5d8fd034866dac
+
 
   
 Bạn có thể xem toàn bộ mã nguồn, input và output mẫu tại đây: [https://github.com/duyetdev/pyspark-vn.vitk](https://github.com/duyetdev/pyspark-vn.vitk)  

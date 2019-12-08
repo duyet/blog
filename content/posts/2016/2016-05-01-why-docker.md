@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/why-docker.html
 slug: /2016/05/why-docker.html
 category: Talk
 description: 'Tuần rồi tôi có buổi Seminar về Docker tại ISLab UIT: First look về Docker, kiến trúc cơ bản, quy mô tình hình sử dụng, các ứng dụng và cách sử dụng, viết 1 Dockerfile đơn giản.'
+fbCommentUrl: none
 ---
 
 Tuần rồi tôi có buổi Seminar về Docker tại ISLab UIT: First look về Docker, kiến trúc cơ bản, quy mô tình hình sử dụng, các ứng dụng và cách sử dụng, viết 1 Dockerfile đơn giản.

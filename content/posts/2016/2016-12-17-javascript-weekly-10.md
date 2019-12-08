@@ -19,6 +19,8 @@ blogger_orig_url: https://blog.duyet.net/2016/12/javascript-weekly-10.html
 slug: /2016/12/javascript-weekly-10.html
 category: Javascript
 description: "Javascript Weekly #10 gửi đến cộng đồng một số tin tức JS mới: top frameworks 2017, Angular Next 4.0, Voca xử lý string cực kỳ mạnh, Hyper 1.0 - terminal on top JS, Vuetify, ..."
+
+fbCommentUrl: none
 ---
 
 [Javascript Weekly #10](https://blog.duyet.net/2016/12/javascript-weekly-10.html) gửi đến cộng đồng một số tin tức JS mới: top frameworks 2017, Angular Next 4.0, Voca xử lý string cực kỳ mạnh, Hyper 1.0 - terminal on top JS, Vuetify, ...

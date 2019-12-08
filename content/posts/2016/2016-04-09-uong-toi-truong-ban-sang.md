@@ -12,6 +12,7 @@ blogger_orig_url: https://blog.duyet.net/2016/04/uong-toi-truong-ban-sang.html
 slug: /2016/04/uong-toi-truong-ban-sang.html
 category: News
 description: 
+fbCommentUrl: none
 ---
 
 Băng qua gần <b>32 km - 5 tiếng đồng hồ</b>&nbsp;để đến trường. Tôi không biết nói gì hơn. Chỉ mong làm được gì đó giúp các em ... <br /><br /><div style="text-align: center;"><iframe allowfullscreen="" frameborder="0" height="480" src="https://www.youtube-nocookie.com/embed/Mql3Mwh-h9Y?rel=0&amp;showinfo=0&amp;html5=1" width="853"></iframe>  </div>

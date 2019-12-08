@@ -12,6 +12,7 @@ blogger_orig_url: https://blog.duyet.net/2015/09/git-19-tips-for-everyday-git-us
 slug: /2015/09/git-19-tips-for-everyday-git-use.html
 category: Git
 description: 'I’ve been using git full time for the past 4 years, and I wanted to share the most practical tips that I’ve learned along the way. Hopefully, it will be useful to somebody out there'
+fbCommentUrl: none
 ---
 
 I’ve been using git full time for the past 4 years, and I wanted to share the most practical tips that I’ve learned along the way. Hopefully, it will be useful to somebody out there.

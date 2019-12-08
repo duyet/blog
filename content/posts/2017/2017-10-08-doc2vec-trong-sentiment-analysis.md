@@ -20,8 +20,9 @@ blogger_orig_url: https://blog.duyet.net/2017/10/doc2vec-trong-sentiment-analysi
 slug: /2017/10/doc2vec-trong-sentiment-analysis.html
 category: Machine Learning
 description: Doc2vec, ngoài từ (word), ta còn có thể biểu diễn các câu (sentences) thậm chí 1 đoạn văn bản (document). Khi đó, bạn có thể dễ dàng vector hóa cả một đoạn văn bản thành một vector có số chiều cố định và nhỏ, từ đó có thể chạy bất cứ thuật toán classification cơ bản nào trên các vector đó. 
-
+fbCommentUrl: http://blog.duyetdev.com/2017/10/doc2vec-trong-sentiment-analysis.html
 ---
+
 Sự thành công của **Word2vec** đã được chứng minh trong rất nhiều công trình NLP.  
   
 Nhắc lại về Word2vec, nó sử dụng 1 tập copus, qua một mạng Neural biểu diễn các word thành các vector, các vector giữ lại được tính chất ngữ nghĩa. Tức các từ mang ý nghĩa similar với nhau thì gần nhau trong không gian vector. Trong NLP, đây một trong những phương thức của word embedding. Word2vec hiện nay được sử dụng hết sức rộng rãi.  

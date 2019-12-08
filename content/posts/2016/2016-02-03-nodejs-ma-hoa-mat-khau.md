@@ -14,7 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/nodejs-ma-hoa-mat-khau.html
 slug: /2016/02/nodejs-ma-hoa-mat-khau.html
 category: Javascript
 description: Mã hóa mật khẩu người dùng trước khi lưu vào database là 1 chuyện bắt buộc phải làm đối với bất cứ 1 website nào. Không riêng gì ai, Nodejs cũng hỗ trợ khá nhiều thư viện để hỗ trợ việc mã hóa này.
-
+fbCommentUrl: http://blog.duyetdev.com/2016/02/nodejs-ma-hoa-mat-khau.html
 ---
 
 Mã hóa mật khẩu người dùng trước khi lưu vào database là 1 chuyện bắt buộc phải làm đối với bất cứ 1 website nào. Không riêng gì ai, Nodejs cũng hỗ trợ khá nhiều thư viện để hỗ trợ việc mã hóa này.

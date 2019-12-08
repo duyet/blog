@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2018/11/web-performance-101.html
 slug: /2018/11/web-performance-101.html
 category: Web
 description: Trang web sau sẽ giới thiệu tất tần tật về tối ưu hiệu năng của modern web. Bài viết sẽ giải thích vì sao việc tối ưu là quan trọng, những công nghệ tối ưu và công cụ nào hiện đang được sử dụng, giải thích một cách chi tiết dễ hiểu và cách ứng dụng chúng.
+fbCommentUrl: none
 ---
 
 [Web Performance 101](https://3perf.com/talks/web-perf-101/) - Trang web sau sẽ giới thiệu tất tần tật về tối ưu hiệu năng của modern web. Bài viết sẽ giải thích vì sao việc tối ưu là quan trọng, những công nghệ tối ưu và công cụ nào hiện đang được sử dụng, giải thích một cách chi tiết dễ hiểu và cách ứng dụng chúng.

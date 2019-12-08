@@ -18,6 +18,7 @@ blogger_orig_url: https://blog.duyet.net/2015/04/slack-cong-cu-chat-trong-viec-t
 slug: /2015/04/slack-cong-cu-chat-trong-viec-theo-doi-tien-do-du-an.html
 category: News
 description: Slack là gì? Đây là một dịch vụ chat mới, được phát triển để chúng ta hãy quên đi việc giao tiếp bằng email hay bằng các phần mềm chat thông thường (như Skype, Yahoo, iMessage...). Ưu điểm của nó, thứ nhất là đa nền tảng (máy tính, Android, iOS) nên mọi người trong công ty có thể chat nhóm với nhau bất kể họ dùng thiết bị gì. 
+fbCommentUrl: none
 
 ---
 

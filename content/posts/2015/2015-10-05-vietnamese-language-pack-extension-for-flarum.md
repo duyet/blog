@@ -14,7 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2015/10/vietnamese-language-pack-extens
 slug: /2015/10/vietnamese-language-pack-extension-for-flarum.html
 category: PHP
 description: Gói ngôn ngữ tiếng Việt cho Flarum.
-
+fbCommentUrl: none
 ---
 
 Flarum is the next-generation forum software that makes online discussion fun. It's simple, fast, and free.

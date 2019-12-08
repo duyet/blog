@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2016/06/mot-nha-ly-luan-phe-binh.html
 slug: /2016/06/mot-nha-ly-luan-phe-binh.html
 category: News
 description: 'PV: Anh nghĩ thế nào về tác phẩm B của nhà thơ F? '
+fbCommentUrl: none
 ---
 
 PV: Anh nghĩ thế nào về tác phẩm B của nhà thơ F? 

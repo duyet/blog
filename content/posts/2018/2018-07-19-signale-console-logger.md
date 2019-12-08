@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2018/07/signale-console-logger.html
 slug: /2018/07/signale-console-logger.html
 category: Web
 description: Signale là một thư viện thay thế console logger trong Nodejs, cho kết quả đẹp, sexy hơn và nhiều chức năng.
+fbCommentUrl: none
 ---
 
 [Signale](https://github.com/klauscfhq/signale) là một thư viện thay thế console logger trong Nodejs, cho kết quả đẹp, sexy hơn và nhiều chức năng.

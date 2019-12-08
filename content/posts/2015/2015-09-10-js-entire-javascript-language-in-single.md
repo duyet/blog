@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/09/js-entire-javascript-language-i
 slug: /2015/09/js-entire-javascript-language-in-single.html
 category: Javascript
 description: A developer named Yusheng has created an amazing infographic that shows the entire JavaScript language syntax into one single image. Take a look and save it for a quick reminder.
+fbCommentUrl: none
 ---
 
 A developer named Yusheng has created an amazing infographic that shows the entire JavaScript language syntax into one single image. Take a look and save it for a quick reminder.

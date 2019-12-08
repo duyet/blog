@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/gioi-thieu-sailsjs-framework.ht
 slug: /2015/08/gioi-thieu-sailsjs-framework.html
 category: Javascript
 description: 'SailsJS là một framework với mong muốn tạo ra một NodeJS framework "dễ sử dụng và đầy đủ mọi thứ" như Ruby on Rails.'
+fbCommentUrl: none
 ---
 
 SailsJS là một framework với mong muốn tạo ra một NodeJS framework "dễ sử dụng và đầy đủ mọi thứ" như Ruby on Rails.

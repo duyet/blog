@@ -11,7 +11,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/mieng-banh-my-chay.html
 slug: /2016/02/mieng-banh-my-chay.html
 category: Story
 description: Đọc ở đâu đó, lưu lại có rảnh đọc lại để tự nhắc nhở bản thân.
-
+fbCommentUrl: none
 ---
 
 Đọc ở đâu đó, lưu lại có rảnh đọc lại để tự nhắc nhở bản thân.

@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/11/friday-party-2011-at-jvn.html
 slug: /2016/11/friday-party-2011-at-jvn.html
 category: Story
 description: 
+fbCommentUrl: none
 ---
 
 <center><iframe allowfullscreen="" frameborder="0" height="480" src="https://www.youtube.com/embed/IhiuiVQxoxk?rel=0" width="853"></iframe></center>

@@ -1,6 +1,6 @@
 ---
 template: post
-title: Đánh giá hệ thống Information Retrieval
+title: Đánh giá hệ thống Information Retrieval (tiếp theo)
 date: "2019-08-31T20:00:00.000+07:00"
 category: Data Engineer
 tags:
@@ -8,59 +8,28 @@ tags:
 - Data Engineer
 - Information Retrieval
 - NLP
-slug: /2019/08/ir-evaluation.html
+slug: /2019/10/ir-evaluation-2.html
 thumbnail: https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80
-description: Trong bài này chúng ta sẽ tìm hiểu về cách đánh giá các hệ thống Information Retrieval, thách thức của việc đánh giá và các độ đo phổ biến như Precision/Accuracy, Recall, R-precision, F-measure, MAP, ...
+description: Tiếp theo về các chỉ số đánh giá các hệ thống Information Retrieval, bài này sẽ bàn về đánh giá hệ thống tìm kiếm với Ground truth là non-binary (không phải nhị phân), và đánh giá hệ thống large scale.
 draft: false
-fbCommentUrl: none
+fbCommentSnapshot: none
+
 ---
 
-Trong bài này chúng ta sẽ tìm hiểu về cách đánh giá các hệ thống Information Retrieval, thách thức của việc đánh giá và các kỹ thuật như Precision/Accuracy, Recall, R-precision, F-measure, MAP, ...
+Tiếp theo về các chỉ số đánh giá các hệ thống Information Retrieval, bài này sẽ bàn về đánh giá hệ thống tìm kiếm với Ground truth là non-binary (không phải nhị phân) và đánh giá hệ thống large scale.
+
+Với các bộ Ground truth không phải là nhị phân, ta không thể sử dụng các độ đo như Precision, Recall, ..., ta dùng một số độ đo khác. Tương tự, với hệ thống ở mức độ cực lớn, ta không thể nào tính được recall, do chỉ biết được kết quả trả về ở những trang đầu.
 
 --- 
 
 ### Information Retrieval 
 - Phần 1: [Vector Space Model](/2019/08/ir-vector-space-model.html)
-- **Phần 2: Đánh giá hệ thống Information Retrieval**
-- Phần 3: [Đánh giá hệ thống Information Retrieval (tiếp theo)](#)
+- Phần 2: [Đánh giá hệ thống Information Retrieval](/2019/08/ir-evaluation.html)
+- **Phần 3: Đánh giá hệ thống Information Retrieval (tiếp theo)**
 
 ---
 
-Các bước đánh giá một hệ thống tìm kiếm IR:
-1. Xây dựng bộ Human Labeled Corpora (Ground truth)
-2. Đánh giá bằng các chỉ số
-    - Precision & Recall
-    - AUC
-    - R-precision
-    - F-Measure
-    - Mean Average Precision (MAP) 
-    - Cumulative Gain (CG)
-
-![Làm thế nào để đánh giá kết quả trả về](../../media/2019/ir-evaluation/IR-evaluate.png)
-
-
-# 1. Khó khăn, thách thức khi đánh giá
-
-Sự đánh giá một hệ thống tìm kiếm thông tin IR gặp khó khăn, vì khi đánh giá ở **khía cạnh phù hợp**, với góc nhìn của con người thì:
- - Subjective: việc kết quả phù hợp hay không hết sức chủ quan.
- - Situational: tùy tình huống, hoàn cảnh thời điểm khác nhau thì con người đánh giá khác nhau.
- - Cognitive
- - Dynamic: đánh giá của con người thay đổi theo thời gian, lúc này lúc khác.
-
-# 2. Human Labeled Corpora
-
-**Human Labeled Corpora** (bộ từ điển từ chuyên gia), hay còn có nhiều tên gọi khác như Gold Standard, Ground truth, Benchmark. Một bộ Human Labeled Corpora bao gồm"
-
-1. Một tập copus chứa các tài liệu (docs)
-2. Một tập các câu truy vấn (queries) $\{ q_1, q_2, ..., q_n \}$
-3. Với mỗi câu query, ta có tập các docs được đánh dấu là phù hợp với query đó, được gán nhãn bằng tay bởi chuyên gia.
-
-Để có kết quả khách quan, ta cần có nhiều chuyên gia khác nhau đánh giá cho cùng một query.
-
-![Human Labeled Corpora](../../media/2019/ir-evaluation/Human-Labeled-Corpora.png)
-
-
-# 3. Chỉ số đánh giá
+# Chỉ số đánh giá khi Ground truth là non-binary
 
 ## a. Precision & Recall
 

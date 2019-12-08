@@ -33,6 +33,7 @@ export type Node = {
     description?: string,
     thumbnail?: string,
     category?: string,
+    fbCommentUrl?: string,
     tags?: string[],
     title: string,
   },

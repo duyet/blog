@@ -12,6 +12,8 @@ blogger_orig_url: https://blog.duyet.net/2016/02/kinh-nghiem.html
 slug: /2016/02/kinh-nghiem.html
 category: Story
 description: Kinh nghiệm 9/10 cho thấy
+fbCommentUrl: none
+draft: true
 ---
 
 Kinh nghiệm 9/10 cho thấy: 

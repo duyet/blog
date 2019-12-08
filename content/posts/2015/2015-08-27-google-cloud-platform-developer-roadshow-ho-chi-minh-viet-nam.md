@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/google-cloud-platform-developer
 slug: /2015/08/google-cloud-platform-developer-roadshow-ho-chi-minh-viet-nam.html
 category: News
 description: Please come join us for some great learning and discussion on the future of compute, storage, big data and the power of Google Cloud Platform
+fbCommentUrl: none
 ---
 
 Please come join us for some great learning and discussion on the future of compute, storage, big data and the power of Google Cloud Platform. Register [here](https://docs.google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform).

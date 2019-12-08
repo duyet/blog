@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2015/04/lorem-ipsum-la-gi.html
 slug: /2015/04/lorem-ipsum-la-gi.html
 category: Web
 description: Nếu bạn là người quen với việc thiết kế web, chắc chắn không dưới một lần bạn đã từng thấy những giao diện được thiết kế và có các dòng chữ không phải là ngôn ngữ quen thuộc nào trên thế giới. Đó chính là những dòng chữ quen thuộc của giới thiết kế layout “Lorem Ipsum Dolor sit amet …”
+fbCommentUrl: none
 
 ---
 

@@ -17,6 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2016/07/create-react-apps.html
 slug: /2016/07/create-react-apps.html
 category: Javascript
 description: Facebook ra mắt công cụ mới Create React App - generate ra React starter project.
+fbCommentUrl: http://blog.duyetdev.com/2016/07/create-react-apps.html
 ---
 
 Một thông tin mới cực kỳ hấp dẫn với cộng đồng [React trong tuần này](http://saveto.co/AIqXFq)! Facebook ra mắt công cụ mới **Create React App** - generate ra React starter project. Cài đặt rất nhanh và không cần phải cấu hình (react, webpack, ...) gì cả, project nhỏ gọn, không có quá nhiều dependencies. Cùng tìm hiểu nhanh về công cụ này.

@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/06/tai-sao-facebook-tao-react-va-b
 slug: /2015/06/tai-sao-facebook-tao-react-va-bien-no.html
 category: News
 description: ReactJS là một Javascript library được phát triển bởi Facebook đang ngày càng trở nên phổ biến hơn. Hiện tại các tài liệu hướng dẫn về cách sử dụng ReactJS trên mạng đã có rất nhiều. Trong bài viết này mình tập trung về lí do mà Facebook đã tạo ra React.
+fbCommentUrl: none
 
 ---
 

@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/thai-nguyen-anh-tuan_4.html
 slug: /2016/02/thai-nguyen-anh-tuan_4.html
 category: News
 description: 'thái: Nguyễn Anh Tuấn'
+fbCommentUrl: none
 ---
 
 [thái: Nguyễn Anh Tuấn](http://vnhacker.blogspot.com/2016/02/nguyen-anh-tuan.html)

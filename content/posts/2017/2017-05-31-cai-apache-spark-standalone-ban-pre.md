@@ -18,6 +18,7 @@ blogger_orig_url: https://blog.duyet.net/2017/05/cai-apache-spark-standalone-ban
 slug: /2017/05/cai-apache-spark-standalone-ban-pre.html
 category: Data
 description: Mình nhận được nhiều phản hồi từ bài viết BigData - Cài đặt Apache Spark trên Ubuntu 14.04 rằng sao cài khó và phức tạp thế. Thực ra bài viết đó mình hướng dẫn cách build và install từ source.
+fbCommentUrl: none
 ---
 
 Mình nhận được nhiều phản hồi từ bài viết [BigData - Cài đặt Apache Spark trên Ubuntu 14.04](http://blog.duyet.net/2015/03/bigdata-cai-at-apache-spark-tren-ubuntu.html#.WS7ZxXaGP_g) rằng sao cài khó và phức tạp thế. Thực ra bài viết đó mình hướng dẫn cách build và install từ source.

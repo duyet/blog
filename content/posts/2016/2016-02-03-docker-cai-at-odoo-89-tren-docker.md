@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/docker-cai-at-odoo-89-tren-dock
 slug: /2016/02/docker-cai-at-odoo-89-tren-docker.html
 category: Linux
 description: Hướng dẫn cài đặt Odoo 8/9 trên Server Ubuntu chỉ bằng vài bước đơn giản
+fbCommentUrl: none
 ---
 
 Docker là một trong những giải pháp đóng gói và cài đặt có xu hướng phát triển mạnh hiện nay. Tôi đã có vài lần [giới thiệu](https://blog.duyet.net/2015/12/docker-la-gi-co-ban-ve-docker.html) và seminar về khả năng của Docker.

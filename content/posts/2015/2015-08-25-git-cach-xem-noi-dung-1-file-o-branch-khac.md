@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/git-cach-xem-noi-dung-1-file-o-
 slug: /2015/08/git-cach-xem-noi-dung-1-file-o-branch-khac.html
 category: Git
 description: 'Nếu bạn đang ở 1 nhánh, và bạn muốn xem nội dung của 1 file nằm ở trên nhánh khác mà không cần phải checkout.'
+fbCommentUrl: none
 ---
 
 Nếu bạn đang ở 1 nhánh, và bạn muốn xem nội dung của 1 file nằm ở trên nhánh khác mà không cần phải checkout. Bạn có thể thực hiện xem nhanh bằng lệnh:

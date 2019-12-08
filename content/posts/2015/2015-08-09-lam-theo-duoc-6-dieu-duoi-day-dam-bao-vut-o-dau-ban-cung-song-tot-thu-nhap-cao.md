@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/lam-theo-duoc-6-dieu-duoi-day-d
 slug: /2015/08/lam-theo-duoc-6-dieu-duoi-day-dam-bao-vut-o-dau-ban-cung-song-tot-thu-nhap-cao.html
 category: News
 description: Đây là viết của Dượng Tony - Tony buổi sáng, không liên quan gì đến các bài viết kỹ thuật trên blog này cả. Nhưng bài viết này mỗi lần đọc lại luôn mang cho mình thêm phần động lực. Post lại ở đây để tự nhắc nhở bản thân luôn phấn đấu, cũng như để mọi người cùng đọc đươc.
+fbCommentUrl: none
 ---
 Đây là viết của Dượng Tony - Tony buổi sáng, không liên quan gì đến các bài viết kỹ thuật trên blog này cả. Nhưng bài viết này mỗi lần đọc lại luôn mang cho mình thêm phần động lực. Post lại ở đây để tự nhắc nhở bản thân luôn phấn đấu, cũng như để mọi người cùng đọc đươc.  
 

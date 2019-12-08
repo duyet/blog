@@ -15,7 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2018/02/svm-word2vec.html
 slug: /2018/02/svm-word2vec.html
 category: Web
 description: Trong chuỗi bài viết này mình sử sử dụng thuật toán SVM để phân lớp sentiment (cảm xúc) cho văn bản, kết hợp với ứng dụng Word2vec để biểu diễn các text dưới dạng vector.    
-
+fbCommentUrl: http://blog.duyetdev.com/2018/02/svm-word2vec.html
 ---
 
 Trong chuỗi bài viết này mình sử sử dụng thuật toán SVM để phân lớp sentiment (cảm xúc) cho văn bản, kết hợp với ứng dụng Word2vec để biểu diễn các text dưới dạng vector.    

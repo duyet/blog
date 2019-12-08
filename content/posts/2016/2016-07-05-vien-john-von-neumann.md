@@ -15,6 +15,8 @@ blogger_orig_url: https://blog.duyet.net/2016/07/vien-john-von-neumann.html
 slug: /2016/07/vien-john-von-neumann.html
 category: Story
 description: Viện John von Neumann nằm trong khu CNPM - Đại học quốc gia TP.HCM. Ngày xưa từng có đi dự hội thảo trong khu này, nghe 1 anh lớn nói sau này có điều kiện nên vào học Thạc sĩ và PhD tại đây, đây là nơi hội tụ của biết bao nhiêu người tài. Lúc đó chỉ cười, thực sự tôi chưa từng nghĩ mình sẽ vào học tại đây.
+fbCommentUrl: none
+
 ---
 
 [Viện John von Neumann](http://www.jvn.edu.vn/) nằm trong khu CNPM - Đại học quốc gia TP.HCM. Ngày xưa từng có đi dự hội thảo trong khu này, nghe 1 anh lớn nói sau này có điều kiện nên vào học Thạc sĩ và PhD tại đây, đây là nơi hội tụ của biết bao nhiêu người tài.

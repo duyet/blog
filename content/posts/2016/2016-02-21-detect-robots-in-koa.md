@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/detect-robots-in-koa.html
 slug: /2016/02/detect-robots-in-koa.html
 category: Javascript
 description: Plugin cho KoaJs, nhận diện crawler bot
+fbCommentUrl: none
 ---
 
 Koa detect robots. Fast Middleware detect bot crawler for Koa.  
@@ -23,13 +24,13 @@ Koa detect robots. Fast Middleware detect bot crawler for Koa.
 
 ## Installation  ##
 
-```
+```bash
 npm install koa-isbot --save 
 ```
 
 ## Usage  ##
 
-```
+```js
 var koa = require('koa')
   , app = koa.app()
   , isBot = require('koa-isbot');
@@ -38,6 +39,22 @@ app.use(isBot());
 
 app.use(function *(next) {
     console.log('isBot? ', this.state.isBot); 
+    // null or 'googlebot', 'bingbot', ... 
+});
+
+app.listen(3000);
+```
+
+Update for Koa2
+```js
+var koa = require('koa')
+  , app = koa.app()
+  , isBot = require('koa-isbot');
+
+app.use(isBot());
+
+app.use(aysnc (ctx, next) => {
+    console.log('isBot? ', ctx.isBot); 
     // null or 'googlebot', 'bingbot', ... 
 });
 

@@ -19,6 +19,8 @@ blogger_orig_url: https://blog.duyet.net/2016/07/sublime-text-plugin-nodejs.html
 slug: /2016/07/sublime-text-plugin-nodejs.html
 category: Web
 description: Hôm nay mình sẽ giới thiệu 1 số plugin cần có để lập trình Node.js trên Sublime.
+fbCommentUrl: none
+
 ---
 
 Trước mình có viết 1 bài về giới thiệu Sublime Text, các [plugin hay cho lập trình viên PHP](https://blog.duyet.net/2014/03/sublime-text-3-editor-manh-me-cho-lap.html). Hôm nay mình sẽ giới thiệu 1 số plugin cần có để lập trình Node.js trên Sublime.

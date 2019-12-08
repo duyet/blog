@@ -14,7 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2015/12/chartico-tao-bieu-o-cot-nhanh-c
 slug: /2015/12/chartico-tao-bieu-o-cot-nhanh-chong-va.html
 category: Web
 description: Chartico là trang web cho phép chúng ta tạo biểu đồ dạng cột rất nhanh chóng và đơn giản. Nói một cách khác, khi bạn cần tạo nhanh một biểu đồ cột, mà không muốn tạo bảng rồi phức tạp nhiều công đoạn như các công cụ thông thường (Excel, Numbers), chỉ cần vào Chartico để làm. Chartico sẽ cho phép ta chỉnh những thứ cơ bản nhất, đó là số liệu trên mỗi cột, màu sắc của từng cột (có 10 màu cho bạn chọn), tên của từng cột. Ở phía trên là lựa chọn tiêu đề cho biểu đồ cũng như tiêu đề phụ (Subtitle).
-
+fbCommentUrl: none
 ---
 
 [Chartico](http://www.chartico.com/) là trang web cho phép chúng ta tạo biểu đồ dạng cột rất nhanh chóng và đơn giản. Nói một cách khác, khi bạn cần tạo nhanh một biểu đồ cột, mà không muốn tạo bảng rồi phức tạp nhiều công đoạn như các công cụ thông thường (Excel, Numbers), chỉ cần vào Chartico để làm. Chartico sẽ cho phép ta chỉnh những thứ cơ bản nhất, đó là: số liệu trên mỗi cột, màu sắc của từng cột (có 10 màu cho bạn chọn), tên của từng cột. Ở phía trên là lựa chọn tiêu đề cho biểu đồ cũng như tiêu đề phụ (Subtitle).

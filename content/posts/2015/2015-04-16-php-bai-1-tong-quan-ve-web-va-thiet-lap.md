@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2015/04/php-bai-1-tong-quan-ve-web-va-t
 slug: /2015/04/php-bai-1-tong-quan-ve-web-va-thiet-lap.html
 category: PHP
 description: Hơn 70% website hiện tại trên thế giới phát triển trên nền ngôn ngữ PHP là minh chứng cụ thể cho thấy đây là một ngôn ngữ mạnh mẽ, phổ biến, dễ sử dụng để phát triển Web trong thời điểm hiện tại. Có thể kể đến một số website hiện tại đang sử dụng PHP là ngôn ngữ nền tảng như Facebook, Wikipedia, Yahoo, Photobucket,…
+fbCommentUrl: none
 
 ---
 

@@ -18,6 +18,7 @@ blogger_orig_url: https://blog.duyet.net/2016/08/parse-stack.html
 slug: /2016/08/parse-stack.html
 category: Project
 description: Parse Server is an open source version of the Parse backend that can be deployed to any infrastructure that can run Node.js.
+fbCommentUrl: none
 ---
 
 Parse Server is an open source version of the Parse backend that can be deployed to any infrastructure that can run Node.js.
@@ -32,7 +33,7 @@ Parse Server works with the Express web application framework. It can be added t
 
 1. Clone and install the Parse Stack
 
-```
+```bash
 git clone https://github.com/duyetdev/parse-stack.git
 cd parse-stack
 npm install
@@ -40,14 +41,14 @@ npm install
 
 2. Install MongoDB or simply by
 
-```
+```bash
 npm install -g mongodb-runner
 mongodb-runner start
 ```
 
 3. Start Parse Stack
 
-```
+```bash
 npm start
 ```
 

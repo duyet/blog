@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/06/vntokenizer-tren-apache-spark.h
 slug: /2016/06/vntokenizer-tren-apache-spark.html
 category: Machine Learning
 description: vnTokenizer là công cụ chuyên dùng tách từ, gán nhãn từ loại cho tiếng Việt, của tác giả Lê Hồng Phương. vnTokenizer được viết bằng Java, có thể sử dụng như Tools Command Line hoặc Programming.
+fbCommentUrl: http://blog.duyetdev.com/2016/06/vntokenizer-tren-apache-spark.html
 ---
 
 [vnTokenizer](http://mim.hus.vnu.edu.vn/phuonglh/softwares/vnTokenizer) là công cụ chuyên dùng tách từ, gán nhãn từ loại cho tiếng Việt, của tác giả [Lê Hồng Phương](http://mim.hus.vnu.edu.vn/phuonglh/). vnTokenizer được viết bằng Java, có thể sử dụng như Tools Command Line hoặc Programming.

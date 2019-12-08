@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/es6-swap-via-destructuring.html
 slug: /2016/05/es6-swap-via-destructuring.html
 category: Javascript
 description: ES6 có chức năng destructuring có khá nhiều công dụng. Thủ thuật sau giúp hoán đổi giá trị 2 biến bằng cách destructuring.
+fbCommentUrl: none
 ---
 
 ES6 có chức năng destructuring có khá nhiều công dụng. Thủ thuật sau giúp hoán đổi giá trị 2 biến bằng cách destructuring.

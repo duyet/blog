@@ -16,7 +16,8 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-87190921571547567
 blogger_orig_url: https://blog.duyet.net/2017/03/notibarjs.html
 slug: /2017/03/notibarjs.html
 category: Project
-description: Notibar.js - Lightweight notification bar, no dependency.   
+description: Notibar.js - Lightweight notification bar, no dependency.  
+fbCommentUrl: none 
 ---
 
 Notibar.js - Lightweight notification bar, no dependency.   

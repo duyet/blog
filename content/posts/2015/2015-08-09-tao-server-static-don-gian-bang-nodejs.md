@@ -15,7 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/tao-server-static-don-gian-bang
 slug: /2015/08/tao-server-static-don-gian-bang-nodejs.html
 category: Javascript
 description: Với package sau bạn có thể tạo 1 static server đơn giản bằng Nodejs.
-
+fbCommentUrl: none
 ---
 
 Với package sau bạn có thể tạo 1 static server đơn giản bằng Nodejs.

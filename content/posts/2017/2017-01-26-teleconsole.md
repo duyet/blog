@@ -13,8 +13,9 @@ blogger_orig_url: https://blog.duyet.net/2017/01/teleconsole.html
 slug: /2017/01/teleconsole.html
 category: Linux
 description: Teleconsole là dịch vụ miễn phí dùng để chia sẻ terminal session với người khác, giống như Teamviewer cho Terminal.
-
+fbCommentUrl: none 
 ---
+
 Teleconsole là dịch vụ miễn phí dùng để chia sẻ terminal session với người khác, giống như Teamviewer cho Terminal.  
   
 

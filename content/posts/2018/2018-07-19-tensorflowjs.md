@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2018/07/tensorflowjs.html
 slug: /2018/07/tensorflowjs.html
 category: Machine Learning
 description: Với TensorFlow.js, không những có thể chạy models machine learning, mà chúng ta còn có thể training trực tiếp ngay trên browser. Trong bài viết ngắn gọn này, mình sẽ giới thiệu cách sử dụng cơ bản và nhanh nhất để bắt đầu với Tensorflow.js.
+fbCommentUrl: none
 ---
 
 Với TensorFlow.js, không những có thể chạy models machine learning, mà chúng ta còn có thể training trực tiếp ngay trên browser. Trong bài viết ngắn gọn này, mình sẽ giới thiệu cách sử dụng cơ bản và nhanh nhất để bắt đầu với Tensorflow.js.

@@ -16,10 +16,11 @@ tags:
 modified_time: '2018-09-10T17:20:37.518+07:00'
 thumbnail: https://1.bp.blogspot.com/-IbzOyRw7mkM/V-Dm-cyXE9I/AAAAAAAAd-I/nGA92fFap4MM4uqKErB7g2H-t6T7CD1RQCLcB/s1600/Selection_006.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-6884070140617008733
-blogger_orig_url: https://blog.duyet.net/2016/09/chay-apache-spark-voi-jupiter-notebook.html
-slug: /2016/09/chay-apache-spark-voi-jupiter-notebook.html
+blogger_orig_url: https://blog.duyet.net/2016/09/chay-apache-spark-voi-jupyter-notebook.html
+slug: /2016/09/chay-apache-spark-voi-jupyter-notebook.html
 category: Data
 description: IPython Notebook là một công cụ tiện lợi cho Python. Ta có thể Debug chương trình PySpark Line-by-line trên IPython Notebook một cách dễ dàng, tiết kiệm được nhiều thời gian.
+fbCommentUrl: http://blog.duyetdev.com/2016/09/chay-apache-spark-voi-jupiter-notebook.html
 ---
 
 IPython Notebook là một công cụ tiện lợi cho Python. Ta có thể Debug chương trình PySpark Line-by-line trên IPython Notebook một cách dễ dàng, tiết kiệm được nhiều thời gian.
@@ -29,13 +30,13 @@ IPython Notebook là một công cụ tiện lợi cho Python. Ta có thể Debu
 ## 1. Cài đặt Spark ##
 Truy cập trang chủ ([https://spark.apache.org/downloads.html](https://spark.apache.org/downloads.html)), tải về bản Spark phù hợp (ở đây tôi tải bản Apache Spark 1.6.2).
 
-```
+```bash
 wget http://d3kbcqa49mib13.cloudfront.net/spark-1.6.2-bin-hadoop2.6.tgz
 ```
 
 Giải nén và khởi động Spark Standard Alone (hoặc Cluster).
 
-```
+```bash
 tar -xzvf spark-1.6.2-bin-hadoop2.6.tgz
 cd spark-1.6.2-bin-hadoop2.6
 ./sbin/start-all.sh
@@ -49,19 +50,19 @@ Kiểm tra Spark đã Start thành công hay chưa, truy cập: http://spark-mas
 ## 2. Cài đặt Jupyter Notebook ##
 Cài đặt bằng command line
 
-```
+```bash
 sudo apt-get install ipython-notebook
 ```
 
 Cấu hình cho IPython Notebook
 
-```
+```bash
 jupyter notebook --generate-config
 ```
 
 Mở file `.jupyter/jupyter_notebook_config.py` và cấu hình lại các tham số sau:
 
-```
+```bash
 c.NotebookApp.ip = '*'
 c.NotebookApp.port = 1603
 c.NotebookApp.open_browser = False
@@ -74,7 +75,7 @@ Port có thể thay đổi theo ý thích, nếu trùng thì Notebook sẽ tự 
 ## 3. RUN  ##
 Thực thi lệnh
 
-```
+```bash
 PYSPARK_DRIVER_PYTHON=ipython PYSPARK_DRIVER_PYTHON_OPTS='notebook' pyspark \
  --master local --conf spark.executor.memory=3g \
  --conf spark.executor.cores=2 --conf spark.driver.memory=3g \

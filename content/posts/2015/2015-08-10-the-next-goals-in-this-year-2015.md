@@ -11,6 +11,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/the-next-goals-in-this-year-201
 slug: /2015/08/the-next-goals-in-this-year-2015.html
 category: Story
 description: 
+fbCommentUrl: none
 ---
 
 Mục tiêu đến hết năm nay.

@@ -14,7 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2015/09/pha-gia-website-van-e-muon-thuo
 slug: /2015/09/pha-gia-website-van-e-muon-thuo.html
 category: Story
 description: Như các bạn cũng biết, thị trường Website Việt Nam hiện nay trở nên màu mỡ cho các lập trình viên. Qua đó, việc xuất hiện của các công ty, cá nhân sử dụng quá nhiều tiêu đề "giá rẻ" trong chính cả Slogan và thương hiệu của mình. Khiến cho thị trường Website trở nên khó khăn vì người lập trình viên giỏi thì mất quá nhiều công sức và thời gian để tích lũy kinh nghiệm phải bị ép một cái giá "không thể tin nổi" và có thể chỉ chênh lệch chút đỉnh so với người mới vào nghề vì cái giá rẻ đến mức không thể nào nâng hơn được vì nếu nâng thì "một xu dính túi" cũng không có.
-
+fbCommentUrl: none
 ---
 
 Như các bạn cũng biết, thị trường Website Việt Nam hiện nay trở nên màu mỡ cho các lập trình viên. Qua đó, việc xuất hiện của các công ty, cá nhân sử dụng quá nhiều tiêu đề "giá rẻ" trong chính cả Slogan và thương hiệu của mình. Khiến cho thị trường Website trở nên khó khăn vì người lập trình viên giỏi thì mất quá nhiều công sức và thời gian để tích lũy kinh nghiệm phải bị ép một cái giá "không thể tin nổi" và có thể chỉ chênh lệch chút đỉnh so với người mới vào nghề vì cái giá rẻ đến mức không thể nào nâng hơn được vì nếu nâng thì "một xu dính túi" cũng không có.

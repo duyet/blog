@@ -16,7 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/03/how-one-developer-just-broke-th
 slug: /2016/03/how-one-developer-just-broke-the-internet.html
 category: News
 description: Một lập trình viên vừa gây lỗi hàng loạt cho Node, Babel và hàng nghìn projects khác. Chỉ với 11 dòng Javascript.
-
+fbCommentUrl: none
 ---
 
 Một lập trình viên vừa gây lỗi hàng loạt cho Node, Babel và hàng nghìn projects khác. Chỉ với 11 dòng Javascript.

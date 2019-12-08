@@ -19,7 +19,9 @@ blogger_orig_url: https://blog.duyet.net/2016/10/devstack-maruno-magnum.html
 slug: /2016/10/devstack-maruno-magnum.html
 category: News
 description: DevStack là giúp triển khai mô hình Openstack cho Developers, có thể chạy trên Single-Machine
+fbCommentUrl: http://blog.duyetdev.com/2016/10/devstack-maruno-magnum.html
 ---
+
 DevStack là giúp triển khai mô hình Openstack cho Developers, có thể chạy trên Single-Machine.  
 Trong bài này sẽ hướng dẫn cách cài đặt DevStack, với các module mở rộng như **Magnum \[1\]** (triển khai Containers trên Openstack), **Murano** \[2\] (Application catalogs), ...  
   

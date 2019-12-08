@@ -16,7 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/webgazerjs-theo-doi-chuyen-dong
 slug: /2016/05/webgazerjs-theo-doi-chuyen-dong-mat.html
 category: Javascript
 description: WebGazer.js là thư viện viết bằng Javascript, theo dõi mắt người dùng, xác định điểm trên màn hình mà người dùng đang chú ý đến. Thư viện xử lý real-time, chạy trực tiếp trên trình duyệt, sử dụng webcam để nhận diện và không cần phải gửi video về server.
-
+fbCommentUrl: none
 ---
 
 WebGazer.js là thư viện viết bằng Javascript, theo dõi mắt người dùng, xác định điểm trên màn hình mà người dùng đang chú ý đến. Thư viện xử lý real-time, chạy trực tiếp trên trình duyệt, sử dụng webcam để nhận diện và không cần phải gửi video về server.

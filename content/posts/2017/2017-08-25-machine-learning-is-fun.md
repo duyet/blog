@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2017/08/machine-learning-is-fun.html
 slug: /2017/08/machine-learning-is-fun.html
 category: Machine Learning
 description: 'Chuỗi bài viết "Machine Learning is Fun!" này mình lược dịch từ bài viết gốc của tác giả ageitgey. Mình tin chắc có rất nhiều bạn đã và đang quan tâm đến Machine Learning hiện nay. "Machine Learning is Fun!" chắc chắn sẽ mang cho bạn đến cho bạn cái nhìn từ cơ bản đến chuyên sâu nhất về thế giới Machine Learning.'
+fbCommentUrl: none
 ---
 
 Chuỗi bài viết _"Machine Learning is Fun!"_ này mình lược dịch từ bài viết gốc của tác giả ageitgey. Mình tin chắc có rất nhiều bạn đã và đang quan tâm đến Machine Learning hiện nay. "Machine Learning is Fun!" chắc chắn sẽ mang cho bạn đến cho bạn cái nhìn từ cơ bản đến chuyên sâu nhất về thế giới Machine Learning.  

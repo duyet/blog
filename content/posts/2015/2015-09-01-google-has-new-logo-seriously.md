@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/09/google-has-new-logo-seriously.h
 slug: /2015/09/google-has-new-logo-seriously.html
 category: News
 description: Google có Logo mới
+fbCommentUrl: none
 ---
 
 Developing. Google has updated its logo in the wake of the move to Alphabet as a parent company.<br /><br /><div style="text-align: center;"><br /></div><center><iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/olFEpeMwgHk" width="560"></iframe></center>

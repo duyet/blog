@@ -15,6 +15,7 @@ slug: /2015/04/mongodb-cach-thiet-lap-e-app-server-ket.html
 category: Data
 description: "Thông thường, chúng ta thường thiết lập để Code và phần Database chung 1 server. Với những ứng dụng lớn để quản lý, chúng ta phải tách riêng biệt chúng trên nhiều server khác nhau.
 Bởi vì mặc định MongoDb không cho phép remote connections mà chỉ cho phép kết nối nội bộ. Mình sẽ hướng dẫn cách thiết lập sao cho từ App Server (server chứa code) kết nối được tới MongoDb Server (hoặc cụm MongoDb Server)"
+
 ---
 
 Thông thường, chúng ta thường thiết lập để Code và phần Database chung 1 server. Với những ứng dụng lớn để quản lý, chúng ta phải tách riêng biệt chúng trên nhiều server khác nhau.

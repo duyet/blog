@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/sitemapduyetdevcom.html
 slug: /2016/02/sitemapduyetdevcom.html
 category: News
 description: sitemap.duyet.net được release nhằm mục đích là 1 global sitemap, tương lai sẽ có chức năng tự động scan cross-domain và tự sắp xếp lại hệ thống sitelink.
+fbCommentUrl: none
 ---
 
 duyetdev.com có rất nhiều demo, project, application, chia thành nhiều nhánh, trên nhiều domain và subdomain. Mình cũng không thể nhớ hết được chúng, hiện tại chỉ có thể dựa vào [Google indexes](https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=site:duyet.net).

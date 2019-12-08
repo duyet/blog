@@ -9,8 +9,8 @@ import styles from './Post.module.scss';
 import type { Node } from '../../types';
 import { useSiteMetadata } from '../../hooks';
 import { gtagTrack } from '../../utils';
-
 import 'katex/dist/katex.min.css';
+
 
 type Props = {
   post: Node
@@ -19,8 +19,12 @@ type Props = {
 const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
-  const { tags, title, date } = post.frontmatter;
+  const {
+    tags, title, date, fbCommentUrl
+  } = post.frontmatter;
   const siteTitle = useSiteMetadata().title;
+
+  console.log('post.frontmatter;', post.frontmatter);
 
   return (
     <div className={styles['post']}>
@@ -36,7 +40,11 @@ const Post = ({ post }: Props) => {
       </div>
 
       <div className={styles['post__comments']}>
-        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
+        <Comments
+          postSlug={slug}
+          postTitle={post.frontmatter.title}
+          fbCommentUrl={fbCommentUrl}
+        />
       </div>
     </div>
   );

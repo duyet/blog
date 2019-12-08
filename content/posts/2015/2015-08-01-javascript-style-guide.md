@@ -12,6 +12,8 @@ blogger_orig_url: https://blog.duyet.net/2015/08/javascript-style-guide.html
 slug: /2015/08/javascript-style-guide.html
 category: Javascript
 description: A mostly reasonable approach to JavaScript.
+fbCommentUrl: none
+
 ---
 
 A mostly reasonable approach to JavaScript.

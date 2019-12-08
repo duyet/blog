@@ -20,8 +20,9 @@ blogger_orig_url: https://blog.duyet.net/2017/08/phan-lop-van-ban.html
 slug: /2017/08/phan-lop-van-ban.html
 category: Machine Learning
 description: Trong Machine Learning và NLP, phân lớp văn bản là một bài toán xử lí văn bản cổ điển, gán các nhãn phân loại lên một văn bản mới dựa trên mức độ tương tự của văn bản đó so với các văn bản đã được gán nhãn trong tập huấn luyện.
-
+fbCommentUrl: http://blog.duyetdev.com/2017/08/phan-lop-van-ban.html
 ---
+
 Trong Machine Learning và NLP, phân lớp văn bản là một bài toán xử lí văn bản cổ điển, gán các nhãn phân loại lên một văn bản mới dựa trên mức độ tương tự của văn bản đó so với các văn bản đã được gán nhãn trong tập huấn luyện.  
   
 Các ứng dụng của phân lớp văn bản thường rất đa dạng như: _lọc email spam, phân tích cảm xúc (sentiment analysis), phân loại tin tức, ..._  

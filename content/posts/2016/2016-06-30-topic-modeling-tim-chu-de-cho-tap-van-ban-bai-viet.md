@@ -14,6 +14,8 @@ blogger_orig_url: https://blog.duyet.net/2016/06/topic-modeling-tim-chu-de-cho-t
 slug: /2016/06/topic-modeling-tim-chu-de-cho-tap-van-ban-bai-viet.html
 category: Machine Learning
 description: "Câu hỏi: Với số lượng bài viết lớn như vậy (hơn 28,000 bài viết), bạn hãy tìm cách nào đó để nhóm các bài viết theo những chủ đề khác nhau. Bạn hãy đề xuất một phương pháp để có thể đặt tên cho từng chủ đề một cách hợp lý nhất. Kết quả công ty A mong đợi sẽ là một file dạng csv gồm 2 cột: cột 1 là tên bài báo, cột 2 là tên chủ đề tương ứng."
+fbCommentUrl: http://blog.duyetdev.com/2016/06/topic-modeling-tim-chu-de-cho-tap-van-ban-bai-viet.html
+
 ---
 
 Một công ty A hoạt động trong lĩnh vực nghiên cứu thị trường đã tiến hành thu thập dữ liệu từ các trang báo điện tử Việt Nam để khảo sát xem thị hiếu của người dân về các chủ đề xã hội và đời sống như thế nào. Từ đó hỗ trợ cho các công ty bán hàng làm chiến lược marketing hiệu quả hơn. Dữ liệu được lấy về, lưu trên một cơ sở dữ liệu dưới định dạng file văn bản (.txt) mà chưa qua bất kỳ khâu xử lý nào. Do trong quá trình lấy dữ liệu, các kỹ thuật viên của công ty A đã sơ suất quên ghi nhớ chủ đề cho từng bài viết khi được tải về. Những gì công ty A hiện có là một thư mục chứa hơn 28,000 file văn bản (text), mỗi file văn bản là nội dung một bài viết trên một trang báo nào đó.

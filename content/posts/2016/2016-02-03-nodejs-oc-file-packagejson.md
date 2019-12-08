@@ -14,7 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/nodejs-oc-file-packagejson.html
 slug: /2016/02/nodejs-oc-file-packagejson.html
 category: Javascript
 description: 'Đọc file package.json giúp ta lấy được một số thông tin của project, như: tên project, version, danh sách các package, ...'
-
+fbCommentUrl: none
 ---
 
 Đọc file package.json giúp ta lấy được một số thông tin của project, như: tên project, version, danh sách các package, ...

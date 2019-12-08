@@ -14,6 +14,7 @@ thumbnail: https://3.bp.blogspot.com/-zBntEa9bcPU/XLrjTOU8rcI/AAAAAAAA-58/6h9mG_
 blogger_orig_url: https://blog.duyet.net/2019/04/google-cloud-next-19.html
 slug: /2019/04/google-cloud-next-19.html
 description: Năm nay mình tham dự Google Cloud Next '19 tại San Francisco. Xin phép chia sẻ lại một vài hình ảnh hội nghị năm nay.
+fbCommentUrl: none
 ---
 
 Năm nay mình tham dự [Google Cloud Next '19 tại San Francisco](https://cloud.withgoogle.com/next/sf). Xin phép chia sẻ lại một vài hình ảnh hội nghị năm nay.  

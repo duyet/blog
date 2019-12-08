@@ -17,6 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2018/06/slide-sentiment-analysis.html
 slug: /2018/06/slide-sentiment-analysis.html
 category: Machine Learning
 description: 'Mình vừa có bài nói về Sentiment Analysis trong NLP bao quát, xin phép chia sẻ lại slide tại đây.'
+fbCommentUrl: none
 ---
 
 Sentiment Analysis: Mining Opinions, Sentiments and Emotions  

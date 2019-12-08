@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2015/12/apache-spark-on-docker.html
 slug: /2015/12/apache-spark-on-docker.html
 category: Data
 description: Docker and Spark are two technologies which are very hyped these days
+fbCommentUrl: none
 ---
 
 Docker and Spark are two technologies which are very hyped these days. [The repository](https://github.com/duyetdev/docker-spark) contains a Docker file to build a Docker image with Apache Spark.

@@ -15,7 +15,8 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-88303403565547416
 blogger_orig_url: https://blog.duyet.net/2018/09/vs-code-import-cost.html
 slug: /2018/09/vs-code-import-cost.html
 category: Dev
-description: Extension này sẽ hiển thị inline trên VS Code size của package (nodejs) đang được import, như hình dưới đây.  
+description: Extension này sẽ hiển thị inline trên VS Code size của package (nodejs) đang được import, như hình dưới đây.
+fbCommentUrl: none
 ---
 
 [Extension này](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) sẽ hiển thị inline trên VS Code size của package (nodejs) đang được import, như hình dưới đây.  

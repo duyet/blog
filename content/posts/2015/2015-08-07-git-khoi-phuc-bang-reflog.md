@@ -14,6 +14,8 @@ blogger_orig_url: https://blog.duyet.net/2015/08/git-khoi-phuc-bang-reflog.html
 slug: /2015/08/git-khoi-phuc-bang-reflog.html
 category: Git
 description: 'Nhiều khi bạn lỡ tay reset hard, xóa commit, xóa branch, ... Có rất ít người biết cách để khôi phục, nhiều bạn còn "trâu bò" hơn khi quyết định.... ngồi code lại. Hầu hết chúng ta có thể cứu nhờ vào cỗ máy thời gian của Git: reflog'
+fbCommentUrl: none
+
 ---
 
 Nhiều khi bạn lỡ tay reset hard, xóa commit, xóa branch, ... Có rất ít người biết cách để khôi phục, nhiều bạn còn "trâu bò" hơn khi quyết định.... ngồi code lại. Hầu hết chúng ta có thể cứu nhờ vào cỗ máy thời gian của Git: reflog

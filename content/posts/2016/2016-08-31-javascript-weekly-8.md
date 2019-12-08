@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/08/javascript-weekly-8.html
 slug: /2016/08/javascript-weekly-8.html
 category: Javascript
 description: "Javascript Weekly #8 với các bài viết: React Native có mặt trên Ubuntu, JS góp mặt vào IoT với việc điều khiển các mạch máy tính thông minh, song song hoá tính toán với GPU, ..."
+fbCommentUrl: none
 ---
 
 Javascript Weekly #8 với các bài viết: React Native có mặt trên Ubuntu, JS góp mặt vào IoT với việc điều khiển các mạch máy tính thông minh, song song hoá tính toán với GPU, ...

@@ -17,7 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/savetoco-ra-mat-til.html
 slug: /2016/05/savetoco-ra-mat-til.html
 category: Project
 description: TIL là viết tắt của Today I learn, là một cách mà nhiều kĩ sư giỏi trên thế giới giữ thói quen học tập mỗi ngày bằng cách lưu lại kiến thức mình học được hàng ngày vào đâu đó.    
-
+fbCommentUrl: none
 ---
 
 TIL là viết tắt của Today I learn, là một cách mà nhiều kĩ sư giỏi trên thế giới giữ thói quen học tập mỗi ngày bằng cách lưu lại kiến thức mình học được hàng ngày vào đâu đó.    

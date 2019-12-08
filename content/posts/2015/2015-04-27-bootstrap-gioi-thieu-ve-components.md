@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2015/04/bootstrap-gioi-thieu-ve-compone
 slug: /2015/04/bootstrap-gioi-thieu-ve-components.html
 category: Web
 description: Ở bài trước mình đã giới thiệu về Bootstrap về hệ thống Grid, giúp bạn tạo nên bố cục, giao diện Responsive cho trang web. Cùng với các định dạng sẵn tất cả các Tag HTML theo phong cách của Bootstrap nếu muốn dùng nhanh thì có thể không cần phải code thêm chút CSS nào nữa. Mình sẽ giúp các bạn tìm hiểu tiếp Components là gì và cách sử dụng chúng ra sao.
+fbCommentUrl: none
 
 ---
 

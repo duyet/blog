@@ -15,6 +15,8 @@ blogger_orig_url: https://blog.duyet.net/2016/06/savetoco-cap-nhat-giao-dien-tre
 slug: /2016/06/savetoco-cap-nhat-giao-dien-trend-share-binh-luan.html
 category: Project
 description: saveto.co vừa cập nhật hệ thống, nâng cấp một ít giao diện, cho phép hiển thị trực tiếp meta image từ URL.
+fbCommentUrl: none
+
 ---
 
 [saveto.co](https://saveto.co/) vừa cập nhật hệ thống, nâng cấp một ít giao diện, cho phép hiển thị trực tiếp meta image từ URL.

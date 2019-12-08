@@ -12,7 +12,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/github-project-feedback-social-
 slug: /2015/08/github-project-feedback-social-platform.html
 category: Project
 description: Feedback Social is platform free for all to feedback, preview, complain,... about everything. They can get for supports from community about that.
-
+fbCommentUrl: none
 ---
 
 Feedback Social is platform free for all to feedback, preview, complain,... about everything. They can get for supports from community about that.

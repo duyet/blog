@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2015/04/gioi-thieu-ve-google-materializ
 slug: /2015/04/gioi-thieu-ve-google-materialize-css.html
 category: Web
 description: Được dịp ông anh share cái link về Materialize, 1 css framework dựa trên Material Design của Google. Trước đây mình dùng qua Angular Material và Bootstrap Material, nhưng cái này có vẻ thích hơn. Cũng như các CSS framework khác, Google Materialize này cũng đáp ứng được rất nhiều yêu cầu về thiết kế responsive với các dạng gird quen thuộc. Cung cấp cho chúng ta khá nhiều component đẹp mắt và dễ sử dụng.
+fbCommentUrl: none
 
 ---
 

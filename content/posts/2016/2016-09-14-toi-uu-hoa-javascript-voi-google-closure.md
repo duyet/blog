@@ -20,6 +20,7 @@ blogger_orig_url: https://blog.duyet.net/2016/09/toi-uu-hoa-javascript-voi-googl
 slug: /2016/09/toi-uu-hoa-javascript-voi-google-closure.html
 category: News
 description: Closure Compiler là 1 dự án của Google giúp Javascript tải và chạy nhanh hơn. Không phải là biên dịch từ Javascript sang mã máy, mà Closure biên dịch từ Javascript sang better-Javascript. Tức là tự động viết lại Javascript sao cho tối ưu hóa nhất mà kết quả không thay đổi.
+fbCommentUrl: none
 ---
 
 [Closure Compiler](https://developers.google.com/closure/compiler/) là 1 dự án của Google giúp Javascript tải và chạy nhanh hơn. Không phải là biên dịch từ Javascript sang mã máy, mà Closure biên dịch từ Javascript sang better-Javascript. Tức là tự động viết lại Javascript sao cho tối ưu hóa nhất mà kết quả không thay đổi.

@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2015/04/open-source-tim-hieu-ve-giay-ph
 slug: /2015/04/open-source-tim-hieu-ve-giay-phep-apache.html
 category: News
 description: Giấy phép Apache là giấy phép mã nguồn mở được soạn ra bởi Tổ chức phần mềm Apache (ASF – Apache Software Foundation).
+fbCommentUrl: none
 
 ---
 

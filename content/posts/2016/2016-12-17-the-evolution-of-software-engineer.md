@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/12/the-evolution-of-software-engin
 slug: /2016/12/the-evolution-of-software-engineer.html
 category: News
 description: Funny story about the Evolution of a Software Engineer, I copied from [Sean Hickey Med]
+fbCommentUrl: none
 ---
 
 Funny story about the Evolution of a Software Engineer, I copied from [Sean Hickey Med](https://medium.com/@webseanhickey/the-evolution-of-a-software-engineer-db854689243#.wwbexukuv).

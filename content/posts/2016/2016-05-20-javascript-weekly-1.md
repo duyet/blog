@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/javascript-weekly-1.html
 slug: /2016/05/javascript-weekly-1.html
 category: Javascript
 description: Từ nay, blog sẽ có thêm mục mới JavaScript Weekly, cập nhật và tổng hợp hàng tuần về Javascript/Nodejs. Mở đầu tuần đầu tiên này có gì mới?
+fbCommentUrl: none
 ---
 
 Từ nay, blog sẽ có thêm mục mới JavaScript Weekly, cập nhật và tổng hợp hàng tuần về Javascript/Nodejs. Mở đầu tuần đầu tiên này có gì mới?

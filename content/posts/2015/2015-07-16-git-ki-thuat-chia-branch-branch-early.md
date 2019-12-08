@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/07/git-ki-thuat-chia-branch-branch
 slug: /2015/07/git-ki-thuat-chia-branch-branch-early.html
 category: Git
 description: Đây là một bài mình viết trên blog CodeDaily, nói về kĩ thuật chia branch, branch workflow.
+fbCommentUrl: none
 
 ---
 

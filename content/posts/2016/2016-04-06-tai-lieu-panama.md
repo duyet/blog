@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/04/tai-lieu-panama.html
 slug: /2016/04/tai-lieu-panama.html
 category: News
 description: Vụ rò rỉ 2.6TB tài liệu Panama có liên quan đến việc trốn thuế, rửa tiền và tham nhũng đang nóng mấy ngày qua, các tài liệu công bố có liên quan đến nhiều chính trị gia lớn, tổng thống, những người siêu giàu. Có nhiều cái thú vị trong vụ án cấp độ cực lớn ở lần này.
+fbCommentUrl: none
 ---
 
 Vụ rò rỉ 2.6TB tài liệu Panama có liên quan đến việc trốn thuế, rửa tiền và tham nhũng đang nóng mấy ngày qua, các tài liệu công bố có liên quan đến nhiều chính trị gia lớn, tổng thống, những người siêu giàu. Có nhiều cái thú vị trong vụ án cấp độ cực lớn ở lần này.

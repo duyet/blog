@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2015/06/minimalism-in-web-design-past-a
 slug: /2015/06/minimalism-in-web-design-past-and-future.html
 category: Web
 description: Minimalism is one of the most enduring visual frameworks in Web design given its timeless elegance and clear presentation of content. While cycles of popularity come and go, the design technique is a classic and lasting visual philosophy for designers across all specializations and industries.
+fbCommentUrl: none
 
 ---
 

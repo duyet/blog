@@ -11,6 +11,7 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1470175369463-7bb9f41e614b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80
 slug: /2019/08/migrate-blogger-to-gatsby.html
 description: Mình đã migrate từ Blogger sang Gatsby
+fbCommentUrl: https://blog.duyetdev.com/2019/08/migrate-blogger-to-gatsby.html
 ---
 
 Những bài viết đầu tiên của blog này được bắt đầu năm 2014, đã nhiều năm sử dụng nền tảng Blogger của Google.
@@ -53,7 +54,7 @@ Mình thực hiện các bước sau:
 - Blogger sẽ xuất toàn bộ bài viết thành một file xml **blog-08-07-2019.xml**
 
 - Mình sử dụng công cụ [jekyll-import](https://import.jekyllrb.com/docs/blogger/) của Jekyll, vì format bài viết của Gatsby và Jekyll tương đối giống nhau.
-    ```ruby
+    ```bash
     $ ruby -r rubygems -e 'require "jekyll-import";
     JekyllImport::Importers::Blogger.run({
       "source"                => "blog-08-07-2019.xml",
@@ -68,7 +69,7 @@ Mình thực hiện các bước sau:
     ![](../../media/2019/blogger_export_md.png)
 
 - Với từng bài mình tinh chỉnh thêm 1 ít để phù hợp với Gatsby, như set giá trị `slug` từ `blogger_orig_url` lúc export ra, để giữ nguyên url của từng bài viết. Thêm các thuộc tính khác như `category`, `tag`, ... chỉnh sửa lại các bài viết cũ... Mọi thứ có thể làm dễ dàng thông qua công cụ *Find and Replace* của VSCode.
-    ```
+    ```markdown
     blogger_orig_url: https://blog.duyet.net/2019/04/shorten-url-voi-firebase.html
     slug: /2019/04/shorten-url-voi-firebase.html
     ...

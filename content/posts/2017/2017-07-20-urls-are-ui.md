@@ -17,7 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2017/07/urls-are-ui.html
 slug: /2017/07/urls-are-ui.html
 category: Web
 description: URLs are UI - mình đã nghe cái này nhiều và từ lâu rồi. Điều này hết sức rõ ràng và mình thấy hoàn toàn đúng.
-
+fbCommentUrl: none
 ---
 
 URLs are UI - mình đã nghe cái này nhiều và từ lâu rồi. Điều này hết sức rõ ràng và mình thấy hoàn toàn đúng.

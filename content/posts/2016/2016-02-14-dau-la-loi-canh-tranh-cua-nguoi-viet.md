@@ -12,6 +12,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/dau-la-loi-canh-tranh-cua-nguoi
 slug: /2016/02/dau-la-loi-canh-tranh-cua-nguoi-viet.html
 category: News
 description: Trong buổi trò chuyện đầu năm với chúng tôi, GS.TSKH Vũ Minh Giang cho rằng, đã tới lúc nên nhìn nhận, coi những giá trị di sản văn hóa phi vật thể như tính cách của người Việt cũng chính là tài nguyên phát triển.    
+fbCommentUrl: none
 ---
 
 [Chinhphu.vn](http://chinhphu.vn/) - Trong buổi trò chuyện đầu năm với chúng tôi, GS.TSKH Vũ Minh Giang cho rằng, đã tới lúc nên nhìn nhận, coi những giá trị di sản văn hóa phi vật thể như tính cách của người Việt cũng chính là tài nguyên phát triển.    

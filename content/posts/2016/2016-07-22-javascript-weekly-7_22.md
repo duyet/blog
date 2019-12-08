@@ -20,6 +20,8 @@ blogger_orig_url: https://blog.duyet.net/2016/07/javascript-weekly-7_22.html
 slug: /2016/07/javascript-weekly-7_22.html
 category: Javascript
 description: "Javascript Weekly #7 tuần này: giới thiệu HyperTerm - Command Line mạnh mẽ dựa trên công nghệ của Web, Node.js, Howler.js là một thư viện Audio nhiều tính năng, hay cách xây dựng ứng dụng Desktop sử dụng Electron và React, khám phá 2 chức năng mới trong ES6, ..."
+fbCommentUrl: none
+
 ---
 
 Javascript Weekly #7 tuần này: giới thiệu HyperTerm - Command Line mạnh mẽ dựa trên công nghệ của Web, Node.js, Howler.js là một thư viện Audio nhiều tính năng, hay cách xây dựng ứng dụng Desktop sử dụng Electron và React, khám phá 2 chức năng mới trong ES6, ...

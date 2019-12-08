@@ -16,7 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2018/09/5-bi-quyet-js-conditionals-tot-
 slug: /2018/09/5-bi-quyet-js-conditionals-tot-hon.html
 category: Web
 description: Trong Javascript, chúng ta phải sử dụng nhiều loại lệnh điều kiện (if ... else ...) khác nhau, sau đây là 5 bí quyết để viết lệnh if else nhanh hơn và chuyên nghiệp hơn.
-
+fbCommentUrl: none
 ---
 
 Trong Javascript, chúng ta phải sử dụng nhiều loại lệnh điều kiện (if ... else ...) khác nhau, sau đây là 5 bí quyết để viết lệnh if else nhanh hơn và chuyên nghiệp hơn.

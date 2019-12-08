@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2015/04/project-mongo-web-query-simple.
 slug: /2015/04/project-mongo-web-query-simple.html
 category: Web
 description: Mongo Web Query is Simple Node Application on Web, for query the MongoDB data, one of tools for LvDuit Project Preview Mining.
+fbCommentUrl: none
 
 ---
 

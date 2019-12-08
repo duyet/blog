@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/tien-si-la-gi.html
 slug: /2016/05/tien-si-la-gi.html
 category: News
 description: Tiến sĩ là gì? Người có kiến thức như thế nào thì đặt tới trình độ Tiến sĩ (Ph.D)?
+fbCommentUrl: none
 ---
 
 Tiến sĩ là gì? Người có kiến thức như thế nào thì đặt tới trình độ Tiến sĩ (Ph.D)?

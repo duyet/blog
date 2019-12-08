@@ -17,6 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2016/06/atom-power-mode.html
 slug: /2016/06/atom-power-mode.html
 category: Dev
 description: Atom power-mode
+fbCommentUrl: none
 ---
 
 Thấy cái này đang Trend trên [Atom IDE](https://atom.io/), cho cảm giác thật là "Power-Mode" :v  như này đây:

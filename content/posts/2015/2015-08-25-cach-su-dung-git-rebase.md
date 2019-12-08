@@ -12,6 +12,8 @@ blogger_orig_url: https://blog.duyet.net/2015/08/cach-su-dung-git-rebase.html
 slug: /2015/08/cach-su-dung-git-rebase.html
 category: Git
 description: 'Trong dự án, code của bạn luôn có sự thay đổi, sau khi push 1 đống commit lên github. Một ngày kia ông Leader kêu lại: "Ê mày, sửa chỗ này, sửa chỗ kia, code không đúng chuẩn rồi, bla bla ...". Thế là phải hồi hì hục cải tiến code, coding style cho "chuẩn".'
+fbCommentUrl: http://blog.duyetdev.com/2015/08/cach-su-dung-git-rebase.html
+
 ---
 
 Trong dự án, code của bạn luôn có sự thay đổi, sau khi push 1 đống commit lên github. Một ngày kia ông Leader kêu lại: "Ê mày, sửa chỗ này, sửa chỗ kia, code không đúng chuẩn rồi, bla bla ...". Thế là phải hồi hì hục cải tiến code, coding style cho "chuẩn".

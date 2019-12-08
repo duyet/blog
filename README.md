@@ -46,7 +46,7 @@
 
 Navigate into your new site’s directory and start it up.
 
-```sh
+```shell
 cd blog.duyet.net
 gatsby develop
 ```
@@ -75,7 +75,7 @@ To deploy to github pages, simply do the following:
 - Change the `pathPrefix` in your `config.js`
 - Run the standard deploy command
 
-```sh
+```shell
 npm run deploy
 ```
 

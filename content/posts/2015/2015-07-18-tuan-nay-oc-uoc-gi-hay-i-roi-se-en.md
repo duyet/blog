@@ -14,6 +14,8 @@ blogger_orig_url: https://blog.duyet.net/2015/07/tuan-nay-oc-uoc-gi-hay-i-roi-se
 slug: /2015/07/tuan-nay-oc-uoc-gi-hay-i-roi-se-en.html
 category: Book
 description: Đây là một câu chuyện về quá trình khởi nghiệp, cũng với những chia sẻ về khó khăn và kinh nghiệm của tác giả.
+fbCommentUrl: none
+
 ---
 
 Đây là một câu chuyện về quá trình khởi nghiệp, cũng với những chia sẻ về khó khăn và kinh nghiệm của tác giả.

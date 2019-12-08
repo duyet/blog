@@ -12,6 +12,8 @@ blogger_orig_url: https://blog.duyet.net/2015/08/git-chinh-sua-git-vua-commit.ht
 slug: /2015/08/git-chinh-sua-git-vua-commit.html
 category: Git
 description: Một khi git đã được commit, bạn nhận ra bạn commit thiếu file, muốn chỉnh sửa lại commit message
+fbCommentUrl: none
+
 ---
 
 Một khi git đã được commit, bạn nhận ra bạn commit thiếu file, muốn chỉnh sửa lại commit message. Cách thêm option `--amend` sau sẽ giúp được bạn.

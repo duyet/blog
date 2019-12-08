@@ -11,6 +11,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/how-to-remove-untracked-files.h
 slug: /2015/08/how-to-remove-untracked-files.html
 category: Git
 description: If you have a bunch of untracked files and want to remove them all in one go then just do this
+fbCommentUrl: none
 ---
 
 If you have a bunch of untracked files and want to remove them all in one go then just do this:

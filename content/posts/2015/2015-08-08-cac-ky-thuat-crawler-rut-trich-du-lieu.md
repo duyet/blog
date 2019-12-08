@@ -13,7 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/cac-ky-thuat-crawler-rut-trich-
 slug: /2015/08/cac-ky-thuat-crawler-rut-trich-du-lieu.html
 category: Data Engineer
 description: Nhân dịp tuyển sinh ĐH này, mình có project về thu thập dữ liệu tuyển sinh của các thí sinh trên trang của các trường ĐH. Project này mục tiêu là thu thập toàn bộ thông tin của thí sinh (SBD, tên, tuổi, điểm các môn, nguyện vọng các ngành, trường mà thí sinh nộp xét tuyển, ...). Điều oái oăm là mỗi trường công bố dữ liệu 1 cách hết sức ... tùm lum và tào lao.
-
+fbCommentUrl: http://blog.duyetdev.com/2015/08/cac-ky-thuat-crawler-rut-trich-du-lieu.html
 ---
 
 Nhân dịp tuyển sinh ĐH này, mình có project về thu thập dữ liệu tuyển sinh của các thí sinh trên trang của các trường ĐH. Project này mục tiêu là thu thập toàn bộ thông tin của thí sinh (SBD, tên, tuổi, điểm các môn, nguyện vọng các ngành, trường mà thí sinh nộp xét tuyển, ...). Điều oái oăm là mỗi trường công bố dữ liệu 1 cách hết sức ... tùm lum và tào lao.

@@ -11,6 +11,7 @@ blogger_orig_url: https://blog.duyet.net/2016/04/dat-nuoc-va-nhung-noi-lo.html
 slug: /2016/04/dat-nuoc-va-nhung-noi-lo.html
 category: News
 description: 'Chúng ta cần nhìn nhận lại đất nước chúng ta đang sống một cách sát thực nhất có thể. Nó không đẹp như chúng ta vẫn tưởng, các bạn không muốn quan tâm đến vấn đề chính trị cũng như văn hoá của một dân tộc cho đến khi chúng ta mất tất cả khi đó bạn mới giật mình ngã ngửa vì các bạn quá tin tưởng vào những giá trị mang tính chất "Định Hướng".'
+fbCommentUrl: none
 ---
 
 Chúng ta cần nhìn nhận lại đất nước chúng ta đang sống một cách sát thực nhất có thể .

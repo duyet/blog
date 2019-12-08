@@ -18,7 +18,7 @@ blogger_orig_url: https://blog.duyet.net/2017/09/detect-cars-opencv.html
 slug: /2017/09/detect-cars-opencv.html
 category: Machine Learning
 description: Trong bài này, mình sẽ hướng dẫn sử dụng OpenCV để nhận diện xe hơi trong ảnh (video frame) với đặc trưng HAAR, sử dụng file mô hình đã được trained.
-
+fbCommentUrl: none
 ---
 
 Trong bài này, mình sẽ hướng dẫn sử dụng OpenCV để nhận diện xe hơi trong ảnh (video frame) với [đặc trưng haar](https://en.wikipedia.org/wiki/Haar-like_features), sử dụng file mô hình đã được trained.

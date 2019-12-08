@@ -10,6 +10,7 @@ tags:
 slug: /2019/08/airflow-docker-compose.html
 thumbnail: https://1.bp.blogspot.com/-vBHaHxwvMFw/XWQHodWBFeI/AAAAAAABGCg/Hdlx-I1PSx8_Gip6o7N_2mejUSsT2TCigCLcBGAs/s1600/Screen%2BShot%2B2019-08-26%2Bat%2B11.22.59%2BPM.png
 description: Trong bài này mình sẽ hướng dẫn cách thiết lập môi trường develop Apache Airflow dưới local bằng Docker Compose.
+fbCommentUrl: none
 ---
 
 Trong bài này mình sẽ hướng dẫn cách thiết lập môi trường develop Apache Airflow dưới local bằng Docker Compose.
@@ -24,7 +25,7 @@ Trong bài này mình sẽ hướng dẫn cách thiết lập môi trường dev
 
 Đầu tiên thiết lập cấu trúc project như dưới đây. Thư mục `dags` sẽ chứa các DAG python của Airflow.
 
-```sh
+```shell
 .
 ├── dags
 │   └── first_dag.py
@@ -112,7 +113,7 @@ Mount thư mục `./dags:/opt/airflow/dags` để link thư mục `dags` với t
 
 Tại thư mục project:
 
-```sh
+```shell
 docker-compose up
 ```
 

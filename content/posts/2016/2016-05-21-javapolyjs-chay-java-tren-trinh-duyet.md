@@ -17,7 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/javapolyjs-chay-java-tren-trinh
 slug: /2016/05/javapolyjs-chay-java-tren-trinh-duyet.html
 category: Javascript
 description: Polyfills native, hỗ trợ JVM, bạn có thể import file Jar, biên dịch và chạy trực tiếp mã Java ngay trên trình duyệt Web với JavaPoly, thư viện được viết bằng Javascript.    
-
+fbCommentUrl: none
 ---
 
 Polyfills native, hỗ trợ JVM, bạn có thể import file Jar, biên dịch và chạy trực tiếp mã Java ngay trên trình duyệt Web với JavaPoly, thư viện được viết bằng Javascript.    

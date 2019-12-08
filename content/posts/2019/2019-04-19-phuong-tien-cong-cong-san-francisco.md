@@ -14,7 +14,7 @@ thumbnail: https://1.bp.blogspot.com/-HbKS4i_0yqA/XM0Kbzu24bI/AAAAAAAA_hQ/84Pq1m
 blogger_orig_url: https://blog.duyet.net/2019/05/phuong-tien-cong-cong-san-francisco.html
 slug: /2019/05/phuong-tien-cong-cong-san-francisco.html
 description: San Francisco nổi tiếng với mùa hè mát mẻ dễ chịu, nhiều sương mù, các con đường đẹp với các ngôi nhà trên các con đồi, nhiều cây xanh. Hệ thống giao thông ở San Francisco khá phát triển, có khá nhiều sự lựa chọn đa dạng thuận tiện với các phương tiện công cộng, như SamBus, Bus MUNI, Bus VTA, BART, Caltrain, Cable-Car, ... Các phương tiện công cộng sẽ là lựa chọn tối ưu và tiết kiệm nhất khi ở San Francisco.
-
+fbCommentUrl: http://blog.duyet.net/2019/05/phuong-tien-cong-cong-san-francisco.html
 
 ---
 

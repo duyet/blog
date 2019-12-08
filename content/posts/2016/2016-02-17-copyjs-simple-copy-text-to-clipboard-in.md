@@ -16,7 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/copyjs-simple-copy-text-to-clip
 slug: /2016/02/copyjs-simple-copy-text-to-clipboard-in.html
 category: Javascript
 description: Simple copy to clipboard. No Flash.
-
+fbCommentUrl: none
 ---
 
 Simple copy to clipboard. No Flash.
@@ -26,13 +26,13 @@ Simple copy to clipboard. No Flash.
 ## Install ##
 You can get it on bower. 
 
-```
+```bash
 bower install copy --save
 ```
 
 Or npm, too.
 
-```
+```bash
 npm install copy-js --save
 ```
 
@@ -41,26 +41,26 @@ If you're not into package management, just [[download a ZIP]](https://github.co
 ## Setup ##
 First, include the script located on the dist folder.
 
-```
+```html
 <script src="dist/copy.min.js"></script>
 ```
 
 Or load it from CDN provider.
 
-```
+```html
 <script src="//cdn.rawgit.com/duyetdev/copy.js/master/dist/copy.min.js"></script>
 ```
 
 ## Usage ##
 Just copy:
 
-```
+```js
 copy('hello world.');
 ```
 
 With `callback`:
 
-```
+```js
 copy('hello world', function(err) {
  if (err) console.log('Some thing went wrong!');
 

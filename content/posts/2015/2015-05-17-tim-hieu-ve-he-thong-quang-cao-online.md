@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2015/05/tim-hieu-ve-he-thong-quang-cao-
 slug: /2015/05/tim-hieu-ve-he-thong-quang-cao-online.html
 category: News
 description: Chắc hẳn trong đa số chúng ta đều rất ghét các loại quảng cáo trên Web, Internet. Có lẽ nguyên nhân lớn nhất là chúng cản trở chúng ta đến với dịch vụ (che tầm nhìn của trang web hay tivi), và chúng hiển thị những thông tin mà chúng ta coi là dư thừa, không cần thiết. Tuy nhiên có phải vì thế mà quảng cáo chỉ toàn điều xấu và không đáng tồn tại?
+fbCommentUrl: none
 
 ---
 

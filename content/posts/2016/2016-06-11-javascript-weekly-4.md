@@ -14,7 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/06/javascript-weekly-4.html
 slug: /2016/06/javascript-weekly-4.html
 category: Javascript
 description: React và ES6 vẫn là các chủ đề đang được quan tâm. Javascript Weekly tuần này có gì hot?
-
+fbCommentUrl: none
 ---
 
 React và ES6 vẫn là các chủ đề đang được quan tâm. Javascript Weekly tuần này có gì hot?

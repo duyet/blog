@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2017/04/explain-shell-explainshellcom.h
 slug: /2017/04/explain-shell-explainshellcom.html
 category: Linux
 description: "Bắt gặp một command linux trong một tutorial trên Internet nhưng không hiểu ý nghĩa của nó, ExplainShell.com sẽ giải thích giúp bạn một cách chi tiết: command đó làm việc gì, ý nghĩa các tham số, v.v ..."
+fbCommentUrl: none
 ---
 
 Bắt gặp một command linux trong một tutorial trên Internet nhưng không hiểu ý nghĩa của nó, [ExplainShell.com](https://explainshell.com/) sẽ giải thích giúp bạn một cách chi tiết: command đó làm việc gì, ý nghĩa các tham số, v.v ...

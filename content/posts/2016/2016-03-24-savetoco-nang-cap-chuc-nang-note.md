@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2016/03/savetoco-nang-cap-chuc-nang-not
 slug: /2016/03/savetoco-nang-cap-chuc-nang-note.html
 category: Project
 description: Hệ thống service saveto.co dùng để share và shortener URL, home for the best link in the internet.
+fbCommentUrl: none
 ---
 
 Hệ thống service [saveto.co](https://saveto.co/) dùng để share và shortener URL, home for the best link in the internet.

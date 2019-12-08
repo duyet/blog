@@ -12,7 +12,7 @@ blogger_orig_url: https://blog.duyet.net/2016/01/nodejs-backend-development-book
 slug: /2016/01/nodejs-backend-development-bookmarks.html
 category: Web
 description: Nhiều bạn hỏi, tôi note lại một số bài viết hữu ích về nodejs backend, từ các hướng dẫn cài đặt, npm, database, các frameworks, socket, security, testing, ... tất tần tật để có thể dễ dàng tra cứu. Danh sách này cũng có thể nói gần như overview được hết các kiến thức về Nodejs backend. 
-
+fbCommentUrl: none
 ---
 
 Nhiều bạn hỏi, tôi note lại một số bài viết hữu ích về nodejs backend, từ các hướng dẫn cài đặt, npm, database, các frameworks, socket, security, testing, ... tất tần tật để có thể dễ dàng tra cứu. Danh sách này cũng có thể nói gần như overview được hết các kiến thức về Nodejs backend. 

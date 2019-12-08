@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/12/docker-la-gi-co-ban-ve-docker.h
 slug: /2015/12/docker-la-gi-co-ban-ve-docker.html
 category: Docker
 description: Trong thời gian gần đây có rất nhiều bài báo, hay blog, và cả trên Twitter có rất nhiều người đề cập đến Docker. Vậy Docker là gì và tại sao nó hữu ích
+fbCommentUrl: http://blog.duyetdev.com/2015/12/docker-la-gi-co-ban-ve-docker.html
 ---
 
 Trong thời gian gần đây có rất nhiều bài báo, hay blog, và cả trên Twitter có rất nhiều người đề cập đến Docker. Vậy Docker là gì và tại sao nó hữu ích.  

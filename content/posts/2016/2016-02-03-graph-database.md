@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/graph-database.html
 slug: /2016/02/graph-database.html
 category: Data
 description: Bài trước tôi có nói về Columnar Database và Graph Database. Mục đích là so sánh và đi sâu vào Graph Database. Tiếp đến là xử lý Graph Database với Big Data.
+fbCommentUrl: none
 ---
 
 [Bài trước](https://blog.duyet.net/2016/02/columnar-database-va-graph-database.html) tôi có nói về Columnar Database và Graph Database. Mục đích là so sánh và đi sâu vào Graph Database. Tiếp đến là xử lý Graph Database với Big Data.

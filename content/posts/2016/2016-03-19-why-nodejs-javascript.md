@@ -17,7 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2016/03/why-nodejs-javascript.html
 slug: /2016/03/why-nodejs-javascript.html
 category: Javascript
 description: Hàng năm, Stack Overflow đều có 1 cuộc khảo sát trên hàng trăm nghìn Developers thông qua các dịch của mình. Năm nay có 56,033 coders trên 173 nước trên thế giới tham gia khảo sát. Kết quả của các khảo sát này cho ta cái nhìn tổng quan và đúng đắn nhất về development trong năm qua.
-
+fbCommentUrl: none
 ---
 
 Hàng năm, Stack Overflow đều có 1 cuộc [khảo sát trên hàng trăm nghìn Developers](http://stackoverflow.com/research/developer-survey-2016#overview) thông qua các dịch của mình. Năm nay có 56,033 coders trên 173 nước trên thế giới tham gia khảo sát. Kết quả của các khảo sát này cho ta cái nhìn tổng quan và đúng đắn nhất về development trong năm qua.

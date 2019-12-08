@@ -10,7 +10,7 @@ tags:
 slug: /2019/10/js-shorthand-tips.html
 thumbnail: 
 description: These Javascript shorthand tips will make your code look more cool and clean.
-draft: false
+fbCommentUrl: none
 ---
 
 These Javascript shorthand tips will make your code look more cool and clean. Let's begin.

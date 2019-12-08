@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/cach-su-dung-destructuring-java
 slug: /2016/05/cach-su-dung-destructuring-javascript-es6.html
 category: Javascript
 description: Destructuring là chức năng mới trong ES6 của Javascript. Giúp extract dữ liệu (có thể lồng nhau) từ Array hoặc Object.
+fbCommentUrl: none
 ---
 
 Destructuring là chức năng mới trong ES6 của Javascript. Giúp extract dữ liệu (có thể lồng nhau) từ Array hoặc Object.

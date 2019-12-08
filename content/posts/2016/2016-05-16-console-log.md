@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/console-log.html
 slug: /2016/05/console-log.html
 category: Javascript
 description: Là một lập trình viên Javascript/Nodejs, ắt hẳn ai cũng đã quen với các hàm `console.*` để debug. Nay tôi xin giới thiệu các tính năng cách sử dụng hay và ít được biết đến của các hàm `console.*` này.
+fbCommentUrl: none
 ---
 
 Là một lập trình viên Javascript/Nodejs, ắt hẳn ai cũng đã quen với các hàm `console.*` để debug.
@@ -38,7 +39,7 @@ Cùng ôn lại các hàm của `console`. Bạn có thể test ngay bằng các
 ## Định dạng css cho console.log ##
 Ta có thể định dạng lại các message in ra consolebằng CSS. Chỉ cần viết thêm tham số `%c` và CSS vào tham số cuối cùng. Ví dụ:
 
-```
+```js
 var css='background-color: #FFCC00; color: #FFF; font-weight: 700; padding: 10px';
 console.log('%cTôi là Duyệt', css);
 ```
@@ -51,7 +52,7 @@ console.log('%cTôi là Duyệt', css);
 
 Các hàm console.* cũng hỗ trợ template string.
 
-```
+```js
 console.log("I'm %s and %s years old.", '@duyetdev', 20)
 ```
 
@@ -60,7 +61,7 @@ console.log("I'm %s and %s years old.", '@duyetdev', 20)
 ## Vẽ bảng với console.table() ##
 Debug với array hoặc object phức tạp và không trực quan. `console.table()` giúp hiển thị dữ liệu dưới dạng bảng ngay trên console.
 
-```
+```js
 var people = [["Van-Duyet", "Le"], ["Kim", "Ngan"], ["XYZ", "ABC"]]
 console.table(people);
 ```
@@ -70,7 +71,7 @@ Có thể sort trực tiếp trên dữ liệu.
 
 Làm việc với Object:
 
-```
+```js
 var jobs = [{ name: 'Lê Văn Duyệt', age: 20, job: 'Ăn hại' }, { name: 'Lê Văn X', age: 20, job: 'Ăn ngủ' }]
 console.table(jobs)
 ```
@@ -80,7 +81,7 @@ console.table(jobs)
 ## console.time() ##
 `console.time` và `console.timeEnd` đo thời gian runtime, từ khi `console.time` chạy cho đến khi `console.timeEnd` kết thúc.
 
-```
+```js
 console.time('Thời gian debug hàm X: ');
 // do some thing ....
 console.timeEnd('Thời gian debug hàm X: ');
@@ -92,7 +93,7 @@ console.timeEnd('Thời gian debug hàm X: ');
 ## Nhóm các message với console.group ##
 `console.group` giúp gom các message lại thành 1 group inline. Xem ví dụ sau:
 
-```
+```js
 console.group('Todo');
 console.log('Ngủ');
 

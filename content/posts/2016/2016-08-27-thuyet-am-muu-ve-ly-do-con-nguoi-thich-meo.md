@@ -14,7 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/08/thuyet-am-muu-ve-ly-do-con-nguo
 slug: /2016/08/thuyet-am-muu-ve-ly-do-con-nguoi-thich-meo.html
 category: News
 description: Con người có tự do lựa chọn hay chúng ta chỉ là những con rối bị ký sinh trùng giật dây?
-
+fbCommentUrl: http://blog.duyetdev.com/2016/08/thuyet-am-muu-ve-ly-do-con-nguoi-thich-meo.html
 ---
 
 Con người có tự do lựa chọn hay chúng ta chỉ là những con rối bị ký sinh trùng giật dây?

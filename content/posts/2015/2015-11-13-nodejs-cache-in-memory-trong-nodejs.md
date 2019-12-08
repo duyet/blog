@@ -16,7 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2015/11/nodejs-cache-in-memory-trong-no
 slug: /2015/11/nodejs-cache-in-memory-trong-nodejs.html
 category: Javascript
 description: memory-cache là một package đơn giản trong Nodejs, giúp chúng ta cache 1 biến hay một giá trị bất kì vào bộ nhớ để dễ dàng quản lý, ngoài ra còn có thể thiết lập thời gian để tự hủy cache khi cần thiết.
-
+fbCommentUrl: none
 ---
 
 memory-cache là một package đơn giản trong Nodejs, giúp chúng ta cache 1 biến hay một giá trị bất kì vào bộ nhớ để dễ dàng quản lý, ngoài ra còn có thể thiết lập thời gian để tự hủy cache khi cần thiết.

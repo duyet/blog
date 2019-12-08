@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/nodejs-cac-package-ma-moi-lap-t
 slug: /2015/08/nodejs-cac-package-ma-moi-lap-trinh.html
 category: Javascript
 description: Nodejs module (hay npm module) giúp lập trình viên Nodejs phát triển ứng dụng cực nhanh, lý do là các việc cần xử lý hầu hết là các module đã giải quyết cho chúng ta rồi. Sau mình sẽ liệt kê danh sách các module mà bất cứ ai khi bắt đầu học Nodejs đều phải biết.
+fbCommentUrl: http://blog.duyetdev.com/2015/08/nodejs-cac-package-ma-moi-lap-trinh.html
 
 ---
 

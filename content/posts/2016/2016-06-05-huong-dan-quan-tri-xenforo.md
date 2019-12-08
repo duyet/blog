@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2016/06/huong-dan-quan-tri-xenforo.html
 slug: /2016/06/huong-dan-quan-tri-xenforo.html
 category: Dev
 description: Hướng dẫn quản trị diễn đàn Xenforo. Trích từ tài liệu hướng dẫn sử dụng SHTP Forum.
+fbCommentUrl: none
 ---
 
 Hướng dẫn quản trị diễn đàn Xenforo. Trích từ tài liệu hướng dẫn sử dụng SHTP Forum.

@@ -16,7 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2015/09/grunt-fix-loi-wiredep-cannot-re
 slug: /2015/09/grunt-fix-loi-wiredep-cannot-read-propertu-main-of-undefined.html
 category: Javascript
 description: Grunt Task Wiredep là tác vụ giúp chèn tự động các Components của Bower vào 1 file nào đó.
-
+fbCommentUrl: none
 ---
 
 Grunt Task Wiredep là tác vụ giúp chèn tự động các Components của Bower vào 1 file nào đó.

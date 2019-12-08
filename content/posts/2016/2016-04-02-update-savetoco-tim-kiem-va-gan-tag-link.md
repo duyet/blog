@@ -1,6 +1,6 @@
 ---
 template: post
-title: 'Update saveto.co: tìm kiếm và găn tag link'
+title: 'Update saveto.co: tìm kiếm và gắn tag link'
 date: '2016-04-02T22:45:00.001+07:00'
 author: Van-Duyet Le
 tags:
@@ -17,7 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2016/04/update-savetoco-tim-kiem-va-gan
 slug: /2016/04/update-savetoco-tim-kiem-va-gan-tag-link.html
 category: Project
 description: Hiện saveto.co vừa được nâng cấp, các URL được bookmark trên hệ thống hiện có thể được tìm lại thông qua từ khóa, từ khóa được nhập trực tiếp vào thanh URL. 
-
+fbCommentUrl: none
 ---
 
 Hệ thống service [saveto.co](https://saveto.co/) dùng để share và shortener URL, home for the best link in the internet.

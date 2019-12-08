@@ -12,6 +12,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/tai-chinh-khac-biet.html
 slug: /2016/05/tai-chinh-khac-biet.html
 category: News
 description: 'Tài chính: khác biệt'
+fbCommentUrl: none
 ---
 
 Với mỗi 10 đồng làm được

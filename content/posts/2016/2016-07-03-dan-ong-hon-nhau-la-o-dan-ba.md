@@ -11,6 +11,8 @@ blogger_orig_url: https://blog.duyet.net/2016/07/dan-ong-hon-nhau-la-o-dan-ba.ht
 slug: /2016/07/dan-ong-hon-nhau-la-o-dan-ba.html
 category: News
 description: Đàn ông không phải hơn nhau về tiền bạc, danh vọng hay địa vị trong xã hội. Thực chất đàn ông hơn nhau ở người phụ nữ đi cùng.
+fbCommentUrl: none
+
 ---
 
 Đàn ông không phải hơn nhau về tiền bạc, danh vọng hay địa vị trong xã hội. Thực chất đàn ông hơn nhau ở người phụ nữ đi cùng.

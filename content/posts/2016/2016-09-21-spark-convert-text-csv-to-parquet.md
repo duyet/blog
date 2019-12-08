@@ -19,6 +19,7 @@ blogger_orig_url: https://blog.duyet.net/2016/09/spark-convert-text-csv-to-parqu
 slug: /2016/09/spark-convert-text-csv-to-parquet.html
 category: Data Engineer
 description: Lưu trữ dữ liệu dưới dạng Columnar như Apache Parquet góp phần tăng hiệu năng truy xuất trên Spark lên rất nhiều lần. Bởi vì nó có thể tính toán và chỉ lấy ra 1 phần dữ liệu cần thiết (như 1 vài cột trên CSV), mà không cần phải đụng tới các phần khác của data row. Ngoài ra Parquet còn hỗ trợ flexible compression do đó tiết kiệm được rất nhiều không gian HDFS.  
+fbCommentUrl: none
 ---
 
 Lưu trữ dữ liệu dưới dạng **Columnar** như **Apache Parquet** \[1\] (**[https://parquet.apache.org](https://parquet.apache.org/)**) góp phần tăng hiệu năng truy xuất trên Spark lên rất nhiều lần. Bởi vì nó có thể tính toán và chỉ lấy ra 1 phần dữ liệu cần thiết (như 1 vài cột trên CSV), mà không cần phải đụng tới các phần khác của data row. Ngoài ra Parquet còn hỗ trợ flexible compression do đó tiết kiệm được rất nhiều không gian HDFS.  
@@ -44,14 +45,20 @@ Spark SQL hỗ trợ đọc và ghi Parquet files, và giữ nguyên được me
 Mất **50 phút**, tức khoảng **20GB/phút khi sử dụng 6-datanode Spark 1.5.1**. Tổng lượng bộ nhớ sử dụng là 500GB. Kết quả Parquet files trên HDFS có dạng:  
   
 
-    hdfs:///user/spark/data/parquet1000g/catalog_page/_SUCCESShdfs:///user/spark/data/parquet1000g/catalog_page/_common_metadatahdfs:///user/spark/data/parquet1000g/catalog_page/_metadatahdfs:///user/spark/data/parquet1000g/catalog_page/part-r-00000-a9341639-a804-45bd-b594-8e58220190f4.gz.parquethdfs:///user/spark/data/parquet1000g/catalog_page/part-r-00001-a9341639-a804-45bd-b594-8e58220190f4.gz.parquet
-
+```
+hdfs:///user/spark/data/parquet1000g/catalog_page/_SUCCESS
+hdfs:///user/spark/data/parquet1000g/catalog_page/_common_metadata
+hdfs:///user/spark/data/parquet1000g/catalog_page/_metadata
+hdfs:///user/spark/data/parquet1000g/catalog_page/part-r-00000-a9341639-a804-45bd-b594-8e58220190f4.gz.parquet
+hdfs:///user/spark/data/parquet1000g/catalog_page/part-r-00001-a9341639-a804-45bd-b594-8e58220190f4.gz.parquet
+```
   
 Bộ nhớ tiết kiệm được  
   
-
-    $ hadoop fs -du -h -s /user/spark/data/text1000g897.9 G  /user/spark/data/text1000g$ hadoop fs -du -h -s /user/spark/data/parquet1000g231.4 G  /user/spark/data/parquet1000g
-
+```bash
+$ hadoop fs -du -h -s /user/spark/data/text1000g897.9 G  /user/spark/data/text1000g
+$ hadoop fs -du -h -s /user/spark/data/parquet1000g231.4 G  /user/spark/data/parquet1000g
+```
   
 Từ **897.9GB** text, với Parquet chỉ còn lại **231.4GB,** tiết kiệm được khoảng 75%.  
 

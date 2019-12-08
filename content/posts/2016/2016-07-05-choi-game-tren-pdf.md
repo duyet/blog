@@ -16,7 +16,8 @@ blogger_orig_url: https://blog.duyet.net/2016/07/choi-game-tren-pdf.html
 slug: /2016/07/choi-game-tren-pdf.html
 category: News
 description: Cái này nghe mới lạ, nhưng có thật.
- 
+fbCommentUrl: none
+
 ---
 
 Cái này nghe mới lạ, nhưng có thật.

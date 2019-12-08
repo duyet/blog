@@ -18,7 +18,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/yahoo-ra-mat-bo-dataset-lon-nha
 slug: /2016/02/yahoo-ra-mat-bo-dataset-lon-nhat-machine-learning.html
 category: News
 description: Yahoo Labs đã tung ra nhiều loại bộ dữ liệu khác nhau cho những ai nghiên cứu trong lĩnh vực máy học (Machine Learning). Các bộ dữ liệu này chủ yếu được thu thập từ các dịch vụ của Yahoo, như thông tin hoạt động người dùng, dữ liệu đồ thị, ảnh đã gán nhãn, ngôn ngữ tự nhiên, tin nhắn, tương tác mạng xã hội, tương tác tin tức ... từ Yahoo News, Yahoo Sports, Yahoo Finance, Yahoo Movies, ...
-
+fbCommentUrl: none
 ---
 
 Yahoo Labs đã tung ra nhiều loại bộ dữ liệu khác nhau cho những ai nghiên cứu trong lĩnh vực máy học (Machine Learning). Các bộ dữ liệu này chủ yếu được thu thập từ các dịch vụ của Yahoo, như thông tin hoạt động người dùng, dữ liệu đồ thị, ảnh đã gán nhãn, ngôn ngữ tự nhiên, tin nhắn, tương tác mạng xã hội, tương tác tin tức ... từ Yahoo News, Yahoo Sports, Yahoo Finance, Yahoo Movies, ...

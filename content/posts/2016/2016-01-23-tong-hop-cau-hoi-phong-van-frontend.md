@@ -10,6 +10,7 @@ blogger_orig_url: https://blog.duyet.net/2016/01/tong-hop-cau-hoi-phong-van-fron
 slug: /2016/01/tong-hop-cau-hoi-phong-van-frontend.html
 category: Javascript
 description: Tổng hợp câu hỏi phỏng vấn Frontend Developer.
+fbCommentUrl: none
 ---
 
 See: [https://github.com/duyetdev/vietnamese-frontend-interview-questions](https://github.com/duyetdev/vietnamese-frontend-interview-questions)

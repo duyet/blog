@@ -19,6 +19,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/dockerizing-nodejs.html
 slug: /2016/05/dockerizing-nodejs.html
 category: Linux
 description: Hướng dẫn cách đóng gói và build image docker cho ứng dụng Nodejs một cách cơ bản nhất.
+fbCommentUrl: none
 ---
 
 [Docker ra đời](https://blog.duyet.net/2015/12/docker-la-gi-co-ban-ve-docker.html#.VyYMd4N94_M) cho giải pháp đóng gói, vận chuyển và triển khai ứng dụng hết sức nhanh chóng và đơn giản. Với Docker, các thành viên trong team (cũng như với người muốn trải nghiệm thử project) sẽ triển khai ngay được môi trường ứng dụng mà không phải mất nhiều thời gian, công việc của SysAdmin cũng nhẹ nhàng hơn.

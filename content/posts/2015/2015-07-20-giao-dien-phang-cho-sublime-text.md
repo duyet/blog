@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2015/07/giao-dien-phang-cho-sublime-tex
 slug: /2015/07/giao-dien-phang-cho-sublime-text.html
 category: Web
 description: Sublime text là một editor cực mạnh mẽ với nhiều plugin hữu ích, có thể cài đặt 1 cách dễ dàng trực tiếp. Sublime Text hiện đang được đông đảo các Web Developer sử dụng và yêu thích. Một điểm mạnh nữa là Sublime Text có thể mở rộng thông qua các Plugin, themes, .... viết bằng python.
+fbCommentUrl: none
 
 ---
 

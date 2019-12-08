@@ -18,7 +18,9 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-27797974430654492
 blogger_orig_url: https://blog.duyet.net/2016/06/8-dieu-reactjs-beginner-nen-biet.html
 slug: /2016/06/8-dieu-reactjs-beginner-nen-biet.html
 category: Javascript
-description: 
+description: Mình bắt đầu nghiên cứu và sử dụng React.js một thời gian. Phải nói React và React Native là một trong nghệ của tương lai, sẽ phát triển mạnh.
+
+fbCommentUrl: http://blog.duyetdev.com/2016/06/8-dieu-reactjs-beginner-nen-biet.html
 ---
 
 Mình bắt đầu nghiên cứu và sử dụng [React.js](https://facebook.github.io/react/index.html) một thời gian. Phải nói React và React Native là một trong nghệ của tương lai, sẽ phát triển mạnh.

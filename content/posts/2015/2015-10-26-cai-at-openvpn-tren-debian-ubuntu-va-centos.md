@@ -14,7 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2015/10/cai-at-openvpn-tren-debian-ubun
 slug: /2015/10/cai-at-openvpn-tren-debian-ubuntu-va-centos.html
 category: Linux
 description: OpenVPN là một chương trình mã nguồn mở VPN hoàn toàn miễn phí và đang được xem là giải pháp hoàn hảo nhất cho những ai muốn có một kết nối bảo mật giữa hai mạng. Trong bài này, mình sẽ giới thiệu OpenVPN road warrior installer, một script tự động cài đặt OpenVPN Server rất đơn giản và nhanh chóng.
-
+fbCommentUrl: none
 ---
 
 OpenVPN là một chương trình mã nguồn mở VPN hoàn toàn miễn phí và đang được xem là giải pháp hoàn hảo nhất cho những ai muốn có một kết nối bảo mật giữa hai mạng. Trong bài này, mình sẽ giới thiệu OpenVPN road warrior installer, một script tự động cài đặt OpenVPN Server rất đơn giản và nhanh chóng.

@@ -17,6 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2016/08/co-mot-bien-ong-tren-khong-gian
 slug: /2016/08/co-mot-bien-ong-tren-khong-gian-mang.html
 category: News
 description: Có một Biển Đông trên không gian mạng
+fbCommentUrl: none
 ---
 
 [thái: Có một Biển Đông trên không gian mạng](http://vnhacker.blogspot.com/2016/07/co-mot-bien-ong-tren-khong-gian-mang.html?spref=bl): Mùa hè 2014, giữa lúc người Việt trong nước và hải ngoại đang sôi sục vì Trung Quốc đưa giàn khoan HD-981 vào Biển Đông, từ Hoa Kỳ các chuyên gia của [ThreatConnect](https://www.threatconnect.com/piercing-the-cows-tongue-china-targeting-south-china-seas-nations/) và [ESET](http://www.welivesecurity.com/2014/06/20/targeted-attack-against-vietnamese-government-right-on-the-monre/) công bố hai bản báo cáo độc lập về những tấn công có chủ đích (targeted attacks) vào hệ thống máy tính của các cơ quan chính phủ Việt Nam.

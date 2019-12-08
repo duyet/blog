@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/03/protonmail.html
 slug: /2016/03/protonmail.html
 category: News
 description: ProtonMail cho ra mắt beta hồi 2014, nhưng theo được biết đến hiện nay 2 ứng dụng trên Play Store và Apple Store mới được duyệt do phía Apple và sự chấp thuận chính phủ Mỹ.
+fbCommentUrl: none
 ---
 
 [ProtonMail](https://protonmail.com/) vừa ra mắt công khai dịch vụ của mình, dịch vụ sử dụng các chuẩn mã hóa end-to-end để mã hóa toàn bộ email cá nhân. ProtonMail cho ra mắt beta hồi 2014, nhưng theo được biết đến hiện nay 2 ứng dụng trên Play Store và Apple Store mới được duyệt do phía Apple và sự chấp thuận chính phủ Mỹ.

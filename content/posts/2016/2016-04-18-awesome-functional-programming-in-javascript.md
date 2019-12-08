@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2016/04/awesome-functional-programming-
 slug: /2016/04/awesome-functional-programming-in-javascript.html
 category: Javascript
 description: A curated list of awesome functional programming in JavaScript
+fbCommentUrl: none
 ---
 
 A curated list of awesome functional programming in JavaScript. Origin [here](https://github.com/stoeffel/awesome-fp-js), suggestions and PRs are welcome.

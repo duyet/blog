@@ -14,6 +14,8 @@ blogger_orig_url: https://blog.duyet.net/2015/07/big-data-monitoring-spark-with-
 slug: /2015/07/big-data-monitoring-spark-with-graphite.html
 category: News
 description: 
+fbCommentUrl: none
+
 ---
 
 This post I have read from [HammerLab](http://www.hammerlab.org/2015/02/27/monitoring-spark-with-graphite-and-grafana/), Contact me if Vietnamese version neccessary. In this post, they'll discuss using Graphite and Grafana to graph metrics obtained from our [Spark](http://spark.apache.org/docs/1.2.1/) applications to answer these questions

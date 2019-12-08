@@ -19,6 +19,7 @@ blogger_orig_url: https://blog.duyet.net/2016/08/su-co-vietcombank-mot-goc-nhin-
 slug: /2016/08/su-co-vietcombank-mot-goc-nhin-ky-thuat.html
 category: News
 description: "Bài viết gốc đăng tại VnSecurity"
+fbCommentUrl: none
 ---
 
 Bài viết gốc đăng tại VnSecurity: www.vnsecurity.net/research/2016/08/13/Ve-su-vu-khach-hang-Vietcombank-bi-mat-tien.html

@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/09/how-to-install-oracle-12c-on-ub
 slug: /2015/09/how-to-install-oracle-12c-on-ubuntu-1504.html
 category: Linux
 description: Cách cài đặt Oracle 12c trên Ubuntu 15.04
+fbCommentUrl: none
 ---
 
 This tutorial show How to Install Oracle 12C on Ubuntu 15.04. Ubuntu like systems are not in the list of Oracle 12c Database Supported OS, so you should be careful and use it at most for Development and not as Production Database Server

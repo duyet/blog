@@ -20,7 +20,7 @@ blogger_orig_url: https://blog.duyet.net/2016/09/pyspark-thieu-thu-vien-python-t
 slug: /2016/09/pyspark-thieu-thu-vien-python-tren-worker.html
 category: Data
 description: Apache Spark chạy trên Cluster, với Java thì đơn giản. Với Python thì package python phải được cài trên từng Node của Worker. Nếu không bạn sẽ gặp phải lỗi thiếu thư viện.
-
+fbCommentUrl: none
 ---
 
 Apache Spark chạy trên Cluster, với Java thì đơn giản. Với Python thì package python phải được cài trên từng Node của Worker. Nếu không bạn sẽ gặp phải lỗi thiếu thư viện.

@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/04/ra-mat-nodejs-v6.html
 slug: /2016/04/ra-mat-nodejs-v6.html
 category: Javascript
 description: Ra mắt Node.js v6.0.0
+fbCommentUrl: none
 ---
 
 Hôm nay 26/04, Node.js vừa ra mắt [phiên bản v6.0.0](https://nodejs.org/en/blog/release/v6.0.0/), với nhiều cải tiến về hiệu suất, load module nhanh hơn đáng kể, cải tiến Buffer, File System APIs, tests và tài liệu tốt hơn.

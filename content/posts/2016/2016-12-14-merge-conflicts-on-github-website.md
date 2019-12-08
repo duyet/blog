@@ -13,6 +13,8 @@ blogger_orig_url: https://blog.duyet.net/2016/12/merge-conflicts-on-github-websi
 slug: /2016/12/merge-conflicts-on-github-website.html
 category: Git
 description: Merge conflicts ngay trên Github
+
+fbCommentUrl: none
 ---
 
 You can now resolve simple merge conflicts on GitHub right from your pull requests, saving you a trip to the command line and helping your team merge pull requests faster. - [Github Blog](https://github.com/blog/2293-resolve-simple-merge-conflicts-on-github).

@@ -13,7 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/cai-dat-docker-tren-ubuntu.html
 slug: /2016/05/cai-dat-docker-tren-ubuntu.html
 category: Linux
 description: Docker cung cấp một nền tảng mở cho các nhà phát triển và sysadmins để xây dựng, đóng gói, vận chuyển và triển khai ứng dụng bất cứ nơi nào, ứng dụng được chạy trong một container lightweight, cùng với khả năng tự động hóa, nhân bản nhanh, gọn nhẹ, ...
-
+fbCommentUrl: none
 ---
 
 Docker cung cấp một nền tảng mở cho các nhà phát triển và sysadmins để xây dựng, đóng gói, vận chuyển và triển khai ứng dụng bất cứ nơi nào, ứng dụng được chạy trong một container lightweight, cùng với khả năng tự động hóa, nhân bản nhanh, gọn nhẹ, ...

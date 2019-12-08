@@ -15,31 +15,30 @@ blogger_orig_url: https://blog.duyet.net/2017/02/learning-r-cheatsheet.html
 slug: /2017/02/learning-r-cheatsheet.html
 category: Machine Learning
 description: R cheatsheet
+fbCommentUrl: none 
 ---
 
 Getting help:
 
-```
+```R
 help(x) or ?x # help on function `x`
 example(x)  # print an example of using `x`
 ??x     # search help for instances of string x
 apropos('x') # list all objects with `x` in the name
-
 ```
 
 Types/objects:
 
-```
+```R
 mode(x)  # type of an object (storage mode)
 str(x)          # display the structure of an object
 ls()  # list the objects in the current workspace
 rm(x)  # delete the object from curren workspace
-
 ```
 
 File management:
 
-```
+```R
 getwd()  # list working directory
 setwd('dir')    # set working directory
 dir()           # list directories
@@ -49,7 +48,7 @@ dir.create(...) # create a directory
 
 Workspace:
 
-```
+```R
 save(...)       # save objects to a file
 save.image()    # save entire image to a file
 load('file')    # load objects written by save
@@ -66,7 +65,7 @@ q()             # quit session
 
 Stream management:
 
-```
+```R
 source('f') # run commands from file `f`
 sink('f', split=TRUE) # Tee output into a file
 
@@ -74,7 +73,7 @@ sink('f', split=TRUE) # Tee output into a file
 
 Package management:
 
-```
+```R
 .libPaths()    # dir where are packages saved
 installed.packages() # see details/versions/etc.
 
@@ -90,7 +89,7 @@ help(package='x')  # get help on a package
 
 Basic stats/math:
 
-```
+```R
 data()          # list available datasets
 
 runif(x) # generate x uniformly distributed numbers
@@ -105,7 +104,7 @@ integrate(f, i, j) # integrate `f` in range
 
 Plotting basics:
 
-```
+```R
 dev.new()       # create new plotting device and set active
 def.off()       # delete the last plotting device
 png/pdf('x')    # write graphics to a file
@@ -122,7 +121,7 @@ curve(dnorm, -4, 4)  # plot a function
 
 Vectors:
 
-```
+```R
 x<-c(1, 2, 3)     # constructor
 x[1]              # 1-based indexes
 x[5]<-5           # expansion
@@ -133,7 +132,7 @@ x[c(1,2)]         # get multiple indexes
 
 Factors:
 
-```
+```R
 # efficient storage of low cardinality
 factor(c('x', 'y', 'z', 'x'))
 
@@ -141,7 +140,7 @@ factor(c('x', 'y', 'z', 'x'))
 
 Data frames:
 
-```
+```R
 data.frame(v1, v2)    # populate a two-column data frame
 names(x)<-c('a', 'b') # name the columns
 

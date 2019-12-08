@@ -15,7 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/nodejs-create-simple-static-ser
 slug: /2015/08/nodejs-create-simple-static-server-with.html
 category: Javascript
 description: With this simple package, you can create your own static server simply by Nodejs.
-
+fbCommentUrl: none
 ---
 
 With this simple package, you can create your own static server simply by Nodejs.

@@ -19,6 +19,8 @@ slug: /2016/07/big-integer-javascript.html
 category: Javascript
 description: "Integer trong Javascript giới hạn đến giá trị 18437736874454810627 (tức 2^64−2^53+3). Để xử lý các giá trị lớn hơn nhiều lần với hiệu năng cao, ta có thể sử dụng thư viện Big Integer sau.
 Big integer cho phép thực hiện các phép toán cộng, trừ, nhân, chia, so sánh, ... với các số Integer không giới hạn, miễn sau bạn có đủ RAM."
+fbCommentUrl: none
+
 ---
 
 Integer trong Javascript giới hạn đến giá trị 18437736874454810627 (tức 2^64−2^53+3). Để xử lý các giá trị lớn hơn nhiều lần với hiệu năng cao, ta có thể sử dụng thư viện Big Integer sau.

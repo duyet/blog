@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/google-ra-mat-project-shield.ht
 slug: /2016/02/google-ra-mat-project-shield.html
 category: News
 description: Hiện tại Google đã ra mắt chính thức dịch vụ Project Shield
+fbCommentUrl: none
 ---
 
 Hiện tại Google đã ra mắt chính thức dịch vụ **[Project Shield](https://projectshield.withgoogle.com/)**, là sản phẩm của **Jigsaw**, một công ty con của Alphabet (Google trước đây). Tôi đã từng có dịp sử dụng Project Shield phiên bản beta cách đây vài năm.  

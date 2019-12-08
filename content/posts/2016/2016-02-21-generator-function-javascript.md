@@ -18,6 +18,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/generator-function-javascript.h
 slug: /2016/02/generator-function-javascript.html
 category: Javascript
 description: function* giúp khai báo 1 generator function, trả về 1 Generator object. Với chức năng mới này, hàm có thể dừng thực thi bất cứ thời điểm nào, đợi async chạy xong, xong tiếp tục thực thi.
+fbCommentUrl: http://blog.duyetdev.com/2016/02/generator-function-javascript.html
 ---
 
 Một trong những chức năng, cũng như vấn đề mà mọi developer javascript/nodejs đều gặp phải là lập trình bất đồng bộ (async) và [callback hell](http://callbackhell.com/) khó điều khiển.
@@ -31,7 +32,7 @@ Có thể hiểu Generator function là một function, có khả năng tạm ng
 
 ## Cú pháp ##
 
-```
+```js
 function* name([param[, param[, ... param]]]) {
    statements
 }
@@ -46,7 +47,7 @@ Hàm sẽ không được thực thi ngay sau khi gọi, mà thay vào đó gene
 ## Ví dụ ##
 Nói thì dông dài, ví dụ sau sẽ dễ hiểu hơn. Hàm sau có tác dụng tạo ra ID tăng dần, mỗi khi hàm next được gọi.
 
-```
+```js
 function* id_maker(){
   var index = 0;
   while(index < 3)
@@ -61,17 +62,18 @@ console.log(gen.next().value); // 2
 console.log(gen.next().value); // undefined
 ```
 
-yield sẽ được gọi 3 lần trong vòng lặp for, do đó khi gọi đến lần thứ 4 thì log sẽ trả về undefined.
+`yield` sẽ được gọi 3 lần trong vòng lặp for, do đó khi gọi đến lần thứ 4 thì log sẽ trả về undefined.
 
 Ở ví dụ trên, `gen.next()` sẽ trả về một object có 2 tham số là `value` và `done`. Kiểm tra có còn `next()` được nữa hay không thì chỉ cần kiểm tra giá trị `done`
 
-```
+```js
 console.log(gen.next()); // { value: 0, done: false }
 ```
-`
-``yield` chỉ có thể return về giá trị, để return về 1 hàm khác, ta sử dụng `yield*`
 
-```
+
+`yield` chỉ có thể return về giá trị, để return về 1 hàm khác, ta sử dụng `yield*`
+
+```js
 function* anotherGenerator(i) {
   yield i + 1;
   yield i + 2;
@@ -100,7 +102,7 @@ Generator function là một trong những tính năng cực kì hữu ích tron
 yield còn dùng để khử callback phức tạp của Javascript, khử promise - hiện còn làm nhiều bạn lúng túng khi mới bắt đầu với nodejs. Tôi sẽ viết 1 bài hướng dẫn sau.
 Từ bản nodejs 0.12 trở lên đã được hỗ trợ chức năng generator function,với node v0.12 phải có tham số `--harmony` để có thể sử dụng yield/function*, còn node 4.0 trở lên thì không cần.
 
-```
+```bash
 node --harmony ./app.js
 ```
 

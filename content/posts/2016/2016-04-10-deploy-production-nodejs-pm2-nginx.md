@@ -16,7 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/04/deploy-production-nodejs-pm2-ng
 slug: /2016/04/deploy-production-nodejs-pm2-nginx.html
 category: Javascript
 description: Cách cài đặt và triển khai production Node.js project với Nginx và PM2.
-
+fbCommentUrl: http://blog.duyetdev.com/2016/04/deploy-production-nodejs-pm2-nginx.html
 ---
 
 Cách cài đặt và triển khai production Node.js project với Nginx và PM2.

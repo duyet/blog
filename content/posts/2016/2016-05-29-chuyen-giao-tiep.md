@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/chuyen-giao-tiep.html
 slug: /2016/05/chuyen-giao-tiep.html
 category: Story
 description: 'Mỗi ngày tôi nhận khoảng cả chục message inbox, đã gặp rất nhiều trường hợp, đại loại như chỉ hỏi: alo, ê rảnh không, ê có online không, help ... rồi im luôn.'
+fbCommentUrl: none
 ---
 
 Mỗi ngày tôi nhận khoảng cả chục message inbox, đã gặp rất nhiều trường hợp, đại loại như chỉ hỏi: alo, ê rảnh không, ê có online không, help ... rồi im luôn.

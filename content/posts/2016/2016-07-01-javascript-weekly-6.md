@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/07/javascript-weekly-6.html
 slug: /2016/07/javascript-weekly-6.html
 category: Javascript
 description: "Bài viết giới thiệu chi tiết về Redux, D3.js 4.0 Released, thư viện hiệu ứng anime.js, viết ứng dụng WebAssembly đầu tiên, Debug Node .... đây là các bài sẽ có trong Javascript Weekly #6"
+fbCommentUrl: none
 ---
 
 Bài viết giới thiệu chi tiết về Redux, D3.js 4.0 Released, thư viện hiệu ứng anime.js, viết ứng dụng WebAssembly đầu tiên, Debug Node .... đây là các bài sẽ có trong [Javascript Weekly #6](https://saveto.co/t/js-weekly-6) này mà tôi muốn giới thiệu đến các bạn.

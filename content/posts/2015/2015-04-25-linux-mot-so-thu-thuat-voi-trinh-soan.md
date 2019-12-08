@@ -14,10 +14,11 @@ blogger_orig_url: https://blog.duyet.net/2015/04/linux-mot-so-thu-thuat-voi-trin
 slug: /2015/04/linux-mot-so-thu-thuat-voi-trinh-soan.html
 category: Linux
 description: Vim (hoặc vi) là một trong những editor trên ternimal mạnh mẽ trên Linux. Sau đây là 1 vài thủ thuật hay khi sử dụng vim trên linux.
+fbCommentUrl: none
 
 ---
 
-    Vim (hoặc vi) là một trong những editor trên ternimal mạnh mẽ trên Linux. Sau đây là 1 vài thủ thuật hay khi sử dụng vim trên linux.
+Vim (hoặc vi) là một trong những editor trên ternimal mạnh mẽ trên Linux. Sau đây là 1 vài thủ thuật hay khi sử dụng vim trên linux.
 
 ![](https://1.bp.blogspot.com/-Jls16PZ6Obc/VTsuvm57idI/AAAAAAAACU8/AmSffEltsSw/s1600/vim.png)
 
@@ -25,7 +26,10 @@ Các lệnh được sử dụng ở chế độ command mode, nếu ở chế �
 
 ## Căn lề các cột dữ liệu ##
 Lệnh
+
+```
 :%!column -t
+```
 
 ## Chọn theo cột / dòng ##
 Ấn v và dùng phím di chuyển (jkhl) để chọn vùng text theo dòng

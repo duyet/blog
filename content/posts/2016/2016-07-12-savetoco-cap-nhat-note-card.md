@@ -16,6 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/07/savetoco-cap-nhat-note-card.htm
 slug: /2016/07/savetoco-cap-nhat-note-card.html
 category: Project
 description: save.co vừa cập nhật chức năng note card mới, cho phép ghi chú nhanh như các công cụ ghi chú khác. Hiện tại Note Card đang triển khai thử nghiệm, mọi note sẽ được public. Ngoài ra người dùng cũng có khả năng chọn background cho Note Card.
+fbCommentUrl: none
 
 ---
 

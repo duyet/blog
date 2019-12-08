@@ -17,6 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2016/04/gioi-thieu-koajs.html
 slug: /2016/04/gioi-thieu-koajs.html
 category: Javascript
 description: Về Node.js, ắt hẳn mọi người đều đã quá quen với Expressjs. Nên nay tôi giới thiệu một framework mới cũng khá hay, hiệu năng cao và dễ sử dụng KoaJs
+fbCommentUrl: none
 ---
 
 Về Node.js, ắt hẳn mọi người đều đã quá quen với Expressjs. Nên nay tôi giới thiệu một framework mới cũng khá hay, hiệu năng cao và dễ sử dụng - [Koajs - next generation web framework for node.js](http://koajs.com/)

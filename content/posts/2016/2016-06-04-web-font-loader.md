@@ -19,7 +19,7 @@ slug: /2016/06/web-font-loader.html
 category: Javascript
 
 description: Web Font Loader (webfont.js) 
-
+fbCommentUrl: none
 ---
 
 Web Font Loader (`webfont.js`) cho phép bạn sử dụng các Fonts tùy chỉnh trên Web. Giúp điều khiển fonts 1 cách linh động hơn bằng Javascript, thay vì thẻ `<link>` hoặc CSS, linh động tùy chỉnh các tham số, tối ưu tốc độ tải và dễ sử dụng hơn.

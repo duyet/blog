@@ -19,14 +19,14 @@ category: Javascript
 description: Autotrack là thư viện Javascript sử dụng với analytics.js, cung cấp cho lập trình viên nhiều công cụ hơn để theo dõi hoạt động người dùng trên web.
 ---
 
-[Autotrack](http://saveto.co/iSKEkW) là thư viện Javascript sử dụng với [analytics.js](https://developers.google.com/analytics/devguides/collection/analyticsjs/?utm_campaign=analytics_discussion_autotrackturns1_080216&amp;utm_source=gdev&amp;utm_medium=blog), cung cấp cho lập trình viên nhiều công cụ hơn để theo dõi hoạt động người dùng trên web.
+Autotrack là thư viện Javascript sử dụng với [analytics.js](https://developers.google.com/analytics/devguides/collection/analyticsjs/?utm_campaign=analytics_discussion_autotrackturns1_080216&amp;utm_source=gdev&amp;utm_medium=blog), cung cấp cho lập trình viên nhiều công cụ hơn để theo dõi hoạt động người dùng trên web.
 
 [![](https://4.bp.blogspot.com/-iLc0CpE-jZs/V8ftpMNqYkI/AAAAAAAAcro/TjcwWkEVSLY4Bz6p0FE6wBwE28oN-91zQCK4B/s1600/autotrack.png)](https://4.bp.blogspot.com/-iLc0CpE-jZs/V8ftpMNqYkI/AAAAAAAAcro/TjcwWkEVSLY4Bz6p0FE6wBwE28oN-91zQCK4B/s1600/autotrack.png) 
 Autotrack là project mã nguồn mở của Google Analytics, host tại Github.
 
 Github: [https://github.com/googleanalytics/autotrack](https://github.com/googleanalytics/autotrack)
 
-[Autotrack vừa mới ra mắt phiên bản ổn định 1.0,](http://saveto.co/IfxBJ9) hiện cung cấp nhiều plugins đi kèm như: Impression Tracker, Clean URL Tracker, Page Visibility Tracker, ...
+Autotrack vừa mới ra mắt phiên bản ổn định 1.0, hiện cung cấp nhiều plugins đi kèm như: Impression Tracker, Clean URL Tracker, Page Visibility Tracker, ...
 
 ### Để sử dụng: ###
 1. Chèn autotrack,js vào website

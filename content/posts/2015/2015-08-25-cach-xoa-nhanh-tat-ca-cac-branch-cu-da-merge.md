@@ -13,7 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/cach-xoa-nhanh-tat-ca-cac-branc
 slug: /2015/08/cach-xoa-nhanh-tat-ca-cac-branch-cu-da-merge.html
 category: Git
 description: Nếu bạn có rất nhiều branch trên repo, mỗi branch phát triển 1 chức năng của dự án. Trong số chúng có nhiều branch đã hoàn thành, và đã được merge vào branch chính (master) chẳng hạn, mình gọi các branch này là branch cũ.
-
+fbCommentUrl: none
 ---
 
 Nếu bạn có rất nhiều branch trên repo, mỗi branch phát triển 1 chức năng của dự án. Trong số chúng có nhiều branch đã hoàn thành, và đã được merge vào branch chính (master) chẳng hạn, mình gọi các branch này là branch cũ.

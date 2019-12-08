@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2016/05/reverse-shell-on-nodejs-applica
 slug: /2016/05/reverse-shell-on-nodejs-application.html
 category: Javascript
 description: How we obtained a Javascript reverse shell by exploiting a vulnerability on a Node.js application during a security assessment.
+fbCommentUrl: none
 ---
 
 How we obtained a Javascript reverse shell by exploiting a vulnerability on a Node.js application during a security assessment.

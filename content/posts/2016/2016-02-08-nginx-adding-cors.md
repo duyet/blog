@@ -15,12 +15,12 @@ blogger_orig_url: https://blog.duyet.net/2016/02/nginx-adding-cors.html
 slug: /2016/02/nginx-adding-cors.html
 category: Linux
 description: Example Nginx configuration for adding cross-origin resource sharing (CORS) support to reverse proxied APIs.  
-
+fbCommentUrl: none
 ---
 
 Example Nginx configuration for adding cross-origin resource sharing (CORS) support to reverse proxied APIs.  
 
-```conf
+```
 server {
     listen 80;
     listen [::]:80;

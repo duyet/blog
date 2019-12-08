@@ -15,7 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/cai-dat-tensorflow-tren-docker.
 slug: /2016/02/cai-dat-tensorflow-tren-docker.html
 category: Machine Learning
 description: Docker luôn là giải pháp đóng gói và triển khai các ứng dụng 1 cách nhanh chóng và an toàn. Sau mình xin hướng dẫn các cài đặt Tensorflow trong môi trường container của Docker.
-
+fbCommentUrl: none
 ---
 
 Docker luôn là giải pháp đóng gói và triển khai các ứng dụng 1 cách nhanh chóng và an toàn. Sau mình xin hướng dẫn các cài đặt Tensorflow trong môi trường container của Docker.

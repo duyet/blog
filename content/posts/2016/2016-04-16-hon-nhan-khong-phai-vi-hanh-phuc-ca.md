@@ -12,7 +12,7 @@ blogger_orig_url: https://blog.duyet.net/2016/04/hon-nhan-khong-phai-vi-hanh-phu
 slug: /2016/04/hon-nhan-khong-phai-vi-hanh-phuc-ca.html
 category: News
 description: Hôn nhân không phải vì hạnh phúc cá nhân của đối tượng cưới hỏi, mà là việc kết nạp thành viên mới cho gia tộc theo văn hoá Nho giáo cổ xưa còn rơi rớt lại một số nước Á châu, nên cô con dâu này vào nhà bị sốc văn hoá ngay. “Dạy con từ thuở con thơ. Dạy vợ từ thuở bơ vơ mới về”…nhiều người tự cho mình một vị trí cao hơn để “dạy” trong khi chưa chắc nhận thức ai hơn ai.
-
+fbCommentUrl: none
 ---
 
 Hôn nhân không phải vì hạnh phúc cá nhân của đối tượng cưới hỏi, mà là việc kết nạp thành viên mới cho gia tộc theo văn hoá Nho giáo cổ xưa còn rơi rớt lại một số nước Á châu, nên cô con dâu này vào nhà bị sốc văn hoá ngay. “Dạy con từ thuở con thơ. Dạy vợ từ thuở bơ vơ mới về”…nhiều người tự cho mình một vị trí cao hơn để “dạy” trong khi chưa chắc nhận thức ai hơn ai.

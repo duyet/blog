@@ -11,6 +11,8 @@ blogger_orig_url: https://blog.duyet.net/2015/06/javascript-code-smells.html
 slug: /2015/06/javascript-code-smells.html
 category: Javascript
 description: As we grow as developers we strive to write more maintainable code, but on our journey we often times don't know what that looks like yet.  
+fbCommentUrl: none
+
 ---
 
 > "A code smell is a surface indication that usually corresponds to a deeper problem in the system"

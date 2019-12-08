@@ -14,6 +14,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/tu-ong-hoa-internet-voi-ifttt.h
 slug: /2016/02/tu-ong-hoa-internet-voi-ifttt.html
 category: Automation
 description: IFTTT là một dịch vụ rất thú vị, cho phép người dùng tự động hóa các dịch vụ internet như mạng xã hội, Google Drive, Mail, Dropbox, Calendars, ... thậm chí location, SMS, ... trên smartphone.
+fbCommentUrl: none
 ---
 
 [If This Then That (IFTTT)](https://ifttt.com/) là một dịch vụ rất thú vị, cho phép người dùng tự động hóa các dịch vụ internet như mạng xã hội, Google Drive, Mail, Dropbox, Calendars, ... thậm chí location, SMS, ... trên smartphone.

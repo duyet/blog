@@ -12,6 +12,7 @@ blogger_orig_url: https://blog.duyet.net/2015/12/unit-test-va-function-test.html
 slug: /2015/12/unit-test-va-function-test.html
 category: Javascript
 description: Một hoạt động mang tính sống còn trong các dự án sản xuất hoặc gia công phần mềm, đó là kiểm thử phần mềm (testing).
+fbCommentUrl: none
 ---
 
 Một hoạt động mang tính sống còn trong các dự án sản xuất hoặc gia công phần mềm, đó là kiểm thử phần mềm (testing).

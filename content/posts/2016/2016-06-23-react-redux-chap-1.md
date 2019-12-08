@@ -17,6 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2016/06/react-redux-chap-1.html
 slug: /2016/06/react-redux-chap-1.html
 category: Javascript
 description: Mình sẽ dành 1 chuỗi bài để viết về React, kết hợp với mô hình Redux, sử dụng Webpack để đóng gói và kết hợp với Sails.js để làm RESTful API Server.
+fbCommentUrl: http://blog.duyetdev.com/2016/06/react-redux-chap-1.html
 ---
 
 Mình sẽ dành 1 chuỗi bài để viết về [React](https://facebook.github.io/react), kết hợp với mô hình [Redux](https://github.com/reactjs/redux), sử dụng Webpack để đóng gói và kết hợp với Sails.js để làm RESTful API Server.

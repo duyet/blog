@@ -18,7 +18,7 @@ blogger_orig_url: https://blog.duyet.net/2016/02/japanese-stopwords-package.html
 slug: /2016/02/japanese-stopwords-package.html
 category: Machine Learning
 description: Japanese stopwords, available for npm, bower, plaintext. 日本のストップワード    
-
+fbCommentUrl: none
 ---
 
 Japanese stopwords, available for npm, bower, plaintext. 日本のストップワード    

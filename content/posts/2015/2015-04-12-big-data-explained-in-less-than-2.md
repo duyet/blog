@@ -12,6 +12,7 @@ blogger_orig_url: https://blog.duyet.net/2015/04/big-data-explained-in-less-than
 slug: /2015/04/big-data-explained-in-less-than-2.html
 category: Data
 description: There are some things that are so big that they have implications for everyone, whether we want them to or not. Big Data is one of those concepts, and is completely transforming the way we do business and is impacting most other parts of our lives.
+fbCommentUrl: none
 
 ---
 

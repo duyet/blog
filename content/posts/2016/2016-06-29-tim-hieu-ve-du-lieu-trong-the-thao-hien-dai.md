@@ -17,6 +17,7 @@ blogger_orig_url: https://blog.duyet.net/2016/06/tim-hieu-ve-du-lieu-trong-the-t
 slug: /2016/06/tim-hieu-ve-du-lieu-trong-the-thao-hien-dai.html
 category: Data
 description: "Tìm hiểu về dữ liệu trong thể thao hiện đại. Một trong những câu trả lời cho câu hỏi: Dân hệ thống thông tin thì làm gì?"
+fbCommentUrl: http://blog.duyetdev.com/2016/06/tim-hieu-ve-du-lieu-trong-the-thao-hien-dai.html
 ---
 
 Tìm hiểu về dữ liệu trong thể thao hiện đại. Một trong những câu trả lời cho câu hỏi: Dân hệ thống thông tin thì làm gì? Bài viết tôi đọc được từ anh [Jackie Dương](http://www.ecoblader.com/2014/06/04/tim-hieu-ve-du-lieu-trong-the-thao-hien-dai/), nói về một trong các ứng dụng của Data Mining trong việc phân tích thể thao. 

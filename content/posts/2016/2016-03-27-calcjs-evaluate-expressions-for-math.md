@@ -16,7 +16,7 @@ blogger_orig_url: https://blog.duyet.net/2016/03/calcjs-evaluate-expressions-for
 slug: /2016/03/calcjs-evaluate-expressions-for-math.html
 category: Javascript
 description: Flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices. Powerful and easy to use.
-
+fbCommentUrl: none
 ---
 
 Flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices. Powerful and easy to use.

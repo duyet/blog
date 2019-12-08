@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2016/08/lanh-ao-vs-hoa-hau.html
 slug: /2016/08/lanh-ao-vs-hoa-hau.html
 category: News
 description: 
+fbCommentUrl: none
 ---
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/emRdKIZrr5I" frameborder="0" allowfullscreen></iframe>

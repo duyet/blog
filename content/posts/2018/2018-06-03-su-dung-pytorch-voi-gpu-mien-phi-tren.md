@@ -19,6 +19,7 @@ blogger_orig_url: https://blog.duyet.net/2018/06/su-dung-pytorch-voi-gpu-mien-ph
 slug: /2018/06/su-dung-pytorch-voi-gpu-mien-phi-tren.html
 category: Web
 description: Google Colab (https://colab.research.google.com/) là một phiên bản Jupyter/iPython đến từ Google (think iPython + Google Drive), cung cấp cho chúng ta một môi trường notebook-based với backend Python 2/3 miễn phí. Google Colab rất hữu ích trong việc chia sẻ, giáo dục và teamwork trong các dự án về Machine Learning.
+fbCommentUrl: none
 ---
 
 [Google Colab](https://blog.duyet.net/2017/11/colaboratory-research-google.html#.WxPuK0jRDIU) ([https://colab.research.google.com/](https://colab.research.google.com/)) là một phiên bản Jupyter/iPython đến từ Google (think iPython + Google Drive), cung cấp cho chúng ta một môi trường notebook-based với backend Python 2/3 miễn phí. Google Colab rất hữu ích trong việc chia sẻ, giáo dục và teamwork trong các dự án về Machine Learning.

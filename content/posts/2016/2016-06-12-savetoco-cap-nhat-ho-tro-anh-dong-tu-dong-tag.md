@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2016/06/savetoco-cap-nhat-ho-tro-anh-do
 slug: /2016/06/savetoco-cap-nhat-ho-tro-anh-dong-tu-dong-tag.html
 category: Project
 description: saveto.co vừa được cập nhật, hỗ trợ chia sẻ ảnh ảnh động và tự động gán nhãn tag với một số nội dung.
+fbCommentUrl: none
 ---
 
 [saveto.co](http://saveto.co/) vừa được cập nhật, hỗ trợ chia sẻ ảnh ảnh động và tự động gán nhãn tag với một số nội dung.

@@ -18,6 +18,7 @@ blogger_orig_url: https://blog.duyet.net/2017/08/natural-nltk.html
 slug: /2017/08/natural-nltk.html
 category: Machine Learning
 description: "NaturalJS được ví như nltk cho Node. natural có nhiều chức năng xử lý ngôn ngữ tự nhiên như: Tokenizing, stemming, classification, phonetics, tf-idf, WordNet, string similarity, ..."
+fbCommentUrl: none
 ---
 
 "[Natural](https://github.com/NaturalNode/natural)" được ví như nltk cho Node. [natural](https://github.com/NaturalNode/natural) có nhiều chức năng xử lý ngôn ngữ tự nhiên như: Tokenizing, stemming, classification, phonetics, tf-idf, WordNet, string similarity, ...

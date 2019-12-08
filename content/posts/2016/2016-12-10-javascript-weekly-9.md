@@ -19,9 +19,10 @@ blogger_orig_url: https://blog.duyet.net/2016/12/javascript-weekly-9.html
 slug: /2016/12/javascript-weekly-9.html
 category: Javascript
 description: 
+fbCommentUrl: none
 ---
 
-#9: Date-DNS, chi tiết về các bản cập nhật mới của V8, React và Angular.
+Javascript Weekly #9: Date-DNS, chi tiết về các bản cập nhật mới của V8, React và Angular.
 
 [![](https://2.bp.blogspot.com/-3n1yGifwJdY/WEtxXVdp38I/AAAAAAAAgt4/ijum1QPHo6ENxNmPawMuGeKyxKfw2tfEACLcB/s1600/Screenshot%2Bfrom%2B2016-12-10%2B10-06-59.png)](https://blog.duyet.net/2016/12/javascript-weekly-9.html)
 

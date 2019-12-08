@@ -15,7 +15,8 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-85577697552587423
 blogger_orig_url: https://blog.duyet.net/2017/03/python-churn-prediction-with-graphlab.html
 slug: /2017/03/python-churn-prediction-with-graphlab.html
 category: Machine Learning
-description: Churn prediction is the task of identifying whether users are likely to stop using a service, product, or website. With Graphlab toolkit, you can start with raw (or processed) usage metrics and accurately forecast the probability that a given customer will churn.  
+description: Churn prediction is the task of identifying whether users are likely to stop using a service, product, or website. With Graphlab toolkit, you can start with raw (or processed) usage metrics and accurately forecast the probability that a given customer will churn. 
+fbCommentUrl: none 
 ---
 
 
