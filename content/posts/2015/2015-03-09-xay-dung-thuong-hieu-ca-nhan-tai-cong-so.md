@@ -12,6 +12,7 @@ blogger_orig_url: https://blog.duyet.net/2015/03/xay-dung-thuong-hieu-ca-nhan-ta
 slug: /2015/03/xay-dung-thuong-hieu-ca-nhan-tai-cong-so.html
 category: News
 description: Một bài viết khá hay ở vietnamworks, mình là freelancer nên chắc cũng nên học hỏi phần nào.
+fbCommentUrl: none
 
 ---
 

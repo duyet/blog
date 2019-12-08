@@ -13,6 +13,8 @@ blogger_orig_url: https://blog.duyet.net/2015/03/dbms-tam-quan-trong-cua-kieu-du
 slug: /2015/03/dbms-tam-quan-trong-cua-kieu-du-lieu.html
 category: Data
 description: Một bài viết từ Blog kĩ thuật máy tính
+fbCommentUrl: none
+
 ---
 
 2h sáng. “beep, you’ve got mail”. Mail từ hệ thống giám sát zabbix.

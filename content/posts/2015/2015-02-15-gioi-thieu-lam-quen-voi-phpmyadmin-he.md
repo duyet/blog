@@ -14,6 +14,8 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-50981826817998618
 blogger_orig_url: https://blog.duyet.net/2015/02/gioi-thieu-lam-quen-voi-phpmyadmin-he.html
 slug: /2015/02/gioi-thieu-lam-quen-voi-phpmyadmin-he.html
 description: 
+fbCommentUrl: none
+
 ---
 
 phpMyAdmin là 1 chương trình mã nguồn mở miễn phí, viết bằng PHP, dùng để hỗ trợ các bạn làm việc với MySQL thông qua giao diện web mà không cần dùng tới những dòng lệnh MySQL phức tạp.

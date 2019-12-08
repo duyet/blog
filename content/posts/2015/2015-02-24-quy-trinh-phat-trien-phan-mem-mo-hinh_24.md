@@ -15,6 +15,7 @@ blogger_orig_url: https://blog.duyet.net/2015/02/quy-trinh-phat-trien-phan-mem-m
 slug: /2015/02/quy-trinh-phat-trien-phan-mem-mo-hinh_24.html
 category: News
 description: Mô hình xoắn ốc có thể được xem là sự kết hợp giữa mô hình thác nước và mô hình mẫu và đồng thời thêm một thành phần mới - phân tích rủi ro.
+fbCommentUrl: none
 
 ---
 

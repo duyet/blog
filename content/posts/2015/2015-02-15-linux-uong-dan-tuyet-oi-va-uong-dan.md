@@ -12,6 +12,8 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-14245110967444013
 blogger_orig_url: https://blog.duyet.net/2015/02/linux-uong-dan-tuyet-oi-va-uong-dan.html
 slug: /2015/02/linux-uong-dan-tuyet-oi-va-uong-dan.html
 description: Trong linux, khi làm việc trên server hay đơn giản hơn là làm việc trên ternimal, ít nhiều bạn cũng phải rớ tới các file và thư mục, bay nhảy qua lại. Nhưng 1 điều bạn nhất định phải biết, đó là đường dẫn.
+fbCommentUrl: none
+
 ---
 
 Trong linux, khi làm việc trên server hay đơn giản hơn là làm việc trên ternimal, ít nhiều bạn cũng phải rớ tới các file và thư mục, bay nhảy qua lại. Nhưng 1 điều bạn nhất định phải biết, đó là đường dẫn.

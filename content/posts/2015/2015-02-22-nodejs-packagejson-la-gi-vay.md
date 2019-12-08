@@ -13,6 +13,8 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-74932485995889478
 blogger_orig_url: https://blog.duyet.net/2015/02/nodejs-packagejson-la-gi-vay.html
 slug: /2015/02/nodejs-packagejson-la-gi-vay.html
 description: "Khi bạn bắt đầu làm quen với việc xây dựng 1 trang web với Nodejs, 1 thứ mà bạn vẫn thường luôn thấy trong các source ở github đó là: `package.json`. Vậy nó là gì, tại sao chúng ta luôn cần phải có nó khi xây dựng 1 ứng dụng bằng Nodejs"
+fbCommentUrl: none
+
 ---
 
 Khi bạn bắt đầu làm quen với việc xây dựng 1 trang web với Nodejs, 1 thứ mà bạn vẫn thường luôn thấy trong các source ở github đó là: `package.json`. Vậy nó là gì, tại sao chúng ta luôn cần phải có nó khi xây dựng 1 ứng dụng bằng Nodejs

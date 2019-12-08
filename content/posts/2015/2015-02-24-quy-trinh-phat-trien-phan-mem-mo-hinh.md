@@ -15,6 +15,8 @@ blogger_orig_url: https://blog.duyet.net/2015/02/quy-trinh-phat-trien-phan-mem-m
 slug: /2015/02/quy-trinh-phat-trien-phan-mem-mo-hinh.html
 category: News
 description: "Mô hình thác nước là một mô hình của quy trình phát triển phần mềm, trong đó quy trình phát triển trông giống như một dòng chảy, với các pha được thực hiện theo trật tự nghiêm ngặt và không có sự quay lui hay nhảy vượt pha là: phân tích yêu cầu, thiết kế, triển khai thực hiện, kiểm thử, liên kết và bảo trì."
+fbCommentUrl: none
+
 ---
 
 Mô hình thác nước là một mô hình của quy trình phát triển phần mềm, trong đó quy trình phát triển trông giống như một dòng chảy, với các pha được thực hiện theo trật tự nghiêm ngặt và không có sự quay lui hay nhảy vượt pha là: phân tích yêu cầu, thiết kế, triển khai thực hiện, kiểm thử, liên kết và bảo trì.

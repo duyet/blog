@@ -14,6 +14,7 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-15916195790242690
 blogger_orig_url: https://blog.duyet.net/2015/02/quan-ly-project-voi-trello-nao.html
 slug: /2015/02/quan-ly-project-voi-trello-nao.html
 description: Như trong bài chia sẻ trước giới thiệu về Trello một công cụ quản lý công việc hiệu quả, dễ sử dụng và cực kỳ linh hoạt. Bạn có thể áp dụng Trello cho mọi việc từ lên list những đầu việc đơn giản cho đến việc quản lý những dự án phức tạp.
+fbCommentUrl: none
 ---
 
 Như trong bài chia sẻ trước giới thiệu về Trello một [công cụ quản lý công việc hiệu quả](http://blog.lvduit.com/2015/02/quan-ly-cong-viec-hieu-qua-voi-trello.html#.VN7V8N-jmFM), dễ sử dụng và cực kỳ linh hoạt. Bạn có thể áp dụng Trello cho mọi việc từ lên list những đầu việc đơn giản cho đến việc quản lý những dự án phức tạp.

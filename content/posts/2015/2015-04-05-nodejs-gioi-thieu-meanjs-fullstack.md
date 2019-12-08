@@ -14,6 +14,8 @@ blogger_orig_url: https://blog.duyet.net/2015/04/nodejs-gioi-thieu-meanjs-fullst
 slug: /2015/04/nodejs-gioi-thieu-meanjs-fullstack.html
 category: Javascript
 description: MEANJs là một web application framework cho NodeJS, nó là 1 stack kết hợp nhiều công nghệ, giúp bạn dễ dàng nhanh chóng và dễ dàng phát triển 1 ứng dụng Web SPA (Single Page Application). Cùng tìm hiểu nhé.
+fbCommentUrl: none
+
 ---
 
 MEANJs là một web application framework cho NodeJS, nó là 1 stack kết hợp nhiều công nghệ, giúp bạn dễ dàng nhanh chóng và dễ dàng phát triển 1 ứng dụng Web SPA (Single Page Application). Cùng tìm hiểu nhé.  

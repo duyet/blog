@@ -12,6 +12,7 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-81927884912633550
 blogger_orig_url: https://blog.duyet.net/2015/02/pm-github-la-gi.html
 slug: /2015/02/pm-github-la-gi.html
 description: Github, còn được gọi là social network dành cho developer đi vào hoạt động tháng 2 năm 2008, là một dịch vụ sử dụng hệ thống quản lý phân tán giúp người dùng lưu trữ source code cho các dự án. Git là một mô hình quản lý source phân tán, nó có mọi tính năng của một source control như SVN và hơn thế nữa.
+fbCommentUrl: none
 
 ---
 

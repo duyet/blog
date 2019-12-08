@@ -13,6 +13,7 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-76361020304471857
 blogger_orig_url: https://blog.duyet.net/2015/02/linux-giao-dien-phang-cho-ubuntu.html
 slug: /2015/02/linux-giao-dien-phang-cho-ubuntu.html
 description: Giao diện phẳng ngày nay tại đang là trào lưu rất mạnh mẽ và Ubuntu đã có dự định chuyển sang giao diện phẳng. Gần đây nhiều bạn có hỏi giao diện hiện mình đang dùng là gì. Bài viết này sẽ hướng dẫn các bạn thay đổi theme tạo giao diện phẳng đẹp mắt cho Ubuntu cũng như các Distros khác của Linux.
+fbCommentUrl: http://blog.duyetdev.com/2015/02/linux-giao-dien-phang-cho-ubuntu.html
 
 ---
 

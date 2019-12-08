@@ -12,6 +12,7 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-69775923532115545
 blogger_orig_url: https://blog.duyet.net/2015/02/nodejs-la-gi-uoc-khong.html
 slug: /2015/02/nodejs-la-gi-uoc-khong.html
 description: Node.js là 1 nền tảng (platform) chạy trên môi trường V8 Javascript runtime. Node.js cho phép lập trình viên xây dựng các ứng dụng có tính mở rộng cao sử dụng Javascript trên server. Và vì được porting từ C nên về mặt tốc độ xử lý thì khá nhanh.
+fbCommentUrl: none
 
 ---
 

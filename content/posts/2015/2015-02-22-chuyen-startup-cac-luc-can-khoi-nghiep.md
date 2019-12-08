@@ -12,6 +12,8 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-26955371998797330
 blogger_orig_url: https://blog.duyet.net/2015/02/chuyen-startup-cac-luc-can-khoi-nghiep.html
 slug: /2015/02/chuyen-startup-cac-luc-can-khoi-nghiep.html
 description: 
+fbCommentUrl: none
+
 ---
 
 ## Quản lý nhà nước ##

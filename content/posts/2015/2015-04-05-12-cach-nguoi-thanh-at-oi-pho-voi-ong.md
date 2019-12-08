@@ -13,6 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/04/12-cach-nguoi-thanh-at-oi-pho-v
 slug: /2015/04/12-cach-nguoi-thanh-at-oi-pho-voi-ong.html
 category: News
 description: Vạch ra các giới hạn, không dễ quên hay luôn đi trước một bước là những cách người thành công dùng để đối phó với đồng nghiệp khó ưa.
+fbCommentUrl: none
 
 ---
 

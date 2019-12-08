@@ -10,6 +10,8 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-47985762854795817
 blogger_orig_url: https://blog.duyet.net/2015/02/design-pattterns-he-thong-23-mau-design.html
 slug: /2015/02/design-pattterns-he-thong-23-mau-design.html
 description: Hệ thống các mẫu design pattern hiện có 23 mẫu được định nghĩa trong cuốn Design patterns Elements of Reusable Object Oriented Software
+fbCommentUrl: none
+
 ---
 
 Hệ thống các mẫu design pattern hiện có 23 mẫu được định nghĩa trong cuốn "**Design patterns Elements of Reusable Object Oriented Software**" ([pdf](http://www.uml.org.cn/c++/pdf/DesignPatterns.pdf)).  
