@@ -34,13 +34,6 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'fb-comment-archived',
-        path: `${__dirname}/content/fb-comment-archived`
-      }
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
         name: 'css',
         path: `${__dirname}/static/css`
       }
