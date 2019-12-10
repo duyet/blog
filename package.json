@@ -72,7 +72,7 @@
     "gatsby-remark-series": "^1.0.2",
     "gatsby-remark-smartypants": "^2.1.19",
     "gatsby-source-filesystem": "^2.1.42",
-    "gatsby-transformer-remark": "^2.6.41",
+    "gatsby-transformer-remark": "^2.6.42",
     "gatsby-transformer-sharp": "^2.3.9",
     "invariant": "^2.2.4",
     "katex": "^0.11.1",
