@@ -24,8 +24,6 @@ const Post = ({ post }: Props) => {
   } = post.frontmatter;
   const siteTitle = useSiteMetadata().title;
 
-  console.log('post.frontmatter;', post.frontmatter);
-
   return (
     <div className={styles['post']}>
       <Link className={styles['post__home-button']} to="/" onClick={() => gtagTrack('HomeLink', 'click', 'home')}>{siteTitle}</Link>
