@@ -27,6 +27,10 @@ module.exports = {
     {
       label: 'Categories',
       path: '/categories'
+    },
+    {
+      label: '#til',
+      path: 'https://til.duyet.net'
     }
   ],
   author: {
