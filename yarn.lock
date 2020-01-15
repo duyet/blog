@@ -7959,10 +7959,10 @@ gatsby-plugin-manifest@^2.2.37:
     semver "^5.7.1"
     sharp "^0.23.4"
 
-gatsby-plugin-netlify-cms@^4.1.36:
-  version "4.1.36"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-4.1.36.tgz#7989d781369bce8983835ace376cd037d762ed4b"
-  integrity sha512-ELsO7evI+mO9vGaotH92nkUmuSRv1CAeCc622ATFcJwvMSTOGfRGe2jMA6RhoUAiKSdBzuV66f0eUx/a99Z0pQ==
+gatsby-plugin-netlify-cms@^4.1.37:
+  version "4.1.37"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-4.1.37.tgz#3e3150e514cf0496a2dd14a19b2192e984ff14d4"
+  integrity sha512-aFPl3OHJkbd9ba/dwmKopnr+8mSuL2/sF646VQcKbz0Gvb6aiLy39M63Tn81XM7Xbnm9attH8PJzxEBgsUW1Mg==
   dependencies:
     "@pieh/friendly-errors-webpack-plugin" "1.7.0-chalk-2"
     copy-webpack-plugin "^5.1.0"
@@ -7985,10 +7985,10 @@ gatsby-plugin-netlify@^2.1.31:
     lodash "^4.17.15"
     webpack-assets-manifest "^3.1.1"
 
-gatsby-plugin-offline@^3.0.31:
-  version "3.0.31"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.0.31.tgz#bf72635ab1fad91bee9d1dde171ca063eb4ab348"
-  integrity sha512-e463Qxbh97lkuiD2Qw4UN0xiZMKUBMAksJ4KJWpkyAEJSPEnZtHBncRRsK5vZUeiSHElEiQo9/Wq9xXVT17I9Q==
+gatsby-plugin-offline@^3.0.32:
+  version "3.0.32"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.0.32.tgz#9907421e7359f79b22da7f654c4a69749cf136c5"
+  integrity sha512-TPVRhD4LaVcCLBMzdbPUZr4bb+dv1h/HMn7ryFozFafYJ1p7XuKv2VHtqNYpfL1UKiZnWIJmEWXxfcWszLoC4w==
   dependencies:
     "@babel/runtime" "^7.7.6"
     cheerio "^1.0.0-rc.3"
