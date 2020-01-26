@@ -12540,10 +12540,10 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-netlify-cms-app@^2.11.9:
-  version "2.11.9"
-  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.11.9.tgz#7bb79091c6219d0f6854b10972b041b7653d9795"
-  integrity sha512-8HP+lXabuxlI0JrLuRRpN662z0Tum223EGx+9jJ8ejoT6QqZNUS6WMm2tE3A8tHUqNfQ0MfpA2ELMDPccGHfPQ==
+netlify-cms-app@^2.11.10:
+  version "2.11.10"
+  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.11.10.tgz#d4350824d968c65ed8e5bfc0f22ed13dda427c67"
+  integrity sha512-1rqkoobi8yz3R5Ja/4retFzrC31XbMLLd9vrveAscqnwTeH0PBfEbLK1tdxwSKckT9/kb9sOOxquuy3FAhQYKg==
   dependencies:
     "@emotion/core" "^10.0.9"
     "@emotion/styled" "^10.0.9"
@@ -12565,7 +12565,7 @@ netlify-cms-app@^2.11.9:
     netlify-cms-widget-code "^1.1.2"
     netlify-cms-widget-date "^2.4.0"
     netlify-cms-widget-datetime "^2.2.5"
-    netlify-cms-widget-file "^2.5.1"
+    netlify-cms-widget-file "^2.5.2"
     netlify-cms-widget-image "^2.5.0"
     netlify-cms-widget-list "^2.4.1"
     netlify-cms-widget-map "^1.3.3"
@@ -12734,10 +12734,10 @@ netlify-cms-widget-datetime@^2.2.5:
   resolved "https://registry.yarnpkg.com/netlify-cms-widget-datetime/-/netlify-cms-widget-datetime-2.2.5.tgz#a030a09299d2448dc181b31224d55fd76074b893"
   integrity sha512-zoCuqkcelNvBwKlv5tJll67rKXFE/tq1W6SlT/f0LbRR78X/CY7jSTuTKbawHYi4XAg4Hhc4NmgKX2C8AWm39g==
 
-netlify-cms-widget-file@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/netlify-cms-widget-file/-/netlify-cms-widget-file-2.5.1.tgz#e7e2b47cdcbb0bf2ef7d53e62425948a27ffb82d"
-  integrity sha512-Ji9hua13wgu7a/yhO8XxgqG2Cg1eFrxUSk7QPp7JQ69ZQ+lUrMQoCBBt4CsFu7dMiGwR/qz3P+L9comv4LLA1Q==
+netlify-cms-widget-file@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/netlify-cms-widget-file/-/netlify-cms-widget-file-2.5.2.tgz#351baa6e74949f3e3220bae10b628f8c01941ca6"
+  integrity sha512-SAdKy8Cy3cgqjjlRJpEtA4aBoR99ntQAMCkbzYja+/KuREe1MBOuw+hUC624XOcDjEGnpFjvX2FG60T/yM96hg==
   dependencies:
     common-tags "^1.8.0"
 
