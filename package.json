@@ -124,6 +124,6 @@
     "rimraf": "3.0.0",
     "stylelint": "13.0.0",
     "stylelint-config-recommended-scss": "4.1.0",
-    "stylelint-scss": "3.13.0"
+    "stylelint-scss": "3.14.0"
   }
 }
