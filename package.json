@@ -113,7 +113,7 @@
     "eslint-plugin-react": "7.18.3",
     "eslint-watch": "6.0.1",
     "flow-bin": "^0.120.1",
-    "flow-typed": "^2.6.2",
+    "flow-typed": "^3.0.0",
     "gh-pages": "2.2.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "25.1.0",
