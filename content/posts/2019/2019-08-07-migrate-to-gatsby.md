@@ -17,7 +17,7 @@ fbCommentUrl: https://blog.duyetdev.com/2019/08/migrate-blogger-to-gatsby.html
 Những bài viết đầu tiên của blog này được bắt đầu năm 2014, đã nhiều năm sử dụng nền tảng Blogger của Google.
 Nhìn chung blogger khá ổn, vì mình cực kì yên tâm và luôn uptime 99.99%, luôn miễn phí, lưu trữ hình ảnh không giới hạn, và đơn giản. 
 
-Từ trước đến nay blogger đã trải qua vài lần nâng cấp, nhưng vẫn còn khá nhiều thiếu xót khiến nó không còn là đối thủ của các nền tảng khác như Medium, Ghost, Wordpress, ... Hai điểm khiến mình khá không hài lòng đó là: *editor cũ kỹ, thiếu đi công cụ chèn code* và *hệ thống theme XML cũ*.
+Từ trước đến nay blogger đã trải qua vài lần nâng cấp, nhưng vẫn còn khá nhiều thiếu xót khiến nó không còn là đối thủ của các nền tảng khác như Medium, Ghost, Wordpress, ... Hai điểm khiến mình khá không hài lòng đó là: *(1) editor cũ kỹ, thiếu đi công cụ chèn code* và *(2) hệ thống theme XML cũ*.
 
 
 ![](../../media/2019/blogger_old_editor.png)
