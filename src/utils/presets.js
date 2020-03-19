@@ -18,7 +18,9 @@ import {
 
 const fonts = {};
 for (const fontFamily in fontTokens) {
-  fonts[fontFamily] = fontTokens[fontFamily].join(', ');
+  if (fontTokens[fontFamily]) {
+    fonts[fontFamily] = fontTokens[fontFamily].join(', ');
+  }
 }
 
 const fontSizes = fontSizeTokens.map((token) => `${token / 16}rem`);
