@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{P80P:function(n,o,p){"use strict";p.r(o);o.default=function(){return"pong"}}}]);
+//# sourceMappingURL=component---src-templates-ping-js-7494f5052390f72063c3.js.map
