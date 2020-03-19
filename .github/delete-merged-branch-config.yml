@@ -1,0 +1,5 @@
+exclude: 
+  - develope
+  - master
+  - production
+delete_closed_pr: true
