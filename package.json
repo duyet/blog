@@ -75,6 +75,7 @@
     "gatsby-transformer-remark": "^2.6.59",
     "gatsby-transformer-sharp": "^2.3.19",
     "invariant": "^2.2.4",
+    "js-levenshtein": "^1.1.6",
     "katex": "^0.11.1",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
