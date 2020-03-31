@@ -8310,10 +8310,10 @@ gatsby-remark-responsive-iframe@^2.3.1:
     lodash "^4.17.15"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-series@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-series/-/gatsby-remark-series-1.0.2.tgz#d4e94ce205d8ae952133ed357b1c601b8cc06dfb"
-  integrity sha512-Q99HZjMDd31DbTiAKDb075zTcvrsLC9TM9wv4A2u+OfVE6yYna90VvpqkkE4WuZgMWPg3E5OUb7UnMgPxXbO7w==
+gatsby-remark-series@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-series/-/gatsby-remark-series-1.0.3.tgz#9d3df97b8a8497acd646dce88d8a800d18dece4b"
+  integrity sha512-EKv313E9qQqZaCvHcf182WS6c1Uxr11a9Lfuli+xcj1BagwEoURKh39jt8Uz2luRZOSnWXNVl/eA6VxdNvWrKQ==
   dependencies:
     lodash.defaultsdeep "^4.6.1"
     lodash.kebabcase "^4.1.1"
