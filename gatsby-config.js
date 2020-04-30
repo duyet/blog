@@ -150,12 +150,6 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-netlify',
-    // {
-    //   resolve: 'gatsby-plugin-netlify-cms',
-    //   options: {
-    //     modulePath: `${__dirname}/src/cms/index.js`,
-    //   }
-    // },
     {
       resolve: 'gatsby-plugin-google-gtag',
       options: {
@@ -223,7 +217,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigModule: 'src/utils/typography.js',
+        pathToConfigModule: 'src/utils/typography',
+        omitGoogleFont: true
       },
     },
     'gatsby-plugin-flow',
