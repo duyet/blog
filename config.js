@@ -29,7 +29,7 @@ module.exports = {
       path: '/categories'
     },
     {
-      label: '#til',
+      label: 'TIL',
       path: 'https://til.duyet.net'
     }
   ],
