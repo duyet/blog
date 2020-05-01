@@ -34,6 +34,9 @@ Neural networks đã chứng tỏ rằng nó hiệu quả hơn một số thuậ
 - Nếu bạn giàu, có nhiều máy, không cần tính giải thích chỉ cần kết quả, hãy sử dụng Neural Networks
 - Nếu bạn cần tính giải thích của các biến số, dễ dàng tinh chỉnh, hãy sử dụng Random Forest.
 
+![](../../media/2020/why-rf/meme.jpeg)
+
+
 # References
  - [3 Reasons to Use Random Forest® Over a Neural Network: Comparing Machine Learning versus Deep Learning](https://www.kdnuggets.com/2020/04/3-reasons-random-forest-neural-network-comparison.html)
  - [Random Forest® vs Neural Networks for Predicting Customer Churn](https://www.kdnuggets.com/2019/12/random-forest-vs-neural-networks-predicting-customer-churn.html)
