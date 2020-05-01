@@ -53,3 +53,9 @@ With the Sheets data connector for BigQuery, you can cache the calculated data f
 5. Schedule automatic updates: You'll be able to use tools like [Apps Script](https://developers.google.com/apps-script/) and [the macro recorder](https://www.blog.google/products/g-suite/think-macro-record-actions-google-sheets-skip-repetitive-work/) to schedule automatic updates to the connected BigQuery data.
 
 Good luck!
+
+# References
+
+ - [Analyze hefty data sets with BigQuery and Google Sheets](https://gsuiteupdates.googleblog.com/2019/01/bigquery-google-sheets-analyze-data.html)
+ - [Think macro: record actions in Google Sheets to skip repetitive work](https://www.blog.google/products/g-suite/think-macro-record-actions-google-sheets-skip-repetitive-work/)
+ - [Connect Data Studio to BigQuery tables.](https://support.google.com/datastudio/answer/6370296)
