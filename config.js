@@ -29,6 +29,10 @@ module.exports = {
       path: '/categories'
     },
     {
+      label: 'TL;DR',
+      path: '/tag/tldr'
+    },
+    {
       label: 'TIL',
       path: 'https://til.duyet.net'
     }
@@ -36,7 +40,7 @@ module.exports = {
   author: {
     name: 'Tôi là Duyệt',
     photo: '/photo.png',
-    bio: 'Data Engineer @ Fossil. I blog about <a href="/tag/web/">web development</a>, <a href="/tag/machine-learning/">Machine Learning</a>, <a href="/tag/data-engineer/">Data Engineering</a>, and <a href="/tags/">more topics</a>.',
+    bio: 'Data Engineer @ Fossil. I blog about <a href="/tag/web/">Web</a>, <a href="/tag/machine-learning/">Machine Learning</a>, <a href="/tag/data-engineer/">Data Engineering</a>, and <a href="/tags/">more topics</a>.',
     contacts: {
       email: '',
       telegram: '',
