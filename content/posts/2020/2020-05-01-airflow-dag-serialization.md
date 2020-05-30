@@ -31,7 +31,7 @@ One of the key features that is implemented as the part of DAG Serialization is 
 
 Add the following settings in `airflow.cfg`:
 
-```cfg
+```ini
 [core]
 store_serialized_dags = True
 min_serialized_dag_update_interval = 30
