@@ -123,7 +123,7 @@ For details about installing the chart to use others storage, see configurations
 
 From above config, you should able to access the UI via: http://[nodeIp]:18080
 
-![](../../media/spark-history-server/spark-history-server.png)
+![](../../media/2020/spark-history-server/spark-history-server.png)
 
 # References
 
