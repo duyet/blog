@@ -115,7 +115,7 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 960,
+              maxWidth: 1200,
               withWebp: true,
               ignoreFileExtensions: [],
             }
@@ -196,8 +196,8 @@ module.exports = {
         name: siteConfig.title,
         short_name: siteConfig.title,
         start_url: '/',
-        background_color: '#FFF',
-        theme_color: '#F7A046',
+        // background_color: '#FFF',
+        // theme_color: '#F7A046',
         display: 'standalone',
         icon: 'static/photo.png'
       },
@@ -221,7 +221,6 @@ module.exports = {
         omitGoogleFont: true
       },
     },
-    'gatsby-plugin-flow',
-    'gatsby-plugin-optimize-svgs'
+    'gatsby-plugin-flow'
   ]
 };
