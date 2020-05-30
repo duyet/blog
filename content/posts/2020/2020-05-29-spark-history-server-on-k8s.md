@@ -17,7 +17,7 @@ description: The problem with running Spark on Kubernetes is the logs go away on
 fbCommentUrl: none
 ---
 
-The problem with running Spark on Kubernetes is the logs go away once the job completes. Spark has tool called the Spark History Server that provides a UI for your past Spark jobs. When you running [Spark with Livy on Kubernetes](/2020/05/spark-on-k8s.html)
+The problem with running Spark on Kubernetes is the logs go away once the job completes. Spark has tool called the Spark History Server that provides a UI for your past Spark jobs. When you running [Spark with Livy on Kubernetes](/2020/05/spark-on-k8s.html) or direct `spark-submit`, `Spark Driver` keeps event logs while running, but after a Spark application is finished `Spark Driver` exits, so these are lost unless you enable event logging and set a folder where the logs are placed. One option is to start `Spark History Server`, and point it to the same log directory so you'll be able to reach your application logs post-execution
 
 In this post, I will show you how to use Spark History Server on Kubernetes.
 
