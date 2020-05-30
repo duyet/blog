@@ -10,7 +10,7 @@ tags:
 - Kubernetes
 - Spark History Server
 
-thumbnail: http://2.bp.blogspot.com/-BOTA2PWkjBY/XtIGGKlRVGI/AAAAAAABZ0g/xvQ-OCIjSHM6gIkKeXn1ORPG1m32mCkiQCK4BGAYYCw/s1600/spark-history-server.png
+thumbnail: https://2.bp.blogspot.com/-BOTA2PWkjBY/XtIGGKlRVGI/AAAAAAABZ0g/xvQ-OCIjSHM6gIkKeXn1ORPG1m32mCkiQCK4BGAYYCw/s1600/spark-history-server.png
 slug: /2020/05/spark-history-server-on-k8s.html
 draft: false
 description: The problem with running Spark on Kubernetes is the logs go away once the job completes. Spark has tool called the Spark History Server that provides a UI for your past Spark jobs. In this post, I will show you how to use Spark History Server on Kubernetes.
