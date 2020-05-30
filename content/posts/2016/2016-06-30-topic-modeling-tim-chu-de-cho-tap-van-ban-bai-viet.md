@@ -74,7 +74,7 @@ Ta thống nhất sẽ chỉ chia các bài viết thành các chủ đề chín
 ### 3.2. Thực nghiệm ###
 Trong giới hạn, mình không thể thực nghiệm hết được tất cả các phương pháp đã nêu, mà chỉ chọn một phương pháp truyền thống: sử dụng phương pháp thu thập lại và phân lớp chủ đề sử dụng SVM. Phương pháp gồm 4 bước cơ bản: 
 
-[https://2.bp.blogspot.com/-vG0Kj5fx5cE/V3SWSGCP_lI/AAAAAAAAYpI/lAou9gxVbwc1BoIRIY_b-mHeXNstPTfLQCLcB/s1600/docs-tokenizer.png](https://2.bp.blogspot.com/-vG0Kj5fx5cE/V3SWSGCP_lI/AAAAAAAAYpI/lAou9gxVbwc1BoIRIY_b-mHeXNstPTfLQCLcB/s1600/docs-tokenizer.png)
+![https://2.bp.blogspot.com/-vG0Kj5fx5cE/V3SWSGCP_lI/AAAAAAAAYpI/lAou9gxVbwc1BoIRIY_b-mHeXNstPTfLQCLcB/s1600/docs-tokenizer.png](https://2.bp.blogspot.com/-vG0Kj5fx5cE/V3SWSGCP_lI/AAAAAAAAYpI/lAou9gxVbwc1BoIRIY_b-mHeXNstPTfLQCLcB/s1600/docs-tokenizer.png)
 
 - Bước 1: Thu thập, rút trích
 Tiến hành thu thập, rút trích lại một số bài viết từ VnExpress.net và các chủ đề tương ứng đi kèm cho mỗi bài viết. Các chủ đề này sẽ là các chủ đề chuẩn cho 28.000 bài viết của công ty A.
