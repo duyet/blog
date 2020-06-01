@@ -2,6 +2,8 @@
 @import '../../../assets/scss/mixins';
 
 .tags {
+  display: inline-block;
+
   @include margin-bottom(.5);
 
   &__list {
