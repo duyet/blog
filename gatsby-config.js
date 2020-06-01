@@ -199,10 +199,18 @@ module.exports = {
         // background_color: '#FFF',
         // theme_color: '#F7A046',
         display: 'standalone',
-        icon: 'static/photo.png'
+        icon: 'static/photo.png',
+        cache_busting_mode: 'none'
       },
     },
-    // 'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        workboxConfig: {
+          globPatterns: ['**/*']
+        },
+      }
+    },
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     {
