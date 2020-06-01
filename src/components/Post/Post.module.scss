@@ -31,7 +31,7 @@
     margin-left: auto;
     margin-right: auto;
     @include margin-top(1);
-    background: #fff;
+    background: $color-white;
     z-index: 999;
 
     &:hover,
