@@ -6,6 +6,7 @@
     max-width: $layout-post-width;
     margin: 0 auto;
     padding: 0 15px;
+    padding-bottom: 30px;
   }
 
   &__comments {
@@ -30,6 +31,8 @@
     margin-left: auto;
     margin-right: auto;
     @include margin-top(1);
+    background: #fff;
+    z-index: 999;
 
     &:hover,
     &:focus {
