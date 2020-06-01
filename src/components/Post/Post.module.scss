@@ -36,7 +36,9 @@
 
     &:hover,
     &:focus {
-      color: $color-primary;
+      color: $color-white;
+      background: $color-primary;
+      border-color: $color-primary;
     }
 
   }

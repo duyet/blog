@@ -33,7 +33,7 @@ $button-border-radius: 20px;
 
 // Layout
 $layout-post-single-width: 750px;
-$layout-post-width: $layout-post-single-width - 105px;
+$layout-post-width: $layout-post-single-width; // $layout-post-width: $layout-post-single-width - 105px;
 
 $layout-width: 1070px;
 $layout-breakpoint-sm: 685px;
