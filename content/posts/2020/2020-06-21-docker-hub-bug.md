@@ -25,8 +25,10 @@ def my_python_function():
     # your code goes here
     print('Hello')
 
-def my_python_function_with_context(**kwargs):
-    ds = kwargs['ds']
+def my_python_function_with_context(**context):
+    # For more detail about "context" object, 
+    # please refer to https://blog.duyet.net/2019/08/airflow-context.html
+    ds = context['ds']
     print(f'Dag run at {ds}')
 
 dag = DAG('dag_id')
@@ -65,3 +67,4 @@ run_this = PythonOperator(dag=dag,
 # References
 
 - [http://airflow.apache.org/docs/stable/howto/operator/python.html](http://airflow.apache.org/docs/stable/howto/operator/python.html)
+- [Airflow - "context" dictionary](https://blog.duyet.net/2019/08/airflow-context.html)
