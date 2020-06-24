@@ -15,7 +15,7 @@ description: To scheduling a Python script or Python function in Airflow, we use
 fbCommentUrl: none
 ---
 
-To scheduling a Python script or Python function in Airflow, we use `PythonOperator`.
+To schedule a Python script or Python function in Airflow, we use `PythonOperator`.
 
 ```python
 from airflow import DAG
