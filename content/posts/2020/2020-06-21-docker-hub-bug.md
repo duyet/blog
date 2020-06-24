@@ -11,7 +11,7 @@ tags:
 
 thumbnail: https://images.unsplash.com/photo-1592928038511-20202bdad1fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
 slug: /2020/06/scheduling-python-script-in-airflow.html
-description: To scheduling a Python script or Python function in Airflow, we use `PythonOperator`.
+description: To schedule a Python script or Python function in Airflow, we use `PythonOperator`.
 fbCommentUrl: none
 ---
 
