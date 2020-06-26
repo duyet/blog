@@ -29,10 +29,9 @@ The history server UI would only show Spark jobs if they are configured to log e
 
 ### GCS
 
-In the case of GCS, the secret needs to be mounted in the driver and executor pods using the configuration options spark.kubernetes.driver.secrets.[SecretName] and spark.kubernetes.executor.secrets.[SecretName]. A sample command is given below:
+In the case of GCS, the secret needs to be mounted in the driver and executor pods using the configuration options `spark.kubernetes.driver.secrets.[SecretName]` and `spark.kubernetes.executor.secrets.[SecretName]`. A sample command is given below:
 
 ```bash
-
 bin/spark-submit \
     --master k8s://https://<k8s-master-url> \
     --deploy-mode cluster \
