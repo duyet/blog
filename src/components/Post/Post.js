@@ -5,7 +5,7 @@ import Comments from './Comments';
 import Content from './Content';
 import Meta from './Meta';
 import Tags from './Tags';
-import SubscribeBox from './SubscribeBox';
+// import SubscribeBox from './SubscribeBox';
 
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
@@ -35,7 +35,7 @@ const Post = ({ post }: Props) => {
       </div>
 
       <div className={styles['post__footer']}>
-        <SubscribeBox />
+        {/* <SubscribeBox /> */}
         <Meta date={date} />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
       </div>
