@@ -17,5 +17,6 @@ jobs:
         run: |
           yarn
           git config --global user.email "$GITHUB_ACTOR"
+          git config --global user.name "$GITHUB_ACTOR"
           git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
           yarn deploy
