@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/templates/ping.js"],"names":["PageTemplate"],"mappings":"4FACA,OAEeA,UAFM,iBAAM","file":"component---src-templates-ping-js-f166e83f5acd4647cf7b.js","sourcesContent":["// @flow strict\nconst PageTemplate = () => 'pong';\n\nexport default PageTemplate;\n"],"sourceRoot":""}
