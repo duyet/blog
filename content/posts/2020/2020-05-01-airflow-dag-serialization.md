@@ -7,7 +7,7 @@ category: Data Engineer
 tags:
 - Data Engineer
 - Airflow
-thumbnail: https://airflow.apache.org/docs/1.10.10/_images/dag_serialization.png
+thumbnail: http://1.bp.blogspot.com/-5cIyBwelyrQ/Xvg-wwqPJRI/AAAAAAABeeI/d4DPBinapik2Dffz3wXSTnsU7cgCHPqBACK4BGAYYCw/s1600/dag_serialization.png
 slug: /2020/05/airflow-dag-serialization.html
 draft: false
 description: In order to make Airflow Webserver stateless, Airflow >=1.10.7 supports DAG Serialization and DB Persistence.
