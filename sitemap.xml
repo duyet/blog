@@ -23,9 +23,9 @@
 <url> <loc>https://blog.duyet.net/2014/06/lo-hong-tren-cookie-cua-wordpress-cho.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2014/06/vach-tran-lo-hong-zero-day-tren.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2014/06/chuong-trinh-startups2students-mang.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2014/06/google-now-co-them-tinh-nang-nhac-xuong.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2014/06/10-secrets-you-should-have-learned-with.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2014/06/firefox-30-arrives-with-sidebars-button.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2014/06/google-now-co-them-tinh-nang-nhac-xuong.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2014/06/su-dung-trinh-soan-thao-vi-trong-linux.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2014/06/google-makes-android-l-preview.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2014/06/google-street-view-chinh-thuc-co-mat.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -50,10 +50,10 @@
 <url> <loc>https://blog.duyet.net/2015/03/xay-dung-thuong-hieu-ca-nhan-tai-cong-so.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/03/so-sanh-cac-mo-hinh-thac-nuoc-mo-hinh-mau-mo-hinh-xoan-oc.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/03/bigdata-cai-at-apache-spark-tren-ubuntu.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2015/04/mongodb-cach-thiet-lap-e-app-server-ket.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/04/github-project-dcrawler-system.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2015/04/open-source-tim-hieu-ve-giay-phep-apache.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2015/04/mongodb-cach-thiet-lap-e-app-server-ket.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/04/tim-hieu-ve-giay-phep-gnu.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2015/04/open-source-tim-hieu-ve-giay-phep-apache.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/04/tim-hieu-ve-giay-phep-mit.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/04/big-data-explained-in-less-than-2.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/04/presentation-php-is-king-nodejs-is.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -93,9 +93,9 @@
 <url> <loc>https://blog.duyet.net/2015/10/cai-at-openvpn-tren-debian-ubuntu-va-centos.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/10/seminar-gioi-thieu-apache-spark-va-predictionio.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/10/clipboardjs-thu-vien-giup-cat-sao-chep-noi-dung-tren-web.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2015/11/nhat-ky.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/11/tensorflow-nen-tang-tri-tue-nhan-tao.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/11/google-big-data-meetup-in-saigon.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2015/11/nhat-ky.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/11/nodejs-cache-in-memory-trong-nodejs.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/nhan.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/map-reduce-va-bai-toan-wordcount.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -179,6 +179,7 @@
 <url> <loc>https://blog.duyet.net/2014/06/the-myth-of-full-stack-developer.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/02/linux-mot-so-lenh-hay-dung.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/02/quan-ly-project-voi-trello-nao.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2015/02/design-pattterns-he-thong-23-mau-design.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/03/dbms-tam-quan-trong-cua-kieu-du-lieu.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/03/tai-sao-uong-tang-vo-dung-lai-tro-thanh.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/04/12-cach-nguoi-thanh-at-oi-pho-voi-ong.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -286,8 +287,8 @@
 <url> <loc>https://blog.duyet.net/2019/08/airflow-docker-compose.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2019/08/airflow-note.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2019/08/ir-evaluation.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2019/10/ir-evaluation-2.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2019/09/books.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2019/10/ir-evaluation-2.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2019/10/js-shorthand-tips.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2020/05/airflow-dag-serialization.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2020/05/data-studio-caching-with-spreadsheet.md</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -296,7 +297,6 @@
 <url> <loc>https://blog.duyet.net/2020/06/scheduling-python-script-in-airflow.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/07/su-dung-git-stash-hieu-qua.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/07/git-ki-thuat-chia-branch-branch-early.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2015/02/design-pattterns-he-thong-23-mau-design.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/02/co-founder-la-yeu-to-quyet-inh-e-thanh.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/04/bigdata-getting-started-with-spark-in.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/05/tim-hieu-ve-he-thong-quang-cao-online.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
