@@ -68,7 +68,7 @@ module.exports = {
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
               custom_elements: [{
-                'content:encoded': `${edge.node.frontmatter.description}<br /><img src="${edge.node.frontmatter.thumbnail}" />`
+                'content:encoded': `${edge.node.frontmatter.description}<br /><img src="${edge.node.frontmatter.thumbnail}" loading="lazy" />`
               }]
             }))
           ),
