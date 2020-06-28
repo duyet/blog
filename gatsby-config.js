@@ -222,6 +222,7 @@ module.exports = {
         omitGoogleFont: true
       },
     },
-    'gatsby-plugin-flow'
+    'gatsby-plugin-flow',
+    'gatsby-plugin-robots-txt'
   ]
 };
