@@ -1251,6 +1251,14 @@
     "@babel/helper-builder-binary-assignment-operator-visitor" "^7.8.3"
     "@babel/helper-plugin-utils" "^7.8.3"
 
+"@babel/plugin-transform-flow-strip-types@7.8.3":
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-flow-strip-types/-/plugin-transform-flow-strip-types-7.8.3.tgz#da705a655466b2a9b36046b57bf0cbcd53551bd4"
+  integrity sha512-g/6WTWG/xbdd2exBBzMfygjX/zw4eyNC4X8pRaq7aRHRoDUCzAIu3kGYIXviOv8BjCuWm8vDBwjHcjiRNgXrPA==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/plugin-syntax-flow" "^7.8.3"
+
 "@babel/plugin-transform-flow-strip-types@^7.7.4":
   version "7.7.4"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-flow-strip-types/-/plugin-transform-flow-strip-types-7.7.4.tgz#cc73f85944782df1d77d80977bc097920a8bf31a"
@@ -1258,14 +1266,6 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-flow" "^7.7.4"
-
-"@babel/plugin-transform-flow-strip-types@^7.8.3":
-  version "7.8.3"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-flow-strip-types/-/plugin-transform-flow-strip-types-7.8.3.tgz#da705a655466b2a9b36046b57bf0cbcd53551bd4"
-  integrity sha512-g/6WTWG/xbdd2exBBzMfygjX/zw4eyNC4X8pRaq7aRHRoDUCzAIu3kGYIXviOv8BjCuWm8vDBwjHcjiRNgXrPA==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.8.3"
-    "@babel/plugin-syntax-flow" "^7.8.3"
 
 "@babel/plugin-transform-for-of@^7.7.4":
   version "7.7.4"
@@ -8157,12 +8157,12 @@ flatted@^2.0.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.1.tgz#69e57caa8f0eacbc281d2e2cb458d46fdb449e08"
   integrity sha512-a1hQMktqW9Nmqr5aktAux3JMNqaucxGcjtjWnZLHX7yyPCmlSV3M54nGYbqT8K+0GhF3NBgmJCc3ma+WOgX8Jg==
 
-flow-bin@^0.120.0:
+flow-bin@0.120.0:
   version "0.120.0"
   resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.120.0.tgz#f9d5dd19770f75a9a8ba0d3881a7c3b46a2efb1a"
   integrity sha512-8cSVwkeoRh4um8NrnqcsQYYHdm+uTzOwnTPrBky/xC9o9ZGNHN4XwRwKA0Ymjz4uB19Knn5ey/oMvX4aiOcjNQ==
 
-flow-typed@^2.6.2:
+flow-typed@2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/flow-typed/-/flow-typed-2.6.2.tgz#6d324a96c4df300e0f823c13ca879c824bef40ce"
   integrity sha512-brTh8SukLidVpR1u8hSR3OcZSvLtptpwLEGgEhK/qBhWCB7zxPZmnmChYi40JQH6vB448ck380+qbkDo3fJ6qA==
