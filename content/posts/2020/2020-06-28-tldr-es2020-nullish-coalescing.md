@@ -14,7 +14,6 @@ description: Nullish coalescing (??) adds the ability to truly check nullish val
 fbCommentUrl: none
 ---
 
-![](../../media/2020/nullish-coalescing/nullish-coalescing.png)
 
 
 The [nullish coalescing proposal](https://github.com/tc39/proposal-nullish-coalescing/) (`??`) adds a new short-circuiting operator meant to handle default values.
