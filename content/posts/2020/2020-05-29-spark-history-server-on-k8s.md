@@ -120,7 +120,7 @@ For details about installing the chart to use others storage, see configurations
 
 **Viewing the UI:** After the chart is successfully installed, a message would be printed out to the console with details about how to access the UI. Depending on what `service.type` is specified, different instructions would be presented on the console. Valid `service.type` values are `LoadBalancer`, `NodePort` and `ClusterIP`.
 
-From above config, you should able to access the UI via: http://[nodeIp]:18080
+From above config, you should able to access the UI via: `http://[nodeIp]:18080`
 
 ![](../../media/2020/spark-history-server/spark-history-server.png)
 
