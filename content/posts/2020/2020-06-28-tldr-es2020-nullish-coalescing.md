@@ -7,13 +7,14 @@ category: Web
 tags:
 - Web
 - TLDR
-thumbnail: http://4.bp.blogspot.com/-b54bg3pE-E0/XviwZRPIKBI/AAAAAAABehM/drqV5ujHAgQGUKj6QIwUvy4BN-fs7jGmwCK4BGAYYCw/s1600/nullish-js.png
+thumbnail: https://2.bp.blogspot.com/-URTujIM0iGI/Xvi7aiZ1eUI/AAAAAAABeiE/jBvXkkQyjtUbiBTdjQe2dxZSQt1jRbRygCK4BGAYYCw/s1600/Screen%2BShot%2B2020-06-28%2Bat%2B22.45.47.png
 slug: /2020/06/tldr-es2020-nullish-coalescing.html
 draft: false
 description: Nullish coalescing (??) adds the ability to truly check nullish values instead of falsey values.
 fbCommentUrl: none
 ---
 
+![](../../media/2020/nullish-coalescing/nullish-coalescing-dark.png)
 
 
 The [nullish coalescing proposal](https://github.com/tc39/proposal-nullish-coalescing/) (`??`) adds a new short-circuiting operator meant to handle default values.

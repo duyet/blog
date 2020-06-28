@@ -7,7 +7,7 @@ category: Web
 tags:
 - Web
 - TLDR
-thumbnail: http://1.bp.blogspot.com/-0uJZiq_h-Sg/XviyPAUa8GI/AAAAAAABehY/nJ0Zx-PRqDAr4rpQBV_uTNnr-TzU3zk2gCK4BGAYYCw/s1600/optional-chaining.png
+thumbnail: https://2.bp.blogspot.com/-ntckEWZo28E/Xvi42BQDLMI/AAAAAAABehk/OoJ9GByskEEGpcDlLZuwn0tMjTmqMikWQCK4BGAYYCw/s1600/Screen%2BShot%2B2020-06-28%2Bat%2B22.35.12.png
 slug: /2020/06/tldr-es2020-optional-chaining.html
 draft: false
 description: Long chains of property accesses in JavaScript can be error-prone, as any of them might evaluate to null or undefined (also known as "nullish" values). Some other languages offer an elegant solution to this problem with using a feature called "optional chaining".
