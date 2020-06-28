@@ -8,7 +8,7 @@ import Page from '../components/Page';
 import CategoryTag from '../components/Layout/CategoryTag';
 import { useSiteMetadata, useCategoriesList } from '../hooks';
 
-const topCategories = ['Machine Learning', 'Javascript', 'Linux', 'Web'];
+const topCategories = ['Machine Learning', 'Javascript', 'Data Engineer', 'Web'];
 
 
 const CategoriesListHighlight = ({ categories }) => (
