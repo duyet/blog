@@ -1,17 +1,6 @@
-<h1 align="center">
-    <img alt="Duyet.net" title="Lumen" src="https://1.bp.blogspot.com/-2eWrIco7x8o/XV1j9_VdTlI/AAAAAAABF20/Tzm60r6Da_IlPovabZHTW8EiXR7v5wF3gCLcBGAs/s1600/Screen%2BShot%2B2019-08-21%2Bat%2B10.31.52%2BPM.png" width="140" />
-    <img alt="Lumen" title="Lumen" src="https://raw.githubusercontent.com/alxshelepenok/gatsby-starter-lumen/gatsby-v2/.github/logo.png" width="140" />
-    </br>
-    blog.duyet.net by Lumen
-</h1>
-
-<h4 align="center">
-  A minimal, lightweight and mobile-first starter for creating blogs uses <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby</a>.
-</h4>
-
+![.github/screenshot.png](.github/screenshot.png)
 
 ## Table of contents
-+ [Features](#features)
 + [Web Performance Tests](#web-performance-tests)
 + [Quick Start](#quick-start)
 + [Deploy with Netlify](h#deploy-with-netlify)
@@ -23,18 +12,6 @@
 + [Credits](#credits)
 + [License](#license)
 
-## Features
-+ [Lost Grid](http://lostgrid.org).
-+ [Modern font stack](https://bitsofco.de/the-new-system-font-stack).
-+ Beautiful typography inspired by [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg).
-+ Syntax highlighting in code blocks using [PrismJS](http://prismjs.com).
-+ [Mobile-First](https://medium.com/@mrmrs_/mobile-first-css-48bc4cc3f60f) approach in development.
-+ Archive organized by tags and categories.
-+ Pagination support.
-+ [Netlify CMS](https://www.netlifycms.org) support.
-+ Google Analytics.
-+ Disqus Comments.
-+ [Flow](https://flow.org/) static type checking.
 
 ## Web Performance Tests
 + Lighthouse Report - [WebPageTest](http://webpagetest.org/result/190821_V8_01957d52cbcc876d343256685f8d7911/)
