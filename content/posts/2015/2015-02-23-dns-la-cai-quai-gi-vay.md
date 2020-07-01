@@ -12,7 +12,7 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-64271840577552258
 blogger_orig_url: https://blog.duyet.net/2015/02/dns-la-cai-quai-gi-vay.html
 slug: /2015/02/dns-la-cai-quai-gi-vay.html
 category: News
-description: "DNS là từ viết tắt trong tiếng Anh của Domain Name System, là Hệ thống phân giải tên miền được phát minh vào năm 1984 cho Internet. Bạn có thể hiểu DNS như một cái "Danh bạ điện thoại" để tìm trên Internet bằng cách dịch tên máy chủ máy tính thành địa chỉ IP"
+description: DNS là từ viết tắt trong tiếng Anh của Domain Name System, là Hệ thống phân giải tên miền được phát minh vào năm 1984 cho Internet. Bạn có thể hiểu DNS như một cái "Danh bạ điện thoại" để tìm trên Internet bằng cách dịch tên máy chủ máy tính thành địa chỉ IP
 fbCommentUrl: none
 
 ---
