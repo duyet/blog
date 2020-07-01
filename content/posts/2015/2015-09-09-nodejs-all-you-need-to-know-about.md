@@ -36,7 +36,7 @@ I’m really stunned that actually a new converged Node.js 4.0.0 is round the co
 
 io.js, Node.js and npm developers discussing Native modules at NodeConf Adventure at a Ranch somewhere in California :)
 
-## Why “4.0.0”? ##
+## Why "4.0.0"? ##
 
 The io.js project uses semantic versioning (semver) with its first major release being a 1.0.
 
@@ -133,7 +133,7 @@ While we already working on porting the native parts of our Node.js agent to Nan
 - The request performance is roughly 20% better than 0.12 – this is a significant gain.
 - The switch to a new V8 version and the introduction of Nan 2.0 has implications on native modules and some not maintained ones may cease to work (but you should get rid of them anyway then)
 - 4.0.0 uses a recent V8 version and offers many new language features from ES6
-- The introduction of Long Term Support (LTS) is one of the most important and highly demanded new “features”
+- The introduction of Long Term Support (LTS) is one of the most important and highly demanded new "features"
 
 ## Did I miss anything? ##
 

@@ -20,7 +20,7 @@ There are some things that are so big that they have implications for everyone, 
 It’s such an important idea that everyone from your grandma to your CEO needs to have a basic understanding of what it is and why it’s important.
 
 ## What is Big Data? ##
-“Big Data” means different things to different people and there isn’t, and probably never will be, a commonly agreed upon definition out there. But the phenomenon is real and it is producing benefits in so many different areas, so it makes sense for all of us to have a working understanding of the concept.
+"Big Data" means different things to different people and there isn’t, and probably never will be, a commonly agreed upon definition out there. But the phenomenon is real and it is producing benefits in so many different areas, so it makes sense for all of us to have a working understanding of the concept.
 
 ![](https://2.bp.blogspot.com/-91L8Jd3M3u4/VSpWUia7JaI/AAAAAAAACQY/LcrkDeteKiA/s1600/AAEAAQAAAAAAAAMxAAAAJDk1ZTU1YTg0LWU0ZGQtNDRiYi1iM2UxLWNmY2FhYjhiMzgxMQ.jpg)
 
@@ -28,7 +28,7 @@ So here’s my quick and dirty definition:
 
 The basic idea behind the phrase 'Big Data' is that everything we do is increasingly leaving a digital trace (or data), which we (and others) can use and analyse. Big Data therefore refers to that data being collected and our ability to make use of it.
 
-I don’t love the term “big data” for a lot of reasons, but it seems we’re stuck with it. It’s basically a ‘stupid’ term for a very real phenomenon – the datafication of our world and our increasing ability to analyze data in a way that was never possible before.
+I don’t love the term "big data" for a lot of reasons, but it seems we’re stuck with it. It’s basically a ‘stupid’ term for a very real phenomenon – the datafication of our world and our increasing ability to analyze data in a way that was never possible before.
 
 Of course, data collection itself isn’t new. We as humans have been collecting and storing data since as far back as 18,000 BCE. What’s new are the recent technological advances in chip and sensor technology, the Internet, cloud computing, and our ability to store and analyze data that have changed the quantity of data we can collect.
 
@@ -36,7 +36,7 @@ Things that have been a part of everyday life for decades — shopping, listenin
 
 The other big change is in the kind of data we can analyze. It used to be that data fit neatly into tables and spreadsheets, things like sales figures and wholesale prices and the number of customers that came through the door.
 
-Now data analysts can also look at “unstructured” data like photos, tweets, emails, voice recordings and sensor data to find patterns.
+Now data analysts can also look at "unstructured" data like photos, tweets, emails, voice recordings and sensor data to find patterns.
 
 ## How is it being used? ##
 As with any leap forward in innovation, the tool can be used for good or nefarious purposes. Some people are concerned about privacy, as more and more details of our lives are being recorded and analyzed by businesses, agencies, and governments every day. Those concerns are real and not to be taken lightly, and I believe that best practices, rules, and regulations will evolve alongside the technology to protect individuals.

@@ -19,9 +19,9 @@ Nhìn tỷ lệ chọi năm nay, cũng như mọi năm ngành Hệ thống Thôn
 Người ta nhìn vào CNTT chỉ biết nhiều tới Kỹ thuật phần mềm và Mạng máy tính. Ngành Hệ thống thông tin cũng là một trong những ngành khá mới tại Việt Nam.
 
 Nhìn chung thì cái gì mới cũng tồn tại cơ hội và rủi ro.
-Mới -> điểm chuẩn thấp vừa (không quá cao, cũng không quá thấp) ->> có cơ hội đậu Đại học cao. Nhưng cái mới đó cũng tồn tại vớiviệc: “Ra trường rồi làm cái gì?”
+Mới -> điểm chuẩn thấp vừa (không quá cao, cũng không quá thấp) ->> có cơ hội đậu Đại học cao. Nhưng cái mới đó cũng tồn tại vớiviệc: "Ra trường rồi làm cái gì?"
 
-Với một người tốt nghiệp ngành hệ thống thông tin và tích được sau khi gặp mặt và giao lưu cùng 10 Cựu sinh viên khoa HTTT đang làm việc đủ các lĩnh vực IT của UIT trong Ngày hội việc làm vừa rồi của trường do Khoa HTTTđăng cai tổ chức. Hy vọng cũng giúp được cho các bạn sinh viên Khoa HTTT, cho các bạn thí sinh sắp thi vào HTTT, hoặc những bạn có quan tâm HTTT là gì :”>
+Với một người tốt nghiệp ngành hệ thống thông tin và tích được sau khi gặp mặt và giao lưu cùng 10 Cựu sinh viên khoa HTTT đang làm việc đủ các lĩnh vực IT của UIT trong Ngày hội việc làm vừa rồi của trường do Khoa HTTTđăng cai tổ chức. Hy vọng cũng giúp được cho các bạn sinh viên Khoa HTTT, cho các bạn thí sinh sắp thi vào HTTT, hoặc những bạn có quan tâm HTTT là gì :">
 
 Đương nhiên, bài viết này cũng chỉ đề cập đến những công việc liên quan đến IT mà một Kỹ sư HTTT sau khi ra trường có thể làm!!!
 

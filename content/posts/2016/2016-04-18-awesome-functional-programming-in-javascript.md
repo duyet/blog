@@ -112,7 +112,7 @@ Use the laws of math instead of always reinventing your own thing. Algebraic!
 ### [https://blog.duyet.net/2016/04/awesome-functional-programming-in-javascript.html#books](https://blog.duyet.net/2016/04/awesome-functional-programming-in-javascript.html#books)Books ###
 
 - [Professor Frisby’s Mostly Adequate Guide to Functional Programming](https://github.com/DrBoolean/mostly-adequate-guide) – This is a book on the functional paradigm in general using the world’s most popular functional programming language: JavaScript. By [Brian Lonsdorf](https://twitter.com/drboolean) (2016)
-- [JavaScript Allongé](https://leanpub.com/javascriptallongesix), the “Six” edition by [Reginald Braithwaite](https://github.com/raganwald) (2016)
+- [JavaScript Allongé](https://leanpub.com/javascriptallongesix), the "Six" edition by [Reginald Braithwaite](https://github.com/raganwald) (2016)
 - [Functional Programming in JavaScript](https://www.manning.com/books/functional-programming-in-javascript) by Luis Atencio (2016)
 - [Eloquent JavaScript](http://eloquentjavascript.net/) by Marijn Haverbeke (2014)
 - [Functional JavaScript](http://shop.oreilly.com/product/0636920028857.do) by [Michael Fogus](https://github.com/fogus) (2013)
@@ -135,7 +135,7 @@ Use the laws of math instead of always reinventing your own thing. Algebraic!
 
 ### [https://blog.duyet.net/2016/04/awesome-functional-programming-in-javascript.html#videos](https://blog.duyet.net/2016/04/awesome-functional-programming-in-javascript.html#videos)Videos ###
 
-- [Classroom Coding with Prof. Frisby](https://www.youtube.com/watch?v=h_tkIpwbsxY&amp;list=PLK_hdtAJ4KqX0JOs_KMAmUNTNMRYhWEaC) – A series that builds a “practical” web application with React and functional programming in JavaScript.
+- [Classroom Coding with Prof. Frisby](https://www.youtube.com/watch?v=h_tkIpwbsxY&amp;list=PLK_hdtAJ4KqX0JOs_KMAmUNTNMRYhWEaC) – A series that builds a "practical" web application with React and functional programming in JavaScript.
 - [Hey Underscore, You're Doing It Wrong!](https://www.youtube.com/watch?v=m3svKOdZijA) – Underscore.js claims to be a functional programming library, but is it really?
 - [Functional programming patterns for the non-mathematician](https://www.youtube.com/watch?v=AvgwKjTPMmM)
 - [Pure JavaScript](https://vimeo.com/49384334)

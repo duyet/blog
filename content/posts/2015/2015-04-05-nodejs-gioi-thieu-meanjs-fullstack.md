@@ -66,7 +66,7 @@ Express cũng có thể sử dụng để xây dựng một API mạnh mẽ và 
 
 ### 3. AngularJS
 
-AngularJS được bắt đầu từ năm 2009, do lập trình viên Misko Hevery tại Google viết ra như là một dự án kiểu “viết cho vui”. Misko và nhóm lúc này đang tham gia vào 1 dự án của Google tên là Google Feedback. Với AngularJS, Misko đã rút ngắn số dòng code front-end từ 17000 dòng còn chỉ khoảng 1500. Với sự thành công đó, đội ngũ của dự án Google Feedback quyết định phát triển AngularJS theo hướng mã nguồn mở. Theo thông số từ Github mà mình thấy, hiện tại dự án AngularJS đang có gần 11000 người theo dõi và hơn 2000 lượt fork.  
+AngularJS được bắt đầu từ năm 2009, do lập trình viên Misko Hevery tại Google viết ra như là một dự án kiểu "viết cho vui". Misko và nhóm lúc này đang tham gia vào 1 dự án của Google tên là Google Feedback. Với AngularJS, Misko đã rút ngắn số dòng code front-end từ 17000 dòng còn chỉ khoảng 1500. Với sự thành công đó, đội ngũ của dự án Google Feedback quyết định phát triển AngularJS theo hướng mã nguồn mở. Theo thông số từ Github mà mình thấy, hiện tại dự án AngularJS đang có gần 11000 người theo dõi và hơn 2000 lượt fork.  
   
 Công nghệ HTML hỗ trợ tốt cho các trang web tĩnh, kiểu như trước năm 2000 vậy. Khi bạn xây dựng 1 trang web với PHP, Node/Express, hay Ruby thì nó cũng chỉ là một trang web tĩnh với nội dung được thay đổi khi bạn gửi request về máy chủ, máy chủ sẽ render 1 trang với nội dung tương ứng. Tuy nhiên mọi thứ đã thay đổi nhiều từ sự phát triển của HTML5, nhất là khi có sự chống lưng từ những ông lớn như Google, Yahoo, Facebook, và sự tập hợp đông đảo của cộng đồng mã nguồn mở.  
   
@@ -77,7 +77,7 @@ Công nghệ HTML hỗ trợ tốt cho các trang web tĩnh, kiểu như trướ
 
 ### 4. NodeJS
 
-NodeJS là một nền tảng được xây dựng trên “V8 Javascript engine” được viết bằng c++ và Javasccript. Nền tảng này được phát triển bởi Ryan Lienhart Dahl vào năm 2009.  
+NodeJS là một nền tảng được xây dựng trên "V8 Javascript engine" được viết bằng c++ và Javasccript. Nền tảng này được phát triển bởi Ryan Lienhart Dahl vào năm 2009.  
   
 Tại thời điểm này, nó được rất nhiều nhà phát triển ứng dụng ưa chuộng và còn là một nền tảng rất mới mẻ. Nó là dự án được xem nhiều thứ 2 trên GitHub.org, có khá nhiều theo dõi trên một nhóm của nó trên Google.com và có trên 15.000 modules được công bố trên NMP(khái niệm này sẽ được giới thiệu ở phần sau). Tất cả những điều trên cho thấy rằng, NodeJS đang là một nền tảng mới và thú vị cho việc phát triển các ứng dụng web, ứng dụng Server. NodeJS cũng cho thấy rằng nó hứa hẹn là một nền tảng hấp dẫn có thể thay thế được các nền tảng truyền thống như Apache, PHP, Python . . .  
   

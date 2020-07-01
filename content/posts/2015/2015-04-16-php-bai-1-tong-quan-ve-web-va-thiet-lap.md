@@ -59,7 +59,7 @@ Sau đây là các khái niệm cơ bản:
 
 ## HTML là gì? ##
 
-- HTML là viết tắt của cụm từ Hypertext Markup Language (Hiểu nghĩa là “Ngôn ngữ đánh dấu siêu văn bản bằng thẻ”).
+- HTML là viết tắt của cụm từ Hypertext Markup Language (Hiểu nghĩa là "Ngôn ngữ đánh dấu siêu văn bản bằng thẻ").
 - HTML không phải là một ngôn ngữ lập trình máy tính mà nó là một ngôn ngữ sử dụng các thẻ html để biểu diễn các trang web.
 - ISC Courses cũng có 1 lớp Static Web, các bạn chú ý theo học song song nhé. Để biết thêm HTML là gì thì bấm Ctrl + U :))
 

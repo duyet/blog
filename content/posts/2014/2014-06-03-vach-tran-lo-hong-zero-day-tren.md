@@ -29,9 +29,9 @@ Theo Cố vấn bảo mật ZDI, lỗ hổng này là một lỗ hổng zero day
 
 Một kẻ tấn công có thể lợi dụng lỗ hổng này thông qua các website đã bị tấn công. Thực hiện thành công một cuộc tấn công trên web, một kẻ tấn công có thể kiểm soát nội dung trên các website bị tấn công.
 
-Theo một bài đăng của ZDI: “Trong tất cả các trường hợp, một kẻ tấn công sẽ không có cách nào để buộc người dùng thấy được nội dung được các hacker kiểm soát.  Thay vào đó, một kẻ tấn công sẽ thuyết phục người dùng thực hiện hành động, thông thường bằng cách bảo họ click vào một đường dẫn từ một tin nhắn email hay một tin nhắn nhanh dẫn người dùng đến các website của kẻ tấn công, hoặc là bảo người dùng mở một tệp đính kèm được gửi thông qua email”.
+Theo một bài đăng của ZDI: "Trong tất cả các trường hợp, một kẻ tấn công sẽ không có cách nào để buộc người dùng thấy được nội dung được các hacker kiểm soát.  Thay vào đó, một kẻ tấn công sẽ thuyết phục người dùng thực hiện hành động, thông thường bằng cách bảo họ click vào một đường dẫn từ một tin nhắn email hay một tin nhắn nhanh dẫn người dùng đến các website của kẻ tấn công, hoặc là bảo người dùng mở một tệp đính kèm được gửi thông qua email".
 
-Bằng việc khai thác thành công lỗ hổng, một kẻ tấn công có thể đạt được các quyền như người dùng. “Những tài khoản của người dùng dùng thông thường sẽ ít bị ảnh hưởng hơn những người dùng có quyền quản trị.”
+Bằng việc khai thác thành công lỗ hổng, một kẻ tấn công có thể đạt được các quyền như người dùng. "Những tài khoản của người dùng dùng thông thường sẽ ít bị ảnh hưởng hơn những người dùng có quyền quản trị."
 
 Nếu bạn đang sử dụng Microsoft Outlook, Microsoft Outlook Express, or Windows Mail để mở các email HTML, thì nó sẽ tự động làm vô hiệu hóa các quyền điều khiển từ Script và ActiveX, giúp giảm các nguy cơ bị khai thác lỗ hổng này từ kẻ tấn công. Tuy nhiên, khi người dùng click vào bất kỳ đường dẫn độc hại nào đó được đính kèm với các email, họ sẽ trở thành nạn nhân và bị kiểm soát thông qua các cuộc tấn công trên web.
 

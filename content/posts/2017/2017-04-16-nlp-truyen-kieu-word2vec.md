@@ -29,7 +29,7 @@ Sử dụng **word2vec** cho [Truyện Kiều](https://en.wikipedia.org/wiki/The
 
 Trước tiên giới thiệu 1 chút về Word vector. Về cơ bản, đây chỉ là một vector trọng số, biểu diễn cho 1 từ, với số chiều cụ thể.  
   
-Ví dụ, 1-of-N (one-hot vector) sẽ mã hoá (encoding) các từ trong từ điển thành một vector có chiều dài N (tổng số lượng các từ trong từ điển). Giả sử từ điển của chúng ta chỉ có 5 từ: **King, Queen, Man, Woman, và Child**. Ta có thể biểu diễn từ “Queen” như bên dưới:
+Ví dụ, 1-of-N (one-hot vector) sẽ mã hoá (encoding) các từ trong từ điển thành một vector có chiều dài N (tổng số lượng các từ trong từ điển). Giả sử từ điển của chúng ta chỉ có 5 từ: **King, Queen, Man, Woman, và Child**. Ta có thể biểu diễn từ "Queen" như bên dưới:
 
 
 

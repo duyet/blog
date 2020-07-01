@@ -23,7 +23,7 @@ Hôm nay 26/04, Node.js vừa ra mắt [phiên bản v6.0.0](https://nodejs.org/
 
 Nodejs v6.0.0 sử dụng V8 JavaScript engine, giúp hỗ trợ hơn 93% các [chức năng mới trong ES6](https://blog.duyet.net/2016/04/es6.html). Hiệu tại Nodejs v6 được công bố là "Current Release", tức là bạn đã có thể nâng cấp lên Nodejs ngay thời điểm này.
 
-> New “Current” version line focuses on performance improvements, increased reliability and better security for its 3.5 million users - https://nodejs.org/en/blog/announcements/v6-release/
+> New "Current" version line focuses on performance improvements, increased reliability and better security for its 3.5 million users - https://nodejs.org/en/blog/announcements/v6-release/
 
 Các điểm mới trong Nodejs v6:
 

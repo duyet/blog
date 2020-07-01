@@ -19,7 +19,7 @@ fbCommentUrl: none
 ---
 
 Với package sau bạn có thể tạo 1 static server đơn giản bằng Nodejs.
-English version: [http://blog.duyet.net/2015/08/nodejs-create-simple-static-server-with.html](http://blog.duyet.net/2015/08/nodejs-create-simple-static-server-with.html?utm_source=duyetdev_blog&amp;utm_medium=local_click&amp;utm_campaign=duyetdev_blog)
+English version: [https://blog.duyet.net/2015/08/nodejs-create-simple-static-server-with.html](https://blog.duyet.net/2015/08/nodejs-create-simple-static-server-with.html?utm_source=duyetdev_blog&amp;utm_medium=local_click&amp;utm_campaign=duyetdev_blog)
 
 ## Cài đặt ##
 

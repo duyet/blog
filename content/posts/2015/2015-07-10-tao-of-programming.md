@@ -274,7 +274,7 @@ Phu tốt code chẳng mòn theo tháng ngày
 ## Hồi 6: Quản đốc ## 
 
 > Lập Trình Sư nói:
-> “Môn phái có nhiều lập trình viên và ít quản đốc thì sẽ hưng thịnh.”
+> "Môn phái có nhiều lập trình viên và ít quản đốc thì sẽ hưng thịnh."
 
 ## 6.1 ## 
 

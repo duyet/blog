@@ -88,4 +88,4 @@ Hello, TensorFlow!
 ```
 
 ## Cài đặt trên Docker ##
-Một cách khác cũng được khuyến khích là cài đặt trong môi trường Docker. Xem hướng dẫn tại [bài viết này](http://blog.duyet.net/2016/02/cai-dat-tensorflow-tren-docker.html).
+Một cách khác cũng được khuyến khích là cài đặt trong môi trường Docker. Xem hướng dẫn tại [bài viết này](https://blog.duyet.net/2016/02/cai-dat-tensorflow-tren-docker.html).

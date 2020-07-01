@@ -22,7 +22,7 @@ Mozilla today officially launched Firefox 30 for Windows, Mac, Linux, and Androi
 
 Firefox 30 has been released over on Firefox.com and all existing users should be able to upgrade to it automatically. As always, the Android version is trickling out slowly on Google Play.
 
-In terms of new features, this is a relatively minor release, especially when compared to the major revamp that came as part of Firefox 29. Mozilla has been mainly focusing on putting the final touches on what it calls “the most carefully designed browser interface on the planet.”
+In terms of new features, this is a relatively minor release, especially when compared to the major revamp that came as part of Firefox 29. Mozilla has been mainly focusing on putting the final touches on what it calls "the most carefully designed browser interface on the planet."
 
 ![](https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2013/12/firefox_logo_new-786x305.png)
 
@@ -41,7 +41,7 @@ While this isn’t a major release, the new desktop version does have a sizeable
 - Developer: ES6 array and generator comprehensions implemented (read[docs](https://developer.mozilla.org/en-US/Firefox/Releases/30) for more details).
 - Developer: Error stack now contains column number.
 - Developer: Support for alpha option in canvas context options (feature [description](https://blogs.adobe.com/webplatform/2014/04/01/new-canvas-features/)).
-- Fixed: Ignore autocomplete=”off” when offering to save passwords via the password manager (see [956906](https://bugzilla.mozilla.org/show_bug.cgi?id=956906)).
+- Fixed: Ignore autocomplete="off" when offering to save passwords via the password manager (see [956906](https://bugzilla.mozilla.org/show_bug.cgi?id=956906)).
 - Fixed: TypedArrays don’t support new named properties (see [695438](https://bugzilla.mozilla.org/show_bug.cgi?id=695438)).
 
 If you’re a Web developer, you should probably check out [Firefox 30 for developers](https://developer.mozilla.org/en-US/docs/Firefox_30_for_developers).
@@ -60,7 +60,7 @@ New buttons aside, the Android version has also gained support for six new langu
 - Developer: ES6 array and generator comprehensions implemented (read[docs](https://developer.mozilla.org/en-US/Firefox/Releases/30) for more details).
 - Developer: Error stack now contains column number.
 - Developer: Support for alpha option in canvas context options (feature[description](https://blogs.adobe.com/webplatform/2014/04/01/new-canvas-features/)).
-- Fixed: Ignore autocomplete=”off” when offering to save passwords via the password manager (see [956906](https://bugzilla.mozilla.org/show_bug.cgi?id=956906)).
+- Fixed: Ignore autocomplete="off" when offering to save passwords via the password manager (see [956906](https://bugzilla.mozilla.org/show_bug.cgi?id=956906)).
 - Fixed: TypedArrays don’t support new named properties (see [695438](https://bugzilla.mozilla.org/show_bug.cgi?id=695438)).
 - Fixed: After MP4 video playback, video can not be played again ([1005622](https://bugzilla.mozilla.org/show_bug.cgi?id=1005622)).
 

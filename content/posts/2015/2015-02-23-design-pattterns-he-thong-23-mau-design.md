@@ -98,13 +98,13 @@ Các tác giả của cuốn sách là **Erich Gamma**, **Richard Helm**, **Ralp
         <tr class="cms_table_grid_tr" valign="top">
             <td>10</td>
             <td>Facade</td>
-            <td>Cung cấp một interface thuần nhất cho một tập hợp các interface trong một “hệ thống con” (subsystem). Nó định nghĩa 1 interface cao hơn các interface có sẵn để làm cho hệ thống con dễ sử dụng hơn.
+            <td>Cung cấp một interface thuần nhất cho một tập hợp các interface trong một "hệ thống con" (subsystem). Nó định nghĩa 1 interface cao hơn các interface có sẵn để làm cho hệ thống con dễ sử dụng hơn.
                 <br />Tần suất sử dụng: cao</td>
         </tr>
         <tr class="cms_table_grid_tr" valign="top">
             <td>11</td>
             <td>Flyweight</td>
-            <td>Sử dụng việc chia sẻ để thao tác hiệu quả trên một số lượng lớn đối tượng “cở nhỏ” (chẳng hạn paragraph, dòng, cột, ký tự…).
+            <td>Sử dụng việc chia sẻ để thao tác hiệu quả trên một số lượng lớn đối tượng "cở nhỏ" (chẳng hạn paragraph, dòng, cột, ký tự…).
                 <br />Tần suất sử dụng: thấp</td>
         </tr>
         <tr class="cms_table_grid_tr" valign="top">
@@ -119,7 +119,7 @@ Các tác giả của cuốn sách là **Erich Gamma**, **Richard Helm**, **Ralp
         <tr class="cms_table_grid_tr" valign="top">
             <td>13</td>
             <td>Chain of Responsibility</td>
-            <td>Khắc phục việc ghép cặp giữa bộ gởi và bộ nhận thông điệp; Các đối tượng nhận thông điệp được kết nối thành một chuỗi và thông điệp được chuyển dọc theo chuỗi nầy đến khi gặp được đối tượng xử lý nó.Tránh việc gắn kết cứng giữa phần tử gởi request với phần tử nhận và xử lý request bằng cách cho phép hơn 1 đối tượng có có cơ hội xử lý request . Liên kết các đối tượng nhận request thành 1 dây chuyền rồi “pass” request xuyên qua từng đối tượng xử lý đến khi gặp đối tượng xử lý cụ thể.
+            <td>Khắc phục việc ghép cặp giữa bộ gởi và bộ nhận thông điệp; Các đối tượng nhận thông điệp được kết nối thành một chuỗi và thông điệp được chuyển dọc theo chuỗi nầy đến khi gặp được đối tượng xử lý nó.Tránh việc gắn kết cứng giữa phần tử gởi request với phần tử nhận và xử lý request bằng cách cho phép hơn 1 đối tượng có có cơ hội xử lý request . Liên kết các đối tượng nhận request thành 1 dây chuyền rồi "pass" request xuyên qua từng đối tượng xử lý đến khi gặp đối tượng xử lý cụ thể.
                 <br />Tần suất sử dụng: trung bình thấp</td>
         </tr>
         <tr class="cms_table_grid_tr" valign="top">

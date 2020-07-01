@@ -44,4 +44,4 @@ Error: Missing parameter
 
 Tham khảo:
 
-- Sect. [“Required parameters”](http://exploringjs.com/es6/ch_parameter-handling.html#_required-parameters) in “Exploring ES6”
+- Sect. ["Required parameters"](http://exploringjs.com/es6/ch_parameter-handling.html#_required-parameters) in "Exploring ES6"

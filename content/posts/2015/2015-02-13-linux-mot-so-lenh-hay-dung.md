@@ -33,7 +33,7 @@ Man sẽ hiển thị chi tiết, ý nghĩa, cách sử dụng và các tham s�
 
 ## Hay dùng nhất ##
 
-- `pwd` in ra màn hình thư mục đang hoạt động (ví dụ: `/etc/home/lvduit/Downloads/`), xem thêm [đường dẫn tuyệt đối và đường dẫn tương đối trong linux](http://blog.lvduit.com/2015/02/linux-uong-dan-tuyet-oi-va-uong-dan.html#.VOAjY9-jmFN).
+- `pwd` in ra màn hình thư mục đang hoạt động (ví dụ: `/etc/home/lvduit/Downloads/`), xem thêm [đường dẫn tuyệt đối và đường dẫn tương đối trong linux](/2015/02/linux-duong-dan-tuyet-doi-va-duong-dan-tuong-doi.html).
 - `cd` thay đổi thư mục, cái này là viết tắt của change directory ấy (ví dụ: `cd ..` – ra một cấp thư mục hiện tại; cd vidu – vào thư mục /vidu).
 - `ls` đưa ra danh sách nội dung thư mục.
 - `mkdir` tạo thư mục mới (`mkdir tên_thumuc`).
@@ -58,7 +58,7 @@ Man sẽ hiển thị chi tiết, ý nghĩa, cách sử dụng và các tham s�
 ## Editor trên Terminal ##
 Để chỉnh sửa file, bạn phải sử dụng trình soạn thảo tích hợp sẵn trên dòng lệnh. Thông thường, đây là **vi** và được dùng với cú pháp: `vi <tên file>`.
 
-Tham khảo: [Sử dụng trình soạn thảo “vi” trong linux](http://blog.lvduit.com/2014/06/su-dung-trinh-soan-thao-vi-trong-linux.html#.VN9uBhJ811g)
+Tham khảo: [Sử dụng trình soạn thảo "vi" trong linux](https://blog.duyet.net/2014/06/su-dung-trinh-soan-thao-vi-trong-linux.html#.VN9uBhJ811g)
 
 Mình cũng hay dùng nhất nữa là chương trình nano để sửa nhanh các file config.
 

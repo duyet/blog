@@ -34,7 +34,7 @@ Theo một bài viết của **IBM**\[2\], chuyển đổi sang Parquet giúp t�
 
 ## Let’s convert to Parquet!
 
-Spark SQL hỗ trợ đọc và ghi Parquet files, và giữ nguyên được meta data. Parquet schema cho phép data files “self-explanatory” to the Spark SQL applications.  
+Spark SQL hỗ trợ đọc và ghi Parquet files, và giữ nguyên được meta data. Parquet schema cho phép data files "self-explanatory" to the Spark SQL applications.  
   
 Đoạn chương trình sau sử dụng databricks.csv để đọc flat file, sau đó lưu lại dạng Parquet kèm Schema.  
   

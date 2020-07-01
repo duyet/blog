@@ -29,9 +29,9 @@ description:
                 <br />Sản phẩm phần mềm được hình thành thông qua chuỗi các hoạt động xây dựng phần mềm theotrình tự rõ ràng</td>
             <td>Người sử dụng sớm hình dung ra chức năng và đặc điểm của hệ thống.
                 <br />Cải thiện sự liên lạc giữa nhà phát triển và người sử dụng</td>
-            <td>Phân tích đánh giá rủi ro được đẩy lên như một phần thiết yếu trong mỗi “spiral” để tăng mức độ tin cậy của dự án.
+            <td>Phân tích đánh giá rủi ro được đẩy lên như một phần thiết yếu trong mỗi "spiral" để tăng mức độ tin cậy của dự án.
                 <br />Kết hợp những tính chất tốt nhất của mô hình waterfall và tiến hóa.
-                <br />Cho phép thay đổi tùy theo điều kiện thực tế dự án tại mỗi “spiral”.
+                <br />Cho phép thay đổi tùy theo điều kiện thực tế dự án tại mỗi "spiral".
                 <br />Đây chính là mô hình tổng quát nhất, tất cả các mô hình khác đều có thể xem là một hiện thựccủa mô hình tổng quát này, hay cũng có thể xem nó là mô hình tổng hợp các mô hình khác.
                 <br />Đặc biệt, nó được ứng dụng không chỉ trong phát triển phần mềm mà còn trong phát triển phần cứng</td>
         </tr>

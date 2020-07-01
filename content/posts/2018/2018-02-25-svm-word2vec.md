@@ -35,7 +35,7 @@ Các bước sẽ thực hiện:
     "train" => [0.542, 0.124, 0.232, 0.124, ...]
     ```
     Các vector này có số chiều cố định và giống nhau (phụ thuộc vào mô hình word2vec).
-    - Cộng (hoặc trung bình) các vector của từng từ trong một câu lại, ta được vector của một câu. Cách này khá đơn giản và chỉ dùng được khi câu ngắn (như 1 đoạn tweet). Với câu dài hơn cách biểu diễn này không còn chính xác nữa. Với văn bản lớn và dài, bạn nên [sử dụng Doc2vec](http://blog.duyet.net/2017/10/doc2vec-trong-sentiment-analysis.html) thay thế.
+    - Cộng (hoặc trung bình) các vector của từng từ trong một câu lại, ta được vector của một câu. Cách này khá đơn giản và chỉ dùng được khi câu ngắn (như 1 đoạn tweet). Với câu dài hơn cách biểu diễn này không còn chính xác nữa. Với văn bản lớn và dài, bạn nên [sử dụng Doc2vec](https://blog.duyet.net/2017/10/doc2vec-trong-sentiment-analysis.html) thay thế.
     ```
     vec([ "Duyệt", "đẹp", "trai" ]) = [0.1123, 0.234, 0.256, 0.001, ...] + [0.542, 0.124, 0.232, 0.124, ...] + ...
     = [0.3421, 0.724, 0.242, 0.364, ...]

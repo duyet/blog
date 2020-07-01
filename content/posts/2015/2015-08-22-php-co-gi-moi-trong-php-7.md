@@ -13,7 +13,7 @@ blogger_orig_url: https://blog.duyet.net/2015/08/php-co-gi-moi-trong-php-7.html
 slug: /2015/08/php-co-gi-moi-trong-php-7.html
 category: PHP
 description: Phiên bản stable PHP hiện nay đang được sử dụng là phiên bản PHP 5.6. Sau một số tranh luận thì nhóm phát triển đã quyết định họ sẽ bỏ qua tên phiên bản PHP 6. PHP 6 đã tồn tại trong quá khứ như một dự án thử nghiệm, nhưng vì lý do nào đó chưa hoàn chỉnh.
-fbCommentUrl: http://blog.duyet.net/2015/08/php-co-gi-moi-trong-php-7.html
+fbCommentUrl: https://blog.duyet.net/2015/08/php-co-gi-moi-trong-php-7.html
 
 ---
 

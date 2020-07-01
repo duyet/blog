@@ -91,7 +91,7 @@ sudo su - odoo -s /bin/bash
 
 ```
 
-Grab a copy of the most current Odoo 8 branch (Note the “.” at the end of this command!):
+Grab a copy of the most current Odoo 8 branch (Note the "." at the end of this command!):
 
 ```
 cd /opt/odoo

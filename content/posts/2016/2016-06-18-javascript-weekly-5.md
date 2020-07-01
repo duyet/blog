@@ -33,7 +33,7 @@ Angular 2 ra mắt bản RC2, bổ sung nhiều công nghệ để xây dựng f
 
 ## [The Why, What, and How of Practicing TDD in JavaScript](http://saveto.co/7GHot1) ##
 JAMES SINCLAIR
-“Test Driven Development is one weird trick that will change the way you code forever (in a good way).”
+"Test Driven Development is one weird trick that will change the way you code forever (in a good way)."
 
 ## [A Gentle Explanation of the 'this' Keyword](http://saveto.co/NlUkeG) ##
 DMITRI PAVLUTIN

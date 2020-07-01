@@ -63,7 +63,7 @@ Next, pass the following flags to [`spark-submit`](https://github.com/apache/spa
 The `--files` flag will cause `/path/to/metrics.properties` to be sent to every executor, and `spark.metrics.conf=metrics.properties` will tell all executors to load that file when initializing their respective `MetricsSystem`s.
 
 ### Grafana ###
-Having thus configured Spark (and installed Graphite), we surveyed [the many Graphite-visualization tools that exist](http://graphite.readthedocs.org/en/latest/tools.html#visualization) and began building custom Spark-monitoring dashboards using [Grafana](http://grafana.org/). Grafana is “an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB,” and includes some powerful features for [scripting](http://grafana.org/docs/features/scripted_dashboards/) the creation of [dynamic](http://grafana.org/docs/features/templated_dashboards/) dashboards, allowing us to experiment with many ways of visualizing the performance of our Spark applications in real-time.
+Having thus configured Spark (and installed Graphite), we surveyed [the many Graphite-visualization tools that exist](http://graphite.readthedocs.org/en/latest/tools.html#visualization) and began building custom Spark-monitoring dashboards using [Grafana](http://grafana.org/). Grafana is "an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB," and includes some powerful features for [scripting](http://grafana.org/docs/features/scripted_dashboards/) the creation of [dynamic](http://grafana.org/docs/features/templated_dashboards/) dashboards, allowing us to experiment with many ways of visualizing the performance of our Spark applications in real-time.
 
 # Examples # (#examples)
 Below are a few examples illustrating the kinds of rich information we can get from this setup.
@@ -73,7 +73,7 @@ These graphs show the number of active and completed tasks, per executor and ove
 
 ![](https://3.bp.blogspot.com/-053jp9eCxuk/VaSkFFqSPcI/AAAAAAAACmI/9xw3c4rM20Y/s1600/rdh-tasks.png)
 
-The leftmost panel shows close to 400 tasks in flight at once, which  in this application corresponds to 4 “cores” on each of 100 executors.  The “valley” in that leftmost panel corresponds to the transition  between two stages of the one job in this application.
+The leftmost panel shows close to 400 tasks in flight at once, which  in this application corresponds to 4 "cores" on each of 100 executors.  The "valley" in that leftmost panel corresponds to the transition  between two stages of the one job in this application.
 The right two panels show the number of tasks completed and rate of task completion per minute for each executor.
 
 ## HDFS I/O ## (#hdfs-io)
@@ -105,18 +105,18 @@ From experience, we have learned to note and infer several things from graphs li
 
 - All three graphs have a discontinuity toward the middle of the time window presented here.     
 - This is likely due to the application master (AM) restarting.
-- Related: all “completed tasks per executor” (middle panel) counts restart from zero when the new AM spawns new executors.
+- Related: all "completed tasks per executor" (middle panel) counts restart from zero when the new AM spawns new executors.
 
 - In the lead-up to the discontinuity / AM restart, forward progress had almost completely stopped.     
 - The tooltip on the left graph shows that there were several  minutes where only one task (and therefore executor) was active (out of 1000 total executors).
-- The “completed task” counts in the right two graphs show no movement.
+- The "completed task" counts in the right two graphs show no movement.
 
 - Finally, there are a suspicious couple of new lines starting from 0 in the middle graph around 15:31-15:32.     
 - Why are executors coming to life this late in the application?
 - Answer: these new executors are replacing ones that have been lost.
 - Something during this flat-lined period is causing executors to die and be replaced.
 
-Putting all of this information together, we conclude that the issue here was one of a “hot potato” task inducing [garbage collection stalls](http://en.wikipedia.org/wiki/Garbage_collection_%28computer_science%29#Disadvantages) (and subsequent deaths) in executors that attempted to perform it.
+Putting all of this information together, we conclude that the issue here was one of a "hot potato" task inducing [garbage collection stalls](http://en.wikipedia.org/wiki/Garbage_collection_%28computer_science%29#Disadvantages) (and subsequent deaths) in executors that attempted to perform it.
 This is a common occurrence when [key skew](http://www.cs.cmu.edu/%7Ekair/papers/bala.pdf) causes one or a few tasks in a distributed program to be too large  (relative to the amount of memory that has been allocated to the the  executors attempting to process them). The study of skew in MapReduce  systems dates back to the [earliest days of MapReduce at Google](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/32721.pdf), and it is one of the most common causes of mysterious Spark-job-degradation-or-death that we observe today.
 
 # [grafana-spark-dashboards](https://github.com/hammerlab/grafana-spark-dashboards) # (#grafana-spark-dashboards)

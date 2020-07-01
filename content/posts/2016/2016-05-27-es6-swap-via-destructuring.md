@@ -31,4 +31,4 @@ ES6 có chức năng destructuring có khá nhiều công dụng. Thủ thuật 
 
 Javascript sẽ tự động hiểu là bạn cần swap 2 biến, nên thực tế sẽ không tạo ra mảng [a, b] để tránh tốn bộ nhớ.
 
-Xem thêm: Chap. [“Destructuring”](http://exploringjs.com/es6/ch_destructuring.html) in “Exploring ES6”
+Xem thêm: Chap. ["Destructuring"](http://exploringjs.com/es6/ch_destructuring.html) in "Exploring ES6"

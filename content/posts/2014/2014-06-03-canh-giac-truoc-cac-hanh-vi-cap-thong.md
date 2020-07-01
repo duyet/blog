@@ -31,7 +31,7 @@ Luôn cảnh giác với bất kỳ thư hoặc trang web nào yêu cầu cung c
 - Tên thời con gái của mẹ bạn
 - Ngày sinh của bạn
 
-Không điền vào bất kỳ biểu mẫu hoặc màn hình đăng nhập nào có thể được liên kết từ những thư đó. Nếu người nào đó đáng ngờ yêu cầu bạn điền vào biểu mẫu thông tin cá nhân của bạn, đừng để bị dụ điền vào biểu mẫu đó. Ngay cả khi bạn không nhấn nút “gửi”, bạn có thể vẫn gửi thông tin của mình tới kẻ cắp thông tin nhận dạng nếu bạn bắt đầu nhập dữ liệu của mình vào biểu mẫu của chúng.
+Không điền vào bất kỳ biểu mẫu hoặc màn hình đăng nhập nào có thể được liên kết từ những thư đó. Nếu người nào đó đáng ngờ yêu cầu bạn điền vào biểu mẫu thông tin cá nhân của bạn, đừng để bị dụ điền vào biểu mẫu đó. Ngay cả khi bạn không nhấn nút "gửi", bạn có thể vẫn gửi thông tin của mình tới kẻ cắp thông tin nhận dạng nếu bạn bắt đầu nhập dữ liệu của mình vào biểu mẫu của chúng.
 
 > Nếu bạn thấy thư từ một người bạn biết nhưng có vẻ không phải họ, có thể tài khoản của họ đã bị xâm nhập bởi tin tặc, những kẻ này cố moi tiền hoặc thông tin từ bạn. Vì vậy, hãy cẩn trọng với cách bạn trả lời.
 > Thủ đoạn phổ biến là chúng sẽ yêu cầu bạn gửi tiền, thẻ điện thoại cho chúng, khẳng định rằng chúng đang gặp rắc rối ở đâu đó hoặc nói rằng điện thoại của chúng đã bị lấy cắp nên không thể gọi điện cho chúng được. Những thư này cũng có thể yêu cầu bạn nhấp vào liên kết để xem hình ảnh, bài viết hoặc video nhưng thực ra lại dẫn bạn tới trang web có thể lấy cắp thông tin của bạn – vì vậy, hãy suy nghĩ trước khi bạn nhấp vào bất cứ đường dẫn nào!

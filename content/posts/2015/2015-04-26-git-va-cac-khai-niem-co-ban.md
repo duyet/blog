@@ -64,7 +64,7 @@ Nguồn ảnh: www.git-tower.com
 
 Nhánh (branch) được dùng để phát triển tính năng mới mà không làm ảnh hưởng đến code hiện tại.
 
-Nhánh master là nhánh “mặc định” khi bạn tạo một repository.
+Nhánh master là nhánh "mặc định" khi bạn tạo một repository.
 Nhánh master thông thường là nhánh chính của ứng dụng. Ví dụ bạn thử nghiệm một tính năng mới và muốn không ảnh hưởng đến code chính bạn có thể tạo một nhánh mới và sau khi xong sẽ hợp nhất lại với nhánh master. Việc hợp nhất 2 nhánh lại được gọi là merge.
 
 ![](https://4.bp.blogspot.com/-lwRXq80wt0U/VTvGLbXUrgI/AAAAAAAACVU/ekAhTHuKmBM/s1600/branches.png)
@@ -83,9 +83,9 @@ Chú ý:
 
 ## Xung đột (Conflict) ##
 
-Conflic là trường hợp có 2 sự thay đổi trong một dòng code và máy tính không thể tự quyết định dòng code nào là “đúng”. Đúng ở đây có nghĩa là “ý đồ của lập trình viên”.
+Conflic là trường hợp có 2 sự thay đổi trong một dòng code và máy tính không thể tự quyết định dòng code nào là "đúng". Đúng ở đây có nghĩa là "ý đồ của lập trình viên".
 
-Để giải quyết mâu thuẫn bạn phải dùng “tay không” để sữa các xung đột này. Bạn chỉ việc nhìn vào file bị conflict và tự quyết định dòng code nào giữ lại, dòng nào xóa bỏ.
+Để giải quyết mâu thuẫn bạn phải dùng "tay không" để sữa các xung đột này. Bạn chỉ việc nhìn vào file bị conflict và tự quyết định dòng code nào giữ lại, dòng nào xóa bỏ.
 
 ## Commit  ##
 
@@ -105,9 +105,9 @@ Mỗi commit đều có yêu cầu phải có commit message, để giải thíc
 
 Để kết nối được với một repo khác người ta sử dụng một khái niệm gọi là remote.
 
-Trên thực tế khi làm việc với nhau thì không như vậy, vì không phải máy ai cũng cài một “git server” để người khác kết nối được với mình. Thông thường thì chúng ta sẽ sử dụng một repo chung và các máy kết nối vào repo đó.
+Trên thực tế khi làm việc với nhau thì không như vậy, vì không phải máy ai cũng cài một "git server" để người khác kết nối được với mình. Thông thường thì chúng ta sẽ sử dụng một repo chung và các máy kết nối vào repo đó.
 
-Có 2 “git repo server” được sử dụng nhiều là github.com và bitbucket.org. 
+Có 2 "git repo server" được sử dụng nhiều là github.com và bitbucket.org. 
 
 Trên thực tế khi có 2 người cùng làm việc với 1 project thì thông thường sẽ tạo một repo trên github hoặc bitbucket và repo trên máy người A sẽ kết nối với repo trên github và máy người B cũng kết nối với repo trên github/bitbucket. Từ đó source code của người A và người B sẽ được đồng bộ với nhau thông qua repo trên github/bitbucket.
 
@@ -131,7 +131,7 @@ Còn khá nhiều định nghĩa trên Git, trên đây mình chỉ nói một v
 
 Ở bài sau mình sẽ hướng dẫn cách sử dụng Git, sử dụng github, các làm việc trên git và xử lý các trường hợp thường gặp khi teamwork với Git. 
 
-Bài viết được post tại [LvDuit Blog](http://blog.lvduit.com/) và [LvDuit Wordpress](http://lvduit.wordpress.com/).
+Bài viết được post tại [LvDuit Blog](https://blog.duyet.net/) và [LvDuit Wordpress](http://lvduit.wordpress.com/).
 
 ## Tham khảo  ##
 

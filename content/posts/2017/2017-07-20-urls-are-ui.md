@@ -36,11 +36,11 @@ Như J[akob Nielsen nói năm 1999](https://www.nngroup.com/articles/url-as-ui/)
 Các lập trình viên mà mình thấy, đa số rất hay bỏ qua hoặc không quá chú trọng trong việc thiết kế URL.
 
 ## Shareable URL ##
-Lỗi un-shareable URL, ví dụ chia sẻ một đoạn url, copy-paste và bạn hình dung người nhận được như thế này: [http://duyet.net/result.php](http://duyet.net/result.php)
+Lỗi un-shareable URL, ví dụ chia sẻ một đoạn url, copy-paste và bạn hình dung người nhận được như thế này: [https://duyet.net/result.php](https://duyet.net/result.php)
 
 Đây là trang trả về một kết quả tìm kiếm và trên URL không chứa bất cứ param nào, bởi kết quả phụ thuộc vào những gì người dùng nhập vào form trước đó. Dẫn đến người được chia sẻ khi nhấp vào và URL không khả dụng. Với những người không rành về công nghệ sẽ gặp khó khăn khi chia sẻ những đường link như thế.
 
-Cách thiết kế shareable URL rất đơn giản: [http://duyet.net/result.php?q=keyword](http://duyet.net/result.php?q=keyword)
+Cách thiết kế shareable URL rất đơn giản: [https://duyet.net/result.php?q=keyword](https://duyet.net/result.php?q=keyword)
 
 ## Genius URL  ##
 Một ví dụ URL của Stack Overflow: [https://stackoverflow.com/users/4749668/van-duyet-le](https://stackoverflow.com/users/4749668/van-duyet-le)

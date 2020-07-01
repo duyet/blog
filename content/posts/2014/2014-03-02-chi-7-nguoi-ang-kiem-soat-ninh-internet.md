@@ -16,7 +16,7 @@ Phóng viên tờ The Guardian được chứng kiến buổi lễ trao chìa kh
 Sự an nguy của mạng lưới Internet toàn cầu đang nằm trong tay 7 người nắm 7 chiếc chìa khóa thật chứ không phải chìa khóa theo nghĩa bóng.
 Phóng viên tờ The Guardian được chứng kiến buổi lễ trao chìa khóa này và đã tường thuật sự kiện trong một bài báo chi tiết, được tờ Business Insider tóm tắt lại.
 
-Trước hết cần biết rằng địa chỉ các trang web thực chất là một dãy số, ví dụ địa chỉ của Thời báo Kinh tế Sài Gòn Online đúng ra là 222.255.237.9. Nhưng ghi như vậy thì máy tính hiểu mà người thì khó nhớ. Tổ chức quản lý tên miền và địa chỉ Internet quốc tế, thường được biết dưới tên viết tắt ICANN là nơi cấp phát tên miền này, cả bằng số cho máy tính hiểu và cả “biên dịch” thành chữ cho mọi người dễ nhớ (222.255.237.9 = www.thesaigontimes.vn).
+Trước hết cần biết rằng địa chỉ các trang web thực chất là một dãy số, ví dụ địa chỉ của Thời báo Kinh tế Sài Gòn Online đúng ra là 222.255.237.9. Nhưng ghi như vậy thì máy tính hiểu mà người thì khó nhớ. Tổ chức quản lý tên miền và địa chỉ Internet quốc tế, thường được biết dưới tên viết tắt ICANN là nơi cấp phát tên miền này, cả bằng số cho máy tính hiểu và cả "biên dịch" thành chữ cho mọi người dễ nhớ (222.255.237.9 = www.thesaigontimes.vn).
 
 Như vậy nếu có ai kiểm soát được cơ sở dữ liệu của ICANN, người ấy sẽ kiểm soát được toàn bộ Internet. Họ chỉ cần chỉnh vài con số là người dùng, thay vì truy cập vào một nơi họ muốn (như ngân hàng để giao dịch) lại bị chuyển sang một trang web khác (có thể là ngân hàng giả mạo).
 

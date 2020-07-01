@@ -17,11 +17,11 @@ fbCommentUrl: none
 
 ---
 
-2h sáng. “beep, you’ve got mail”. Mail từ hệ thống giám sát zabbix.
+2h sáng. "beep, you’ve got mail". Mail từ hệ thống giám sát zabbix.
 1 URL quan trọng trong hệ thống web không hiển thị được. Truy cập vào URL đó nhận status code http trả về 503. Zabbix định kỳ kiểm tra mã lỗi và khi mã trả về khác 200, zabbix gửi mail cho hắn.
 
-“Lại có vấn đề gì rồi đây…” — hắn vùng dậy, mở laptop lên, mở browser ra và truy cập thử vào URL được thông báo. “Quả nhiên là không vào được”, hắn nghĩ. Ssh thử vào một máy chủ và kiểm tra error log. Thông báo lỗi “Không truy cập được đến máy chủ cơ sở dữ liệu X” liên tiếp liên tiếp được ghi ra log. “Máy chủ X lại có vấn đề gì rồi đây …”. 
-Hắn vừa nghĩ, mắt vừa lướt qua các đồ thị giám sát tài nguyên của toàn bộ hệ thống. “Lưu lượng truy cập vào máy chủ web vẫn bình thường. Tỉ lệ cachehit vẫn không đổi. Mọi thứ không có gì có vẻ bất thường. Vậy vấn đề này ở máy chủ X rồi”. Hắn nghĩ, rồi gõ
+"Lại có vấn đề gì rồi đây…" — hắn vùng dậy, mở laptop lên, mở browser ra và truy cập thử vào URL được thông báo. "Quả nhiên là không vào được", hắn nghĩ. Ssh thử vào một máy chủ và kiểm tra error log. Thông báo lỗi "Không truy cập được đến máy chủ cơ sở dữ liệu X" liên tiếp liên tiếp được ghi ra log. "Máy chủ X lại có vấn đề gì rồi đây …". 
+Hắn vừa nghĩ, mắt vừa lướt qua các đồ thị giám sát tài nguyên của toàn bộ hệ thống. "Lưu lượng truy cập vào máy chủ web vẫn bình thường. Tỉ lệ cachehit vẫn không đổi. Mọi thứ không có gì có vẻ bất thường. Vậy vấn đề này ở máy chủ X rồi". Hắn nghĩ, rồi gõ
 
 ```
 ssh X
@@ -30,10 +30,10 @@ ssh X
 ## Truy tìm ##
 X là một máy chủ cơ sở dữ liệu chạy mysql, 4 cores 24GB Ram 2 đĩa cứng 300GB RAID 1. Không quá yếu nhưng cũng không quá khoẻ. Vì là máy chủ cơ sở dữ liệu nên phần lớn tài nguyên của X được dùng cho mysql.
 
-“Để xem chú mày bị làm sao nhé!” - hắn bắt đầu công đoạn chẩn đoán bệnh của máy chủ.
+"Để xem chú mày bị làm sao nhé!" - hắn bắt đầu công đoạn chẩn đoán bệnh của máy chủ.
 Sau khi vào máy chủ X, hắn gõ top. Lệnh top hiện ra máy chủ có 4 cores, tất cả đều có %cpu xấp xỉ 95%. Hắn gõ iostat 1, và quan sát I/O của đĩa cứng. TPS (Trasfer per second) biến động từ 131.89 xuống đến 19.00. tps trung bình không cao. Blk_wrtn/s và Blk_read/s cũng biến động nhưng trung bình cũng không cao.
 
-“CPU hoạt động cật lực trong khi đấy I/O thì không quá lớn”, hắn ghi lại điểm quan trọng này trong đầu. Ghi nhớ xong, hắn tiếp tục mở slow query log ra xem. Log này ghi lại những query mà mysql chạy quá lâu hơn 1s. 1 loạt query kiểu
+"CPU hoạt động cật lực trong khi đấy I/O thì không quá lớn", hắn ghi lại điểm quan trọng này trong đầu. Ghi nhớ xong, hắn tiếp tục mở slow query log ra xem. Log này ghi lại những query mà mysql chạy quá lâu hơn 1s. 1 loạt query kiểu
 
 ```
 select * from table_name where video_id in (12345, ‘23434’) and language = ‘en-us’;
@@ -78,16 +78,16 @@ mysql> show process list;
 
 1 loạt query kiểu 
 
-“select * from table_name where video_id in (12345, ‘23434’) and language = ‘en-us’;”
+"select * from table_name where video_id in (12345, ‘23434’) and language = ‘en-us’;"
 ```
 
-“beep, you’ve got mail”. Một mail mới lại về. Máy chủ web đã không thể nào truy cập được X. Zabbix thông báo bản thân zabbix cũng không thể nào truy cập máy chủ X để lấy thông tin giám sát.
+"beep, you’ve got mail". Một mail mới lại về. Máy chủ web đã không thể nào truy cập được X. Zabbix thông báo bản thân zabbix cũng không thể nào truy cập máy chủ X để lấy thông tin giám sát.
 
-“Tình huống có vẻ nghiêm trọng lên.” hắn lẩm bẩm.
+"Tình huống có vẻ nghiêm trọng lên." hắn lẩm bẩm.
 
 Máy chủ bận rộn CPU, I/O không lớn chứng tỏ là query trên tốn rất nhiều CPU. Có lẽ CPU đang tốn thời gian để sắp xếp và tìm kiếm, một mình chứng của việc mysql đang phải tìm với 1 lượng dữ liệu lớn. 70000 không phải con số to, do vậy chỉ có thể là máy chủ X đang phải tìm kiếm mà không có chỉ mục (index)!
 
-“Không lẽ nào!”, vừa nói hắn vừa gõ lệnh  
+"Không lẽ nào!", vừa nói hắn vừa gõ lệnh  
 
 ```
 mysql> show index from table_name;
@@ -104,7 +104,7 @@ mysql> show index from table_name;
 Rất buồn, vậy là video_id có gắn index đàng hoàng. Vậy thì không có lý do gì mà query trên lại không query theo index cả. Thật kỳ lạ. Vậy để thử xem query trên có dùng index không nhé. Đoạn hắn lấy 1 query bất kỳ và thử [EXPLAIN](http://dev.mysql.com/doc/refman/5.6/en/explain.html).
 
 ```
-mysql> explain SELECT * FROM table_name WHERE `video_id` IN (1412240325) AND `language` = “en-us”\G;
+mysql> explain SELECT * FROM table_name WHERE `video_id` IN (1412240325) AND `language` = "en-us"\G;
 *************************** 1. row ***************************
            id: 1
   select_type: SIMPLE
@@ -140,7 +140,7 @@ table_name | CREATE TABLE `table_name` (
 Có gì đó không ổn. Query thì coi video_id như là kiểu số nguyên, trong khi bảng lại định nghĩa video_id kiểu xâu dữ liệu. Có lẽ việc khác nhau trong kiểu dữ liệu này làm mysql không so sánh được truy cập với index, làm cho mysql sẽ tìm bản ghi bằng cách lặp toàn bộ bảng. Suy nghĩ vậy, hắn liền thử explain 1 query sau khi đã thay số bằng chữ.
 
 ```
-mysql> explain SELECT * FROM table_name WHERE `video_id` IN (“1412240325”) AND `language` = “en-us”\G;
+mysql> explain SELECT * FROM table_name WHERE `video_id` IN ("1412240325") AND `language` = "en-us"\G;
 *************************** 1. row ***************************
            id: 1
   select_type: SIMPLE
@@ -158,7 +158,7 @@ ERROR:
 No query specified
 ```
 
-“Ồ la la” hắn khẽ reo lên.
+"Ồ la la" hắn khẽ reo lên.
 
 Sau khi đổi video_id thành kiểu chuỗi thì index đã được sử dụng key: PRIMARY. Hắn ngay lập tức liên lạc với bên phát triển và để sửa đoạn code sinh ra query trên. Bên phát triển lập tức tìm ra có 1 dòng code chưa gọi strval để biến video_id thành xâu dữ liệu trước ném query cho DB. Bên phát triển lập tức sửa source code và cập nhật phiên bản mới nhất lên máy chủ. Ngay lập tức %cpu của X trở về 1%. Trang web lại vào bình thường như chưa từng có gì cản trở. Slow log query cũng dừng log query hẳn.
 

@@ -37,7 +37,7 @@ Giao diện phpMyAdmin như hình trên, trong đó:
 
 ## Tạo CSDL trong phpMyAdmin ##
 
-- Vào mục Databases, gõ tên database muốn tạo và nhấn Create là xong, bạn nên chọn mục “Collation = utf8_general_ci” để hỗ trợ lưu trữ Tiếng Việt trong CSDL.
+- Vào mục Databases, gõ tên database muốn tạo và nhấn Create là xong, bạn nên chọn mục "Collation = utf8_general_ci" để hỗ trợ lưu trữ Tiếng Việt trong CSDL.
 - Sau khi tạo CSDL xong bạn sẽ thấy CSDL này của mình ở cột bên trái.
 
 ## Tạo bảng trong CSDL ##

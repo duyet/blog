@@ -25,7 +25,7 @@ MIT là một giấy phép phần mềm tự do được phát hành bởi Học
 Theo Tổ chức phần mềm tự do, giấy phép MIT nên được gọi chính xác hơn là giấy phép X11, do Học viện Massachusetts đã từng dùng nhiều loại giấy phép khác nữa, và do giấy phép này ban đầu được soạn thảo cho X Window System (dự án tạo giao diện đồ họa cho người dùng ở các máy tính kết nối mạng vào năm 1984).
 
 ## 2.Nội dung chính ##
-MIT là một giấy phép dạng “permissive”, nghĩa là nó cho phép tái sự dụng các phần mềm độc quyền nhưng với điều kiện giấy phép MIT đã được phân phối kèm phần mềm đó. Giấy phép MIT cũng tương thích GLP, nghĩa là GPL cho phép tổng hợp và tái phân phối các phần mềm sử dụng giấy phép MIT.
+MIT là một giấy phép dạng "permissive", nghĩa là nó cho phép tái sự dụng các phần mềm độc quyền nhưng với điều kiện giấy phép MIT đã được phân phối kèm phần mềm đó. Giấy phép MIT cũng tương thích GLP, nghĩa là GPL cho phép tổng hợp và tái phân phối các phần mềm sử dụng giấy phép MIT.
 
 - Các quyền lợi của người sử dụng giấy phép vẫn tương tự như ở giấy phép GNU. Tuy nhiên MIT loại bỏ thuộc tính virus khỏi giấy phép, tức không bắt buộc các chương trình sử dụng tài nguyên có dùng giấy phép MIT cũng phải sử dụng giấy phép MIT.
 - Giấy phép MIT không bắt buộc phải công khai mã nguồn.

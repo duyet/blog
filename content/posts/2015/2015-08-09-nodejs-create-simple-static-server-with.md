@@ -19,7 +19,7 @@ fbCommentUrl: none
 ---
 
 With this simple package, you can create your own static server simply by Nodejs.
-Vietnamese version: [http://blog.duyet.net/2015/08/tao-server-static-don-gian-bang-nodejs.html](http://blog.duyet.net/2015/08/tao-server-static-don-gian-bang-nodejs.html)
+Vietnamese version: [https://blog.duyet.net/2015/08/tao-server-static-don-gian-bang-nodejs.html](https://blog.duyet.net/2015/08/tao-server-static-don-gian-bang-nodejs.html)
 
 ## Installation ##
 

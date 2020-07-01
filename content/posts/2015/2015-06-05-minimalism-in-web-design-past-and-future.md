@@ -85,7 +85,7 @@ As we described in the [Curated Collection of Design Techniques: Cards & Minimal
 3. The concept is content-driven, which coincides impeccably with the rise in  content-first design processes.
 4. It applies to a variety of disciplines beyond Web design, such as architecture, interior design and art.
 
-In minimalist Web design, a common approach is to subtract design elements until the site is on the verge of “breaking”. From there, test the website with a minimum of five users, then reprioritize design elements and interface objects as needed. By following this process at least once (we’d recommend for each major design iteration), you’re able to strike a balance between usability and elegance.
+In minimalist Web design, a common approach is to subtract design elements until the site is on the verge of "breaking". From there, test the website with a minimum of five users, then reprioritize design elements and interface objects as needed. By following this process at least once (we’d recommend for each major design iteration), you’re able to strike a balance between usability and elegance.
 
 ## The Future of Minimalism in Web Design ##
 Even though the design space is seeing a rise in minimalist sites at the moment, don’t confuse this timeless technique with a mere trend.
@@ -96,7 +96,7 @@ Because we have seen it happen in print design areas, it is likely that minimali
 
 Photo credit: Squarespace
 
-To the end, minimalism will continue to be a popular option, but is likely to evolve into a style that is a little less stark. As we have seen with techniques such as flat design evolving into “almost flat,” minimalist design will become richer (and more usable) as UI designers experiment with texture, color and effects – as well as moving away from symmetrical patterns.
+To the end, minimalism will continue to be a popular option, but is likely to evolve into a style that is a little less stark. As we have seen with techniques such as flat design evolving into "almost flat," minimalist design will become richer (and more usable) as UI designers experiment with texture, color and effects – as well as moving away from symmetrical patterns.
 
 Let’s explore a few of these evolving elements below.
 

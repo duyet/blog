@@ -20,7 +20,7 @@ It’s an all too common story: You go to school for years and years and walk ou
 
 Few students are 100% prepared for their first real job. And a computer science degree is lot more than a vocational degree solely designed to prepare students for a job writing banking apps. But I’m still continually surprised to see how many recent graduates—and even some experienced programmers—who still edit their code in Notepad or Pico and don’t know how to use version control.
 
-If you don’t want to be “that person” – or don’t want to be that person anymore — take the time to learn these 10 basic skills and you won’t need hand-holding to get the real work done:
+If you don’t want to be "that person" – or don’t want to be that person anymore — take the time to learn these 10 basic skills and you won’t need hand-holding to get the real work done:
 
 ![](https://4.bp.blogspot.com/--7etYcfMsrk/U5hgSH12GUI/AAAAAAAAGso/9WpH-R4jsFg/s1600/shutterstock_150587633_techschool.jpg)
 
@@ -44,7 +44,7 @@ Programmers need to understand that code that has already been written, tested, 
 
 ## 5. SQL ##
 
-As someone said to me at a meetup recently, “All the SQL I know I learned on the job. Why are databases an elective? What doesn’t use a database?”
+As someone said to me at a meetup recently, "All the SQL I know I learned on the job. Why are databases an elective? What doesn’t use a database?"
 
 The era of storing data in flat files is over. Everything goes into and out of a database, and SQL is the language that’s used to retrieve it. SQL is also a declarative language, not a procedural language, and so requires learning a new way of thinking about problem solving. But every programmer should understand the basics of database normalization and be able to do SELECTs (including basic INNER and OUTER JOINs), INSERTs, UPDATEs and DELETEs.
 

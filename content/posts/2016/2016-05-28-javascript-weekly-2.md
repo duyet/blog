@@ -45,7 +45,7 @@ Babel là plugin phổ biến hiện nay, chuyển đổi mã ES6, ES7 sang các
 
 JQUERY FOUNDATION
 
-jQuery ra mắt phiên bản 3.0 “This is the same code we expect to release as the final version of jQuery 3.0 [..] When released, 3.0 will become the only version of jQuery.”
+jQuery ra mắt phiên bản 3.0 "This is the same code we expect to release as the final version of jQuery 3.0 [..] When released, 3.0 will become the only version of jQuery."
 
 ## [An Algorithm Visualizer Written in JS](http://saveto.co/SdDrsx) ##
 

@@ -38,18 +38,18 @@ Linux là một hệ điều hành được điều khiển đa phần qua môi 
 - Gõ một số N trước ký tự `|` (pipe) để nhảy đến cột thứ N.
 
 ## 5. Sử dụng . để lặp lại action gần ##
-- Ví dụ người dùng gõ i để insert dòng chữ “hello world”, sau đó chuyển sang chế độ **command mode** bằng phím `Esc`, nhảy xuống dòng và gõ . , dòng chữ “hello world” sẽ hiện ra.
+- Ví dụ người dùng gõ i để insert dòng chữ "hello world", sau đó chuyển sang chế độ **command mode** bằng phím `Esc`, nhảy xuống dòng và gõ . , dòng chữ "hello world" sẽ hiện ra.
 
 ## 6. Tìm kiếm ##
 - Sử dụng `/` (`?`) đi theo sau là từ muốn tìm để tìm kiếm từ trong phần văn bản sau ( trước ) con trỏ. ví dụ `/foobar` hay `?foobar`.
 - Sau khi kết quả tìm kiếm đầu tiên hiện ra, sử dụng `n` để tìm kiếm tiếp trong phần văn bản còn lại sau con trỏ, `N` để tìm kiếm ngược trở lại đầu văn bản trước con trỏ.
 
 ## 7. Các lệnh colon ( đi sau dấu : ) ##
-- `:%s/foo/bar/g` tìm sự xuất hiện của “foo” trong toàn bộ file và thay thế bằng “bar”, `/foo/bar/g` chỉ thay thế ở dòng hiện tại.
+- `:%s/foo/bar/g` tìm sự xuất hiện của "foo" trong toàn bộ file và thay thế bằng "bar", `/foo/bar/g` chỉ thay thế ở dòng hiện tại.
 - `et` `nu` hiển thị số dòng trước mỗi dòng, et nonu để bỏ hiển thị số dòng.
 - `:1,8d` xóa từ dòng 1 cho đến dòng 8 trong file.
 - Sử dụng `ma` để đánh dấu dòng hiện tại là `a` ( có thể là bất cứ ký tự nào từ `a-z` ). Sau đó dùng ‘a để nhảy đến dòng đã được dánh dấu là a từ bất cứ đâu. Có thể sử dụng với colon, :’a,’b d xóa tất cả các dòng bắt đầu từ dòng được đánh dấu là a cho đến dòng được đánh dấu là b, hoặc ngược lại.
-- `:w newfile.txt` để save nội dung của file hiện tại vào một file mới là `newfile.txt` ( tựa “save as” bên Win Word ).
+- `:w newfile.txt` để save nội dung của file hiện tại vào một file mới là `newfile.txt` ( tựa "save as" bên Win Word ).
 - `:8,16` co 32 để copy dòng 8 đến 16 đến điểm sau dòng 32.
 - `:3,16 m` 32 để chuyển rời dòng 8 đến 16 đến điểm sau dòng 32.
 - Nếu dùng vi để mở nhiều file ( `vi file1 file2 file3` ), có thể sử dụng `:n` để nhảy đến file tiếp theo và `:rew` để nhảy quay ngược lại đến file đầu tiên, :args để hiện thị tất cả các file đang được mở.

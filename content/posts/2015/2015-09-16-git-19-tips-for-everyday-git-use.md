@@ -32,7 +32,7 @@ If you are completely new to git, I suggest reading [Git Cheat Sheet](http://www
 10. [Revert a commit, softly](#soft-revert)
 11. [See diff-erence for the entire project (not just one file at a time) in a 3rd party diff tool](#folder-diff)
 12. [Ignore the white space](#ignore-white-space)
-13. [Only “add” some changes from a file](#selective-add)
+13. [Only "add" some changes from a file](#selective-add)
 14. [Discover and zap those old branches](#find-old-branches)
 15. [Stash only some files](#selective-stash)
 16. [Good commit messages](#good-commit-message)
@@ -46,7 +46,7 @@ If you are completely new to git, I suggest reading [Git Cheat Sheet](http://www
 **Sample Command**`git log --oneline --graph`
 Chances are, by now you’ve used git log. It supports a number of command line parameters, which are very powerful, especially when used in combination. Here are the ones that I use the most:
 
-- `--author=“Alex Kras"` – Only show commits made by a certain author
+- `--author="Alex Kras"` – Only show commits made by a certain author
 - `--name-only` – Only show names of files that changed
 - `--oneline` – Show commit data compressed to one line
 - `--graph` – Show dependency tree for all commits
@@ -63,7 +63,7 @@ If everything else fails, git has a `--pretty` parameter that let’s you create
 ## 2. Log actual changes in a file ##
 **Sample Command**`git log -p filename`
 `git log -p` or `git log -p filename` lets you view not only the commit message, author, and date, but actual changes that took place in each commit.
-Then you can use the regular `less` search command of “slash” followed by your search term`/{{ "{{" }}your-search-here}}` to look for changes to a particular keyword over time. (Use lower case n to go to the next result, and upper case N to go to the previous result).
+Then you can use the regular `less` search command of "slash" followed by your search term`/{{ "{{" }}your-search-here}}` to look for changes to a particular keyword over time. (Use lower case n to go to the next result, and upper case N to go to the previous result).
 [![git-log-search](http://www.alexkras.com/wp-content/uploads/git-log-search.png)](http://www.alexkras.com/wp-content/uploads/git-log-search.png)
 [https://www.blogger.com/null](https://www.blogger.com/null)
 
@@ -131,7 +131,7 @@ If you want to force git to keep branches history, similarly to what you would s
 ## 8. Fix your previous commit, instead of making a new commit ##
 **Sample**`git commit --amend`
 This one is pretty straightforward.
-Let say you made a commit and then realized you made a typo. You could make a new commit with a “descriptive” message **typo**. But there is a better way.
+Let say you made a commit and then realized you made a typo. You could make a new commit with a "descriptive" message **typo**. But there is a better way.
 **If you haven’t pushed to the remote branch yet**, you can simply do the following:
 
 1. Fix your typo
@@ -140,7 +140,7 @@ Let say you made a commit and then realized you made a typo. You could make a ne
 4. Push the clean branch to remote, when ready
 
 [![git-commit-amend](http://www.alexkras.com/wp-content/uploads/git-commit-amend.gif)](http://www.alexkras.com/wp-content/uploads/git-commit-amend.gif)
-If you are working on your own branch, you can fix commits even after you have pushed, you would just have to do a `git push -f` (-f stands for force), which would over-ride the history. But you **WOULD NOT want to do this** on a branch that is **being used by other people** (as discussed in rebase section above). At that point, a “typo” commit, might be your best bet.
+If you are working on your own branch, you can fix commits even after you have pushed, you would just have to do a `git push -f` (-f stands for force), which would over-ride the history. But you **WOULD NOT want to do this** on a branch that is **being used by other people** (as discussed in rebase section above). At that point, a "typo" commit, might be your best bet.
 [https://www.blogger.com/null](https://www.blogger.com/null)
 
 ## 9. Three stages in git, and how to move between them ##
@@ -149,7 +149,7 @@ As you may already know by now, a file in git can be in 3 stages:
 1. Not staged for commit         
 2. Staged for commit         
 3. Committed
-You can see a long description of the files and state they are in by running `git status`. You move a file from *“not staged for commit”* stage to *“staged for commit”* stage, by running `git add filename.js` or `git add .` to add all files at once.
+You can see a long description of the files and state they are in by running `git status`. You move a file from *"not staged for commit"* stage to *"staged for commit"* stage, by running `git add filename.js` or `git add .` to add all files at once.
 Another view that makes it much easier to visualize the stages is invoked via `git status -s` where `-s` stand for short (I think), and would result in an output that looks like that:
 [![git-stages](http://www.alexkras.com/wp-content/uploads/git-stages.png)](http://www.alexkras.com/wp-content/uploads/git-stages.png)
 Obviously, `git status` will not show files that have already been committed, you can use `git log` to see those instead ![:)](http://www.alexkras.com/wp-includes/images/smilies/simple-smile.png)
@@ -159,8 +159,8 @@ There are a couple of options available to you to move the files to a different 
 There are 3 types of reset available in git. A reset allows you to return to a particular version in git history.
 
 1. `git reset --hard {{ "{{" }}some-commit-hash}}` – Return to a particular point in history. **All changes made after this commit are discarded**.
-2. `git reset {{ "{{" }}some-commit-hash}}` – Return to a particular point in history. **All changes made after this commit are moved “not yet staged for commit” stage**. Meaning you would have to run `git add .` and `git commit` to add them back in.
-3. `git reset --soft {{ "{{" }}some-commit-hash}}` – Return to a particular point in history. **All changes made after this commit are moved to “staged for commit” stage**. Meaning you only need to run `git commit` to add them back in.
+2. `git reset {{ "{{" }}some-commit-hash}}` – Return to a particular point in history. **All changes made after this commit are moved "not yet staged for commit" stage**. Meaning you would have to run `git add .` and `git commit` to add them back in.
+3. `git reset --soft {{ "{{" }}some-commit-hash}}` – Return to a particular point in history. **All changes made after this commit are moved to "staged for commit" stage**. Meaning you only need to run `git commit` to add them back in.
 
 This may appear as useless information at first, but it is actually very handy when you are trying to move through different version of the file.
 Common use cases that I find myself using the reset are bellow:
@@ -176,7 +176,7 @@ It’s like running `git reset --hard` but only on some of the files.
 As mentioned before you can also check out a different version of a file from another branch or commit.
 `git checkout some-branch-name file-name.js` and         
 `git checkout {{ "{{" }}some-commit-hash}} file-name.js`
-You’ll notice that the checked out files will be in a “staged for commit” stage. To move them back to “un-staged for commit” stage, you would have to do a `git reset HEAD file-name.js`. You can run `git checkout file-name.js` again, to return the file to it’s original state.
+You’ll notice that the checked out files will be in a "staged for commit" stage. To move them back to "un-staged for commit" stage, you would have to do a `git reset HEAD file-name.js`. You can run `git checkout file-name.js` again, to return the file to it’s original state.
 Note, that running `git reset --hard HEAD file-name.js` does not work. In general, moving through various stages in git is a bit confusing and the pattern is not always clear, which I hoped is to remedied a bit with this section.
 [https://www.blogger.com/null](https://www.blogger.com/null)
 
@@ -209,7 +209,7 @@ Have you ever re-indented or re-formatted a file, only to realize that now `git 
 Turns out, git is smart enough to know the difference. You can invoke a lot of the commands (i.e. `git diff`, `git blame`) with a `-w` flag, and git will ignore the white space changes.
 [https://www.blogger.com/null](https://www.blogger.com/null)
 
-## 13. Only “add” some changes from a file ##
+## 13. Only "add" some changes from a file ##
 **Sample**`git add -p`
 Somebody at git must really like the `-p` flag, because it always comes with some handy functionality.
 In case of `git add`, it allows you to interactive select exactly what you want to be committed. That way you can logically organize your commits in an easy to read manner.
@@ -230,7 +230,7 @@ Unfortunately, there is no easy way (that I know of) to only show merged branche
 
 ## 15. Stash only some files ##
 **Sample**`git stash —keep-index` or `git stash -p`
-If you don’t yet know what `git stash` does, it simply puts all your unsaved changes on a “git stack” of sorts. Then at a later time you can do `git stash pop` and your changes will be re-applied. You can also do `git stash list` to see all your stashed changes. Take a look at `man git stash` for more options.
+If you don’t yet know what `git stash` does, it simply puts all your unsaved changes on a "git stack" of sorts. Then at a later time you can do `git stash pop` and your changes will be re-applied. You can also do `git stash list` to see all your stashed changes. Take a look at `man git stash` for more options.
 One limitation of regular `git stash` is that it will stash all of the files at once. And sometimes it is handy to only stash some of the file, and keep the rest in your working tree.
 Remember the magic `-p`command? Well it’s really handy with `git stash` as well. As you may have probably guessed by now, it will ask you to see which chunks of changes you want to be stashed.
 Make sure to hit `?` while you at it to see all available options.
@@ -245,7 +245,7 @@ Another handy trick, for stashing only some of the files, is to:
 
 ## 16. Good commit messages ##
 A little while ago I came across a great article on how to write a good commit message. Check it out here: [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
-One rule that really stood out for me is, **“every good commit should be able to complete the following sentence”**
+One rule that really stood out for me is, **"every good commit should be able to complete the following sentence"**
 **When applied, this commit will:** {{ "{{" }} YOUR COMMIT MESSAGE}}
 For example:         
 – *When applied this commit will***Update README file**
@@ -269,7 +269,7 @@ Which would create a new git alias named `l`, that would allow you to run:
 *Note that you can also append other parameters after the alias (i.e. `git l --author="Alex"`).*
 Another alternative, is good old Bash alias.
 For example, I have the following entry in my .bashrc file.
-`alias gil=”git log –online –graph”`, allowing me to use `gil` instead of the long command,which is even 2 character shorter than having to type `git l` :).
+`alias gil="git log –online –graph"`, allowing me to use `gil` instead of the long command,which is even 2 character shorter than having to type `git l` :).
 [https://www.blogger.com/null](https://www.blogger.com/null)
 
 ## 19. Quickly find a commit that broke your feature (EXTRA AWESOME) ##
@@ -287,7 +287,7 @@ After you specify any known bad commit and any known good commit, `git bisect` w
 Let say the middle commit still works. You would then let git know that via `git bisect good` command. Then you only have half of the commits left to test.
 Git would then split the remaining commits in half and into a new branch(again), letting you to test the feature again.
 `git bisect` will continue to narrow down your commits in a similar manner, until the first bad commit is found.
-Since you divide the number of commits by half on every iteration, you are able to find your bad commits in log(n) time (which is simply a [“big O”](https://en.wikipedia.org/wiki/Big_O_notation) speak for very fast).
+Since you divide the number of commits by half on every iteration, you are able to find your bad commits in log(n) time (which is simply a ["big O"](https://en.wikipedia.org/wiki/Big_O_notation) speak for very fast).
 
 ### The actual commands you need to run to execute the full `git bisect` flow are: ###
 

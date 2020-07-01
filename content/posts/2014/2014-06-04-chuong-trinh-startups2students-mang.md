@@ -12,12 +12,12 @@ modified_time: '2014-06-04T21:31:48.553+07:00'
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-7161812211047772039
 blogger_orig_url: https://blog.duyet.net/2014/06/chuong-trinh-startups2students-mang.html
 slug: /2014/06/chuong-trinh-startups2students-mang.html
-description: Theo định hướng phát triển của Ban giám đốc mới của Khu Công nghệ Phần mềm –Đại học Quốc gia HCM là xây dựng một cộng đồng tập hợp và đóng góp vào “ Hệ sinh thái khởi nghiệp” đã và đang hình thành tại đây.
+description: Theo định hướng phát triển của Ban giám đốc mới của Khu Công nghệ Phần mềm –Đại học Quốc gia HCM là xây dựng một cộng đồng tập hợp và đóng góp vào " Hệ sinh thái khởi nghiệp" đã và đang hình thành tại đây.
 thumbnail: https://itpoffice.vn/images/hinh_tin_tuc/Poster_SV_UPDATE.png
 ---
 
-Theo định hướng phát triển của Ban giám đốc mới của Khu Công nghệ Phần mềm –Đại học Quốc gia HCM là xây dựng một cộng đồng tập hợp và đóng góp vào “ Hệ sinh thái khởi nghiệp” đã và đang hình thành tại đây.
-Khu Công nghệ Phần mềm phối hợp với MyProClub (MPC) tổ chức chương trình “Startups2Students” nhằm tạo một môi trường trong đó các doanh nghiệp, các tổ chức, các trung tâm nghiên cứu và R&D, các Startups có thể kết nối với nhau, hỗ trợ nhau kết nối với cộng đồng và nguồn nhân lực mà dồi dào nhất là lượng sinh viên “ khổng lồ” thuộc Khối Đại học Quốc gia và các trường Đại học trong toàn khu vực.
+Theo định hướng phát triển của Ban giám đốc mới của Khu Công nghệ Phần mềm –Đại học Quốc gia HCM là xây dựng một cộng đồng tập hợp và đóng góp vào " Hệ sinh thái khởi nghiệp" đã và đang hình thành tại đây.
+Khu Công nghệ Phần mềm phối hợp với MyProClub (MPC) tổ chức chương trình "Startups2Students" nhằm tạo một môi trường trong đó các doanh nghiệp, các tổ chức, các trung tâm nghiên cứu và R&D, các Startups có thể kết nối với nhau, hỗ trợ nhau kết nối với cộng đồng và nguồn nhân lực mà dồi dào nhất là lượng sinh viên " khổng lồ" thuộc Khối Đại học Quốc gia và các trường Đại học trong toàn khu vực.
 
 Chương trình sẽ được tổ chức vào 9:00AM - 11:00AM ngày 21 tháng 06 năm 2014 tại Hội trường Khu Công nghệ Phần mềm Đại học quốc gia TP.Hồ Chí Minh – Khu phố 6, Phường Linh Trung, Quận Thủ Đức.
 ![Poster SV UPDATE](https://itpoffice.vn/images/hinh_tin_tuc/Poster_SV_UPDATE.png)

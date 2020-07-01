@@ -19,7 +19,7 @@ fbCommentUrl: none
 
 ---
 
-Ở bài trước mình đã giới thiệu về Bootstrap về [hệ thống Grid](http://blog.lvduit.com/2015/04/gioi-thieu-ve-responsive-web-design-va-grid-system-trong-twitter-bootstrap.html), giúp bạn tạo nên bố cục, giao diện Responsive cho trang web. Cùng với các định dạng sẵn tất cả các Tag HTML theo phong cách của Bootstrap nếu muốn dùng nhanh thì có thể không cần phải code thêm chút CSS nào nữa. Mình sẽ giúp các bạn tìm hiểu tiếp Components là gì và cách sử dụng chúng ra sao.
+Ở bài trước mình đã giới thiệu về Bootstrap về [hệ thống Grid](https://blog.duyet.net/2015/04/gioi-thieu-ve-responsive-web-design-va-grid-system-trong-twitter-bootstrap.html), giúp bạn tạo nên bố cục, giao diện Responsive cho trang web. Cùng với các định dạng sẵn tất cả các Tag HTML theo phong cách của Bootstrap nếu muốn dùng nhanh thì có thể không cần phải code thêm chút CSS nào nữa. Mình sẽ giúp các bạn tìm hiểu tiếp Components là gì và cách sử dụng chúng ra sao.
 
 ## Components là gì? ##
 Nói một cách dễ hiểu là Bootstrap đã tạo sẵn các thành phần thường hay dùng và định dạng chúng sẵn bằng CSS rồi. Bây giờ muốn sử dụng cái nào thì chỉ cần vào trang Components của Bootstrap 3 xem code rồi đưa vào trang HTML thôi.

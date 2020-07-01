@@ -21,7 +21,7 @@ description: Mình nhận được nhiều phản hồi từ bài viết BigData
 fbCommentUrl: none
 ---
 
-Mình nhận được nhiều phản hồi từ bài viết [BigData - Cài đặt Apache Spark trên Ubuntu 14.04](http://blog.duyet.net/2015/03/bigdata-cai-at-apache-spark-tren-ubuntu.html#.WS7ZxXaGP_g) rằng sao cài khó và phức tạp thế. Thực ra bài viết đó mình hướng dẫn cách build và install từ source.
+Mình nhận được nhiều phản hồi từ bài viết [BigData - Cài đặt Apache Spark trên Ubuntu 14.04](https://blog.duyet.net/2015/03/bigdata-cai-at-apache-spark-tren-ubuntu.html#.WS7ZxXaGP_g) rằng sao cài khó và phức tạp thế. Thực ra bài viết đó mình hướng dẫn cách build và install từ source.
 
 Thực tế, Spark còn hỗ trợ cho ta nhiều phiên bản pre-built cùng với Hadoop. Pre-build tức Spark đã được build sẵn và chỉ cần sử dụng thôi. Cách làm như sau.
 
@@ -69,6 +69,6 @@ Kết quả của WordCount:
 
 ![](https://3.bp.blogspot.com/-IuNqKmg-HLE/WS7kTDVehrI/AAAAAAAAlEY/cN3SXy3DU9YYvFYkgV64NhNynB-xwHD1wCLcB/s1600/Screenshot%2Bfrom%2B2017-05-31%2B22-41-48.png)
 
-Bạn đã cài đặt xong Apache Spark với 3 bước siêu đơn giản. Bạn có thể tham khảo thêm phần [Sử dụng spark-submit](http://blog.duyet.net/2015/03/bigdata-cai-at-apache-spark-tren-ubuntu.html#Sdngspark-submit) ở bài viết cũ trước đây: [BigData - Cài đặt Apache Spark trên Ubuntu 14.04](http://blog.duyet.net/2015/03/bigdata-cai-at-apache-spark-tren-ubuntu.html#Sdngspark-submit)
+Bạn đã cài đặt xong Apache Spark với 3 bước siêu đơn giản. Bạn có thể tham khảo thêm phần [Sử dụng spark-submit](https://blog.duyet.net/2015/03/bigdata-cai-at-apache-spark-tren-ubuntu.html#Sdngspark-submit) ở bài viết cũ trước đây: [BigData - Cài đặt Apache Spark trên Ubuntu 14.04](https://blog.duyet.net/2015/03/bigdata-cai-at-apache-spark-tren-ubuntu.html#Sdngspark-submit)
 
 Chúc bạn thành công.

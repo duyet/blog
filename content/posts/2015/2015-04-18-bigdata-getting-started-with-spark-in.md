@@ -29,7 +29,7 @@ Spark is the first fast, general purpose distributed computing paradigm resultin
 In this post we will first discuss how to set up Spark to start easily performing analytics, either simply on your local machine or in a cluster on EC2. We then will explore Spark at an introductory level, moving towards an understanding of what Spark is and how it works (hopefully motivating further exploration). In the last two sections we will start to interact with Spark on the command line and then demo how to write a Spark application in Python and submit it to the cluster as a Spark job.
 
 ## Install Spark ##
-Spark is pretty simple to set up and get running on your machine. I have a post (in Vietnamese)  how to install Spark in Ubuntu 14.04, see there: [http://blog.lvduit.com/2015/03/bigdata-cai-at-apache-spark-tren-ubuntu.html](http://blog.lvduit.com/2015/03/bigdata-cai-at-apache-spark-tren-ubuntu.html)
+Spark is pretty simple to set up and get running on your machine. I have a post (in Vietnamese)  how to install Spark in Ubuntu 14.04, see there: [https://blog.duyet.net/2015/03/bigdata-cai-at-apache-spark-tren-ubuntu.html](https://blog.duyet.net/2015/03/bigdata-cai-at-apache-spark-tren-ubuntu.html)
 
 ## pyspark ##
 

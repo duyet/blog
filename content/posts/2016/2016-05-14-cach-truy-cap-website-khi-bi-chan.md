@@ -88,11 +88,11 @@ Sau khi tải về từ Chrome Web Store (như ZenMate ở trên). Xuất hiện
 
 [![](https://1.bp.blogspot.com/-cUMfhsFw3dU/Vzc6RzqUpbI/AAAAAAAAVDk/slJ6osBsI8UNDkuph9pTV9eKu5H-9sy9wCK4B/s1600/Screenshot%2Bfrom%2B2016-05-14%2B21-45-20.png)](https://1.bp.blogspot.com/-cUMfhsFw3dU/Vzc6RzqUpbI/AAAAAAAAVDk/slJ6osBsI8UNDkuph9pTV9eKu5H-9sy9wCK4B/s1600/Screenshot%2Bfrom%2B2016-05-14%2B21-45-20.png)
 
-Bấm vào nút “Connect" để tự động kết nối, lúc này biểu tượng hình cái khiên chuyển thành màu xanh da trời:
+Bấm vào nút "Connect" để tự động kết nối, lúc này biểu tượng hình cái khiên chuyển thành màu xanh da trời:
 
 [![](https://2.bp.blogspot.com/-gpn8aFIKC0I/Vzc6hvtmX0I/AAAAAAAAVDs/b2GXUAt8rEc0LWpl-q2fABdHCCnuNiIjwCK4B/s1600/Screenshot%2Bfrom%2B2016-05-14%2B21-45-27.png)](https://2.bp.blogspot.com/-gpn8aFIKC0I/Vzc6hvtmX0I/AAAAAAAAVDs/b2GXUAt8rEc0LWpl-q2fABdHCCnuNiIjwCK4B/s1600/Screenshot%2Bfrom%2B2016-05-14%2B21-45-27.png)
 
-Tất cả mọi truy cập xuyên qua trình duyệt Chrome lúc này hoàn toàn riêng tư và được bảo vệ. Nếu muốn kết thúc kết nối vào BetterNet, chỉ cần bấm vào biểu tượng hình khiên màu xanh da trời rồi bấm vào nút “Disconnect" là xong.
+Tất cả mọi truy cập xuyên qua trình duyệt Chrome lúc này hoàn toàn riêng tư và được bảo vệ. Nếu muốn kết thúc kết nối vào BetterNet, chỉ cần bấm vào biểu tượng hình khiên màu xanh da trời rồi bấm vào nút "Disconnect" là xong.
 
 ## 4. Bật chế độ "Tiết kiệm dữ liệu" trên Chrome Mobile ##
 Chrome trên Mobile có chế độ Tiết kiệm dữ liệu. Khi bật chức năng này, dữ liệu sẽ được xử lý trên Server của Google sau đó đẩy về máy, tăng tốc độ. Cũng vì vậy mà dữ liệu sẽ vượt qua được Firewall của nhà mạng. Không rõ cách này có được lâu dài hay không.
