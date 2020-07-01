@@ -4,7 +4,7 @@
 ![gh-pages](https://github.com/duyetdev/blog.duyet.net/workflows/gh-pages/badge.svg?branch=master)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a562a97a-786b-40b1-adb4-6b874c6e9560/deploy-status)](https://app.netlify.com/sites/duyet/deploys)
 
-- Production: http://blog.duyet.net
+- Production: https://blog.duyet.net
 - Mirror: https://duyetdev.github.io/blog.duyet.net
 
 ## Table of contents

@@ -152,12 +152,10 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-netlify',
     {
-      resolve: 'gatsby-plugin-google-gtag',
+      resolve: 'gatsby-plugin-google-tagmanager',
       options: {
-        trackingIds: [siteConfig.googleTagManagerId],
-        pluginConfig: {
-          head: true,
-        },
+        id: siteConfig.googleTagManagerId,
+        defaultDataLayer: { platform: 'gatsby' }
       },
     },
     {
