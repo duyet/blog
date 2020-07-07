@@ -39,6 +39,8 @@
       color: $color-white;
       background: $color-primary;
       border-color: $color-primary;
+      box-shadow: -3px 6px 0 $color-secondary;
+      border: $color-white;
     }
 
   }

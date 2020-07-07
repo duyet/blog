@@ -4,8 +4,14 @@
 
 // Colors
 $color-base: #222;
+
+// v1
 $color-primary: #de360e;
 $color-secondary: #ff3506; // #F7A046
+
+// v2
+$color-primary: #093990;
+$color-secondary: #0271e8; // #F7A046
 
 $color-white: #FFF;
 $color-gray: lighten($color-base, 30%);

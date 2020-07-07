@@ -13,9 +13,15 @@
     margin-right: auto;
     font-weight: 600;
     text-align: center;
+
+    background: $color-primary;
+    color: $color-white;
+    box-shadow: -10px 9px 0 $color-secondary;
+    @include padding(1, 1.5);
+
     @include line-height(1.65);
     @include margin-top(1);
-    @include margin-bottom(1)
+    @include margin-bottom(1);
   }
 
   &__body {
