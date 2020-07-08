@@ -70,13 +70,13 @@ Trên Python, bạn nên sử dụng **[Jupyter Notebook](http://jupyter.org/)**
 
 ## Ví dụ: phân lớp văn bản theo category
 
-Ở notebook ví dụ sau, với [data](https://github.com/duyetdev/demo-text-classification/blob/master/data/newtrain.csv) là một đoạn text ngắn được phân thành 7 loại category khác nhau:
+Ở notebook ví dụ sau, với [data](https://github.com/duyet/demo-text-classification/blob/master/data/newtrain.csv) là một đoạn text ngắn được phân thành 7 loại category khác nhau:
 
   
 ![](https://1.bp.blogspot.com/-Y7MMOQSN-Hc/WZ6387WQQLI/AAAAAAAAmuk/jGhk-DLhSqwQH97Uqjvwby-lZZxPKACowCLcBGAs/s1600/Screenshot%2Bfrom%2B2017-08-24%2B18-24-45.png)
 
 
 Mình sẽ dùng kỹ thuật **TF-IDF** để biến văn bản thành một vector và sử dụng thuật toán **SVM** ([http://scikit-learn.org/stable/modules/svm.html](http://scikit-learn.org/stable/modules/svm.html)) trong thư viện **sklearn** để tiến hành phân lớp.  
-Source: [https://github.com/duyetdev/demo-text-classification/blob/master/classification-with-tfidf-svm.ipynb](https://github.com/duyetdev/demo-text-classification/blob/master/classification-with-tfidf-svm.ipynb)
+Source: [https://github.com/duyet/demo-text-classification/blob/master/classification-with-tfidf-svm.ipynb](https://github.com/duyet/demo-text-classification/blob/master/classification-with-tfidf-svm.ipynb)
 
-<script src="https://gist.github.com/duyetdev/7c4cee01ecde476e246c6dfe55822fcb.js"></script>
+<script src="https://gist.github.com/duyet/7c4cee01ecde476e246c6dfe55822fcb.js"></script>

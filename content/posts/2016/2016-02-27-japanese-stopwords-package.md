@@ -63,7 +63,7 @@ bower install --save japanese-stopwords
 ## Test ##
 
 ```
-git clone https://github.com/duyetdev/japanese-stopwords
+git clone https://github.com/duyet/japanese-stopwords
 cd japanese-stopwords/
 npm install
 mocha
@@ -71,10 +71,10 @@ mocha
 
 ## How to contribute ##
 
-1. Fork the project on Github ([https://github.com/duyetdev/japanese-stopwords/fork](https://github.com/duyetdev/japanese-stopwords/fork))
+1. Fork the project on Github ([https://github.com/duyet/japanese-stopwords/fork](https://github.com/duyet/japanese-stopwords/fork))
 2. Create a topic branch for your changes
 3. Ensure that you provide documentation and test coverage for your changes (patches won’t be accepted without)
 4. Create a pull request on Github (these are also a great place to start a conversation around a patch as early as possible)
 
 ## License ##
-[MIT License](https://github.com/duyetdev/japanese-stopwords/blob/master/LICENSE)
+[MIT License](https://github.com/duyet/japanese-stopwords/blob/master/LICENSE)

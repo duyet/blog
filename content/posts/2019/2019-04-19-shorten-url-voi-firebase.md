@@ -26,7 +26,7 @@ fbCommentUrl: none
 [![](https://1.bp.blogspot.com/-mOYlbR85Tpw/XMciLyM34pI/AAAAAAAA_bE/aJtpyjh8Us0E5pbp8y6Djz4XA_qHmGFIACLcBGAs/s1600/Screen%2BShot%2B2019-04-29%2Bat%2B11.11.23%2BPM.png)](https://1.bp.blogspot.com/-mOYlbR85Tpw/XMciLyM34pI/AAAAAAAA_bE/aJtpyjh8Us0E5pbp8y6Djz4XA_qHmGFIACLcBGAs/s1600/Screen%2BShot%2B2019-04-29%2Bat%2B11.11.23%2BPM.png)
 
   
-Mã nguồn: [https://github.com/duyetdev/firebase-shorten-url](https://github.com/duyetdev/firebase-shorten-url)  
+Mã nguồn: [https://github.com/duyet/firebase-shorten-url](https://github.com/duyet/firebase-shorten-url)  
 Service sử dụng:  
 
 * Firebase Functions
@@ -89,7 +89,7 @@ firebase deploy --only functions
 
 ## Bước 2: Firebase Hosting, Web UI
 
-Website mình sử dụng [Gatsby React](https://gatsbyjs.org/), mã nguồn tại thư mục hosting: [https://github.com/duyetdev/firebase-shorten-url/tree/master/hosting](https://github.com/duyetdev/firebase-shorten-url/tree/master/hosting)  
+Website mình sử dụng [Gatsby React](https://gatsbyjs.org/), mã nguồn tại thư mục hosting: [https://github.com/duyet/firebase-shorten-url/tree/master/hosting](https://github.com/duyet/firebase-shorten-url/tree/master/hosting)  
   
 API và Redirect link, cấu hình trong `firebase.json`, chú ý dòng rewrites `/api/add` và `/r/**`  
 

@@ -26,13 +26,13 @@ Building for Flarum 0.1.0-beta.2
 
 To set up your Flarum forum with a fully working vietnamese language, please follow this procedure:
 
-1. Download [Vietnamese Language Extension](https://github.com/duyetdev/flarum-vietnamese-extension/archive/master.zip) and unpack it on your machine.
+1. Download [Vietnamese Language Extension](https://github.com/duyet/flarum-vietnamese-extension/archive/master.zip) and unpack it on your machine.
 2. Navigate to the extensions/ directory of your Flarum installation.
 3. Upload everything in the folder you unpacked into extensions/vietnamese/.
 4. Go to Extensions page of the Admin interface and enable the extension.
 5. If you want to set this language as the default for your forum, you can do so on the Basics page.
 
-Source code at Github: [https://github.com/duyetdev/flarum-vietnamese-extension](https://github.com/duyetdev/flarum-vietnamese-extension)
+Source code at Github: [https://github.com/duyet/flarum-vietnamese-extension](https://github.com/duyet/flarum-vietnamese-extension)
 
 ## How to contribute ##
 

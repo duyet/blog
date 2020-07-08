@@ -31,7 +31,7 @@ Trong bài này mình sẽ hướng dẫn deploy 1 model Deep learning, cụ th�
 
 <!-- more -->
 
-Mã nguồn trong bài viết này các bạn xem tại đây: [https://github.com/duyetdev/deep-learning-web-app](https://github.com/duyetdev/deep-learning-web-app)
+Mã nguồn trong bài viết này các bạn xem tại đây: [https://github.com/duyet/deep-learning-web-app](https://github.com/duyet/deep-learning-web-app)
 
 Như hình trên, chúng ta sẽ có một server.py và một worker.py
 
@@ -115,22 +115,22 @@ Kết quả sẽ có dạng như sau:
 
 Server.py nhận được request là tấm ảnh, tiền xử lý và encode base64, generate ra ID của ảnh dưới dạng UUID4, dòng 61-65 khung màu xanh.
 
-[![](https://2.bp.blogspot.com/-VcF18CjXrN8/W1IT6IMiVnI/AAAAAAAAxZk/KoVMaBpI2kIpH9wMZR2yyY6Ua0kZKhLOgCLcBGAs/s1600/p2.PNG)](https://github.com/duyetdev/deep-learning-web-app/blob/master/server.py#L62-L65)
+[![](https://2.bp.blogspot.com/-VcF18CjXrN8/W1IT6IMiVnI/AAAAAAAAxZk/KoVMaBpI2kIpH9wMZR2yyY6Ua0kZKhLOgCLcBGAs/s1600/p2.PNG)](https://github.com/duyet/deep-learning-web-app/blob/master/server.py#L62-L65)
 
-[https://github.com/duyetdev/deep-learning-web-app/blob/master/server.py#L62-L65](https://github.com/duyetdev/deep-learning-web-app/blob/master/server.py#L62-L65)
+[https://github.com/duyet/deep-learning-web-app/blob/master/server.py#L62-L65](https://github.com/duyet/deep-learning-web-app/blob/master/server.py#L62-L65)
 
 Khung màu cam: Sau khi push vào queue, server sẽ đợi để load kết quả JSON trong redis, `KEY=<ID của ảnh>`. Sau đó trả kết quả về client.
 
 Trong `worker.py` mình sử dụng mô hình pre-trained [ResNet50](https://keras.io/applications/#resnet50) có sẵn của Keras, là một mạng dùng để nhận dạng trong ảnh.
 
-[![](https://2.bp.blogspot.com/-sY7FkoETCwE/W1ISXjDWZDI/AAAAAAAAxZY/fWLlDgMBsYUqbdq2P9S1S6-IPk50ZExmQCLcBGAs/s1600/p1.PNG)](https://github.com/duyetdev/deep-learning-web-app/blob/master/worker.py#L20)[https://github.com/duyetdev/deep-learning-web-app/blob/master/worker.py#L20](https://github.com/duyetdev/deep-learning-web-app/blob/master/worker.py#L20)
+[![](https://2.bp.blogspot.com/-sY7FkoETCwE/W1ISXjDWZDI/AAAAAAAAxZY/fWLlDgMBsYUqbdq2P9S1S6-IPk50ZExmQCLcBGAs/s1600/p1.PNG)](https://github.com/duyet/deep-learning-web-app/blob/master/worker.py#L20)[https://github.com/duyet/deep-learning-web-app/blob/master/worker.py#L20](https://github.com/duyet/deep-learning-web-app/blob/master/worker.py#L20)
 
 
 Worker sẽ load danh sách ảnh trong queue ra, theo batch (số lượng ảnh worker có thể xử lý dùng 1 lúc), với từng ảnh chúng ta decode base64 để có được ảnh gốc khung màu đỏ. Chạy `model.predict()` và lưu kết quả vào redis theo `KEY=<ID>`.
 
-[![](https://3.bp.blogspot.com/-SggMg0bZpc0/W1IV6zx-EoI/AAAAAAAAxZw/UzLguNzjCcUoeOS-BaqK9xwlNlkl2VoMgCLcBGAs/s1600/p3.PNG)](https://github.com/duyetdev/deep-learning-web-app/blob/master/worker.py#L56-L57)
+[![](https://3.bp.blogspot.com/-SggMg0bZpc0/W1IV6zx-EoI/AAAAAAAAxZw/UzLguNzjCcUoeOS-BaqK9xwlNlkl2VoMgCLcBGAs/s1600/p3.PNG)](https://github.com/duyet/deep-learning-web-app/blob/master/worker.py#L56-L57)
 
-[https://github.com/duyetdev/deep-learning-web-app/blob/master/worker.py#L56-L57](https://github.com/duyetdev/deep-learning-web-app/blob/master/worker.py#L56-L57)
+[https://github.com/duyet/deep-learning-web-app/blob/master/worker.py#L56-L57](https://github.com/duyet/deep-learning-web-app/blob/master/worker.py#L56-L57)
 
 Như trên là bạn đã có thể hình dung cách deploy mô hình machine learning dưới dạng 1 API service như thế nào rồi. Kiến trúc trên thực tế sẽ có nhiều thứ phức tạp hơn cần cải tiến, ví dụ như lưu trữ ảnh trong Redis không phải là một cách hay, cơ chế để scaling nhiều worker, vv...
 

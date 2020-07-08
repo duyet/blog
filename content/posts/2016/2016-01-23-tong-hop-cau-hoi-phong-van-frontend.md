@@ -13,4 +13,4 @@ description: Tổng hợp câu hỏi phỏng vấn Frontend Developer.
 fbCommentUrl: none
 ---
 
-See: [https://github.com/duyetdev/vietnamese-frontend-interview-questions](https://github.com/duyetdev/vietnamese-frontend-interview-questions)
+See: [https://github.com/duyet/vietnamese-frontend-interview-questions](https://github.com/duyet/vietnamese-frontend-interview-questions)

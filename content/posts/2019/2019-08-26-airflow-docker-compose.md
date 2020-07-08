@@ -15,7 +15,7 @@ fbCommentUrl: none
 
 Trong bài này mình sẽ hướng dẫn cách thiết lập môi trường develop Apache Airflow dưới local bằng Docker Compose.
 
-**TL;DR** Source ví dụ của bài viết này: https://github.com/duyetdev/airflow-docker-compose
+**TL;DR** Source ví dụ của bài viết này: https://github.com/duyet/airflow-docker-compose
 
 
 ![Airflow in Docker Compose](https://1.bp.blogspot.com/-vBHaHxwvMFw/XWQHodWBFeI/AAAAAAABGCg/Hdlx-I1PSx8_Gip6o7N_2mejUSsT2TCigCLcBGAs/s1600/Screen%2BShot%2B2019-08-26%2Bat%2B11.22.59%2BPM.png)
@@ -129,6 +129,6 @@ Chúc các bạn thành công.
 
 
 # Tham khảo
- - https://github.com/duyetdev/airflow-docker-compose
+ - https://github.com/duyet/airflow-docker-compose
  - [puckel/docker-airflow](https://github.com/puckel/docker-airflow)
  - https://towardsdatascience.com/getting-started-with-airflow-using-docker-cd8b44dbff98

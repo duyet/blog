@@ -71,11 +71,11 @@ Bạn có thể tìm hiểu kỹ hơn về Word2vec **[ở bài viết này](htt
 Mình tìm kiếm bộ full Truyện Kiều trên Google, lưu vào file **truyen\_kieu\_data.txt**. Bắt đầu tiền xử lý.
 
 ### 1. Load tất cả các dòng vào data frame Pandas
-<script src="https://gist.github.com/duyetdev/d7ef8efb03a7e79b61368da3f9a961e8.js"></script>
+<script src="https://gist.github.com/duyet/d7ef8efb03a7e79b61368da3f9a961e8.js"></script>
 
 
 ### 2. Xử lý từng dòng: Xóa số dòng, bỏ chấm chấm, phẩy, &nbsp;... các dấu dư thừa.
-<script src="https://gist.github.com/duyetdev/bb84042ca6da9b59a32bab7f19bbf8a9.js"></script>
+<script src="https://gist.github.com/duyet/bb84042ca6da9b59a32bab7f19bbf8a9.js"></script>
 
 ## Tách từ sử dụng ngram
 
@@ -92,7 +92,7 @@ list(ngrams("Trăm năm trong cõi người ta".split(), 2))
 Với các bigram không có nghĩa như _"năm trong", "trong cõi"_. Word2vec cho phép tham số `min_count`, tức những từ này xuất hiện ít hơn n sẽ bị loại bỏ, vì chúng không có ý nghĩa trong tiếng Việt.
 
 
-<script src="https://gist.github.com/duyetdev/ee5348c6d449bc90073a827a42d02571.js"></script>
+<script src="https://gist.github.com/duyet/ee5348c6d449bc90073a827a42d02571.js"></script>
 
 
 
@@ -173,7 +173,7 @@ model.wv.similar_by_word("đời")
 PCA giảm vector word từ 100 chiều về 2 chiều, để vẽ lên không gian 2 chiều.
 
 
-<script src="https://gist.github.com/duyetdev/94776c9c4aeb7a18950e6deb799950ee.js"></script>
+<script src="https://gist.github.com/duyet/94776c9c4aeb7a18950e6deb799950ee.js"></script>
 
 
 ## Kết
@@ -183,7 +183,7 @@ Word2vec chính xác khi với bộ copus thật lớn. Với ví dụ trên th�
 Tham khảo thêm:  
   
 
-*   Truyện Kiều Word2vec at Github: [https://github.com/duyetdev/truyenkieu-word2vec](https://github.com/duyetdev/truyenkieu-word2vec)
+*   Truyện Kiều Word2vec at Github: [https://github.com/duyet/truyenkieu-word2vec](https://github.com/duyet/truyenkieu-word2vec)
 *   [The amazing power of word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/)
 *   [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf) – Mikolov et al. 2013
 *   [Distributed Representations of Words and Phrases and their Compositionality](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) – Mikolov et al. 2013

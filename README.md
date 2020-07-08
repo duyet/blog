@@ -1,7 +1,7 @@
 ![.github/screenshot.png](.github/screenshot.png)
 
-![Lighthouse](https://github.com/duyetdev/blog.duyet.net/workflows/Lighthouse/badge.svg?branch=master)
-![gh-pages](https://github.com/duyetdev/blog.duyet.net/workflows/gh-pages/badge.svg?branch=master)
+![Lighthouse](https://github.com/duyet/blog.duyet.net/workflows/Lighthouse/badge.svg?branch=master)
+![gh-pages](https://github.com/duyet/blog.duyet.net/workflows/gh-pages/badge.svg?branch=master)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a562a97a-786b-40b1-adb4-6b874c6e9560/deploy-status)](https://app.netlify.com/sites/duyet/deploys)
 
 - Production: https://blog.duyet.net
@@ -47,7 +47,7 @@ Open the `blog.duyet.net` directory in your code editor of choice and edit `src/
 
 [Netlify](https://netlify.com) CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. Use the button below to build and deploy your own copy of the repository:
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/duyetdev/blog.duyet.net" target="_blank"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/duyet/blog.duyet.net" target="_blank"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
 After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
 

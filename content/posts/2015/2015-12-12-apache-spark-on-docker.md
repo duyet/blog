@@ -18,7 +18,7 @@ description: Docker and Spark are two technologies which are very hyped these da
 fbCommentUrl: none
 ---
 
-Docker and Spark are two technologies which are very hyped these days. [The repository](https://github.com/duyetdev/docker-spark) contains a Docker file to build a Docker image with Apache Spark.
+Docker and Spark are two technologies which are very hyped these days. [The repository](https://github.com/duyet/docker-spark) contains a Docker file to build a Docker image with Apache Spark.
 
 ![](https://1.bp.blogspot.com/-KvlK1aCu4JA/VmsMOTCCySI/AAAAAAAALYo/H_kBQPB_dDE/s640/KuDr42X_ITXghJhSInDZekNEF0jLt3NeVxtRye3tqco.png)
 

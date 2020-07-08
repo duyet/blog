@@ -34,7 +34,7 @@ Parse Server works with the Express web application framework. It can be added t
 1. Clone and install the Parse Stack
 
 ```bash
-git clone https://github.com/duyetdev/parse-stack.git
+git clone https://github.com/duyet/parse-stack.git
 cd parse-stack
 npm install
 ```
@@ -67,5 +67,5 @@ npm start
 Parse Dashboard
 
 ## Resources ##
-Project homepage: [https://github.com/duyetdev/parse-stack](http://saveto.co/JGY2Wm)
+Project homepage: [https://github.com/duyet/parse-stack](http://saveto.co/JGY2Wm)
 Parse Server: [https://github.com/ParsePlatform/parse-server](https://github.com/ParsePlatform/parse-server)

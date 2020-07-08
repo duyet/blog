@@ -35,7 +35,7 @@ Các service [pricetrack](https://tracker.duyet.net/) sử dụng bao gồm:
 3.  Frontend: [Firebase Hosting](https://firebase.google.com/docs/hosting) (+ [GatsbyJS](https://www.gatsbyjs.org/) Framework) + [Firebase Authentication](https://firebase.google.com/docs/auth)
 
 Demo: [https://pricetrack.web.app](https://pricetrack.web.app/) hoặc [https://tracker.duyet.net](https://tracker.duyet.net/)  
-Source code: [https://github.com/duyetdev/pricetrack](https://github.com/duyetdev/pricetrack)  
+Source code: [https://github.com/duyet/pricetrack](https://github.com/duyet/pricetrack)  
   
 **Pricetrack hoạt động như thế nào?**  
 

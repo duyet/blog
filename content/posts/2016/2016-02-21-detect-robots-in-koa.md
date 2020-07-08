@@ -80,12 +80,12 @@ app.listen(3000);
 - tumblr - tumblr
 
 ## Source code ##
-Github: [https://github.com/duyetdev/koa-isbot](https://github.com/duyetdev/koa-isbot)
+Github: [https://github.com/duyet/koa-isbot](https://github.com/duyet/koa-isbot)
 NPM: [https://www.npmjs.com/package/koa-isbot](https://www.npmjs.com/package/koa-isbot)
 
 ## How to contribute ##
 
-1. Fork the project on Github ([https://github.com/duyetdev/koa-isbot/fork](https://github.com/duyetdev/koa-isbot/fork))
+1. Fork the project on Github ([https://github.com/duyet/koa-isbot/fork](https://github.com/duyet/koa-isbot/fork))
 2. Create a topic branch for your changes
 3. Ensure that you provide documentation and test coverage for your changes (patches won’t be accepted without)
 4. Create a pull request on Github (these are also a great place to start a conversation around a patch as early as possible)

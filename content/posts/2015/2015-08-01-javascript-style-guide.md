@@ -17,7 +17,7 @@ fbCommentUrl: none
 ---
 
 A mostly reasonable approach to JavaScript.
-See full: [https://github.com/duyetdev/javascript](https://github.com/duyetdev/javascript)
+See full: [https://github.com/duyet/javascript](https://github.com/duyet/javascript)
 
 ## Table of Contents ##
 

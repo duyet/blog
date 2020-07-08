@@ -53,7 +53,7 @@ Mỗi ứng dụng viết bằng Nodejs bắt buộc đều phải có `package.
     "duyetdev"
   ],
   "homepage": "http://saveto.co",
-  "repository": "git://github.com/duyetdev/quick.git",
+  "repository": "git://github.com/duyet/quick.git",
   "author": "Van-Duyet Le <me@duyet.net>",
   "license": "MIT",
   "dependencies": {

@@ -97,7 +97,7 @@ Bật các modules Magnum, UI và Murano. Cuối cùng ta được file local.co
 
 
 
-<script src="https://gist.github.com/duyetdev/1fe56d669bf5587f1cdc3bd8b7aabc07.js"></script>
+<script src="https://gist.github.com/duyet/1fe56d669bf5587f1cdc3bd8b7aabc07.js"></script>
 
 
 Chạy lệnh sau và đợi Devstack tự động Clone các phần thiếu và tự động cấu hình cài đặt. Đi pha 1 hoặc vài ly cà phê rồi đợi, cài đặt thường diễn ra trong vòng 30 phút - vài tiếng tùy cấu hình server.  
@@ -157,4 +157,4 @@ Danh sách các lỗi hay gặp và cách xử lý
 
 \[1\] https://wiki.openstack.org/wiki/Magnum  
 \[2\] https://wiki.openstack.org/wiki/Murano  
-\[3\] https://gist.github.com/duyetdev/1fe56d669bf5587f1cdc3bd8b7aabc07
+\[3\] https://gist.github.com/duyet/1fe56d669bf5587f1cdc3bd8b7aabc07

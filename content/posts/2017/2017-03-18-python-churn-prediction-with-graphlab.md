@@ -70,4 +70,4 @@ In the dataset, let us assume that the last timestamp was October 1,
 If the **churn\_period** is set to 1 month, a churn forecast predicts the probability that a user will have no activity for a 1 month period after **October 1, 2011**.
 
 
-<script src="https://gist.github.com/duyetdev/034938444f10f466cc02013dd27100fd.js"></script>
+<script src="https://gist.github.com/duyet/034938444f10f466cc02013dd27100fd.js"></script>

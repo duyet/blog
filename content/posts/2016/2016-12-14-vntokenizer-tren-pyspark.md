@@ -40,7 +40,7 @@ PySpark sử dụng **py4j** để gọi trực tiếp các thư viện **Spark*
 **Chú ý:**  
 
 1.  Để custom mã nguồn của vn.vitk, clone project tại đây: https://github.com/phuonglh/vn.vitk, cài đặt trước Java và Maven
-2.  Bạn hoàn toàn có thể sử dụng file **[vn.vitk-3.0.jar](https://github.com/duyetdev/pyspark-vn.vitk/blob/master/lib/vn.vitk-3.0.jar)** mình đã build sẵn tại đây mà không cần đọc các bước modified bên dưới. Sử dụng file jar này để submit vào PySpark.
+2.  Bạn hoàn toàn có thể sử dụng file **[vn.vitk-3.0.jar](https://github.com/duyet/pyspark-vn.vitk/blob/master/lib/vn.vitk-3.0.jar)** mình đã build sẵn tại đây mà không cần đọc các bước modified bên dưới. Sử dụng file jar này để submit vào PySpark.
 
 ## 1. vn.vitk.tok.Tokenizer
 
@@ -68,7 +68,7 @@ public Tokenizer(JavaSparkContext _jsc, String lexiconFileName, String regexpFil
 ```
 
   
-Xem file hoàn chỉnh tại đây: [https://github.com/duyetdev/vn.vitk/.../java/vn/vitk/tok/Tokenizer.java](https://github.com/duyetdev/vn.vitk/blob/master/src/main/java/vn/vitk/tok/Tokenizer.java)  
+Xem file hoàn chỉnh tại đây: [https://github.com/duyet/vn.vitk/.../java/vn/vitk/tok/Tokenizer.java](https://github.com/duyet/vn.vitk/blob/master/src/main/java/vn/vitk/tok/Tokenizer.java)  
   
 Build lại project bằng lệnh: `mvn compile package`, sau khi build thành công file `vn.vitk-3.0.jar` sẽ nằm trong thư mục `target`.  
 
@@ -86,18 +86,18 @@ pyspark --master local --jars=./lib/vn.vitk-3.0.jar --driver-class-path=./lib/vn
 Tham khảo thêm về Notebook PySpark trong bài viết sau: [Chạy Apache Spark với Jupyter Notebook](https://blog.duyet.net/2016/09/chay-apache-spark-voi-jupiter-notebook.html#.WEz76RJ97_g)  
 Mở Jupyter notebook trên trình duyệt và code mẫu theo notebook sau:
 
-https://gist.github.com/duyetdev/e1f8122a015b300456ece1b4f92c69f1
+https://gist.github.com/duyet/e1f8122a015b300456ece1b4f92c69f1
 
 
 Kết quả:
 
-https://gist.github.com/duyetdev/9252f98405738ac63d5d8fd034866dac
+https://gist.github.com/duyet/9252f98405738ac63d5d8fd034866dac
 
 
   
-Bạn có thể xem toàn bộ mã nguồn, input và output mẫu tại đây: [https://github.com/duyetdev/pyspark-vn.vitk](https://github.com/duyetdev/pyspark-vn.vitk)  
+Bạn có thể xem toàn bộ mã nguồn, input và output mẫu tại đây: [https://github.com/duyet/pyspark-vn.vitk](https://github.com/duyet/pyspark-vn.vitk)  
 
 ## Tham khảo
 
 1.  [https://github.com/phuonglh/vn.vitk](https://github.com/phuonglh/vn.vitk)
-2.  [https://github.com/duyetdev/pyspark-vn.vitk](https://github.com/duyetdev/pyspark-vn.vitk)
+2.  [https://github.com/duyet/pyspark-vn.vitk](https://github.com/duyet/pyspark-vn.vitk)

@@ -36,7 +36,7 @@ Or npm, too.
 npm install copy-js --save
 ```
 
-If you're not into package management, just [[download a ZIP]](https://github.com/duyetdev/copy.js/archive/master.zip) file.
+If you're not into package management, just [[download a ZIP]](https://github.com/duyet/copy.js/archive/master.zip) file.
 
 ## Setup ##
 First, include the script located on the dist folder.
@@ -70,4 +70,4 @@ copy('hello world', function(err) {
 
 That's it!
 
-Visit project source code here: [https://github.com/duyetdev/copy.js](https://github.com/duyetdev/copy.js)
+Visit project source code here: [https://github.com/duyet/copy.js](https://github.com/duyet/copy.js)

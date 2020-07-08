@@ -24,7 +24,7 @@ Image: jameswebb
 
 ## duyetdev/bruteforce-database ##
 Project: Bruteforce Database
-Github: [https://github.com/duyetdev/bruteforce-database](https://github.com/duyetdev/bruteforce-database)
+Github: [https://github.com/duyet/bruteforce-database](https://github.com/duyet/bruteforce-database)
 Author: Van-Duyet Le (@duyetdev)
 
 - **8-more-passwords.txt** sorting only passwords with more than 8 characters, removed all numeric passes, removed consecutive characters (3 characters or more), removed all lowercase passwords, passwords without a capital letter and also a number (61.682 password).
@@ -43,7 +43,7 @@ Author: Van-Duyet Le (@duyetdev)
 3. Ensure that you provide documentation and test coverage for your changes (patches won’t be accepted without)
 4. Create a pull request on Github (these are also a great place to start a conversation around a patch as early as possible)
 
-## [https://github.com/duyetdev/bruteforce-database#license](https://github.com/duyetdev/bruteforce-database#license)License ##
+## [https://github.com/duyet/bruteforce-database#license](https://github.com/duyet/bruteforce-database#license)License ##
 
 MIT License
 

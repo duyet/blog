@@ -110,7 +110,7 @@ import cv2
 from matplotlib import pyplot as plt
 ```
 
-Tải [cars.xml](https://github.com/duyetdev/opencv-car-detection/blob/master/cars.xml) bỏ vào thư mục làm việc. Đây là Cascade Classifier ảnh. Kế tiếp đọc ảnh và chuyển sang chế độ màu gray.
+Tải [cars.xml](https://github.com/duyet/opencv-car-detection/blob/master/cars.xml) bỏ vào thư mục làm việc. Đây là Cascade Classifier ảnh. Kế tiếp đọc ảnh và chuyển sang chế độ màu gray.
 
 Ta có ảnh sau:
 
@@ -177,4 +177,4 @@ Tham khảo:
 
 - [http://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html](http://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html)
 - [http://docs.opencv.org/2.4/doc/tutorials/objdetect/cascade_classifier/cascade_classifier.html](http://docs.opencv.org/2.4/doc/tutorials/objdetect/cascade_classifier/cascade_classifier.html)
-- Source code trong bài: [https://github.com/duyetdev/opencv-car-detection](https://github.com/duyetdev/opencv-car-detection)
+- Source code trong bài: [https://github.com/duyet/opencv-car-detection](https://github.com/duyet/opencv-car-detection)

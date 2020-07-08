@@ -175,7 +175,7 @@ Nhiều bạn hỏi, tôi note lại một số bài viết hữu ích về node
 - [pjScrape](http://nrabinowitz.github.com/pjscrape/)
 - [PhantomJS](http://phantomjs.org/)
 - [spider](https://github.com/mikeal/spider)
-- [DCrawler](https://github.com/duyetdev/DCrawler)
+- [DCrawler](https://github.com/duyet/DCrawler)
 
 - Connect         
 - [Just Connect it Already](http://howtonode.org/connect-it)

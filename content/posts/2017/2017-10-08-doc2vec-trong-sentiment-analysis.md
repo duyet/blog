@@ -36,7 +36,7 @@ Nhắc lại về Word2vec, nó sử dụng 1 tập copus, qua một mạng Neur
 Trong bài này, mình sẽ giới thiệu rất cơ bản basic concept để các bạn có thể hình dung việc ứng dụng **Doc2vec trong** **Sentiment Analysis** như thế nào.
 
   
-**[Xem bài viết dưới dạng notebook.](https://github.com/duyetdev/doc2vec-sentiment/blob/master/Doc2vec%20Sentiment%20Analysis.ipynb)**  
+**[Xem bài viết dưới dạng notebook.](https://github.com/duyet/doc2vec-sentiment/blob/master/Doc2vec%20Sentiment%20Analysis.ipynb)**  
 
 ## Doc2vec
 
@@ -93,7 +93,7 @@ Mình có các tập data để training, gồm training và testing như sau:
 *   _train-neg.txt_: 12500 negative movie reviews from the training data
 *   _train-pos.txt_: 12500 positive movie reviews from the training data
 
-Tải dataset tại đây: **[Github](https://github.com/duyetdev/doc2vec-sentiment)**  
+Tải dataset tại đây: **[Github](https://github.com/duyet/doc2vec-sentiment)**  
   
 Trong mỗi file data, 1 đoạn văn bản trên một dòng:
 
@@ -424,6 +424,6 @@ Trong bài này mình đã:
 *   Các sử dụng Gensim để vector hóa một văn bản và sử dụng Logistic Regression cũng như SVM để phân lớp, đạt độ chính xác cao.
 
 Tham khảo:  
-*   Notebook và data bài viết: **[https://github.com/duyetdev/doc2vec-sentiment](https://github.com/duyetdev/doc2vec-sentiment)**
+*   Notebook và data bài viết: **[https://github.com/duyet/doc2vec-sentiment](https://github.com/duyet/doc2vec-sentiment)**
 *   Doc2vec tuts: **[https://rare-technologies.com/doc2vec-tutorial/](https://rare-technologies.com/doc2vec-tutorial/)**
 *   **[https://github.com/linanqiu/word2vec-sentiments](https://github.com/linanqiu/word2vec-sentiments)**

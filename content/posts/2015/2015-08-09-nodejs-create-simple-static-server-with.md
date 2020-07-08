@@ -59,6 +59,6 @@ Result is:
 
 ## Github Project ##
 
-Github repo: [https://github.com/duyetdev/static-html-server](https://github.com/duyetdev/static-html-server)
+Github repo: [https://github.com/duyet/static-html-server](https://github.com/duyet/static-html-server)
 
-Issues: [https://github.com/duyetdev/static-html-server/issues](https://github.com/duyetdev/static-html-server/issues)
+Issues: [https://github.com/duyet/static-html-server/issues](https://github.com/duyet/static-html-server/issues)

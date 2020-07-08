@@ -21,7 +21,7 @@ fbCommentUrl: none
 
 Flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices. Powerful and easy to use.
 
-[![](https://1.bp.blogspot.com/-vmFjdMDVRok/Vvek0fYiwmI/AAAAAAAASas/iUUHSjQAWYUcWK6F5tx8qq3nfP_sVozOg/s1600/calc.png)](https://github.com/duyetdev/calc.js)
+[![](https://1.bp.blogspot.com/-vmFjdMDVRok/Vvek0fYiwmI/AAAAAAAASas/iUUHSjQAWYUcWK6F5tx8qq3nfP_sVozOg/s1600/calc.png)](https://github.com/duyet/calc.js)
 
 ## Install ##
 
@@ -46,5 +46,5 @@ Thanks to [mathjs](https://github.com/josdejong/mathjs) eval.
 
 ## Source  ##
 
-- [calc.js](https://github.com/duyetdev/calc.js) | Github
+- [calc.js](https://github.com/duyet/calc.js) | Github
 - [calc.js](https://www.npmjs.com/package/calc.js) | NPM
