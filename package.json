@@ -103,7 +103,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.1.0",
-    "babel-preset-gatsby": "0.2.29",
+    "babel-preset-gatsby": "0.5.2",
     "browserslist": "4.13.0",
     "concurrently": "5.2.0",
     "eslint": "7.3.1",
