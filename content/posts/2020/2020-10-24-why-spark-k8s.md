@@ -19,6 +19,12 @@ Apache Spark đã quá nổi tiếng trong thế giới Data Engineering và Big
 
 Có một số lý do bạn bạn nên triển khai Apache Spark trên Kubernetes.
 
+- [Native option](#native-option)
+- [Tận dụng sức mạnh của công nghệ Container](#tận-dụng-sức-mạnh-của-công-nghệ-container)
+- [Monitoring và Logging](#monitoring-và-logging)
+- [Namespace / Resource quotas](#namespace--resource-quotas)
+- [Node selectors, Service Account](#node-selectors-service-account)
+
 ## Native option
 
 Kubernetes đã trở thành native option cho Spark resource manager kể từ version 2.3 (thay vì Hadoop Yarn, Apache Mesos như trước). Trang tài liệu của Apache Spark có hướng dẫn rất đầy đủ các cài đặt để chạy Spark trên Kubernetes: https://spark.apache.org/docs/latest/running-on-kubernetes.html
