@@ -1,13 +1,14 @@
 ---
 template: post
-title: "Tại sao nên chạy Apache Spark trên Kubernetes"
+title: 'Tại sao nên triển khai Apache Spark trên Kubernetes'
 date: '2020-10-24T00:00:00.000+07:00'
 author: Van-Duyet Le
 category: Data Engineer
 tags:
   - Spark
   - Data Engineer
-thumbnail: 
+  - Kubernetes
+thumbnail: https://1.bp.blogspot.com/-aBPAW0o9sqY/X5Ps-9d_hLI/AAAAAAABp1A/ZCTOfwThNEUykd4biRSDnZj0D7menY9kACLcBGAsYHQ/s0/spark-on-k8s.jpg
 slug: /2020/10/why-spark-on-kubernetes.html
 draft: false
 description: Spark đã quá nổi tiếng trong thế giới Data Engineering và Bigdata. Kubernetes cũng ngày càng phổ biến tương tự, là một hệ thống quản lý deployment và scaling application. Bài viết này bàn đến một số lợi ích khi triển khai ứng dụng Apache Spark trên hệ thống Kubernetes.
@@ -22,7 +23,7 @@ Có một số lý do bạn bạn nên triển khai Apache Spark trên Kubernete
 
 Kubernetes đã trở thành native option cho Spark resource manager kể từ version 2.3 (thay vì Hadoop Yarn, Apache Mesos như trước). Trang tài liệu của Apache Spark có hướng dẫn rất đầy đủ các cài đặt để chạy Spark trên Kubernetes: https://spark.apache.org/docs/latest/running-on-kubernetes.html
 
-![spark-submit can be directly used to submit a Spark application to a Kubernetes cluster](https://spark.apache.org/docs/latest/img/k8s-cluster-mode.png)
+![spark-submit can be directly used to submit a Spark application to a Kubernetes cluster](/../../media/2020/why-spark-k8s/k8s-cluster-mode.png)
 
 Spark sẽ tạo một Spark driver bằng một [Kubernetes pod](https://kubernetes.io/docs/concepts/workloads/pods/pod/).
 
@@ -41,7 +42,7 @@ Chạy Spark trên Kubernetes dưới dạng các pod container, ta tận dụng
 
 Tận dụng monitoring và logging của Kubernetes: Kubernetes rất mạnh trong việc monitoring các pod, service, node. Bạn có thể dễ dàng xuất log hoặc metrics ra một hệ thống khác như Graylog, [Elasticsearch](https://kubernetes.io/docs/tasks/debug-application-cluster/logging-elasticsearch-kibana/), [Stackdriver](https://kubernetes.io/docs/tasks/debug-application-cluster/logging-stackdriver/), [Prometheus](https://prometheus.io/), Statd ... bằng cách cài thêm 1 pod logging agent hoặc thêm 1 sidecar container để export.
 
-![](https://d33wubrfki0l68.cloudfront.net/5bde4953b3b232c97a744496aa92e3bbfadda9ce/39767/images/docs/user-guide/logging/logging-with-streaming-sidecar.png)
+![Monitoring và Logging](/../../media/2020/why-spark-k8s/logging-with-streaming-sidecar.png)
 
 Tham khảo thêm:
 
@@ -123,21 +124,21 @@ spec:
     nodeAffinity:
       requiredDuringSchedulingIgnoredDuringExecution:
         nodeSelectorTerms:
-        - matchExpressions:
-          - key: kubernetes.io/e2e-az-name
-            operator: In
-            values:
-            - e2e-az1
-            - e2e-az2
+          - matchExpressions:
+              - key: kubernetes.io/e2e-az-name
+                operator: In
+                values:
+                  - e2e-az1
+                  - e2e-az2
       preferredDuringSchedulingIgnoredDuringExecution:
-      - weight: 1
-        preference:
-          matchExpressions:
-          - key: cluster-label
-            operator: In
-            values:
-            - cluster-realtime
-            - cluster-production
+        - weight: 1
+          preference:
+            matchExpressions:
+              - key: cluster-label
+                operator: In
+                values:
+                  - cluster-realtime
+                  - cluster-production
 ```
 
 ## Kết luận
