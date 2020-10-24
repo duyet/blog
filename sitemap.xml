@@ -102,8 +102,8 @@
 <url> <loc>https://blog.duyet.net/2015/12/nhan.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/map-reduce-va-bai-toan-wordcount.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/chartico-tao-bieu-o-cot-nhanh-chong-va.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2015/12/apache-spark-on-docker.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/jslab-xyz.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2015/12/apache-spark-on-docker.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/angular-2-co-gi-moi.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/docker-la-gi-co-ban-ve-docker.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/unit-test-va-function-test.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -294,11 +294,11 @@
 <url> <loc>https://blog.duyet.net/2015/10/nguoi-nhat-va-triet-ly-giao-duc-khong.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/11/review-trai-nghiem-firefox-os.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/dau-la-loi-canh-tranh-cua-nguoi-viet.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2016/03/why-nodejs-javascript.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/04/es6.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/04/deploy-production-nodejs-pm2-nginx.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/04/dat-nuoc-va-nhung-noi-lo.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/04/gioi-thieu-koajs.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2016/03/why-nodejs-javascript.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/05/cach-truy-cap-website-khi-bi-chan.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/06/huong-dan-quan-tri-xenforo.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/06/react-redux-chap-1.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
