@@ -102,8 +102,8 @@
 <url> <loc>https://blog.duyet.net/2015/12/nhan.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/map-reduce-va-bai-toan-wordcount.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/chartico-tao-bieu-o-cot-nhanh-chong-va.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2015/12/jslab-xyz.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/apache-spark-on-docker.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2015/12/jslab-xyz.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/angular-2-co-gi-moi.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/docker-la-gi-co-ban-ve-docker.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/12/unit-test-va-function-test.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -119,12 +119,11 @@
 <url> <loc>https://blog.duyet.net/2016/02/graph-database.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/nodejs-ma-hoa-mat-khau.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/nodejs-oc-file-packagejson.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2016/02/sitemapduyetdevcom.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/deep-learning-la-gi.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2016/02/sitemapduyetdevcom.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/thai-nguyen-anh-tuan_4.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/cai-dat-tensorflow-tren-docker.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/mieng-banh-my-chay.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2016/02/tensorflow-huong-dan-cai-at-tren-ubuntu.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/nginx-adding-cors.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/yahoo-ra-mat-bo-dataset-lon-nhat-machine-learning.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/tu-ong-hoa-internet-voi-ifttt.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -140,6 +139,7 @@
 <url> <loc>https://blog.duyet.net/2016/03/giao-thuc-diffie-hellman.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/03/asiacrypt-2016.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/03/protonmail.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2016/02/tensorflow-huong-dan-cai-at-tren-ubuntu.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/03/savetoco-nang-cap-chuc-nang-note.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/03/postman.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/03/how-one-developer-just-broke-the-internet.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -166,10 +166,8 @@
 <url> <loc>https://blog.duyet.net/2016/05/es6-ep-su-dung-tham-so-trong-function.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/05/es6-swap-via-destructuring.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/05/javascript-weekly-2.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2015/07/su-dung-git-stash-hieu-qua.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/05/chuyen-giao-tiep.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2016/05/webgazerjs-theo-doi-chuyen-dong-mat.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2016/05/reverse-shell-on-nodejs-application.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2016/06/from-java-to-node-paypal-story.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/06/javascript-weekly-3.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/06/web-font-loader.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/06/atom-power-mode.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -264,7 +262,9 @@
 <url> <loc>https://blog.duyet.net/2020/06/tldr-es2020-nullish-coalescing.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2020/06/tldr-es2020-optional-chaining.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2020/10/why-spark-on-kubernetes.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2015/07/su-dung-git-stash-hieu-qua.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2016/06/from-java-to-node-paypal-story.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2016/05/reverse-shell-on-nodejs-application.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2016/05/webgazerjs-theo-doi-chuyen-dong-mat.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2014/02/huong-dan-viet-game-flappy-bird-bang.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2014/03/vi-sao-lap-trinh-vien-de-bi-ien.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2014/04/huong-dan-viet-game-flappy-bird-bang.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -300,6 +300,7 @@
 <url> <loc>https://blog.duyet.net/2016/04/dat-nuoc-va-nhung-noi-lo.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/04/gioi-thieu-koajs.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/05/cach-truy-cap-website-khi-bi-chan.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2015/07/big-data-monitoring-spark-with-graphite.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/06/huong-dan-quan-tri-xenforo.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/06/react-redux-chap-1.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/06/tim-hieu-ve-du-lieu-trong-the-thao-hien-dai.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -314,7 +315,6 @@
 <url> <loc>https://blog.duyet.net/2019/08/8-serverless-platform.md</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2019/08/ir-vector-space-model.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2020/05/spark-on-k8s.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2015/07/big-data-monitoring-spark-with-graphite.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/02/co-founder-la-yeu-to-quyet-inh-e-thanh.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/04/bigdata-getting-started-with-spark-in.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/05/tim-hieu-ve-he-thong-quang-cao-online.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -324,8 +324,8 @@
 <url> <loc>https://blog.duyet.net/2016/08/su-co-vietcombank-mot-goc-nhin-ky-thuat.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2017/10/doc2vec-trong-sentiment-analysis.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/08/javascript-style-guide.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2015/08/tong-hop-phim-tat-cua-visual-studio-code.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/09/git-19-tips-for-everyday-git-use.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2015/08/tong-hop-phim-tat-cua-visual-studio-code.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2017/08/machine-learning-is-fun.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/07/tao-of-programming.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/tag/2015</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
