@@ -26,6 +26,11 @@ const CategoriesListTemplate = () => {
       <Sidebar />
       <Page title="Categories">
         <CategoriesListHighlight categories={topCategories} />
+
+        <div style={{ marginBottom: 30, marginTop: 30 }}>
+          <Link to={`/tags/`}><strong>Tags</strong></Link>
+        </div>
+
         <ul>
           {categories.map((category) => (
             <li key={category.fieldValue}>
