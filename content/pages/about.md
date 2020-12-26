@@ -6,14 +6,14 @@ template: "page"
 Data Engineer @ Fossil
 
 
-I'm studying Master of Computer Science at UIT, I've been a Data Engineer @ [John Von Neumann Institute](http://jvn.edu.vn/) (2016-2018). Currently, Data Engineer @ Fossil.
+Studying Master of Computer Science, I've been a Data Engineer @ [John Von Neumann Institute](http://jvn.edu.vn/) (2016-2018). Currently, Data Engineer @ Fossil.
 
 
-I am a [Data Engineer](/tag/data-engineer/) with 3+ years of experience. Currently, helping Fossil Inc with a Terrabyte-scale Data
+I am [Data Engineer](/tag/data-engineer/) with 4+ years of experience. Currently, helping Fossil Inc with a Terrabyte-scale Data
 Platform on Kubernetes and AWS.
 
-Working on Data Engineering (Data Pipeline, DWH, Data Processing and Big Data based on AWS and GCP), Data
-Visualization (Redash, Data Studio), Machine Learning especially NLP (Sentiment Analysis, Text Classification, Word
+Working on Data Engineering (Data Pipeline, DWH, Data Processing based on AWS and GCP), Data
+Analytics (Data Studio), Machine Learning especially NLP (Sentiment Analysis, Text Classification, Word
 Embedding, ...).
 
 <figure class="float-right" style="width: 340px">
@@ -21,7 +21,7 @@ Embedding, ...).
 	<figcaption>Duyệt</figcaption>
 </figure>
 
-Skills & stacks: [Python](https://github.com/duyet?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=python), [Javascript](https://github.com/duyet?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=javascript) (Nodejs), NLP, Apache Spark, [Airflow](/tag/airflow/), AWS, GCP.
+Skills & stacks: [Python](https://github.com/duyet?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=python), [Javascript](https://github.com/duyet?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=javascript), Apache Spark, [Airflow](/tag/airflow/), AWS, GCP.
 
 
 [[CV.pdf](https://me.duyet.net/resume/duyet.resume.pdf)] [[github](https://github.com/duyet)] 
