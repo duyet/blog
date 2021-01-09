@@ -1,6 +1,6 @@
 ---
 template: post
-title: Sử dụng trình soạn thảo "vi" trong linux
+title: Sử dụng "vi" trong Linux
 date: '2014-06-15T09:31:00.000+07:00'
 category: Linux
 tags:

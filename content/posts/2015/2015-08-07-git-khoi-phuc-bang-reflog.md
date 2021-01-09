@@ -1,6 +1,6 @@
 ---
 template: post
-title: Git - Khôi phục bằng reflog sau khi lỡ tay xóa commit hoặc branch.
+title: Git - Khôi phục bằng reflog sau khi xóa commit hoặc branch
 date: '2015-08-07T13:03:00.000+07:00'
 author: Van-Duyet Le
 tags:
