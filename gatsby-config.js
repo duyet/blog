@@ -118,7 +118,6 @@ module.exports = {
             options: {
               maxWidth: 1200,
               withWebp: true,
-              ignoreFileExtensions: [],
             }
           },
           {
@@ -129,17 +128,17 @@ module.exports = {
             resolve: 'gatsby-remark-figure-caption',
             options: { figureClassName: 'md-figure' },
           },
-          {
-            resolve: 'gatsby-remark-series',
-            options: {
-              render: {
-                placeholder: 'toc'
-              }
-            },
-            render: {
-              placeholder: 'toc'
-            }
-          },
+          // {
+          //   resolve: 'gatsby-remark-series',
+          //   options: {
+          //     render: {
+          //       placeholder: 'toc'
+          //     }
+          //   },
+          //   render: {
+          //     placeholder: 'toc'
+          //   }
+          // },
           'gatsby-remark-autolink-headers',
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
@@ -148,8 +147,8 @@ module.exports = {
         ]
       }
     },
-    'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-google-tagmanager',

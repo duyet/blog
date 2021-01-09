@@ -26,6 +26,10 @@ module.exports = {
       path: '/pages/about'
     },
     {
+      label: 'Data Studio',
+      path: '/pages/data-studio'
+    },
+    {
       label: 'Categories',
       path: '/categories'
     },
