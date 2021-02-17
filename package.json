@@ -80,7 +80,7 @@
     "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "netlify-cms-app": "^2.11.11",
-    "node-sass": "^4.13.1",
+    "node-sass": "^5.0.0",
     "normalize-scss": "^7.0.1",
     "prismjs": "^1.19.0",
     "react": "^16.12.0",
