@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://blog.duyet.net/./src/templates/ping.tsx"],"names":[],"mappings":"4HAGA,UAFqB,iBAAM","file":"component---src-templates-ping-tsx-9f9925286cb0e5ad38ac.js","sourcesContent":["// @flow strict\nconst PageTemplate = () => 'pong';\n\nexport default PageTemplate;\n"],"sourceRoot":""}

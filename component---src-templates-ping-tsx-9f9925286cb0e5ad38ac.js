@@ -1,0 +1,2 @@
+(self.webpackChunkblog_duyet_net=self.webpackChunkblog_duyet_net||[]).push([[911],{4252:function(e,n,t){"use strict";t.r(n);n.default=function(){return"pong"}}}]);
+//# sourceMappingURL=component---src-templates-ping-tsx-9f9925286cb0e5ad38ac.js.map
