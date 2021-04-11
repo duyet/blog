@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/media`,
+        path: `${__dirname}/static/media`,
         name: 'media'
       }
     },
@@ -60,20 +60,21 @@ module.exports = {
             }
           }
         `,
-        feeds: [{
-          serialize: ({ query: { site, allMarkdownRemark } }) => (
-            allMarkdownRemark.edges.map((edge) => ({
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => allMarkdownRemark.edges.map((edge) => ({
               ...edge.node.frontmatter,
               description: edge.node.frontmatter.description,
               date: edge.node.frontmatter.date,
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
-              custom_elements: [{
-                'content:encoded': `${edge.node.frontmatter.description}<br /><img src="${edge.node.frontmatter.thumbnail}" loading="lazy" />`
-              }]
-            }))
-          ),
-          query: `
+              custom_elements: [
+                {
+                  'content:encoded': `${edge.node.frontmatter.description}<br /><img src="${edge.node.frontmatter.thumbnail}" loading="lazy" />`
+                }
+              ]
+            })),
+            query: `
               {
                 allMarkdownRemark(
                   limit: 1000,
@@ -98,15 +99,21 @@ module.exports = {
                 }
               }
             `,
-          output: '/rss.xml'
-        }]
+            output: '/rss.xml'
+          }
+        ]
       }
     },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          'gatsby-remark-relative-images',
+          {
+            resolve: 'gatsby-remark-relative-images',
+            options: {
+                include: ['thumbnail']
+            }
+          },
           {
             resolve: 'gatsby-remark-katex',
             options: {
@@ -117,7 +124,7 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 1200,
-              withWebp: true,
+              withWebp: true
             }
           },
           {
@@ -126,7 +133,7 @@ module.exports = {
           },
           {
             resolve: 'gatsby-remark-figure-caption',
-            options: { figureClassName: 'md-figure' },
+            options: { figureClassName: 'md-figure' }
           },
           // {
           //   resolve: 'gatsby-remark-series',
@@ -155,7 +162,7 @@ module.exports = {
       options: {
         id: siteConfig.googleTagManagerId,
         defaultDataLayer: { platform: 'gatsby' }
-      },
+      }
     },
     {
       resolve: 'gatsby-plugin-sitemap',
@@ -199,7 +206,7 @@ module.exports = {
         display: 'standalone',
         icon: 'static/photo.png',
         cache_busting_mode: 'none'
-      },
+      }
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
@@ -209,8 +216,12 @@ module.exports = {
       options: {
         postCssPlugins: [...postCssPlugins],
         cssLoaderOptions: {
-          camelCase: false,
-        }
+          camelCase: false
+        },
+        // Override the file regex for Sass
+        sassRuleTest: /\.s(a|c)ss$/,
+        // Override the file regex for CSS modules
+        sassRuleModulesTest: /\.module\.s(a|c)ss$/
       }
     },
     {
@@ -218,7 +229,7 @@ module.exports = {
       options: {
         pathToConfigModule: 'src/utils/typography',
         omitGoogleFont: true
-      },
+      }
     },
     'gatsby-plugin-flow',
     'gatsby-plugin-robots-txt'

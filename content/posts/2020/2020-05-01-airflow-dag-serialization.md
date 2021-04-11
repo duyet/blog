@@ -15,7 +15,7 @@ description: In order to make Airflow Webserver stateless, Airflow >=1.10.7 supp
 fbCommentUrl: none
 ---
 
-![](../../media/2020/airflow-dag-serialization/dag_serialization.png)
+![](/media/2020/airflow-dag-serialization/dag_serialization.png)
 
 From [the Airflow docs](https://airflow.apache.org/docs/1.10.10/dag-serialization.html): 
 

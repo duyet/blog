@@ -70,7 +70,7 @@ $$
 
 2. Từ đó sử dụng một độ đo khoảng cách trên vector $q$ và $d_j$ để xếp hạng các docs. 
 
-![](../../media/2019/ir-vector-space-model/query-vs-docs.svg)
+![](/media/2019/ir-vector-space-model/query-vs-docs.svg)
 
 
 <figure>
@@ -106,7 +106,7 @@ Biểu diễn documents và query bởi các **concept vectors**
  - K concepts biểu diễn một không gian nhiều chiều.
  - Ta cần định nghĩa trọng số (weight) cho từng chiều của vector.
 
-![](../../media/2019/ir-vector-space-model/concept-vector.svg)
+![](/media/2019/ir-vector-space-model/concept-vector.svg)
 
 
 ## 3. Tìm trọng số (weights) cho vector
@@ -187,7 +187,7 @@ $$
 
 Sau khi biểu diễn dưới dạng vector và tính khoảng cách, ta xếp hạng được các tài liệu tìm kiếm với từng query vector.
 
-![](../../media/2019/ir-vector-space-model/query-vs-docs-sorted.svg)
+![](/media/2019/ir-vector-space-model/query-vs-docs-sorted.svg)
 
 
 ## 5. Ưu và nhược điểm của Vector Space Model

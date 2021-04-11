@@ -7,12 +7,11 @@ import Meta from './Meta';
 import Tags from './Tags';
 // import SubscribeBox from './SubscribeBox';
 
-import styles from './Post.module.scss';
+import * as styles from './Post.module.scss';
 import type { Node } from '../../types';
 import { useSiteMetadata } from '../../hooks';
 import { gtagTrack } from '../../utils';
 import 'katex/dist/katex.min.css';
-
 
 type Props = {
   post: Node
@@ -27,8 +26,8 @@ const Post = ({ post }: Props) => {
   const siteTitle = useSiteMetadata().title;
 
   return (
-    <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/" onClick={() => gtagTrack('HomeLink', 'click', 'home')}>{siteTitle}</Link>
+    <div className={styles.post}>
+      <Link className={styles['post__homeButton']} to="/" onClick={() => gtagTrack('HomeLink', 'click', 'home')}>{siteTitle}</Link>
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} />

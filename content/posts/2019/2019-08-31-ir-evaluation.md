@@ -36,7 +36,7 @@ Các bước đánh giá một hệ thống tìm kiếm IR:
     - Mean Average Precision (MAP) 
     - Cumulative Gain (CG)
 
-![Làm thế nào để đánh giá kết quả trả về](../../media/2019/ir-evaluation/IR-evaluate.png)
+![Làm thế nào để đánh giá kết quả trả về](/media/2019/ir-evaluation/IR-evaluate.png)
 
 
 # 1. Khó khăn, thách thức khi đánh giá
@@ -57,7 +57,7 @@ Sự đánh giá một hệ thống tìm kiếm thông tin IR gặp khó khăn, 
 
 Để có kết quả khách quan, ta cần có nhiều chuyên gia khác nhau đánh giá cho cùng một query.
 
-![Human Labeled Corpora](../../media/2019/ir-evaluation/Human-Labeled-Corpora.png)
+![Human Labeled Corpora](/media/2019/ir-evaluation/Human-Labeled-Corpora.png)
 
 
 # 3. Chỉ số đánh giá
@@ -79,7 +79,7 @@ $$
 {\displaystyle {\text{precision}}={\frac {\{{\text{Tổng số kết quả trả về đúng}}\}}{|\{{\text{Tổng số kết quả đúng}}\}|}}}
 $$
 
-![Trade off](../../media/2019/ir-evaluation/precision-recall.png)
+![Trade off](/media/2019/ir-evaluation/precision-recall.png)
 
 
 Ví dụ, hệ thống tìm kiếm cho kết quả 30 trang, trong đó có 20 trang đúng. Nhưng thực sự trong toàn bộ hệ thống sẽ có tất cả 40 trang đúng. Vậy precision sẽ là 20/30 = 2/3, recall là 20/40 = 1/2.
@@ -91,7 +91,7 @@ Tham khảo thêm:
 
 Một hệ thống tốt sẽ có sự đánh đổi giữa Precision và Recall. Thực tế cho rằng: *Precision giảm khi recall tăng*
 
-![Trade off](../../media/2019/ir-evaluation/trade-off.png)
+![Trade off](/media/2019/ir-evaluation/trade-off.png)
 
 - Bạn có thể tăng recall bằng cách tăng số docs trả về.
 - Recall là một hàm không tăng
@@ -107,16 +107,16 @@ Các vẽ đường precision-recall curve:
 - Thay đổi **n** ta có một dãy **n** cặp điểm như thế. 
 - Vẽ các cặp điểm này ta được đồ thị như sau:
 
-![precision-recall curve](../../media/2019/ir-evaluation/precision-recall-curve.png)
+![precision-recall curve](/media/2019/ir-evaluation/precision-recall-curve.png)
 
 Một số điểm đồ thị sẽ bị răng cưa như trên, ta sẽ dùng kỹ thuật interpolated curve, nối các điểm như đường màu đỏ dưới đây $P(r) = \text{max}_{r' > r} P(r')$
 
-![precision-recall curve](../../media/2019/ir-evaluation/precision-recall-curve-interpolated.png)
+![precision-recall curve](/media/2019/ir-evaluation/precision-recall-curve-interpolated.png)
 
 
 **11-point interpolated average precision**: tính precision trung bình ở 11 điểm
 
-![precision-recall curve](../../media/2019/ir-evaluation/11-point-precision-recall.png)
+![precision-recall curve](/media/2019/ir-evaluation/11-point-precision-recall.png)
 
 Ta tính diện tích dưới đường precision-recall curve, diện tích lớn hơn thì cho kết quả tốt hơn.
 
@@ -124,7 +124,7 @@ Ta tính diện tích dưới đường precision-recall curve, diện tích l�
 
 Tính precision tại vị trí thứ **R-th** mà câu query trả về **R** câu trả lời.
 
-![R-precision](../../media/2019/ir-evaluation/R-precision.png)
+![R-precision](/media/2019/ir-evaluation/R-precision.png)
 
 
 ## d. F-Measure
