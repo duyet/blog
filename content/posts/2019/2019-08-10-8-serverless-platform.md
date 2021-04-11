@@ -90,7 +90,7 @@ Azure Functions sẽ lo infrastructure cho ứng dụng của bạn, tự độn
 
 Bạn có thể trigger function từ web application, HTTP API từ ứng dụng mobile, blob storage, streaming, webhooks, ...
 
-![](../../media/2019/azure-function.svg)
+![](/media/2019/azure-function.svg)
 
 Giá được tính dựa vào tổng thời gian để thực thi code, không có upfront cost, Azure hỗ trợ 1 triệu lần thực thi code miễn phí.
 
