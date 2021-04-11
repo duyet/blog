@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import { PAGINATION } from '../../constants';
 import { gtagTrack } from '../../utils';
 
-import styles from './Pagination.module.scss';
+import * as styles from './Pagination.module.scss';
 
 type Props = {
   prevPagePath: string,
@@ -23,13 +23,13 @@ const Pagination = ({
   hasPrevPage
 }: Props) => {
   const prevClassName = cx({
-    'pagination__prev-link': true,
-    'pagination__prev-link--disable': !hasPrevPage
+    'pagination__prevLink': true,
+    'pagination__prevLinkDisable': !hasPrevPage
   });
 
   const nextClassName = cx({
-    'pagination__next-link': true,
-    'pagination__next-link--disable': !hasNextPage
+    'pagination__nextLink': true,
+    'pagination__nextLinkDisable': !hasNextPage
   });
 
   return (

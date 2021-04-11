@@ -2,7 +2,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import type { Node as ReactNode } from 'react';
-import styles from './Layout.module.scss';
+import * as styles from './Layout.module.scss';
 
 type Props = {
   children: ReactNode,
