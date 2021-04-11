@@ -18,7 +18,7 @@ fbCommentUrl: none
 
 Normally, with BigQuery as a data source of Data Studio, it’s should be:
 
-![](../../media/2020/data-studio-spreadsheet/data-studio-bigquery.svg)
+![](/media/2020/data-studio-spreadsheet/data-studio-bigquery.svg)
 
 The problems:
 
@@ -30,25 +30,25 @@ The problems:
 
 With the Sheets data connector for BigQuery, you can cache the calculated data for Data Studio. Then, use Data Studio connects to that sheet to reduce the time load and avoid pushing queries to BigQuery, and Spreadsheet is free.
 
-![](../../media/2020/data-studio-spreadsheet/caching-with-spreadsheet.png)
+![](/media/2020/data-studio-spreadsheet/caching-with-spreadsheet.png)
 
 # Sheets data connector for BigQuery
 
 1. Google Sheets
 
-    ![](../../media/2020/data-studio-spreadsheet/howto-step-1.png)
+    ![](/media/2020/data-studio-spreadsheet/howto-step-1.png)
 
 2. Choose Billing Project
 
-    ![](../../media/2020/data-studio-spreadsheet/howto-step-2.png)
+    ![](/media/2020/data-studio-spreadsheet/howto-step-2.png)
 
 3. Write a Query
 
-    ![](../../media/2020/data-studio-spreadsheet/howto-step-3.png)
+    ![](/media/2020/data-studio-spreadsheet/howto-step-3.png)
 
 4. Refresh Manually
 
-    ![](../../media/2020/data-studio-spreadsheet/howto-step-4.png)
+    ![](/media/2020/data-studio-spreadsheet/howto-step-4.png)
 
 5. Schedule automatic updates: You'll be able to use tools like [Apps Script](https://developers.google.com/apps-script/) and [the macro recorder](https://www.blog.google/products/g-suite/think-macro-record-actions-google-sheets-skip-repetitive-work/) to schedule automatic updates to the connected BigQuery data.
 

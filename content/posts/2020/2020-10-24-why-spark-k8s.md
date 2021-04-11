@@ -29,7 +29,7 @@ Có một số lý do bạn bạn nên triển khai Apache Spark trên Kubernete
 
 Kubernetes đã trở thành native option cho Spark resource manager kể từ version 2.3 (thay vì Hadoop Yarn, Apache Mesos như trước). Trang tài liệu của Apache Spark có hướng dẫn rất đầy đủ các cài đặt để chạy Spark trên Kubernetes: https://spark.apache.org/docs/latest/running-on-kubernetes.html
 
-![spark-submit can be directly used to submit a Spark application to a Kubernetes cluster](/../../media/2020/why-spark-k8s/k8s-cluster-mode.png)
+![spark-submit can be directly used to submit a Spark application to a Kubernetes cluster](/media/2020/why-spark-k8s/k8s-cluster-mode.png)
 
 Spark sẽ tạo một Spark driver bằng một [Kubernetes pod](https://kubernetes.io/docs/concepts/workloads/pods/pod/).
 
@@ -48,7 +48,7 @@ Chạy Spark trên Kubernetes dưới dạng các pod container, ta tận dụng
 
 Tận dụng monitoring và logging của Kubernetes: Kubernetes rất mạnh trong việc monitoring các pod, service, node. Bạn có thể dễ dàng xuất log hoặc metrics ra một hệ thống khác như Graylog, [Elasticsearch](https://kubernetes.io/docs/tasks/debug-application-cluster/logging-elasticsearch-kibana/), [Stackdriver](https://kubernetes.io/docs/tasks/debug-application-cluster/logging-stackdriver/), [Prometheus](https://prometheus.io/), Statd ... bằng cách cài thêm 1 pod logging agent hoặc thêm 1 sidecar container để export.
 
-![Monitoring và Logging](/../../media/2020/why-spark-k8s/logging-with-streaming-sidecar.png)
+![Monitoring và Logging](/media/2020/why-spark-k8s/logging-with-streaming-sidecar.png)
 
 Tham khảo thêm:
 

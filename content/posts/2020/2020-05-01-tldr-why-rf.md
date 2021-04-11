@@ -18,7 +18,7 @@ Neural networks đã chứng tỏ rằng nó hiệu quả hơn một số thuậ
 
 Điểm khác biệt giữa Random Forest và Neural Networks là Random Forest sử dụng công nghệ của Machine Learning, Neural Networks thì lại dành cho Deep Learning.
 
-![](../../media/2020/why-rf/nn-rf.svg)
+![](/media/2020/why-rf/nn-rf.svg)
 
 
 # Tại sao nên sử dụng Random Forest
@@ -34,7 +34,7 @@ Neural networks đã chứng tỏ rằng nó hiệu quả hơn một số thuậ
 - Nếu bạn giàu, có nhiều máy, không cần tính giải thích chỉ cần kết quả, hãy sử dụng Neural Networks
 - Nếu bạn cần tính giải thích của các biến số, dễ dàng tinh chỉnh, hãy sử dụng Random Forest.
 
-![](../../media/2020/why-rf/meme.jpeg)
+![](/media/2020/why-rf/meme.jpeg)
 
 
 # References
