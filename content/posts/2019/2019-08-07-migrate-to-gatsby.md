@@ -20,7 +20,7 @@ Nhìn chung blogger khá ổn, vì mình cực kì yên tâm và luôn uptime 99
 Từ trước đến nay blogger đã trải qua vài lần nâng cấp, nhưng vẫn còn khá nhiều thiếu xót khiến nó không còn là đối thủ của các nền tảng khác như Medium, Ghost, Wordpress, ... Hai điểm khiến mình khá không hài lòng đó là: *(1) editor cũ kỹ, thiếu đi công cụ chèn code* và *(2) hệ thống theme XML cũ*.
 
 
-![](../../media/2019/blogger_old_editor.png)
+![](/media/2019/blogger_old_editor.png)
 Với editor của blogger, mình muốn chèn coding highlight phải bật qua chế độ HTML, sau đó chèn code trong tag `<pre class="prettyprint">...</pre>` sau đó sử dụng [code-prettify](https://github.com/google/code-prettify) để hiển thị bên ngoài.
 
 
@@ -49,7 +49,7 @@ Mình mất 1 ngày migrate toàn bộ sang nền tảng mới mà vẫn đảm 
 Mình thực hiện các bước sau: 
 
 - Export blog cũ: Vào Blogger **Settings** > **Other** > **Content (pages, posts & comments)**
-    ![](../../media/2019/blogger_export.png)
+    ![](/media/2019/blogger_export.png)
 
 - Blogger sẽ xuất toàn bộ bài viết thành một file xml **blog-08-07-2019.xml**
 
@@ -66,7 +66,7 @@ Mình thực hiện các bước sau:
 - Mình được một folder chứa các bài viết dạng html, tiếp tục sử dụng `h2m` để convert sang markdown. Các bạn có thể tham khảo thêm ở bài viết này: https://blog.abhi.host/blog/2017/09/29/Migrate-Blog-to-Jekyll/
 
 - Cuối cùng được toàn bộ bài viết dưới dạng Markdown: 
-    ![](../../media/2019/blogger_export_md.png)
+    ![](/media/2019/blogger_export_md.png)
 
 - Với từng bài mình tinh chỉnh thêm 1 ít để phù hợp với Gatsby, như set giá trị `slug` từ `blogger_orig_url` lúc export ra, để giữ nguyên url của từng bài viết. Thêm các thuộc tính khác như `category`, `tag`, ... chỉnh sửa lại các bài viết cũ... Mọi thứ có thể làm dễ dàng thông qua công cụ *Find and Replace* của VSCode.
     ```markdown
@@ -76,11 +76,11 @@ Mình thực hiện các bước sau:
     ```
 
 - Đưa mọi thứ lên Github, setup Netlify để deploy, mọi thứ đơn giản chỉ mất 5 phút. Mỗi lần cập nhật git thì Netlify cũng tự động build lại luôn, khá tiện lợi. 
-    ![](../../media/2019/blogger_setup_netlify.png)
+    ![](/media/2019/blogger_setup_netlify.png)
 
 - Sau khi deploy, trỏ DNS domain về Netlify, mình dùng Cloudflare nên việc này cũng hết sức nhanh chóng.
 
-    ![](../../media/2019/new_blog_gatsby.png)
+    ![](/media/2019/new_blog_gatsby.png)
 
 # Hiệu năng
 
@@ -88,12 +88,12 @@ Blog bây giờ đã có load nhanh hơn, mặc dù mình chưa tiến hành t�
 
 Mình đo đạc với công cụ [Web.dev/Measure](https://web.dev/measure) của Google.
 
-![](../../media/2019/new_blog_perf.png)
+![](/media/2019/new_blog_perf.png)
 
 Với 100 điểm performance và Best Practices. Xem report tại [đây](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://duyet.netlify.com#performance)
 
 
 Ngoài ra giờ đây mình có thể viết bài bằng Markdown trên `VSCode`, cực kỳ nhanh chóng và chuẩn xác.
 
-![](../../media/2019/new_editor_vscode.png)
+![](/media/2019/new_editor_vscode.png)
 

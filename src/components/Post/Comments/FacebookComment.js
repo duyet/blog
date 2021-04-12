@@ -2,7 +2,7 @@ import React from 'react';
 import {
   FacebookProvider, Comments, CommentsCount, Initialize
 } from 'react-facebook';
-import styles from './FacebookComment.module.scss';
+import * as styles from './FacebookComment.module.scss';
 
 export default class ReactCommento extends React.PureComponent {
   state = { show: false };
@@ -37,8 +37,8 @@ export default class ReactCommento extends React.PureComponent {
 
     return (
       <FacebookProvider appId={appId}>
-        <div className={styles['fbcomment-container']}>
-          <div className={styles['fbcomment-container__message']}>Facebook Comment trên duyet.net sẽ ngưng hoạt động từ 2019-10, vui lòng sử dụng Commento bên dưới</div>
+        <div className={styles['fbcommentContainer']}>
+          <div className={styles['fbcommentContainer__message']}>Facebook Comment trên duyet.net sẽ ngưng hoạt động từ 2019-10, vui lòng sử dụng Commento bên dưới</div>
           {fbCommentUrl
             ? <Comments href={fbCommentUrl} numPosts={100} mobile={true} />
             : (

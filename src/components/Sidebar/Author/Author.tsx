@@ -3,7 +3,7 @@ import React from 'react';
 import { withPrefix, Link } from 'gatsby';
 import { gtagTrack } from '../../../utils';
 
-import styles from './Author.module.scss';
+import * as styles from './Author.module.scss';
 
 type Props = {
   author: {
@@ -11,7 +11,7 @@ type Props = {
     bio: string,
     photo: string
   },
-  isIndex: ?boolean
+  isIndex: boolean
 };
 
 const Author = ({ author, isIndex }: Props) => (
@@ -28,11 +28,11 @@ const Author = ({ author, isIndex }: Props) => (
 
     {isIndex === true ? (
       <h1 className={styles['author__title']} onClick={() => gtagTrack('Sidebar_Author', 'click', 'AuthorName_Index')}>
-        <Link className={styles['author__title-link']} to="/">{author.name}</Link>
+        <Link className={styles['author__titleLink']} to="/">{author.name}</Link>
       </h1>
     ) : (
         <h2 className={styles['author__title']} onClick={() => gtagTrack('Sidebar_Author', 'click', 'AuthorName_NotIndex')}>
-          <Link className={styles['author__title-link']} to="/">{author.name}</Link>
+          <Link className={styles['author__titleLink']} to="/">{author.name}</Link>
         </h2>
     )}
     <p className={styles['author__subtitle']}

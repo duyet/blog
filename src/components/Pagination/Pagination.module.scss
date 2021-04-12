@@ -9,7 +9,7 @@
     width: 50%;
     text-align: left;
 
-    &-link {
+    &Link {
       color: $color-secondary;
       font-size: 26px;
       font-weight: bold;
@@ -19,7 +19,7 @@
         color: $color-primary;
       }
 
-      &--disable {
+      &Disable {
         pointer-events: none;
         color: lighten($color-gray, 20%);
       }
@@ -32,7 +32,7 @@
     width: 50%;
     text-align: right;
 
-    &-link {
+    &Link {
       color: $color-secondary;
       font-size: 26px;
       font-weight: bold;
