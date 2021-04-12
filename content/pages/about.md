@@ -24,7 +24,7 @@ Embedding, ...).
 Skills & stacks: [Python](https://github.com/duyet?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=python), [Javascript](https://github.com/duyet?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=javascript), Apache Spark, [Airflow](/tag/airflow/), AWS, GCP.
 
 
-[[CV.pdf](https://me.duyet.net/resume/duyet.resume.pdf)] [[github](https://github.com/duyet)] 
+[[CV.pdf](https://cv.duyet.net)] [[github](https://github.com/duyet)] 
 
 You can see more of my projects at [Github](https://github.com/duyet).
 
