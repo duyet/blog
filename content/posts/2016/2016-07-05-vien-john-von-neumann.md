@@ -47,7 +47,7 @@ Không phải là một câu so sánh, nhưng rõ ràng bản thân có thể th
 
 ![](https://1.bp.blogspot.com/-cjjmZvx9Ero/V3r8-IB4-hI/AAAAAAAAZJc/I41IW0exa6ciW7243U9YI8k-_DPiJFmIACK4B/s1600/13613638_1619594675020572_5800127078012288742_o.jpg)
 
-![](https://4.bp.blogspot.com/-vdylnK1G_Bg/V3r89duKGUI/AAAAAAAAZJU/ShHewCpHwksGNVWOMF134PdGQOc8Ih2XACK4B/s320/13580642_1619594615020578_4132836646932798294_o.jpg)
+![](https://4.bp.blogspot.com/-vdylnK1G_Bg/V3r89duKGUI/AAAAAAAAZJU/ShHewCpHwksGNVWOMF134PdGQOc8Ih2XACK4B/s1600/13580642_1619594615020578_4132836646932798294_o.jpg)
 
 Nhưng rõ ràng cái quan trọng có thể thấy được sau buổi phản biện ấy tinh thần động viên, tinh thần thúc đẩy học tập, thí sinh sẽ hiểu được mình còn thiếu cái gì và trao dồi sau. 
 
