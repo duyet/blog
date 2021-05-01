@@ -6,7 +6,6 @@ author: Van-Duyet Le
 category: Web
 tags:
   - Web
-
 thumbnail: /static/media/2021/05/migrate-to-cloudflare-pages-0.png
 slug: /2021/05/migrate-to-cloudflare-pages.html
 draft: false
@@ -88,11 +87,3 @@ I've migrated my blog from Netlify to Cloudflare Pages, it's very simple and qui
 Cloudflare Pages is a formidable competitor to other alternatives. 
 Supporting static sites is just the beginning of the journey for Cloudflare Pages. 
 Let's see what happens to the Cloudflare Pages in the near future.
-
-
-
-
-
-
-
-
