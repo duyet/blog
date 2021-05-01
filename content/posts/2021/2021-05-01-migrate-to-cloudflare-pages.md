@@ -6,7 +6,7 @@ author: Van-Duyet Le
 category: Web
 tags:
   - Web
-thumbnail: /media/2021/05/migrate-to-cloudflare-pages-0.png
+thumbnail: ../../../static/media/2021/05/migrate-to-cloudflare-pages-0.png
 slug: /2021/05/migrate-to-cloudflare-pages.html
 draft: false
 description: Cloudflare just released the Pages, with the most generous free tier, it is all set to compete with Netlify on this front. I just to try it out in this blog.
