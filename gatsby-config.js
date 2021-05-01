@@ -111,7 +111,7 @@ module.exports = {
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
-                include: ['thumbnail']
+              include: ['thumbnail']
             }
           },
           {
@@ -124,7 +124,9 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 1200,
-              withWebp: true
+              withWebp: true,
+              quality: 80,
+              showCaptions: true
             }
           },
           {

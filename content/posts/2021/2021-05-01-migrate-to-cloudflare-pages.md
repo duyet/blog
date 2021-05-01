@@ -14,7 +14,7 @@ fbCommentUrl: none
 ---
 
 This blog uses Netlify, it's very fast, Netlify is the first choice for most developers recently.
-Cloudflare just released the Pages, with the most generous free tier, it is all set to compete with Netlify on this front. 
+Cloudflare just released the Pages, with the most generous free tier, it is all set to compete with Netlify on this front.
 And, I not sure but it can be the next number 1 choice to host JAMstack sites. I just to try it out in this blog.
 
 ![](/media/2021/05/migrate-to-cloudflare-pages-0.png)
@@ -44,15 +44,15 @@ Most of the features are almost similar to that of Netlify, but the Cloudflare P
 
 # Migrate to Cloudflare Pages from Netlify
 
-Similar with Netlify, the Pages need your build command and build directory. 
-Following the [Getting started](https://developers.cloudflare.com/pages/getting-started), 
-it will show you how to add the GitHub project to Cloudflare Pages. 
+Similar with Netlify, the Pages need your build command and build directory.
+Following the [Getting started](https://developers.cloudflare.com/pages/getting-started),
+it will show you how to add the GitHub project to Cloudflare Pages.
 
-Firstly, you will be ask to sign in to Cloudflare Pages and connect to Github. 
+Firstly, you will be ask to sign in to Cloudflare Pages and connect to Github.
 
-Signing in with GitHub allows Cloudflare Pages to deploy your projects, update your GitHub PRs 
+Signing in with GitHub allows Cloudflare Pages to deploy your projects, update your GitHub PRs
 with preview deployments, and more. When you sign in, you'll also have the option of specifying
-any GitHub organizations that you'd like to connect to Cloudflare Pages. 
+any GitHub organizations that you'd like to connect to Cloudflare Pages.
 
 After that, you can select a GitHub repository to be deployed, follow the steps like the screenshot below:
 
@@ -65,7 +65,7 @@ After that, you can select a GitHub repository to be deployed, follow the steps 
 ## First deploy
 
 Once I've finished setting your build configuration, Cloudflare Pages will begin deploying my site.
-The build logs will output as Cloudflare Pages installs your project dependencies, build the project, 
+The build logs will output as Cloudflare Pages installs your project dependencies, build the project,
 and deploys it to Cloudflare's global network, the same with Netlify.
 
 ![](/media/2021/05/migrate-to-cloudflare-pages-4.png)
@@ -82,8 +82,8 @@ I quickly get the insights report in a few minutes, how impressive it is.
 
 ![](/media/2021/05/migrate-to-cloudflare-pages-6.png)
 
-I've migrated my blog from Netlify to Cloudflare Pages, it's very simple and quickly. 
+I've migrated my blog from Netlify to Cloudflare Pages, it's very simple and quickly.
 
-Cloudflare Pages is a formidable competitor to other alternatives. 
-Supporting static sites is just the beginning of the journey for Cloudflare Pages. 
+Cloudflare Pages is a formidable competitor to other alternatives.
+Supporting static sites is just the beginning of the journey for Cloudflare Pages.
 Let's see what happens to the Cloudflare Pages in the near future.
