@@ -19,6 +19,7 @@ const Layout = ({ children, title, description }: Props) => (
       <meta property="og:site_name" content={title} />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={title} />
+      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1fc269287fc7476cacbe4cb0b3267201"}'></script>
     </Helmet>
     {children}
   </div>
