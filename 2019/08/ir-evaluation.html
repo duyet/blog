@@ -48,7 +48,7 @@
         }
       }
     })
-  </script><script>window.dataLayer = window.dataLayer || [];window.dataLayer.push({"platform":"gatsby"}); (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer', 'GTM-PT3ZDS3');</script><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="icon" href="/favicon-32x32.png" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png"/><title data-react-helmet="true">Đánh giá hệ thống Information Retrieval - Tôi là Duyệt</title><meta data-react-helmet="true" name="description" content="Trong bài này chúng ta sẽ tìm hiểu về cách đánh giá các hệ thống Information Retrieval, thách thức của việc đánh giá và các độ đo phổ biến như Precision/Accuracy, Recall, R-precision, F-measure, MAP, ..."/><meta data-react-helmet="true" property="og:site_name" content="Đánh giá hệ thống Information Retrieval - Tôi là Duyệt"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:title" content="Đánh giá hệ thống Information Retrieval - Tôi là Duyệt"/><script data-react-helmet="true" defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;1fc269287fc7476cacbe4cb0b3267201&quot;}"></script><link as="script" rel="preload" href="/webpack-runtime-5ace8603bfd4358045e5.js"/><link as="script" rel="preload" href="/framework-4723e9af4ac82b4c2cc0.js"/><link as="script" rel="preload" href="/app-4d213ed119746fd39e9b.js"/><link as="script" rel="preload" href="/c39ba592b6b5047a9857340a927d4f5e647ac87b-44c41ffef44014fc7003.js"/><link as="script" rel="preload" href="/70ba16277e1f8ff187315c677a20c57a8b12f94a-022dbbcede35bb5a0fc4.js"/><link as="script" rel="preload" href="/component---src-templates-post-template-tsx-9e790bc04958d0d331fb.js"/><link as="fetch" rel="preload" href="/page-data/2019/08/ir-evaluation.html/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/251939775.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2672868365.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/401334301.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PT3ZDS3" height="0" width="0" style="display: none; visibility: hidden" aria-hidden="true"></iframe></noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="Layout-module--layout--36KWw"><div><a class="Post-module--post__homeButton--2LqYy" href="/">Tôi là Duyệt</a><div><div class="Content-module--content--3dNJJ"><h1 class="Content-module--content__title--2bVSe">Đánh giá hệ thống Information Retrieval</h1><div class="Content-module--content__body--1YAIr"><p>Trong bài này chúng ta sẽ tìm hiểu về cách đánh giá các hệ thống Information Retrieval, thách thức của việc đánh giá và các kỹ thuật như Precision/Accuracy, Recall, R-precision, F-measure, MAP, …</p>
+  </script><script>window.dataLayer = window.dataLayer || [];window.dataLayer.push({"platform":"gatsby"}); (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer', 'GTM-PT3ZDS3');</script><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="icon" href="/favicon-32x32.png" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png"/><title data-react-helmet="true">Đánh giá hệ thống Information Retrieval - Tôi là Duyệt</title><meta data-react-helmet="true" name="description" content="Trong bài này chúng ta sẽ tìm hiểu về cách đánh giá các hệ thống Information Retrieval, thách thức của việc đánh giá và các độ đo phổ biến như Precision/Accuracy, Recall, R-precision, F-measure, MAP, ..."/><meta data-react-helmet="true" property="og:site_name" content="Đánh giá hệ thống Information Retrieval - Tôi là Duyệt"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:title" content="Đánh giá hệ thống Information Retrieval - Tôi là Duyệt"/><script data-react-helmet="true" defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;1fc269287fc7476cacbe4cb0b3267201&quot;}"></script><link as="script" rel="preload" href="/webpack-runtime-5ace8603bfd4358045e5.js"/><link as="script" rel="preload" href="/framework-4723e9af4ac82b4c2cc0.js"/><link as="script" rel="preload" href="/app-6db921ee60c8bdab15c5.js"/><link as="script" rel="preload" href="/c39ba592b6b5047a9857340a927d4f5e647ac87b-44c41ffef44014fc7003.js"/><link as="script" rel="preload" href="/70ba16277e1f8ff187315c677a20c57a8b12f94a-022dbbcede35bb5a0fc4.js"/><link as="script" rel="preload" href="/component---src-templates-post-template-tsx-9e790bc04958d0d331fb.js"/><link as="fetch" rel="preload" href="/page-data/2019/08/ir-evaluation.html/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/251939775.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2672868365.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/401334301.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PT3ZDS3" height="0" width="0" style="display: none; visibility: hidden" aria-hidden="true"></iframe></noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="Layout-module--layout--36KWw"><div><a class="Post-module--post__homeButton--2LqYy" href="/">Tôi là Duyệt</a><div><div class="Content-module--content--3dNJJ"><h1 class="Content-module--content__title--2bVSe">Đánh giá hệ thống Information Retrieval</h1><div class="Content-module--content__body--1YAIr"><p>Trong bài này chúng ta sẽ tìm hiểu về cách đánh giá các hệ thống Information Retrieval, thách thức của việc đánh giá và các kỹ thuật như Precision/Accuracy, Recall, R-precision, F-measure, MAP, …</p>
 <hr>
 <h3 id="information-retrieval" style="position:relative;"><a href="#information-retrieval" aria-label="information retrieval permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Information Retrieval</h3>
 <ul>
@@ -72,13 +72,14 @@
 </ul>
 </li>
 </ol>
-<p><span
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; "
     >
       <a
     class="gatsby-resp-image-link"
-    href="/static/28d501c6c9cefdbb33b03964f440bec7/0d98f/IR-evaluate.png"
+    href="/static/28d501c6c9cefdbb33b03964f440bec7/1c412/IR-evaluate.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -89,24 +90,24 @@
   ></span>
   <picture>
           <source
-              srcset="/static/28d501c6c9cefdbb33b03964f440bec7/c85cb/IR-evaluate.webp 300w,
-/static/28d501c6c9cefdbb33b03964f440bec7/e88ff/IR-evaluate.webp 600w,
-/static/28d501c6c9cefdbb33b03964f440bec7/92f8c/IR-evaluate.webp 1200w,
-/static/28d501c6c9cefdbb33b03964f440bec7/63399/IR-evaluate.webp 1276w"
+              srcset="/static/28d501c6c9cefdbb33b03964f440bec7/e93cc/IR-evaluate.webp 300w,
+/static/28d501c6c9cefdbb33b03964f440bec7/b0544/IR-evaluate.webp 600w,
+/static/28d501c6c9cefdbb33b03964f440bec7/68fc1/IR-evaluate.webp 1200w,
+/static/28d501c6c9cefdbb33b03964f440bec7/61c51/IR-evaluate.webp 1276w"
               sizes="(max-width: 1200px) 100vw, 1200px"
               type="image/webp"
             />
           <source
-            srcset="/static/28d501c6c9cefdbb33b03964f440bec7/5a46d/IR-evaluate.png 300w,
-/static/28d501c6c9cefdbb33b03964f440bec7/0a47e/IR-evaluate.png 600w,
-/static/28d501c6c9cefdbb33b03964f440bec7/c1b63/IR-evaluate.png 1200w,
-/static/28d501c6c9cefdbb33b03964f440bec7/0d98f/IR-evaluate.png 1276w"
+            srcset="/static/28d501c6c9cefdbb33b03964f440bec7/eed55/IR-evaluate.png 300w,
+/static/28d501c6c9cefdbb33b03964f440bec7/7491f/IR-evaluate.png 600w,
+/static/28d501c6c9cefdbb33b03964f440bec7/8537d/IR-evaluate.png 1200w,
+/static/28d501c6c9cefdbb33b03964f440bec7/1c412/IR-evaluate.png 1276w"
             sizes="(max-width: 1200px) 100vw, 1200px"
             type="image/png"
           />
           <img
             class="gatsby-resp-image-image"
-            src="/static/28d501c6c9cefdbb33b03964f440bec7/c1b63/IR-evaluate.png"
+            src="/static/28d501c6c9cefdbb33b03964f440bec7/8537d/IR-evaluate.png"
             alt="Làm thế nào để đánh giá kết quả trả về"
             title="Làm thế nào để đánh giá kết quả trả về"
             loading="lazy"
@@ -114,7 +115,9 @@
           />
         </picture>
   </a>
-    </span></p>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">Làm thế nào để đánh giá kết quả trả về</figcaption>
+  </figure></p>
 <h1 id="1-khó-khăn-thách-thức-khi-đánh-giá" style="position:relative;"><a href="#1-kh%C3%B3-kh%C4%83n-th%C3%A1ch-th%E1%BB%A9c-khi-%C4%91%C3%A1nh-gi%C3%A1" aria-label="1 khó khăn thách thức khi đánh giá permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Khó khăn, thách thức khi đánh giá</h1>
 <p>Sự đánh giá một hệ thống tìm kiếm thông tin IR gặp khó khăn, vì khi đánh giá ở <strong>khía cạnh phù hợp</strong>, với góc nhìn của con người thì:</p>
 <ul>
@@ -131,13 +134,14 @@
 <li>Với mỗi câu query, ta có tập các docs được đánh dấu là phù hợp với query đó, được gán nhãn bằng tay bởi chuyên gia.</li>
 </ol>
 <p>Để có kết quả khách quan, ta cần có nhiều chuyên gia khác nhau đánh giá cho cùng một query.</p>
-<p><span
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; "
     >
       <a
     class="gatsby-resp-image-link"
-    href="/static/4831be9ed2d991e8b93b7f31a5bd572f/d7ceb/Human-Labeled-Corpora.png"
+    href="/static/4831be9ed2d991e8b93b7f31a5bd572f/38f79/Human-Labeled-Corpora.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -148,24 +152,24 @@
   ></span>
   <picture>
           <source
-              srcset="/static/4831be9ed2d991e8b93b7f31a5bd572f/c85cb/Human-Labeled-Corpora.webp 300w,
-/static/4831be9ed2d991e8b93b7f31a5bd572f/e88ff/Human-Labeled-Corpora.webp 600w,
-/static/4831be9ed2d991e8b93b7f31a5bd572f/92f8c/Human-Labeled-Corpora.webp 1200w,
-/static/4831be9ed2d991e8b93b7f31a5bd572f/07a88/Human-Labeled-Corpora.webp 1446w"
+              srcset="/static/4831be9ed2d991e8b93b7f31a5bd572f/e93cc/Human-Labeled-Corpora.webp 300w,
+/static/4831be9ed2d991e8b93b7f31a5bd572f/b0544/Human-Labeled-Corpora.webp 600w,
+/static/4831be9ed2d991e8b93b7f31a5bd572f/68fc1/Human-Labeled-Corpora.webp 1200w,
+/static/4831be9ed2d991e8b93b7f31a5bd572f/8d934/Human-Labeled-Corpora.webp 1446w"
               sizes="(max-width: 1200px) 100vw, 1200px"
               type="image/webp"
             />
           <source
-            srcset="/static/4831be9ed2d991e8b93b7f31a5bd572f/5a46d/Human-Labeled-Corpora.png 300w,
-/static/4831be9ed2d991e8b93b7f31a5bd572f/0a47e/Human-Labeled-Corpora.png 600w,
-/static/4831be9ed2d991e8b93b7f31a5bd572f/c1b63/Human-Labeled-Corpora.png 1200w,
-/static/4831be9ed2d991e8b93b7f31a5bd572f/d7ceb/Human-Labeled-Corpora.png 1446w"
+            srcset="/static/4831be9ed2d991e8b93b7f31a5bd572f/eed55/Human-Labeled-Corpora.png 300w,
+/static/4831be9ed2d991e8b93b7f31a5bd572f/7491f/Human-Labeled-Corpora.png 600w,
+/static/4831be9ed2d991e8b93b7f31a5bd572f/8537d/Human-Labeled-Corpora.png 1200w,
+/static/4831be9ed2d991e8b93b7f31a5bd572f/38f79/Human-Labeled-Corpora.png 1446w"
             sizes="(max-width: 1200px) 100vw, 1200px"
             type="image/png"
           />
           <img
             class="gatsby-resp-image-image"
-            src="/static/4831be9ed2d991e8b93b7f31a5bd572f/c1b63/Human-Labeled-Corpora.png"
+            src="/static/4831be9ed2d991e8b93b7f31a5bd572f/8537d/Human-Labeled-Corpora.png"
             alt="Human Labeled Corpora"
             title="Human Labeled Corpora"
             loading="lazy"
@@ -173,7 +177,9 @@
           />
         </picture>
   </a>
-    </span></p>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">Human Labeled Corpora</figcaption>
+  </figure></p>
 <h1 id="3-chỉ-số-đánh-giá" style="position:relative;"><a href="#3-ch%E1%BB%89-s%E1%BB%91-%C4%91%C3%A1nh-gi%C3%A1" aria-label="3 chỉ số đánh giá permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Chỉ số đánh giá</h1>
 <h2 id="a-precision--recall" style="position:relative;"><a href="#a-precision--recall" aria-label="a precision  recall permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>a. Precision &#x26; Recall</h2>
 <p>Precision &#x26; Recall là 2 độ đo phổ biến, nhất là trong các hệ thống phân lớp (binary classification), information retrieval, …</p>
@@ -185,13 +191,14 @@
 <li><strong>Recall</strong>: độ phủ</li>
 </ul>
 <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mstyle scriptlevel="0" displaystyle="true"><mtext>precision</mtext><mo>=</mo><mfrac><mrow><mo stretchy="false">{</mo><mrow><mtext>Tổng s</mtext><mover accent="true"><mover accent="true"><mtext>o</mtext><mo>ˆ</mo></mover><mo>ˊ</mo></mover><mtext> k</mtext><mover accent="true"><mover accent="true"><mtext>e</mtext><mo>ˆ</mo></mover><mo>ˊ</mo></mover><mtext>t quả trả v</mtext><mover accent="true"><mover accent="true"><mtext>e</mtext><mo>ˆ</mo></mover><mo>ˋ</mo></mover><mtext> đ</mtext><mover accent="true"><mtext>u</mtext><mo>ˊ</mo></mover><mtext>ng</mtext></mrow><mo stretchy="false">}</mo></mrow><mrow><mi mathvariant="normal">∣</mi><mo stretchy="false">{</mo><mrow><mtext>Tổng s</mtext><mover accent="true"><mover accent="true"><mtext>o</mtext><mo>ˆ</mo></mover><mo>ˊ</mo></mover><mtext> k</mtext><mover accent="true"><mover accent="true"><mtext>e</mtext><mo>ˆ</mo></mover><mo>ˊ</mo></mover><mtext>t quả đ</mtext><mover accent="true"><mtext>u</mtext><mo>ˊ</mo></mover><mtext>ng</mtext></mrow><mo stretchy="false">}</mo><mi mathvariant="normal">∣</mi></mrow></mfrac></mstyle></mrow><annotation encoding="application/x-tex">{\displaystyle {\text{precision}}={\frac {\{{\text{Tổng số kết quả trả về đúng}}\}}{|\{{\text{Tổng số kết quả đúng}}\}|}}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.73276em;vertical-align:-1.09788em;"></span><span class="mord"><span class="mord"><span class="mord text"><span class="mord">precision</span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6348799999999999em;"><span style="top:-2.15212em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">∣</span><span class="mopen">{</span><span class="mord"><span class="mord text"><span class="mord">Tổng s</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9578799999999998em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord">o</span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˆ</span></span></span></span></span></span></span></span><span style="top:-3.26344em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˊ</span></span></span></span></span></span></span><span class="mord"> k</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9578799999999998em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord">e</span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˆ</span></span></span></span></span></span></span></span><span style="top:-3.26344em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˊ</span></span></span></span></span></span></span><span class="mord">t quả </span><span class="mord latin_fallback">đ</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord">u</span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˊ</span></span></span></span></span></span></span><span class="mord">ng</span></span></span><span class="mclose">}</span><span class="mord">∣</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mopen">{</span><span class="mord"><span class="mord text"><span class="mord">Tổng s</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9578799999999998em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord">o</span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˆ</span></span></span></span></span></span></span></span><span style="top:-3.26344em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˊ</span></span></span></span></span></span></span><span class="mord"> k</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9578799999999998em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord">e</span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˆ</span></span></span></span></span></span></span></span><span style="top:-3.26344em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˊ</span></span></span></span></span></span></span><span class="mord">t quả trả v</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9578799999999998em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord">e</span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˆ</span></span></span></span></span></span></span></span><span style="top:-3.26344em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˋ</span></span></span></span></span></span></span><span class="mord"> </span><span class="mord latin_fallback">đ</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord">u</span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˊ</span></span></span></span></span></span></span><span class="mord">ng</span></span></span><span class="mclose">}</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.09788em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span></span>
-<p><span
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1152px; "
     >
       <a
     class="gatsby-resp-image-link"
-    href="/static/13535b3a856a963fa88a00a1b7765cf5/4ad3a/precision-recall.png"
+    href="/static/13535b3a856a963fa88a00a1b7765cf5/8dd4b/precision-recall.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -202,22 +209,22 @@
   ></span>
   <picture>
           <source
-              srcset="/static/13535b3a856a963fa88a00a1b7765cf5/c85cb/precision-recall.webp 300w,
-/static/13535b3a856a963fa88a00a1b7765cf5/e88ff/precision-recall.webp 600w,
-/static/13535b3a856a963fa88a00a1b7765cf5/b2d4b/precision-recall.webp 1152w"
+              srcset="/static/13535b3a856a963fa88a00a1b7765cf5/e93cc/precision-recall.webp 300w,
+/static/13535b3a856a963fa88a00a1b7765cf5/b0544/precision-recall.webp 600w,
+/static/13535b3a856a963fa88a00a1b7765cf5/c2ad5/precision-recall.webp 1152w"
               sizes="(max-width: 1152px) 100vw, 1152px"
               type="image/webp"
             />
           <source
-            srcset="/static/13535b3a856a963fa88a00a1b7765cf5/5a46d/precision-recall.png 300w,
-/static/13535b3a856a963fa88a00a1b7765cf5/0a47e/precision-recall.png 600w,
-/static/13535b3a856a963fa88a00a1b7765cf5/4ad3a/precision-recall.png 1152w"
+            srcset="/static/13535b3a856a963fa88a00a1b7765cf5/eed55/precision-recall.png 300w,
+/static/13535b3a856a963fa88a00a1b7765cf5/7491f/precision-recall.png 600w,
+/static/13535b3a856a963fa88a00a1b7765cf5/8dd4b/precision-recall.png 1152w"
             sizes="(max-width: 1152px) 100vw, 1152px"
             type="image/png"
           />
           <img
             class="gatsby-resp-image-image"
-            src="/static/13535b3a856a963fa88a00a1b7765cf5/4ad3a/precision-recall.png"
+            src="/static/13535b3a856a963fa88a00a1b7765cf5/8dd4b/precision-recall.png"
             alt="Trade off"
             title="Trade off"
             loading="lazy"
@@ -225,7 +232,9 @@
           />
         </picture>
   </a>
-    </span></p>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">Trade off</figcaption>
+  </figure></p>
 <p>Ví dụ, hệ thống tìm kiếm cho kết quả 30 trang, trong đó có 20 trang đúng. Nhưng thực sự trong toàn bộ hệ thống sẽ có tất cả 40 trang đúng. Vậy precision sẽ là 20/30 = 2/3, recall là 20/40 = 1/2.</p>
 <p>Tham khảo thêm:</p>
 <ul>
@@ -233,13 +242,14 @@
 <li><a href="https://towardsdatascience.com/precision-vs-recall-386cf9f89488" target="_blank" rel="nofollow noopener noreferrer">https://towardsdatascience.com/precision-vs-recall-386cf9f89488</a></li>
 </ul>
 <p>Một hệ thống tốt sẽ có sự đánh đổi giữa Precision và Recall. Thực tế cho rằng: <em>Precision giảm khi recall tăng</em></p>
-<p><span
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 904px; "
     >
       <a
     class="gatsby-resp-image-link"
-    href="/static/a171506eca770d6c72719ecaca4a301a/d9217/trade-off.png"
+    href="/static/a171506eca770d6c72719ecaca4a301a/03de4/trade-off.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -250,22 +260,22 @@
   ></span>
   <picture>
           <source
-              srcset="/static/a171506eca770d6c72719ecaca4a301a/c85cb/trade-off.webp 300w,
-/static/a171506eca770d6c72719ecaca4a301a/e88ff/trade-off.webp 600w,
-/static/a171506eca770d6c72719ecaca4a301a/82aba/trade-off.webp 904w"
+              srcset="/static/a171506eca770d6c72719ecaca4a301a/e93cc/trade-off.webp 300w,
+/static/a171506eca770d6c72719ecaca4a301a/b0544/trade-off.webp 600w,
+/static/a171506eca770d6c72719ecaca4a301a/4c141/trade-off.webp 904w"
               sizes="(max-width: 904px) 100vw, 904px"
               type="image/webp"
             />
           <source
-            srcset="/static/a171506eca770d6c72719ecaca4a301a/5a46d/trade-off.png 300w,
-/static/a171506eca770d6c72719ecaca4a301a/0a47e/trade-off.png 600w,
-/static/a171506eca770d6c72719ecaca4a301a/d9217/trade-off.png 904w"
+            srcset="/static/a171506eca770d6c72719ecaca4a301a/eed55/trade-off.png 300w,
+/static/a171506eca770d6c72719ecaca4a301a/7491f/trade-off.png 600w,
+/static/a171506eca770d6c72719ecaca4a301a/03de4/trade-off.png 904w"
             sizes="(max-width: 904px) 100vw, 904px"
             type="image/png"
           />
           <img
             class="gatsby-resp-image-image"
-            src="/static/a171506eca770d6c72719ecaca4a301a/d9217/trade-off.png"
+            src="/static/a171506eca770d6c72719ecaca4a301a/03de4/trade-off.png"
             alt="Trade off"
             title="Trade off"
             loading="lazy"
@@ -273,7 +283,9 @@
           />
         </picture>
   </a>
-    </span></p>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">Trade off</figcaption>
+  </figure></p>
 <ul>
 <li>Bạn có thể tăng recall bằng cách tăng số docs trả về.</li>
 <li>Recall là một hàm không tăng</li>
@@ -287,13 +299,14 @@
 <li>Thay đổi <strong>n</strong> ta có một dãy <strong>n</strong> cặp điểm như thế. </li>
 <li>Vẽ các cặp điểm này ta được đồ thị như sau:</li>
 </ul>
-<p><span
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 592px; "
     >
       <a
     class="gatsby-resp-image-link"
-    href="/static/e1f76d8963a1d6b57d63859cf6d81069/1b853/precision-recall-curve.png"
+    href="/static/e1f76d8963a1d6b57d63859cf6d81069/e95df/precision-recall-curve.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -304,20 +317,20 @@
   ></span>
   <picture>
           <source
-              srcset="/static/e1f76d8963a1d6b57d63859cf6d81069/c85cb/precision-recall-curve.webp 300w,
-/static/e1f76d8963a1d6b57d63859cf6d81069/0be55/precision-recall-curve.webp 592w"
+              srcset="/static/e1f76d8963a1d6b57d63859cf6d81069/e93cc/precision-recall-curve.webp 300w,
+/static/e1f76d8963a1d6b57d63859cf6d81069/c052d/precision-recall-curve.webp 592w"
               sizes="(max-width: 592px) 100vw, 592px"
               type="image/webp"
             />
           <source
-            srcset="/static/e1f76d8963a1d6b57d63859cf6d81069/5a46d/precision-recall-curve.png 300w,
-/static/e1f76d8963a1d6b57d63859cf6d81069/1b853/precision-recall-curve.png 592w"
+            srcset="/static/e1f76d8963a1d6b57d63859cf6d81069/eed55/precision-recall-curve.png 300w,
+/static/e1f76d8963a1d6b57d63859cf6d81069/e95df/precision-recall-curve.png 592w"
             sizes="(max-width: 592px) 100vw, 592px"
             type="image/png"
           />
           <img
             class="gatsby-resp-image-image"
-            src="/static/e1f76d8963a1d6b57d63859cf6d81069/1b853/precision-recall-curve.png"
+            src="/static/e1f76d8963a1d6b57d63859cf6d81069/e95df/precision-recall-curve.png"
             alt="precision-recall curve"
             title="precision-recall curve"
             loading="lazy"
@@ -325,15 +338,18 @@
           />
         </picture>
   </a>
-    </span></p>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">precision-recall curve</figcaption>
+  </figure></p>
 <p>Một số điểm đồ thị sẽ bị răng cưa như trên, ta sẽ dùng kỹ thuật interpolated curve, nối các điểm như đường màu đỏ dưới đây <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>r</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mtext>max</mtext><mrow><msup><mi>r</mi><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo>&gt;</mo><mi>r</mi></mrow></msub><mi>P</mi><mo stretchy="false">(</mo><msup><mi>r</mi><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">P(r) = \text{max}_{r&#x27; &gt; r} P(r&#x27;)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.001892em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord text"><span class="mord">max</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32797999999999994em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6828285714285715em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mrel mtight">&gt;</span><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.17737em;"><span></span></span></span></span></span></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.751892em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></p>
-<p><span
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 956px; "
     >
       <a
     class="gatsby-resp-image-link"
-    href="/static/40535c920092ee8f083a4148bfa69156/7b1dc/precision-recall-curve-interpolated.png"
+    href="/static/40535c920092ee8f083a4148bfa69156/ab07e/precision-recall-curve-interpolated.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -344,22 +360,22 @@
   ></span>
   <picture>
           <source
-              srcset="/static/40535c920092ee8f083a4148bfa69156/c85cb/precision-recall-curve-interpolated.webp 300w,
-/static/40535c920092ee8f083a4148bfa69156/e88ff/precision-recall-curve-interpolated.webp 600w,
-/static/40535c920092ee8f083a4148bfa69156/409e5/precision-recall-curve-interpolated.webp 956w"
+              srcset="/static/40535c920092ee8f083a4148bfa69156/e93cc/precision-recall-curve-interpolated.webp 300w,
+/static/40535c920092ee8f083a4148bfa69156/b0544/precision-recall-curve-interpolated.webp 600w,
+/static/40535c920092ee8f083a4148bfa69156/dbaa2/precision-recall-curve-interpolated.webp 956w"
               sizes="(max-width: 956px) 100vw, 956px"
               type="image/webp"
             />
           <source
-            srcset="/static/40535c920092ee8f083a4148bfa69156/5a46d/precision-recall-curve-interpolated.png 300w,
-/static/40535c920092ee8f083a4148bfa69156/0a47e/precision-recall-curve-interpolated.png 600w,
-/static/40535c920092ee8f083a4148bfa69156/7b1dc/precision-recall-curve-interpolated.png 956w"
+            srcset="/static/40535c920092ee8f083a4148bfa69156/eed55/precision-recall-curve-interpolated.png 300w,
+/static/40535c920092ee8f083a4148bfa69156/7491f/precision-recall-curve-interpolated.png 600w,
+/static/40535c920092ee8f083a4148bfa69156/ab07e/precision-recall-curve-interpolated.png 956w"
             sizes="(max-width: 956px) 100vw, 956px"
             type="image/png"
           />
           <img
             class="gatsby-resp-image-image"
-            src="/static/40535c920092ee8f083a4148bfa69156/7b1dc/precision-recall-curve-interpolated.png"
+            src="/static/40535c920092ee8f083a4148bfa69156/ab07e/precision-recall-curve-interpolated.png"
             alt="precision-recall curve"
             title="precision-recall curve"
             loading="lazy"
@@ -367,15 +383,18 @@
           />
         </picture>
   </a>
-    </span></p>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">precision-recall curve</figcaption>
+  </figure></p>
 <p><strong>11-point interpolated average precision</strong>: tính precision trung bình ở 11 điểm</p>
-<p><span
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1118px; "
     >
       <a
     class="gatsby-resp-image-link"
-    href="/static/ab971d17ba7ca8bea5126ec41b8fd350/0f246/11-point-precision-recall.png"
+    href="/static/ab971d17ba7ca8bea5126ec41b8fd350/60c58/11-point-precision-recall.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -386,22 +405,22 @@
   ></span>
   <picture>
           <source
-              srcset="/static/ab971d17ba7ca8bea5126ec41b8fd350/c85cb/11-point-precision-recall.webp 300w,
-/static/ab971d17ba7ca8bea5126ec41b8fd350/e88ff/11-point-precision-recall.webp 600w,
-/static/ab971d17ba7ca8bea5126ec41b8fd350/34186/11-point-precision-recall.webp 1118w"
+              srcset="/static/ab971d17ba7ca8bea5126ec41b8fd350/e93cc/11-point-precision-recall.webp 300w,
+/static/ab971d17ba7ca8bea5126ec41b8fd350/b0544/11-point-precision-recall.webp 600w,
+/static/ab971d17ba7ca8bea5126ec41b8fd350/974c5/11-point-precision-recall.webp 1118w"
               sizes="(max-width: 1118px) 100vw, 1118px"
               type="image/webp"
             />
           <source
-            srcset="/static/ab971d17ba7ca8bea5126ec41b8fd350/5a46d/11-point-precision-recall.png 300w,
-/static/ab971d17ba7ca8bea5126ec41b8fd350/0a47e/11-point-precision-recall.png 600w,
-/static/ab971d17ba7ca8bea5126ec41b8fd350/0f246/11-point-precision-recall.png 1118w"
+            srcset="/static/ab971d17ba7ca8bea5126ec41b8fd350/eed55/11-point-precision-recall.png 300w,
+/static/ab971d17ba7ca8bea5126ec41b8fd350/7491f/11-point-precision-recall.png 600w,
+/static/ab971d17ba7ca8bea5126ec41b8fd350/60c58/11-point-precision-recall.png 1118w"
             sizes="(max-width: 1118px) 100vw, 1118px"
             type="image/png"
           />
           <img
             class="gatsby-resp-image-image"
-            src="/static/ab971d17ba7ca8bea5126ec41b8fd350/0f246/11-point-precision-recall.png"
+            src="/static/ab971d17ba7ca8bea5126ec41b8fd350/60c58/11-point-precision-recall.png"
             alt="precision-recall curve"
             title="precision-recall curve"
             loading="lazy"
@@ -409,17 +428,20 @@
           />
         </picture>
   </a>
-    </span></p>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">precision-recall curve</figcaption>
+  </figure></p>
 <p>Ta tính diện tích dưới đường precision-recall curve, diện tích lớn hơn thì cho kết quả tốt hơn.</p>
 <h2 id="c-r-precision" style="position:relative;"><a href="#c-r-precision" aria-label="c r precision permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>c. R-precision</h2>
 <p>Tính precision tại vị trí thứ <strong>R-th</strong> mà câu query trả về <strong>R</strong> câu trả lời.</p>
-<p><span
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; "
     >
       <a
     class="gatsby-resp-image-link"
-    href="/static/aef0032d34856b9ac345f9c0cbe4bc24/b8bf8/R-precision.png"
+    href="/static/aef0032d34856b9ac345f9c0cbe4bc24/93843/R-precision.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -430,24 +452,24 @@
   ></span>
   <picture>
           <source
-              srcset="/static/aef0032d34856b9ac345f9c0cbe4bc24/c85cb/R-precision.webp 300w,
-/static/aef0032d34856b9ac345f9c0cbe4bc24/e88ff/R-precision.webp 600w,
-/static/aef0032d34856b9ac345f9c0cbe4bc24/92f8c/R-precision.webp 1200w,
-/static/aef0032d34856b9ac345f9c0cbe4bc24/eaa3b/R-precision.webp 1728w"
+              srcset="/static/aef0032d34856b9ac345f9c0cbe4bc24/e93cc/R-precision.webp 300w,
+/static/aef0032d34856b9ac345f9c0cbe4bc24/b0544/R-precision.webp 600w,
+/static/aef0032d34856b9ac345f9c0cbe4bc24/68fc1/R-precision.webp 1200w,
+/static/aef0032d34856b9ac345f9c0cbe4bc24/8de58/R-precision.webp 1728w"
               sizes="(max-width: 1200px) 100vw, 1200px"
               type="image/webp"
             />
           <source
-            srcset="/static/aef0032d34856b9ac345f9c0cbe4bc24/5a46d/R-precision.png 300w,
-/static/aef0032d34856b9ac345f9c0cbe4bc24/0a47e/R-precision.png 600w,
-/static/aef0032d34856b9ac345f9c0cbe4bc24/c1b63/R-precision.png 1200w,
-/static/aef0032d34856b9ac345f9c0cbe4bc24/b8bf8/R-precision.png 1728w"
+            srcset="/static/aef0032d34856b9ac345f9c0cbe4bc24/eed55/R-precision.png 300w,
+/static/aef0032d34856b9ac345f9c0cbe4bc24/7491f/R-precision.png 600w,
+/static/aef0032d34856b9ac345f9c0cbe4bc24/8537d/R-precision.png 1200w,
+/static/aef0032d34856b9ac345f9c0cbe4bc24/93843/R-precision.png 1728w"
             sizes="(max-width: 1200px) 100vw, 1200px"
             type="image/png"
           />
           <img
             class="gatsby-resp-image-image"
-            src="/static/aef0032d34856b9ac345f9c0cbe4bc24/c1b63/R-precision.png"
+            src="/static/aef0032d34856b9ac345f9c0cbe4bc24/8537d/R-precision.png"
             alt="R-precision"
             title="R-precision"
             loading="lazy"
@@ -455,7 +477,9 @@
           />
         </picture>
   </a>
-    </span></p>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">R-precision</figcaption>
+  </figure></p>
 <h2 id="d-f-measure" style="position:relative;"><a href="#d-f-measure" aria-label="d f measure permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>d. F-Measure</h2>
 <p>F-Measure (<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>F</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">F_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> Score) là độ đo bao gồm vừa Precison và Recall, công thức truyền thống F-Measure là <a href="https://en.wikipedia.org/wiki/Harmonic_mean#Harmonic_mean_of_two_numbers" target="_blank" rel="nofollow noopener noreferrer">harmonic mean</a> của precision và recall.</p>
 <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mstyle scriptlevel="0" displaystyle="true"><msub><mi>F</mi><mn>1</mn></msub><mo>=</mo><mrow><mo fence="true">(</mo><mfrac><mn>2</mn><mrow><msup><mrow><mi mathvariant="normal">r</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">l</mi></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>+</mo><msup><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">s</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">n</mi></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></mfrac><mo fence="true">)</mo></mrow><mo>=</mo><mn>2</mn><mo>⋅</mo><mfrac><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">s</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">n</mi></mrow><mo>⋅</mo><mrow><mi mathvariant="normal">r</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">l</mi></mrow></mrow><mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">s</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">n</mi></mrow><mo>+</mo><mrow><mi mathvariant="normal">r</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">l</mi></mrow></mrow></mfrac></mstyle><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">{\displaystyle F_{1}=\left({\frac {2}{\mathrm {recall} ^{-1}+\mathrm {precision} ^{-1}}}\right)=2\cdot {\frac {\mathrm {precision} \cdot \mathrm {recall} }{\mathrm {precision} +\mathrm {recall} }}}.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.432888em;vertical-align:-0.982888em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.211552em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord"><span class="mord mathrm">recall</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8984479999999999em;"><span style="top:-3.14734em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">precision</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.871868em;"><span style="top:-3.12076em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.982888em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714399999999998em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">precision</span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathrm">recall</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">precision</span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathrm">recall</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class="mord">.</span></span></span></span></span>
@@ -480,4 +504,4 @@
 <li><a href="https://nlp.stanford.edu/IR-book/" target="_blank" rel="nofollow noopener noreferrer">Introduction to Information Retrieval - Stanford NLP Group</a></li>
 <li><a href="https://www.cl.cam.ac.uk/teaching/1415/InfoRtrv/lecture5.pdf" target="_blank" rel="nofollow noopener noreferrer">https://www.cl.cam.ac.uk/teaching/1415/InfoRtrv/lecture5.pdf</a></li>
 </ul>
-<p><em>Many slides in this post are adapted from Prof. Joydeep Ghosh (UT ECE) who in turn adapted them from Prof. Dik Lee (Univ. of Science and Tech, Hong Kong)</em></p></div></div></div><div class="Post-module--post__footer--L98TP"><div class="Meta-module--meta--3YYBJ"><p class="Meta-module--meta__date--3Fmrj">Published <!-- -->31 Aug 2019</p></div><div class="Tags-module--tags--1r6Jk"><ul class="Tags-module--tags__list--3-_4K"><li class="Tags-module--tags__listItem--1aoCp"><a class="Tags-module--tags__listItemLink--3ksMS" href="/tag/data/">Data</a></li><li class="Tags-module--tags__listItem--1aoCp"><a class="Tags-module--tags__listItemLink--3ksMS" href="/tag/data-engineer/">Data Engineer</a></li><li class="Tags-module--tags__listItem--1aoCp"><a class="Tags-module--tags__listItemLink--3ksMS" href="/tag/information-retrieval/">Information Retrieval</a></li><li class="Tags-module--tags__listItem--1aoCp"><a class="Tags-module--tags__listItemLink--3ksMS" href="/tag/nlp/">NLP</a></li></ul></div></div><div class="Post-module--post__comments--21hyQ"><div style="padding-bottom:100px"></div><div id="commento" style="max-width:550px"></div></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/2019/08/ir-evaluation.html";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-ac69b024032d80c6a677.js"],"app":["/app-4d213ed119746fd39e9b.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-01ba2d8701af3f7f800c.js"],"component---src-templates-categories-list-template-tsx":["/component---src-templates-categories-list-template-tsx-b5d62a9f226d7b475a9f.js"],"component---src-templates-category-template-tsx":["/component---src-templates-category-template-tsx-d0fe8a6d1f8878013e52.js"],"component---src-templates-index-template-tsx":["/component---src-templates-index-template-tsx-f0e89d72747101789fb8.js"],"component---src-templates-not-found-template-tsx":["/component---src-templates-not-found-template-tsx-8bf8ef689fdcf9cd789e.js"],"component---src-templates-page-template-tsx":["/component---src-templates-page-template-tsx-60a1d60e004410ffd74b.js"],"component---src-templates-ping-tsx":["/component---src-templates-ping-tsx-9f9925286cb0e5ad38ac.js"],"component---src-templates-post-template-tsx":["/component---src-templates-post-template-tsx-9e790bc04958d0d331fb.js"],"component---src-templates-tag-template-tsx":["/component---src-templates-tag-template-tsx-cb715dc901c14a129a5f.js"],"component---src-templates-tags-list-template-tsx":["/component---src-templates-tags-list-template-tsx-34d9ac47f448192f76c1.js"]};/*]]>*/</script><script src="/polyfill-ac69b024032d80c6a677.js" nomodule=""></script><script src="/component---src-templates-post-template-tsx-9e790bc04958d0d331fb.js" async=""></script><script src="/70ba16277e1f8ff187315c677a20c57a8b12f94a-022dbbcede35bb5a0fc4.js" async=""></script><script src="/c39ba592b6b5047a9857340a927d4f5e647ac87b-44c41ffef44014fc7003.js" async=""></script><script src="/app-4d213ed119746fd39e9b.js" async=""></script><script src="/framework-4723e9af4ac82b4c2cc0.js" async=""></script><script src="/webpack-runtime-5ace8603bfd4358045e5.js" async=""></script></body></html>
+<p><em>Many slides in this post are adapted from Prof. Joydeep Ghosh (UT ECE) who in turn adapted them from Prof. Dik Lee (Univ. of Science and Tech, Hong Kong)</em></p></div></div></div><div class="Post-module--post__footer--L98TP"><div class="Meta-module--meta--3YYBJ"><p class="Meta-module--meta__date--3Fmrj">Published <!-- -->31 Aug 2019</p></div><div class="Tags-module--tags--1r6Jk"><ul class="Tags-module--tags__list--3-_4K"><li class="Tags-module--tags__listItem--1aoCp"><a class="Tags-module--tags__listItemLink--3ksMS" href="/tag/data/">Data</a></li><li class="Tags-module--tags__listItem--1aoCp"><a class="Tags-module--tags__listItemLink--3ksMS" href="/tag/data-engineer/">Data Engineer</a></li><li class="Tags-module--tags__listItem--1aoCp"><a class="Tags-module--tags__listItemLink--3ksMS" href="/tag/information-retrieval/">Information Retrieval</a></li><li class="Tags-module--tags__listItem--1aoCp"><a class="Tags-module--tags__listItemLink--3ksMS" href="/tag/nlp/">NLP</a></li></ul></div></div><div class="Post-module--post__comments--21hyQ"><div style="padding-bottom:100px"></div><div id="commento" style="max-width:550px"></div></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/2019/08/ir-evaluation.html";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-ac69b024032d80c6a677.js"],"app":["/app-6db921ee60c8bdab15c5.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-01ba2d8701af3f7f800c.js"],"component---src-templates-categories-list-template-tsx":["/component---src-templates-categories-list-template-tsx-b5d62a9f226d7b475a9f.js"],"component---src-templates-category-template-tsx":["/component---src-templates-category-template-tsx-d0fe8a6d1f8878013e52.js"],"component---src-templates-index-template-tsx":["/component---src-templates-index-template-tsx-f0e89d72747101789fb8.js"],"component---src-templates-not-found-template-tsx":["/component---src-templates-not-found-template-tsx-8bf8ef689fdcf9cd789e.js"],"component---src-templates-page-template-tsx":["/component---src-templates-page-template-tsx-60a1d60e004410ffd74b.js"],"component---src-templates-ping-tsx":["/component---src-templates-ping-tsx-9f9925286cb0e5ad38ac.js"],"component---src-templates-post-template-tsx":["/component---src-templates-post-template-tsx-9e790bc04958d0d331fb.js"],"component---src-templates-tag-template-tsx":["/component---src-templates-tag-template-tsx-cb715dc901c14a129a5f.js"],"component---src-templates-tags-list-template-tsx":["/component---src-templates-tags-list-template-tsx-34d9ac47f448192f76c1.js"]};/*]]>*/</script><script src="/polyfill-ac69b024032d80c6a677.js" nomodule=""></script><script src="/component---src-templates-post-template-tsx-9e790bc04958d0d331fb.js" async=""></script><script src="/70ba16277e1f8ff187315c677a20c57a8b12f94a-022dbbcede35bb5a0fc4.js" async=""></script><script src="/c39ba592b6b5047a9857340a927d4f5e647ac87b-44c41ffef44014fc7003.js" async=""></script><script src="/app-6db921ee60c8bdab15c5.js" async=""></script><script src="/framework-4723e9af4ac82b4c2cc0.js" async=""></script><script src="/webpack-runtime-5ace8603bfd4358045e5.js" async=""></script></body></html>
