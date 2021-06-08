@@ -22,7 +22,8 @@ Một công ty A hoạt động trong lĩnh vực nghiên cứu thị trường 
 
 Câu hỏi: Với số lượng bài viết lớn như vậy (hơn 28,000 bài viết), bạn hãy tìm cách nào đó để nhóm các bài viết theo những chủ đề khác nhau. Bạn hãy đề xuất một phương pháp để có thể đặt tên cho từng chủ đề một cách hợp lý nhất. Kết quả công ty A mong đợi sẽ là một file dạng csv gồm 2 cột: cột 1 là tên bài báo, cột 2 là tên chủ đề tương ứng.
 
-[Download file dữ liệu 28,000 bài viết](https://s.duyet.net/r/vnexpress-dataset-28k).
+[Download file dữ liệu 28,000 bài viết](https://ko-fi.com/s/9a2278983f) ([link dự phòng](https://s.duyet.net/r/vnexpress-dataset-28k)).
+
 ----------------------------------- 
 
 Với lượng dữ liệu lớn như vậy, có 2 mục tiêu cần thực hiện:
