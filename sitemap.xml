@@ -114,8 +114,8 @@
 <url> <loc>https://blog.duyet.net/2015/08/git-cach-xem-noi-dung-1-file-o-branch-khac.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/08/how-to-remove-untracked-files.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/08/google-cloud-platform-developer-roadshow-ho-chi-minh-viet-nam.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2015/09/pha-gia-website-van-e-muon-thuo.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/09/google-has-new-logo-seriously.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2015/09/pha-gia-website-van-e-muon-thuo.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/09/nodejs-all-you-need-to-know-about.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/09/js-entire-javascript-language-in-single.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/09/how-to-install-oracle-12c-on-ubuntu-1504.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -156,6 +156,7 @@
 <url> <loc>https://blog.duyet.net/2016/02/nodejs-oc-file-packagejson.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/sitemapduyetdevcom.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/deep-learning-la-gi.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2016/02/thai-nguyen-anh-tuan_4.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/cai-dat-tensorflow-tren-docker.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/mieng-banh-my-chay.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/tensorflow-huong-dan-cai-at-tren-ubuntu.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -163,7 +164,6 @@
 <url> <loc>https://blog.duyet.net/2016/02/yahoo-ra-mat-bo-dataset-lon-nhat-machine-learning.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/tu-ong-hoa-internet-voi-ifttt.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/dau-la-loi-canh-tranh-cua-nguoi-viet.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2016/02/thai-nguyen-anh-tuan_4.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/copyjs-simple-copy-text-to-clipboard-in.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/detect-robots-in-koa.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/02/generator-function-javascript.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -184,8 +184,8 @@
 <url> <loc>https://blog.duyet.net/2016/03/calcjs-evaluate-expressions-for-math.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/04/update-savetoco-tim-kiem-va-gan-tag-link.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/04/es6.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2016/04/grunt-loi-enospc.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/04/tai-lieu-panama.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2016/04/grunt-loi-enospc.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/04/uong-toi-truong-ban-sang.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/04/deploy-production-nodejs-pm2-nginx.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2016/04/hon-nhan-khong-phai-vi-hanh-phuc-ca.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -328,8 +328,8 @@
 <url> <loc>https://blog.duyet.net/2021/04/spark-kubernetes-performance-tuning.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2021/05/migrate-to-cloudflare-pages.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2021/06/neovim.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2015/08/git-chinh-sua-git-vua-commit.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/08/javascript-style-guide.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2015/08/git-chinh-sua-git-vua-commit.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/08/git-khoi-phuc-bang-reflog.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/tag/2015</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/tag/3-d</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
