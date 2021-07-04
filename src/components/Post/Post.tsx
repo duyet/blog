@@ -1,6 +1,7 @@
 // @flow strict
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'gatsby';
+
 import Comments from './Comments';
 import Content from './Content';
 import Meta from './Meta';
@@ -18,6 +19,7 @@ type Props = {
 };
 
 const Post = ({ post }: Props) => {
+    const [showComment, toggleShowComment] = useState<boolean>(false);
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
   const {
@@ -40,11 +42,16 @@ const Post = ({ post }: Props) => {
       </div>
 
       <div className={styles['post__comments']}>
-        <Comments
+        <button className={styles['post__comments__toggle']} onClick={() => toggleShowComment(!showComment)}>
+              {showComment ? 'Hide comments' : 'Show comments'}
+        </button>
+
+        {showComment
+         && <Comments
           postSlug={slug}
           postTitle={post.frontmatter.title}
           fbCommentUrl={fbCommentUrl}
-        />
+        />}
       </div>
     </div>
   );

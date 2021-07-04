@@ -1,7 +1,6 @@
 // @flow strict
 import React from 'react';
 import ReactDisqusComments from 'react-disqus-comments';
-import { useStaticQuery, graphql } from 'gatsby';
 import { useSiteMetadata } from '../../../hooks';
 import ReactCommento from './Commento';
 import FacebookComment from './FacebookComment';
@@ -12,7 +11,7 @@ type Props = {
   fbCommentUrl?: string
 };
 
-const Comments = ({ postTitle, postSlug, fbCommentUrl = null }: Props) => {
+const Comments = ({ postTitle, postSlug, fbCommentUrl = '' }: Props) => {
   const comments = [];
   const {
     url, disqusShortname, useCommento, facebookComment

@@ -13,6 +13,13 @@
     max-width: $layout-post-width;
     margin: 0 auto;
     padding: 0 15px;
+    margin-bottom: 30px;
+
+    &__toggle {
+        border: 0;
+        margin-bottom: 20px;
+        background: transparent;
+    }
   }
 
   &__homeButton {
