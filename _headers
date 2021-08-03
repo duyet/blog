@@ -2862,6 +2862,15 @@
   Link: </component---src-templates-post-template-tsx-aaa4915bf11b1426338b.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/2019/08/ir-vector-space-model.html/page-data.json>; rel=preload; as=fetch; crossorigin
+/2019/08/ir-evaluation.html
+  Link: </webpack-runtime-858633e7df4328088470.js>; rel=preload; as=script
+  Link: </framework-4723e9af4ac82b4c2cc0.js>; rel=preload; as=script
+  Link: </app-6db921ee60c8bdab15c5.js>; rel=preload; as=script
+  Link: </c39ba592b6b5047a9857340a927d4f5e647ac87b-44c41ffef44014fc7003.js>; rel=preload; as=script
+  Link: </70ba16277e1f8ff187315c677a20c57a8b12f94a-022dbbcede35bb5a0fc4.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-tsx-aaa4915bf11b1426338b.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/2019/08/ir-evaluation.html/page-data.json>; rel=preload; as=fetch; crossorigin
 /2019/09/books.html
   Link: </webpack-runtime-858633e7df4328088470.js>; rel=preload; as=script
   Link: </framework-4723e9af4ac82b4c2cc0.js>; rel=preload; as=script
@@ -3006,24 +3015,6 @@
   Link: </component---src-templates-post-template-tsx-aaa4915bf11b1426338b.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/2021/07/postgres-full-text-search.html/page-data.json>; rel=preload; as=fetch; crossorigin
-/2019/08/ir-evaluation.html
-  Link: </webpack-runtime-858633e7df4328088470.js>; rel=preload; as=script
-  Link: </framework-4723e9af4ac82b4c2cc0.js>; rel=preload; as=script
-  Link: </app-6db921ee60c8bdab15c5.js>; rel=preload; as=script
-  Link: </c39ba592b6b5047a9857340a927d4f5e647ac87b-44c41ffef44014fc7003.js>; rel=preload; as=script
-  Link: </70ba16277e1f8ff187315c677a20c57a8b12f94a-022dbbcede35bb5a0fc4.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-tsx-aaa4915bf11b1426338b.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/2019/08/ir-evaluation.html/page-data.json>; rel=preload; as=fetch; crossorigin
-/2015/08/javascript-style-guide.html
-  Link: </webpack-runtime-858633e7df4328088470.js>; rel=preload; as=script
-  Link: </framework-4723e9af4ac82b4c2cc0.js>; rel=preload; as=script
-  Link: </app-6db921ee60c8bdab15c5.js>; rel=preload; as=script
-  Link: </c39ba592b6b5047a9857340a927d4f5e647ac87b-44c41ffef44014fc7003.js>; rel=preload; as=script
-  Link: </70ba16277e1f8ff187315c677a20c57a8b12f94a-022dbbcede35bb5a0fc4.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-tsx-aaa4915bf11b1426338b.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/2015/08/javascript-style-guide.html/page-data.json>; rel=preload; as=fetch; crossorigin
 /2015/08/git-chinh-sua-git-vua-commit.html
   Link: </webpack-runtime-858633e7df4328088470.js>; rel=preload; as=script
   Link: </framework-4723e9af4ac82b4c2cc0.js>; rel=preload; as=script
@@ -3042,6 +3033,15 @@
   Link: </component---src-templates-post-template-tsx-aaa4915bf11b1426338b.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/2015/08/git-khoi-phuc-bang-reflog.html/page-data.json>; rel=preload; as=fetch; crossorigin
+/2015/08/javascript-style-guide.html
+  Link: </webpack-runtime-858633e7df4328088470.js>; rel=preload; as=script
+  Link: </framework-4723e9af4ac82b4c2cc0.js>; rel=preload; as=script
+  Link: </app-6db921ee60c8bdab15c5.js>; rel=preload; as=script
+  Link: </c39ba592b6b5047a9857340a927d4f5e647ac87b-44c41ffef44014fc7003.js>; rel=preload; as=script
+  Link: </70ba16277e1f8ff187315c677a20c57a8b12f94a-022dbbcede35bb5a0fc4.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-tsx-aaa4915bf11b1426338b.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/2015/08/javascript-style-guide.html/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/2015
   Link: </webpack-runtime-858633e7df4328088470.js>; rel=preload; as=script
   Link: </framework-4723e9af4ac82b4c2cc0.js>; rel=preload; as=script

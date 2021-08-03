@@ -312,6 +312,7 @@
 <url> <loc>https://blog.duyet.net/2019/08/airflow-docker-compose.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2019/08/airflow-note.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2019/08/ir-vector-space-model.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2019/08/ir-evaluation.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2019/09/books.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2019/10/ir-evaluation-2.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2019/10/js-shorthand-tips.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -328,10 +329,9 @@
 <url> <loc>https://blog.duyet.net/2021/05/migrate-to-cloudflare-pages.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2021/06/neovim.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2021/07/postgres-full-text-search.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2019/08/ir-evaluation.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.duyet.net/2015/08/javascript-style-guide.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/08/git-chinh-sua-git-vua-commit.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/2015/08/git-khoi-phuc-bang-reflog.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.duyet.net/2015/08/javascript-style-guide.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/tag/2015</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/tag/3-d</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.duyet.net/tag/ai</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
