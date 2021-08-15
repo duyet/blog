@@ -6,22 +6,26 @@
   padding: 0 30px;
   margin: 0 auto;
 
+  &__date {
+    margin: 0;
+    color: #7a7a7a;
+    line-height: 1.5;
+    font-size: 15.5px;
+    font-weight: 400;
+    @include margin-bottom(1);
+  }
+
   &__title {
     font-size: $typographic-base-font-size * 2;
     max-width: $layout-post-width;
     margin-left: auto;
     margin-right: auto;
     font-weight: 600;
-    text-align: center;
-
-    background: $color-primary;
-    color: $color-white;
-    box-shadow: -10px 9px 0 $color-secondary;
-    @include padding(1, 1.5);
 
     @include line-height(1.65);
-    @include margin-top(1);
-    @include margin-bottom(1);
+    @include margin-top(1.65);
+    // @include margin-bottom(0);
+    margin-bottom: 0 !important;
   }
 
   &__body {
@@ -75,15 +79,13 @@
     &__title {
       font-size: $typographic-base-font-size * 2.5;
       @include line-height(2.25);
-      @include margin-top(2.25);
-      @include margin-bottom(1.5)
+      @include margin-top(4.25);
     }
 
     &__body {
       font-size: $typographic-base-font-size * 1.125;
       @include line-height(1.125);
       @include margin-bottom(1.125);
-      border-bottom: 1px dashed #ebebeb;
 
       & p {
         font-size: $typographic-base-font-size * 1.125;

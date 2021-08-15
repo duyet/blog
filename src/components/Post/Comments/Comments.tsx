@@ -1,6 +1,5 @@
 // @flow strict
 import React from 'react';
-import ReactDisqusComments from 'react-disqus-comments';
 import { useSiteMetadata } from '../../../hooks';
 import ReactCommento from './Commento';
 import FacebookComment from './FacebookComment';
@@ -11,10 +10,10 @@ type Props = {
   fbCommentUrl?: string
 };
 
-const Comments = ({ postTitle, postSlug, fbCommentUrl = '' }: Props) => {
+const Comments = ({ postSlug, fbCommentUrl = '' }: Props) => {
   const comments = [];
   const {
-    url, disqusShortname, useCommento, facebookComment
+    useCommento, facebookComment
   } = useSiteMetadata();
 
   if (facebookComment && facebookComment.active) {
@@ -31,16 +30,6 @@ const Comments = ({ postTitle, postSlug, fbCommentUrl = '' }: Props) => {
 
   if (useCommento) {
     comments.push(<ReactCommento key="commento" />);
-  }
-
-  if (disqusShortname) {
-    comments.push(<ReactDisqusComments
-      shortname={disqusShortname}
-      identifier={postTitle}
-      title={postTitle}
-      url={url + postSlug}
-      key="disqus"
-    />);
   }
 
   return comments;
