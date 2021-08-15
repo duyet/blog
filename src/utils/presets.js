@@ -13,10 +13,10 @@ import {
   space as spaceTokens,
   transition,
   zIndices
-} from 'gatsby-design-tokens'
+} from 'gatsby-design-tokens';
 
-const fontSizes = fontSizeTokens.map(token => `${token / 16}rem`)
-const space = spaceTokens.map(token => `${token / 16}rem`)
+const fontSizes = fontSizeTokens.map((token) => `${token / 16}rem`);
+const space = spaceTokens.map((token) => `${token / 16}rem`);
 
 const sizes = {
   ...sizeTokens,
@@ -25,7 +25,7 @@ const sizes = {
     withSidebar: '42rem'
   },
   tocWidth: '18rem'
-}
+};
 
 export {
   borders,
@@ -42,4 +42,4 @@ export {
   space,
   transition,
   zIndices
-}
+};
