@@ -15,7 +15,7 @@ import {
 // typography.js expects an array, so grab font stacks directly from tokens
 
 const _options = {
-  bodyFontFamily: fontsLists.system,
+  bodyFontFamily: fontsLists.sans,
   headerFontFamily: fontsLists.heading,
   baseLineHeight: lineHeights.default,
   headerLineHeight: lineHeights.dense,
