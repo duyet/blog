@@ -40,6 +40,10 @@ module.exports = {
     {
       label: 'TIL',
       path: 'https://til.duyet.net'
+    },
+    {
+      label: 'Okie.one',
+      path: 'https://okie.one?utm_source=blog.duyet.net&utm_medium=sidebar_link&utm_campaign=okie_one'
     }
   ],
   author: {
