@@ -26,8 +26,8 @@ module.exports = {
       path: '/pages/about'
     },
     {
-      label: 'Data Studio',
-      path: '/pages/data-studio'
+      label: 'Public Analytics',
+      path: '/pages/public-analytics'
     },
     {
       label: 'Categories',
