@@ -20,6 +20,7 @@ const Layout = ({ children, title, description }: Props) => (
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={title} />
       <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1fc269287fc7476cacbe4cb0b3267201"}'></script>
+      <script async src="https://cdn.splitbee.io/sb.js"></script>
     </Helmet>
     {children}
   </div>
