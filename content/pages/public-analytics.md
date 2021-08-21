@@ -1,7 +1,9 @@
 ---
-title: "Data Studio Dashboard"
+title: "Public Analytics"
 template: "page"
 ---
+
+## Data Studio
 
 Public Data Studio Dashboard for this blog.
 
@@ -11,4 +13,8 @@ Public Data Studio Dashboard for this blog.
 
 ![duyet.net dashboard](https://i.imgur.com/waBdZjs.png)
 
-Want to hire me to build a dashboard from your data? [Contact](/pages/about#contact-me)
+Want to build a dashboard from your data like that? [Hire me](/pages/about#contact-me)
+
+## Spitbee
+
+[Insights by Splitbee](https://app.splitbee.io/public/blog.duyet.net)
