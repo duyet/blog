@@ -56,7 +56,8 @@ module.exports = {
       twitter: 'duyetdev',
       github: 'duyet',
       rss: '/rss.xml',
-      vkontakte: ''
+      vkontakte: '',
+      kofi: 'duyet'
     }
   }
 };

@@ -8,7 +8,8 @@ import * as styles from './Menu.module.scss';
 type Props = {
   menu: {
     label: string,
-    path: string
+    path: string,
+    isHighlight?: boolean
   }[]
 };
 
@@ -22,6 +23,7 @@ const Menu = ({ menu }: Props) => (
             className={styles['menu__listItemLink']}
             activeClassName={styles['menu__listItemLinkActive']}
             onClick={() => gtagTrack('Menu', 'click', item.path)}
+            partiallyActive={false}
           >
             {item.label}
           </Link>

@@ -1,27 +1,30 @@
 // @flow strict
-import { ICONS } from '../constants';
+import { ICONS } from "../constants";
 
 const getIcon = (name: string) => {
   let icon;
 
   switch (name) {
-    case 'twitter':
+    case "twitter":
       icon = ICONS.TWITTER;
       break;
-    case 'github':
+    case "github":
       icon = ICONS.GITHUB;
       break;
-    case 'vkontakte':
+    case "vkontakte":
       icon = ICONS.VKONTAKTE;
       break;
-    case 'telegram':
+    case "telegram":
       icon = ICONS.TELEGRAM;
       break;
-    case 'email':
+    case "email":
       icon = ICONS.EMAIL;
       break;
-    case 'rss':
+    case "rss":
       icon = ICONS.RSS;
+      break;
+    case "kofi":
+      icon = ICONS.KOFI;
       break;
     default:
       icon = {};
