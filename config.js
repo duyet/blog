@@ -38,8 +38,8 @@ module.exports = {
       path: '/tag/tldr'
     },
     {
-      label: 'TIL',
-      path: 'https://til.duyet.net'
+      label: 'Today I Learned',
+      path: 'https://til.duyet.net/?utm_source=blog.duyet.net&utm_medium=sidebar_link&utm_campaign=okie_one'
     },
     {
       label: 'Okie.one',

@@ -2,7 +2,7 @@ import {
   borders,
   breakpoints,
   colors,
-  fontSizes as fontSizeTokens,
+  fontSizes,
   fontWeights,
   letterSpacings,
   lineHeights,
@@ -10,13 +10,10 @@ import {
   radii,
   shadows,
   sizes as sizeTokens,
-  space as spaceTokens,
+  space,
   transition,
   zIndices
 } from 'gatsby-design-tokens';
-
-const fontSizes = fontSizeTokens.map((token) => `${token / 16}rem`);
-const space = spaceTokens.map((token) => `${token / 16}rem`);
 
 const sizes = {
   ...sizeTokens,
