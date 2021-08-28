@@ -1,18 +1,17 @@
 // @flow strict
-import React from 'react';
-import Author from './Author';
-import Contacts from './Contacts';
-import Copyright from './Copyright';
-import Menu from './Menu';
-import * as styles from './Sidebar.module.scss';
-import { useSiteMetadata } from '../../hooks';
+import React from "react";
+import Author from "./Author";
+import Contacts from "./Contacts";
+import Menu from "./Menu";
+import * as styles from "./Sidebar.module.scss";
+import { useSiteMetadata } from "../../hooks";
 
 type Props = {
-  isIndex?: boolean,
+  isIndex?: boolean;
 };
 
 const Sidebar = ({ isIndex }: Props) => {
-  const { author, copyright, menu } = useSiteMetadata();
+  const { author, menu } = useSiteMetadata();
 
   return (
     <div className={styles.sidebar}>
@@ -20,7 +19,6 @@ const Sidebar = ({ isIndex }: Props) => {
         <Author author={author} isIndex={isIndex || false} />
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
-        <Copyright copyright={copyright} />
       </div>
     </div>
   );
