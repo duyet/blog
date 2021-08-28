@@ -2,16 +2,17 @@ import Typography from 'typography';
 import CodePlugin from 'typography-plugin-code';
 import { fonts, fontsLists } from 'gatsby-design-tokens';
 import {
-  space,
-  fontSizes,
   colors,
-  transition,
-  radii,
-  mediaQueries,
-  lineHeights,
+  fontSizes,
+  fontWeights,
   letterSpacings,
-  fontWeights
-} from './presets';
+  lineHeights,
+  mediaQueries,
+  radii,
+  space,
+  transition,
+} from 'gatsby-design-tokens';
+
 // typography.js expects an array, so grab font stacks directly from tokens
 
 const _options = {
@@ -25,14 +26,13 @@ const _options = {
   overrideStyles: ({ rhythm }) => ({
     html: {
       backgroundColor: colors.white,
-      WebkitFontSmoothing: 'antialiased',
       MozOsxFontSmoothing: 'grayscale'
     },
     a: {
       textDecoration: 'none'
     },
     h1: {
-      fontWeight: fontWeights[2]
+      fontWeight: fontWeights['heading']
     },
     'h1, h2, h3, h4, h5, h6': {
       letterSpacing: letterSpacings.tight
@@ -44,7 +44,7 @@ const _options = {
       marginTop: space[9]
     },
     'h4, h5, h6': { fontSize: fontSizes[3] },
-    'h5, h6': { fontWeight: fontWeights[0] },
+    'h5, h6': { fontWeight: fontWeights['body'] },
     h6: { fontSize: fontSizes[2] },
     blockquote: {
       paddingLeft: space[6],
@@ -66,7 +66,7 @@ const _options = {
       lineHeight: 'inherit'
     },
     'h1 code, h2 code, h3 code, h4 code, h5 code, h6 code': {
-      fontWeight: fontWeights[0],
+      fontWeight: fontWeights['body'],
       fontSize: '82.5%'
     },
     'tt, code, kbd': {
@@ -96,7 +96,7 @@ const _options = {
     },
     '.gatsby-highlight pre[class*=\'language-\']::before': {
       background: '#ddd',
-      borderRadius: `0 0 ${radii[2]}px ${radii[2]}px`,
+      borderRadius: `0 0 ${radii[2]} ${radii[2]}`,
       color: colors.text.header,
       fontSize: fontSizes[0],
       fontFamily: fonts.monospace,
@@ -236,7 +236,7 @@ const _options = {
       borderBottomColor: colors.link.hoverBorder
     },
     '.post-body h1': {
-      fontWeight: fontWeights[1]
+      fontWeight: fontWeights['heading']
     },
     '.post-body figure img': {
       marginBottom: 0
@@ -273,7 +273,7 @@ const _options = {
       marginRight: `-${space[6]}`
     },
     '.gatsby-resp-image-link': {
-      borderRadius: `${radii[1]}px`,
+      borderRadius: `${radii[1]}`,
       overflow: 'hidden'
     },
     // gatsby-remark-code-titles styles
@@ -290,13 +290,13 @@ const _options = {
       '.gatsby-highlight, .gatsby-resp-image-link, .gatsby-code-title': {
         marginLeft: 0,
         marginRight: 0,
-        borderRadius: `${radii[2]}px`
+        borderRadius: `${radii[2]}`
       },
       '.gatsby-code-title': {
-        borderRadius: `${radii[2]}px ${radii[2]}px 0 0`
+        borderRadius: `${radii[2]} ${radii[2]} 0 0`
       },
       '.gatsby-code-title + .gatsby-highlight': {
-        borderRadius: `0 0 ${radii[2]}px ${radii[2]}px`
+        borderRadius: `0 0 ${radii[2]} ${radii[2]}`
       }
     },
     video: {
@@ -343,10 +343,10 @@ const _options = {
       color: colors.code.cssString
     },
     '.token.important': {
-      fontWeight: fontWeights[0]
+      fontWeight: fontWeights['body']
     },
     '.token.bold': {
-      fontWeight: fontWeights[1]
+      fontWeight: fontWeights['bold']
     },
     '.token.italic': {
       fontStyle: 'italic'

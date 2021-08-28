@@ -3,7 +3,7 @@ template: post
 title: Bitbucket Pipelines Notes 
 date: '2021-08-27T00:00:00.000+07:00'
 author: Van-Duyet Le
-category: Data
+category: Dev
 tags:
  - Data Engineer
  - Git
