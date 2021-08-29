@@ -1,17 +1,15 @@
 .categoryTag {
-    padding: 20px;
-    margin: 5px;
-    padding: 13px;
-    font-size: 14px;
-    text-align: center;
-    font-weight: 700;
-    color: #9a9a9a;
-    border: 1px solid #ddd;
-    text-transform: capitalize;
-    border-radius: 5px;
-
-    &:hover {
-        color: #616161;
-        border-color: #616161;
-    }
+  padding: 20px;
+  margin: 5px;
+  padding: 13px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+  display: inline-block;
+  background: aliceblue;
+  color: #0088ff;
+  border: 0;
+  padding: 0.6rem;
+  border-radius: 5px;
 }
