@@ -25,6 +25,11 @@ Vì hay mua sắm nên pricetrack giúp mình check được giá ảo lên xu�
 Khi giá thay đổi, giảm hoặc dưới ngưỡng mong muốn, tracker sẽ alert thông qua email hoặc push notification qua trình duyệt. Được build hoàn toàn từ [Firebase](http://firebase.google.com/) của Google, trong lúc mình test các dịch vụ của nền tảng này thì pricetrack ra đời.  
 
 
+**Update 2021**: Sau một thời gian thì chi phí cho Firebase khá tốn kém, như một số bạn đã báo trước với mình như thế. 
+Vì project này mình muốn thử các tính năng của Firebase thôi, do đó mình đã cho dừng một số API crawling. 
+Khi có thời gian mình sẽ refactor tại với một infra mới hiệu quả và ít tốn kém hơn.
+
+
 [![](https://1.bp.blogspot.com/-YI_vbZhajkU/XNl4r1H3CRI/AAAAAAABAgI/eZRSFuf3RXQsltqLb2_ObS_lWlE475n5wCLcBGAs/s1600/screenshot-detail.png)](https://1.bp.blogspot.com/-YI_vbZhajkU/XNl4r1H3CRI/AAAAAAABAgI/eZRSFuf3RXQsltqLb2_ObS_lWlE475n5wCLcBGAs/s1600/screenshot-detail.png)
 
   
@@ -58,18 +63,14 @@ Nếu có thời gian mình sẽ có một bài chi tiết để build pricetrac
 
 [![](https://4.bp.blogspot.com/-qWer4_8UhKc/XNl84gVOOtI/AAAAAAABAg0/EpXkmgbUE5Y7df0o_4WvOrk9wTzBfYYSgCLcBGAs/s1600/screenshot-home.png)](https://4.bp.blogspot.com/-qWer4_8UhKc/XNl84gVOOtI/AAAAAAABAg0/EpXkmgbUE5Y7df0o_4WvOrk9wTzBfYYSgCLcBGAs/s1600/screenshot-home.png)
 
-  
 
 [![](https://2.bp.blogspot.com/-10Mnwwqwpw8/XNl86re22sI/AAAAAAABAg4/B67YJ6cS5Ds8iFZc775w5L46ZWSw01hAwCLcBGAs/s1600/screenshot-detail.png)](https://2.bp.blogspot.com/-10Mnwwqwpw8/XNl86re22sI/AAAAAAABAg4/B67YJ6cS5Ds8iFZc775w5L46ZWSw01hAwCLcBGAs/s1600/screenshot-detail.png)
 
-  
 
 [![](https://4.bp.blogspot.com/-El1Ibr9MTN0/XNl87g5iGpI/AAAAAAABAg8/dAp5GoZidschzMs3zy8ftuiSBlDVIoUNwCLcBGAs/s1600/screenshot-about.png)](https://4.bp.blogspot.com/-El1Ibr9MTN0/XNl87g5iGpI/AAAAAAABAg8/dAp5GoZidschzMs3zy8ftuiSBlDVIoUNwCLcBGAs/s1600/screenshot-about.png)
 
-  
 
 [![](https://2.bp.blogspot.com/-IYU-qtevl4c/XNl88SOs9cI/AAAAAAABAhA/VVYy92Ykqf4Y_dSHavmXrfV30Ia2gyRxgCLcBGAs/s1600/screenshot-cashback.png)](https://2.bp.blogspot.com/-IYU-qtevl4c/XNl88SOs9cI/AAAAAAABAhA/VVYy92Ykqf4Y_dSHavmXrfV30Ia2gyRxgCLcBGAs/s1600/screenshot-cashback.png)
-
   
 
 [![](https://2.bp.blogspot.com/-_GpCFBsDRO0/XNl9CAP1VSI/AAAAAAABAhE/lmOIFpbksU0YrK7ol3XZ_r_h6NDkpLjkgCLcBGAs/s1600/intro-raw-api.png)](https://2.bp.blogspot.com/-_GpCFBsDRO0/XNl9CAP1VSI/AAAAAAABAhE/lmOIFpbksU0YrK7ol3XZ_r_h6NDkpLjkgCLcBGAs/s1600/intro-raw-api.png)
