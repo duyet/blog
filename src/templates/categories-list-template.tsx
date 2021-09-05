@@ -2,6 +2,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import kebabCase from "lodash/kebabCase";
+
 import Sidebar from "../components/Sidebar";
 import Layout from "../components/Layout";
 import Page from "../components/Page";
@@ -9,13 +10,13 @@ import CategoryTag from "../components/Layout/CategoryTag";
 import { useSiteMetadata, useCategoriesList } from "../hooks";
 
 const topCategories = [
+  "Data Engineer",
   "Machine Learning",
   "Javascript",
-  "Data Engineer",
   "Web",
 ];
 
-const CategoriesListHighlight = ({ categories }) => (
+const CategoriesListHighlight = ({ categories }: { categories: string[] }) => (
   <div style={{ marginBottom: 30 }}>
     {categories.map((category) => (
       <CategoryTag category={category} key={category} />
