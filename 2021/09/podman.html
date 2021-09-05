@@ -85,18 +85,102 @@ D</p>
 but there are a few issues behind the scenes might hit.</li>
 </ol>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">podman machine <span class="token function">ssh</span>
-
-<span class="token function">sudo</span> <span class="token function">sed</span> -i <span class="token string">'s/short-name-mode="enforcing"/short-name-mode="permissive"/g'</span> /etc/containers/registries.conf
-<span class="token builtin class-name">echo</span> <span class="token string">'unqualified-search-registries = ["docker.io", "quay.io"] >> /etc/containers/registries.conf'</span>
-
-<span class="token builtin class-name">exit</span></code></pre></div>
+<span class="token function">sudo</span> <span class="token function">sed</span> -i <span class="token string">'s/short-name-mode="enforcing"/short-name-mode="permissive"/g'</span> /etc/containers/registries.conf</code></pre></div>
 <p>The <code class="language-text">short-name-mode</code> refers to container images that don’t have a full domain name prefixed (e.g. <code class="language-text">FROM python:3</code>, <code class="language-text">FROM ubuntu:16</code>),
 which will raise an error on Podman. When using Docker, these images are first prefixed with <code class="language-text">docker.io</code> before being pulled.
 With the <code class="language-text">short-name-mode=permissive</code> config, Podman will try all unqualified-search registries in the given order.</p>
+<p>Update the <code class="language-text">unqualified-search-registries</code> for your trusted registries:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">echo &#39;unqualified-search-registries = [&quot;docker.io&quot;, &quot;quay.io&quot;] &gt;&gt; /etc/containers/registries.conf&#39;</code></pre></div>
 <h1 id="rock-in" style="position:relative;"><a href="#rock-in" aria-label="rock in permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rock in</h1>
 <p>Run the nginx image and try to connect to the port <code class="language-text">8000</code> on the host machine:</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">podman run --rm -it --publish <span class="token number">8000</span>:80 docker.io/library/nginx:latest</code></pre></div>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">curl</span> http://localhost:8000</code></pre></div>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/ec79c93bc1e330fb85568c59da7555d9/12365/podman.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACW0lEQVQozz2Sy07bUBCGvYCEkAu5CpQL5OrYjuMQQAgqJU0CCbkCuRCgEnSFRHeFblAFLZUQbZUd6qZSpfYpeI0ueKCvx27p4tf4/JrzzXjOSO1Wh5bQTr1Np9VlOBwxGIyE12ZleY2NksGLmkGlXmKn0aPT3qfb61NvtlitrKNuJNlqVjk+PmU4OkRqd3YprxbJGWHC8RiRcASXy43P5yMYCBKY9+ALzeL3hUilF4jFwsTjCSKxKN7AHAvRGOFwlIJRpD8cIDV32iSSizjnbcz5vLjdbhwOBx6Ph2AwiM/rx+Oew+l04vcLuMjxer2iqAvbtA3HrIup6WnSKZlmo4LUqO+Qy+kk4klhpkmlUpay2SxLS0tEo1EikQihUEiAfARE12ahQCBAUHihUBC7fYakEqPcLCL19/YpFAqk0+n/IFP5fF4UyllSVRVN0yw9e7quW9HM84gRbQ40rh9HSDfXN1QqVQuSyWTQVM36/n9RdG8Cn6VkFVQTrP/1TbB9aobawTo/nj4iTSYT6vWGBZHlrAVQFEVUNqxRGEbBinnDsC6bkOdimqYKP8eMzU5lvMHPpwek+/vPbG/XSSQS1szS6Ywl86Isy2QF3JQizlnRneX9i6oqRlPUxAztbPaS/Pr9Ceni4pKR2D1dz1uJiqIJmb+XQ87IbJbLdMZjtrtdaq2W2Mc6pWqFlbU18Vgx5MIiy6UMh+9fcvW4i3R68poToaOjVwz6Q8bjI6Fjer09atUt+geHnL294PL2lqu7Oz58/cLk2wNn5+eUxYPoelIseJaDNw3efd/lD1UXP7B0lXpRAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/static/ec79c93bc1e330fb85568c59da7555d9/e93cc/podman.webp 300w,
+/static/ec79c93bc1e330fb85568c59da7555d9/b0544/podman.webp 600w,
+/static/ec79c93bc1e330fb85568c59da7555d9/68fc1/podman.webp 1200w,
+/static/ec79c93bc1e330fb85568c59da7555d9/4dc5d/podman.webp 1490w"
+              sizes="(max-width: 1200px) 100vw, 1200px"
+              type="image/webp"
+            />
+          <source
+            srcset="/static/ec79c93bc1e330fb85568c59da7555d9/eed55/podman.png 300w,
+/static/ec79c93bc1e330fb85568c59da7555d9/7491f/podman.png 600w,
+/static/ec79c93bc1e330fb85568c59da7555d9/8537d/podman.png 1200w,
+/static/ec79c93bc1e330fb85568c59da7555d9/12365/podman.png 1490w"
+            sizes="(max-width: 1200px) 100vw, 1200px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/static/ec79c93bc1e330fb85568c59da7555d9/8537d/podman.png"
+            alt="podman"
+            title="podman"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+  </a>
+    </span></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/f7ab11f2e1f43a5327926ff16efde950/88420/podman-nginx.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACaklEQVQozyWRS08TYRSGx1I6nd7vt+mFFgK2FtqiUGJpK9B7KS0GjEBMIJqALoyaGIyXCDEkNC6MGxfAgo2J8SfojzBx5b95nG+6eHPON/nO+z3nHam3vkGn3aVRa9Juddjo9el21mk128zn77BUzVJanaNaK1Gvt2k21+l2+6zVGxQqC8wspiivldje3mVr6yFSt9MjnckQS8QIh8KEQiECgQA+nw+P24s/7CKoelGjUzidTsxmRasunG4XRtmIrJhwOBzMzKQZ3B8gtRodptKT+Cf8eD1efchut6MoijZsRjaZsVpshCMRbDYbY2NjGI1G7A67fnd83ITBYCCZnKK5topUrzXIpDNEI1GCwaBOqKoqkYhQZHSOqsTjccLhsP5NPOj1evUthBwOJzezSVZ780iD3oBoKoLiVvBohB6PR5e4KMz8fr9GZtcliMR6gl5RLKNqsWCQblBoTPPht5bh6ckpxVKRxHRCw04SCoYIBoJ6jsIwpOXqcrmQZVlbbxyTSdajEFmOqowkSSzUsnz/d4Z0PhxSrVSJqTF9DbfboxsIWa1WncSqZSd6i2V0HhmZ9UcsVrNuWGzluPr7VTM8H5LP5/X8hKEwEhmJYVk2j6i0QUEmeqMm8WOETCYjVufIMFMKcf3nPdLx8RvK5QqpZIpC4Ta5XIFb2VniiQli0RjzxSXqg03utVrcazZZXlnhbqXMXKGAx+tHnfQxu5xk53iFd7/6SHt7jzg6esbh4VNEv7//mIODJ2w/2GHQ3+To+QtefzpjeHnB54sLvlxdcv3zB29PPtJeXKS4kKbaz7H7ssurbwP+A1IEKq19PkX/AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/static/f7ab11f2e1f43a5327926ff16efde950/e93cc/podman-nginx.webp 300w,
+/static/f7ab11f2e1f43a5327926ff16efde950/b0544/podman-nginx.webp 600w,
+/static/f7ab11f2e1f43a5327926ff16efde950/68fc1/podman-nginx.webp 1200w,
+/static/f7ab11f2e1f43a5327926ff16efde950/7d801/podman-nginx.webp 1468w"
+              sizes="(max-width: 1200px) 100vw, 1200px"
+              type="image/webp"
+            />
+          <source
+            srcset="/static/f7ab11f2e1f43a5327926ff16efde950/eed55/podman-nginx.png 300w,
+/static/f7ab11f2e1f43a5327926ff16efde950/7491f/podman-nginx.png 600w,
+/static/f7ab11f2e1f43a5327926ff16efde950/8537d/podman-nginx.png 1200w,
+/static/f7ab11f2e1f43a5327926ff16efde950/88420/podman-nginx.png 1468w"
+            sizes="(max-width: 1200px) 100vw, 1200px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/static/f7ab11f2e1f43a5327926ff16efde950/8537d/podman-nginx.png"
+            alt="podman nginx"
+            title="podman nginx"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+  </a>
+    </span></p>
 <p>You can use Podman to run rootless containers, compatible with the Docker CLI,
 and it is a powerful container image for running OCI containers.
 And I believe it has not worked perfectly out of the box, Podman still has a few bugs compared with Docker,
