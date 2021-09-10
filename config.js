@@ -34,8 +34,8 @@ module.exports = {
       path: '/categories'
     },
     {
-      label: 'TL;DR',
-      path: '/tag/tldr'
+      label: 'Buy Me a Coffee',
+      path: 'https://ko-fi.com/duyet'
     },
     {
       label: 'Today I Learned',
