@@ -49,7 +49,7 @@ module.exports = {
   author: {
     name: 'Tôi là Duyệt',
     photo: '/duyet.jpg',
-    bio: 'Data Engineer @ Fossil. I blog about <a href="/tag/web/">Web</a>, <a href="/tag/machine-learning/">Machine Learning</a>, <a href="/tag/data-engineer/">Data Engineering</a>, and <a href="/categories/">more topics</a>.',
+    bio: 'Data Engineer @ Fossil. Mostly about Cloud, <a href="/tag/data-engineer/">Data Engineering</a>, <a href="/tag/web/">Web</a>, and <a href="/categories/">more topics</a>.',
     contacts: {
       email: '',
       telegram: '',
