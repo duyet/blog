@@ -26,8 +26,8 @@ module.exports = {
       path: '/pages/about'
     },
     {
-      label: 'Public Analytics',
-      path: '/pages/public-analytics'
+      label: 'Open Analytics',
+      path: '/pages/open-analytics'
     },
     {
       label: 'Categories',
@@ -42,8 +42,8 @@ module.exports = {
       path: 'https://til.duyet.net/?utm_source=blog.duyet.net&utm_medium=sidebar_link&utm_campaign=okie_one'
     },
     {
-      label: 'Okie.one',
-      path: 'https://okie.one?utm_source=blog.duyet.net&utm_medium=sidebar_link&utm_campaign=okie_one'
+      label: 'Feedback.okie.one',
+      path: 'https://feedback.okie.one?utm_source=blog.duyet.net&utm_medium=sidebar_link&utm_campaign=okie_one'
     }
   ],
   author: {
