@@ -110,7 +110,7 @@ var bar = foo;
 
 bar =9;
 
-console.log(foo, bar); // =&gt; 1, 9</code></pre></div>
+console.log(foo, bar); // => 1, 9</code></pre></div>
 <ul>
 <li>
 <p>Complex: When you access a complex type you work on a reference to its value.</p>
@@ -130,7 +130,7 @@ var bar = foo;
 
 bar[0] =9;
 
-console.log(foo[0], bar[0]); // =&gt; 9, 9</code></pre></div>
+console.log(foo[0], bar[0]); // => 9, 9</code></pre></div>
 <p><a href="#table-of-contents">⬆ back to top</a></p>
 <h2 id="objects" style="position:relative;"><a href="#objects" aria-label="objects permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Objects</h2>
 <ul>
@@ -146,13 +146,13 @@ var item = {};</code></pre></div>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
 var superman = {
-default: { clark:&#39;kent&#39; },
+default: { clark:'kent' },
   private:true
 };
 
 // good
 var superman = {
-  defaults: { clark:&#39;kent&#39; },
+  defaults: { clark:'kent' },
   hidden:true
 };</code></pre></div>
 <ul>
@@ -160,17 +160,17 @@ var superman = {
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
 var superman = {
-  class:&#39;alien&#39;
+  class:'alien'
 };
 
 // bad
 var superman = {
-  klass:&#39;alien&#39;
+  klass:'alien'
 };
 
 // good
 var superman = {
-  type:&#39;alien&#39;
+  type:'alien'
 };</code></pre></div>
 <p><a href="#table-of-contents">⬆ back to top</a></p>
 <h2 id="arrays" style="position:relative;"><a href="#arrays" aria-label="arrays permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Arrays</h2>
@@ -188,10 +188,10 @@ var items = [];</code></pre></div>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var someStack = [];
 
 // bad
-someStack[someStack.length] =&#39;abracadabra&#39;;
+someStack[someStack.length] ='abracadabra';
 
 // good
-someStack.push(&#39;abracadabra&#39;);</code></pre></div>
+someStack.push('abracadabra');</code></pre></div>
 <ul>
 <li>When you need to copy an array use Array#slice. <a href="http://jsperf.com/converting-arguments-to-an-array/7" target="_blank" rel="nofollow noopener noreferrer">jsPerf</a></li>
 </ul>
@@ -216,36 +216,36 @@ var args =Array.prototype.slice.call(arguments);
 <p><a href="#table-of-contents">⬆ back to top</a></p>
 <h2 id="strings" style="position:relative;"><a href="#strings" aria-label="strings permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Strings</h2>
 <ul>
-<li>Use single quotes <code class="language-text">&#39;&#39;</code> for strings.</li>
+<li>Use single quotes <code class="language-text">''</code> for strings.</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
-var name =&quot;Bob Parr&quot;;
+var name ="Bob Parr";
 
 // good
-var name =&#39;Bob Parr&#39;;
+var name ='Bob Parr';
 
 // bad
-var fullName =&quot;Bob &quot;+this.lastName;
+var fullName ="Bob "+this.lastName;
 
 // good
-var fullName =&#39;Bob &#39;+this.lastName;</code></pre></div>
+var fullName ='Bob '+this.lastName;</code></pre></div>
 <ul>
 <li>Strings longer than 80 characters should be written across multiple lines using string concatenation.</li>
 <li>Note: If overused, long strings with concatenation could impact performance. <a href="http://jsperf.com/ya-string-concat" target="_blank" rel="nofollow noopener noreferrer">jsPerf</a> &#x26; <a href="https://github.com/airbnb/javascript/issues/40" target="_blank" rel="nofollow noopener noreferrer">Discussion</a>.</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
-var errorMessage =&#39;This is a super long error that was thrown because of Batman. When you stop to think about how Batman had anything to do with this, you would get nowhere fast.&#39;;
+var errorMessage ='This is a super long error that was thrown because of Batman. When you stop to think about how Batman had anything to do with this, you would get nowhere fast.';
 
 // bad
-var errorMessage =&#39;This is a super long error that was thrown because \
+var errorMessage ='This is a super long error that was thrown because \
 of Batman. When you stop to think about how Batman had anything to do \
 with this, you would get nowhere \
-fast.&#39;;
+fast.';
 
 // good
-var errorMessage =&#39;This is a super long error that was thrown because &#39;+
-&#39;of Batman. When you stop to think about how Batman had anything to do &#39;+
-&#39;with this, you would get nowhere fast.&#39;;</code></pre></div>
+var errorMessage ='This is a super long error that was thrown because '+
+'of Batman. When you stop to think about how Batman had anything to do '+
+'with this, you would get nowhere fast.';</code></pre></div>
 <ul>
 <li>When programmatically building up a string, use Array#join instead of string concatenation. Mostly for IE: <a href="http://jsperf.com/string-vs-array-concat/2" target="_blank" rel="nofollow noopener noreferrer">jsPerf</a>.</li>
 </ul>
@@ -255,27 +255,27 @@ var length;
 var i;
 
 messages = [{
-  state:&#39;success&#39;,
-  message:&#39;This one worked.&#39;
+  state:'success',
+  message:'This one worked.'
 }, {
-  state:&#39;success&#39;,
-  message:&#39;This one worked as well.&#39;
+  state:'success',
+  message:'This one worked as well.'
 }, {
-  state:&#39;error&#39;,
-  message:&#39;This one did not work.&#39;
+  state:'error',
+  message:'This one did not work.'
 }];
 
 length = messages.length;
 
 // bad
 functioninbox(messages) {
-  items =&#39;&lt;ul&gt;&#39;;
+  items ='&lt;ul>';
 
 for (i =0; i &lt; length; i++) {
-    items +=&#39;&lt;li&gt;&#39;+ messages[i].message +&#39;&lt;/li&gt;&#39;;
+    items +='&lt;li>'+ messages[i].message +'&lt;/li>';
   }
 
-return items +&#39;&lt;/ul&gt;&#39;;
+return items +'&lt;/ul>';
 }
 
 // good
@@ -283,10 +283,10 @@ functioninbox(messages) {
   items = [];
 
 for (i =0; i &lt; length; i++) {
-    items[i] =&#39;&lt;li&gt;&#39;+ messages[i].message +&#39;&lt;/li&gt;&#39;;
+    items[i] ='&lt;li>'+ messages[i].message +'&lt;/li>';
   }
 
-return&#39;&lt;ul&gt;&#39;+ items.join(&#39;&#39;) +&#39;&lt;/ul&gt;&#39;;
+return'&lt;ul>'+ items.join('') +'&lt;/ul>';
 }</code></pre></div>
 <p><a href="#table-of-contents">⬆ back to top</a></p>
 <h2 id="functions" style="position:relative;"><a href="#functions" aria-label="functions permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Functions</h2>
@@ -305,7 +305,7 @@ returntrue;
 
 // immediately-invoked function expression (IIFE)
 (function() {
-console.log(&#39;Welcome to the Internet. Please follow me.&#39;);
+console.log('Welcome to the Internet. Please follow me.');
 })();</code></pre></div>
 <ul>
 <li>Never declare a function in a non-function block (if, while,  etc). Assign the function to a variable instead. Browsers will allow you  to do it, but they all interpret it differently, which is bad news  bears.</li>
@@ -314,7 +314,7 @@ console.log(&#39;Welcome to the Internet. Please follow me.&#39;);
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
 if (currentUser) {
 functiontest() {
-console.log(&#39;Nope.&#39;);
+console.log('Nope.');
   }
 }
 
@@ -322,7 +322,7 @@ console.log(&#39;Nope.&#39;);
 var test;
 if (currentUser) {
 test=functiontest() {
-console.log(&#39;Yup.&#39;);
+console.log('Yup.');
   };
 }</code></pre></div>
 <ul>
@@ -348,7 +348,7 @@ functionyup(name, options, args) {
 };
 
 // bad
-var isJedi = luke[&#39;jedi&#39;];
+var isJedi = luke['jedi'];
 
 // good
 var isJedi = luke.jedi;</code></pre></div>
@@ -364,7 +364,7 @@ functiongetProp(prop) {
 return luke[prop];
 }
 
-var isJedi = getProp(&#39;jedi&#39;);</code></pre></div>
+var isJedi = getProp('jedi');</code></pre></div>
 <p><a href="#table-of-contents">⬆ back to top</a></p>
 <h2 id="variables" style="position:relative;"><a href="#variables" aria-label="variables permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Variables</h2>
 <ul>
@@ -381,18 +381,18 @@ var superPower =newSuperPower();</code></pre></div>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
 var items = getItems(),
     goSportsTeam =true,
-    dragonball =&#39;z&#39;;
+    dragonball ='z';
 
 // bad
 // (compare to above, and try to spot the mistake)
 var items = getItems(),
     goSportsTeam =true;
-    dragonball =&#39;z&#39;;
+    dragonball ='z';
 
 // good
 var items = getItems();
 var goSportsTeam =true;
-var dragonball =&#39;z&#39;;</code></pre></div>
+var dragonball ='z';</code></pre></div>
 <ul>
 <li>Declare unassigned variables last. This is helpful when later on  you might need to assign a variable depending on one of the previous  assigned variables.</li>
 </ul>
@@ -420,13 +420,13 @@ var i;</code></pre></div>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
 function() {
 test();
-console.log(&#39;doing stuff..&#39;);
+console.log('doing stuff..');
 
 //..other stuff..
 
 var name = getName();
 
-if (name ===&#39;test&#39;) {
+if (name ==='test') {
 returnfalse;
   }
 
@@ -438,11 +438,11 @@ function() {
 var name = getName();
 
 test();
-console.log(&#39;doing stuff..&#39;);
+console.log('doing stuff..');
 
 //..other stuff..
 
-if (name ===&#39;test&#39;) {
+if (name ==='test') {
 returnfalse;
   }
 
@@ -475,10 +475,10 @@ returntrue;
 <ul>
 <li>Variable declarations get hoisted to the top of their scope, but their assignment does not.</li>
 </ul>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// we know this wouldn&#39;t work (assuming there
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// we know this wouldn't work (assuming there
 // is no notDefined global variable)
 functionexample() {
-console.log(notDefined); // =&gt; throws a ReferenceError
+console.log(notDefined); // => throws a ReferenceError
 }
 
 // creating a variable declaration after you
@@ -486,7 +486,7 @@ console.log(notDefined); // =&gt; throws a ReferenceError
 // variable hoisting. Note: the assignment
 // value of `true` is not hoisted.
 functionexample() {
-console.log(declaredButNotAssigned); // =&gt; undefined
+console.log(declaredButNotAssigned); // => undefined
 var declaredButNotAssigned =true;
 }
 
@@ -495,55 +495,55 @@ var declaredButNotAssigned =true;
 // which means our example could be rewritten as:
 functionexample() {
 var declaredButNotAssigned;
-console.log(declaredButNotAssigned); // =&gt; undefined
+console.log(declaredButNotAssigned); // => undefined
   declaredButNotAssigned =true;
 }</code></pre></div>
 <ul>
 <li>Anonymous function expressions hoist their variable name, but not the function assignment.</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">functionexample() {
-console.log(anonymous); // =&gt; undefined
+console.log(anonymous); // => undefined
 
-  anonymous(); // =&gt; TypeError anonymous is not a function
+  anonymous(); // => TypeError anonymous is not a function
 
 varanonymous=function() {
-console.log(&#39;anonymous function expression&#39;);
+console.log('anonymous function expression');
   };
 }</code></pre></div>
 <ul>
 <li>Named function expressions hoist the variable name, not the function name or the function body.</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">functionexample() {
-console.log(named); // =&gt; undefined
+console.log(named); // => undefined
 
-  named(); // =&gt; TypeError named is not a function
+  named(); // => TypeError named is not a function
 
-  superPower(); // =&gt; ReferenceError superPower is not defined
+  superPower(); // => ReferenceError superPower is not defined
 
 varnamed=functionsuperPower() {
-console.log(&#39;Flying&#39;);
+console.log('Flying');
   };
 }
 
 // the same is true when the function name
 // is the same as the variable name.
 functionexample() {
-console.log(named); // =&gt; undefined
+console.log(named); // => undefined
 
-  named(); // =&gt; TypeError named is not a function
+  named(); // => TypeError named is not a function
 
 varnamed=functionnamed() {
-console.log(&#39;named&#39;);
+console.log('named');
   }
 }</code></pre></div>
 <ul>
 <li>Function declarations hoist their name and the function body.</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">functionexample() {
-  superPower(); // =&gt; Flying
+  superPower(); // => Flying
 
 functionsuperPower() {
-console.log(&#39;Flying&#39;);
+console.log('Flying');
   }
 }</code></pre></div>
 <ul>
@@ -574,7 +574,7 @@ console.log(&#39;Flying&#39;);
 <p>Numbers evaluate to false if +0, -0, or NaN, otherwise true</p>
 </li>
 <li>
-<p>Strings evaluate to false if an empty string <code class="language-text">&#39;&#39;</code>, otherwise true</p>
+<p>Strings evaluate to false if an empty string <code class="language-text">''</code>, otherwise true</p>
 </li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">if ([0]) {
@@ -585,7 +585,7 @@ console.log(&#39;Flying&#39;);
 <li>Use shortcuts.</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
-if (name !==&#39;&#39;) {
+if (name !=='') {
 // ...stuff...
 }
 
@@ -595,7 +595,7 @@ if (name) {
 }
 
 // bad
-if (collection.length&gt;0) {
+if (collection.length>0) {
 // ...stuff...
 }
 
@@ -693,19 +693,19 @@ var active =true;
 
 // bad
 functiongetType() {
-console.log(&#39;fetching type...&#39;);
-// set the default type to &#39;no type&#39;
-var type =this._type ||&#39;no type&#39;;
+console.log('fetching type...');
+// set the default type to 'no type'
+var type =this._type ||'no type';
 
 return type;
 }
 
 // good
 functiongetType() {
-console.log(&#39;fetching type...&#39;);
+console.log('fetching type...');
 
-// set the default type to &#39;no type&#39;
-var type =this._type ||&#39;no type&#39;;
+// set the default type to 'no type'
+var type =this._type ||'no type';
 
 return type;
 }</code></pre></div>
@@ -715,7 +715,7 @@ return type;
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">functionCalculator() {
 
-// FIXME: shouldn&#39;t use a global here
+// FIXME: shouldn't use a global here
   total =0;
 
 returnthis;
@@ -754,24 +754,24 @@ function() {
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
 functiontest(){
-console.log(&#39;test&#39;);
+console.log('test');
 }
 
 // good
 functiontest() {
-console.log(&#39;test&#39;);
+console.log('test');
 }
 
 // bad
-dog.set(&#39;attr&#39;,{
-  age:&#39;1 year&#39;,
-  breed:&#39;Bernese Mountain Dog&#39;
+dog.set('attr',{
+  age:'1 year',
+  breed:'Bernese Mountain Dog'
 });
 
 // good
-dog.set(&#39;attr&#39;, {
-  age:&#39;1 year&#39;,
-  breed:&#39;Bernese Mountain Dog&#39;
+dog.set('attr', {
+  age:'1 year',
+  breed:'Bernese Mountain Dog'
 });</code></pre></div>
 <ul>
 <li>Place 1 space before the opening parenthesis in control statements (<code class="language-text">if</code>, <code class="language-text">while</code> etc.). Place no space before the argument list in function calls and declarations.</li>
@@ -788,12 +788,12 @@ if (isJedi) {
 
 // bad
 functionfight () {
-console.log (&#39;Swooosh!&#39;);
+console.log ('Swooosh!');
 }
 
 // good
 functionfight() {
-console.log(&#39;Swooosh!&#39;);
+console.log('Swooosh!');
 }</code></pre></div>
 <ul>
 <li>Set off operators with spaces.</li>
@@ -823,38 +823,38 @@ var x = y +5;</code></pre></div>
 <li>Use indentation when making long method chains. Use a leading dot, which emphasizes that the line is a method call, not a new statement.</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
-$(&#39;#items&#39;).find(&#39;.selected&#39;).highlight().end().find(&#39;.open&#39;).updateCount();
+$('#items').find('.selected').highlight().end().find('.open').updateCount();
 
 // bad
-$(&#39;#items&#39;).
-find(&#39;.selected&#39;).
+$('#items').
+find('.selected').
     highlight().
     end().
-find(&#39;.open&#39;).
+find('.open').
     updateCount();
 
 // good
-$(&#39;#items&#39;)
-  .find(&#39;.selected&#39;)
+$('#items')
+  .find('.selected')
     .highlight()
     .end()
-  .find(&#39;.open&#39;)
+  .find('.open')
     .updateCount();
 
 // bad
-var leds = stage.selectAll(&#39;.led&#39;).data(data).enter().append(&#39;svg:svg&#39;).classed(&#39;led&#39;, true)
-    .attr(&#39;width&#39;,  (radius + margin) *2).append(&#39;svg:g&#39;)
-    .attr(&#39;transform&#39;, &#39;translate(&#39;+ (radius + margin) +&#39;,&#39;+ (radius + margin) +&#39;)&#39;)
+var leds = stage.selectAll('.led').data(data).enter().append('svg:svg').classed('led', true)
+    .attr('width',  (radius + margin) *2).append('svg:g')
+    .attr('transform', 'translate('+ (radius + margin) +','+ (radius + margin) +')')
     .call(tron.led);
 
 // good
-var leds = stage.selectAll(&#39;.led&#39;)
+var leds = stage.selectAll('.led')
     .data(data)
-  .enter().append(&#39;svg:svg&#39;)
-    .classed(&#39;led&#39;, true)
-    .attr(&#39;width&#39;,  (radius + margin) *2)
-  .append(&#39;svg:g&#39;)
-    .attr(&#39;transform&#39;, &#39;translate(&#39;+ (radius + margin) +&#39;,&#39;+ (radius + margin) +&#39;)&#39;)
+  .enter().append('svg:svg')
+    .classed('led', true)
+    .attr('width',  (radius + margin) *2)
+  .append('svg:g')
+    .attr('transform', 'translate('+ (radius + margin) +','+ (radius + margin) +')')
     .call(tron.led);</code></pre></div>
 <ul>
 <li>Leave a blank line after blocks and before the next statement</li>
@@ -912,18 +912,18 @@ var story = [
 
 // bad
 var hero = {
-    firstName:&#39;Bob&#39;
-  , lastName:&#39;Parr&#39;
-  , heroName:&#39;Mr. Incredible&#39;
-  , superPower:&#39;strength&#39;
+    firstName:'Bob'
+  , lastName:'Parr'
+  , heroName:'Mr. Incredible'
+  , superPower:'strength'
 };
 
 // good
 var hero = {
-  firstName:&#39;Bob&#39;,
-  lastName:&#39;Parr&#39;,
-  heroName:&#39;Mr. Incredible&#39;,
-  superPower:&#39;strength&#39;
+  firstName:'Bob',
+  lastName:'Parr',
+  heroName:'Mr. Incredible',
+  superPower:'strength'
 };</code></pre></div>
 <ul>
 <li>Additional trailing comma: Nope. This can cause  problems with IE6/7 and IE9 if it’s in quirksmode. Also, in some  implementations of ES3 would add length to an array if it had an  additional trailing comma. This was clarified in ES5 (<a href="http://es5.github.io/#D" target="_blank" rel="nofollow noopener noreferrer">source</a>):</li>
@@ -933,24 +933,24 @@ var hero = {
 </blockquote>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
 var hero = {
-    firstName:&#39;Kevin&#39;,
-    lastName:&#39;Flynn&#39;,
+    firstName:'Kevin',
+    lastName:'Flynn',
   };
 
 var heroes = [
-&#39;Batman&#39;,
-&#39;Superman&#39;,
+'Batman',
+'Superman',
   ];
 
 // good
 var hero = {
-    firstName:&#39;Kevin&#39;,
-    lastName:&#39;Flynn&#39;
+    firstName:'Kevin',
+    lastName:'Flynn'
   };
 
 var heroes = [
-&#39;Batman&#39;,
-&#39;Superman&#39;
+'Batman',
+'Superman'
   ];</code></pre></div>
 <p><a href="#table-of-contents">⬆ back to top</a></p>
 <h2 id="semicolons" style="position:relative;"><a href="#semicolons" aria-label="semicolons permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Semicolons</h2>
@@ -959,19 +959,19 @@ var heroes = [
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
 (function() {
-var name =&#39;Skywalker&#39;
+var name ='Skywalker'
 return name
 })()
 
 // good
 (function() {
-var name =&#39;Skywalker&#39;;
+var name ='Skywalker';
 return name;
 })();
 
 // good (guards against the function becoming an argument when two files with IIFEs are concatenated)
 ;(function() {
-var name =&#39;Skywalker&#39;;
+var name ='Skywalker';
 return name;
 })();</code></pre></div>
 <p><a href="http://stackoverflow.com/a/7365214/1712802" target="_blank" rel="nofollow noopener noreferrer">Read more</a>.</p>
@@ -981,23 +981,23 @@ return name;
 <li>Perform type coercion at the beginning of the statement.</li>
 <li>Strings:</li>
 </ul>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">//  =&gt; this.reviewScore = 9;
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">//  => this.reviewScore = 9;
 
 // bad
-var totalScore =this.reviewScore +&#39;&#39;;
+var totalScore =this.reviewScore +'';
 
 // good
-var totalScore =&#39;&#39;+this.reviewScore;
+var totalScore =''+this.reviewScore;
 
 // bad
-var totalScore =&#39;&#39;+this.reviewScore +&#39; total score&#39;;
+var totalScore =''+this.reviewScore +' total score';
 
 // good
-var totalScore =this.reviewScore +&#39; total score&#39;;</code></pre></div>
+var totalScore =this.reviewScore +' total score';</code></pre></div>
 <ul>
 <li>Use <code class="language-text">parseInt</code> for Numbers and always with a radix for type casting.</li>
 </ul>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var inputValue =&#39;4&#39;;
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var inputValue ='4';
 
 // bad
 var val =newNumber(inputValue);
@@ -1006,7 +1006,7 @@ var val =newNumber(inputValue);
 var val =+inputValue;
 
 // bad
-var val = inputValue &gt;&gt;0;
+var val = inputValue >>0;
 
 // bad
 var val =parseInt(inputValue);
@@ -1025,13 +1025,13 @@ var val =parseInt(inputValue, 10);</code></pre></div>
  * Bitshifting the String to coerce it to a
  * Number made it a lot faster.
  */
-var val = inputValue &gt;&gt;0;</code></pre></div>
+var val = inputValue >>0;</code></pre></div>
 <ul>
 <li>Note: Be careful when using bitshift operations. Numbers are represented as <a href="http://es5.github.io/#x4.3.19" target="_blank" rel="nofollow noopener noreferrer">64-bit values</a>, but Bitshift operations always return a 32-bit integer (<a href="http://es5.github.io/#x11.7" target="_blank" rel="nofollow noopener noreferrer">source</a>). Bitshift can lead to unexpected behavior for integer values larger than 32 bits. <a href="https://github.com/airbnb/javascript/issues/109" target="_blank" rel="nofollow noopener noreferrer">Discussion</a>. Largest signed 32-bit Int is 2,147,483,647:</li>
 </ul>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">2147483647&gt;&gt;0//=&gt; 2147483647
-2147483648&gt;&gt;0//=&gt; -2147483648
-2147483649&gt;&gt;0//=&gt; -2147483647</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">2147483647>>0//=> 2147483647
+2147483648>>0//=> -2147483648
+2147483649>>0//=> -2147483647</code></pre></div>
 <ul>
 <li>Booleans:</li>
 </ul>
@@ -1067,14 +1067,14 @@ var OBJEcttsssss = {};
 var this_is_my_object = {};
 functionc() {}
 var u =newuser({
-  name:&#39;Bob Parr&#39;
+  name:'Bob Parr'
 });
 
 // good
 var thisIsMyObject = {};
 functionthisIsMyFunction() {}
 var user =newUser({
-  name:&#39;Bob Parr&#39;
+  name:'Bob Parr'
 });</code></pre></div>
 <ul>
 <li>Use PascalCase when naming constructors or classes.</li>
@@ -1085,7 +1085,7 @@ this.name= options.name;
 }
 
 var bad =newuser({
-  name:&#39;nope&#39;
+  name:'nope'
 });
 
 // good
@@ -1094,17 +1094,17 @@ this.name= options.name;
 }
 
 var good =newUser({
-  name:&#39;yup&#39;
+  name:'yup'
 });</code></pre></div>
 <ul>
 <li>Use a leading underscore <code class="language-text">_</code> when naming private properties.</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
-this.__firstName__ =&#39;Panda&#39;;
-this.firstName_ =&#39;Panda&#39;;
+this.__firstName__ ='Panda';
+this.firstName_ ='Panda';
 
 // good
-this._firstName =&#39;Panda&#39;;</code></pre></div>
+this._firstName ='Panda';</code></pre></div>
 <ul>
 <li>When saving a reference to <code class="language-text">this</code> use <code class="language-text">_this</code>.</li>
 </ul>
@@ -1155,13 +1155,13 @@ module.exports = CheckBox;
 
 // in some other file
 // bad
-var CheckBox =require(&#39;./checkBox&#39;);
+var CheckBox =require('./checkBox');
 
 // bad
-var CheckBox =require(&#39;./check_box&#39;);
+var CheckBox =require('./check_box');
 
 // good
-var CheckBox =require(&#39;./CheckBox&#39;);</code></pre></div>
+var CheckBox =require('./CheckBox');</code></pre></div>
 <p><a href="#table-of-contents">⬆ back to top</a></p>
 <h2 id="accessors" style="position:relative;"><a href="#accessors" aria-label="accessors permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Accessors</h2>
 <ul>
@@ -1196,8 +1196,8 @@ returnfalse;
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">functionJedi(options) {
   options || (options = {});
-var lightsaber = options.lightsaber ||&#39;blue&#39;;
-this.set(&#39;lightsaber&#39;, lightsaber);
+var lightsaber = options.lightsaber ||'blue';
+this.set('lightsaber', lightsaber);
 }
 
 Jedi.prototype.set=function(key, val) {
@@ -1213,27 +1213,27 @@ returnthis[key];
 <li>Assign methods to the prototype object, instead of overwriting  the prototype with a new object. Overwriting the prototype makes  inheritance impossible: by resetting the prototype you’ll overwrite the  base!</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">functionJedi() {
-console.log(&#39;new jedi&#39;);
+console.log('new jedi');
 }
 
 // bad
 Jedi.prototype= {
 fight:functionfight() {
-console.log(&#39;fighting&#39;);
+console.log('fighting');
   },
 
 block:functionblock() {
-console.log(&#39;blocking&#39;);
+console.log('blocking');
   }
 };
 
 // good
 Jedi.prototype.fight=functionfight() {
-console.log(&#39;fighting&#39;);
+console.log('fighting');
 };
 
 Jedi.prototype.block=functionblock() {
-console.log(&#39;blocking&#39;);
+console.log('blocking');
 };</code></pre></div>
 <ul>
 <li>Methods can return <code class="language-text">this</code> to help with method chaining.</li>
@@ -1249,8 +1249,8 @@ this.height= height;
 };
 
 var luke =newJedi();
-luke.jump(); // =&gt; true
-luke.setHeight(20); // =&gt; undefined
+luke.jump(); // => true
+luke.setHeight(20); // => undefined
 
 // good
 Jedi.prototype.jump=function() {
@@ -1272,7 +1272,7 @@ luke.jump()
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">functionJedi(options) {
   options || (options = {});
-this.name= options.name||&#39;no name&#39;;
+this.name= options.name||'no name';
 }
 
 Jedi.prototype.getName=functiongetName() {
@@ -1280,7 +1280,7 @@ returnthis.name;
 };
 
 Jedi.prototype.toString=functiontoString() {
-return&#39;Jedi - &#39;+this.getName();
+return'Jedi - '+this.getName();
 };</code></pre></div>
 <p><a href="#table-of-contents">⬆ back to top</a></p>
 <h2 id="events" style="position:relative;"><a href="#events" aria-label="events permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Events</h2>
@@ -1288,20 +1288,20 @@ return&#39;Jedi - &#39;+this.getName();
 <li>When attaching data payloads to events (whether DOM events or  something more proprietary like Backbone events), pass a hash instead of  a raw value. This allows a subsequent contributor to add more data to  the event payload without finding and updating every handler for the  event. For example, instead of:</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
-$(this).trigger(&#39;listingUpdated&#39;, listing.id);
+$(this).trigger('listingUpdated', listing.id);
 
 ...
 
-$(this).on(&#39;listingUpdated&#39;, function(e, listingId) {
+$(this).on('listingUpdated', function(e, listingId) {
 // do something with listingId
 });</code></pre></div>
 <p>prefer:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// good
-$(this).trigger(&#39;listingUpdated&#39;, { listingId : listing.id });
+$(this).trigger('listingUpdated', { listingId : listing.id });
 
 ...
 
-$(this).on(&#39;listingUpdated&#39;, function(e, data) {
+$(this).on('listingUpdated', function(e, data) {
 // do something with data.listingId
 });</code></pre></div>
 <p><a href="#table-of-contents">⬆ back to top</a></p>
@@ -1310,12 +1310,12 @@ $(this).on(&#39;listingUpdated&#39;, function(e, data) {
 <li>The module should start with a <code class="language-text">!</code>. This ensures that if a  malformed module forgets to include a final semicolon there aren’t  errors in production when the scripts get concatenated. <a href="https://github.com/airbnb/javascript/issues/44#issuecomment-13063933" target="_blank" rel="nofollow noopener noreferrer">Explanation</a></li>
 <li>The file should be named with camelCase, live in a folder with the same name, and match the name of the single export.</li>
 <li>Add a method called <code class="language-text">noConflict()</code> that sets the exported module to the previous version and returns this one.</li>
-<li>Always declare <code class="language-text">&#39;use strict&#39;;</code> at the top of the module.</li>
+<li>Always declare <code class="language-text">'use strict';</code> at the top of the module.</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// fancyInput/fancyInput.js
 
 !function(global) {
-&#39;use strict&#39;;
+'use strict';
 
 var previousFancyInput =global.FancyInput;
 
@@ -1336,53 +1336,53 @@ global.FancyInput = FancyInput;
 <li>Prefix jQuery object variables with a <code class="language-text">$</code>.</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
-var sidebar = $(&#39;.sidebar&#39;);
+var sidebar = $('.sidebar');
 
 // good
-var $sidebar = $(&#39;.sidebar&#39;);</code></pre></div>
+var $sidebar = $('.sidebar');</code></pre></div>
 <ul>
 <li>Cache jQuery lookups.</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
 functionsetSidebar() {
-  $(&#39;.sidebar&#39;).hide();
+  $('.sidebar').hide();
 
 // ...stuff...
 
-  $(&#39;.sidebar&#39;).css({
-&#39;background-color&#39;:&#39;pink&#39;
+  $('.sidebar').css({
+'background-color':'pink'
   });
 }
 
 // good
 functionsetSidebar() {
-var $sidebar = $(&#39;.sidebar&#39;);
+var $sidebar = $('.sidebar');
   $sidebar.hide();
 
 // ...stuff...
 
   $sidebar.css({
-&#39;background-color&#39;:&#39;pink&#39;
+'background-color':'pink'
   });
 }</code></pre></div>
 <ul>
-<li>For DOM queries use Cascading <code class="language-text">$(&#39;.sidebar ul&#39;)</code> or parent > child <code class="language-text">$(&#39;.sidebar &gt; ul&#39;)</code>. <a href="http://jsperf.com/jquery-find-vs-context-sel/16" target="_blank" rel="nofollow noopener noreferrer">jsPerf</a></li>
+<li>For DOM queries use Cascading <code class="language-text">$('.sidebar ul')</code> or parent > child <code class="language-text">$('.sidebar > ul')</code>. <a href="http://jsperf.com/jquery-find-vs-context-sel/16" target="_blank" rel="nofollow noopener noreferrer">jsPerf</a></li>
 <li>Use <code class="language-text">find</code> with scoped jQuery object queries.</li>
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">// bad
-$(&#39;ul&#39;, &#39;.sidebar&#39;).hide();
+$('ul', '.sidebar').hide();
 
 // bad
-$(&#39;.sidebar&#39;).find(&#39;ul&#39;).hide();
+$('.sidebar').find('ul').hide();
 
 // good
-$(&#39;.sidebar ul&#39;).hide();
+$('.sidebar ul').hide();
 
 // good
-$(&#39;.sidebar &gt; ul&#39;).hide();
+$('.sidebar > ul').hide();
 
 // good
-$sidebar.find(&#39;ul&#39;).hide();</code></pre></div>
+$sidebar.find('ul').hide();</code></pre></div>
 <p><a href="#table-of-contents">⬆ back to top</a></p>
 <h2 id="ecmascript-5-compatibility" style="position:relative;"><a href="#ecmascript-5-compatibility" aria-label="ecmascript 5 compatibility permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ECMAScript 5 Compatibility</h2>
 <ul>

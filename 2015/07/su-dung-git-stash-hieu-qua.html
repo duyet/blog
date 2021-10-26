@@ -53,14 +53,14 @@
 <h2 id="lưu-lại-thay-đổi" style="position:relative;"><a href="#l%C6%B0u-l%E1%BA%A1i-thay-%C4%91%E1%BB%95i" aria-label="lưu lại thay đổi permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lưu lại thay đổi</h2>
 <p><code class="language-text">Git stash</code> được sử dụng khi muốn lưu lại các thay đổi <strong>chưa commit</strong>, thường rất hữu dụng khi bạn muốn đổi sang 1 branch khác mà lại đang làm dở ở branch hiện tại.</p>
 <p>Muốn lưu toàn bộ nội dung công việc đang làm dở, bạn có thể sử dụng <code class="language-text">git stash</code> như sau</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"># or just &quot;git stash&quot;</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"># or just "git stash"</code></pre></div>
 <p>Khi này branch đã trở nên “sạch sẽ” và <code class="language-text">git status</code> sẽ cho thấy bạn có thể chuyển sang branch tuỳ thích. Bạn có thể <code class="language-text">git stash</code> <strong>bao nhiêu lần tuỳ thích</strong> và mỗi lần đó git sẽ lưu toàn bộ lần thay đổi đó như 1 phần tử trong 1 stack.</p>
 <h2 id="lấy-lại-thay-đổi" style="position:relative;"><a href="#l%E1%BA%A5y-l%E1%BA%A1i-thay-%C4%91%E1%BB%95i" aria-label="lấy lại thay đổi permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lấy lại thay đổi</h2>
 <p>Sau khi đã git stash 1 hoặc vài lần, bạn có thể xem lại danh sách các lần lưu thay đổi bằng câu lệnh</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ git stash list
-stash@{0}: WIP on &lt;branch-name&gt;: &lt;lastest commit&gt;
-stash@{1}: WIP on &lt;branch-name&gt;: &lt;lastest commit&gt;
-stash@{2}: WIP on &lt;branch-name&gt;: &lt;lastest commit&gt;
+stash@{0}: WIP on &lt;branch-name>: &lt;lastest commit>
+stash@{1}: WIP on &lt;branch-name>: &lt;lastest commit>
+stash@{2}: WIP on &lt;branch-name>: &lt;lastest commit>
 </code></pre></div>
 <p>Nếu muốn xem cả nội dung của từng thay đổi thì thêm option <code class="language-text">-p</code></p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ git stash list -p

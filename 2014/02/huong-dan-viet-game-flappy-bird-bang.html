@@ -117,7 +117,7 @@ game<span class="token punctuation">.</span>state<span class="token punctuation"
 <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre></div>
 <ul>
 <li>Bắt đầu là hàm <code class="language-text">preload()</code>, hàm <code class="language-text">preload</code> sẽ cho chúng ta load hình ảnh khi trang được load, và sẽ gán cho nó 1 cái nickname</li>
-<li>Tiếp theo là hàm <code class="language-text">create()</code>, khởi tạo game. <code class="language-text">this.game.add.sprite(100, 245, &#39;bird&#39;);</code> sẽ thêm hình con chim tại tọa độ <code class="language-text">(x, y) = (100, 245)</code></li>
+<li>Tiếp theo là hàm <code class="language-text">create()</code>, khởi tạo game. <code class="language-text">this.game.add.sprite(100, 245, 'bird');</code> sẽ thêm hình con chim tại tọa độ <code class="language-text">(x, y) = (100, 245)</code></li>
 <li><code class="language-text">this.bird.body.gravity.y = 1000;</code> sẽ làm cho chú chim của chúng ta rơi xuống theo trục <code class="language-text">y</code></li>
 <li><code class="language-text">space_key.onDown.add(this.jump, this);</code> khi nhấn thanh spacebar sẽ chạy hàm <code class="language-text">jump()</code> làm cho chú chim nhảy lên. Chúng ta viết tiếp hàm <code class="language-text">jump()</code> và hàm <code class="language-text">restart_game()</code> bên dưới.</li>
 </ul>

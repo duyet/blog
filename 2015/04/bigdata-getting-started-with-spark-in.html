@@ -60,7 +60,7 @@
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ pyspark
 Python 2.7.8 (default, Dec  2 2014, 12:45:58)
 [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.54)] on darwin
-Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+Type "help", "copyright", "credits" or "license" for more information.
 Spark assembly has been built with Hive, including Datanucleus jars on classpath
 Using Sparks default log4j profile: org/apache/spark/log4j-defaults.properties
 [… snip …]
@@ -73,7 +73,7 @@ Welcome to
 
 Using Python version 2.7.8 (default, Dec  2 2014 12:45:58)
 SparkContext available as sc.
-&gt;&gt;&gt;
+>>>
 </code></pre></div>
 <p>At this point Spark is installed and ready to use on your local machine in “standalone mode.” You can develop applications here and submit Spark jobs that will run in a multi-process/multi-threaded mode, or you can configure this machine as a client to a cluster (though this is not recommended as the driver plays an important role in Spark jobs and should be in the same network as the rest of the cluster). Probably the most you will do with Spark on your local machine beyond development is to use the spark-ec2 scripts to configure an EC2 Spark cluster on Amazon’s cloud.</p>
 <p>Minimizing the Verbosity of Spark</p>
@@ -101,9 +101,9 @@ log4j.logger.org.apache.spark.repl.SparkILoop$SparkILoopInterpreter=WARN</code><
 <li>Create an iPython notebook profile for our Spark configuration.</li>
 </ol>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">~$ ipython profile create spark
-[ProfileCreate] Generating default config file: u&#39;$HOME/.ipython/profile_spark/ipython_config.py&#39;
-[ProfileCreate] Generating default config file: u&#39;$HOME/.ipython/profile_spark/ipython_notebook_config.py&#39;
-[ProfileCreate] Generating default config file: u&#39;$HOME/.ipython/profile_spark/ipython_nbconvert_config.py</code></pre></div>
+[ProfileCreate] Generating default config file: u'$HOME/.ipython/profile_spark/ipython_config.py'
+[ProfileCreate] Generating default config file: u'$HOME/.ipython/profile_spark/ipython_notebook_config.py'
+[ProfileCreate] Generating default config file: u'$HOME/.ipython/profile_spark/ipython_nbconvert_config.py</code></pre></div>
 <p>Keep note of where the profile has been created, and replace the appropriate paths in the following steps:</p>
 <ol start="2">
 <li>Create a file in <strong>$HOME/.ipython/profile_spark/startup/00-pyspark-setup.py</strong> and add the following:</li>
@@ -112,15 +112,15 @@ log4j.logger.org.apache.spark.repl.SparkILoop$SparkILoopInterpreter=WARN</code><
 import sys
 
 # Configure the environment
-if &#39;SPARK_HOME&#39; not in os.environ:
-    os.environ[&#39;SPARK_HOME&#39;] = &#39;/srv/spark&#39;
+if 'SPARK_HOME' not in os.environ:
+    os.environ['SPARK_HOME'] = '/srv/spark'
 
 # Create a variable for our root path
-SPARK_HOME = os.environ[&#39;SPARK_HOME&#39;]
+SPARK_HOME = os.environ['SPARK_HOME']
 
 # Add the PySpark/py4j to the Python Path
-sys.path.insert(0, os.path.join(SPARK_HOME, &quot;python&quot;, &quot;build&quot;))
-sys.path.insert(0, os.path.join(SPARK_HOME, &quot;python&quot;))</code></pre></div>
+sys.path.insert(0, os.path.join(SPARK_HOME, "python", "build"))
+sys.path.insert(0, os.path.join(SPARK_HOME, "python"))</code></pre></div>
 <ol start="3">
 <li>Start up an IPython notebook with the profile we just created.</li>
 </ol>
@@ -133,14 +133,14 @@ sys.path.insert(0, os.path.join(SPARK_HOME, &quot;python&quot;))</code></pre></d
 <li>At the top of your IPython notebook, make sure you add the Spark context.</li>
 </ol>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">from pyspark import  SparkContext
-sc = SparkContext( &#39;local&#39;, &#39;pyspark&#39;)</code></pre></div>
+sc = SparkContext( 'local', 'pyspark')</code></pre></div>
 <ol start="6">
 <li>Test the Spark context by doing a simple computation using IPython.</li>
 </ol>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">def isprime(n):
-    &quot;&quot;&quot;
+    """
     check if integer n is a prime
-    &quot;&quot;&quot;
+    """
     # make sure n is a positive integer
     n = abs(int(n))
     # 0 and 1 are not primes
@@ -187,7 +187,7 @@ Writing Spark applications is similar to working with Spark in the interactive c
 from pyspark import SparkConf, SparkContext
 
 ## Module Constants
-APP_NAME = &quot;My Spark Application&quot;
+APP_NAME = "My Spark Application"
 
 ## Closure Functions
 
@@ -196,10 +196,10 @@ APP_NAME = &quot;My Spark Application&quot;
 def main(sc):
     pass
 
-if __name__ == &quot;__main__&quot;:
+if __name__ == "__main__":
     # Configure Spark
     conf = SparkConf().setAppName(APP_NAME)
-    conf = conf.setMaster(&quot;local[*]&quot;)
+    conf = conf.setMaster("local[*]")
     sc   = SparkContext(conf=conf)
 
     # Execute Main functionality
@@ -220,19 +220,19 @@ from operator import add, itemgetter
 from pyspark import SparkConf, SparkContext
 
 ## Module Constants
-APP_NAME = &quot;Flight Delay Analysis&quot;
-DATE_FMT = &quot;%Y-%m-%d&quot;
-TIME_FMT = &quot;%H%M&quot;
+APP_NAME = "Flight Delay Analysis"
+DATE_FMT = "%Y-%m-%d"
+TIME_FMT = "%H%M"
 
-fields   = (&#39;date&#39;, &#39;airline&#39;, &#39;flightnum&#39;, &#39;origin&#39;, &#39;dest&#39;, &#39;dep&#39;,
-            &#39;dep_delay&#39;, &#39;arv&#39;, &#39;arv_delay&#39;, &#39;airtime&#39;, &#39;distance&#39;)
-Flight   = namedtuple(&#39;Flight&#39;, fields)
+fields   = ('date', 'airline', 'flightnum', 'origin', 'dest', 'dep',
+            'dep_delay', 'arv', 'arv_delay', 'airtime', 'distance')
+Flight   = namedtuple('Flight', fields)
 
 ## Closure Functions
 def parse(row):
-    &quot;&quot;&quot;
+    """
     Parses a row and returns a named tuple.
-    &quot;&quot;&quot;
+    """
 
     row[0]  = datetime.strptime(row[0], DATE_FMT).date()
     row[5]  = datetime.strptime(row[5], TIME_FMT).time()
@@ -244,16 +244,16 @@ def parse(row):
     return Flight(*row[:11])
 
 def split(line):
-    &quot;&quot;&quot;
+    """
     Operator function for splitting a line with csv module
-    &quot;&quot;&quot;
+    """
     reader = csv.reader(StringIO(line))
     return reader.next()
 
 def plot(delays):
-    &quot;&quot;&quot;
+    """
     Show a bar chart of the total delay per airline
-    &quot;&quot;&quot;
+    """
     airlines = [d[0] for d in delays]
     minutes  = [d[1] for d in delays]
     index    = list(xrange(len(airlines)))
@@ -263,35 +263,35 @@ def plot(delays):
 
     # Add the total minutes to the right
     for idx, air, min in zip(index, airlines, minutes):
-        if min &gt; 0:
-            bars[idx].set_color(&#39;#d9230f&#39;)
-            axe.annotate(&quot; %0.0f min&quot; % min, xy=(min+1, idx+0.5), va=&#39;center&#39;)
+        if min > 0:
+            bars[idx].set_color('#d9230f')
+            axe.annotate(" %0.0f min" % min, xy=(min+1, idx+0.5), va='center')
         else:
-            bars[idx].set_color(&#39;#469408&#39;)
-            axe.annotate(&quot; %0.0f min&quot; % min, xy=(10, idx+0.5), va=&#39;center&#39;)
+            bars[idx].set_color('#469408')
+            axe.annotate(" %0.0f min" % min, xy=(10, idx+0.5), va='center')
 
     # Set the ticks
     ticks = plt.yticks([idx+ 0.5 for idx in index], airlines)
     xt = plt.xticks()[0]
-    plt.xticks(xt, [&#39; &#39;] * len(xt))
+    plt.xticks(xt, [' '] * len(xt))
 
     # minimize chart junk
-    plt.grid(axis = &#39;x&#39;, color =&#39;white&#39;, linestyle=&#39;-&#39;)
+    plt.grid(axis = 'x', color ='white', linestyle='-')
 
-    plt.title(&#39;Total Minutes Delayed per Airline&#39;)
+    plt.title('Total Minutes Delayed per Airline')
     plt.show()
 
 ## Main functionality
 def main(sc):
 
     # Load the airlines lookup dictionary
-    airlines = dict(sc.textFile(&quot;ontime/airlines.csv&quot;).map(split).collect())
+    airlines = dict(sc.textFile("ontime/airlines.csv").map(split).collect())
 
     # Broadcast the lookup dictionary to the cluster
     airline_lookup = sc.broadcast(airlines)
 
     # Read the CSV Data into an RDD
-    flights = sc.textFile(&quot;ontime/flights.csv&quot;).map(split).map(parse)
+    flights = sc.textFile("ontime/flights.csv").map(split).map(parse)
 
     # Map the total delay to the airline (joined using the broadcast value)
     delays  = flights.map(lambda f: (airline_lookup.value[f.airline],
@@ -303,14 +303,14 @@ def main(sc):
 
     # Provide output from the driver
     for d in delays:
-        print &quot;%0.0f minutes delayed\t%s&quot; % (d[1], d[0])
+        print "%0.0f minutes delayed\t%s" % (d[1], d[0])
 
     # Show a bar chart of the delays
     plot(delays)
 
-if __name__ == &quot;__main__&quot;:
+if __name__ == "__main__":
     # Configure Spark
-    conf = SparkConf().setMaster(&quot;local[*]&quot;)
+    conf = SparkConf().setMaster("local[*]")
     conf = conf.setAppName(APP_NAME)
     sc   = SparkContext(conf=conf)
 

@@ -84,7 +84,7 @@ f</code></pre></div>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">?column?
 --------
 t</code></pre></div>
-<p>Use the proximity symbol <code class="language-text">&lt;-&gt;</code> for searching for terms that are a certain “distance” apart.
+<p>Use the proximity symbol <code class="language-text">&lt;-></code> for searching for terms that are a certain “distance” apart.
 For example, search the phase <code class="language-text">green egg</code>, <code class="language-text">green</code> is followed immediately by a match for <code class="language-text">egg</code>.</p>
 <div class="gatsby-highlight" data-language="sql"><pre class="language-sql"><code class="language-sql"><span class="token keyword">select</span> to_tsvector<span class="token punctuation">(</span><span class="token string">"the green eggs and ham"</span><span class="token punctuation">)</span> @@ to_tsquery<span class="token punctuation">(</span><span class="token string">"green &lt;-> egg"</span><span class="token punctuation">)</span></code></pre></div>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">?column?
