@@ -77,7 +77,7 @@ If you are completely new to git, I suggest reading <a href="http://www.alexkras
 <p><strong>Sample Command</strong><code class="language-text">git log --oneline --graph</code>
 Chances are, by now you’ve used git log. It supports a number of command line parameters, which are very powerful, especially when used in combination. Here are the ones that I use the most:</p>
 <ul>
-<li><code class="language-text">--author="Alex Kras"</code> – Only show commits made by a certain author</li>
+<li><code class="language-text">--author=&quot;Alex Kras&quot;</code> – Only show commits made by a certain author</li>
 <li><code class="language-text">--name-only</code> – Only show names of files that changed</li>
 <li><code class="language-text">--oneline</code> – Show commit data compressed to one line</li>
 <li><code class="language-text">--graph</code> – Show dependency tree for all commits</li>
@@ -85,7 +85,7 @@ Chances are, by now you’ve used git log. It supports a number of command line 
 <li><code class="language-text">--after</code> – Show all commits that happened after certain date</li>
 <li><code class="language-text">--before</code> – Show all commits that happened before certain data</li>
 </ul>
-<p>For example, I once had a manager who required weekly reports submitted each Friday. So every Friday I would just run: <code class="language-text">git log --author="Alex Kras" --after="1 week ago" --oneline</code>, edit it a little and send it in to the manager for review.
+<p>For example, I once had a manager who required weekly reports submitted each Friday. So every Friday I would just run: <code class="language-text">git log --author=&quot;Alex Kras&quot; --after=&quot;1 week ago&quot; --oneline</code>, edit it a little and send it in to the manager for review.
 Git has a lot more command line parameters that are handy. Just run <code class="language-text">man git log</code> and see what it can do for you.
 If everything else fails, git has a <code class="language-text">--pretty</code> parameter that let’s you create a highly customizable output.
 <a href="http://www.alexkras.com/wp-content/uploads/git-log-oneline.png" target="_blank" rel="nofollow noopener noreferrer"><figure class="md-figure"><img src="http://www.alexkras.com/wp-content/uploads/git-log-oneline.png"><figcaption>git-log-oneline</figcaption></figure></a>
@@ -93,7 +93,7 @@ If everything else fails, git has a <code class="language-text">--pretty</code> 
 <h2 id="2-log-actual-changes-in-a-file" style="position:relative;"><a href="#2-log-actual-changes-in-a-file" aria-label="2 log actual changes in a file permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Log actual changes in a file</h2>
 <p><strong>Sample Command</strong><code class="language-text">git log -p filename</code>
 <code class="language-text">git log -p</code> or <code class="language-text">git log -p filename</code> lets you view not only the commit message, author, and date, but actual changes that took place in each commit.
-Then you can use the regular <code class="language-text">less</code> search command of “slash” followed by your search term<code class="language-text">/{{ "{{" }}your-search-here}}</code> to look for changes to a particular keyword over time. (Use lower case n to go to the next result, and upper case N to go to the previous result).
+Then you can use the regular <code class="language-text">less</code> search command of “slash” followed by your search term<code class="language-text">/{{ &quot;{{&quot; }}your-search-here}}</code> to look for changes to a particular keyword over time. (Use lower case n to go to the next result, and upper case N to go to the previous result).
 <a href="http://www.alexkras.com/wp-content/uploads/git-log-search.png" target="_blank" rel="nofollow noopener noreferrer"><figure class="md-figure"><img src="http://www.alexkras.com/wp-content/uploads/git-log-search.png"><figcaption>git-log-search</figcaption></figure></a>
 <a href="https://www.blogger.com/null" target="_blank" rel="nofollow noopener noreferrer">https://www.blogger.com/null</a></p>
 <h2 id="3-only-log-changes-for-some-specific-lines-in-a-file" style="position:relative;"><a href="#3-only-log-changes-for-some-specific-lines-in-a-file" aria-label="3 only log changes for some specific lines in a file permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Only Log changes for some specific lines in a file</h2>
@@ -116,7 +116,7 @@ You can also do <code class="language-text">git show --no-merges master..</code>
 Sometimes it is nice to take a pick at an entire file on a different branch, without switching to this branch.
 You can do so via <code class="language-text">git show some-branch-name:some-file-name.js</code>, which would show the file in your terminal.
 You can also redirect the output to a temporary file, so you can perhaps open it up in a side by side view in your editor of choice.
-<code class="language-text">git show some-branch-name:some-file-name.js > deleteme.js</code>
+<code class="language-text">git show some-branch-name:some-file-name.js &gt; deleteme.js</code>
 Note: If all you want to see is a diff between two files, you can simple run:<br>
 <code class="language-text">git diff some-branch some-filename.js</code>
 <a href="https://www.blogger.com/null" target="_blank" rel="nofollow noopener noreferrer">https://www.blogger.com/null</a></p>
@@ -132,7 +132,7 @@ If you follow that guideline, you’ll be fine. > If you don’t, people will ha
 </blockquote>
 <p><a href="https://git-scm.com/book/en/v2/Git-Branching-Rebasing#The-Perils-of-Rebasing" target="_blank" rel="nofollow noopener noreferrer">https://git-scm.com/book/en/v2/Git-Branching-Rebasing#The-Perils-of-Rebasing</a>
 That being said, rebasing is not something to be afraid of either, rather something that you should do with care.
-Probably the best way to rebase is using <strong>interactive rebasing</strong>, invoked via <code class="language-text">git rebase -i {{ "{{" }}some commit hash}}</code>. It will open up an editor, with self explanatory instruction. Since rebasing is outside of the scope of this article, I’ll leave it at that.
+Probably the best way to rebase is using <strong>interactive rebasing</strong>, invoked via <code class="language-text">git rebase -i {{ &quot;{{&quot; }}some commit hash}}</code>. It will open up an editor, with self explanatory instruction. Since rebasing is outside of the scope of this article, I’ll leave it at that.
 <a href="http://www.alexkras.com/wp-content/uploads/git-rebase-i.png" target="_blank" rel="nofollow noopener noreferrer"><figure class="md-figure"><img src="http://www.alexkras.com/wp-content/uploads/git-rebase-i.png"><figcaption>git-rebase-i</figcaption></figure></a></p>
 <h3 id="one-particular-rebase-that-is-very-helpful-is-git-pull---rebase" style="position:relative;"><a href="#one-particular-rebase-that-is-very-helpful-is-git-pull---rebase" aria-label="one particular rebase that is very helpful is git pull   rebase permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>One particular rebase that is very helpful is <code class="language-text">git pull --rebase</code>.</h3>
 <p>For example, imagine you are working on a local version of a master branch, and you made one small commit. At the same time, somebody else checked in a week worth of work onto the master branch. When you try to push your change, git tells you to do a <code class="language-text">git pull</code> first, to resolve the conflict. Being a good citizen that you are, you do a <code class="language-text">git pull</code> to end up with the following commit message auto generated by git.</p>
@@ -181,16 +181,16 @@ There are a couple of options available to you to move the files to a different 
 <h3 id="resetting-the-files" style="position:relative;"><a href="#resetting-the-files" aria-label="resetting the files permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resetting the files</h3>
 <p>There are 3 types of reset available in git. A reset allows you to return to a particular version in git history.</p>
 <ol>
-<li><code class="language-text">git reset --hard {{ "{{" }}some-commit-hash}}</code> – Return to a particular point in history. <strong>All changes made after this commit are discarded</strong>.</li>
-<li><code class="language-text">git reset {{ "{{" }}some-commit-hash}}</code> – Return to a particular point in history. <strong>All changes made after this commit are moved “not yet staged for commit” stage</strong>. Meaning you would have to run <code class="language-text">git add .</code> and <code class="language-text">git commit</code> to add them back in.</li>
-<li><code class="language-text">git reset --soft {{ "{{" }}some-commit-hash}}</code> – Return to a particular point in history. <strong>All changes made after this commit are moved to “staged for commit” stage</strong>. Meaning you only need to run <code class="language-text">git commit</code> to add them back in.</li>
+<li><code class="language-text">git reset --hard {{ &quot;{{&quot; }}some-commit-hash}}</code> – Return to a particular point in history. <strong>All changes made after this commit are discarded</strong>.</li>
+<li><code class="language-text">git reset {{ &quot;{{&quot; }}some-commit-hash}}</code> – Return to a particular point in history. <strong>All changes made after this commit are moved “not yet staged for commit” stage</strong>. Meaning you would have to run <code class="language-text">git add .</code> and <code class="language-text">git commit</code> to add them back in.</li>
+<li><code class="language-text">git reset --soft {{ &quot;{{&quot; }}some-commit-hash}}</code> – Return to a particular point in history. <strong>All changes made after this commit are moved to “staged for commit” stage</strong>. Meaning you only need to run <code class="language-text">git commit</code> to add them back in.</li>
 </ol>
 <p>This may appear as useless information at first, but it is actually very handy when you are trying to move through different version of the file.
 Common use cases that I find myself using the reset are bellow:</p>
 <ol>
 <li>I want to forget all the changes I’ve made, clean start – <code class="language-text">git reset --hard HEAD</code> (Most common)</li>
-<li>I want to edit, re-stage and re-commit files in some different order – <code class="language-text">git reset {{ "{{" }}some-start-point-hash}}</code></li>
-<li>I just want to re commit past 3 commits, as one big commit – <code class="language-text">git reset --soft {{ "{{" }}some-start-point-hash}}</code></li>
+<li>I want to edit, re-stage and re-commit files in some different order – <code class="language-text">git reset {{ &quot;{{&quot; }}some-start-point-hash}}</code></li>
+<li>I just want to re commit past 3 commits, as one big commit – <code class="language-text">git reset --soft {{ &quot;{{&quot; }}some-start-point-hash}}</code></li>
 </ol>
 <h3 id="check-out-some-files" style="position:relative;"><a href="#check-out-some-files" aria-label="check out some files permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Check out some files</h3>
 <p>If you simply want to forget some local changes for some files, but at the same time want to keep changes made in other files, it is much easier to check out committed versions of the files that you want to forget, via:<br>
@@ -198,7 +198,7 @@ Common use cases that I find myself using the reset are bellow:</p>
 It’s like running <code class="language-text">git reset --hard</code> but only on some of the files.
 As mentioned before you can also check out a different version of a file from another branch or commit.
 <code class="language-text">git checkout some-branch-name file-name.js</code> and<br>
-<code class="language-text">git checkout {{ "{{" }}some-commit-hash}} file-name.js</code>
+<code class="language-text">git checkout {{ &quot;{{&quot; }}some-commit-hash}} file-name.js</code>
 You’ll notice that the checked out files will be in a “staged for commit” stage. To move them back to “un-staged for commit” stage, you would have to do a <code class="language-text">git reset HEAD file-name.js</code>. You can run <code class="language-text">git checkout file-name.js</code> again, to return the file to it’s original state.
 Note, that running <code class="language-text">git reset --hard HEAD file-name.js</code> does not work. In general, moving through various stages in git is a bit confusing and the pattern is not always clear, which I hoped is to remedied a bit with this section.
 <a href="https://www.blogger.com/null" target="_blank" rel="nofollow noopener noreferrer">https://www.blogger.com/null</a></p>
@@ -237,7 +237,7 @@ You can see all of the remote branches by running git branch with the <code clas
 You might want to run <code class="language-text">git fetch -p</code> (fetch and purge old data) first, to make sure your data is up to date.
 <a href="http://www.alexkras.com/wp-content/uploads/git-branch-a-merged.png" target="_blank" rel="nofollow noopener noreferrer"><figure class="md-figure"><img src="http://www.alexkras.com/wp-content/uploads/git-branch-a-merged.png"><figcaption>git-branch-a-merged</figcaption></figure></a>
 If you want to get really fancy, you can get a list of all the remote branches, and the list of last commits made on those branches by running:<br>
-<code class="language-text">git for-each-ref --sort=committerdate --format='%(refname:short) *  %(authorname) * %(committerdate:relative)' refs/remotes/ | column -t -s '*'</code>.
+<code class="language-text">git for-each-ref --sort=committerdate --format=&#39;%(refname:short) *  %(authorname) * %(committerdate:relative)&#39; refs/remotes/ | column -t -s &#39;*&#39;</code>.
 <a href="http://www.alexkras.com/wp-content/uploads/fancy-branch-view.png" target="_blank" rel="nofollow noopener noreferrer"><figure class="md-figure"><img src="http://www.alexkras.com/wp-content/uploads/fancy-branch-view.png"><figcaption>fancy-branch-view</figcaption></figure></a>
 Unfortunately, there is no easy way (that I know of) to only show merged branches. So you might have to just compare the two outputs or write a script to do it for you.
 <a href="https://www.blogger.com/null" target="_blank" rel="nofollow noopener noreferrer">https://www.blogger.com/null</a></p>
@@ -273,13 +273,13 @@ For example:<br>
 Best way to use Git is via command line, and the best way to learn the command line is by doing everything the hard way first (typing everything out).
 After a while, however, it might be a good idea to track down your most used commands, and create an easier aliases for them.
 Git comes with built in aliases, for example you can run the following command once:
-<code class="language-text">git config --global alias.l "log --oneline --graph"</code>
+<code class="language-text">git config --global alias.l &quot;log --oneline --graph&quot;</code>
 Which would create a new git alias named <code class="language-text">l</code>, that would allow you to run:<br>
 <code class="language-text">git l</code> instead of <code class="language-text">git log --oneline --graph</code>.
-<em>Note that you can also append other parameters after the alias (i.e. <code class="language-text">git l --author="Alex"</code>).</em>
+<em>Note that you can also append other parameters after the alias (i.e. <code class="language-text">git l --author=&quot;Alex&quot;</code>).</em>
 Another alternative, is good old Bash alias.
 For example, I have the following entry in my .bashrc file.
-<code class="language-text">alias gil="git log –online –graph"</code>, allowing me to use <code class="language-text">gil</code> instead of the long command,which is even 2 character shorter than having to type <code class="language-text">git l</code> :).
+<code class="language-text">alias gil=&quot;git log –online –graph&quot;</code>, allowing me to use <code class="language-text">gil</code> instead of the long command,which is even 2 character shorter than having to type <code class="language-text">git l</code> :).
 <a href="https://www.blogger.com/null" target="_blank" rel="nofollow noopener noreferrer">https://www.blogger.com/null</a></p>
 <h2 id="19-quickly-find-a-commit-that-broke-your-feature-extra-awesome" style="position:relative;"><a href="#19-quickly-find-a-commit-that-broke-your-feature-extra-awesome" aria-label="19 quickly find a commit that broke your feature extra awesome permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>19. Quickly find a commit that broke your feature (EXTRA AWESOME)</h2>
 <p><strong>Sample:</strong><code class="language-text">git bisect</code>
@@ -299,8 +299,8 @@ Since you divide the number of commits by half on every iteration, you are able 
 <h3 id="the-actual-commands-you-need-to-run-to-execute-the-full-git-bisect-flow-are" style="position:relative;"><a href="#the-actual-commands-you-need-to-run-to-execute-the-full-git-bisect-flow-are" aria-label="the actual commands you need to run to execute the full git bisect flow are permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The actual commands you need to run to execute the full <code class="language-text">git bisect</code> flow are:</h3>
 <ol>
 <li><code class="language-text">git bisect start</code> – let git know to start bisecting.</li>
-<li><code class="language-text">git bisect good {{ "{{" }}some-commit-hash}}</code> – let git know about a known good commit (i.e. last commit that you made before the vacation).</li>
-<li><code class="language-text">git bisect bad {{ "{{" }}some-commit-hash}}</code> – let git know about a known bad commit (i.e. the HEAD of the master branch). <code class="language-text">git bisect bad HEAD</code> (HEAD just means the last commit).</li>
+<li><code class="language-text">git bisect good {{ &quot;{{&quot; }}some-commit-hash}}</code> – let git know about a known good commit (i.e. last commit that you made before the vacation).</li>
+<li><code class="language-text">git bisect bad {{ &quot;{{&quot; }}some-commit-hash}}</code> – let git know about a known bad commit (i.e. the HEAD of the master branch). <code class="language-text">git bisect bad HEAD</code> (HEAD just means the last commit).</li>
 <li>At this point git would check out a middle commit, and let you know to run your tests.</li>
 <li><code class="language-text">git bisect bad</code> – let git know that the feature does not work in currently checked out commit.</li>
 <li><code class="language-text">git bisect good</code> – let git know that the feature does work in currently checked out commit.</li>

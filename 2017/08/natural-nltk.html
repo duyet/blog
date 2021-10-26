@@ -58,55 +58,55 @@
 <p>Mình sẽ ví dụ một số tác vụ xử lý ngôn ngữ tự nhiên mà natural có thể làm được.</p>
 <h2 id="tokenizers" style="position:relative;"><a href="#tokenizers" aria-label="tokenizers permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tokenizers</h2>
 <p>Word, Regexp, and <a href="http://www.cis.upenn.edu/~treebank/tokenization.html" target="_blank" rel="nofollow noopener noreferrer">Treebank tokenizers</a></p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var natural = require('natural');
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var natural = require(&#39;natural&#39;);
 var tokenizer = new natural.WordTokenizer();
-console.log(tokenizer.tokenize("your dog has fleas."));
-// [ 'your', 'dog', 'has', 'fleas' ]
+console.log(tokenizer.tokenize(&quot;your dog has fleas.&quot;));
+// [ &#39;your&#39;, &#39;dog&#39;, &#39;has&#39;, &#39;fleas&#39; ]
 
 tokenizer = new natural.TreebankWordTokenizer();
-console.log(tokenizer.tokenize("my dog hasn't any fleas."));
-// [ 'my', 'dog', 'has', 'n\'t', 'any', 'fleas', '.' ]
+console.log(tokenizer.tokenize(&quot;my dog hasn&#39;t any fleas.&quot;));
+// [ &#39;my&#39;, &#39;dog&#39;, &#39;has&#39;, &#39;n\&#39;t&#39;, &#39;any&#39;, &#39;fleas&#39;, &#39;.&#39; ]
 
 tokenizer = new natural.RegexpTokenizer({pattern: /\-/});
-console.log(tokenizer.tokenize("flea-dog"));
-// [ 'flea', 'dog' ]
+console.log(tokenizer.tokenize(&quot;flea-dog&quot;));
+// [ &#39;flea&#39;, &#39;dog&#39; ]
 
 tokenizer = new natural.WordPunctTokenizer();
-console.log(tokenizer.tokenize("my dog hasn't any fleas."));
-// [ 'my',  'dog',  'hasn',  '\'',  't',  'any',  'fleas',  '.' ]</code></pre></div>
+console.log(tokenizer.tokenize(&quot;my dog hasn&#39;t any fleas.&quot;));
+// [ &#39;my&#39;,  &#39;dog&#39;,  &#39;hasn&#39;,  &#39;\&#39;&#39;,  &#39;t&#39;,  &#39;any&#39;,  &#39;fleas&#39;,  &#39;.&#39; ]</code></pre></div>
 <h2 id="string-distance" style="position:relative;"><a href="#string-distance" aria-label="string distance permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>String Distance</h2>
 <p>Natural sử dụng thuật toán <a href="http://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance" target="_blank" rel="nofollow noopener noreferrer">Jaro–Winkler</a>, Levenshtein và Dice’s co-efficient để tính khoảng cách giữa 2 string.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var natural = require('natural');
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var natural = require(&#39;natural&#39;);
 
 // JaroWinklerDistance (0 = not at all, 1 = exact match)
-console.log(natural.JaroWinklerDistance("dixon","dicksonx")) // -> 0.7466666666666666
-console.log(natural.JaroWinklerDistance('not', 'same')); // -> 0
+console.log(natural.JaroWinklerDistance(&quot;dixon&quot;,&quot;dicksonx&quot;)) // -&gt; 0.7466666666666666
+console.log(natural.JaroWinklerDistance(&#39;not&#39;, &#39;same&#39;)); // -&gt; 0
 
-console.log(natural.LevenshteinDistance("ones","onez")); // -> 1
-console.log(natural.LevenshteinDistance('one', 'one')); // -> 0</code></pre></div>
+console.log(natural.LevenshteinDistance(&quot;ones&quot;,&quot;onez&quot;)); // -&gt; 1
+console.log(natural.LevenshteinDistance(&#39;one&#39;, &#39;one&#39;)); // -&gt; 0</code></pre></div>
 <h2 id="classifiers" style="position:relative;"><a href="#classifiers" aria-label="classifiers permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Classifiers</h2>
 <p>Để phân lớp văn bản, natural hỗ trợ 2 thuật toán là <a href="http://en.wikipedia.org/wiki/Naive_Bayes_classifier" target="_blank" rel="nofollow noopener noreferrer">Naive Bayes</a> và <a href="http://en.wikipedia.org/wiki/Logistic_regression" target="_blank" rel="nofollow noopener noreferrer">logistic regression</a>. Ví dụ sau sử dụng BayesClassifier.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var natural = require('natural');
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var natural = require(&#39;natural&#39;);
 var classifier = new natural.BayesClassifier();</code></pre></div>
 <p>Training dữ liệu:</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">classifier.addDocument('i am long qqqq', 'buy');
-classifier.addDocument('buy the q\'s', 'buy');
-classifier.addDocument('short gold', 'sell');
-classifier.addDocument('sell gold', 'sell');
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">classifier.addDocument(&#39;i am long qqqq&#39;, &#39;buy&#39;);
+classifier.addDocument(&#39;buy the q\&#39;s&#39;, &#39;buy&#39;);
+classifier.addDocument(&#39;short gold&#39;, &#39;sell&#39;);
+classifier.addDocument(&#39;sell gold&#39;, &#39;sell&#39;);
 
 classifier.train();</code></pre></div>
 <p>Classify một đoạn văn bản mới:</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">console.log(classifier.classify('i am short silver')); // sell
-console.log(classifier.classify('i am long copper')); // buy </code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">console.log(classifier.classify(&#39;i am short silver&#39;)); // sell
+console.log(classifier.classify(&#39;i am long copper&#39;)); // buy </code></pre></div>
 <h2 id="n-grams" style="position:relative;"><a href="#n-grams" aria-label="n grams permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>N-Grams</h2>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var NGrams = natural.NGrams;</code></pre></div>
 <h3 id="bigrams" style="position:relative;"><a href="#bigrams" aria-label="bigrams permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>bigrams</h3>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">console.log(NGrams.bigrams('some words here'));
-console.log(NGrams.bigrams(['some',  'words',  'here']));</code></pre></div>
-<p>Cả 2 đoạn trên đều cho kết quả <code class="language-text">[ [ 'some', 'words' ], [ 'words', 'here' ] ]</code></p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">console.log(NGrams.bigrams(&#39;some words here&#39;));
+console.log(NGrams.bigrams([&#39;some&#39;,  &#39;words&#39;,  &#39;here&#39;]));</code></pre></div>
+<p>Cả 2 đoạn trên đều cho kết quả <code class="language-text">[ [ &#39;some&#39;, &#39;words&#39; ], [ &#39;words&#39;, &#39;here&#39; ] ]</code></p>
 <h3 id="trigrams" style="position:relative;"><a href="#trigrams" aria-label="trigrams permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>trigrams</h3>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">console.log(NGrams.trigrams('some other words here'));
-console.log(NGrams.trigrams(['some',  'other', 'words',  'here']));</code></pre></div>
-<p>Cả 2 đoạn trên đều cho kết quả <code class="language-text">[ [ 'some', 'other', 'words' ], [ 'other', 'words', 'here' ] ]</code></p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">console.log(NGrams.trigrams(&#39;some other words here&#39;));
+console.log(NGrams.trigrams([&#39;some&#39;,  &#39;other&#39;, &#39;words&#39;,  &#39;here&#39;]));</code></pre></div>
+<p>Cả 2 đoạn trên đều cho kết quả <code class="language-text">[ [ &#39;some&#39;, &#39;other&#39;, &#39;words&#39; ], [ &#39;other&#39;, &#39;words&#39;, &#39;here&#39; ] ]</code></p>
 <h2 id="kết" style="position:relative;"><a href="#k%E1%BA%BFt" aria-label="kết permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Kết</h2>
 <p><a href="https://github.com/NaturalNode/natural" target="_blank" rel="nofollow noopener noreferrer">natural</a> còn khá nhiều chức năng và thuật toán khác hay cho xử lý ngôn ngữ tự nhiên. Nếu bạn là người yêu thích Javascript và NLP như mình, thay vì Python có NLTK, thì Natural là một sự lựa chọn khá hay và thú vị.</p></div></div></div><div class="Post-module--post__footer--L98TP"><div class="Tags-module--tags--1r6Jk"><ul class="Tags-module--tags__list--3-_4K"><li class="Tags-module--tags__listItem--1aoCp"><a href="/tag/data-engineer/">Data Engineer</a></li><li class="Tags-module--tags__listItem--1aoCp"><a href="/tag/nodejs/">Nodejs</a></li><li class="Tags-module--tags__listItem--1aoCp"><a href="/tag/intro-js/">intro-js</a></li><li class="Tags-module--tags__listItem--1aoCp"><a href="/tag/javascript/">javascript</a></li><li class="Tags-module--tags__listItem--1aoCp"><a href="/tag/nlp/">NLP</a></li><li class="Tags-module--tags__listItem--1aoCp"><a href="/tag/intro-library/">Intro-library</a></li><li class="Tags-module--tags__listItem--1aoCp"><a href="/tag/machine-learning/">Machine Learning</a></li></ul></div><a href="https://ko-fi.com/F1F6WR3R" target="_blank"><img height="36" style="border:0;height:36px" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" alt="Buy Me a Coffee at ko-fi.com"/></a></div><div class="Post-module--post__comments--21hyQ"><button class="Post-module--post__comments__toggle--1C7oP">Show comments</button></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/2017/08/natural-nltk.html";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-ac69b024032d80c6a677.js"],"app":["/app-31c729e7d08ea0fea44c.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-01ba2d8701af3f7f800c.js"],"component---src-templates-categories-list-template-tsx":["/component---src-templates-categories-list-template-tsx-355087680ad55e54699f.js"],"component---src-templates-category-template-tsx":["/component---src-templates-category-template-tsx-2c2d595ada586fcee4d1.js"],"component---src-templates-index-template-tsx":["/component---src-templates-index-template-tsx-dc67a3742c2c2a9e22b3.js"],"component---src-templates-not-found-template-tsx":["/component---src-templates-not-found-template-tsx-5028ed78ede905f9a2d5.js"],"component---src-templates-page-template-tsx":["/component---src-templates-page-template-tsx-6c5586ac599d0e2781ee.js"],"component---src-templates-ping-tsx":["/component---src-templates-ping-tsx-9f9925286cb0e5ad38ac.js"],"component---src-templates-post-template-tsx":["/component---src-templates-post-template-tsx-ef5314d56813b70a537b.js"],"component---src-templates-tag-template-tsx":["/component---src-templates-tag-template-tsx-e6b5b3cebb97ba3a41fd.js"],"component---src-templates-tags-list-template-tsx":["/component---src-templates-tags-list-template-tsx-fad2e1edd71c8907a2bd.js"]};/*]]>*/</script><script src="/polyfill-ac69b024032d80c6a677.js" nomodule=""></script><script src="/component---src-templates-post-template-tsx-ef5314d56813b70a537b.js" async=""></script><script src="/70ba16277e1f8ff187315c677a20c57a8b12f94a-022dbbcede35bb5a0fc4.js" async=""></script><script src="/c39ba592b6b5047a9857340a927d4f5e647ac87b-05bfc2eb7add3979fe8b.js" async=""></script><script src="/app-31c729e7d08ea0fea44c.js" async=""></script><script src="/framework-4723e9af4ac82b4c2cc0.js" async=""></script><script src="/webpack-runtime-216c23dbe321c186ebb2.js" async=""></script></body></html>

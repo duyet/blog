@@ -67,8 +67,8 @@ Sau khi vào máy chủ X, hắn gõ top. Lệnh top hiện ra máy chủ có 4 
 </ul>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ mysql -u root -p
 Enter password: ***********
-mysql> use database database_name;
-mysql> show table status like ‘table_name’\G;
+mysql&gt; use database database_name;
+mysql&gt; show table status like ‘table_name’\G;
 *************************** 1. row ***************************
            Name: table_name
          Engine: InnoDB
@@ -89,16 +89,16 @@ Max_data_length: 0
  Create_options:
         Comment: Latest translation for vid</code></pre></div>
 <p>Để xem chú mày đang bận rộn xử lý cái gì nhé.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">mysql> show process list;
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">mysql&gt; show process list;
 
 1 loạt query kiểu 
 
-"select * from table_name where video_id in (12345, ‘23434’) and language = ‘en-us’;"</code></pre></div>
+&quot;select * from table_name where video_id in (12345, ‘23434’) and language = ‘en-us’;&quot;</code></pre></div>
 <p>“beep, you’ve got mail”. Một mail mới lại về. Máy chủ web đã không thể nào truy cập được X. Zabbix thông báo bản thân zabbix cũng không thể nào truy cập máy chủ X để lấy thông tin giám sát.</p>
 <p>“Tình huống có vẻ nghiêm trọng lên.” hắn lẩm bẩm.</p>
 <p>Máy chủ bận rộn CPU, I/O không lớn chứng tỏ là query trên tốn rất nhiều CPU. Có lẽ CPU đang tốn thời gian để sắp xếp và tìm kiếm, một mình chứng của việc mysql đang phải tìm với 1 lượng dữ liệu lớn. 70000 không phải con số to, do vậy chỉ có thể là máy chủ X đang phải tìm kiếm mà không có chỉ mục (index)!</p>
 <p>“Không lẽ nào!”, vừa nói hắn vừa gõ lệnh</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">mysql> show index from table_name;
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">mysql&gt; show index from table_name;
 
 +-------------+------------+-------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+
 | Table       | Non_unique | Key_name          | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment |
@@ -108,7 +108,7 @@ Max_data_length: 0
 | table_name  |          1 | idx_table_name_1  |       1      | user_id     | A         |     24636   |     NULL | NULL   |      | BTREE      |         |
 +-------------+------------+-------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+</code></pre></div>
 <p>Rất buồn, vậy là video_id có gắn index đàng hoàng. Vậy thì không có lý do gì mà query trên lại không query theo index cả. Thật kỳ lạ. Vậy để thử xem query trên có dùng index không nhé. Đoạn hắn lấy 1 query bất kỳ và thử <a href="http://dev.mysql.com/doc/refman/5.6/en/explain.html" target="_blank" rel="nofollow noopener noreferrer">EXPLAIN</a>.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">mysql> explain SELECT * FROM table_name WHERE `video_id` IN (1412240325) AND `language` = "en-us"\G;
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">mysql&gt; explain SELECT * FROM table_name WHERE `video_id` IN (1412240325) AND `language` = &quot;en-us&quot;\G;
 *************************** 1. row ***************************
            id: 1
   select_type: SIMPLE
@@ -125,7 +125,7 @@ possible_keys: PRIMARY,idx_table_name_2
 ERROR:
 No query specified</code></pre></div>
 <p>key: NULL nghĩa là query trên không sử dụng index! Tại sao bảng có chỉ mục mà query lại không dùng index. Chắc chắn là video_id có vấn đề rồi. Vừa nghĩ hắn vừa gõ câu lệnh show create table để xem kiểu dữ liệu lúc tạo bảng.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">mysql> show create table table_name;
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">mysql&gt; show create table table_name;
 table_name | CREATE TABLE `table_name` (
   `video_id` varchar(34) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
   `language` varchar(32) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
@@ -134,9 +134,9 @@ table_name | CREATE TABLE `table_name` (
   KEY `idx_videotranslationinfo_1` (`user_id`),
   KEY `idx_videotranslationinfo_2` (`video_id`),
   KEY `idx_videotranslationinfo_3` (`language`),
-  ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Latest translation for videos.' |</code></pre></div>
+  ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT=&#39;Latest translation for videos.&#39; |</code></pre></div>
 <p>Có gì đó không ổn. Query thì coi video_id như là kiểu số nguyên, trong khi bảng lại định nghĩa video_id kiểu xâu dữ liệu. Có lẽ việc khác nhau trong kiểu dữ liệu này làm mysql không so sánh được truy cập với index, làm cho mysql sẽ tìm bản ghi bằng cách lặp toàn bộ bảng. Suy nghĩ vậy, hắn liền thử explain 1 query sau khi đã thay số bằng chữ.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">mysql> explain SELECT * FROM table_name WHERE `video_id` IN ("1412240325") AND `language` = "en-us"\G;
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">mysql&gt; explain SELECT * FROM table_name WHERE `video_id` IN (&quot;1412240325&quot;) AND `language` = &quot;en-us&quot;\G;
 *************************** 1. row ***************************
            id: 1
   select_type: SIMPLE

@@ -55,16 +55,16 @@ Sau khi chỉnh sửa phần này code của bạn lại được commit lên Gi
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ git log --oneline</code></pre></div>
 <p>Kết quả:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">22cd1f4 Make grunt task clear @$
-778e7be Edit jst grunt's config
+778e7be Edit jst grunt&#39;s config
 4b0db4a Update grunt task, jst per line
 6349fc3 Update model, need to do is user can delete there own comments
 0aa5434 Fix Sumo code duplicate
-134a970 Merge branch 'feedback-member'
+134a970 Merge branch &#39;feedback-member&#39;
 3a8544a Facebook login, draft version
 ....</code></pre></div>
 <p>Nếu bạn muốn gộp 2 commit 22cd1f4 và 778e7be thành một. Ta có lệnh</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ git rebase -i HEAD~2</code></pre></div>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">pick 778e7be Edit jst grunt's config
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">pick 778e7be Edit jst grunt&#39;s config
 pick 22cd1f4 Make grunt task clear @$
 
 # Rebase 4b0db4a..22cd1f4 onto 4b0db4a
@@ -74,7 +74,7 @@ pick 22cd1f4 Make grunt task clear @$
 #  r, reword = use commit, but edit the commit message
 #  e, edit = use commit, but stop for amending
 #  s, squash = use commit, but meld into previous commit
-#  f, fixup = like "squash", but discard this commit's log message
+#  f, fixup = like &quot;squash&quot;, but discard this commit&#39;s log message
 #  x, exec = run command (the rest of the line) using shell
 #
 # These lines can be re-ordered; they are executed from top to bottom.

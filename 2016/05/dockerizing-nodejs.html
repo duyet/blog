@@ -57,32 +57,32 @@
 <p>Bạn chuẩn bị ứng dụng Nodejs cần đóng gói và triển khai. Ở đây tôi sẽ sử dụng <a href="https://github.com/saveto-co/saveto" target="_blank" rel="nofollow noopener noreferrer">source</a> của trang <a href="https://saveto.co/" target="_blank" rel="nofollow noopener noreferrer">https://saveto.co</a> viết bằng <a href="https://blog.duyet.net/2016/04/gioi-thieu-koajs.html" target="_blank" rel="nofollow noopener noreferrer">Koajs</a>. Mã nguồn tải về ở đây: <a href="https://github.com/saveto-co/saveto" target="_blank" rel="nofollow noopener noreferrer">https://github.com/saveto-co/saveto</a></p>
 <p>Mỗi ứng dụng viết bằng Nodejs bắt buộc đều phải có <code class="language-text">package.json</code>, lưu thông tin về các gói cần thiết, nhiều thông tin khác về tên, phiên bản, …</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">{
-  "name": "quick-koa",
-  "version": "1.0.0",
-  "description": "Quick by Koa",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
+  &quot;name&quot;: &quot;quick-koa&quot;,
+  &quot;version&quot;: &quot;1.0.0&quot;,
+  &quot;description&quot;: &quot;Quick by Koa&quot;,
+  &quot;main&quot;: &quot;app.js&quot;,
+  &quot;scripts&quot;: {
+    &quot;start&quot;: &quot;node app.js&quot;
   },
-  "keywords": [
-    "Quick",
-    "shorten",
-    "link",
-    "jslab",
-    "duyetdev"
+  &quot;keywords&quot;: [
+    &quot;Quick&quot;,
+    &quot;shorten&quot;,
+    &quot;link&quot;,
+    &quot;jslab&quot;,
+    &quot;duyetdev&quot;
   ],
-  "homepage": "http://saveto.co",
-  "repository": "git://github.com/duyet/quick.git",
-  "author": "Van-Duyet Le &lt;me@duyet.net>",
-  "license": "MIT",
-  "dependencies": {
-    "bcrypt-nodejs": "0.0.3",
-    "co": "^4.6.0",
+  &quot;homepage&quot;: &quot;http://saveto.co&quot;,
+  &quot;repository&quot;: &quot;git://github.com/duyet/quick.git&quot;,
+  &quot;author&quot;: &quot;Van-Duyet Le &lt;me@duyet.net&gt;&quot;,
+  &quot;license&quot;: &quot;MIT&quot;,
+  &quot;dependencies&quot;: {
+    &quot;bcrypt-nodejs&quot;: &quot;0.0.3&quot;,
+    &quot;co&quot;: &quot;^4.6.0&quot;,
     ...
-    "validator": "^4.8.0"
+    &quot;validator&quot;: &quot;^4.8.0&quot;
   },
-  "devDependencies": {
-    "nodemon": "^1.8.1"
+  &quot;devDependencies&quot;: {
+    &quot;nodemon&quot;: &quot;^1.8.1&quot;
   }
 }</code></pre></div>
 <p><a href="http://saveto.co/" target="_blank" rel="nofollow noopener noreferrer">Saveto.co</a> còn có thêm <code class="language-text">bower.json</code> mô tả những thư viện frontend nào sẽ được sử dụng.</p>
@@ -92,7 +92,7 @@
 <p>Mở file <code class="language-text">Dockerfile</code> bằng Editor. Đầu tiên, cần định nghĩa ứng dụng sẽ build trên image nào. Do saveto.co yêu cầu Nodejs >= v4.0, tôi sẽ sử dụng bản Nodejs 5.11 ổn định. Danh sách các image Nodejs có <a href="https://hub.docker.com/_/node/" target="_blank" rel="nofollow noopener noreferrer">tại đây</a>.</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">FROM node:5.11</code></pre></div>
 <p>Maintainer mô tả về người build docker image</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">MAINTAINER Van-Duyet Le &lt;me@duyet.net></code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">MAINTAINER Van-Duyet Le &lt;me@duyet.net&gt;</code></pre></div>
 <p>Kế tiếp, ta tạo thư mục chứa source code trong Docker container:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"># Create app directory
 RUN mkdir -p /usr/src/app
@@ -111,11 +111,11 @@ RUN bower install</code></pre></div>
 <p>Saveto.co mặc định chạy ở port <code class="language-text">6969</code>, tôi sử dụng <code class="language-text">EXPOSE</code> để mở PORT 6969 trên Container, thay <code class="language-text">6969</code> bằng port ứng dụng của bạn:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">EXPOSE 6969</code></pre></div>
 <p>Cuối cùng quan trọng nhất là lệnh để khởi động ứng dụng Nodejs, lệnh CMD sẽ chạy <code class="language-text">npm start</code>, cũng như start <code class="language-text">node app.js</code> được định nghĩa trong <code class="language-text">package.json</code></p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">CMD [ "npm", "start" ]</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">CMD [ &quot;npm&quot;, &quot;start&quot; ]</code></pre></div>
 <p>Tôi được file Dockerfile hoàn chỉnh như thế này:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">FROM node:5.11
 
-MAINTAINER Van-Duyet Le &lt;me@duyet.net>
+MAINTAINER Van-Duyet Le &lt;me@duyet.net&gt;
 
 # Create app directory
 RUN mkdir -p /usr/src/app
@@ -134,7 +134,7 @@ RUN bower install
 
 EXPOSE 6969
 
-CMD ["npm","start"]</code></pre></div>
+CMD [&quot;npm&quot;,&quot;start&quot;]</code></pre></div>
 <h2 id="build-image" style="position:relative;"><a href="#build-image" aria-label="build image permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Build image</h2>
 <p>Cd đến thư mục chứa Dockerfile, chạy lệnh bên dưới để build image. —tag dùng để đặt tên cho ảnh dễ nhớ, nhớ đừng bỏ xót dấu chấm ở cuối</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ docker build -t duyetdev/saveto .</code></pre></div>
@@ -156,11 +156,11 @@ Xem danh sách các container và log đang chạy:</p>
 $ docker ps
 
 # Print app output
-$ docker logs &lt;container id>
+$ docker logs &lt;container id&gt;
 </code></pre></div>
 <p>Nếu cần truy cập vào container đang chạy, sử dụng:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"># Enter the container
-$ docker exec -it &lt;container id> /bin/bash</code></pre></div>
+$ docker exec -it &lt;container id&gt; /bin/bash</code></pre></div>
 <p>Test: truy cập thử ứng dụng bằng trình duyệt: <a href="http://localhost:6969/" target="_blank" rel="nofollow noopener noreferrer">http://localhost:6969</a></p>
 <p><img src="https://4.bp.blogspot.com/-lBI9EPH-ck4/VyYy72_trTI/AAAAAAAAUaM/O8qnBPlgyv4oWGDEqs2O5zXiE6aRIfmHwCLcB/s1600/Screenshot%2Bfrom%2B2016-05-01%2B23-45-24.png" alt=""></p>
 <p>Chúc bạn thành công.</p>

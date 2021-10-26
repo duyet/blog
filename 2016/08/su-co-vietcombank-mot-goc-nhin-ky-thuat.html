@@ -102,7 +102,7 @@ Nhiều ngày qua các phương tiện thông tin truyền thông tại Việt N
 <li>Lúc này máy chủ sẽ trả về <code class="language-text">R = Encrypt(key = MD5(MD5(N)), Y)</code>. Vì N là một chuỗi rất ngắn, chỉ có 4 chữ số, do đó kẻ tấn công có thể dò N.</li>
 </ol>
 <ul>
-<li>Với mỗi giá trị dự đoán <code class="language-text">N'</code> kẻ tấn công sẽ tính <code class="language-text">Y' = Decrypt(key=MD5(N’), data=R)</code>. Tùy thuộc vào biên giá trị của Y mà quá trình dò này có thể thực hiện offline. Nếu Y là một chuỗi hoàn toàn ngẫu nhiên, kẻ tấn công có thể sử dụng Y’ và N’ để thực hiện bước 3 và dựa vào phản hồi của máy chủ VCB để tìm N’ = N.</li>
+<li>Với mỗi giá trị dự đoán <code class="language-text">N&#39;</code> kẻ tấn công sẽ tính <code class="language-text">Y&#39; = Decrypt(key=MD5(N’), data=R)</code>. Tùy thuộc vào biên giá trị của Y mà quá trình dò này có thể thực hiện offline. Nếu Y là một chuỗi hoàn toàn ngẫu nhiên, kẻ tấn công có thể sử dụng Y’ và N’ để thực hiện bước 3 và dựa vào phản hồi của máy chủ VCB để tìm N’ = N.</li>
 <li>Máy chủ VCB có thể ngăn chặn sử dụng Y’ và N’ để dò N, nhưng chúng tôi không có điều kiện để xác minh.</li>
 </ul>
 <ol start="3">

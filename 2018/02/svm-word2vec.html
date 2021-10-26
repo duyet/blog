@@ -56,17 +56,17 @@
 <li>
 <p>Vector hóa từng câu văn bản:</p>
 <ul>
-<li>Tách từ cho từng câu. (E.g. <code class="language-text">"Duyệt đẹp trai quá"</code> ==> [ <code class="language-text">"Duyệt"</code>, <code class="language-text">"đẹp"</code>, <code class="language-text">"trai"</code>, <code class="language-text">"quá"</code> ]</li>
-<li>Lọc bỏ stopwords (e.g. [ <code class="language-text">"Duyệt"</code>, <code class="language-text">"đẹp"</code>, <code class="language-text">"trai"</code>, <code class="language-text">"quá"</code> ] ==> [ <code class="language-text">"Duyệt"</code>, <code class="language-text">"đẹp"</code>, <code class="language-text">"trai"</code> ]</li>
+<li>Tách từ cho từng câu. (E.g. <code class="language-text">&quot;Duyệt đẹp trai quá&quot;</code> ==> [ <code class="language-text">&quot;Duyệt&quot;</code>, <code class="language-text">&quot;đẹp&quot;</code>, <code class="language-text">&quot;trai&quot;</code>, <code class="language-text">&quot;quá&quot;</code> ]</li>
+<li>Lọc bỏ stopwords (e.g. [ <code class="language-text">&quot;Duyệt&quot;</code>, <code class="language-text">&quot;đẹp&quot;</code>, <code class="language-text">&quot;trai&quot;</code>, <code class="language-text">&quot;quá&quot;</code> ] ==> [ <code class="language-text">&quot;Duyệt&quot;</code>, <code class="language-text">&quot;đẹp&quot;</code>, <code class="language-text">&quot;trai&quot;</code> ]</li>
 <li>Dùng Word2vec model (retrain) để biến mỗi từ thành 1 vector:</li>
 </ul>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">"đẹp" => [0.1123, 0.234, 0.256, 0.001, ...]
-"train" => [0.542, 0.124, 0.232, 0.124, ...]</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&quot;đẹp&quot; =&gt; [0.1123, 0.234, 0.256, 0.001, ...]
+&quot;train&quot; =&gt; [0.542, 0.124, 0.232, 0.124, ...]</code></pre></div>
 <p>Các vector này có số chiều cố định và giống nhau (phụ thuộc vào mô hình word2vec).</p>
 <ul>
 <li>Cộng (hoặc trung bình) các vector của từng từ trong một câu lại, ta được vector của một câu. Cách này khá đơn giản và chỉ dùng được khi câu ngắn (như 1 đoạn tweet). Với câu dài hơn cách biểu diễn này không còn chính xác nữa. Với văn bản lớn và dài, bạn nên <a href="https://blog.duyet.net/2017/10/doc2vec-trong-sentiment-analysis.html" target="_blank" rel="nofollow noopener noreferrer">sử dụng Doc2vec</a> thay thế.</li>
 </ul>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">vec([ "Duyệt", "đẹp", "trai" ]) = [0.1123, 0.234, 0.256, 0.001, ...] + [0.542, 0.124, 0.232, 0.124, ...] + ...
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">vec([ &quot;Duyệt&quot;, &quot;đẹp&quot;, &quot;trai&quot; ]) = [0.1123, 0.234, 0.256, 0.001, ...] + [0.542, 0.124, 0.232, 0.124, ...] + ...
 = [0.3421, 0.724, 0.242, 0.364, ...]</code></pre></div>
 </li>
 <li>

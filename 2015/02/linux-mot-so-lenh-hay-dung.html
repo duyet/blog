@@ -71,26 +71,26 @@ $ <span class="token function">man</span> <span class="token function">ls</span>
 </ul>
 <p>Để tìm kiếm file, bạn có thể dùng:</p>
 <ul>
-<li><code class="language-text">find &lt;tiêu chuẩn tìm kiếm></code>: dùng cho các tên file.</li>
-<li><code class="language-text">grep &lt; tiêu chuẩn tìm kiếm></code>: để tìm nội dung trong file</li>
+<li><code class="language-text">find &lt;tiêu chuẩn tìm kiếm&gt;</code>: dùng cho các tên file.</li>
+<li><code class="language-text">grep &lt; tiêu chuẩn tìm kiếm&gt;</code>: để tìm nội dung trong file</li>
 </ul>
 <p>Để xem một file, bạn có thể dùng:</p>
 <ul>
-<li><code class="language-text">more &lt;tên file></code> hiển thị file theo từng trang.</li>
-<li><code class="language-text">cat &lt; tên file></code> hiển thị tất cả file.</li>
-<li><code class="language-text">head &lt; tên file></code> hiển thị các dòng đầu tiên.</li>
-<li><code class="language-text">tail &lt; tên file></code> hiển thị các dòng cuối cùng (có thể hữu ích trong những trường hợp như khi bạn muốn xem thông tin log gần nhất của một file hệ thống).</li>
+<li><code class="language-text">more &lt;tên file&gt;</code> hiển thị file theo từng trang.</li>
+<li><code class="language-text">cat &lt; tên file&gt;</code> hiển thị tất cả file.</li>
+<li><code class="language-text">head &lt; tên file&gt;</code> hiển thị các dòng đầu tiên.</li>
+<li><code class="language-text">tail &lt; tên file&gt;</code> hiển thị các dòng cuối cùng (có thể hữu ích trong những trường hợp như khi bạn muốn xem thông tin log gần nhất của một file hệ thống).</li>
 </ul>
 <h2 id="editor-trên-terminal" style="position:relative;"><a href="#editor-tr%C3%AAn-terminal" aria-label="editor trên terminal permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Editor trên Terminal</h2>
-<p>Để chỉnh sửa file, bạn phải sử dụng trình soạn thảo tích hợp sẵn trên dòng lệnh. Thông thường, đây là <strong>vi</strong> và được dùng với cú pháp: <code class="language-text">vi &lt;tên file></code>.</p>
+<p>Để chỉnh sửa file, bạn phải sử dụng trình soạn thảo tích hợp sẵn trên dòng lệnh. Thông thường, đây là <strong>vi</strong> và được dùng với cú pháp: <code class="language-text">vi &lt;tên file&gt;</code>.</p>
 <p>Tham khảo: <a href="https://blog.duyet.net/2014/06/su-dung-trinh-soan-thao-vi-trong-linux.html#.VN9uBhJ811g" target="_blank" rel="nofollow noopener noreferrer">Sử dụng trình soạn thảo “vi” trong linux</a></p>
 <p>Mình cũng hay dùng nhất nữa là chương trình nano để sửa nhanh các file config.</p>
 <p><img src="https://1.bp.blogspot.com/-FXksOXNjgQg/VN9zRVVhgEI/AAAAAAAACGk/6P9lylqoOwI/s1600/Screenshot%2Bfrom%2B2015-02-14%2B23%3A08%3A48.png" alt=""></p>
 <h2 id="giải-nén" style="position:relative;"><a href="#gi%E1%BA%A3i-n%C3%A9n" aria-label="giải nén permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Giải nén</h2>
-<p>Để giải nén một lưu trữ (thông thường có đuôi tar.gz), bạn phải dùng lệnh tar với cú pháp <code class="language-text">tar -xvf &lt;tên_file></code>.</p>
+<p>Để giải nén một lưu trữ (thông thường có đuôi tar.gz), bạn phải dùng lệnh tar với cú pháp <code class="language-text">tar -xvf &lt;tên_file&gt;</code>.</p>
 <h2 id="in-file" style="position:relative;"><a href="#in-file" aria-label="in file permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>In file</h2>
-<p>Để in một file, dùng lệnh <code class="language-text">lpr &lt;tên_file></code>. Chú ý là bạn phải có một số daemon hoạt động để quản lý máy in. Thông thường đây là các cup (chủ yếu là UNIX Printing System) có thể sử dụng cho tất cả các phân phối chính.</p>
-<p>Để loại bỏ file khỏi hàng đợi ở máy in (bạn có thể lên danh sách hàng đợi bằng lệnh lpq), sử dụng câu lệnh <code class="language-text">lprm &lt;tên_file></code>.</p>
+<p>Để in một file, dùng lệnh <code class="language-text">lpr &lt;tên_file&gt;</code>. Chú ý là bạn phải có một số daemon hoạt động để quản lý máy in. Thông thường đây là các cup (chủ yếu là UNIX Printing System) có thể sử dụng cho tất cả các phân phối chính.</p>
+<p>Để loại bỏ file khỏi hàng đợi ở máy in (bạn có thể lên danh sách hàng đợi bằng lệnh lpq), sử dụng câu lệnh <code class="language-text">lprm &lt;tên_file&gt;</code>.</p>
 <h2 id="phím-tab" style="position:relative;"><a href="#ph%C3%ADm-tab" aria-label="phím tab permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Phím TAB</h2>
 <p>Dù ở phân phối nào, bạn cũng có thể dùng phím TAB để tự động hoàn chỉnh một lệnh hoặc tên file. Điều này rất hữu ích khi bạn quen với các lệnh. Bạn cũng có thể sử dụng các phím lên, xuống để cuộn xem các lệnh đã nhập.</p>
 <p><img src="https://1.bp.blogspot.com/-R4Z4Mi5BwPI/VN9x3N7tqRI/AAAAAAAACGY/cvd8VP1SbuM/s1600/Screenshot%2Bfrom%2B2015-02-14%2B23%3A02%3A52.png" alt=""></p>
@@ -136,7 +136,7 @@ Tức là lệnh <code class="language-text">man mkdir</code> in ra cái gì, th
 <p><code class="language-text">ps</code>: hiển thị các chương trình hiện thời đang chạy (rất hữu ích: ps là cái nhìn toàn bộ về tất cả các chương trình).</p>
 </li>
 <li>
-<p>Ngừng một dịch vụ hay ứng dụng, dùng lệnh <code class="language-text">kill &lt;PID></code>.</p>
+<p>Ngừng một dịch vụ hay ứng dụng, dùng lệnh <code class="language-text">kill &lt;PID&gt;</code>.</p>
 </li>
 <li>
 <p><code class="language-text">top</code>: hoạt động khá giống như Task Manager trong Windows. Nó đưa ra thông tin về tất cả tài nguyên hệ thống, các tiến trình đang chạy, tốc độ load trung bình… Lệnh top -d <delay> thiết lập khoảng thời gian làm tươi lại hệ thống. Bạn có thể đặt bất kỳ giá trị nào, từ .1 (tức 10 mili giây) tới 100 (tức 100 giây) hoặc thậm chí lớn hơn.</p>
@@ -148,7 +148,7 @@ Tức là lệnh <code class="language-text">man mkdir</code> in ra cái gì, th
 <p><code class="language-text">free</code>: hiển thị thông tin trên bộ nhớ hệ thống.</p>
 </li>
 <li>
-<p><code class="language-text">ifconfig &lt;tên interface></code>: để xem thông tin chi tiết về các giao diện mạng; thông thường giao diện mạng ethernet có tên là eth().</p>
+<p><code class="language-text">ifconfig &lt;tên interface&gt;</code>: để xem thông tin chi tiết về các giao diện mạng; thông thường giao diện mạng ethernet có tên là eth().</p>
 </li>
 <li>
 <p><code class="language-text">passwd</code>: cho phép bạn thay đổi mật khẩu (passwd người_dùng_sở_hữu_mật_khẩu hoặc tên người dùng khác nếu bạn đăng nhập hệ thống với vai trò root).</p>

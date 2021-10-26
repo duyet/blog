@@ -62,11 +62,11 @@ Bạn có thể xem bài viết sau để hiểu rõ hơn về Generators này: 
 <p>Cài đặt koa bằng npm</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ npm install koa</code></pre></div>
 <p>Tạo và mở file <code class="language-text">app.js</code> với nội dung:</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var koa = require('koa');
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var koa = require(&#39;koa&#39;);
 var app = koa();
 
 app.use(function *(){
-  this.body = 'Hello World';
+  this.body = &#39;Hello World&#39;;
 });
 
 app.listen(3000);</code></pre></div>
@@ -96,22 +96,22 @@ Với Koa:</p>
 <p>Để giải thích, hay xem qua ví dụ về Koa logging sau:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">app.use(function *(next){
   var start = new Date;
-  yield next;  // &lt;--- yields "downstream" 
+  yield next;  // &lt;--- yields &quot;downstream&quot; 
   var ms = new Date - start;
-  console.log('%s %s - %s', this.method, this.url, ms);
+  console.log(&#39;%s %s - %s&#39;, this.method, this.url, ms);
 });</code></pre></div>
 <p>Biến start sẽ lưu lại thời điểm bắt đầu, sau đó ứng dụng sẽ yields “downstream” đến router và các controller cần xử lý cho đến khi kết thúc. Control sẽ quay back lại hàm (middleware) này, tính thời gian thực thi và log ra màn hình.</p>
 <p>Một ví dụ khác khi xử lý kết quả trả về được xử lý ở nhiều nơi khác nhau. Với Express có thể phức tạp hơn nhiều, và phải kết hợp với template engine (như handlebars, …)</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">app.use(function *() {
-  this.body = "...header stuff";
+  this.body = &quot;...header stuff&quot;;
   yield saveResults();
   //could do some other yield here 
-  this.body += "...footer stuff"
+  this.body += &quot;...footer stuff&quot;
 });
 
 function saveResults*() {
   //save some results
-  this.body += "Results Saved!";
+  this.body += &quot;Results Saved!&quot;;
   //could do some other yield here
 }</code></pre></div>
 <p>Tìm hiểu đầy đủ về middleware Koa tại đây: <a href="https://github.com/koajs/koa/blob/master/docs/guide.md" target="_blank" rel="nofollow noopener noreferrer">https://github.com/koajs/koa/blob/master/docs/guide.md</a></p>

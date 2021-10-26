@@ -61,80 +61,80 @@
 <p><img src="https://1.bp.blogspot.com/-TVHoV9o1TkA/VT3vp62oFII/AAAAAAAACaI/FRssZ3OUf3Y/s1600/bs-navbar-demo.png" alt=""></p>
 <p>Trang Components có nhiều mục, gồm phần giới thiệu, ví dụ, code, … Nếu đọc được tiếng Anh thì ok, còn không bạn chỉ cần nhìn demo và copy code sử dụng thôi, các class và cấu trúc của nó thì giữ nguyên, hoặc điều chỉnh cho phù hợp với trang của bạn thiết kế.</p>
 <p>Chỉnh sửa phần nội dung nav-brand, phần liên kết, … cho phù hợp. Ví dụ dưới đây mình sẽ sử dụng kết hợp navbar và jumbotron</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&lt;!DOCTYPE html>
-&lt;html lang="en">
-  &lt;head>
-    &lt;meta charset="utf-8">
-    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge">
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1">
-    &lt;title>Navbar Template for Bootstrap&lt;/title>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;title&gt;Navbar Template for Bootstrap&lt;/title&gt;
 
-    &lt;!-- Bootstrap core CSS -->
-    &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    &lt;!-- Bootstrap core CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css&quot;&gt;
 
-    &lt;style>.navbar { margin-top: 20px; }&lt;/style>
+    &lt;style&gt;.navbar { margin-top: 20px; }&lt;/style&gt;
 
-    &lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    &lt;!--[if lt IE 9]>
-      &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js">&lt;/script>
-      &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js">&lt;/script>
-    &lt;![endif]-->
-  &lt;/head>
+    &lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script src=&quot;https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js&quot;&gt;&lt;/script&gt;
+      &lt;script src=&quot;https://oss.maxcdn.com/respond/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+  &lt;/head&gt;
 
-  &lt;body>
+  &lt;body&gt;
 
-    &lt;div class="container">
+    &lt;div class=&quot;container&quot;&gt;
 
-      &lt;!-- Static navbar -->
-      &lt;nav class="navbar navbar-default">
-        &lt;div class="container-fluid">
-          &lt;div class="navbar-header">
-            &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              &lt;span class="sr-only">Toggle navigation&lt;/span>
-              &lt;span class="icon-bar">&lt;/span>
-              &lt;span class="icon-bar">&lt;/span>
-              &lt;span class="icon-bar">&lt;/span>
-            &lt;/button>
-            &lt;a class="navbar-brand" href="#">LvDuit&lt;/a>
-          &lt;/div>
-          &lt;div id="navbar" class="navbar-collapse collapse">
-            &lt;ul class="nav navbar-nav">
-              &lt;li class="active">&lt;a href="#">Home&lt;/a>&lt;/li>
-              &lt;li>&lt;a href="#">About&lt;/a>&lt;/li>
-              &lt;li>&lt;a href="#">Contact&lt;/a>&lt;/li>
-              &lt;li class="dropdown">
-                &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown &lt;span class="caret">&lt;/span>&lt;/a>
-                &lt;ul class="dropdown-menu" role="menu">
-                  &lt;li>&lt;a href="#">Action&lt;/a>&lt;/li>
-                  &lt;li>&lt;a href="#">Another action&lt;/a>&lt;/li>
-                  &lt;li>&lt;a href="#">Something else here&lt;/a>&lt;/li>
-                  &lt;li class="divider">&lt;/li>
-                  &lt;li class="dropdown-header">Nav header&lt;/li>
-                  &lt;li>&lt;a href="#">Separated link&lt;/a>&lt;/li>
-                  &lt;li>&lt;a href="#">One more separated link&lt;/a>&lt;/li>
-                &lt;/ul>
-              &lt;/li>
-            &lt;/ul>
-            &lt;ul class="nav navbar-nav navbar-right">
-              &lt;li class="active">&lt;a href="#">Login&lt;/a>&lt;/li>
-              &lt;li>&lt;a href="#">Register&lt;/a>&lt;/li>
-            &lt;/ul>
-          &lt;/div>&lt;!--/.nav-collapse -->
-        &lt;/div>&lt;!--/.container-fluid -->
-      &lt;/nav>
+      &lt;!-- Static navbar --&gt;
+      &lt;nav class=&quot;navbar navbar-default&quot;&gt;
+        &lt;div class=&quot;container-fluid&quot;&gt;
+          &lt;div class=&quot;navbar-header&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbar&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;navbar&quot;&gt;
+              &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;LvDuit&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div id=&quot;navbar&quot; class=&quot;navbar-collapse collapse&quot;&gt;
+            &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+              &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;dropdown&quot;&gt;
+                &lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-expanded=&quot;false&quot;&gt;Dropdown &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+                &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+                  &lt;li class=&quot;dropdown-header&quot;&gt;Nav header&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;One more separated link&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+              &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Login&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Register&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+        &lt;/div&gt;&lt;!--/.container-fluid --&gt;
+      &lt;/nav&gt;
 
-      &lt;!-- Main component for a primary marketing message or call to action -->
-      &lt;div class="jumbotron">
-        &lt;h1>Hi, My name is Van-Duyet Le&lt;/h1>
-        &lt;p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.&lt;/p>
-        &lt;p>
-          &lt;a class="btn btn-lg btn-primary" href="#" role="button">See more &amp;raquo;&lt;/a>
-        &lt;/p>
-      &lt;/div>
+      &lt;!-- Main component for a primary marketing message or call to action --&gt;
+      &lt;div class=&quot;jumbotron&quot;&gt;
+        &lt;h1&gt;Hi, My name is Van-Duyet Le&lt;/h1&gt;
+        &lt;p&gt;This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.&lt;/p&gt;
+        &lt;p&gt;
+          &lt;a class=&quot;btn btn-lg btn-primary&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;See more &amp;raquo;&lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
 
-    &lt;/div> &lt;!-- /container -->
-  &lt;/body>
-&lt;/html>
+    &lt;/div&gt; &lt;!-- /container --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 </code></pre></div>
 <p>Kết quả:</p>
 <p><img src="https://2.bp.blogspot.com/-d8IFTRjmzA8/VT3zMGxRpxI/AAAAAAAACac/qjghCLUV9f0/s1600/bs-components-demo.png" alt=""></p>

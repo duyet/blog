@@ -62,7 +62,7 @@
 <li><code class="language-text">BranchPythonOperator</code> cho phép rẽ nhánh workflow tùy vào điều kiện được định nghĩa.</li>
 </ul>
 </li>
-<li>Sử dụng <code class="language-text">airflow test &lt;dag-id> &lt;task-id> ...</code> để test task instance trên local khi code.</li>
+<li>Sử dụng <code class="language-text">airflow test &lt;dag-id&gt; &lt;task-id&gt; ...</code> để test task instance trên local khi code.</li>
 <li><a href="https://blog.duyet.net/2019/08/airflow-docker-compose.html" target="_blank" rel="nofollow noopener noreferrer">Sử dụng Docker Compose</a> để thiết lập môi trường local cho dễ.</li>
 <li>Để test DAG với scheduler, hãy set <code class="language-text">schedule_interval=@once</code>, chạy thử, để chạy lại thì chỉ cần clear DagRuns trên UI hoặc bằng lệnh <code class="language-text">airflow clear</code></li>
 <li>Khi DAG đã được chạy, airflow chứa các task instance trong DB. Nếu bạn thay đổi <code class="language-text">start_date</code> hoặc interval, scheduler có thể sẽ gặp lỗi. Nên đổi tên <code class="language-text">dag_id</code> nếu muốn thay đổi <code class="language-text">start_date</code> hoặc interval.</li>

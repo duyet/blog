@@ -85,7 +85,7 @@ Xem qua bài viết về cách sử dụng Jupyter Notebook với Apache PySpark
 <p>Submit vn.vitk-3.0.jar bằng lệnh:</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">export</span> <span class="token assign-left variable">PYSPARK_DRIVER_PYTHON</span><span class="token operator">=</span>ipython
 <span class="token builtin class-name">export</span> <span class="token assign-left variable">PYSPARK_DRIVER_PYTHON_OPTS</span><span class="token operator">=</span><span class="token string">"notebook --NotebookApp.open_browser=False --NotebookApp.ip='*' --NotebookApp.port=8880"</span>
-<span class="token builtin class-name">export</span> <span class="token assign-left variable">SPARK_HOME</span><span class="token operator">=~</span>/spark-1.6.2-bin-hadoop2.6 <span class="token comment"># Path to home of Spark</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">SPARK_HOME</span><span class="token operator">=</span>~/spark-1.6.2-bin-hadoop2.6 <span class="token comment"># Path to home of Spark</span>
 pyspark --master <span class="token builtin class-name">local</span> --jars<span class="token operator">=</span>./lib/vn.vitk-3.0.jar --driver-class-path<span class="token operator">=</span>./lib/vn.vitk-3.0.jar</code></pre></div>
 <p>Tham khảo thêm về Notebook PySpark trong bài viết sau: <a href="https://blog.duyet.net/2016/09/chay-apache-spark-voi-jupiter-notebook.html#.WEz76RJ97_g" target="_blank" rel="nofollow noopener noreferrer">Chạy Apache Spark với Jupyter Notebook</a><br>
 Mở Jupyter notebook trên trình duyệt và code mẫu theo notebook sau:</p>
