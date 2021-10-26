@@ -130,7 +130,7 @@ sudo chown -R oracle:dba /u01</code></pre></div>
 <ol>
 <li>Make ourself as Red Hat by running following command as root/ root equivalent user</li>
 </ol>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">echo &#39;Red Hat Linux release 6&#39; | sudo tee -a /etc/redhat-release
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">echo 'Red Hat Linux release 6' | sudo tee -a /etc/redhat-release
 </code></pre></div>
 <ol start="2">
 <li>We need to create some soft links to start the installation. To do so run the following commands as root/ root equivalent user,</li>
@@ -149,27 +149,27 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6 /usr/lib64/</code></pre></di
 <li>To change the shell configuration for oracle user run following commands as root/ root equivalent user</li>
 </ol>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">sudo cp /etc/security/limits.conf /etc/security/limits.conf.original
-echo &quot;#Oracle 12C shell limits:&quot; | sudo tee -a /etc/security/limits.conf
-echo &quot;oracle soft nproc 2048&quot; | sudo tee -a /etc/security/limits.conf
-echo &quot;oracle hard nproc 16384&quot;| sudo tee -a /etc/security/limits.conf
-echo &quot;oracle soft nofile 1024&quot; | sudo tee -a /etc/security/limits.conf
-echo &quot;oracle hard nofile 65536&quot; | sudo tee -a /etc/security/limits.conf</code></pre></div>
+echo "#Oracle 12C shell limits:" | sudo tee -a /etc/security/limits.conf
+echo "oracle soft nproc 2048" | sudo tee -a /etc/security/limits.conf
+echo "oracle hard nproc 16384"| sudo tee -a /etc/security/limits.conf
+echo "oracle soft nofile 1024" | sudo tee -a /etc/security/limits.conf
+echo "oracle hard nofile 65536" | sudo tee -a /etc/security/limits.conf</code></pre></div>
 <ol start="4">
 <li>Run following command to change the kernel parameters as root/ root equivalent user.</li>
 </ol>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">echo &quot;#&quot; | sudo tee -a /etc/sysctl.conf
-echo &quot;# Oracle 12C entries&quot; | sudo tee -a /etc/sysctl.conf
-echo &quot;fs.aio-max-nr=1048576&quot; | sudo tee -a /etc/sysctl.conf
-echo &quot;fs.file-max=6815744&quot; | sudo tee -a /etc/sysctl.conf
-echo &quot;kernel.shmall=2097152&quot; | sudo tee -a /etc/sysctl.conf
-echo &quot;kernel.shmmni=4096&quot; | sudo tee -a /etc/sysctl.conf
-echo &quot;kernel.sem=250 32000 100 128&quot; | sudo tee -a /etc/sysctl.conf
-echo &quot;net.ipv4.ip_local_port_range=9000 65500&quot; | sudo tee -a /etc/sysctl.conf
-echo &quot;net.core.rmem_default=262144&quot; | sudo tee -a /etc/sysctl.conf
-echo &quot;net.core.rmem_max=4194304&quot; | sudo tee -a /etc/sysctl.conf
-echo &quot;net.core.wmem_default=262144&quot; | sudo tee -a /etc/sysctl.conf
-echo &quot;net.core.wmem_max=1048586&quot; | sudo tee -a /etc/sysctl.conf
-echo &quot;kernel.shmmax=1073741824&quot; | sudo tee -a /etc/sysctl.conf</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">echo "#" | sudo tee -a /etc/sysctl.conf
+echo "# Oracle 12C entries" | sudo tee -a /etc/sysctl.conf
+echo "fs.aio-max-nr=1048576" | sudo tee -a /etc/sysctl.conf
+echo "fs.file-max=6815744" | sudo tee -a /etc/sysctl.conf
+echo "kernel.shmall=2097152" | sudo tee -a /etc/sysctl.conf
+echo "kernel.shmmni=4096" | sudo tee -a /etc/sysctl.conf
+echo "kernel.sem=250 32000 100 128" | sudo tee -a /etc/sysctl.conf
+echo "net.ipv4.ip_local_port_range=9000 65500" | sudo tee -a /etc/sysctl.conf
+echo "net.core.rmem_default=262144" | sudo tee -a /etc/sysctl.conf
+echo "net.core.rmem_max=4194304" | sudo tee -a /etc/sysctl.conf
+echo "net.core.wmem_default=262144" | sudo tee -a /etc/sysctl.conf
+echo "net.core.wmem_max=1048586" | sudo tee -a /etc/sysctl.conf
+echo "kernel.shmmax=1073741824" | sudo tee -a /etc/sysctl.conf</code></pre></div>
 <p>Note: <strong>kernel.shmmax = max possible value</strong>, e.g. size of physical memory in bytes. In my case machine is having 2GB so we are specifying 1GB. Adjust the parameter as per your configuration<br>
 5. Load new kernel parameters, by running following as root/ root equivalent user.</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">sudo sysctl -p</code></pre></div>
