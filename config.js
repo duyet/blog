@@ -34,6 +34,10 @@ module.exports = {
       path: '/categories'
     },
     {
+      label: 'Unsplash',
+      path: 'https://unsplash.com/@duyetdev'
+    },  
+    {
       label: 'Buy Me a Coffee',
       path: 'https://ko-fi.com/duyet'
     },
