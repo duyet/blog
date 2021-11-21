@@ -17,8 +17,6 @@ description: >
   The new feature - SPIP: Add better handling for node shutdown (SPARK-20624) was implemented to deal with the problem of losing an executor when working with spot nodes - the need to recompute the shuffle or cached data.
 ---
 
-# Spark on Kubernetes - better handling for node shutdown
-
 # Nodes Decommissioning
 
 Spark 3.1 on the Kubernetes project is now officially declared as production-ready and Generally Available. Spot instances in Kubernetes can cut your bill by up to 70-80% if you are willing to trade in reliability.
