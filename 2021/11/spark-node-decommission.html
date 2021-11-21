@@ -59,7 +59,50 @@
 <h1 id="with-the-feature" style="position:relative;"><a href="#with-the-feature" aria-label="with the feature permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>With the feature</h1>
 <p>When a node kill occurs, the executor on the spot which is going away is blacklisted. The driver will stop scheduling new tasks on it. The task will be marked as failure (not counting to the max retries).</p>
 <p>Shuffle files and cached data are migrated to another executor. We can also config the <code class="language-text">spark.storage.decommission.fallbackStorage.path=s3a://duyet/spark-storage/</code> to S3 during block manager decommissioning. The storage should be managed by TTL or using <code class="language-text">spark.storage.decommission.fallbackStorage.cleanUp=true</code> to clean up its fallback storage data during shutting down.</p>
-<p><figure class="md-figure"><img src="https://1.bp.blogspot.com/--34hINH9_uQ/YZqJZ0URtWI/AAAAAAACXDw/yGn6wkjBWaMDfSZL3Hylwz6ILzP4xKDvACLcBGAsYHQ/s0/spark-spot-node-shutdown.png"><figcaption>Spark Nodes Decommissioning</figcaption></figure></p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1142px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/f84eff5cfdf6d50e16285550cca0b794/006e5/spark-spot-node-shutdown.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 69.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAADj0lEQVQ4y4WTa2yTVRjHn7abBmdiiC7oB1REE4gxhhgNQaN+QYxfvEzDJxMvIQYwYLKg7qvRoKIT3RywicvC3AUB2c1uXe/329t3FzbC1m5jXbte33Zr+3bt+/b9e4rMT4on+Z+TnPPk9zz/55xD9B9jyXGCPmydYrpGB3+Kbms4HXlsOWgkyFdpIzZO5aSRxMgQQbx2SxOX99MdR9B8hNo9UJ/3gb4ayFxpHV+P51ZGGlAYeKsY0zWUE8aDYmRwD/KTxKTy9Tx3Z2B++ZIKaCPg7FaX337TyXkRWprBbHAWWHNDWfNCFuxWACwGquRM6/8DhblfKTPf+YCUMi8hZ0O/M17uMidlJestIcehknGZbwNJuNHx76DRhjcI8UUSV66qCitdlJj++X45416EyGM6oC3z5osy1j0lZZ2rVmjZBK4GvqCjzca/IU2/xaipO0qnLsxRY09KffpKhMT5XpW/6wQL1t6jrLlDKHCIh3RYndcCeY7Z9kHJOAyblr/9I6hu6o2x5p9ro10fTxLt1xH8etV7HUmi10Ab4bTG9Hlj3Xd799236u99vbgwfDx2ffR4NGT5JBuxHE2HLZ/dnNO/9GxjsBbgNYd+iTPwbZtbd77MZpaJ89Dh9vDT9EqxNpCSq0cPMe1m2slUs2kPsDHNMcXZ9qk6okfVx7qiTzGG6hZwnpX8aecimYb490+O5KE1LusrTtOZpMXaLdgszRO9nQ866KMqTPN18/eE9bFHKoK1FVlnSylhaTFzU30/jIn43RZso+319TU79h3QiCzzok7nGr7swLTOCsnrQNnrxEaA9U5vOAAo9OU3Z7dUK8xF9R9ULwX5AMqCB5GgESMWD25MDoE0avWTapVqb9Ve0mQ1ZH88B1E3WpqzT0i8PrBR5lwI9XW8w84ffnF3/Qts3SFc7z6MjBNyyl7U8+Gyf2ZWQsGhFCJamWpraurvravbxgK3iB6PYf3PcVTcDnnQGlMumAV5zW6APNLyNuv33asnd22vrtLsmSNIGFBa0UntoyvKOLegoOiHJLji/7w/K8+T6HObi1M8KlMBmRs2wNAzKEm8H4Ld/Wpee77aQzUW+mkjbX1XyQWAAi8FJwZQiFqUqn1ZcKTpmSceV1kv9mkgpKjgdl4qcj6UeE5K20xKzKSrFH0eZAxjz2ftXsr5+u9SxCkqxcbeVNY87Pv55EzYqJTSLgUsgZSyJP4ChxyG3yAgrZ0AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/static/f84eff5cfdf6d50e16285550cca0b794/e93cc/spark-spot-node-shutdown.webp 300w,
+/static/f84eff5cfdf6d50e16285550cca0b794/b0544/spark-spot-node-shutdown.webp 600w,
+/static/f84eff5cfdf6d50e16285550cca0b794/7c99d/spark-spot-node-shutdown.webp 1142w"
+              sizes="(max-width: 1142px) 100vw, 1142px"
+              type="image/webp"
+            />
+          <source
+            srcset="/static/f84eff5cfdf6d50e16285550cca0b794/eed55/spark-spot-node-shutdown.png 300w,
+/static/f84eff5cfdf6d50e16285550cca0b794/7491f/spark-spot-node-shutdown.png 600w,
+/static/f84eff5cfdf6d50e16285550cca0b794/006e5/spark-spot-node-shutdown.png 1142w"
+            sizes="(max-width: 1142px) 100vw, 1142px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/static/f84eff5cfdf6d50e16285550cca0b794/006e5/spark-spot-node-shutdown.png"
+            alt="Spark Nodes Decommissioning"
+            title="Spark Nodes Decommissioning"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">Spark Nodes Decommissioning</figcaption>
+  </figure></p>
 <h1 id="how-to-enable-this" style="position:relative;"><a href="#how-to-enable-this" aria-label="how to enable this permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to enable this?</h1>
 <p>We need to config the the <strong>Spark configs</strong> to turn it on</p>
 <ul>
