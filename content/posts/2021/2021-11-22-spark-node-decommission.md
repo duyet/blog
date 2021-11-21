@@ -37,7 +37,8 @@ When a node kill occurs, the executor on the spot which is going away is blackli
 
 Shuffle files and cached data are migrated to another executor. We can also config the `spark.storage.decommission.fallbackStorage.path=s3a://duyet/spark-storage/` to S3 during block manager decommissioning. The storage should be managed by TTL or using `spark.storage.decommission.fallbackStorage.cleanUp=true` to clean up its fallback storage data during shutting down.
 
-![Spark Nodes Decommissioning](https://1.bp.blogspot.com/--34hINH9_uQ/YZqJZ0URtWI/AAAAAAACXDw/yGn6wkjBWaMDfSZL3Hylwz6ILzP4xKDvACLcBGAsYHQ/s0/spark-spot-node-shutdown.png)
+![Spark Nodes Decommissioning](/media/2021/11/spark-spot-node-shutdown.png)
+
 
 # How to enable this?
 
