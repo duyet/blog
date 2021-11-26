@@ -16,8 +16,6 @@ description: >
   Và cuối cùng mình dự định sẽ bắt đầu với Rust, bởi vì ...
 ---
 
-# Rust và Data Engineering? 🤔
-
 Rust mà một trong những ngôn ngữ có tốc độ phát triển nhanh nhất, 
 được xếp hạng vào một trong những ngôn ngữ được yêu thích nhất trong 
 nhiều năm theo [StackOverflow Survey](https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-language-love-dread). 
