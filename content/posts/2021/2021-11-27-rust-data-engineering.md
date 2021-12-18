@@ -90,7 +90,8 @@ Rust tương đối mới nên có số lượng libraries ít hơn đáng kể 
 Vì thế nếu sử dụng ta phải viết lại 1 lượng lớn codebases from scratch. 
 Cho nên đối với lập trình viên có ít background về low-level programming, sử dụng Rust là một thử thách.
 
-Mình nghĩ, mặc dù đã có nhiều bài viết về việc các data engineer và 
+Mình nghĩ, mặc dù đã có nhiều bài viết về việc các data engineer, 
+[data analyst](https://datacrayon.com/shop/product/data-analysis-with-rust-notebooks/) và 
 [data scientist](https://www.nature.com/articles/d41586-020-03382-2) đang dần 
 chú ý tới Rust, nhưng vẫn rất khó để Rust có thể thay thế được Python.
 
@@ -102,6 +103,7 @@ Mặc dù có ít thư viện, Rust vẫn có nhiều crate và tool để giả
 - `rayon`: program parallel computations, perform sequential calculations, provide a data-race free solution.
 - `tokio` là một event-driven, non-blocking I/O platform để viết các ứng dụng network asynchronous trên Rust. Tham khảo: [https://tokio.rs](https://tokio.rs/)
 - `diese`: safe, extensible ORM and Query Builder. Tham khảo: [https://diesel.rs](https://diesel.rs/)
+- `regex`: Tham khảo https://lib.rs/crates/regex
 - `DataFusion` extensible query execution framework, sử dụng [Apache Arrow](https://arrow.apache.org/) như là một in-memory format. DataFusion hỗ trợ cả SQL và DataFrame API để build logical query plans cũng như là query optimizer, parallel execution dựa trên partitioned data sources (CSV and Parquet). Tham khảo: [https://github.com/apache/arrow-datafusion](https://github.com/apache/arrow-datafusion)
 - `Ballista` theo mình tìm hiểu sơ là một Distributed Scheduler cho Apache Arrow và DataFusion. Chạy được trên Docker và Kubernetes như một Ballista cluster.
 - [Timely dataflow](https://github.com/TimelyDataflow/timely-dataflow): low-latency cyclic dataflow computational model, được giới thiệu trong paper [Naiad: a timely dataflow system](http://dl.acm.org/citation.cfm?id=2522738). Project này mục đích để xây dựng một distributed data-parallel compute engine, có thể scale 1 chương trình từ single thread trên laptop cho đến phân tán trên một cụm rất lớn gồm nhiều máy tính.
@@ -114,3 +116,4 @@ Mặc dù có ít thư viện, Rust vẫn có nhiều crate và tool để giả
 - [I wrote one of the fastest DataFrame libraries](https://www.ritchievink.com/blog/2021/02/28/i-wrote-one-of-the-fastest-dataframe-libraries/)
 - [Why scientists are turning to Rust](https://www.nature.com/articles/d41586-020-03382-2)
 - [Rust is for Big Data (#rust2018)](https://andygrove.io/2018/01/rust-is-for-big-data/)
+- https://lib.rs
