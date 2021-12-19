@@ -52,7 +52,7 @@ cho mượn (borrow) nó một thời gian.
 Chỉ cần nhớ hai quy tắc quan trọng:
 
 1. Khi truyền một variable (thay vì reference tới variable) cho một function khác, ta sẽ mất quyền ownership. Function đó sẽ là owner của variable này và bạn không thể sử dụng lại được nữa ở context cũ.
-2. Khi truyền một reference tới variable, bạn có thể **immutable** borrow không giới hạn; hoặc **mutable** borrow một lần**.**
+2. Khi truyền một reference tới variable, bạn có thể **immutable** borrow không giới hạn; hoặc **mutable** borrow một lần.
 
 Ví dụ: đoạn chương trình sau sẽ không compile được
 
