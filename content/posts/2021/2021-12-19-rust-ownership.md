@@ -7,7 +7,7 @@ category: Rust
 tags:
   - Rust
   - Vietnamese
-slug: /2021/12/rust-.html
+slug: /2021/12/rust-ownership.html
 draft: false
 fbCommentUrl: none
 thumbnail: https://i.imgur.com/ELxa4up.png
@@ -72,17 +72,17 @@ Compiler sẽ báo lỗi như sau: `rustc main.rs`
 
 ```rust
 error[E0382]: borrow of moved value: `x`
-    --> a.rs:7:13
-     |
-4    |     let x = vec![1, 2, 3];
-     |         - move occurs because `x` has type `Vec<i32>`, which does not implement the `Copy` trait
-5    |     hold_my_vec(x);
-     |                 - value moved here
-6    |
-7    |     let z = x.get(0);
-     |             ^^^^^^^^ value borrowed here after move
-     |
-     = note: borrow occurs due to deref coercion to `[i32]`
+    --> main.rs:7:13
+  |
+4 |  let x = vec![1, 2, 3];
+  |      - move occurs because `x` has type `Vec<i32>`, which does not implement the `Copy` trait
+5 |  hold_my_vec(x);
+  |              - value moved here
+6 |
+7 |  let z = x.get(0);
+  |          ^^^^^^^^ value borrowed here after move
+  |
+  = note: borrow occurs due to deref coercion to `[i32]`
 ```
 
 Lỗi nói rằng `Vec<i32>` không implement 
