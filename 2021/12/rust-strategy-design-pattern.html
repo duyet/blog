@@ -63,14 +63,14 @@ Ta gọi mỗi format ở đây là một strategy.</p>
 <span class="token keyword">type</span> <span class="token class-name">Data</span> <span class="token operator">=</span> <span class="token class-name">HashMap</span><span class="token operator">&lt;</span><span class="token class-name">String</span><span class="token punctuation">,</span> <span class="token keyword">u32</span><span class="token operator">></span><span class="token punctuation">;</span>
 
 <span class="token keyword">impl</span> <span class="token class-name">Data</span> <span class="token punctuation">{</span>
-    <span class="token keyword">fn</span> <span class="token function-definition function">generate</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token keyword">self</span><span class="token punctuation">,</span> format<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token keyword">str</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">match</span> format <span class="token punctuation">{</span>
-					<span class="token string">"json"</span> <span class="token operator">=></span> <span class="token punctuation">{</span> <span class="token punctuation">...</span> <span class="token punctuation">}</span>
-					<span class="token string">"yaml"</span> <span class="token operator">=></span> <span class="token punctuation">{</span> <span class="token punctuation">...</span> <span class="token punctuation">}</span>
-					<span class="token string">"text"</span> <span class="token operator">=></span> <span class="token punctuation">{</span> <span class="token punctuation">...</span> <span class="token punctuation">}</span>
-					_      <span class="token operator">=></span> <span class="token punctuation">{</span> <span class="token punctuation">...</span> <span class="token punctuation">}</span>
-				<span class="token punctuation">}</span>
+  <span class="token keyword">fn</span> <span class="token function-definition function">generate</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token keyword">self</span><span class="token punctuation">,</span> format<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token keyword">str</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">match</span> format <span class="token punctuation">{</span>
+      <span class="token string">"json"</span> <span class="token operator">=></span> <span class="token punctuation">{</span> <span class="token punctuation">...</span> <span class="token punctuation">}</span>
+      <span class="token string">"yaml"</span> <span class="token operator">=></span> <span class="token punctuation">{</span> <span class="token punctuation">...</span> <span class="token punctuation">}</span>
+      <span class="token string">"text"</span> <span class="token operator">=></span> <span class="token punctuation">{</span> <span class="token punctuation">...</span> <span class="token punctuation">}</span>
+      _      <span class="token operator">=></span> <span class="token punctuation">{</span> <span class="token punctuation">...</span> <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre></div>
 <p>Mọi thứ thay đổi theo thời gian, và khó đoán được trong tương lai chương trình
 của chúng ta có thể sửa đổi hoặc bổ sung thêm các loại format nào nữa
@@ -81,42 +81,42 @@ trong tương lai hay không (ví dụ <code class="language-text">JSONLine</cod
 <span class="token comment">// Data</span>
 <span class="token keyword">type</span> <span class="token class-name">Data</span> <span class="token operator">=</span> <span class="token class-name">HashMap</span><span class="token operator">&lt;</span><span class="token class-name">String</span><span class="token punctuation">,</span> <span class="token keyword">u32</span><span class="token operator">></span><span class="token punctuation">;</span>
 <span class="token keyword">impl</span> <span class="token class-name">Data</span> <span class="token punctuation">{</span>
-	<span class="token comment">// f: T chap nhan moi struct co impl Formatter</span>
-	<span class="token keyword">fn</span> <span class="token function-definition function">generate</span><span class="token operator">&lt;</span><span class="token class-name">T</span><span class="token punctuation">:</span> <span class="token class-name">Formatter</span><span class="token operator">></span><span class="token punctuation">(</span>f<span class="token punctuation">:</span> <span class="token class-name">T</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> <span class="token class-name">String</span> <span class="token punctuation">{</span>
-		f<span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token keyword">self</span><span class="token punctuation">)</span>
-	<span class="token punctuation">}</span>
+  <span class="token comment">// f: T chap nhan moi struct co impl Formatter</span>
+  <span class="token keyword">fn</span> <span class="token function-definition function">generate</span><span class="token operator">&lt;</span><span class="token class-name">T</span><span class="token punctuation">:</span> <span class="token class-name">Formatter</span><span class="token operator">></span><span class="token punctuation">(</span>f<span class="token punctuation">:</span> <span class="token class-name">T</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> <span class="token class-name">String</span> <span class="token punctuation">{</span>
+    f<span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token keyword">self</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 
 <span class="token comment">// Formatter</span>
 <span class="token keyword">trait</span> <span class="token class-name">Formatter</span> <span class="token punctuation">{</span>
-    <span class="token keyword">fn</span> <span class="token function-definition function">format</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token keyword">self</span><span class="token punctuation">,</span> data<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token class-name">Data</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> <span class="token class-name">String</span><span class="token punctuation">;</span>
+  <span class="token keyword">fn</span> <span class="token function-definition function">format</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token keyword">self</span><span class="token punctuation">,</span> data<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token class-name">Data</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> <span class="token class-name">String</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 
 <span class="token comment">// Formatter -> Json</span>
 <span class="token keyword">struct</span> <span class="token type-definition class-name">Json</span><span class="token punctuation">;</span>
 <span class="token keyword">impl</span> <span class="token class-name">Formatter</span> <span class="token keyword">for</span> <span class="token class-name">Json</span> <span class="token punctuation">{</span>
-	<span class="token keyword">fn</span> <span class="token function-definition function">format</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token keyword">self</span><span class="token punctuation">,</span> data<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token class-name">Data</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> <span class="token class-name">String</span> <span class="token punctuation">{</span>
-			<span class="token comment">// res = { "a": 1, "b": 2. /// }</span>
-			res
-	<span class="token punctuation">}</span>
+  <span class="token keyword">fn</span> <span class="token function-definition function">format</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token keyword">self</span><span class="token punctuation">,</span> data<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token class-name">Data</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> <span class="token class-name">String</span> <span class="token punctuation">{</span>
+    <span class="token comment">// res = { "a": 1, "b": 2. /// }</span>
+    res
+  <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 
 <span class="token comment">// Formatter -> Text</span>
 <span class="token keyword">struct</span> <span class="token type-definition class-name">Text</span><span class="token punctuation">;</span>
 <span class="token keyword">impl</span> <span class="token class-name">Formatter</span> <span class="token keyword">for</span> <span class="token class-name">Text</span> <span class="token punctuation">{</span>
-	<span class="token keyword">fn</span> <span class="token function-definition function">format</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token keyword">self</span><span class="token punctuation">,</span> data<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token class-name">Data</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> <span class="token class-name">String</span> <span class="token punctuation">{</span>
-			<span class="token comment">// res = "a = 1, b = 2, ..."</span>
-			res
-	<span class="token punctuation">}</span>
+  <span class="token keyword">fn</span> <span class="token function-definition function">format</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token keyword">self</span><span class="token punctuation">,</span> data<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token class-name">Data</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> <span class="token class-name">String</span> <span class="token punctuation">{</span>
+    <span class="token comment">// res = "a = 1, b = 2, ..."</span>
+    res
+  <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 
 <span class="token keyword">fn</span> <span class="token function-definition function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-	<span class="token keyword">let</span> <span class="token keyword">mut</span> data <span class="token operator">=</span> <span class="token class-name">Data</span><span class="token punctuation">::</span><span class="token function">new</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-	data<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span><span class="token string">"a"</span><span class="token punctuation">.</span><span class="token function">to_string</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-	data<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span><span class="token string">"b"</span><span class="token punctuation">.</span><span class="token function">to_string</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> <span class="token keyword">mut</span> data <span class="token operator">=</span> <span class="token class-name">Data</span><span class="token punctuation">::</span><span class="token function">new</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  data<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span><span class="token string">"a"</span><span class="token punctuation">.</span><span class="token function">to_string</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  data<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span><span class="token string">"b"</span><span class="token punctuation">.</span><span class="token function">to_string</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
   <span class="token keyword">let</span> s <span class="token operator">=</span> data<span class="token punctuation">.</span><span class="token function">generate</span><span class="token punctuation">(</span><span class="token class-name">Text</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-	<span class="token macro property">assert!</span><span class="token punctuation">(</span>s<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token string">"a = b, b = 2"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token macro property">assert!</span><span class="token punctuation">(</span>s<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token string">"a = b, b = 2"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
   <span class="token keyword">let</span> s <span class="token operator">=</span> data<span class="token punctuation">.</span><span class="token function">generate</span><span class="token punctuation">(</span><span class="token class-name">Json</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token macro property">assert!</span><span class="token punctuation">(</span>s<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token string">r#"{"a":1, "b":2}"#</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -136,9 +136,9 @@ thực tế người ta thưởng đặt ở nhiều module khác nhau hoặc m�
 <span class="token keyword">struct</span> <span class="token type-definition class-name">CustomFormatter</span><span class="token punctuation">;</span>
 
 <span class="token keyword">impl</span> <span class="token class-name">Formatter</span> <span class="token keyword">for</span> <span class="token class-name">CustomFormatter</span> <span class="token punctuation">{</span>
-	<span class="token keyword">fn</span> <span class="token function-definition function">format</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token keyword">self</span><span class="token punctuation">,</span> data<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token class-name">Data</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> <span class="token class-name">String</span> <span class="token punctuation">{</span>
-		<span class="token punctuation">...</span>
-	<span class="token punctuation">}</span>
+  <span class="token keyword">fn</span> <span class="token function-definition function">format</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token keyword">self</span><span class="token punctuation">,</span> data<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token class-name">Data</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> <span class="token class-name">String</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">...</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre></div>
 <p><code class="language-text">serde</code> là một ví dụ hay của <code class="language-text">Strategy</code> pattern, serde cho phép
 <a href="https://serde.rs/custom-serialization.html" target="_blank" rel="nofollow noopener noreferrer">full customization</a> serialization
