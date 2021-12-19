@@ -31,14 +31,14 @@ use std::collections::HashMap;
 type Data = HashMap<String, u32>;
 
 impl Data {
-    fn generate(&self, format: &str) {
-        match format {
-					"json" => { ... }
-					"yaml" => { ... }
-					"text" => { ... }
-					_      => { ... }
-				}
+  fn generate(&self, format: &str) {
+    match format {
+      "json" => { ... }
+      "yaml" => { ... }
+      "text" => { ... }
+      _      => { ... }
     }
+  }
 }
 ```
 
@@ -54,42 +54,42 @@ use std::collections::HashMap;
 // Data
 type Data = HashMap<String, u32>;
 impl Data {
-	// f: T chap nhan moi struct co impl Formatter
-	fn generate<T: Formatter>(f: T) -> String {
-		f.format(&self)
-	}
+  // f: T chap nhan moi struct co impl Formatter
+  fn generate<T: Formatter>(f: T) -> String {
+    f.format(&self)
+  }
 }
 
 // Formatter
 trait Formatter {
-    fn format(&self, data: &Data) -> String;
+  fn format(&self, data: &Data) -> String;
 }
 
 // Formatter -> Json
 struct Json;
 impl Formatter for Json {
-	fn format(&self, data: &Data) -> String {
-			// res = { "a": 1, "b": 2. /// }
-			res
-	}
+  fn format(&self, data: &Data) -> String {
+    // res = { "a": 1, "b": 2. /// }
+    res
+  }
 }
 
 // Formatter -> Text
 struct Text;
 impl Formatter for Text {
-	fn format(&self, data: &Data) -> String {
-			// res = "a = 1, b = 2, ..."
-			res
-	}
+  fn format(&self, data: &Data) -> String {
+    // res = "a = 1, b = 2, ..."
+    res
+  }
 }
 
 fn main() {
-	let mut data = Data::new();
-	data.insert("a".to_string(), 1);
-	data.insert("b".to_string(), 2);
+  let mut data = Data::new();
+  data.insert("a".to_string(), 1);
+  data.insert("b".to_string(), 2);
 
   let s = data.generate(Text);
-	assert!(s.contains("a = b, b = 2"));
+  assert!(s.contains("a = b, b = 2"));
 
   let s = data.generate(Json);
   assert!(s.contains(r#"{"a":1, "b":2}"#));
@@ -117,9 +117,9 @@ use crate::example::{Data, Formatter};
 struct CustomFormatter;
 
 impl Formatter for CustomFormatter {
-	fn format(&self, data: &Data) -> String {
-		...
-	}
+  fn format(&self, data: &Data) -> String {
+    ...
+  }
 }
 ```
 
