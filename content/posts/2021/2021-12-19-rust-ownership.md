@@ -24,7 +24,9 @@ garbage collection để tìm và giải phóng bộ nhớ lúc runtime, một s
 ngôn ngữ khác thì lập trình viên phải tự chi định (allocate) và giải 
 phóng (free) bộ nhớ. Rust đi theo một hướng khác, memory được quản lý 
 bởi một ownership system gồm tập rules được compiler sử dụng để kiểm 
-tra (check) lúc compile. Càng hiểu được concept của ownership, thì dần 
+tra (check) lúc compile. Bằng cách này thì Rust ép chúng ta viết code theo một 
+cách an toàn memory-safe, Rust sẽ bắt lỗi ở lúc complie.
+Càng hiểu được concept của ownership, thì dần 
 dần chúng ta có thể viết được code an toàn và hiệu quả hơn. 
 
 Để tìm hiểu kỹ hơn về Ownership, bạn có thể đọc Rust Book tại 
@@ -43,7 +45,7 @@ Nói đơn giản về *ownership rules* thì có một số điều cơ bản s
 
 Bằng cách theo dõi data sử dụng thông qua bộ rules, 
 borrow checker có thể xác định khi nào data cần được khởi tạo 
-(initialized) và khi nào cần được giải phóng (freed, or dropped). 
+(initialized) và khi nào cần được giải phóng (freed, or dropped).  
 Thực tế sẽ có một trong ba trường hợp sau khi bạn sử dụng variable: 
 tự move data và bỏ ownership; copy data sang một variable khác; 
 hoặc sử dụng reference (con trỏ) đến data và vẫn giữ ownership, 
