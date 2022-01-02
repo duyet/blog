@@ -126,7 +126,7 @@ use std::str::FromStr;
 enum Color {
   Red,
   Green,
-	Blue
+  Blue
 }
 
 impl FromStr for Color {
