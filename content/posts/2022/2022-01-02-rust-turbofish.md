@@ -15,8 +15,6 @@ description: Trong trường hợp bạn cần chỉ định kiểu dữ liệu 
 
 ---
 
-# Rust Turbofish ::<> 🐠
-
 ![Rust Turbofish](/media/2022/01/rust-turbofish.png)
 
 Trong trường hợp bạn cần chỉ định kiểu dữ liệu cho một generic function, method, struct, hoặc enum, 
