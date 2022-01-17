@@ -11,17 +11,15 @@ slug: /2022/01/rust-format-strings-1.58.html
 draft: false
 fbCommentUrl: none
 thumbnail: https://i.imgur.com/OrkBRwV.png
-description: Bản cập nhật `Rust 1.58.0` vừa bổ sung một tính năng mình thấy khá hay về string format.
+description: Bản cập nhật `Rust 1.58.0` vừa bổ sung một số tính năng mình thấy khá hay về format string.
 
 ---
 
 ![](https://i.imgur.com/OrkBRwV.png)
 
-Bản cập nhật `Rust 1.58.0` vừa bổ sung một tính năng mình thấy khá hay về string format.
+Bản cập nhật `Rust 1.58.0` vừa bổ sung một số tính năng mình thấy khá hay về format string.
 
-Nó cho phép bạn đặt variables bên ngoài scope vào string format bằng cách sử dụng `{ident}`
-
-trong string.
+Nó cho phép bạn đặt variables bên ngoài scope vào string format bằng cách sử dụng `{ident}` trong format string.
 
 ```rust
 let x = "world";
