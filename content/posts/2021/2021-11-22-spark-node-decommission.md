@@ -12,9 +12,12 @@ slug: /2021/11/spark-node-decommission.html
 thumbnail: https://1.bp.blogspot.com/--34hINH9_uQ/YZqJZ0URtWI/AAAAAAACXDw/yGn6wkjBWaMDfSZL3Hylwz6ILzP4xKDvACLcBGAsYHQ/s0/spark-spot-node-shutdown.png
 draft: false
 fbCommentUrl: none
+twitterCommentUrl: https://twitter.com/search?q=https%3A%2F%2Fblog.duyet.net%2F2021%2F11%2Fspark-node-decommission.html
+hackerNewsCommentUrl: https://news.ycombinator.com/item?id=29974675
 description: >
   Spark 3.1 on the Kubernetes project is now officially declared as production-ready and Generally Available. Spot instances in Kubernetes can cut your bill by up to 70-80% if you are willing to trade in reliability.
   The new feature - SPIP: Add better handling for node shutdown (SPARK-20624) was implemented to deal with the problem of losing an executor when working with spot nodes - the need to recompute the shuffle or cached data.
+
 ---
 
 # Nodes Decommissioning

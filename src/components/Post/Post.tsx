@@ -22,7 +22,14 @@ const Post = ({ post }: Props) => {
   const [showComment, toggleShowComment] = useState<boolean>(false);
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
-  const { tags, title, date, fbCommentUrl } = post.frontmatter;
+  const {
+    tags,
+    title,
+    date,
+    fbCommentUrl,
+    twitterCommentUrl,
+    hackerNewsCommentUrl
+  } = post.frontmatter;
   const siteTitle = useSiteMetadata().title;
 
   return (
@@ -52,6 +59,30 @@ const Post = ({ post }: Props) => {
         >
           {showComment ? "Hide comments" : "Show comments"}
         </button>
+
+        {twitterCommentUrl ? (
+          <a
+            className={styles["post__comments__twitter"]}
+            href={twitterCommentUrl}
+            target="_blank"
+          >
+            Comment on Twitter
+          </a>
+        ) : (
+          ""
+        )}
+
+        {hackerNewsCommentUrl ? (
+          <a
+            className={styles["post__comments__hackernews"]}
+            href={hackerNewsCommentUrl}
+            target="_blank"
+          >
+            Comment on Hacker News
+          </a>
+        ) : (
+          ""
+        )}
 
         {showComment && (
           <Comments

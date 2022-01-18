@@ -33,9 +33,11 @@ export type Node = {
     description?: string,
     thumbnail?: string,
     category?: string,
-    fbCommentUrl?: string,
     tags?: string[],
     title: string,
+    fbCommentUrl?: string,
+    twitterCommentUrl?: string,
+    hackerNewsCommentUrl?: string,
   },
   html: string,
   id: string

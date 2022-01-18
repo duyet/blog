@@ -39,6 +39,8 @@ export const query = graphql`
         tags
         title
         fbCommentUrl
+        twitterCommentUrl
+        hackerNewsCommentUrl
       }
     }
   }

@@ -24,6 +24,17 @@
         padding-left: 0;
         cursor: pointer;
     }
+
+    &__twitter {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      margin-left: 10px;
+    }
+    &__hackernews {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      margin-left: 10px;
+    }
   }
 
   &__homeButton {
