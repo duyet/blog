@@ -7,6 +7,7 @@ category: Rust
 tags:
   - Rust
   - Vietnamese
+  - Rust Tiếng Việt
 slug: /2022/01/rust-format-strings-1.58.html
 draft: false
 fbCommentUrl: none

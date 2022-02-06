@@ -7,6 +7,7 @@ category: Rust
 tags:
   - Rust
   - Vietnamese
+  - Rust Tiếng Việt
 slug: /2021/12/rust-ownership.html
 draft: false
 fbCommentUrl: none

@@ -7,6 +7,7 @@ category: Rust
 tags:
   - Rust
   - Vietnamese
+  - Rust Tiếng Việt
 slug: /2022/01/rust-turbofish.html
 draft: false
 fbCommentUrl: none

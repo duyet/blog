@@ -8,6 +8,7 @@ tags:
   - Data Engineer
   - Rust
   - Vietnamese
+  - Rust Tiếng Việt
 slug: /2021/11/rust-data-engineering.html
 thumbnail: https://1.bp.blogspot.com/-iaNZB9YwIog/YaEZjAIHbZI/AAAAAAACXg4/OM-ltRpUCPI6mnl37l3nmtWVFk_gWG1TgCLcBGAsYHQ/s0/rust.png
 draft: false
