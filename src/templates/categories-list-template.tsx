@@ -6,20 +6,22 @@ import kebabCase from "lodash/kebabCase";
 import Sidebar from "../components/Sidebar";
 import Layout from "../components/Layout";
 import Page from "../components/Page";
-import CategoryTag from "../components/Layout/CategoryTag";
+import TopTag from "./TopTag";
 import { useSiteMetadata, useCategoriesList } from "../hooks";
 
-const topCategories = [
-  "Data Engineer",
-  "Machine Learning",
-  "Javascript",
-  "Web",
+const topItems = [
+  ["category", "Data Engineer"],
+  ["category", "Machine Learning"],
+  ["category", "Javascript"],
+  ["category", "Web"],
+  ["tag", "Rust"],
+  ["tag", "Rust Tiếng Việt"],
 ];
 
-const CategoriesListHighlight = ({ categories }: { categories: string[] }) => (
+const ListHighlight = ({ items }: { items: string[][] }) => (
   <div style={{ marginBottom: 30 }}>
-    {categories.map((category) => (
-      <CategoryTag category={category} key={category} />
+    {items.map((item) => (
+      <TopTag kind={item[0]} name={item[1]} key={item[1]} />
     ))}
   </div>
 );
@@ -32,7 +34,7 @@ const CategoriesListTemplate = () => {
     <Layout title={`Categories - ${title}`} description={subtitle}>
       <Sidebar />
       <Page title="Categories">
-        <CategoriesListHighlight categories={topCategories} />
+        <ListHighlight items={topItems} />
 
         <ul>
           {categories.map((category) => (

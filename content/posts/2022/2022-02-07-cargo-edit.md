@@ -9,7 +9,6 @@ tags:
   - Vietnamese
   - Rust Tiếng Việt
 slug: /2022/02/cargo-edit.html
-draft: false
 fbCommentUrl: none
 twitterCommentUrl: https://twitter.com/search?q=https%3A%2F%2Fblog.duyet.net%2F2022%2F01%2Frust-turbofish.html
 thumbnail: https://i.imgur.com/zy1QIYA.png 
@@ -17,13 +16,11 @@ description: cargo-edit là công cụ mở rộng của cargo cho phép có t
 
 ---
 
-`[cargo-edit](https://github.com/killercup/cargo-edit)` là công cụ mở rộng của `cargo` 
-cho phép có thêm một số tính năng quản lý dependencies giống như `npm` hoặc `yarn`.
-
 ![](/media/2022/02/duyet-cargo-edit.png)
 
-Ví dụ như `cargo add` sẽ hoạt động giống `npm install`hoặc `yarn` để cài packages, 
-thay vì edit `Cargo.toml` thủ công như trước đây (trong Rust "packages" được gọi là "crates").
+`[cargo-edit](https://github.com/killercup/cargo-edit)` là công cụ mở rộng của `cargo` cho phép có thêm một số tính năng quản lý dependencies giống như `npm` hoặc `yarn`.
+
+Ví dụ như  `cargo add` sẽ hoạt động giống `npm install`hoặc `yarn` để cài packages, thay vì edit `Cargo.toml` thủ công như trước đây (trong Rust "packages" được gọi là "crates").
 
 Một số lệnh mà cargo-edit hỗ trợ là:
 
@@ -45,7 +42,7 @@ $ cargo install cargo-edit
 
 ## `cargo add`
 
-Thêm một dependencies mới vào `Cargo.toml`. Nếu không chỉ định version, `cargo add` sẽ tự lấy version mới nhất từ [crates.io](https://crates.io/).  ****
+Thêm một dependencies mới vào `Cargo.toml`. Nếu không chỉ định version, `cargo add` sẽ tự lấy version mới nhất từ [crates.io](https://crates.io/).  
 
 ```bash
 $ # Có version cụ thể
