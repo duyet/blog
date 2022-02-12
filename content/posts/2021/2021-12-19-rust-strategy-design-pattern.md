@@ -15,6 +15,8 @@ thumbnail: https://i.imgur.com/ELxa4up.png
 description: Strategy design pattern là một technique nhằm mục đích phân tách nhiều vấn đề, tách software modules thông qua Dependency Inversion.
 ---
 
+<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a></div>
+
 [Strategy design pattern](https://en.wikipedia.org/wiki/Strategy_pattern) là một technique nhằm mục đích phân tách nhiều vấn đề, 
 tách software modules thông qua [Dependency Inversion](https://en.wikipedia.org/wiki/Dependency_inversion_principle). 
 Ý tưởng cơ bản của Strategy pattern là chỉ cần define skeleton ở abstract level, chúng ta tách biệt phần implementation 

@@ -16,6 +16,8 @@ description: Trong trường hợp bạn cần chỉ định kiểu dữ liệu 
 
 ---
 
+<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a></div>
+
 ![Rust Turbofish](/media/2022/01/rust-turbofish.png)
 
 Trong trường hợp bạn cần chỉ định kiểu dữ liệu cho một generic function, method, struct, hoặc enum, 

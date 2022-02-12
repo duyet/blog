@@ -17,6 +17,8 @@ description: Bản cập nhật `Rust 1.58.0` vừa bổ sung một số tính
 
 ---
 
+<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a></div>
+
 ![](https://i.imgur.com/OrkBRwV.png)
 
 Bản cập nhật `Rust 1.58.0` vừa bổ sung một số tính năng mình thấy khá hay về format string.

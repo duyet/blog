@@ -16,19 +16,21 @@ description: cargo-edit là công cụ mở rộng của cargo cho phép có t
 
 ---
 
+<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a></div>
+
 ![](/media/2022/02/duyet-cargo-edit.png)
 
-`[cargo-edit](https://github.com/killercup/cargo-edit)` là công cụ mở rộng của `cargo` cho phép có thêm một số tính năng quản lý dependencies giống như `npm` hoặc `yarn`.
+[`cargo-edit`](https://github.com/killercup/cargo-edit) là công cụ mở rộng của `cargo` cho phép có thêm một số tính năng quản lý dependencies giống như `npm` hoặc `yarn`.
 
 Ví dụ như  `cargo add` sẽ hoạt động giống `npm install`hoặc `yarn` để cài packages, thay vì edit `Cargo.toml` thủ công như trước đây (trong Rust "packages" được gọi là "crates").
 
 Một số lệnh mà cargo-edit hỗ trợ là:
 
 - `cargo install`: hoạt động giống như `npm install -g` hoặc `yarn global add`
-- `[cargo add](https://github.com/killercup/cargo-edit#cargo-add)`: thêm vào `Cargo.toml` crate mà bạn cần. Ta vẫn sẽ cần chạy `cargo build` hoặc `cargo check` để download và compile dependencies.
-- `[cargo rm](https://github.com/killercup/cargo-edit#cargo-rm)`: ngược lại xóa dependencies ra khỏi `Cargo.toml`.
-- `[cargo upgrade](https://github.com/killercup/cargo-edit#cargo-upgrade)`: upgrade dependencies phiên bản mới nhất.
-- `[cargo set-version](https://github.com/killercup/cargo-edit#cargo-set-version)`L: thay đổi thuộc tính `version` trong `Cargo.toml`
+- [`cargo add`](https://github.com/killercup/cargo-edit#cargo-add): thêm vào `Cargo.toml` crate mà bạn cần. Ta vẫn sẽ cần chạy `cargo build` hoặc `cargo check` để download và compile dependencies.
+- [`cargo rm`](https://github.com/killercup/cargo-edit#cargo-rm): ngược lại xóa dependencies ra khỏi `Cargo.toml`.
+- [`cargo upgrade`](https://github.com/killercup/cargo-edit#cargo-upgrade): upgrade dependencies phiên bản mới nhất.
+- [`cargo set-version`](https://github.com/killercup/cargo-edit#cargo-set-version): thay đổi thuộc tính `version` trong `Cargo.toml`
 
 # Cài đặt
 
