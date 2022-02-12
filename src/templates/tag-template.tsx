@@ -14,6 +14,35 @@ type Props = {
   pageContext: PageContext;
 };
 
+const tagDescription = {
+  "Rust Tiếng Việt": (
+    <div>
+      <p>
+        Rust là một ngôn ngữ mới, với hệ thống document và sách đồ sộ và chi
+        tiết. Nhưng đôi khi nó sẽ khó với một số người bởi đa số sẽ là Tiếng
+        Anh. Với chuỗi bài Rust Tiếng Việt, mình ghi chép và giải thích những gì
+        đã học được, chia sẽ với hy vọng có thể giúp cho mọi người tiếp cận
+        nhanh hơn, cũng như dành cho các thành viên trong team mình.
+      </p>
+      <p>Tham thảo:</p>
+      <p>
+        <ul>
+          <li>
+            <a href="https://doc.rust-lang.org/stable/book/" target="_blank">
+              Rust book
+            </a>
+          </li>
+          <li>
+            <a href="https://bloggingfordevs.com/rust-blogs/" target="_blank">
+              Today's 10 Best Rust Blogs
+            </a>
+          </li>
+        </ul>
+      </p>
+    </div>
+  ),
+};
+
 const TagTemplate = ({ data, pageContext }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
@@ -35,7 +64,11 @@ const TagTemplate = ({ data, pageContext }: Props) => {
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
-      <Page title={tag} subtitle={<Link to="/tags/">← Back to All Tags</Link>}>
+      <Page
+        title={tag}
+        subtitle={<Link to="/tags/">← Back to All Tags</Link>}
+        description={tagDescription[tag]}
+      >
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
