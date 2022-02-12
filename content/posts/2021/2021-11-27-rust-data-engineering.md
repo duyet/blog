@@ -190,6 +190,8 @@ Rust team đã cải thiện điều này rất nhiều thời gian qua và sẽ
 [tương lai](https://matklad.github.io//2020/09/12/rust-in-2021.html), 
 hiện tại mình đã thấy nó nhanh hơn rất nhiều thông qua incremental builds.
 
+Xem thêm các bài viết khác của series [Rust Tiếng Việt](https://blog.duyet.net/tag/rust-ti%E1%BA%BFng-vi%E1%BB%87t/). 
+
 # References
 
 - StackOverflow: [Most loved, dreaded, and wanted](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted)
