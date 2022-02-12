@@ -63,7 +63,13 @@ Một ví dụ có thể dễ thấy là thuật toán sắp xếp trên Python 
 
 ## 3. Memory safe
 
-Viết code trên Rust an toàn, hầu hết các lỗi đều được complier phát hiện và giải thích rõ ràng. The compiler is your best friend and will be falled in love with Cargo Clippy.
+Viết code trên Rust an toàn, hầu hết các lỗi đều được complier phát hiện và giải thích rõ ràng. 
+Bạn sẽ phải làm quen với các khái niệm như [Borrowing](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html), 
+[Ownership](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html), 
+và [Lifetime](https://doc.rust-lang.org/book/ch10-00-generics.html) để hiểu Rust hơn.
+Và những khái niệm hay luật này giúp code an toàn hơn, hơn 60% bugs của programming 
+đều xuất phát từ việc quản lý memory, và ở Rust mọi thứ đều được phát hiện ở lúc compile.
+
 
 ## 4. Data Intensive System Design
 
@@ -120,6 +126,19 @@ nó cho phép bạn có document luôn chuẩn, có unittest ngay tại chỗ.
 Một điều nữa là hệ thống document cực kỳ chất lượng của Rust, từ official đến các thư viện. 
 Ban đầu mình chỉ cần đọc The Book (https://doc.rust-lang.org/book/) vì mọi thứ đều được giải thích rõ ràng chi tiết.
 
+## 7. Nhiều ông lớn
+
+Nhiều gã khổng lồ công nghệ đã và đang sử dụng và đóng góp rất nhiều cho Rust kể từ khi tách ra từ Mozilla và thành lập Rust Foundation. 
+
+![Rust Foundation](/media/2021/11/duyet-rust-doc.png)
+
+Google fund nhiều project như module [mod_tls](https://www.zdnet.com/article/a-rust-based-tls-library-outperformed-openssl-in-almost-every-category/) cho Apache HTTP, [Fuchsia](https://fuchsia.dev/fuchsia-src/development/languages/rust) hay là [Rust in the Android platform](https://security.googleblog.com/2021/04/rust-in-android-platform.html), [Google backs effort to bring Rust to the Linux kernel](https://www.zdnet.com/article/google-backs-effort-to-bring-rust-to-the-linux-kernel/).
+
+AWS cũng đã khẳng định [Why AWS loves Rust, and how we’d like to help](https://aws.amazon.com/blogs/opensource/why-aws-loves-rust-and-how-wed-like-to-help/). [Firecracker](https://github.com/firecracker-microvm/firecracker) (backend của AWS Lamda) hay các đóng góp cho [tokio](https://github.com/tokio-rs/tokio) là một trong những đóng góp hay cho thấy sự thành công của Rust. AWS chiêu mộ những contributor của Rust và Tokio, thành lập cả [AWS Rust team](https://aws.amazon.com/blogs/opensource/innovating-with-rust/) làm việc 100% trên các project Open Source này.
+
+Việc sử dụng Rust ngày càng tăng và 
+[Microsoft joins Rust Foundation](https://cloudblogs.microsoft.com/opensource/2021/02/08/microsoft-joins-rust-foundation/) 
+cho thấy sự đóng góp ngược lại của Microsoft.
 
 # Rust Tools và Frameworks cho Big Data và Parallel Processing
 
@@ -167,6 +186,9 @@ Mình nghĩ, mặc dù đã có nhiều bài viết về việc các data engine
 [data scientist](https://www.nature.com/articles/d41586-020-03382-2) đang dần 
 chú ý tới Rust, nhưng vẫn rất khó để Rust có thể thay thế được Python.
 
+Rust team đã cải thiện điều này rất nhiều thời gian qua và sẽ còn nữa trong 
+[tương lai](https://matklad.github.io//2020/09/12/rust-in-2021.html), 
+hiện tại mình đã thấy nó nhanh hơn rất nhiều thông qua incremental builds.
 
 # References
 
