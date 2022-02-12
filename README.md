@@ -58,6 +58,9 @@ $ gatsby serve
 ```
 
 ## Credits
+
+This repo is forked from https://github.com/vzhou842/victorzhou.com
+
 Nature graphic by [Anna Bearne](https://www.behance.net/annabearne) from [Noun Project](https://thenounproject.com/) is licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode).
 
 ## License
