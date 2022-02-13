@@ -8,6 +8,7 @@ tags:
   - Rust
   - Vietnamese
   - Rust Tiếng Việt
+  - Rust Basic
 slug: /2021/12/rust-ownership.html
 draft: false
 fbCommentUrl: none

@@ -8,6 +8,7 @@ tags:
   - Rust
   - Vietnamese
   - Rust Tiếng Việt
+  - Rust Basic
 slug: /2022/02/rust-trait.html
 fbCommentUrl: none
 twitterCommentUrl: https://twitter.com/search?q=https%3A%2F%2Fblog.duyet.net%2F2022%2F02%2Frust-trait.html

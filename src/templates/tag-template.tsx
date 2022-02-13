@@ -25,7 +25,9 @@ const tagDescription = {
         nhanh hơn, cũng như dành cho các thành viên trong team mình.
       </p>
       <p>
-        Sub-Series: <a href="/tag/rust-design-patterns">Rust Design Patterns</a>
+        Sub-Series:{" "}
+        <Link to="/tag/rust-design-patterns">Rust Design Patterns</Link>,{" "}
+        <Link to="/tag/rust-basic">Rust Basic</Link>
       </p>
       <p>Tham thảo:</p>
       <p>
@@ -65,13 +67,13 @@ const tagDescription = {
       <p>
         <ul>
           <li>
-            <a href="/tag/behavioural-patterns">Behavioural Patterns</a>
+            <Link to="/tag/behavioural-patterns">Behavioural Patterns</Link>
           </li>
           <li>
-            <a href="/tag/creational-patterns">Creational Patterns</a>
+            <Link to="/tag/creational-patterns">Creational Patterns</Link>
           </li>
           <li>
-            <a href="/tag/structural-patterns">Structural Patterns</a>
+            <Link to="/tag/structural-patterns">Structural Patterns</Link>
           </li>
         </ul>
       </p>
@@ -83,15 +85,15 @@ const tagDescription = {
         Rust Design Pattern Groups:
         <ul style={{ marginTop: "1em" }}>
           <li>
-            <a href="/tag/behavioural-patterns">
+            <Link to="/tag/behavioural-patterns">
               <strong>Behavioural Patterns</strong>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/tag/creational-patterns">Creational Patterns</a>
+            <Link to="/tag/creational-patterns">Creational Patterns</Link>
           </li>
           <li>
-            <a href="/tag/structural-patterns">Structural Patterns</a>
+            <Link to="/tag/structural-patterns">Structural Patterns</Link>
           </li>
         </ul>
       </p>
@@ -109,15 +111,15 @@ const tagDescription = {
         Rust Design Pattern Groups:
         <ul style={{ marginTop: "1em" }}>
           <li>
-            <a href="/tag/behavioural-patterns">Behavioural Patterns</a>
+            <Link to="/tag/behavioural-patterns">Behavioural Patterns</Link>
           </li>
           <li>
-            <a href="/tag/creational-patterns">
+            <Link to="/tag/creational-patterns">
               <strong>Creational Patterns</strong>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/tag/structural-patterns">Structural Patterns</a>
+            <Link to="/tag/structural-patterns">Structural Patterns</Link>
           </li>
         </ul>
       </p>
@@ -137,15 +139,15 @@ const tagDescription = {
         Rust Design Pattern Groups:
         <ul style={{ marginTop: "1em" }}>
           <li>
-            <a href="/tag/behavioural-patterns">Behavioural Patterns</a>
+            <Link to="/tag/behavioural-patterns">Behavioural Patterns</Link>
           </li>
           <li>
-            <a href="/tag/creational-patterns">Creational Patterns</a>
+            <Link to="/tag/creational-patterns">Creational Patterns</Link>
           </li>
           <li>
-            <a href="/tag/structural-patterns">
+            <Link to="/tag/structural-patterns">
               <strong>Structural Patterns</strong>
-            </a>
+            </Link>
           </li>
         </ul>
       </p>
