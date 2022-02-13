@@ -13,7 +13,6 @@ tags:
 slug: /2022/02/rust-builder-design-pattern.html
 draft: false
 fbCommentUrl: none
-thumbnail: https://i.imgur.com/ELxa4up.png
 description: Builder được sử dụng cực kỳ phổ biến trong Rust so với các ngôn ngữ khác, bởi vì Rust không có overloading.
 ---
 

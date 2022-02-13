@@ -13,7 +13,6 @@ tags:
 slug: /2022/02/rust-command-design-pattern.html
 draft: false
 fbCommentUrl: none
-thumbnail: https://i.imgur.com/ELxa4up.png
 description: Ý tưởng cơ bản của Command Pattern là tách các actions thành các object riêng và gọi chúng thông qua parameters.
 
 ---

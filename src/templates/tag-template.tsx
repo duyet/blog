@@ -24,6 +24,9 @@ const tagDescription = {
         đã học được, chia sẽ với hy vọng có thể giúp cho mọi người tiếp cận
         nhanh hơn, cũng như dành cho các thành viên trong team mình.
       </p>
+      <p>
+        Sub-Series: <a href="/tag/rust-design-patterns">Rust Design Patterns</a>
+      </p>
       <p>Tham thảo:</p>
       <p>
         <ul>
@@ -109,7 +112,9 @@ const tagDescription = {
             <a href="/tag/behavioural-patterns">Behavioural Patterns</a>
           </li>
           <li>
-            <a href="/tag/creational-patterns"><strong>Creational Patterns</strong></a>
+            <a href="/tag/creational-patterns">
+              <strong>Creational Patterns</strong>
+            </a>
           </li>
           <li>
             <a href="/tag/structural-patterns">Structural Patterns</a>
@@ -138,7 +143,9 @@ const tagDescription = {
             <a href="/tag/creational-patterns">Creational Patterns</a>
           </li>
           <li>
-            <a href="/tag/structural-patterns"><strong>Structural Patterns</strong></a>
+            <a href="/tag/structural-patterns">
+              <strong>Structural Patterns</strong>
+            </a>
           </li>
         </ul>
       </p>
@@ -149,6 +156,27 @@ const tagDescription = {
       </p>
     </div>
   ),
+};
+
+const subTitle = (tag: string) => {
+  const mapping = {
+    "Behavioural Patterns": (
+      <Link to="/tag/rust-design-patterns">← Back to Rust Design Patterns</Link>
+    ),
+    "Structural Patterns": (
+      <Link to="/tag/rust-design-patterns">← Back to Rust Design Patterns</Link>
+    ),
+    "Creational Patterns": (
+      <Link to="/tag/rust-design-patterns">← Back to Rust Design Patterns</Link>
+    ),
+    "Rust Design Patterns": (
+      <Link to="/tag/rust-tiếng-việt">← Rust Tiếng Việt</Link>
+    ),
+  };
+
+  const defaultSubTitle = <Link to="/tags">← Back to All Tags</Link>;
+
+  return mapping[tag] || defaultSubTitle;
 };
 
 const TagTemplate = ({ data, pageContext }: Props) => {
@@ -174,7 +202,7 @@ const TagTemplate = ({ data, pageContext }: Props) => {
       <Sidebar />
       <Page
         title={tag}
-        subtitle={<Link to="/tags/">← Back to All Tags</Link>}
+        subtitle={subTitle(tag)}
         description={tagDescription[tag]}
       >
         <Feed edges={edges} />

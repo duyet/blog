@@ -13,8 +13,8 @@ tags:
 slug: /2021/12/rust-strategy-design-pattern.html
 draft: false
 fbCommentUrl: none
-thumbnail: https://i.imgur.com/ELxa4up.png
 description: Strategy design pattern là một technique nhằm mục đích phân tách nhiều vấn đề, tách software modules thông qua Dependency Inversion.
+
 ---
 
 <div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a></div>

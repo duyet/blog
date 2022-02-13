@@ -13,7 +13,6 @@ tags:
 slug: /2022/02/rust-small-crates-design-pattern.html
 draft: false
 fbCommentUrl: none
-thumbnail: https://i.imgur.com/ELxa4up.png
 description: Prefer small crates that do one thing well. Để có được sự hiệu quả, mọi crate phải được thiết kế tốt, lựa chọn dependencies kỹ càng và càng độc lập càng tốt.
 
 ---

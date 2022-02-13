@@ -10,7 +10,7 @@ tags:
   - Vietnamese
   - Rust Tiếng Việt
 slug: /2021/11/rust-data-engineering.html
-thumbnail: https://1.bp.blogspot.com/-iaNZB9YwIog/YaEZjAIHbZI/AAAAAAACXg4/OM-ltRpUCPI6mnl37l3nmtWVFk_gWG1TgCLcBGAsYHQ/s0/rust.png
+thumbnail: https://1.bp.blogspot.com/-vMsrOjluhsk/YaEajTOjloI/AAAAAAACXhA/jPU7jYzICwgqE9pju-oDp0uFQLIzOsnqwCLcBGAsYHQ/s0/stackoverflow-surveys.png
 draft: false
 fbCommentUrl: none
 twitterCommentUrl: https://twitter.com/search?q=https%3A%2F%2Fblog.duyet.net%2F2021%2F11%2Frust-data-engineering.html

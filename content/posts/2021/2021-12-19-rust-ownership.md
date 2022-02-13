@@ -11,8 +11,8 @@ tags:
 slug: /2021/12/rust-ownership.html
 draft: false
 fbCommentUrl: none
-thumbnail: https://i.imgur.com/ELxa4up.png
 description: Ownership là một trong những tính năng đặc trưng của Rust, đây là cách giúp Rust đảm bảo memory safety mà không cần đến garbage collector.
+
 ---
 
 <div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a></div>
