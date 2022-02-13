@@ -41,6 +41,114 @@ const tagDescription = {
       </p>
     </div>
   ),
+  "Rust Design Patterns": (
+    <div>
+      <p>
+        <a
+          href="https://en.wikipedia.org/wiki/Software_design_pattern"
+          target="_blank"
+        >
+          Design patterns
+        </a>{" "}
+        là các những giải pháp giải quyết các vấn đề hay gặp trong thiết kế phần
+        mềm.
+      </p>
+      <p>
+        Rust có nhiều feature khá đặc trưng. Những feature đặc trưng này giúp
+        loại bỏ hầu hết các vấn đề có thể gặp phải trong các ngôn ngữ lập trình
+        khác. Và một số design patterns trong Rust cũng có thể sẽ rất đặc trưng.
+      </p>
+      <p>Các nhóm Design Patterns trong Rust:</p>
+      <p>
+        <ul>
+          <li>
+            <a href="/tag/behavioural-patterns">Behavioural Patterns</a>
+          </li>
+          <li>
+            <a href="/tag/creational-patterns">Creational Patterns</a>
+          </li>
+          <li>
+            <a href="/tag/structural-patterns">Structural Patterns</a>
+          </li>
+        </ul>
+      </p>
+    </div>
+  ),
+  "Behavioural Patterns": (
+    <div>
+      <p>
+        Rust Design Pattern Groups:
+        <ul style={{ marginTop: "1em" }}>
+          <li>
+            <a href="/tag/behavioural-patterns">
+              <strong>Behavioural Patterns</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/tag/creational-patterns">Creational Patterns</a>
+          </li>
+          <li>
+            <a href="/tag/structural-patterns">Structural Patterns</a>
+          </li>
+        </ul>
+      </p>
+      <p>
+        From Wikipedia: <br />
+        Behavioural Patterns: Design patterns that identify common communication
+        patterns among objects. By doing so, these patterns increase flexibility
+        in carrying out communication.
+      </p>
+    </div>
+  ),
+  "Creational Patterns": (
+    <div>
+      <p>
+        Rust Design Pattern Groups:
+        <ul style={{ marginTop: "1em" }}>
+          <li>
+            <a href="/tag/behavioural-patterns">Behavioural Patterns</a>
+          </li>
+          <li>
+            <a href="/tag/creational-patterns"><strong>Creational Patterns</strong></a>
+          </li>
+          <li>
+            <a href="/tag/structural-patterns">Structural Patterns</a>
+          </li>
+        </ul>
+      </p>
+      <p>
+        From Wikipedia: <br />
+        Creational Patterns: Design patterns that deal with object creation
+        mechanisms, trying to create objects in a manner suitable to the
+        situation. The basic form of object creation could result in design
+        problems or in added complexity to the design. Creational design
+        patterns solve this problem by somehow controlling this object creation.
+      </p>
+    </div>
+  ),
+  "Structural Patterns": (
+    <div>
+      <p>
+        Rust Design Pattern Groups:
+        <ul style={{ marginTop: "1em" }}>
+          <li>
+            <a href="/tag/behavioural-patterns">Behavioural Patterns</a>
+          </li>
+          <li>
+            <a href="/tag/creational-patterns">Creational Patterns</a>
+          </li>
+          <li>
+            <a href="/tag/structural-patterns"><strong>Structural Patterns</strong></a>
+          </li>
+        </ul>
+      </p>
+      <p>
+        From Wikipedia: <br />
+        Structual Patterns: Design patterns that ease the design by identifying
+        a simple way to realize relationships among entities.
+      </p>
+    </div>
+  ),
 };
 
 const TagTemplate = ({ data, pageContext }: Props) => {

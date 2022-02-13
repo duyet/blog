@@ -8,6 +8,8 @@ tags:
   - Rust
   - Vietnamese
   - Rust Tiếng Việt
+  - Rust Design Patterns
+  - Behavioural Patterns
 slug: /2021/12/rust-strategy-design-pattern.html
 draft: false
 fbCommentUrl: none
@@ -16,6 +18,26 @@ description: Strategy design pattern là một technique nhằm mục đích ph
 ---
 
 <div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a></div>
+
+<div class="toc">
+  <p>Stragery là một trong <a href="/tag/rust-design-patterns">những pattern</a> thuộc nhóm <strong><a href="/tag/behavioural-patterns">Behavioural Patterns<a/></strong></p>
+  <ul>
+    <li>
+      <a href="/tag/behavioural-patterns">Behavioural Patterns</a>
+      <ul>
+        <li><a href="/2021/12/rust-strategy-design-pattern.html"><strong>Strategy Design Pattern</strong></a></li>
+        <li><a href="/2022/02/rust-command-design-pattern.html">Command Design Pattern</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="/tag/creational-patterns">Creational Patterns</a>
+    </li>
+    <li>
+      <a href="/tag/structural-patterns">Structural Patterns</a>
+    </li>
+  </ul>
+  </ul>
+</div>
 
 [Strategy design pattern](https://en.wikipedia.org/wiki/Strategy_pattern) là một technique nhằm mục đích phân tách nhiều vấn đề, 
 tách software modules thông qua [Dependency Inversion](https://en.wikipedia.org/wiki/Dependency_inversion_principle). 

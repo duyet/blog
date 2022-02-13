@@ -200,5 +200,20 @@ figcaption {
   ul li {
     margin: 0;
     margin-bottom: 0.3em;
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+
+      li {
+        a {
+          strong {
+            color: #000;
+            text-decoration: none;
+          }
+        }
+      }
+    }
   }
 }
