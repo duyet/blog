@@ -1,7 +1,7 @@
 ---
 template: post
 title: Rust Trait
-date: "2022-02-13:00:00.000+07:00"
+date: "2022-02-13T00:00.000+07:00"
 author: Van-Duyet Le
 category: Rust
 tags:
