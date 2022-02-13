@@ -175,3 +175,30 @@ figcaption {
   border-radius: 5px;
   background-color: #fbf2e9;
 }
+
+.toc {
+  padding: 1em;
+  border-left: 1px solid #ccc;
+  margin-bottom: 2rem;
+  padding-bottom: 0;
+  padding-top: 0;
+  font-size: 0.9rem;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+
+  p {
+    padding: 0;
+    margin: 0.4rem !important;
+    padding-top: 1em !important;
+  }
+
+  ul {
+    padding-top: 0;
+    padding-bottom: 1em;
+  }
+
+  ul li {
+    margin: 0;
+    margin-bottom: 0.3em;
+  }
+}

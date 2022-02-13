@@ -113,6 +113,14 @@ const _options = {
       content: '\'js\'',
       background: '#f7df1e'
     },
+    '.gatsby-highlight pre[class=\'language-typescript\']::before': {
+      content: '\'ts\'',
+      background: '#f7df1e'
+    },
+    '.gatsby-highlight pre[class=\'language-rust\']::before': {
+      content: '\'rust\'',
+      background: '#f7df1e'
+    },
     '.gatsby-highlight pre[class=\'language-js\']::before': {
       content: '\'js\'',
       background: '#f7df1e'
