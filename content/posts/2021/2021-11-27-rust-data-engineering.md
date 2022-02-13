@@ -13,6 +13,7 @@ slug: /2021/11/rust-data-engineering.html
 thumbnail: https://1.bp.blogspot.com/-iaNZB9YwIog/YaEZjAIHbZI/AAAAAAACXg4/OM-ltRpUCPI6mnl37l3nmtWVFk_gWG1TgCLcBGAsYHQ/s0/rust.png
 draft: false
 fbCommentUrl: none
+twitterCommentUrl: https://twitter.com/search?q=https%3A%2F%2Fblog.duyet.net%2F2021%2F11%2Frust-data-engineering.html
 description: >
   Đối với một Data Engineer như mình, ưu tiên chọn một ngôn ngữ dựa trên việc nó có giải quyết được hết hầu hết các nhu cầu và bài toán của mình hay không: Data Engineering, Distributed System và Web Development.
   Và cuối cùng mình dự định sẽ bắt đầu với Rust, bởi vì ...
