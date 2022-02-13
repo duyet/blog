@@ -55,7 +55,7 @@ const Feed = ({ edges }: Props) => (
         <p className={styles["feed__itemDescription"]}>
           {edge.node.frontmatter.description}
         </p>
-        {edge.node.frontmatter.thumbnail && (
+        {!!edge.node.frontmatter.thumbnail && (
           <p className={styles["feed__itemThumbnail"]}>
             <img
               src={edge.node.frontmatter.thumbnail}
