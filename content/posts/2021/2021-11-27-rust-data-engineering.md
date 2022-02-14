@@ -202,4 +202,5 @@ hiện tại mình đã thấy nó nhanh hơn rất nhiều thông qua increment
 - [I wrote one of the fastest DataFrame libraries](https://www.ritchievink.com/blog/2021/02/28/i-wrote-one-of-the-fastest-dataframe-libraries/)
 - [Why scientists are turning to Rust](https://www.nature.com/articles/d41586-020-03382-2)
 - [Rust is for Big Data (#rust2018)](https://andygrove.io/2018/01/rust-is-for-big-data/)
+- [42 Companies using Rust in production](https://kerkour.com/rust-in-production-2021/)
 - https://lib.rs
