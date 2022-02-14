@@ -203,4 +203,5 @@ hiện tại mình đã thấy nó nhanh hơn rất nhiều thông qua increment
 - [Why scientists are turning to Rust](https://www.nature.com/articles/d41586-020-03382-2)
 - [Rust is for Big Data (#rust2018)](https://andygrove.io/2018/01/rust-is-for-big-data/)
 - [42 Companies using Rust in production](https://kerkour.com/rust-in-production-2021/)
+- [Rust Production Users](https://www.rust-lang.org/production/users)
 - https://lib.rs
