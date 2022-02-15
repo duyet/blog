@@ -12,6 +12,7 @@ tags:
 slug: /2022/01/rust-turbofish.html
 draft: false
 fbCommentUrl: none
+twitterCommentUrl: https://twitter.com/search?q=https%3A%2F%2Fblog.duyet.net%2F2022%2F01%2Frust-turbofish.html
 thumbnail: https://i.imgur.com/RI41eNJ.png
 description: Trong trường hợp bạn cần chỉ định kiểu dữ liệu cho một generic function, method, struct, hoặc enum, Rust có một cú pháp đặc biệt để làm điều này gọi là turbofish.
 

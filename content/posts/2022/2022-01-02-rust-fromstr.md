@@ -13,13 +13,13 @@ slug: /2022/01/rust-fromstr.html
 draft: false
 fbCommentUrl: none
 thumbnail: https://i.imgur.com/HlquQNu.png
-description: std::str::FromStr là một trait để khởi tạo instance từ string trong Rust, nó tương đương abstract class nếu bạn có background OOP.
+description: FromStr là một trait để khởi tạo instance từ string trong Rust, nó tương đương abstract class nếu bạn có background OOP.
 
 ---
 
 <div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a></div>
 
-[std::str::FromStr](https://doc.rust-lang.org/std/str/trait.FromStr.html) là một trait để khởi tạo instance từ string trong Rust, 
+[FromStr](https://doc.rust-lang.org/std/str/trait.FromStr.html) là một trait để khởi tạo instance từ string trong Rust, 
 nó tương đương abstract class nếu bạn có background OOP.
 
 ```rust
