@@ -27,6 +27,10 @@ module.exports = {
       path: "/pages/about",
     },
     {
+      label: "Rust Tiếng Việt",
+      path: "/tag/rust-tiếng-việt",
+    },
+    {
       label: "Open Analytics",
       path: "/pages/open-analytics",
     },
