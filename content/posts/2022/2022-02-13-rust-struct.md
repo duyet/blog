@@ -1,6 +1,6 @@
 ---
 template: post
-title: Rust Struct
+title: "Rust: Struct"
 date: "2022-02-13 10:00:00"
 author: Van-Duyet Le
 category: Rust
@@ -92,3 +92,5 @@ let size_and_colour = SizeAndColour {
   colour
 };
 ```
+
+Xem tiếp về [Trait](/2022/02/rust-trait.html).

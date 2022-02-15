@@ -1,6 +1,6 @@
 ---
 template: post
-title: Rust Strategy Design Pattern 
+title: "Rust Design Pattern: Strategy Pattern"
 date: "2021-12-19T00:00:00.000+07:00"
 author: Van-Duyet Le
 category: Rust

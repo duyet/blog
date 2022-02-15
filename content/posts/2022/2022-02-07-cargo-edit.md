@@ -1,6 +1,6 @@
 ---
 template: post
-title: cargo-edit
+title: "Rust: cargo-edit"
 date: "2022-02-06T01:00:00.000+07:00"
 author: Van-Duyet Le
 category: Rust
@@ -8,6 +8,7 @@ tags:
   - Rust
   - Vietnamese
   - Rust Tiếng Việt
+  - Rust Basic
 slug: /2022/02/cargo-edit.html
 fbCommentUrl: none
 twitterCommentUrl: https://twitter.com/search?q=https%3A%2F%2Fblog.duyet.net%2F2022%2F02%2Fcargo-edit.html

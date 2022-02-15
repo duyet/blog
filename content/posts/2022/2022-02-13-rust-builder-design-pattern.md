@@ -1,6 +1,6 @@
 ---
 template: post
-title: Rust Builder Design Pattern
+title: "Rust Design Pattern: Builder Pattern"
 date: "2022-02-13T02:00:00.000+07:00"
 author: Van-Duyet Le
 category: Rust

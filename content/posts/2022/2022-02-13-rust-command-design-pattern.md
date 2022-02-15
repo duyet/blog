@@ -1,6 +1,6 @@
 ---
 template: post
-title: Rust Command Design Pattern 
+title: "Rust Design Pattern: Command Pattern"
 date: "2022-02-13T01:00:00.000+07:00"
 author: Van-Duyet Le
 category: Rust

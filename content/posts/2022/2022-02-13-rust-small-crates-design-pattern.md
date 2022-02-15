@@ -1,6 +1,6 @@
 ---
 template: post
-title: Prefer Small Crates - Rust Design Pattern 
+title: "Rust Design Pattern: Prefer Small Crates" 
 date: "2022-02-13T04:00:00.000+07:00"
 author: Van-Duyet Le
 category: Rust

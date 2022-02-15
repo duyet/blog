@@ -1,6 +1,6 @@
 ---
 template: post
-title: Rust Ownership 
+title: "Rust: Ownership"
 date: "2021-12-19T01:00:00.000+07:00"
 author: Van-Duyet Le
 category: Rust

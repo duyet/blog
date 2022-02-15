@@ -1,6 +1,6 @@
 ---
 template: post
-title: Rust Trait
+title: "Rust: Trait"
 date: "2022-02-13 00:00.000+07:00"
 author: Van-Duyet Le
 category: Rust
@@ -451,3 +451,6 @@ print_it("what")
 Do đó Rust bắt được mọi lỗi lúc compile time và force chúng ta phải fix hết trước khi chương trình chạy. 
 Do đó chúng ta không cần phải viết thêm code để kiểm tra behavior (hay sự tồn tại của method) 
 trước khi sử dụng lúc runtime nữa, tăng cường được performance mà không phải từ bỏ tính flexibility của generics.
+
+
+Xem tiếp về [Struct](/2022/02/rust-struct.html).

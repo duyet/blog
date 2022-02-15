@@ -1,6 +1,6 @@
 ---
 template: post
-title: "Rust - Format Strings in 1.58"
+title: "Rust: Format Strings in 1.58"
 date: "2022-01-18T01:00:00.000+07:00"
 author: Van-Duyet Le
 category: Rust
@@ -8,6 +8,7 @@ tags:
   - Rust
   - Vietnamese
   - Rust Tiếng Việt
+  - Rust Basic
 slug: /2022/01/rust-format-strings-1.58.html
 draft: false
 fbCommentUrl: none

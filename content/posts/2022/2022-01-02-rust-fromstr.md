@@ -1,6 +1,6 @@
 ---
 template: post
-title: "Rust std::str::FromStr"
+title: "Rust: FromStr trait"
 date: "2022-01-02T00:00:00.000+07:00"
 author: Van-Duyet Le
 category: Rust
@@ -8,6 +8,7 @@ tags:
   - Rust
   - Vietnamese
   - Rust Tiếng Việt
+  - Rust Basic
 slug: /2022/01/rust-fromstr.html
 draft: false
 fbCommentUrl: none

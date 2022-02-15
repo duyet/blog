@@ -1,6 +1,6 @@
 ---
 template: post
-title: "Rust Turbofish ::<> 🐠 "
+title: "Rust: Turbofish ::<> 🐠 "
 date: "2022-01-02T01:00:00.000+07:00"
 author: Van-Duyet Le
 category: Rust
@@ -8,6 +8,7 @@ tags:
   - Rust
   - Vietnamese
   - Rust Tiếng Việt
+  - Rust Basic
 slug: /2022/01/rust-turbofish.html
 draft: false
 fbCommentUrl: none
