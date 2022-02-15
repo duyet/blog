@@ -51,16 +51,6 @@ Nhiều ngôn ngữ sử dụng kiểu dữ liệu `null` hoặc `nil` hoặc `u
 
 # 1. Option
 
-Một giá trị optional có thể mang một giá trị nào đó **Some(something)** hoặc không mang giá trị nào cả (**None**).
-
-```rust
-// An output can have either Some value or no value/ None.
-enum Option<T> { // T is a generic and it can contain any type of value.
-  Some(T),
-  None,
-}
-```
-
 Trong hầu hết các ngôn ngữ họ C (C, C#, Java, ...), để xác định một cái gì đó failed hay không tìm được giá trị thỏa mãn, chúng ta thường trả về một giá trị *“đặc biệt”* nào đó. Ví dụ `indexOf()` của Javascript scan một phần tử trong mảng, trả về vị trí của phần tử đó trong mảng. Và trả về `-1` nếu không tìm thấy. 
 
 Dẫn đến, ta sẽ thường thấy một số đoạn code như sau đây:
@@ -75,7 +65,7 @@ if (index > -1) {
 }
 ```
 
-Như bạn thấy `-1` là một trường hợp đặc biệt cần xử lý. Có khi nào bạn đã từng mắc lỗi ngớ ngẫn vì tưởng giá trị đặc biệt đó là `0` như mình chưa?
+Như bạn thấy `-1` là một trường hợp đặc biệt cần xử lý. Có khi nào bạn đã từng mắc lỗi ngớ ngẫn vì tưởng giá trị đặc biệt đó là `0` chưa?
 
 ```typescript
 if (index > 0) {
@@ -85,11 +75,27 @@ if (index > 0) {
 
 `""` hay `null` hay `None` cũng là một trong những trường hợp đặc biệt đó. Bạn đã từng nghe đến ****[Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/)****?
 
-Lý do cơ bản là không có gì chắc chắn và có thể ngăn bạn lại việc ... **quên** (hihi) xử lý mọi trường hợp giá trị đặc biệt. Có nghĩa là bạn có thể *vô tình* làm crash chương trình với một lỗi nhỏ ở bất kỳ đâu, ở bất kỳ thời điểm nào.
+Lý do cơ bản là không có gì chắc chắn và có thể ngăn bạn lại việc ... **quên** 
+xử lý mọi trường hợp giá trị đặc biệt, hoặc do chương trình trả về các giá trị đặc biệt không như mong đợi.
+Có nghĩa là ta có thể *vô tình* làm crash chương trình với một lỗi nhỏ ở bất kỳ đâu, ở bất kỳ thời điểm nào.
 
-Rust làm điều này tốt hơn, chỉ với `Option`. Theo thiết kế, mặc định bạn sẽ không bao giờ lấy được giá trị bạn cần nếu không xử lý các trường hợp có thể xảy ra với `Option`, là `None` chẳng hạn. Điều này được bắt buộc bởi compiler lúc compile code, có nghĩa là nếu bạn quên check, code sẽ không bao giờ được compile.
+Rust làm điều này tốt hơn, chỉ với `Option`. 
 
-```jsx
+Một giá trị optional có thể mang một giá trị nào đó **Some(something)** hoặc không mang giá trị nào cả (**None**).
+
+```rust
+// An output can have either Some value or no value/ None.
+enum Option<T> { // T is a generic and it can contain any type of value.
+  Some(T),
+  None,
+}
+```
+
+Theo thiết kế, mặc định bạn sẽ không bao giờ lấy được giá trị bạn cần nếu không xử lý 
+các trường hợp có thể xảy ra với `Option`, là `None` chẳng hạn. 
+Điều này được bắt buộc bởi compiler lúc compile code, có nghĩa là nếu bạn quên check, code sẽ không bao giờ được compile.
+
+```rust
 let sentence = "The fox jumps over the dog";
 let index = sentence.find("fox");
 
@@ -109,24 +115,24 @@ Ví dụ, ta có một function tính giá trị chia hai số, đôi khi sẽ k
 
 ```rust
 fn divide(numerator: f64, denominator: f64) -> Option<f64> {
-	if denominator == 0.0 {
-		None
-	} else {
-		Some(numerator / denominator)
-	}
+  if denominator == 0.0 {
+    None
+  } else {
+    Some(numerator / denominator)
+  }
 }
 
 fn main() {
-	// The return value of the function is an option
-	let result = divide(2.0, 3.0);
-	
-	// Pattern match to retrieve the value
-		match result {
-	  // The division was valid
-	  Some(x) => println!("Result: {}", x),
-	  // The division was invalid
-	  None    => println!("Cannot divide by 0"),
-	}
+  // The return value of the function is an option
+  let result = divide(2.0, 3.0);
+
+  // Pattern match to retrieve the value
+  match result {
+    // The division was valid
+    Some(x) => println!("Result: {}", x),
+    // The division was invalid
+    None    => println!("Cannot divide by 0"),
+  }
 }
 ```
 
@@ -181,7 +187,11 @@ assert_eq!(0, bad_year);
 
 ### `.ok_or()`
 
-Convert `Option<T>` sang [`Result<T, E>`](https://doc.rust-lang.org/std/result/enum.Result.html), mapping `[Some(v)](https://doc.rust-lang.org/std/option/enum.Option.html#variant.Some)` thành `[Ok(v)](https://doc.rust-lang.org/std/result/enum.Result.html#variant.Ok)` và `[None](https://doc.rust-lang.org/std/option/enum.Option.html#variant.None)` sang `[Err(err)](https://doc.rust-lang.org/std/result/enum.Result.html#variant.Err)`.
+Convert `Option<T>` sang [`Result<T, E>`](https://doc.rust-lang.org/std/result/enum.Result.html), 
+mapping [`Some(v)`](https://doc.rust-lang.org/std/option/enum.Option.html#variant.Some) 
+thành [`Ok(v)`](https://doc.rust-lang.org/std/result/enum.Result.html#variant.Ok) 
+và [`None`](https://doc.rust-lang.org/std/option/enum.Option.html#variant.None) 
+sang [`Err(err)`](https://doc.rust-lang.org/std/result/enum.Result.html#variant.Err).
 
 ```rust
 let x = Some("foo");
@@ -194,9 +204,9 @@ Chúng ta có thể sử dụng pattern matching để code dễ đọc hơn
 
 ```rust
 fn get_name(who: Option<String>) -> String {
-	match who {
+  match who {
     Some(name) => format!("Hello {}", name),
-		None       => "Who are you?".to_string(), 
+    None       => "Who are you?".to_string(), 
   }
 }
 
@@ -221,11 +231,11 @@ Ví dụ
 
 ```rust
 fn get_age(who: &str) -> Result<i8, &str> {
-	if who == "duyet" {
-		Ok(18)
-	} else {
-		Err("unknown")
-	}
+  if who == "duyet" {
+    Ok(18)
+  } else {
+    Err("unknown")
+  }
 }
 
 fn main() -> Result<(), &'static str> {
