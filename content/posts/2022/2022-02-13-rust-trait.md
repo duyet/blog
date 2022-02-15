@@ -33,6 +33,7 @@ description: Rust Trait là gì? Rust có nhiều loại data types như primiti
     <li><a href="#returning-types-that-implement-traits">Returning Types that Implement Traits</a></li>
     <li><a href="#using-trait-bounds-to-conditionally-implement-methods">Using Trait Bounds to Conditionally Implement Methods</a></li>
     <li><a href="#blanket-implementations">Blanket implementations</a></li>
+    <li><a href="#trait-inheritance">Trait Inheritance</a></li>
     <li><a href="#k%E1%BA%BFt">Kết</a></li>
   </ul>
 </div>
@@ -429,6 +430,21 @@ let s = 3.to_string(); // do 3 thoaỏa manãn Display
 
 Do `3` thỏa mãn điều kiện là đã được `impl Display for i32`. 
 ([https://doc.rust-lang.org/std/fmt/trait.Display.html#impl-Display-11](https://doc.rust-lang.org/std/fmt/trait.Display.html#impl-Display-11))
+
+# Trait Inheritance 
+
+```rust
+pub trait B: A {}
+```
+
+Cái này không hẳn gọi là *Trait Inheritance*, cái này đúng hơn gọi là "cái nào implement cái `B` thì cũng nên implement cái `A`". `A` và `B` vẫn là 2 trait độc lập nên vẫn phải implemenet cả 2.
+
+```rust
+impl B for Z {}
+impl A for Z {}
+```
+
+Inheritance thì không được khuyến khích sử dụng.
 
 # Kết
 
