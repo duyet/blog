@@ -5,9 +5,9 @@ date: '2015-02-15T23:05:00.000+07:00'
 author: Van-Duyet Le
 tags:
 - SQL
-- phpMyAdmin
+- PHPMyAdmin
 - MySQL
-- tuts
+- Tutorials
 modified_time: '2015-02-15T23:05:02.138+07:00'
 thumbnail: https://1.bp.blogspot.com/-RIl_Pz6Y1Fo/VODDEddfGiI/AAAAAAAACHw/wibuZ6SUfAQ/s1600/Screenshot%2Bfrom%2B2015-02-15%2B22%3A59%3A44.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-5098182681799861842

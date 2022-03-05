@@ -5,7 +5,7 @@ date: '2014-06-02T12:50:00.002+07:00'
 category: PHP
 tags:
 - Framework
-- php
+- PHP
 modified_time: '2014-06-02T12:51:02.746+07:00'
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-2306051633096092269
 blogger_orig_url: https://blog.duyet.net/2014/06/php-framework-la-gi-tai-sao-nen-dung.html

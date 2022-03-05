@@ -5,7 +5,7 @@ date: '2018-02-19T13:44:00.000+07:00'
 author: Van-Duyet Le
 tags:
 - Data Engineer
-- open source
+- Open Source
 - Chatbot
 - Duckling
 - NLP

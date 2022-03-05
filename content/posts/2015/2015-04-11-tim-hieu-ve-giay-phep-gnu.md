@@ -4,7 +4,7 @@ title: Open Source - Tìm hiểu về giấy phép GNU (GNU General Public Licen
 date: '2015-04-11T13:03:00.001+07:00'
 author: Van-Duyet Le
 tags:
-- open source
+- Open Source
 - Giấy phép nguồn mở
 - GNU
 - License

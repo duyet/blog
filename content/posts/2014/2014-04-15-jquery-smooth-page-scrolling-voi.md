@@ -4,7 +4,7 @@ title: jQuery - Smooth page scrolling với TweenMax
 date: '2014-04-15T17:02:00.002+07:00'
 cateory: Javascript
 tags: 
-- javascript
+- Javascript
 - jquery
 modified_time: '2014-04-15T17:08:24.345+07:00'
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-5394235747184161246

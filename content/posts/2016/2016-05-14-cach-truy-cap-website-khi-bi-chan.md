@@ -8,7 +8,7 @@ tags:
 - Security
 - VPN
 - Tutorials
-- tuts
+- Tutorials
 modified_time: '2016-05-14T22:55:15.854+07:00'
 thumbnail: https://2.bp.blogspot.com/-6rmyO9vVn_U/Vzc77dL_NAI/AAAAAAAAVD8/Wvsfgk_OvMUeC5hCRyDPoAe39khT159KQCK4B/s1600/zenmate-14-535x535.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-6400436546351581963

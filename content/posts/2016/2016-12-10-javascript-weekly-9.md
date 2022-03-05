@@ -4,10 +4,9 @@ title: 'Javascript Weekly #9'
 date: '2016-12-10T10:09:00.001+07:00'
 author: Van-Duyet Le
 tags:
-- js
 - ES6
 - Javascript-Weekly-9
-- javascript
+- Javascript
 - Javascript-Weekly
 - React
 - Node.js

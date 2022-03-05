@@ -6,7 +6,7 @@ author: Van-Duyet Le
 tags:
 - Nodejs
 - Java
-- javascript
+- Javascript
 - Node.js
 - Why-node
 - Paypal

@@ -5,7 +5,7 @@ date: '2016-06-04T22:23:00.004+07:00'
 author: Van-Duyet Le
 tags:
 - Nodejs
-- javascript
+- Javascript
 - Javascript-Weekly
 modified_time: '2016-06-04T22:24:45.704+07:00'
 thumbnail: https://1.bp.blogspot.com/-PHSe7TVV9MM/V1Lu7UJTYmI/AAAAAAAAW-c/HaPQ8TWBHZMD444B2XUS8TK1iVgLoiUmQCK4B/s1600/react-infinite-calendar-duyetdev.gif

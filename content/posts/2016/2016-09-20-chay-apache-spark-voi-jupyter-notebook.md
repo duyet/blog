@@ -9,7 +9,7 @@ tags:
 - Apache Spark
 - IPython
 - Python
-- javascript
+- Javascript
 - PySpark
 - Spark
 - Machine Learning

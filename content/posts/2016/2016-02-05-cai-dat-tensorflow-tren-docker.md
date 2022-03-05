@@ -5,7 +5,7 @@ date: '2016-02-05T23:48:00.003+07:00'
 author: Van-Duyet Le
 tags:
 - Tensorflow
-- docker
+- Docker
 - Machine Learning
 - Howto
 modified_time: '2016-02-05T23:48:54.687+07:00'

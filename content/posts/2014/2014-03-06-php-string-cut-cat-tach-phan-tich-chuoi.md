@@ -4,8 +4,8 @@ title: PHP String Cut - Cắt, tách, phân tích chuỗi trong PHP
 date: '2014-03-06T17:23:00.001+07:00'
 category: PHP
 tags:
-- tuts
-- php
+- Tutorials
+- PHP
 modified_time: '2014-03-06T21:22:33.526+07:00'
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-791124830006177495
 blogger_orig_url: https://blog.duyet.net/2014/03/php-string-cut-cat-tach-phan-tich-chuoi.html

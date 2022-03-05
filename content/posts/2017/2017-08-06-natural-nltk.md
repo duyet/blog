@@ -7,7 +7,7 @@ tags:
 - Data Engineer
 - Nodejs
 - intro-js
-- javascript
+- Javascript
 - NLP
 - Intro-library
 - Machine Learning

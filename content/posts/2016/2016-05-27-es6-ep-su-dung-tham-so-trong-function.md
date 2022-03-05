@@ -7,7 +7,7 @@ tags:
 - Tutorrial
 - ES6
 - Tutorials
-- javascript
+- Javascript
 - Exploring ES6
 modified_time: '2016-05-27T11:34:39.996+07:00'
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-8426370080109005400

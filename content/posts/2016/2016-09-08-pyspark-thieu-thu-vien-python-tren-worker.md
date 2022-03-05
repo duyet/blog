@@ -8,7 +8,7 @@ tags:
 - Apache Spark
 - Python
 - Tutorials
-- javascript
+- Javascript
 - Spark
 - Javascript
 - note

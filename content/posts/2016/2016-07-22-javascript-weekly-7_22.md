@@ -5,9 +5,8 @@ date: '2016-07-22T15:14:00.001+07:00'
 author: Van-Duyet Le
 tags:
 - Nodejs
-- js
 - ES6
-- javascript
+- Javascript
 - Javascript-Weekly
 - React
 - Node.js

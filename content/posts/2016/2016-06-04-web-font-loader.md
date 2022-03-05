@@ -5,10 +5,9 @@ date: '2016-06-04T23:33:00.001+07:00'
 author: Van-Duyet Le
 tags:
 - Tutorial
-- js
 - intro-js
 - Tutorials
-- javascript
+- Javascript
 - Web Font
 - webfont.js
 modified_time: '2017-08-06T11:41:14.305+07:00'

@@ -6,7 +6,7 @@ author: Van-Duyet Le
 tags:
 - NPM
 - intro-js
-- javascript
+- Javascript
 - Number
 - Node.js
 - Lib

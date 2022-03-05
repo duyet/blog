@@ -4,9 +4,9 @@ title: Openstack - App Catalog và Docker trên Devstack
 date: '2016-10-29T18:46:00.000+07:00'
 author: Van-Duyet Le
 tags:
-- docker
+- Docker
 - Python
-- javascript
+- Javascript
 - Magnum
 - Openstack
 - DevStack

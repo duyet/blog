@@ -9,7 +9,7 @@ tags:
 - Tutorial
 - Text Classification
 - Python
-- javascript
+- Javascript
 - NLP
 - NLTK
 - Machine Learning

@@ -6,7 +6,7 @@ author: Van-Duyet Le
 category: News
 tags:
 - Git
-- github
+- Github
 modified_time: '2016-03-01T12:14:59.064+07:00'
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-8192788491263355004
 blogger_orig_url: https://blog.duyet.net/2015/02/pm-github-la-gi.html

@@ -8,7 +8,7 @@ tags:
 - Java
 - intro-js
 - Tutorials
-- javascript
+- Javascript
 - JavaPoly
 modified_time: '2017-08-06T11:41:14.356+07:00'
 thumbnail: https://3.bp.blogspot.com/-0PVYXnZKPos/Vz9CsMIpfnI/AAAAAAAAVi0/MHADr9GRYt4DooMtDYj-DesgH9Ba3KcMACK4B/s1600/f1s7ah2zp9vghd2hth1a.jpg

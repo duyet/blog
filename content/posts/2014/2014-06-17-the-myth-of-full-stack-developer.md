@@ -6,7 +6,7 @@ category: News
 tags:
 - Developer
 - Full-stack
-- html5
+- HTML5
 - Web
 - News
 modified_time: '2014-06-17T20:34:24.709+07:00'

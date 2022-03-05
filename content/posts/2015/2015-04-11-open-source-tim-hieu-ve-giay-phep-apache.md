@@ -4,7 +4,7 @@ title: " Open Source - Tìm hiểu về giấy phép Apache"
 date: '2015-04-11T14:13:00.000+07:00'
 author: Van-Duyet Le
 tags:
-- open source
+- Open Source
 - Apache
 - Giấy phép nguồn mở
 modified_time: '2015-04-11T14:13:30.700+07:00'

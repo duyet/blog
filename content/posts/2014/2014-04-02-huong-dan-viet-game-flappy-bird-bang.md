@@ -4,7 +4,7 @@ title: Hướng dẫn viết game Flappy Bird bằng HTML5 - Phần 3
 date: '2014-04-02T12:12:00.000+07:00'
 category: Javascript
 tags:
-- html5
+- HTML5
 - game
 - jQuery
 modified_time: '2015-01-22T19:22:48.214+07:00'

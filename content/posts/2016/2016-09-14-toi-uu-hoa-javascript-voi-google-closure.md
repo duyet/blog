@@ -5,8 +5,7 @@ date: '2016-09-14T10:57:00.000+07:00'
 author: Van-Duyet Le
 tags:
 - Optimize
-- js
-- javascript
+- Javascript
 - Gulp
 - Node.js
 - Google Closure

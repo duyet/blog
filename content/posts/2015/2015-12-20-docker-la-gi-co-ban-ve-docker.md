@@ -4,7 +4,7 @@ title: Docker là gì? Cơ bản về Docker
 date: '2015-12-20T14:52:00.002+07:00'
 author: Van-Duyet Le
 tags:
-- docker
+- Docker
 - Dockerfile
 modified_time: '2018-09-10T17:28:07.923+07:00'
 thumbnail: https://4.bp.blogspot.com/-_yUdu_nrol8/VnZeC8EMsdI/AAAAAAAAMG0/Qiij482W6lg/s1600/product%2B-%2Bengine.png

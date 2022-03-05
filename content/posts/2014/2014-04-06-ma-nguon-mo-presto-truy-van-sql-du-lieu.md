@@ -4,10 +4,10 @@ title: 'Mã nguồn mở Presto: truy vấn SQL dữ liệu bigdata lên đến 
 date: '2014-04-06T12:18:00.002+07:00'
 category: News
 tags:
-- open source
+- Open Source
 - Presto
 - facebook
-- github
+- Github
 modified_time: '2014-04-06T12:21:50.469+07:00'
 thumbnail: https://2.bp.blogspot.com/-svi1Luc0KZ8/U0DkUZHpdsI/AAAAAAAAGgU/oEV-ImDUuo4/s1600/presto.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-2393800391655442104

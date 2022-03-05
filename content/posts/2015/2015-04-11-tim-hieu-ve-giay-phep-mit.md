@@ -4,7 +4,7 @@ title: Open Source - Tìm hiểu về giấy phép MIT
 date: '2015-04-11T13:08:00.001+07:00'
 author: Van-Duyet Le
 tags:
-- open source
+- Open Source
 - Giấy phép nguồn mở
 - MIT
 modified_time: '2015-04-11T13:08:57.544+07:00'

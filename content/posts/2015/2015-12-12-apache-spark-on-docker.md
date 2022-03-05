@@ -4,7 +4,7 @@ title: Apache Spark on Docker
 date: '2015-12-12T00:48:00.000+07:00'
 author: Van-Duyet Le
 tags:
-- docker
+- Docker
 - Apache Spark
 - Web
 - Big Data

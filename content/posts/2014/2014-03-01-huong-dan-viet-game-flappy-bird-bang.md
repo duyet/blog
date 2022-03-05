@@ -4,10 +4,10 @@ title: Hướng dẫn viết game Flappy Bird bằng HTML5 - Phần 1
 date: '2014-03-01T13:27:00.000+07:00'
 category: Javascript
 tags:
-- javascript
+- Javascript
 - game
-- html5
-- tuts
+- HTML5
+- Tutorials
 modified_time: '2014-03-01T19:39:17.646+07:00'
 thumbnail: https://1.bp.blogspot.com/-jDgau6eVkS4/UxF1Q_4cgoI/AAAAAAAAGW8/rrpNzbFGmUg/s1600/FB-1.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-6041420516393550072

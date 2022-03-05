@@ -6,7 +6,7 @@ category: Web
 tags:
 - IDE
 - sublime text
-- tuts
+- Tutorials
 - editor
 modified_time: '2017-06-26T21:56:44.602+07:00'
 thumbnail: https://2.bp.blogspot.com/-nb8YMOYfUF8/UyFRBMRLFLI/AAAAAAAAGZo/Wd8TEIsnGsA/s1600/sublime.png

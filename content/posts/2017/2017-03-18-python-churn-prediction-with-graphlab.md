@@ -5,7 +5,7 @@ date: '2017-03-18T11:24:00.001+07:00'
 author: Van-Duyet Le
 tags:
 - Python
-- javascript
+- Javascript
 - Churn
 - Data Science
 - Machine Learning

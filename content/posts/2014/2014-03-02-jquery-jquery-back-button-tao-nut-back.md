@@ -5,8 +5,8 @@ date: '2014-03-02T16:21:00.002+07:00'
 author: Unknown
 category: Javascript
 tags:
-- javascript
-- tuts
+- Javascript
+- Tutorials
 - jQuery
 modified_time: '2014-03-02T16:23:11.225+07:00'
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-6403606179442339490

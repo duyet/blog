@@ -5,8 +5,8 @@ date: '2015-10-05T20:41:00.002+07:00'
 author: Van-Duyet Le
 tags:
 - Flarum
-- php
-- github
+- PHP
+- Github
 modified_time: '2015-10-05T20:46:41.997+07:00'
 thumbnail: https://1.bp.blogspot.com/-8a4wz6knhKo/VhJ9TYTSFnI/AAAAAAAADf0/kF8pUcA1zpg/s1600/flarum-logo.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-3954584159896181158

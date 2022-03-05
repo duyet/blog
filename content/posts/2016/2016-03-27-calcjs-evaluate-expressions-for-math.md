@@ -7,7 +7,7 @@ tags:
 - Calculator
 - Nodejs
 - NPM
-- javascript
+- Javascript
 - math
 modified_time: '2016-05-02T19:39:16.320+07:00'
 thumbnail: https://1.bp.blogspot.com/-vmFjdMDVRok/Vvek0fYiwmI/AAAAAAAASas/iUUHSjQAWYUcWK6F5tx8qq3nfP_sVozOg/s1600/calc.png

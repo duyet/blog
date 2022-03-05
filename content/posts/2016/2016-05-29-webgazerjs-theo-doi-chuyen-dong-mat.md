@@ -6,7 +6,7 @@ author: Van-Duyet Le
 tags:
 - intro-js
 - Tutorials
-- javascript
+- Javascript
 - Machine Learning
 - WebGazer.js
 modified_time: '2017-08-06T11:41:14.293+07:00'

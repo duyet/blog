@@ -6,9 +6,8 @@ author: Van-Duyet Le
 tags:
 - Tutorial
 - sublime text
-- js
 - Tutorials
-- javascript
+- Javascript
 - React
 - Node.js
 - Node

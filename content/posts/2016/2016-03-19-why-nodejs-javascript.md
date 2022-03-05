@@ -8,8 +8,7 @@ tags:
 - Nodejs
 - Stackoverflow
 - thống kê
-- js
-- javascript
+- Javascript
 modified_time: '2016-05-02T19:40:06.595+07:00'
 thumbnail: https://1.bp.blogspot.com/-02uvvbRBDEE/Vu0-MapY7TI/AAAAAAAAR6o/TImmG942FQwE1RxaBpwQEt_n_6PC1G_ag/s1600/Screenshot%2Bfrom%2B2016-03-19%2B18-54-46.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-5205721013245101344

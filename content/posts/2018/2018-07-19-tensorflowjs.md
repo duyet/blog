@@ -5,7 +5,7 @@ date: '2018-07-19T23:54:00.000+07:00'
 author: Van-Duyet Le
 tags:
 - Tensorflow
-- javascript
+- Javascript
 - Machine Learning
 - Web
 modified_time: '2018-07-20T12:57:01.378+07:00'

@@ -8,7 +8,7 @@ tags:
 - Neural Network
 - Python
 - Sentiment
-- javascript
+- Javascript
 - NLP
 - Word2vec
 - Machine Learning

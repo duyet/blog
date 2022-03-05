@@ -6,7 +6,6 @@ author: Van-Duyet Le
 tags:
 - Javascript-Weekly-10
 - Hyper
-- js
 - Vue
 - Javascript-Weekly
 - Angular

@@ -76,7 +76,7 @@ Now hỗ trợ Node.js, PHP, Go, React và nhiều ngôn ngữ khác. Now còn g
 # 4. Azure Functions
 
 Tương tự như AWS Lambda, [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) hỗ trợ rất nhiều ngôn ngữ:
-- JavaScript
+- Javascript
 - C#
 - F#
 - Java

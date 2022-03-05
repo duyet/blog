@@ -5,7 +5,7 @@ date: '2015-10-30T20:22:00.001+07:00'
 author: Van-Duyet Le
 tags:
 - clipboard.js
-- javascript
+- Javascript
 modified_time: '2016-01-11T02:05:25.683+07:00'
 thumbnail: https://3.bp.blogspot.com/-nogpFtDX4JE/VjNskDinauI/AAAAAAAAFfk/ciSSYDvmaKs/s1600/5ab0a950-5fb4-11e5-9602-e73c0b661883.jpg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-2216941621948862965

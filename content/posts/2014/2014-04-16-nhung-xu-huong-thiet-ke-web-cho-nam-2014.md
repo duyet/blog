@@ -8,7 +8,7 @@ tags:
 - Css
 - Thiết kế phẳng
 - Responsive
-- html5
+- HTML5
 - Typography
 - Web
 - News

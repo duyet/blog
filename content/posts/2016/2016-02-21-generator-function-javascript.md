@@ -5,10 +5,9 @@ date: '2016-02-21T01:38:00.003+07:00'
 author: Van-Duyet Le
 tags:
 - Generator
-- js
 - ECMAScript 2015
 - ES6
-- javascript
+- Javascript
 - function
 - Object
 modified_time: '2016-02-26T21:31:30.559+07:00'

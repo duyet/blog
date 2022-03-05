@@ -7,7 +7,7 @@ tags:
 - Data Engineer
 - Apache Spark
 - Python
-- javascript
+- Javascript
 - PySpark
 - Spark
 - Big Data

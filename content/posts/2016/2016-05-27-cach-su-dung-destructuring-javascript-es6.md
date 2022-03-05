@@ -7,7 +7,7 @@ tags:
 - Nodejs
 - Destructuring
 - ES6
-- javascript
+- Javascript
 modified_time: '2016-05-27T13:11:33.464+07:00'
 thumbnail: https://2.bp.blogspot.com/-6CbJccfAv4A/V0fdpvOadvI/AAAAAAAAWEM/Z7TwERT_aAgcV-HfBQZfq-yXOCOBqomtQCK4B/s1600/es6-destructuring.png
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-4201318662127059437

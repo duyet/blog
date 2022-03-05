@@ -7,7 +7,7 @@ tags:
 - Chrome
 - Chrome Extends
 - Remote Desktop
-- tuts
+- Tutorials
 - Android
 modified_time: '2014-04-17T14:36:34.934+07:00'
 thumbnail: https://2.bp.blogspot.com/-njaV5ePxiTU/U096NQXjgAI/AAAAAAAAGjU/Xj1ojkCuaTs/s1600/chrome-remote-desktop-1.png

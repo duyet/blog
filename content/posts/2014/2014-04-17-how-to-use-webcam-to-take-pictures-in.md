@@ -4,8 +4,8 @@ title: How to Use a Webcam to take Pictures in PHP Application
 date: '2014-04-17T14:41:00.001+07:00'
 category: PHP
 tags:
-- tuts
-- php
+- Tutorials
+- PHP
 modified_time: '2014-04-17T14:51:24.337+07:00'
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-3526338306857782965
 blogger_orig_url: https://blog.duyet.net/2014/04/how-to-use-webcam-to-take-pictures-in.html

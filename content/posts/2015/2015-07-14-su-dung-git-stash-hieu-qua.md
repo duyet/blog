@@ -5,7 +5,7 @@ date: '2015-07-14T19:40:00.001+07:00'
 author: Van-Duyet Le
 tags:
 - Git
-- github
+- Github
 - Thủ thuật
 modified_time: '2016-03-01T12:14:08.804+07:00'
 thumbnail: https://1.bp.blogspot.com/-3yYbNqRb-g4/VaUEdtFF9QI/AAAAAAAACm0/yuduSPkQak8/s1600/git.png

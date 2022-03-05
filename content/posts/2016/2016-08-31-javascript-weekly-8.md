@@ -5,7 +5,7 @@ date: '2016-08-31T13:45:00.000+07:00'
 author: Van-Duyet Le
 tags:
 - Nodejs
-- javascript
+- Javascript
 - Javascript-Weekly
 - React
 - React Native

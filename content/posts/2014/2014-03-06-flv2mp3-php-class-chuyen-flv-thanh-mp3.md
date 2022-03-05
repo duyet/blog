@@ -5,8 +5,8 @@ date: '2014-03-06T21:31:00.001+07:00'
 category: PHP
 tags:
 - class
-- tuts
-- php
+- Tutorials
+- PHP
 modified_time: '2014-03-06T21:39:01.547+07:00'
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-5126285540887242083
 blogger_orig_url: https://blog.duyet.net/2014/03/flv2mp3-php-class-chuyen-flv-thanh-mp3.html

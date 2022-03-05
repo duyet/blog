@@ -5,7 +5,7 @@ date: '2016-02-03T14:49:00.001+07:00'
 author: Van-Duyet Le
 tags:
 - Tutorial
-- docker
+- Docker
 - Dockerfile
 - Odoo
 - DevOps

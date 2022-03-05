@@ -4,7 +4,7 @@ title: " Github project - Bruteforce Database - Password dictionaries"
 date: '2015-10-05T20:34:00.002+07:00'
 author: Van-Duyet Le
 tags:
-- github
+- Github
 - project
 modified_time: '2015-10-05T20:46:06.959+07:00'
 thumbnail: https://2.bp.blogspot.com/-DBFErnG-8AE/VhJ-z3Y-41I/AAAAAAAADgA/FGCt8naBMKs/s1600/mtyourmind.10001mb.com.png

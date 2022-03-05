@@ -8,7 +8,7 @@ tags:
 - NPM
 - Sentiment
 - Stopwords
-- github
+- Github
 - Machine Learning
 - NLP
 modified_time: '2016-03-18T23:29:23.351+07:00'

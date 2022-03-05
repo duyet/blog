@@ -4,7 +4,7 @@ title: 'Talk: Why docker?'
 date: '2016-05-01T21:28:00.001+07:00'
 author: Van-Duyet Le
 tags:
-- docker
+- Docker
 - Seminar
 - Talk
 modified_time: '2018-09-10T17:24:13.718+07:00'

@@ -6,7 +6,7 @@ author: Van-Duyet Le
 tags:
 - XAMPP
 - APC
-- php
+- PHP
 modified_time: '2015-05-16T00:28:34.671+07:00'
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-2373230749170862915
 blogger_orig_url: https://blog.duyet.net/2015/05/php-cai-dat-apc-alterdnative-php-cache-cho-xampp-tren-linux.html

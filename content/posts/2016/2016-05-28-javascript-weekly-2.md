@@ -5,7 +5,7 @@ date: '2016-05-28T13:47:00.000+07:00'
 author: Van-Duyet Le
 tags:
 - Nodejs
-- javascript
+- Javascript
 - Javascript-Weekly
 modified_time: '2016-05-28T13:47:48.428+07:00'
 thumbnail: https://4.bp.blogspot.com/-K_vkG8qVJiA/V0k5ORhPhXI/AAAAAAAAWJQ/PR7wLT5sdfIGjSGb5SqJeFIevpWo2rbKwCK4B/s1600/javascript-weekly-2-duyetdev.png

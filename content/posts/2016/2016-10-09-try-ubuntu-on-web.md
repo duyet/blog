@@ -4,7 +4,7 @@ title: Try Ubuntu on Web
 date: '2016-10-09T00:51:00.002+07:00'
 author: Van-Duyet Le
 tags:
-- open source
+- Open Source
 - Ubuntu
 - Website
 - Web

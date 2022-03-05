@@ -5,7 +5,7 @@ date: '2015-04-16T00:02:00.002+07:00'
 author: Van-Duyet Le
 tags:
 - Training
-- php
+- PHP
 - Courses
 modified_time: '2015-04-18T20:57:32.802+07:00'
 thumbnail: https://4.bp.blogspot.com/-QxU1LVBUcsA/VS6XNXt1ozI/AAAAAAAACRk/Og_wF5j7WDM/s1600/mohinh01.jpg

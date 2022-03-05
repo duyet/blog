@@ -7,7 +7,7 @@ tags:
 - awesome
 - awesomelist
 - Nodejs
-- javascript
+- Javascript
 - Functional Programming
 modified_time: '2016-05-02T19:36:58.924+07:00'
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-7466772893105046002

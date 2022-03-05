@@ -6,7 +6,7 @@ author: Van-Duyet Le
 category: Javascript
 tags:
 - ES6
-- javascript
+- Javascript
 - Nodejs
 - Thủ thuật
 modified_time: '2019-03-27T00:00:03.766+07:00'

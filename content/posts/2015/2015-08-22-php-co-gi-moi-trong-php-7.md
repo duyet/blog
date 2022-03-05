@@ -5,7 +5,7 @@ date: '2015-08-22T03:14:00.000+07:00'
 author: Van-Duyet Le
 tags:
 - PHP7
-- php
+- PHP
 modified_time: '2015-08-22T03:14:44.335+07:00'
 thumbnail: https://4.bp.blogspot.com/-qvsCP3kPz40/VdeEECDHEqI/AAAAAAAACwQ/JD4OFlHjdbo/s1600/php7.jpeg
 blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-1319085974422952711
