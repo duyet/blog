@@ -41,6 +41,7 @@ export const query = graphql`
         fbCommentUrl
         twitterCommentUrl
         hackerNewsCommentUrl
+        linkedInCommentUrl
       }
     }
   }

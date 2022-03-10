@@ -28,7 +28,8 @@ const Post = ({ post }: Props) => {
     date,
     fbCommentUrl,
     twitterCommentUrl,
-    hackerNewsCommentUrl
+    hackerNewsCommentUrl,
+    linkedInCommentUrl,
   } = post.frontmatter;
   const siteTitle = useSiteMetadata().title;
 
@@ -66,7 +67,7 @@ const Post = ({ post }: Props) => {
             href={twitterCommentUrl}
             target="_blank"
           >
-            Comment on Twitter
+            Comments on Twitter
           </a>
         ) : (
           ""
@@ -78,7 +79,19 @@ const Post = ({ post }: Props) => {
             href={hackerNewsCommentUrl}
             target="_blank"
           >
-            Comment on Hacker News
+            Comments on Hacker News
+          </a>
+        ) : (
+          ""
+        )}
+
+        {linkedInCommentUrl ? (
+          <a
+            className={styles["post__comments__linkedin"]}
+            href={linkedInCommentUrl}
+            target="_blank"
+          >
+            Comments on LinkedIn
           </a>
         ) : (
           ""

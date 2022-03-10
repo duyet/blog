@@ -25,15 +25,11 @@
         cursor: pointer;
     }
 
-    &__twitter {
+    &__twitter, &__hackernews, &__linkedin {
       margin-bottom: 20px;
       padding-bottom: 20px;
-      margin-left: 10px;
-    }
-    &__hackernews {
-      margin-bottom: 20px;
-      padding-bottom: 20px;
-      margin-left: 10px;
+      margin-left: 15px;
+      margin-right: 10px;
     }
   }
 

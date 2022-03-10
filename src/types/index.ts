@@ -38,6 +38,7 @@ export type Node = {
     fbCommentUrl?: string,
     twitterCommentUrl?: string,
     hackerNewsCommentUrl?: string,
+    linkedInCommentUrl?: string,
   },
   html: string,
   id: string
