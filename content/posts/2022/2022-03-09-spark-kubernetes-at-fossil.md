@@ -19,7 +19,8 @@ description: Apache Spark được chọn làm công nghệ cho Batch layer bở
 
 ---
 
-Tại Fossil, có hàng trăm triệu log records được thu thập mỗi ngày, 
+Tại [Fossil](https://sites.google.com/fossil.com/fossil-vietnam/home), 
+có hàng trăm triệu log records được thu thập mỗi ngày, 
 được xử lý và lưu trữ trong các Data Warehouse bởi hệ thống **Fossil Data Platform**. 
 Data Platform là một hệ thống event-driven được thiết kế dựa trên Lambda Architecture 
 gồm một near-realtime layer và một batch layer. Near-realtime layer cho phép data từ 
