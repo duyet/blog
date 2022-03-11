@@ -273,7 +273,7 @@ Do có nhiều chi tiết, nhiều vấn đề kỹ thuật, cách cài đặt, 
 
 <div class="noti">
   Bài viết cũng được đăng tại 
-  <a href="https://fossil-engineering.github.io/engineering/spark-kubernetes">Fossil Engineering Blog</a>.
+  <a href="https://fossil-engineering.github.io/blog/spark-on-kubernetes-at-fossil">Fossil Engineering Blog</a>.
 </div>
 <div class="noti">
   Hiện tại Fossil Cloud Data đang open cho các vị trí (Sr) Data Engineer, 
