@@ -32,7 +32,11 @@ module.exports = {
     },
     {
       label: "Open Analytics",
-      path: "/pages/open-analytics",
+      path: "/open-analytics",
+    },
+    {
+      label: "Now",
+      path: "/now",
     },
     {
       label: "Categories",
