@@ -69,7 +69,7 @@ module.exports = {
     contacts: {
       email: "",
       telegram: "",
-      twitter: "duyetdev",
+      twitter: "_duyet",
       github: "duyet",
       rss: "/rss.xml",
       vkontakte: "",
