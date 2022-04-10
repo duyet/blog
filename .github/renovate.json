@@ -21,6 +21,6 @@
   "prConcurrentLimit": 16,
   "bumpVersion": null,
   "semanticCommits": true,
-  "automerge": false,
+  "automerge": true,
   "schedule": ["after 2am and before 5am every weekday"]
 }
