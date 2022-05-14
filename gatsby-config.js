@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const siteConfig = require('./config.js');
-const postCssPlugins = require('./postcss-config.js');
+const siteConfig = require("./config.js");
+const postCssPlugins = require("./postcss-config.js");
 
 module.exports = {
   pathPrefix: siteConfig.pathPrefix,
@@ -19,35 +19,35 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/content`,
-        name: 'pages',
+        name: "pages",
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/static/media`,
-        name: 'media',
+        name: "media",
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'css',
+        name: "css",
         path: `${__dirname}/static/css`,
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'assets',
+        name: "assets",
         path: `${__dirname}/static`,
       },
     },
     {
-      resolve: 'gatsby-plugin-feed',
+      resolve: "gatsby-plugin-feed",
       options: {
         query: `
           {
@@ -62,18 +62,19 @@ module.exports = {
         `,
         feeds: [
           {
-            serialize: ({ query: { site, allMarkdownRemark } }) => allMarkdownRemark.edges.map((edge) => ({
-              ...edge.node.frontmatter,
-              description: edge.node.frontmatter.description,
-              date: edge.node.frontmatter.date,
-              url: site.siteMetadata.site_url + edge.node.fields.slug,
-              guid: site.siteMetadata.site_url + edge.node.fields.slug,
-              custom_elements: [
-                {
-                  'content:encoded': `${edge.node.frontmatter.description}<br /><img src="${edge.node.frontmatter.thumbnail}" loading="lazy" />`,
-                },
-              ],
-            })),
+            serialize: ({ query: { site, allMarkdownRemark } }) =>
+              allMarkdownRemark.edges.map((edge) => ({
+                ...edge.node.frontmatter,
+                description: edge.node.frontmatter.description,
+                date: edge.node.frontmatter.date,
+                url: site.siteMetadata.site_url + edge.node.fields.slug,
+                guid: site.siteMetadata.site_url + edge.node.fields.slug,
+                custom_elements: [
+                  {
+                    "content:encoded": `${edge.node.frontmatter.description}<br /><img src="${edge.node.frontmatter.thumbnail}" loading="lazy" />`,
+                  },
+                ],
+              })),
             query: `
               {
                 allMarkdownRemark(
@@ -99,29 +100,30 @@ module.exports = {
                 }
               }
             `,
-            output: '/rss.xml',
+            output: "/rss.xml",
+            title: "Duyet's Blog",
           },
         ],
       },
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-relative-images',
+            resolve: "gatsby-remark-relative-images",
             options: {
-              include: ['thumbnail'],
+              include: ["thumbnail"],
             },
           },
           {
-            resolve: 'gatsby-remark-katex',
+            resolve: "gatsby-remark-katex",
             options: {
-              strict: 'ignore',
+              strict: "ignore",
             },
           },
           {
-            resolve: 'gatsby-remark-images',
+            resolve: "gatsby-remark-images",
             options: {
               maxWidth: 1200,
               withWebp: true,
@@ -130,12 +132,12 @@ module.exports = {
             },
           },
           {
-            resolve: 'gatsby-remark-responsive-iframe',
-            options: { wrapperStyle: 'margin-bottom: 1.0725rem' },
+            resolve: "gatsby-remark-responsive-iframe",
+            options: { wrapperStyle: "margin-bottom: 1.0725rem" },
           },
           {
-            resolve: 'gatsby-remark-figure-caption',
-            options: { figureClassName: 'md-figure' },
+            resolve: "gatsby-remark-figure-caption",
+            options: { figureClassName: "md-figure" },
           },
           // {
           //   resolve: 'gatsby-remark-series',
@@ -148,42 +150,42 @@ module.exports = {
           //     placeholder: 'toc'
           //   }
           // },
-          'gatsby-remark-autolink-headers',
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants',
-          'gatsby-remark-external-links',
+          "gatsby-remark-autolink-headers",
+          "gatsby-remark-prismjs",
+          "gatsby-remark-copy-linked-files",
+          "gatsby-remark-smartypants",
+          "gatsby-remark-external-links",
         ],
       },
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
-      resolve: 'gatsby-plugin-google-tagmanager',
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: siteConfig.googleTagManagerId,
-        defaultDataLayer: { platform: 'gatsby' },
+        defaultDataLayer: { platform: "gatsby" },
       },
     },
-    'gatsby-plugin-sitemap',
+    "gatsby-plugin-sitemap",
     {
-      resolve: 'gatsby-plugin-manifest',
+      resolve: "gatsby-plugin-manifest",
       options: {
         name: siteConfig.title,
         short_name: siteConfig.title,
-        start_url: '/',
+        start_url: "/",
         // background_color: '#FFF',
         // theme_color: '#F7A046',
-        display: 'standalone',
-        icon: 'static/photo.png',
-        cache_busting_mode: 'none',
+        display: "standalone",
+        icon: "static/photo.png",
+        cache_busting_mode: "none",
       },
     },
-    'gatsby-plugin-offline',
-    'gatsby-plugin-catch-links',
-    'gatsby-plugin-react-helmet',
+    "gatsby-plugin-offline",
+    "gatsby-plugin-catch-links",
+    "gatsby-plugin-react-helmet",
     {
-      resolve: 'gatsby-plugin-sass',
+      resolve: "gatsby-plugin-sass",
       options: {
         postCssPlugins: [...postCssPlugins],
         cssLoaderOptions: {
@@ -196,12 +198,12 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-typography',
+      resolve: "gatsby-plugin-typography",
       options: {
-        pathToConfigModule: 'src/utils/typography',
+        pathToConfigModule: "src/utils/typography",
       },
     },
-    'gatsby-plugin-flow',
-    'gatsby-plugin-robots-txt',
+    "gatsby-plugin-flow",
+    "gatsby-plugin-robots-txt",
   ],
 };
