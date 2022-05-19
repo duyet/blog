@@ -96,7 +96,7 @@
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jest": "24.7.0",
     "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-react": "7.29.4",
+    "eslint-plugin-react": "7.30.0",
     "eslint-watch": "7.0.0",
     "flow-bin": "0.178.0",
     "flow-typed": "3.7.0",
