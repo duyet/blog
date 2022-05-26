@@ -98,7 +98,7 @@
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-react": "7.30.0",
     "eslint-watch": "7.0.0",
-    "flow-bin": "0.178.1",
+    "flow-bin": "0.179.0",
     "flow-typed": "3.7.0",
     "gh-pages": "4.0.0",
     "identity-obj-proxy": "3.0.0",
