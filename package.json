@@ -33,7 +33,7 @@
     "gatsby-plugin-flow": "^3.0.0",
     "gatsby-plugin-google-tagmanager": "^4.0.0",
     "gatsby-plugin-manifest": "^4.0.0",
-    "gatsby-plugin-netlify": "^4.0.0",
+    "gatsby-plugin-netlify": "^5.0.0",
     "gatsby-plugin-netlify-cms": "^6.0.0",
     "gatsby-plugin-offline": "^5.0.0",
     "gatsby-plugin-optimize-svgs": "^1.0.5",
