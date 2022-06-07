@@ -59,7 +59,7 @@
     "gatsby-transformer-sharp": "^4.0.0",
     "install": "^0.13.0",
     "invariant": "^2.2.4",
-    "katex": "^0.15.0",
+    "katex": "^0.16.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.2",
     "normalize-scss": "^7.0.1",
