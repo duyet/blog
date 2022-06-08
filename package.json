@@ -89,7 +89,7 @@
     "babel-eslint": "10.1.0",
     "babel-jest": "27.5.1",
     "babel-preset-gatsby": "2.15.0",
-    "browserslist": "4.20.3",
+    "browserslist": "4.20.4",
     "concurrently": "6.5.1",
     "eslint": "7.32.0",
     "eslint-config-airbnb-base": "14.2.1",
