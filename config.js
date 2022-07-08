@@ -31,6 +31,10 @@ module.exports = {
       path: "/tag/rust-tiếng-việt",
     },
     {
+      label: "Rust Tiếng Việt (Book)",
+      path: "https://rust-tieng-viet.github.io",
+    },
+    {
       label: "Open Analytics",
       path: "/open-analytics",
     },
