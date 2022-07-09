@@ -18,7 +18,7 @@ description: Prefer small crates that do one thing well. Để có được sự
 
 ---
 
-<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a> là một trong những nội dung nằm trong sách <a href="https://rust-tieng-viet.github.io/?utm_source=blog.duyet.net&utm_medium=post&utm_campaign=launch_rust_tieng_viet" target="_blank"><strong>Rust Tiếng Việt</strong><a/></div>
+<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a> là một trong những nội dung nằm trong sách <a href="https://rust-tieng-viet.github.io/?utm_source=blog.duyet.net&utm_medium=post&utm_campaign=launch_rust_tieng_viet" target="_blank"><strong>Rust Tiếng Việt</strong></a></div>
 
 <div class="toc">
   <p>Prefer Small Crates là một trong <a href="/tag/rust-design-patterns">những pattern</a> thuộc nhóm <strong><a href="/tag/structural-patterns">Structural Patterns<a/></strong></p>
@@ -38,9 +38,15 @@ description: Prefer small crates that do one thing well. Để có được sự
   </ul>
 </div>
 
-Cargo và [crates.io](http://crates.io/) giúp quản lý crate cực kỳ dễ dàng. Hơn nữa, crate trên crates.io không thể sửa hoặc xóa được sau khi publish, bất kỳ bản build nào đang hoạt động chắc chắn sẽ hoạt động được tiếp trong tương lai. Điều này bắt buộc để có được sự hiệu quả, mọi crate phải được thiết kế tốt, lựa chọn dependencies kỹ càng và càng nhỏ càng tốt.
+Không hẳn là một Design pattern, mình thấy đây là một tư tưởng khi viết các project bằng Rust.
 
-Prefer small crates that do one thing well.
+Cargo và [crates.io](http://crates.io/) giúp quản lý crate cực kỳ dễ dàng. 
+Hơn nữa, crate trên crates.io không thể sửa hoặc xóa được sau khi publish, 
+bất kỳ bản build nào đang hoạt động chắc chắn sẽ hoạt động được tiếp trong tương lai. 
+Điều này bắt buộc để có được sự hiệu quả, mọi crate phải được thiết kế tốt, 
+lựa chọn dependencies kỹ càng và càng nhỏ càng tốt.
+
+> Prefer small crates that do one thing well.
 
 # Ưu điểm
 
@@ -60,7 +66,7 @@ Prefer small crates that do one thing well.
 - Có dễ dẫn đến “dependency hell”, một project depends vào cùng 1 crate nhưng version khác nhau cùng một lúc. Và các versions này xung đột nhau.
 - Hai crate quá nhỏ có thể kém hiệu quả hơn một crate lớn, bởi vì compiler mặc định không thực hiện link-time optimization (LTO).
 
-# Một số small crate điển hình
+# Một số small crates điển hình
 
 - [url](https://crates.io/crates/url): crate xử lý url.
 - [ref_slice](https://crates.io/crates/ref_slice): crate giúp convert từ `&T` sang `&[T]`. Crate này [từng nằm trong standard library](https://github.com/rust-lang/rust/issues/27774#issuecomment-150058618) nhưng đã tách ra.

@@ -16,7 +16,7 @@ fbCommentUrl: none
 description: Builder được sử dụng cực kỳ phổ biến trong Rust so với các ngôn ngữ khác, bởi vì Rust không có overloading.
 ---
 
-<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a> là một trong những nội dung nằm trong sách <a href="https://rust-tieng-viet.github.io/?utm_source=blog.duyet.net&utm_medium=post&utm_campaign=launch_rust_tieng_viet" target="_blank"><strong>Rust Tiếng Việt</strong><a/></div>
+<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a> là một trong những nội dung nằm trong sách <a href="https://rust-tieng-viet.github.io/?utm_source=blog.duyet.net&utm_medium=post&utm_campaign=launch_rust_tieng_viet" target="_blank"><strong>Rust Tiếng Việt</strong></a></div>
 
 <div class="toc">
   <p>Builder là một trong <a href="/tag/rust-design-patterns">những pattern</a> thuộc nhóm <strong><a href="/tag/creational-patterns">Creational Patterns<a/></strong></p>
@@ -38,17 +38,18 @@ description: Builder được sử dụng cực kỳ phổ biến trong Rust so 
 
 # Rust Builder Design Pattern
 
-Rust không có overloading, do đó bạn cần phải viết nhiều construct cho tất cả các trường hợp có thể có, với các method name khác nhau. 
-Việc này sẽ cực kỳ mất thời gian nếu struct có quá nhiều fields hoặc constructor phức tạp.
+Rust không có overloading, do đó bạn cần phải viết nhiều construct
+cho tất cả các trường hợp có thể có, với các method name khác nhau. 
+Việc này sẽ cực kỳ mất thời gian nếu struct có quá nhiều *fields* hoặc *constructor* phức tạp.
 
 ```rust
 impl Foo {
   pub fn new(a: String) -> Self {}
-  pub fn new(a: String, b: String) -> Self {} // <-- khong the
-  pub fn new(a: i32) -> Self {} // <-- khong the
+  pub fn new(a: String, b: String) -> Self {} // <-- không thể
+  pub fn new(a: i32) -> Self {} // <-- không thể
 }
 
-// Thay vao do
+// Thay vào đó
 impl Foo {
   pub fn new(a: String) -> Self {}
   pub fn new_from_two(a: String, b: String) -> Self {}
@@ -58,7 +59,7 @@ impl Foo {
 
 Do đó, **builder** được sử dụng cực kỳ phổ biến trong Rust so với các ngôn ngữ khác.
 
-Builder cho phép construct một object bằng cách gọi `builder()`.
+Builder cho phép construct một object bằng cách gọi `build()`.
 
 # Ví dụ
 
@@ -115,7 +116,7 @@ fn builder_test() {
 }
 ```
 
-# Motivation
+# Khi nào dùng
 
 Hữu ích khi bạn muốn có nhiều loại constructors khác nhau hoặc khi constructor có side effects.
 

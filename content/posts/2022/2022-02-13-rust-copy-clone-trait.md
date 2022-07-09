@@ -16,7 +16,7 @@ thumbnail: https://i.imgur.com/shjfLWK.png
 description: "Có một số kiểu dữ liệu trong Rust rất đơn giản (simple types), bao gồm integers, floats, booleans (true và false), và char. Các simple types này nằm trên stack bởi vì complier biết chính xác size của nó. Chúng được gọi là copy types. Bởi vì nó simple và nhỏ gọn nên dễ dàng để copy, do đó compiler luôn copy nếu bạn bỏ nó vào function."
 ---
 
-<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a> là một trong những nội dung nằm trong sách <a href="https://rust-tieng-viet.github.io/?utm_source=blog.duyet.net&utm_medium=post&utm_campaign=launch_rust_tieng_viet" target="_blank"><strong>Rust Tiếng Việt</strong><a/></div>
+<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a> là một trong những nội dung nằm trong sách <a href="https://rust-tieng-viet.github.io/?utm_source=blog.duyet.net&utm_medium=post&utm_campaign=launch_rust_tieng_viet" target="_blank"><strong>Rust Tiếng Việt</strong></a></div>
 
 Có một số kiểu dữ liệu trong Rust rất đơn giản (simple types),
 bao gồm integers, floats, booleans (`true` và `false`), và `char`.

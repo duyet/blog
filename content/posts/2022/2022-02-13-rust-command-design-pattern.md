@@ -17,7 +17,7 @@ description: Ý tưởng cơ bản của Command Pattern là tách các actions 
 
 ---
 
-<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a> là một trong những nội dung nằm trong sách <a href="https://rust-tieng-viet.github.io/?utm_source=blog.duyet.net&utm_medium=post&utm_campaign=launch_rust_tieng_viet" target="_blank"><strong>Rust Tiếng Việt</strong><a/></div>
+<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a> là một trong những nội dung nằm trong sách <a href="https://rust-tieng-viet.github.io/?utm_source=blog.duyet.net&utm_medium=post&utm_campaign=launch_rust_tieng_viet" target="_blank"><strong>Rust Tiếng Việt</strong></a></div>
 
 <div class="toc">
   <p>Stragery là một trong <a href="/tag/rust-design-patterns">những pattern</a> thuộc nhóm <strong><a href="/tag/behavioural-patterns">Behavioural Patterns<a/></strong></p>
@@ -39,21 +39,32 @@ description: Ý tưởng cơ bản của Command Pattern là tách các actions 
 </div>
 
 
-Ý tưởng cơ bản của [Command Pattern](https://en.wikipedia.org/wiki/Command_pattern) là tách các actions thành các object riêng và gọi chúng thông qua parameters.
+Ý tưởng cơ bản của [Command Pattern](https://en.wikipedia.org/wiki/Command_pattern) 
+là tách các actions thành các object riêng và gọi chúng thông qua parameters.
 
-# Motivation
+# Khi nào dùng
 
-Giả sử ta có một chuỗi các actions or transactions. Chúng ta muốn các actions hoặc commands được thực thi theo thứ tự khác nhau. Các commands có thể được trigger bởi kết quả của một event nào đó. Ví dụ, khi user nhấn 1 nút, hoặc khi nhận được 1 data event nào đó. Ngoài ra thì các commands này có thể khôi phục (undo). Ví dụ như ta store các chuỗi thực thi (executed) của các commands, khi hệ thống gặp vấn đề ta có thể phục hồi lại bằng cách chạy lại từng commands một.
+Giả sử ta có một chuỗi các actions hoặc transactions. 
+Chúng ta muốn các actions hoặc commands được thực thi theo thứ tự khác nhau. 
+Các commands có thể được trigger bởi kết quả của một event nào đó. 
+Ví dụ, khi user nhấn 1 nút, hoặc khi nhận được 1 data event nào đó. 
+Ngoài ra thì các commands này có thể khôi phục (undo). 
+Ví dụ như ta store các chuỗi thực thi (executed) của các commands, 
+khi hệ thống gặp vấn đề ta có thể phục hồi lại bằng cách chạy lại từng commands một.
 
 # Ví dụ
 
-Ta define hai database operations `create table` và `add field` . Mỗi operation là một command. Các command này có thể undo được, ví dụ  `drop table`, `drop field`.
+Ta define hai database operations `create table` và `add field`.
+Mỗi operation là một command. Các command này có thể undo được, ví dụ `drop table`, `drop field`.
 
-Khi user invoke database migration, mỗi command được thực thi theo thứ tự, khi user muốn rollback, tất cả command được undo theo thứ tự ngược lại.
+Khi user invoke database migration, mỗi command được thực thi theo thứ tự, 
+khi user muốn rollback, tất cả command được undo theo thứ tự ngược lại.
 
 # Cách 1: sử dụng trait objects
 
-Chúng ta định nghĩa một common trait cho command với hai operation là `exec` và `rollback`. Các struct command phải được implement trait này.
+Chúng ta định nghĩa một common trait cho command 
+với hai operation là `exec` và `rollback`. 
+Các struct command phải được implement trait này.
 
 ```rust
 pub trait Migration {
@@ -121,7 +132,8 @@ fn main() {
 
 # Cách 2: sử dụng function pointers
 
-Chúng ta có thể thực hiện theo một cách khác là tách mỗi command thành một function và lưu lại function pointer để thực thi sau.
+Chúng ta có thể thực hiện theo một cách khác là tách mỗi 
+command thành một function và lưu lại function pointer để thực thi sau.
 
 ```rust
 type FnPtr = fn() -> String;
@@ -174,7 +186,8 @@ fn main() {
 
 # Cách 3: sử dụng `Fn` trait objects
 
-Thay vì định nghĩa một command trait theo cách 1, ta có thể lưu tất cả command được implement `trait Fn` trong một vector.
+Thay vì định nghĩa một command trait theo cách 1, 
+ta có thể lưu tất cả command được implement `trait Fn` trong một vector.
 
 ```rust
 type Migration<'a> = Box<dyn Fn() -> &'a str>;
@@ -230,7 +243,12 @@ fn main() {
 
 # Thảo luận
 
-Trong các ví dụ trên thì command của chúng ta khá nhỏ, nên thường được define dưới dạng function hoặc closure rồi bỏ thẳng function pointer vào Vec, rồi thực thi theo thứ tự. Trong thực tế các command có thể phức tạp hơn, có thể là một struct với hàng loạt các function và variable trong các module khác nhau, việc sử dụng trait và Box ở cách 1 sẽ hiệu quả hơn. 
+Trong các ví dụ trên thì command của chúng ta khá nhỏ, 
+nên thường được define dưới dạng function hoặc closure 
+rồi bỏ thẳng function pointer vào Vec, rồi thực thi theo thứ tự. 
+Trong thực tế các command có thể phức tạp hơn, 
+có thể là một struct với hàng loạt các function và variable 
+trong các module khác nhau, việc sử dụng `trait` và `Box` ở cách 1 sẽ hiệu quả hơn. 
 
 # References
 
