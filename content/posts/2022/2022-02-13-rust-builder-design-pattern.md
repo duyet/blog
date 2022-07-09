@@ -16,7 +16,7 @@ fbCommentUrl: none
 description: Builder được sử dụng cực kỳ phổ biến trong Rust so với các ngôn ngữ khác, bởi vì Rust không có overloading.
 ---
 
-<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a></div>
+<div class="noti">Chuỗi bài viết <a href="/tag/rust-tiếng-việt/">Rust Tiếng Việt</a> là một trong những nội dung nằm trong sách <a href="https://rust-tieng-viet.github.io/?utm_source=blog.duyet.net&utm_medium=post&utm_campaign=launch_rust_tieng_viet" target="_blank"><strong>Rust Tiếng Việt</strong><a/></div>
 
 <div class="toc">
   <p>Builder là một trong <a href="/tag/rust-design-patterns">những pattern</a> thuộc nhóm <strong><a href="/tag/creational-patterns">Creational Patterns<a/></strong></p>
