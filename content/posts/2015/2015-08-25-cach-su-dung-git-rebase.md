@@ -16,18 +16,13 @@ fbCommentUrl: http://blog.duyetdev.com/2015/08/cach-su-dung-git-rebase.html
 
 ---
 
-Trong dự án, code của bạn luôn có sự thay đổi, sau khi push 1 đống commit lên github. Một ngày kia ông Leader kêu lại: "Ê mày, sửa chỗ này, sửa chỗ kia, code không đúng chuẩn rồi, bla bla ...". Thế là phải hồi hì hục cải tiến code, coding style cho "chuẩn".
-Sau khi chỉnh sửa phần này code của bạn lại được commit lên Github. Khi đó trên github của bạn sẽ có nhiêu commit trên 1 requets vì vậy bạn phải gộp  các commit này thành 1 commit trước khi nó được merge. Vậy làm thế nào để gộp nhiều commit thành 1 commit?
+Một cách để gộp nhiều commits để git history được đẹp hơn, đó là `git rebase`.
 
-Cách giải quết đưa ra là "rebase" các commit này.
+Ví dụ ta có git log sau:
 
-Đầu tiên bạn xem các commit bằng git log:
-
-```
+```bash
 $ git log --oneline
 ```
-
-Kết quả:
 
 ```
 22cd1f4 Make grunt task clear @$
@@ -40,7 +35,7 @@ Kết quả:
 ....
 ```
 
-Nếu bạn muốn gộp 2 commit 22cd1f4 và 778e7be thành một. Ta có lệnh
+Nếu bạn muốn gộp 2 commit `22cd1f4` và `778e7be` thành một (2 commits gần nhất). Ta có 
 
 ```
 $ git rebase -i HEAD~2
@@ -70,8 +65,20 @@ pick 22cd1f4 Make grunt task clear @$
 
 ```
 
-Dòng thứ 2, bạn thay từ pick thành f để xóa commit đó. Lưu lại và push trở lên server. Nhớ thêm -f để git ghi đè lên các commit cũ trên server
+Git rebase sẽ mở 1 editor trong Terminal. Theo như hướng dẫn:
+
+- `p, pick` = sử dụng commit
+- `r, rework` = sử dụng commit, nhưng đổi commit message
+- `e, edit` = sử dụng commit, nhưng dừng lại để ammend (thay đổi file, message)
+- `s, squash` = sử dụng commit, nhưng trộn nó với commit trước đó
+- `f, fixup` = giống `squash`, nhưng xóa commit log message 
+- `x, exec` = chạy một command
+
+Dòng thứ 2, bạn thay từ `pick` thành `f` để xóa commit đó, đưa files thay đổi vào commit trước đó. 
+Lưu lại và push trở lên server. Sử dụng `git puhs -f` để git ghi đè lại history trên server.
 
 ```
-$ git push origin user-system -f
+$ git push origin feat/A -f
 ```
+
+Hạn chế force push trên branch `master` hoặc branch chính để ảnh hưởng các thành viên khác.

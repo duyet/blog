@@ -11,29 +11,42 @@ blogger_id: tag:blogger.com,1999:blog-3454518094181460838.post-15520169783349119
 blogger_orig_url: https://blog.duyet.net/2015/08/git-chinh-sua-git-vua-commit.html
 slug: /2015/08/git-chinh-sua-git-vua-commit.html
 category: Git
-description: Một khi git đã được commit, bạn nhận ra bạn commit thiếu file, muốn chỉnh sửa lại commit message
+description: Cách sửa commit 
 fbCommentUrl: none
 
 ---
 
-Một khi git đã được commit, bạn nhận ra bạn commit thiếu file, muốn chỉnh sửa lại commit message. Cách thêm option `--amend` sau sẽ giúp được bạn.
+Cách để thêm file vào commit gần đây nhất, hoặc chỉnh sửa commit message, ta có thể dùng tham số `--amend`.
 
-Option `--amend` của git commit cho phép bạn ghi đè lại commit mới nhất.
+`git commit --amend` cho phép bạn cập nhật commit gần nhất.
+
+## Sửa commit message
+
+```bash
+$ git add <files>$đ git commit -m 
+$ git commit -m "implement feature A"
+
+# Change commit messsageđ
+$ git commit --amend
+```
+
+## Thêm file bị thiếu vào commit gần nhất, và sửa commit message
 
 ```
-lvduit@lvduit:~/project/x/(master)$ git commit --amend
+$ git add <files>
+$ git commit -m "feat: implement feature A"
+
+$ git add missing_file.rs
+$ git commit --amend 
 ```
 
-Lúc này git sẽ cho phép bạn viết lại commit message. Cách này hay dùng khi muốn sửa commit message. 
-Nếu bạn chỉ muốn add thêm file mà không muốn sửa commit message thì có thể dùng option `--no-edit`
+## Thêm file bị thiếu vào commit gần nhất, và KHÔNG sửa commit message
 
 ```
-# Đây là commit sai / thiếu
-lvduit@lvduit:~$ git add helper.js
-lvduit@lvduit:~$ git commit -m 'Add Helper module'
+$ git add <files>
+$ git commit -m "feat: implement feature A"
 
-# Nhận ra là add thiếu file và muốn thêm vào commit bên trên
-lvduit@lvduit:~$ git add model.js
-lvduit@lvduit:~$ git commit --amend --no-edit
-
+$ git add missing_file.rs
+$ git commit --amend --no-edit 
 ```
+
