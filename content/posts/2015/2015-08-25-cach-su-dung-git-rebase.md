@@ -75,7 +75,7 @@ Git rebase sẽ mở 1 editor trong Terminal. Theo như hướng dẫn:
 - `x, exec` = chạy một command
 
 Dòng thứ 2, bạn thay từ `pick` thành `f` để xóa commit đó, đưa files thay đổi vào commit trước đó. 
-Lưu lại và push trở lên server. Sử dụng `git puhs -f` để git ghi đè lại history trên server.
+Lưu lại và push trở lên server. Sử dụng `git push -f` để git ghi đè lại history trên server.
 
 ```
 $ git push origin feat/A -f
