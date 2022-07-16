@@ -12,7 +12,6 @@ jobs:
           node-version: latest
       - name: yarn install, build
         run: |
-          export NODE_OPTIONS=--openssl-legacy-provider
           yarn
           yarn build
       - name: run Lighthouse CI
