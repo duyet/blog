@@ -66,6 +66,7 @@ const Post = ({ post }: Props) => {
             className={styles["post__comments__twitter"]}
             href={twitterCommentUrl}
             target="_blank"
+            rel="noopener noreferrer"
           >
             Comments on Twitter
           </a>
@@ -78,6 +79,7 @@ const Post = ({ post }: Props) => {
             className={styles["post__comments__hackernews"]}
             href={hackerNewsCommentUrl}
             target="_blank"
+            rel="noopener noreferrer"
           >
             Comments on Hacker News
           </a>
@@ -90,6 +92,7 @@ const Post = ({ post }: Props) => {
             className={styles["post__comments__linkedin"]}
             href={linkedInCommentUrl}
             target="_blank"
+            rel="noopener noreferrer"
           >
             Comments on LinkedIn
           </a>
