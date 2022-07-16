@@ -22,5 +22,10 @@
   "bumpVersion": null,
   "semanticCommits": true,
   "automerge": true,
+  "assignees": ["duyetbot"],
+  "assignAutomerge": true,
+  "automergeType": "pr-comment",
+  "automergeComment": "@duyetbot review",
+  "semanticCommits": "enabled",
   "schedule": ["after 2am and before 5am every weekday"]
 }
