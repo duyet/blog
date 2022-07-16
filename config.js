@@ -32,7 +32,7 @@ module.exports = {
     },
     {
       label: "Rust Tiếng Việt (Book)",
-      path: "https://rust-tieng-viet.github.io",
+      path: "https://rust-tieng-viet.github.io/?utm_source=blog.duyet.net&utm_medium=sidebar&utm_campaign=launch_rust_tieng_viet",
     },
     {
       label: "Open Analytics",
