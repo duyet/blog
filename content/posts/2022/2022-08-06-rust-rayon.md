@@ -52,6 +52,9 @@ có thể chủ động điều khiển việc parallel tasks.
 Để tìm hiểu thêm về cách [`rayon`] hoạt động bạn có thể đọc thêm bài blog từ tác giả: 
 <https://smallcultfollowing.com/babysteps/blog/2015/12/18/rayon-data-parallelism-in-rust/>
 
+## Demo & benchmark
+
+<https://rust-tieng-viet.github.io/crates/rayon.html#demo--bench>
 
 ## References
 
