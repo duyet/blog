@@ -32,13 +32,13 @@ fn main() -> Result<()> {
 
   println!("halves of i = {}", i);
 
-	match submit_number(i) {
-		Ok(_) => {
-			println!("Successfully");
-			Ok(())
-		},
-		Err(e) => return Err(e),
-	}
+  match submit_number(i) {
+    Ok(_) => {
+      println!("Successfully");
+      Ok(())
+    },
+    Err(e) => return Err(e),
+  }
 }
 
 fn halves_if_even(i: i32) -> Result<i32, Error> {
@@ -58,19 +58,19 @@ However, in that it is very verbose. This is where the question mark operator `
 
 ```rust
 fn main() -> Result<()> {
-	let i = 35;
+  let i = 35;
   let i = halves_if_even(i)?;
   println!("halves of i = {}", i);
-	submit_number(i)?;
+  submit_number(i)?;
   Ok(())
 }
 
 fn halves_if_even(i: i32) -> Result<i32, Error> {
-	// ...
+  // ...
 }
 
 fn submit_number(i: i32) -> Result<(), Error> {
-	// ...
+  // ...
 }
 ```
 
@@ -82,13 +82,13 @@ Even better, in the event of an error, I can do some type of recovery by opting 
 
 ```rust
 fn main() -> Result<()> {
-	let i = 35;
+  let i = 35;
   let i = halves_if_even(i)?;
 
-	match submit_number(i) {
-		Ok(_) => Ok(()),
-		Err(err) => recover_from_error(err),
-	}
+  match submit_number(i) {
+    Ok(_) => Ok(()),
+    Err(err) => recover_from_error(err),
+  }
 }
 ```
 
