@@ -26,7 +26,7 @@ section of `Cargo.toml` might be useful.
 
 # Patch dependencies from local
 
-Let's say you're working with the `[uuid` crate](https://crates.io/crates/uuid)
+Let's say you're working with the [`uuid` crate](https://crates.io/crates/uuid)
 but while you're working on it you discover a bug. You decide to try to fix the bug. 
 Originally your `Cargo.toml` manifest will look like this:
 
@@ -39,7 +39,7 @@ version = "0.1.0"
 uuid = "1.0"
 ```
 
-First thing we'll do is to clone the `[uuid` repository](https://github.com/uuid-rs/uuid) locally via:
+First thing we'll do is to clone the [`uuid` repository](https://github.com/uuid-rs/uuid) locally via:
 
 ```toml
 $ git clone https://github.com/uuid-rs/uuid
