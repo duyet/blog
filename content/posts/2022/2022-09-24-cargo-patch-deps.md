@@ -76,7 +76,7 @@ $ cargo build
 
 Once you've fixed the bug you originally found the next thing you'll want to do is to likely submit that as a pull request to the `uuid` crate itself. Nevertheless, while you wait for your PR to be merged, you may begin using your patch by pushing it to your git repo and updating the `[patch]` section.:
 
-```bash
+```toml
 [patch.crates-io]
 uuid = { git = 'https://github.com/duyet/uuid-patched' }
 ```
@@ -85,7 +85,7 @@ uuid = { git = 'https://github.com/duyet/uuid-patched' }
 
 In case the dependency you want to override isn't loaded from `crates.io`, you'll have to change a bit how you use `[patch]`. For example, if the dependency is a git dependency, you can override it to a local path or another git dependency:
 
-```bash
+```toml
 [dependencies]
 uuid = { git = 'https://github.com/uuid-rs/uuid' }
 
@@ -95,7 +95,7 @@ uuid = { git = "https://github.com/duyet/uuid-patched", branch = "2.0.0" }
 
 You can also patch your lib from git dependency with the local folder:
 
-```bash
+```toml
 [dependencies]
 my-library = { git = 'https://github.com/duyet/mylib-rs' }
 

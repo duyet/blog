@@ -167,6 +167,10 @@ const _options = {
     '.gatsby-highlight pre[class=\'language-bash\']::before': {
       content: '\'bash\''
     },
+    '.gatsby-highlight pre[class=\'language-toml\']::before': {
+      content: '\'toml\'',
+      background: '#faede5'
+    },
     '.gatsby-highlight pre[class=\'language-yaml\']::before': {
       content: '\'yaml\'',
       background: '#ffa8df'
