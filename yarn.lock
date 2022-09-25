@@ -2913,10 +2913,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@eslint/eslintrc@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.3.1.tgz#de0807bfeffc37b964a7d0400e0c348ce5a2543d"
-  integrity sha512-OhSY22oQQdw3zgPOOwdoj01l/Dzl1Z+xyUP33tkSN+aqyEhymJCcPHyXt+ylW8FSe0TfRC2VG+ROQOapD0aZSQ==
+"@eslint/eslintrc@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.3.2.tgz#58b69582f3b7271d8fa67fe5251767a5b38ea356"
+  integrity sha512-AXYd23w1S/bv3fTs3Lz0vjiYemS08jWkI3hYyS9I1ry+0f+Yjs1wm+sU0BS8qDOPrBIkp4qHYC16I8uVtpLajQ==
   dependencies:
     ajv "^6.12.4"
     debug "^4.3.2"
@@ -3132,10 +3132,10 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
-"@humanwhocodes/config-array@^0.10.4":
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.10.4.tgz#01e7366e57d2ad104feea63e72248f22015c520c"
-  integrity sha512-mXAIHxZT3Vcpg83opl1wGlVZ9xydbfZO3r5YfRSH6Gpp2J/PfdBP0wbDa2sO6/qRbcalpoevVyW6A/fI6LfeMw==
+"@humanwhocodes/config-array@^0.10.5":
+  version "0.10.5"
+  resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.10.5.tgz#bb679745224745fff1e9a41961c1d45a49f81c04"
+  integrity sha512-XVVDtp+dVvRxMoxSiSfasYaG02VEe1qH5cKgMQJWhol6HwzbcqoCMJi8dAGoYAO57jhUyhI6cWuRiTcRaDaYug==
   dependencies:
     "@humanwhocodes/object-schema" "^1.2.1"
     debug "^4.1.1"
@@ -5862,10 +5862,10 @@ babel-preset-current-node-syntax@^1.0.0:
     "@babel/plugin-syntax-optional-chaining" "^7.8.3"
     "@babel/plugin-syntax-top-level-await" "^7.8.3"
 
-babel-preset-gatsby@2.21.0:
-  version "2.21.0"
-  resolved "https://registry.yarnpkg.com/babel-preset-gatsby/-/babel-preset-gatsby-2.21.0.tgz#14d431680d315c5cb62f76aa00ddef271a8b095e"
-  integrity sha512-L47zbDtFoCr2/vk/Z8Y+qTJW1CfzaWimXekN2cIr0G7Gp2JKqSe85m0aQ2417wkLZxYuAWtzHImTxUPGxA5FoA==
+babel-preset-gatsby@2.23.0:
+  version "2.23.0"
+  resolved "https://registry.yarnpkg.com/babel-preset-gatsby/-/babel-preset-gatsby-2.23.0.tgz#47482f6a9917455d3e9e0e5ce48c49b44d6d000d"
+  integrity sha512-Mo5Dnrox1d/rJq8cJ2mv1+SNASVmpB+3LMiQKIGky5B1jCMhNtUoMPmJh2Pq29be8dwngL/GG853YFfZn9U62A==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.14.0"
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.5"
@@ -5880,8 +5880,8 @@ babel-preset-gatsby@2.21.0:
     babel-plugin-dynamic-import-node "^2.3.3"
     babel-plugin-macros "^3.1.0"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
-    gatsby-core-utils "^3.21.0"
-    gatsby-legacy-polyfills "^2.21.0"
+    gatsby-core-utils "^3.23.0"
+    gatsby-legacy-polyfills "^2.23.0"
 
 babel-preset-gatsby@^2.12.1:
   version "2.12.1"
@@ -8399,13 +8399,13 @@ eslint-webpack-plugin@^2.6.0:
     normalize-path "^3.0.0"
     schema-utils "^3.1.1"
 
-eslint@8.23.0:
-  version "8.23.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.23.0.tgz#a184918d288820179c6041bb3ddcc99ce6eea040"
-  integrity sha512-pBG/XOn0MsJcKcTRLr27S5HpzQo4kLr+HjLQIyK4EiCsijDl/TB+h5uEuJU6bQ8Edvwz1XWOjpaP2qgnXGpTcA==
+eslint@8.24.0:
+  version "8.24.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.24.0.tgz#489516c927a5da11b3979dbfb2679394523383c8"
+  integrity sha512-dWFaPhGhTAiPcCgm3f6LI2MBWbogMnTJzFBbhXVRQDJPkr9pGZvVjlVfXd+vyDcWPA2Ic9L2AXPIQM0+vk/cSQ==
   dependencies:
-    "@eslint/eslintrc" "^1.3.1"
-    "@humanwhocodes/config-array" "^0.10.4"
+    "@eslint/eslintrc" "^1.3.2"
+    "@humanwhocodes/config-array" "^0.10.5"
     "@humanwhocodes/gitignore-to-minimatch" "^1.0.2"
     "@humanwhocodes/module-importer" "^1.0.1"
     ajv "^6.10.0"
@@ -8423,7 +8423,6 @@ eslint@8.23.0:
     fast-deep-equal "^3.1.3"
     file-entry-cache "^6.0.1"
     find-up "^5.0.0"
-    functional-red-black-tree "^1.0.1"
     glob-parent "^6.0.1"
     globals "^13.15.0"
     globby "^11.1.0"
@@ -8432,6 +8431,7 @@ eslint@8.23.0:
     import-fresh "^3.0.0"
     imurmurhash "^0.1.4"
     is-glob "^4.0.0"
+    js-sdsl "^4.1.4"
     js-yaml "^4.1.0"
     json-stable-stringify-without-jsonify "^1.0.1"
     levn "^0.4.1"
@@ -9284,10 +9284,10 @@ gatsby-core-utils@^3.12.1, gatsby-core-utils@^3.5.2, gatsby-core-utils@^3.8.2:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-gatsby-core-utils@^3.21.0:
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.21.0.tgz#5ca118857cf9f59b69f06f2ae886d8182af46515"
-  integrity sha512-pCDa9EGU8niRJQVv7ow3ijzmG0PegZaBc5Yt6z4enc4m7Dl5ZT6Edkcw9p8q/FhGiZUkzQhWaRDxUvtaoPwAOQ==
+gatsby-core-utils@^3.23.0:
+  version "3.23.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.23.0.tgz#0c8879ffb655f2d8cfe485f03beed7db6441dc69"
+  integrity sha512-ABVTAkjZh+2H4u6GZ+r1uZrdcWuT5KG2nEpKmBWBp21GWEE+yvUqtGOocBgUeGac1A3ggvn02UzcE6BIEm9PYg==
   dependencies:
     "@babel/runtime" "^7.15.4"
     ci-info "2.0.0"
@@ -9328,10 +9328,10 @@ gatsby-legacy-polyfills@^2.12.1:
     "@babel/runtime" "^7.15.4"
     core-js-compat "3.9.0"
 
-gatsby-legacy-polyfills@^2.21.0:
-  version "2.21.0"
-  resolved "https://registry.yarnpkg.com/gatsby-legacy-polyfills/-/gatsby-legacy-polyfills-2.21.0.tgz#f3a387c72c2f9bd5b8fc406a0c879603fa0d4b5e"
-  integrity sha512-GUvL4M4JabC59N1B9PmXGHXmVESliKEqqIjqb96yOG5aA3xgt/uDGt2bKhUmjFfkJ20fyTYUu49absLuUXzaxg==
+gatsby-legacy-polyfills@^2.23.0:
+  version "2.23.0"
+  resolved "https://registry.yarnpkg.com/gatsby-legacy-polyfills/-/gatsby-legacy-polyfills-2.23.0.tgz#f527aea9d90932ad7f1ef7fd0a6aa260a1abb48a"
+  integrity sha512-DQexce/ezAU47bd5X5JnwIBdvr7MAJsRXzV3bhWuQhslkWJOp0l6O3EQ148s8Ezu6g66JOre5iKvSvor6qvU6Q==
   dependencies:
     "@babel/runtime" "^7.15.4"
     core-js-compat "3.9.0"
@@ -12027,6 +12027,11 @@ jpeg-js@^0.4.0:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.4.4.tgz#a9f1c6f1f9f0fa80cdb3484ed9635054d28936aa"
   integrity sha512-WZzeDOEtTOBK4Mdsar0IqEU5sMr3vSV2RqkAIzUEV2BHnUfKGyswWFPFwK5EeDo93K3FohSHbLAjj0s1Wzd+dg==
+
+js-sdsl@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/js-sdsl/-/js-sdsl-4.1.4.tgz#78793c90f80e8430b7d8dc94515b6c77d98a26a6"
+  integrity sha512-Y2/yD55y5jteOAmY50JbUZYwk3CP3wnLPEZnlR1w9oKhITrBEtAxwuWKebFf8hMrPMgbYwFoWK/lH2sBkErELw==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
