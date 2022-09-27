@@ -22,7 +22,6 @@
   "prHourlyLimit": 4,
   "prConcurrentLimit": 16,
   "bumpVersion": null,
-  "semanticCommits": true,
   "automerge": true,
   "assignees": ["duyetbot"],
   "assignAutomerge": true,
