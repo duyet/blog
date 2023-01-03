@@ -15,7 +15,7 @@ module.exports = {
   },
   postsPerPage: 8,
   googleAnalyticsId: "UA-92451506-3",
-  googleTagManagerId: "GTM-PT3ZDS3",
+  googleTagManagerId: "G-HXJPPQVYQN",
   useKatex: false,
   menu: [
     {
