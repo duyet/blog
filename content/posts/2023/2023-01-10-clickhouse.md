@@ -167,7 +167,9 @@ You can follow the detailed official document here to integrate Kafka with Click
 
 # RelicatedMergeTree Engine and Distributed table engine
 
-ClickHouse also makes use of two other advanced features to improve its scalability and performance: the **`[RelicatedMergeTree](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/replication/)` engine** and the **`[Distributed](https://clickhouse.com/docs/en/engines/table-engines/special/distributed/)` table engine**. The `RelicatedMergeTree` engine is a distributed version of the MergeTree engine that allows for data to be stored in multiple clusters. This allows for increased scalability and performance, making it perfect for large datasets. On the other hand, the Distributed table engine allows for data to be stored in multiple tables, making it easier to manage and query large datasets.
+ClickHouse also makes use of two other advanced features to improve its scalability and performance: the [`RelicatedMergeTree`](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/replication/) engine and 
+the [`Distributed`](https://clickhouse.com/docs/en/engines/table-engines/special/distributed/) table engine. The `RelicatedMergeTree` engine is a distributed version of the MergeTree engine that allows for data to be stored in multiple clusters. 
+This allows for increased scalability and performance, making it perfect for large datasets. On the other hand, the Distributed table engine allows for data to be stored in multiple tables, making it easier to manage and query large datasets.
 
 ![](/media/2023/01/data_platform_clickhouse_replicated.png)
 
