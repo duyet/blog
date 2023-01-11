@@ -55,7 +55,7 @@
     "gatsby-remark-series": "^1.0.2",
     "gatsby-remark-smartypants": "^5.0.0",
     "gatsby-source-filesystem": "^4.0.0",
-    "gatsby-transformer-remark": "^5.0.0",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^4.0.0",
     "install": "^0.13.0",
     "invariant": "^2.2.4",
