@@ -39,10 +39,6 @@ module.exports = {
       path: "/open-analytics",
     },
     {
-      label: "Now",
-      path: "/now",
-    },
-    {
       label: "Categories",
       path: "/categories",
     },
@@ -67,7 +63,7 @@ module.exports = {
   ],
   author: {
     name: "Tôi là Duyệt",
-    photo: "/duyet.jpg",
+    photo: "/duyet-notion.png",
     bio:
       'Data Engineer @ Fossil. Mostly about Cloud, <a href="/tag/data-engineer/">Data Engineering</a>, <a href="/tag/web/">Web</a>, and <a href="/categories/">more topics</a>.',
     contacts: {
