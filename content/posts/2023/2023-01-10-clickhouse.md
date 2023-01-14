@@ -177,7 +177,7 @@ This allows for increased scalability and performance, making it perfect for lar
 
 In conclusion, ClickHouse is a powerful and efficient data platform that can easily be integrated with other tools such as Apache Kafka and other data sources to create a powerful and efficient data pipeline. Through its advanced features such as MergeTree, ReplicatedMergeTree, and Distributed table engine, ClickHouse can handle large datasets with ease, allowing you to quickly and easily extract insights from your data and create powerful visuals for your dashboard.
 
-I hope this helps.
+I hope this helps. Was this a good idea? Please let me know.
 
 # References
 
