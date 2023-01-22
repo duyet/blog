@@ -29,6 +29,13 @@
         border: 0;
         padding-left: 8px;
 
+        display: flex;
+        align-items: center;
+
+        svg {
+          margin-right: 8px;
+        }
+
         &:hover,
         &:focus {
           color: $color-primary;

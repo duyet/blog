@@ -23,6 +23,7 @@ const useSiteMetadata = () => {
             menu {
               label
               path
+              icon
             }
             url
             title

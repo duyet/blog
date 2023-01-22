@@ -26,6 +26,18 @@ const getIcon = (name: string) => {
     case "kofi":
       icon = ICONS.KOFI;
       break;
+    case "unsplash":
+      icon = ICONS.UNSPLASH;
+      break;
+    case "rust":
+      icon = ICONS.RUST;
+      break;
+    case "blog":
+      icon = ICONS.BLOG;
+      break;
+    case "about":
+      icon = ICONS.ABOUT;
+      break;
     default:
       icon = {};
       break;

@@ -27,39 +27,40 @@ module.exports = {
       path: "/pages/about",
     },
     {
-      label: "Rust Tiếng Việt",
-      path: "/tag/rust-tiếng-việt",
-    },
-    {
-      label: "Rust Tiếng Việt (Book)",
-      path: "https://rust-tieng-viet.github.io/?utm_source=blog.duyet.net&utm_medium=sidebar&utm_campaign=launch_rust_tieng_viet",
-    },
-    {
-      label: "Open Analytics",
-      path: "/open-analytics",
-    },
-    {
       label: "Categories",
       path: "/categories",
     },
     {
-      label: "Unsplash",
-      path: "https://unsplash.com/@_duyet",
+      label: "Rust Tiếng Việt",
+      path: "/tag/rust-tiếng-việt",
+      icon: "rust",
+    },
+    {
+      label: "Rust Tiếng Việt (Book)",
+      path:
+        "https://rust-tieng-viet.github.io/?utm_source=blog.duyet.net&utm_medium=sidebar&utm_campaign=launch_rust_tieng_viet",
+      icon: "rust",
     },
     {
       label: "Buy Me a Coffee",
       path: "https://ko-fi.com/duyet",
+      icon: "kofi",
     },
     {
-      label: "Today I Learned",
-      path:
-        "https://til.duyet.net/?utm_source=blog.duyet.net&utm_medium=sidebar_link&utm_campaign=okie_one",
+      label: "@_duyet",
+      path: "https://unsplash.com/@_duyet",
+      icon: "unsplash",
     },
-    // {
-    //   label: "Feedback.okie.one",
-    //   path:
-    //     "https://feedback.okie.one?utm_source=blog.duyet.net&utm_medium=sidebar_link&utm_campaign=okie_one",
-    // },
+    {
+      label: "@duyet",
+      path: "https://github.com/duyet",
+      icon: "github",
+    },
+    {
+      label: "@_duyet",
+      path: "https://twitter.com/_duyet",
+      icon: "twitter",
+    },
   ],
   author: {
     name: "Tôi là Duyệt",
