@@ -32,7 +32,6 @@ const CategoriesListTemplate = () => {
 
   return (
     <Layout title={`Categories - ${title}`} description={subtitle}>
-      <Sidebar />
       <Page title="Categories" subtitle={<Link to="/tags/">All Tags</Link>}>
         <ListHighlight items={topItems} />
 
@@ -52,6 +51,7 @@ const CategoriesListTemplate = () => {
           </Link>
         </div>
       </Page>
+      <Sidebar />
     </Layout>
   );
 };

@@ -37,7 +37,6 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
-      <Sidebar />
       <Page
         title={category}
         subtitle={<Link to="/categories/">← Back to All Categories</Link>}
@@ -50,6 +49,7 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
           hasNextPage={hasNextPage}
         />
       </Page>
+      <Sidebar />
     </Layout>
   );
 };

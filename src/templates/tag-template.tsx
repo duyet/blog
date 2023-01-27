@@ -201,7 +201,6 @@ const TagTemplate = ({ data, pageContext }: Props) => {
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
-      <Sidebar />
       <Page
         title={tag}
         subtitle={subTitle(tag)}
@@ -215,6 +214,7 @@ const TagTemplate = ({ data, pageContext }: Props) => {
           hasNextPage={hasNextPage}
         />
       </Page>
+      <Sidebar />
     </Layout>
   );
 };
