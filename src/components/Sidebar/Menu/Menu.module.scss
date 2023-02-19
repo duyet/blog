@@ -32,6 +32,9 @@
         display: flex;
         align-items: center;
 
+        padding-top: 3px;
+        padding-bottom: 3px;
+
         svg {
           margin-right: 8px;
         }
@@ -44,7 +47,6 @@
         &Active {
           color: $color-base;
           background: aliceblue;
-          padding: 7px 12px;
           border-radius: 5px;
         }
       }
