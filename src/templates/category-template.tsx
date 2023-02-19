@@ -33,7 +33,7 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
       ? `${category} - Page ${currentPage} - ${siteTitle}`
       : `${category} - ${siteTitle}`;
 
-  gtagTrack("CategoryList", "view", "category_list");
+  gtagTrack("CategoryList", "page_view", "category_list");
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>

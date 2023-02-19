@@ -30,8 +30,12 @@ const Feed = ({ edges }: Props) => (
               onClick={() =>
                 gtagTrack(
                   'CategoryLink',
-                  'click',
-                  edge.node.fields.categorySlug
+                  'page_view',
+                  edge.node.fields.categorySlug,
+                  {
+                    url: edge.node.fields.categorySlug,
+                    title: edge.node.frontmatter.category,
+                  }
                 )
               }
             >
@@ -44,7 +48,8 @@ const Feed = ({ edges }: Props) => (
             className={styles['feed__itemTitleLink']}
             to={edge.node.fields.slug}
             onClick={() =>
-              gtagTrack('PostLink', 'click', edge.node.fields.slug, {
+              gtagTrack('PostLink', 'page_view', edge.node.fields.slug, {
+                url: edge.node.fields.slug,
                 title: edge.node.frontmatter.title,
               })
             }

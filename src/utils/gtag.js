@@ -4,6 +4,7 @@ const gtagTrack = (eventCategory, eventAction, eventLabel, data) => {
   // Amplitude
   track(eventAction, {
     event_category: eventCategory,
+    event_action: eventAction,
     event_label: eventLabel,
     ...data
   });
