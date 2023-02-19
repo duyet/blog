@@ -15,7 +15,7 @@ and also familiarity with state-of-the-art data and cloud technologies
 
 <figure class="float-right" style="width: 340px">
 	<img src="https://2.bp.blogspot.com/-5apwrzRLGIc/XYElWYIloQI/AAAAAAABHRI/9iXgs2AKLBoLoEvGAPu_B4yyjOlLrafZQCK4BGAYYCw/s1600/20190414060007_IMG_0237.JPG" alt="Duyệt">
-	<figcaption>Duyệt</figcaption>
+	<figcaption>Duyệt @ Silicon Valley</figcaption>
 </figure>
 
 Skills & stacks: [Python](https://github.com/duyet?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=python), [Javascript](https://github.com/duyet?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=javascript), Apache Spark, [Airflow](/tag/airflow/), AWS, GCP.
