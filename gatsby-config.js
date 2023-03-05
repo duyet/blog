@@ -181,7 +181,7 @@ module.exports = {
         cache_busting_mode: "none",
       },
     },
-    "gatsby-plugin-offline",
+    "gatsby-plugin-remove-serviceworker",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-react-helmet",
     {
