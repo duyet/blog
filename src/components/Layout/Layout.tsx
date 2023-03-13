@@ -15,7 +15,6 @@ init('3a35b45a95aae45c66362440740d4419');
 
 const Layout = ({ children, title, description }: Props) => (
   <div className={styles.layout}>
-    <img src="https://pageview.duyet.net/api/pageview" width="0" height="0" style="display: none" />
     <Helmet>
       <html lang="en" />
       <title>{title}</title>
@@ -25,9 +24,9 @@ const Layout = ({ children, title, description }: Props) => (
       <meta name="twitter:title" content={title} />
       <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1fc269287fc7476cacbe4cb0b3267201"}'></script>
       <script async src="https://cdn.splitbee.io/sb.js"></script>
-
     </Helmet>
     {children}
+    <img src="https://pageview.duyet.net/api/pageview" alt="" style="display: none" />
   </div>
 );
 
