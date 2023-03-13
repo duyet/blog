@@ -15,6 +15,7 @@ init('3a35b45a95aae45c66362440740d4419');
 
 const Layout = ({ children, title, description }: Props) => (
   <div className={styles.layout}>
+    <img src="https://pageview.duyet.net/api/pageview" width="0" height="0" style="display: none" />
     <Helmet>
       <html lang="en" />
       <title>{title}</title>
