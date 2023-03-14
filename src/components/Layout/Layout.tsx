@@ -26,9 +26,13 @@ const Layout = ({ children, title, description }: Props) => (
       <script async src="https://cdn.splitbee.io/sb.js"></script>
       <script>
         (() => {
-          let s = document.createElement('script');
-          s.src = 'https://pageview.duyet.net/api/pageview?url=' + window.location.href;
-          document.body.appendChild(s);
+          const track = () => {
+            let s = document.createElement('script');
+            s.src = 'https://pageview.duyet.net/api/pageview?url=' + window.location.href;
+            document.body.appendChild(s);
+          }
+          window.addEventListener('locationchange', track);
+          track();
         })()
       </script>
     </Helmet>
