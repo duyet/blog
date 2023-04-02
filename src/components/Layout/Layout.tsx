@@ -25,10 +25,12 @@ const Layout = ({ children, title, description }: Props) => (
       <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1fc269287fc7476cacbe4cb0b3267201"}'></script>
       <script async src="https://cdn.splitbee.io/sb.js"></script>
       <script>
+      {`
         !function(e,n,t){e.onload=function(){
         let e=n.createElement("script");
         e.src=t,n.body.appendChild(e)}}
         (window,document,"//pageview.duyet.net/pageview.js");
+      `}
       </script>
     </Helmet>
     {children}
