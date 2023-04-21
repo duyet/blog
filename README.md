@@ -1,3 +1,7 @@
+**Deprecated: This repository has been deprecated and is no longer being maintained. Please visit the new repository at https://github.com/duyet/new-blog which is a rewritten version in Next.js.**
+
+---
+
 ![.github/screenshot.png](.github/screenshot.png)
 
 ![Lighthouse](https://github.com/duyet/blog.duyet.net/workflows/Lighthouse/badge.svg?branch=master)
