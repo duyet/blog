@@ -109,7 +109,7 @@
     "lost": "9.0.1",
     "postcss-pxtorem": "6.0.0",
     "react-test-renderer": "18.2.0",
-    "rimraf": "5.0.0",
+    "rimraf": "5.0.1",
     "stylelint": "15.6.2",
     "stylelint-config-recommended-scss": "11.0.0",
     "stylelint-scss": "5.0.0"
